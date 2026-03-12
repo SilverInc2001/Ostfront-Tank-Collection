@@ -3,16 +3,9 @@ This collection is comprised of imported WW2 period tank game models imported in
 I by no means claim that i am the sole creator of the ingame sprocket models as such.
 
 This collection includes the following counties:
-:flag_gb: British
-:flag_fi: Finland
-:flag_fr: France
-:flag_de: Germany
-:flag_hu: Hungary
-:flag_it: Italy
-:flag_jp: Japan
-:flag_pl: Poland 
-:flag_us: USA
-:flag_ru: Russia
+British, Finland, France, Germany, Hungary, Italy, Japan, Poland, USA, Russia
+
+If you wish to choose the next content added to this collection you can vote on the sprocket's discord server when the new update is released.
 
 **The purpose of this collection**
 
