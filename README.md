@@ -1,16 +1,16 @@
-This is the Sprocket Ostfront Tank Collection. 
-This collection is comprised of imported WW2 period tank game models imported into sprocket by myself.
-I by no means claim that i am the sole creator of the ingame sprocket models as such.
+**Sprocket Ostfront Tank Collection**
 
-This collection includes the following counties:
-British, Finland, France, Germany, Hungary, Italy, Japan, Poland, USA, Russia
+This collection consists of World War II-era tank models imported from other games and converted for use in Sprocket by myself. I do not claim to be the sole creator of the in-game models, as the original assets were created by other developers.
 
-If you wish to choose the next content added to this collection you can vote on the sprocket's discord server when the new update is released.
+The collection currently includes vehicles from the following countries:
+Britain, Finland, France, Germany, Hungary, Italy, Japan, Poland, the United States, and the Soviet Union.
 
-**The purpose of this collection**
+If you would like to help choose the next vehicles added to the collection, you can vote on the Sprocket Discord server whenever a new update is released.
 
-- Reference material and parts for designers to use to make their own tanks
+**Purpose of the collection**
 
-- Testbed for Modders
+- Reference material and parts for designers to use when creating their own tanks
 
-- Vehicles just to use and enjoy
+- A testbed for modders
+
+- Vehicles for players to simply use and enjoy
