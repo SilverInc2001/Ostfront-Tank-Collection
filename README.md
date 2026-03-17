@@ -33,6 +33,7 @@ If you would like to help choose the next vehicles added to the collection, you 
 | Bofors 37 mm anti-tank gun          | Field Gun    | Finland, Germany, Poland, UK, SU        |
 | ARL 44                              | Heavy        | France                                  |
 | ARL-44 (ACL-1)                      | Heavy        | France                                  |
+| Char 2C                             | Heavy        | France                                  |
 | Char B1 Bis                         | Heavy        | France, Germany                         |
 | Churchill Mk I                      | Heavy        | UK                                      |
 | Churchill Mk II                     | Heavy        | UK, SU                                  |
@@ -73,13 +74,13 @@ If you would like to help choose the next vehicles added to the collection, you 
 | Bishop                              | Medium       | UK                                      |
 | Carro Armato M11/39                 | Medium       | Italy                                   |
 | Cromwell Mk IV                      | Medium       | Poland, UK                              |
-| Cromwell Mk IV "Tulip"            | Medium       | UK                                      |
+| Cromwell Mk IV ""Tulip""            | Medium       | UK                                      |
 | Cromwell Mk V                       | Medium       | UK                                      |
 | Cromwell Mk VI                      | Medium       | UK                                      |
 | Cruiser Tank Mk VIII Challenger     | Medium       | Poland, UK                              |
 | Panzer III Ausf. E                  | Medium       | Germany                                 |
 | Panzer IV Ausf. J                   | Medium       | Finland, Germany                        |
-| Sd.Kfz. 165 "Hummel"              | Medium       | Germany                                 |
+| Sd.Kfz. 165 ""Hummel""              | Medium       | Germany                                 |
 | StuG III Ausf. G                    | Medium       | Finland, Germany, Hungary, Italy        |
 | StuG III Ausf. G (Finnish Modified) | Medium       | Finland                                 |
 | StuH 42                             | Medium       | Finland, Germany                        |
