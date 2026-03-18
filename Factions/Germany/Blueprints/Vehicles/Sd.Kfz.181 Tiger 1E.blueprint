@@ -4,7 +4,7 @@
     "v": "0.2",
     "name": "Sd.Kfz.181 Tiger 1E",
     "gameVersion": "0.2.50.10",
-    "mass": 44931,
+    "mass": 44926,
     "creationDate": "1945.09.02",
     "class": "",
     "desc": "",
@@ -139,12 +139,12 @@
       "type": "trackWheelMount",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "mountID": "97844d15-24a8-4feb-9548-668e2bb81ce6",
-        "scale": 1.0,
+        "scale": 0.5,
         "x": 0,
-        "y": 302,
+        "y": 328,
         "z": -409,
         "rearFacing": true
       }
@@ -154,8 +154,8 @@
       "type": "trackWheel",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "wheelID": "8b31d0e4-3946-4a3a-81ef-b2bbf3a84989",
         "perAxle": 1,
         "spacingOnAxle": 0.01,
@@ -169,12 +169,12 @@
       "type": "trackWheelMount",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "mountID": "25261a10-1c39-4191-9378-b6108d71cbf1",
         "scale": 1.0,
         "x": 0,
-        "y": 151,
+        "y": 199,
         "z": 1013,
         "rearFacing": false
       }
@@ -184,8 +184,8 @@
       "type": "trackWheel",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "wheelID": "ed05e419-9705-41ac-801c-11a0a0dd0700",
         "perAxle": 2,
         "spacingOnAxle": 0.049999997,
@@ -199,8 +199,8 @@
       "type": "trackWheelArray",
       "blueprint": {
         "v": "0.2",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "spacingMode": 0,
         "spacing": 1300,
         "length": 6316,
@@ -224,8 +224,8 @@
       "type": "trackWheelMount",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "mountID": "062b2d20-13d5-4dec-9d1c-b2855fdccfac",
         "scale": 0.5,
         "x": 0,
@@ -239,8 +239,8 @@
       "type": "trackWheel",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "wheelID": "50907d5b-dde1-451c-a0be-07c69d2fc886",
         "perAxle": 2,
         "spacingOnAxle": 0.08,
@@ -254,8 +254,8 @@
       "type": "trackWheelArray",
       "blueprint": {
         "v": "0.2",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "spacingMode": 1,
         "spacing": 135,
         "length": 6316,
@@ -279,8 +279,8 @@
       "type": "trackWheelMount",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "mountID": "6b0a1425-3943-491b-ad87-f56d8b811e19",
         "scale": 0.6,
         "x": 0,
@@ -294,8 +294,8 @@
       "type": "trackWheel",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "wheelID": "50907d5b-dde1-451c-a0be-07c69d2fc886",
         "perAxle": 2,
         "spacingOnAxle": 0.12,
@@ -309,12 +309,12 @@
       "type": "track",
       "blueprint": {
         "v": "1.0",
-        "name": null,
-        "description": null,
+        "name": "Sd.Kfz.181 Tiger H1",
+        "description": "",
         "separation": 1764,
         "length": 6316,
-        "rrCoeff": 1.0,
-        "brake": 358837,
+        "rrCoeff": 1.25,
+        "brake": 359408,
         "autoBrake": true,
         "rollersEnabled": false,
         "matchChassis": false,
@@ -326,8 +326,8 @@
       "type": "trackBelt",
       "blueprint": {
         "v": "1.1",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "segmentID": "24fc57c7-b8cf-4949-8671-0721525c9d10",
         "x": 725,
         "y": 105,
@@ -341,8 +341,8 @@
       "type": "suspension",
       "blueprint": {
         "v": "0.5",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "targetAngle": -5.0,
         "upTravelLimit": 1000.0,
         "damper": 200.0,
@@ -354,8 +354,8 @@
       "type": "torsionBar",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "torsionBarLength": 1500,
         "torsionBarDiameter": 60
       }
@@ -1441,7 +1441,7 @@
       }
     },
     {
-      "id": 0,
+      "id": 5,
       "type": "paintJobRegister",
       "blueprint": {
         "v": "0.0",
@@ -1780,7 +1780,7 @@
         ],
         "rot": [
           0.4261447,
-          1.01780563E-13,
+          1.08141855E-13,
           -2.557081E-05,
           0.0
         ],
@@ -1890,7 +1890,7 @@
           0.808655739
         ],
         "rot": [
-          11.2516737,
+          11.2516747,
           90.0,
           359.5655,
           0.0
@@ -2200,9 +2200,9 @@
           0.136505127
         ],
         "rot": [
-          -0.0008252725,
+          -0.0008252726,
           183.000351,
-          9.6078194E-11,
+          9.770664E-11,
           0.0
         ],
         "scale": [
@@ -2286,7 +2286,7 @@
           0.9079895
         ],
         "rot": [
-          -0.000109050816,
+          -0.000109050823,
           279.186676,
           -6.29605056E-05,
           0.0
@@ -2375,7 +2375,7 @@
         "rot": [
           0.0,
           0.0,
-          4.36423E-10,
+          0.0,
           0.0
         ],
         "scale": [
@@ -2402,7 +2402,7 @@
           -0.157440186
         ],
         "rot": [
-          1.13195462E-07,
+          1.13195469E-07,
           270.0,
           -3.7731823E-08,
           0.0
@@ -2460,7 +2460,7 @@
         "rot": [
           0.0,
           0.0,
-          4.36423E-10,
+          0.0,
           0.0
         ],
         "scale": [
@@ -2489,7 +2489,7 @@
         "rot": [
           0.0,
           0.0,
-          4.36423E-10,
+          0.0,
           0.0
         ],
         "scale": [
@@ -3185,7 +3185,7 @@
         "rot": [
           359.7022,
           180.0,
-          -1.03369419E-14,
+          -1.11320907E-14,
           0.0
         ],
         "scale": [
@@ -3469,7 +3469,7 @@
             0.0,
             0.0,
             -2.23517418E-08,
-            0.302000046,
+            0.328000069,
             2.748993,
             -0.8093303,
             0.176652625,
@@ -3481,7 +3481,7 @@
             0.0,
             0.0,
             2.23517418E-08,
-            0.302000046,
+            0.328000069,
             2.748993
           ],
           "portDirections": [
@@ -3664,7 +3664,7 @@
         "mirrorVuid": -1,
         "pos": [
           -0.1,
-          0.302000016,
+          0.328,
           2.74900031
         ],
         "rot": [
@@ -3697,7 +3697,7 @@
         "mirrorVuid": -1,
         "pos": [
           -0.1,
-          0.151000008,
+          0.199000016,
           -2.14500022
         ],
         "rot": [
@@ -3826,7 +3826,7 @@
         "mirrorVuid": -1,
         "pos": [
           0.1,
-          0.302000016,
+          0.328,
           2.74900031
         ],
         "rot": [
@@ -3859,7 +3859,7 @@
         "mirrorVuid": -1,
         "pos": [
           0.1,
-          0.151000008,
+          0.199000016,
           -2.14500022
         ],
         "rot": [
