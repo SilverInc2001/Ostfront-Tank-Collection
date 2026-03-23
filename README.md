@@ -47,6 +47,7 @@ If you would like to help choose the next vehicles added to the collection, you 
 | M26 Pershing                        | Heavy        | USA                                     |
 | M6A1                                | Heavy        | USA                                     |
 | SU-100Y                             | Heavy        | SU                                      |
+| T26E1-1 Super Pershing              | Heavy        | USA                                     |
 | Tiger 1E                            | Heavy        | Germany, Hungary                        |
 | Tiger H1                            | Heavy        | Germany                                 |
 | Type 5 Chi-Ri                       | Heavy        | Japan                                   |
@@ -80,6 +81,8 @@ If you would like to help choose the next vehicles added to the collection, you 
 | Cromwell Mk V                       | Medium       | UK                                      |
 | Cromwell Mk VI                      | Medium       | UK                                      |
 | Cruiser Tank Mk VIII Challenger     | Medium       | Poland, UK                              |
+| M3 Grant                            | Medium       | UK                                      |
+| M3 Lee                              | Medium       | USA, SU                                 |
 | Panzer III Ausf. E                  | Medium       | Germany                                 |
 | Panzer IV Ausf. J                   | Medium       | Finland, Germany                        |
 | Sd.Kfz. 165 ""Hummel""              | Medium       | Germany                                 |
