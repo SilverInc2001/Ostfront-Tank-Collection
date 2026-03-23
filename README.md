@@ -41,10 +41,12 @@ If you would like to help choose the next vehicles added to the collection, you 
 | Churchill Mk III (L/50)             | Heavy        | UK                                      |
 | Churchill Mk III (QF 75)            | Heavy        | UK                                      |
 | Churchill Mk III Gun Carrier        | Heavy        | UK                                      |
+| Ferdinand Sd.Kfz. 184               | Heavy        | Germany                                 |
 | IS-2 (1944)                         | Heavy        | Poland, SU                              |
 | KV-1E                               | Heavy        | Finland, Germany, SU                    |
 | M26 Pershing                        | Heavy        | USA                                     |
 | M6A1                                | Heavy        | USA                                     |
+| SU-100Y                             | Heavy        | SU                                      |
 | Tiger 1E                            | Heavy        | Germany, Hungary                        |
 | Tiger H1                            | Heavy        | Germany                                 |
 | Type 5 Chi-Ri                       | Heavy        | Japan                                   |
@@ -87,4 +89,5 @@ If you would like to help choose the next vehicles added to the collection, you 
 | T-28A                               | Medium       | Finland, SU                             |
 | T-28B                               | Medium       | Finland, SU                             |
 | T-28C                               | Medium       | Finland, SU                             |
+| Type 1 Chi-He                       | Medium       | Japan                                   |
 | Universal Carrier Mk II             | Tankette     | Currently only UK                       |
