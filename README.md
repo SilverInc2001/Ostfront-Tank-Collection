@@ -43,6 +43,7 @@ If you would like to help choose the next vehicles added to the collection, you 
 | Churchill Mk III Gun Carrier        | Heavy        | UK                                      |
 | Ferdinand Sd.Kfz. 184               | Heavy        | Germany                                 |
 | IS-2 (1944)                         | Heavy        | Poland, SU                              |
+| Jagdtiger                           | Heavy        | Germany                                 |
 | KV-1E                               | Heavy        | Finland, Germany, SU                    |
 | M26 Pershing                        | Heavy        | USA                                     |
 | M6A1                                | Heavy        | USA                                     |
@@ -53,6 +54,7 @@ If you would like to help choose the next vehicles added to the collection, you 
 | Type 5 Chi-Ri                       | Heavy        | Japan                                   |
 | 10TP                                | Light        | Poland                                  |
 | 38M Toldi I                         | Light        | Hungary                                 |
+| 38M Toldi IIA                       | Light        | Hungary                                 |
 | 7TP                                 | Light        | Germany, Poland                         |
 | Cruiser Tank Mk I                   | Light        | UK                                      |
 | Cruiser Tank Mk II                  | Light        | UK                                      |
@@ -76,6 +78,8 @@ If you would like to help choose the next vehicles added to the collection, you 
 | Archer                              | Medium       | Poland, UK                              |
 | Bishop                              | Medium       | UK                                      |
 | Carro Armato M11/39                 | Medium       | Italy                                   |
+| Carro Armato M13/40                 | Medium       | Italy                                   |
+| Carro Armato M14/41                 | Medium       | Italy                                   |
 | Carro Armato M15-42                 | Medium       | Germany, Italy                          |
 | Char D2                             | Medium       | France                                  |
 | Cromwell Mk IV                      | Medium       | Poland, UK                              |
