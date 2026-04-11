@@ -55,7 +55,9 @@ If you would like to help choose the next vehicles added to the collection, you 
 | 10TP                                | Light        | Poland                                  |
 | 38M Toldi I                         | Light        | Hungary                                 |
 | 38M Toldi IIA                       | Light        | Hungary                                 |
+| 40M Nimród                          | Light        | Hungary                                 |
 | 7TP                                 | Light        | Germany, Poland                         |
+| BT-2                                | Light        | SU                                      |
 | Cruiser Tank Mk I                   | Light        | UK                                      |
 | Cruiser Tank Mk II                  | Light        | UK                                      |
 | Cruiser Tank Mk III                 | Light        | UK                                      |
@@ -94,6 +96,7 @@ If you would like to help choose the next vehicles added to the collection, you 
 | Panzer IV Ausf. J                   | Medium       | Finland, Germany                        |
 | Sd.Kfz. 165 ""Hummel""              | Medium       | Germany                                 |
 | SOMUA S35                           | Medium       | France                                  |
+| SOMUA SAu 40                        | Medium       | France                                  |
 | StuG III Ausf. G                    | Medium       | Finland, Germany, Hungary, Italy        |
 | StuG III Ausf. G (Finnish Modified) | Medium       | Finland                                 |
 | StuH 42                             | Medium       | Finland, Germany                        |
