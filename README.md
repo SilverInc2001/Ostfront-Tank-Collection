@@ -42,6 +42,7 @@ If you would like to help choose the next vehicles added to the collection, you 
 | Churchill Mk III (QF 75)            | Heavy        | UK                                      |
 | Churchill Mk III Gun Carrier        | Heavy        | UK                                      |
 | Ferdinand Sd.Kfz. 184               | Heavy        | Germany                                 |
+| IS-1 (1943)                         | Heavy        | SU                                      |
 | IS-2 (1944)                         | Heavy        | Poland, SU                              |
 | Jagdtiger                           | Heavy        | Germany                                 |
 | KV-1E                               | Heavy        | Finland, Germany, SU                    |
@@ -66,6 +67,8 @@ If you would like to help choose the next vehicles added to the collection, you 
 | Cruiser Tank Mk IVA                 | Light        | UK                                      |
 | FT-17                               | Light        | France, Finland, Germany, Japan, Poland |
 | FT-17 (MG)                          | Light        | Currently only France                   |
+| Hotchkiss H35                       | Light        | France, Germany, Hungary                |
+| Hotchkiss H39                       | Light        | France, Germany, Poland, Hungary        |
 | Light Tank Mk VIII                  | Light        | UK                                      |
 | M22 Locust                          | Light        | UK                                      |
 | M2A4 Stuart I                       | Light        | France, UK, USA, SU                     |
@@ -75,6 +78,8 @@ If you would like to help choose the next vehicles added to the collection, you 
 | Tetrarch Mk VII                     | Light        | UK, SU                                  |
 | 105 leFH18B2                        | Medium       | France, Germany                         |
 | 40M Turán I                         | Medium       | Hungary                                 |
+| 43M Zrínyi I                        | Medium       | Hungary                                 |
+| 43M Zrínyi II                       | Medium       | Hungary                                 |
 | A34 Comet                           | Medium       | UK                                      |
 | Achilles Mk II                      | Medium       | UK                                      |
 | Archer                              | Medium       | Poland, UK                              |
