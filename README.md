@@ -25,7 +25,9 @@ If you would like to help choose the next vehicles added to the collection, you 
 | BA-10                               | Armoured Car | Finland, Germany, SU                    |
 | BA-11                               | Armoured Car | SU                                      |
 | BA-20                               | Armoured Car | Finland, SU                             |
+| BA-27M                              | Armoured Car | SU                                      |
 | BA-6                                | Armoured Car | Finland, SU                             |
+| 3.7 cm Pak 36                       | Field Gun    | Finland, Germany, Hungary, Italy        |
 | 37mm 1-K M1930                      | Field Gun    | SU                                      |
 | 47mm Type 1                         | Field Gun    | Japan                                   |
 | 57mm Type 2                         | Field Gun    | Japan                                   |
@@ -33,6 +35,7 @@ If you would like to help choose the next vehicles added to the collection, you 
 | Bofors 37 mm anti-tank gun          | Field Gun    | Finland, Germany, Poland, UK, SU        |
 | ARL 44                              | Heavy        | France                                  |
 | ARL-44 (ACL-1)                      | Heavy        | France                                  |
+| Black Prince                        | Heavy        | UK                                      |
 | Char 2C                             | Heavy        | France                                  |
 | Char B1 Bis                         | Heavy        | France, Germany                         |
 | Churchill Mk I                      | Heavy        | UK                                      |
@@ -41,6 +44,9 @@ If you would like to help choose the next vehicles added to the collection, you 
 | Churchill Mk III (L/50)             | Heavy        | UK                                      |
 | Churchill Mk III (QF 75)            | Heavy        | UK                                      |
 | Churchill Mk III Gun Carrier        | Heavy        | UK                                      |
+| Churchill Mk.IV                     | Heavy        | UK, SU                                  |
+| Churchill Mk.IV (L/50)              | Heavy        | UK                                      |
+| Churchill Mk.IV (QF 75)             | Heavy        | UK                                      |
 | Ferdinand Sd.Kfz. 184               | Heavy        | Germany                                 |
 | IS-1 (1943)                         | Heavy        | SU                                      |
 | IS-2 (1944)                         | Heavy        | Poland, SU                              |
@@ -59,6 +65,9 @@ If you would like to help choose the next vehicles added to the collection, you 
 | 40M Nimród                          | Light        | Hungary                                 |
 | 7TP                                 | Light        | Germany, Poland                         |
 | BT-2                                | Light        | SU                                      |
+| BT-42                               | Light        | Finland                                 |
+| BT-7                                | Light        | Finland, Hungary, SU                    |
+| BT-7A                               | Light        | SU                                      |
 | Cruiser Tank Mk I                   | Light        | UK                                      |
 | Cruiser Tank Mk II                  | Light        | UK                                      |
 | Cruiser Tank Mk III                 | Light        | UK                                      |
@@ -88,6 +97,7 @@ If you would like to help choose the next vehicles added to the collection, you 
 | Carro Armato M13/40                 | Medium       | Italy                                   |
 | Carro Armato M14/41                 | Medium       | Italy                                   |
 | Carro Armato M15-42                 | Medium       | Germany, Italy                          |
+| Centurion Mk.I                      | Medium       | UK                                      |
 | Char D2                             | Medium       | France                                  |
 | Cromwell Mk IV                      | Medium       | Poland, UK                              |
 | Cromwell Mk IV ""Tulip""            | Medium       | UK                                      |
@@ -95,6 +105,7 @@ If you would like to help choose the next vehicles added to the collection, you 
 | Cromwell Mk VI                      | Medium       | UK                                      |
 | Cruiser Tank Mk VIII Challenger     | Medium       | Poland, UK                              |
 | Crusader A15                        | Medium       | France, Poland, UK                      |
+| Crusader Mk.II                      | Medium       | France, Germany, Poland, UK             |
 | M3 Grant                            | Medium       | UK                                      |
 | M3 Lee                              | Medium       | USA, SU                                 |
 | Panzer III Ausf. E                  | Medium       | Germany                                 |
