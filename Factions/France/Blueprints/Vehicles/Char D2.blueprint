@@ -4,11 +4,11 @@
     "v": "0.2",
     "name": "Char D2",
     "gameVersion": "0.2.50.10",
-    "mass": 20094,
+    "mass": 18382,
     "creationDate": "1941.12.31",
     "class": "",
     "desc": "",
-    "cost": 47022
+    "cost": 46006
   },
   "blueprints": [
     {
@@ -135,7 +135,7 @@
         "name": null,
         "description": null,
         "mountID": "97844d15-24a8-4feb-9548-668e2bb81ce6",
-        "scale": 0.5,
+        "scale": 0.0,
         "x": 0,
         "y": 133,
         "z": 820,
@@ -165,7 +165,7 @@
         "name": null,
         "description": null,
         "mountID": "25261a10-1c39-4191-9378-b6108d71cbf1",
-        "scale": 1.0,
+        "scale": 0.0,
         "x": 0,
         "y": 53,
         "z": -504,
@@ -220,7 +220,7 @@
         "name": null,
         "description": null,
         "mountID": "062b2d20-13d5-4dec-9d1c-b2855fdccfac",
-        "scale": 0.5,
+        "scale": 0.0,
         "x": 0,
         "y": 0,
         "z": 0,
@@ -275,7 +275,7 @@
         "name": null,
         "description": null,
         "mountID": "6b0a1425-3943-491b-ad87-f56d8b811e19",
-        "scale": 0.5,
+        "scale": 0.0,
         "x": 0,
         "y": 0,
         "z": 0,
@@ -307,7 +307,7 @@
         "separation": 1147,
         "length": 6000,
         "rrCoeff": 1.5,
-        "brake": 160247,
+        "brake": 147061,
         "autoBrake": true,
         "rollersEnabled": true,
         "matchChassis": false,
@@ -349,7 +349,7 @@
         "v": "0.0",
         "name": null,
         "description": null,
-        "torsionBarLength": 1500,
+        "torsionBarLength": 100,
         "torsionBarDiameter": 60
       }
     },
@@ -1084,7 +1084,7 @@
       }
     },
     {
-      "id": 0,
+      "id": 5,
       "type": "paintJobRegister",
       "blueprint": {
         "v": "0.0",
@@ -2273,9 +2273,9 @@
           0.422124445
         ],
         "rot": [
-          15.8936605,
+          15.8936625,
           240.31076,
-          0.0783013,
+          0.0783008561,
           0.0
         ],
         "scale": [
@@ -2674,7 +2674,7 @@
         "rot": [
           25.8367653,
           180.0,
-          7.915701E-13,
+          1.017733E-12,
           0.0
         ],
         "scale": [

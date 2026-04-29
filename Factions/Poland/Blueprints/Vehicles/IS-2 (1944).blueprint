@@ -1200,30 +1200,7 @@
       }
     },
     {
-      "id": 94,
-      "type": "decalTransform",
-      "blueprint": {
-        "v": "0.0",
-        "name": null,
-        "description": null,
-        "x": 799,
-        "y": 600,
-        "z": 222,
-        "flags": 0
-      }
-    },
-    {
-      "id": 95,
-      "type": "decal",
-      "blueprint": {
-        "v": "0.3",
-        "name": null,
-        "description": null,
-        "imageURL": "Sprocket/Decals/613.png"
-      }
-    },
-    {
-      "id": 5,
+      "id": 0,
       "type": "paintJobRegister",
       "blueprint": {
         "v": "0.0",
@@ -1233,6 +1210,144 @@
           1,
           2
         ]
+      }
+    },
+    {
+      "id": 53,
+      "type": "decalTransform",
+      "blueprint": {
+        "v": "0.0",
+        "name": null,
+        "description": null,
+        "x": 300,
+        "y": 450,
+        "z": 25,
+        "flags": 0
+      }
+    },
+    {
+      "id": 58,
+      "type": "decal",
+      "blueprint": {
+        "v": "0.3",
+        "name": null,
+        "description": null,
+        "imageURL": "Sprocket/Decals/Bahnschrift White 3.png"
+      }
+    },
+    {
+      "id": 60,
+      "type": "decalTransform",
+      "blueprint": {
+        "v": "0.0",
+        "name": null,
+        "description": null,
+        "x": 300,
+        "y": 450,
+        "z": 25,
+        "flags": 0
+      }
+    },
+    {
+      "id": 69,
+      "type": "decal",
+      "blueprint": {
+        "v": "0.3",
+        "name": null,
+        "description": null,
+        "imageURL": "Sprocket/Decals/Bahnschrift White 1.png"
+      }
+    },
+    {
+      "id": 72,
+      "type": "decalTransform",
+      "blueprint": {
+        "v": "0.0",
+        "name": null,
+        "description": null,
+        "x": 299,
+        "y": 449,
+        "z": 35,
+        "flags": 0
+      }
+    },
+    {
+      "id": 75,
+      "type": "decal",
+      "blueprint": {
+        "v": "0.3",
+        "name": null,
+        "description": null,
+        "imageURL": "Sprocket/Decals/Bahnschrift White 6.png"
+      }
+    },
+    {
+      "id": 77,
+      "type": "decalTransform",
+      "blueprint": {
+        "v": "0.0",
+        "name": null,
+        "description": null,
+        "x": 300,
+        "y": 450,
+        "z": 25,
+        "flags": 0
+      }
+    },
+    {
+      "id": 78,
+      "type": "decal",
+      "blueprint": {
+        "v": "0.3",
+        "name": null,
+        "description": null,
+        "imageURL": "Sprocket/Decals/Bahnschrift White 6.png"
+      }
+    },
+    {
+      "id": 79,
+      "type": "decalTransform",
+      "blueprint": {
+        "v": "0.0",
+        "name": null,
+        "description": null,
+        "x": 300,
+        "y": 450,
+        "z": 25,
+        "flags": 0
+      }
+    },
+    {
+      "id": 80,
+      "type": "decal",
+      "blueprint": {
+        "v": "0.3",
+        "name": null,
+        "description": null,
+        "imageURL": "Sprocket/Decals/Bahnschrift White 1.png"
+      }
+    },
+    {
+      "id": 86,
+      "type": "decalTransform",
+      "blueprint": {
+        "v": "0.0",
+        "name": null,
+        "description": null,
+        "x": 300,
+        "y": 450,
+        "z": 25,
+        "flags": 0
+      }
+    },
+    {
+      "id": 90,
+      "type": "decal",
+      "blueprint": {
+        "v": "0.3",
+        "name": null,
+        "description": null,
+        "imageURL": "Sprocket/Decals/Bahnschrift White 3.png"
       }
     }
   ],
@@ -2444,7 +2559,7 @@
         "rot": [
           18.1804276,
           252.697052,
-          -1.79726931E-06,
+          -3.59453861E-06,
           0.0
         ],
         "scale": [
@@ -2458,61 +2573,177 @@
     },
     {
       "guid": "e59ff736-a6ea-4a1a-a4c5-6437ed15b872",
-      "vuid": 278,
+      "vuid": 287,
       "pvuid": 432,
-      "flags": 7,
-      "decalScaler": 279,
-      "projectedDecal": 280,
+      "flags": 3,
+      "decalScaler": 288,
+      "projectedDecal": 289,
       "transform": {
-        "mirrorVuid": 284,
+        "mirrorVuid": -1,
         "pos": [
-          -1.1564703,
-          0.342954367,
-          -0.298938274
+          -1.09621119,
+          0.342862934,
+          -0.492279053
         ],
         "rot": [
-          5.180582,
-          97.55636,
-          -3.42910243E-06,
+          0.362426877,
+          83.87309,
+          0.0,
           0.0
         ],
         "scale": [
-          0.799,
-          0.6,
-          0.222000018
+          0.3,
+          0.450000018,
+          0.025
         ]
       },
-      "decalProjectionBlueprintVuid": 94,
-      "decalBlueprintVuid": 95
+      "decalProjectionBlueprintVuid": 53,
+      "decalBlueprintVuid": 58
     },
     {
       "guid": "e59ff736-a6ea-4a1a-a4c5-6437ed15b872",
-      "vuid": 284,
+      "vuid": 290,
       "pvuid": 432,
-      "flags": 6,
-      "decalScaler": 285,
-      "projectedDecal": 286,
+      "flags": 3,
+      "decalScaler": 291,
+      "projectedDecal": 292,
       "transform": {
-        "mirrorVuid": 278,
+        "mirrorVuid": -1,
         "pos": [
-          1.1564703,
-          0.342954367,
-          -0.298938274
+          -1.11681128,
+          0.34231028,
+          -0.302642822
         ],
         "rot": [
-          5.18058443,
-          262.443634,
-          4.50069638E-06,
+          0.4342431,
+          83.67602,
+          1.33405971E-08,
           0.0
         ],
         "scale": [
-          0.799,
-          0.6,
-          0.222000018
+          0.3,
+          0.450000018,
+          0.025
         ]
       },
-      "decalProjectionBlueprintVuid": 94,
-      "decalBlueprintVuid": 95
+      "decalProjectionBlueprintVuid": 60,
+      "decalBlueprintVuid": 69
+    },
+    {
+      "guid": "e59ff736-a6ea-4a1a-a4c5-6437ed15b872",
+      "vuid": 293,
+      "pvuid": 432,
+      "flags": 3,
+      "decalScaler": 294,
+      "projectedDecal": 295,
+      "transform": {
+        "mirrorVuid": -1,
+        "pos": [
+          -1.13411725,
+          0.346639961,
+          -0.113464355
+        ],
+        "rot": [
+          5.18057966,
+          97.55636,
+          -2.143189E-07,
+          0.0
+        ],
+        "scale": [
+          0.299000025,
+          0.449000031,
+          0.035
+        ]
+      },
+      "decalProjectionBlueprintVuid": 72,
+      "decalBlueprintVuid": 75
+    },
+    {
+      "guid": "e59ff736-a6ea-4a1a-a4c5-6437ed15b872",
+      "vuid": 296,
+      "pvuid": 432,
+      "flags": 2,
+      "decalScaler": 297,
+      "projectedDecal": 298,
+      "transform": {
+        "mirrorVuid": -1,
+        "pos": [
+          1.00329256,
+          0.3324333,
+          -0.504974365
+        ],
+        "rot": [
+          20.738081,
+          275.81897,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          0.3,
+          0.450000018,
+          0.025
+        ]
+      },
+      "decalProjectionBlueprintVuid": 77,
+      "decalBlueprintVuid": 78
+    },
+    {
+      "guid": "e59ff736-a6ea-4a1a-a4c5-6437ed15b872",
+      "vuid": 299,
+      "pvuid": 432,
+      "flags": 2,
+      "decalScaler": 300,
+      "projectedDecal": 301,
+      "transform": {
+        "mirrorVuid": -1,
+        "pos": [
+          1.03122127,
+          0.343865722,
+          -0.3187256
+        ],
+        "rot": [
+          20.1798248,
+          275.2784,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          0.3,
+          0.450000018,
+          0.025
+        ]
+      },
+      "decalProjectionBlueprintVuid": 79,
+      "decalBlueprintVuid": 80
+    },
+    {
+      "guid": "e59ff736-a6ea-4a1a-a4c5-6437ed15b872",
+      "vuid": 302,
+      "pvuid": 432,
+      "flags": 2,
+      "decalScaler": 303,
+      "projectedDecal": 304,
+      "transform": {
+        "mirrorVuid": -1,
+        "pos": [
+          1.03654909,
+          0.342943519,
+          -0.1267395
+        ],
+        "rot": [
+          20.5777016,
+          275.8747,
+          -9.119599E-07,
+          0.0
+        ],
+        "scale": [
+          0.3,
+          0.450000018,
+          0.025
+        ]
+      },
+      "decalProjectionBlueprintVuid": 86,
+      "decalBlueprintVuid": 90
     },
     {
       "guid": "4481135e-cefd-499c-8122-414942eecbe4",
@@ -2560,7 +2791,7 @@
         "rot": [
           1.17436628E-07,
           60.00003,
-          1.00372723E-08,
+          1.00372741E-08,
           0.0
         ],
         "scale": [
@@ -2645,7 +2876,7 @@
         "rot": [
           0.0,
           0.0,
-          5.21102154E-11,
+          0.0,
           0.0
         ],
         "scale": [
