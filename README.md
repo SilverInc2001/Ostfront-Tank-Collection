@@ -84,6 +84,8 @@ If you would like to help choose the next vehicles added to the collection, you 
 | M3A1 Stuart III                     | Light        | France, UK, USA, SU                     |
 | M3A3 Stuart V                       | Light        | France, UK                              |
 | M5A1 Stuart VI                      | Light        | France, Poland, UK, USA                 |
+| R35                                 | Light        | France, Germany, Italy, Poland          |
+| R39                                 | Light        | France                                  |
 | Tetrarch Mk VII                     | Light        | UK, SU                                  |
 | 105 leFH18B2                        | Medium       | France, Germany                         |
 | 40M Turán I                         | Medium       | Hungary                                 |
