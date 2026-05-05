@@ -33,6 +33,7 @@ If you would like to help choose the next vehicles added to the collection, you 
 | 57mm Type 2                         | Field Gun    | Japan                                   |
 | 75mm Pack Howitzer M1               | Field Gun    | France, Poland, UK, USA                 |
 | Bofors 37 mm anti-tank gun          | Field Gun    | Finland, Germany, Poland, UK, SU        |
+| Bofors 8cm Model 1929               | Field Gun    | Hungary                                 |
 | ARL 44                              | Heavy        | France                                  |
 | ARL-44 (ACL-1)                      | Heavy        | France                                  |
 | Black Prince                        | Heavy        | UK                                      |
