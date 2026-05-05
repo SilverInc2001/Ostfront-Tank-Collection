@@ -100,16 +100,20 @@ If you would like to help choose the next vehicles added to the collection, you 
 | Carro Armato M14/41                 | Medium       | Italy                                   |
 | Carro Armato M15-42                 | Medium       | Germany, Italy                          |
 | Centurion Mk.I                      | Medium       | UK                                      |
-| Char D2                             | Medium       | France                                  |
+| Char D2                             | Medium       | France, Germany                         |
 | Cromwell Mk IV                      | Medium       | Poland, UK                              |
 | Cromwell Mk IV ""Tulip""            | Medium       | UK                                      |
 | Cromwell Mk V                       | Medium       | UK                                      |
 | Cromwell Mk VI                      | Medium       | UK                                      |
 | Cruiser Tank Mk VIII Challenger     | Medium       | Poland, UK                              |
 | Crusader A15                        | Medium       | France, Poland, UK                      |
+| Crusader AA Mk I                    | Medium       | UK                                      |
 | Crusader Mk.II                      | Medium       | France, Germany, Poland, UK             |
 | M3 Grant                            | Medium       | UK                                      |
 | M3 Lee                              | Medium       | USA, SU                                 |
+| M4 Sherman I (Early)                | Medium       | UK, USA                                 |
+| M4 Sherman I (Late)                 | Medium       | France, Poland, UK, USA                 |
+| M4 Sherman I (Up-armoured)          | Medium       | UK, USA                                 |
 | Panzer III Ausf. E                  | Medium       | Germany                                 |
 | Panzer IV Ausf. J                   | Medium       | Finland, Germany                        |
 | Sd.Kfz. 165 ""Hummel""              | Medium       | Germany                                 |
