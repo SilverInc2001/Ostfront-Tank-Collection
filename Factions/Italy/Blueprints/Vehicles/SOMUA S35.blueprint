@@ -1063,7 +1063,7 @@
         "v": "0.3",
         "name": "",
         "description": "",
-        "imageURL": "Sprocket/Decals/Second Italian Tank Company.png"
+        "imageURL": "Sprocket/Decals/1st Compagnia 1° Plotone.png"
       }
     },
     {
@@ -1109,7 +1109,7 @@
         "v": "0.3",
         "name": "",
         "description": "",
-        "imageURL": "Sprocket/Decals/Second Italian Tank Company.png"
+        "imageURL": "Sprocket/Decals/1st Compagnia 1° Plotone.png"
       }
     },
     {
@@ -1136,7 +1136,7 @@
       }
     },
     {
-      "id": 0,
+      "id": 5,
       "type": "paintJobRegister",
       "blueprint": {
         "v": "0.0",
@@ -2212,9 +2212,9 @@
           1.0540247
         ],
         "rot": [
-          0.514807165,
+          0.5148072,
           -8.269776E-14,
-          -2.17013076E-05,
+          -2.170131E-05,
           0.0
         ],
         "scale": [
@@ -2267,7 +2267,7 @@
           0.42135
         ],
         "rot": [
-          15.8363008,
+          15.8362989,
           119.846474,
           8.874569E-07,
           0.0
@@ -2496,7 +2496,7 @@
           1.91503906
         ],
         "rot": [
-          9.865979,
+          9.86598,
           180.0,
           0.0,
           0.0
@@ -2728,7 +2728,7 @@
         "rot": [
           352.235077,
           180.0,
-          -2.05439222E-13,
+          -2.311191E-13,
           0.0
         ],
         "scale": [
@@ -2783,8 +2783,8 @@
         ],
         "rot": [
           352.2587,
-          0.9223641,
-          0.110576257,
+          0.922364235,
+          0.11057625,
           0.0
         ],
         "scale": [

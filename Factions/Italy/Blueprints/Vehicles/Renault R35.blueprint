@@ -931,19 +931,6 @@
       }
     },
     {
-      "id": 0,
-      "type": "paintJobRegister",
-      "blueprint": {
-        "v": "0.0",
-        "name": null,
-        "description": null,
-        "paintJobIDs": [
-          1,
-          2
-        ]
-      }
-    },
-    {
       "id": 40,
       "type": "decalTransform",
       "blueprint": {
@@ -975,7 +962,7 @@
         "description": null,
         "x": 150,
         "y": 100,
-        "z": 25,
+        "z": 88,
         "flags": 0
       }
     },
@@ -986,7 +973,7 @@
         "v": "0.3",
         "name": null,
         "description": null,
-        "imageURL": "Sprocket/Decals/Italian Tank Company Third Platoon.png"
+        "imageURL": "Sprocket/Decals/3rd Compagnia 3° Plotone.png"
       }
     },
     {
@@ -1033,6 +1020,19 @@
         "name": null,
         "description": null,
         "imageURL": "Sprocket/Decals/Italian Tank Company Third Platoon.png"
+      }
+    },
+    {
+      "id": 5,
+      "type": "paintJobRegister",
+      "blueprint": {
+        "v": "0.0",
+        "name": null,
+        "description": null,
+        "paintJobIDs": [
+          1,
+          2
+        ]
       }
     }
   ],
@@ -1282,8 +1282,8 @@
             0.0,
             0.0,
             -2.23517418E-08,
-            0.53302,
-            1.62400019,
+            0.5330001,
+            1.62399292,
             -0.155705482,
             0.116700724,
             0.0548493378,
@@ -1294,8 +1294,8 @@
             0.0,
             0.0,
             2.23517418E-08,
-            0.53302,
-            1.62400019
+            0.5330001,
+            1.62399292
           ],
           "portDirections": [
             0.0,
@@ -2049,7 +2049,7 @@
         "rot": [
           359.3815,
           177.702591,
-          -5.83668339E-07,
+          -5.85335954E-07,
           0.0
         ],
         "scale": [
@@ -2185,9 +2185,9 @@
           0.148986816
         ],
         "rot": [
-          20.6534042,
-          92.91583,
-          -4.56206772E-06,
+          20.6534061,
+          92.91584,
+          -5.47448E-06,
           0.0
         ],
         "scale": [
@@ -2214,9 +2214,9 @@
           0.148376465
         ],
         "rot": [
-          20.6534081,
+          20.65341,
           267.084167,
-          4.56206635E-06,
+          4.562067E-06,
           0.0
         ],
         "scale": [
@@ -2227,64 +2227,6 @@
       },
       "decalProjectionBlueprintVuid": 40,
       "decalBlueprintVuid": 41
-    },
-    {
-      "guid": "e59ff736-a6ea-4a1a-a4c5-6437ed15b872",
-      "vuid": 294,
-      "pvuid": 568,
-      "flags": 7,
-      "decalScaler": 295,
-      "projectedDecal": 296,
-      "transform": {
-        "mirrorVuid": 298,
-        "pos": [
-          -0.5519627,
-          0.137491077,
-          -0.118927
-        ],
-        "rot": [
-          20.5722218,
-          91.98059,
-          4.55963664E-06,
-          0.0
-        ],
-        "scale": [
-          0.15,
-          0.1,
-          0.025
-        ]
-      },
-      "decalProjectionBlueprintVuid": 42,
-      "decalBlueprintVuid": 43
-    },
-    {
-      "guid": "e59ff736-a6ea-4a1a-a4c5-6437ed15b872",
-      "vuid": 298,
-      "pvuid": 568,
-      "flags": 6,
-      "decalScaler": 299,
-      "projectedDecal": 300,
-      "transform": {
-        "mirrorVuid": 294,
-        "pos": [
-          0.5519627,
-          0.137491077,
-          -0.118927
-        ],
-        "rot": [
-          20.5722218,
-          268.0194,
-          -4.55963664E-06,
-          0.0
-        ],
-        "scale": [
-          0.15,
-          0.1,
-          0.025
-        ]
-      },
-      "decalProjectionBlueprintVuid": 42,
-      "decalBlueprintVuid": 43
     },
     {
       "guid": "e59ff736-a6ea-4a1a-a4c5-6437ed15b872",
@@ -2302,8 +2244,8 @@
         ],
         "rot": [
           89.20451,
-          287.464233,
-          287.458832,
+          287.4643,
+          287.458862,
           0.0
         ],
         "scale": [
@@ -2314,6 +2256,64 @@
       },
       "decalProjectionBlueprintVuid": 44,
       "decalBlueprintVuid": 45
+    },
+    {
+      "guid": "e59ff736-a6ea-4a1a-a4c5-6437ed15b872",
+      "vuid": 294,
+      "pvuid": 568,
+      "flags": 7,
+      "decalScaler": 295,
+      "projectedDecal": 296,
+      "transform": {
+        "mirrorVuid": 298,
+        "pos": [
+          -0.5635232,
+          0.133775324,
+          -0.119537354
+        ],
+        "rot": [
+          21.5720425,
+          92.39502,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          0.15,
+          0.1,
+          0.08800001
+        ]
+      },
+      "decalProjectionBlueprintVuid": 42,
+      "decalBlueprintVuid": 43
+    },
+    {
+      "guid": "e59ff736-a6ea-4a1a-a4c5-6437ed15b872",
+      "vuid": 298,
+      "pvuid": 568,
+      "flags": 6,
+      "decalScaler": 299,
+      "projectedDecal": 300,
+      "transform": {
+        "mirrorVuid": 294,
+        "pos": [
+          0.5635232,
+          0.133775324,
+          -0.119537354
+        ],
+        "rot": [
+          21.5720425,
+          267.60498,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          0.15,
+          0.1,
+          0.08800001
+        ]
+      },
+      "decalProjectionBlueprintVuid": 42,
+      "decalBlueprintVuid": 43
     },
     {
       "guid": "e59ff736-a6ea-4a1a-a4c5-6437ed15b872",
@@ -2330,9 +2330,9 @@
           1.71038818
         ],
         "rot": [
-          11.1874619,
+          11.1874628,
           179.093369,
-          4.07958574E-08,
+          4.75951651E-08,
           0.0
         ],
         "scale": [
@@ -2643,7 +2643,7 @@
         "rot": [
           356.18692,
           181.468842,
-          9.69311245E-08,
+          1.00273574E-07,
           0.0
         ],
         "scale": [
@@ -2777,7 +2777,7 @@
           -1.30050659
         ],
         "rot": [
-          0.000389320776,
+          0.000389294117,
           270.0,
           0.497724861,
           0.0
@@ -2805,7 +2805,7 @@
         ],
         "rot": [
           359.5023,
-          -1.52672384E-12,
+          -1.4249423E-12,
           0.000389171357,
           0.0
         ],
@@ -2831,7 +2831,7 @@
           -1.59771729
         ],
         "rot": [
-          16.048933,
+          16.0489349,
           0.0,
           0.0,
           0.0
