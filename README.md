@@ -27,8 +27,10 @@ If you would like to help choose the next vehicles added to the collection, you 
 | BA-20                               | Armoured Car | Finland, SU                             |
 | BA-27M                              | Armoured Car | SU                                      |
 | BA-6                                | Armoured Car | Finland, SU                             |
+| 25mm Hotchkiss anti-tank gun        | Field Gun    | Finland, France, Germany, Italy, UK     |
 | 3.7 cm Pak 36                       | Field Gun    | Finland, Germany, Hungary, Italy        |
 | 37mm 1-K M1930                      | Field Gun    | SU                                      |
+| 45mm M-37 M1937                     | Field Gun    | Finland, Germany, SU                    |
 | 47mm Type 1                         | Field Gun    | Japan                                   |
 | 57mm Type 2                         | Field Gun    | Japan                                   |
 | 75mm Pack Howitzer M1               | Field Gun    | France, Poland, UK, USA                 |
@@ -48,6 +50,7 @@ If you would like to help choose the next vehicles added to the collection, you 
 | Churchill Mk.IV                     | Heavy        | UK, SU                                  |
 | Churchill Mk.IV (L/50)              | Heavy        | UK                                      |
 | Churchill Mk.IV (QF 75)             | Heavy        | UK                                      |
+| Churchill Mk.V                      | Heavy        | UK                                      |
 | Ferdinand Sd.Kfz. 184               | Heavy        | Germany                                 |
 | IS-1 (1943)                         | Heavy        | SU                                      |
 | IS-2 (1944)                         | Heavy        | Poland, SU                              |
@@ -60,6 +63,7 @@ If you would like to help choose the next vehicles added to the collection, you 
 | Tiger 1E                            | Heavy        | Germany, Hungary                        |
 | Tiger H1                            | Heavy        | Germany                                 |
 | Type 5 Chi-Ri                       | Heavy        | Japan                                   |
+| Type 91 Heavy                       | Heavy        | Japan                                   |
 | 10TP                                | Light        | Poland                                  |
 | 38M Toldi I                         | Light        | Hungary                                 |
 | 38M Toldi IIA                       | Light        | Hungary                                 |
@@ -69,6 +73,8 @@ If you would like to help choose the next vehicles added to the collection, you 
 | BT-42                               | Light        | Finland                                 |
 | BT-7                                | Light        | Finland, Hungary, SU                    |
 | BT-7A                               | Light        | SU                                      |
+| Carro Armato L5-21                  | Light        | Italy                                   |
+| Carro Armato L5-30                  | Light        | Italy                                   |
 | Cruiser Tank Mk I                   | Light        | UK                                      |
 | Cruiser Tank Mk II                  | Light        | UK                                      |
 | Cruiser Tank Mk III                 | Light        | UK                                      |
@@ -110,8 +116,10 @@ If you would like to help choose the next vehicles added to the collection, you 
 | Crusader A15                        | Medium       | France, Poland, UK                      |
 | Crusader AA Mk I                    | Medium       | UK                                      |
 | Crusader Mk.II                      | Medium       | France, Germany, Poland, UK             |
+| M12 GMC                             | Medium       | USA                                     |
 | M3 Grant                            | Medium       | UK                                      |
 | M3 Lee                              | Medium       | USA, SU                                 |
+| M36 GMC                             | Medium       | France, USA                             |
 | M4 Sherman I (Early)                | Medium       | UK, USA                                 |
 | M4 Sherman I (Late)                 | Medium       | France, Poland, UK, USA                 |
 | M4 Sherman I (Up-armoured)          | Medium       | UK, USA                                 |
