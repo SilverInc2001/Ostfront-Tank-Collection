@@ -30,6 +30,8 @@ If you would like to help choose the next vehicles added to the collection, you 
 | 25mm Hotchkiss anti-tank gun        | Field Gun    | Finland, France, Germany, Italy, UK     |
 | 3.7 cm Pak 36                       | Field Gun    | Finland, Germany, Hungary, Italy        |
 | 37mm 1-K M1930                      | Field Gun    | SU                                      |
+| 37mm Gun M3                         | Field Gun    | USA                                     |
+| 37mm Gun M3A1                       | Field Gun    | USA                                     |
 | 45mm M-37 M1937                     | Field Gun    | Finland, Germany, SU                    |
 | 47mm Type 1                         | Field Gun    | Japan                                   |
 | 57mm Type 2                         | Field Gun    | Japan                                   |
@@ -58,6 +60,7 @@ If you would like to help choose the next vehicles added to the collection, you 
 | KV-1E                               | Heavy        | Finland, Germany, SU                    |
 | M26 Pershing                        | Heavy        | USA                                     |
 | M6A1                                | Heavy        | USA                                     |
+| St Chamond                          | Heavy        | France                                  |
 | SU-100Y                             | Heavy        | SU                                      |
 | T26E1-1 Super Pershing              | Heavy        | USA                                     |
 | Tiger 1E                            | Heavy        | Germany, Hungary                        |
@@ -93,6 +96,7 @@ If you would like to help choose the next vehicles added to the collection, you 
 | M5A1 Stuart VI                      | Light        | France, Poland, UK, USA                 |
 | R35                                 | Light        | France, Germany, Italy, Poland          |
 | R39                                 | Light        | France                                  |
+| SU-76                               | Light        | Germany, Poland, SU                     |
 | Tetrarch Mk VII                     | Light        | UK, SU                                  |
 | 105 leFH18B2                        | Medium       | France, Germany                         |
 | 40M Turán I                         | Medium       | Hungary                                 |
