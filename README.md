@@ -56,6 +56,7 @@ If you would like to help choose the next vehicles added to the collection, you 
 | Ferdinand Sd.Kfz. 184               | Heavy        | Germany                                 |
 | IS-1 (1943)                         | Heavy        | SU                                      |
 | IS-2 (1944)                         | Heavy        | Poland, SU                              |
+| ISU-122S                            | Heavy        | Poland, SU                              |
 | Jagdtiger                           | Heavy        | Germany                                 |
 | KV-1E                               | Heavy        | Finland, Germany, SU                    |
 | M26 Pershing                        | Heavy        | USA                                     |
@@ -127,6 +128,11 @@ If you would like to help choose the next vehicles added to the collection, you 
 | M4 Sherman I (Early)                | Medium       | UK, USA                                 |
 | M4 Sherman I (Late)                 | Medium       | France, Poland, UK, USA                 |
 | M4 Sherman I (Up-armoured)          | Medium       | UK, USA                                 |
+| M4A2 Sherman III (Early)            | Medium       | France, Poland, UK, USA, SU             |
+| M4A2 Sherman III (Late)             | Medium       | France, Poland, UK, USA, SU             |
+| M4A2 Sherman III (Mid)              | Medium       | France, Poland, UK, USA, SU             |
+| M4A2 Sherman III DV                 | Medium       | UK, USA, SU                             |
+| M4A2 Sherman III DV (Up-Armoured)   | Medium       | France, UK, USA, SU                     |
 | Panzer III Ausf. E                  | Medium       | Germany                                 |
 | Panzer IV Ausf. J                   | Medium       | Finland, Germany                        |
 | Sd.Kfz. 165 ""Hummel""              | Medium       | Germany                                 |
@@ -139,4 +145,5 @@ If you would like to help choose the next vehicles added to the collection, you 
 | T-28B                               | Medium       | Finland, SU                             |
 | T-28C                               | Medium       | Finland, SU                             |
 | Type 1 Chi-He                       | Medium       | Japan                                   |
+| Karl-Gerät 040                      | SPM          | Germany                                 |
 | Universal Carrier Mk II             | Tankette     | Currently only UK                       |
