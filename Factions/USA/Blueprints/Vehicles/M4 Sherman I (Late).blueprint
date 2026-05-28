@@ -22,9 +22,9 @@
         "scale": 0.5,
         "roughness": 0.5,
         "metallic": 0.0,
-        "r": 0.200591952,
-        "g": 0.21,
-        "b": 0.0924000442,
+        "r": 0.234400064,
+        "g": 0.25,
+        "b": 0.0550000221,
         "saturation": 0.5,
         "condition": 0.5,
         "grime": 0.5
@@ -1678,7 +1678,7 @@
       "transform": {
         "mirrorVuid": 1605,
         "pos": [
-          -0.471939176,
+          -0.4719392,
           0.02734375,
           1.498291
         ],
@@ -2253,10 +2253,10 @@
             0.704862356,
             0.309399426,
             2.851988,
-            -0.688,
+            -0.7095,
             0.0,
             0.0,
-            0.688,
+            0.7095,
             0.0,
             0.0
           ],
@@ -2425,7 +2425,7 @@
           -3.42556763
         ],
         "rot": [
-          12.6847687,
+          12.6847706,
           0.0,
           0.0,
           0.0
@@ -2683,9 +2683,9 @@
           0.4199524
         ],
         "rot": [
-          2.911012E-05,
+          2.911013E-05,
           60.000042,
-          -2.23835141E-05,
+          -2.238351E-05,
           0.0
         ],
         "scale": [
@@ -2707,7 +2707,7 @@
       "transform": {
         "mirrorVuid": -1,
         "pos": [
-          0.448943645,
+          0.448943675,
           -0.7944946,
           -0.173553467
         ],
@@ -2725,257 +2725,6 @@
       },
       "seatBlueprintVuid": 36,
       "postureBlueprintVuid": 38
-    },
-    {
-      "guid": "222f379f-f58c-4e09-9d8b-e81de7acab48",
-      "vuid": 244,
-      "pvuid": 225,
-      "flags": 2,
-      "mantlet": 245,
-      "transform": {
-        "mirrorVuid": -1,
-        "pos": [
-          4.04659659E-07,
-          0.294726729,
-          0.734100342
-        ],
-        "rot": [
-          0.0,
-          0.0,
-          0.0,
-          0.0
-        ],
-        "scale": [
-          1.47135508,
-          0.7696668,
-          0.7696668
-        ]
-      },
-      "mantletBlueprint": {
-        "drive_vuid": 247,
-        "trunnions_vuid": 250,
-        "shield_vuid": -1
-      }
-    },
-    {
-      "guid": "0c396ede-f39b-46ac-9d7e-e37c22b2c89e",
-      "vuid": 246,
-      "pvuid": 244,
-      "flags": 2,
-      "layingDrive": 247,
-      "model": 248,
-      "transform": {
-        "mirrorVuid": -1,
-        "pos": [
-          0.3391636,
-          -0.147386566,
-          -0.381958
-        ],
-        "rot": [
-          0.0,
-          0.0,
-          0.0,
-          0.0
-        ],
-        "scale": [
-          1.0,
-          1.0,
-          1.0
-        ]
-      },
-      "layingDriveBlueprintVuid": 43
-    },
-    {
-      "guid": "e11ce433-c0b3-4e52-899f-898bfe6d3fd3",
-      "vuid": 249,
-      "pvuid": 244,
-      "flags": 2,
-      "trunnions": 250,
-      "model": 251,
-      "transform": {
-        "mirrorVuid": -1,
-        "pos": [
-          0.0,
-          0.0,
-          0.0
-        ],
-        "rot": [
-          0.0,
-          0.0,
-          0.0,
-          0.0
-        ],
-        "scale": [
-          1.0,
-          1.0,
-          1.0
-        ]
-      }
-    },
-    {
-      "guid": "8f8a9d20-eb45-482e-b149-014c964c4e2c",
-      "vuid": 252,
-      "pvuid": 249,
-      "flags": 2,
-      "plateStructure": 253,
-      "transform": {
-        "mirrorVuid": -1,
-        "pos": [
-          0.0,
-          0.0,
-          -0.25
-        ],
-        "rot": [
-          0.0,
-          0.0,
-          0.0,
-          0.0
-        ],
-        "scale": [
-          1.0,
-          1.0,
-          1.0
-        ]
-      },
-      "structureBlueprintVuid": 48
-    },
-    {
-      "guid": "8f8a9d20-eb45-482e-b149-014c964c4e2c",
-      "vuid": 216,
-      "pvuid": 252,
-      "flags": 3,
-      "plateStructure": 230,
-      "transform": {
-        "mirrorVuid": -1,
-        "pos": [
-          -0.395241737,
-          0.0268268585,
-          0.0298156738
-        ],
-        "rot": [
-          90.0,
-          0.0,
-          0.0,
-          0.0
-        ],
-        "scale": [
-          1.0,
-          1.0,
-          1.0
-        ]
-      },
-      "structureBlueprintVuid": 34
-    },
-    {
-      "guid": "e59ff736-a6ea-4a1a-a4c5-6437ed15b872",
-      "vuid": 411,
-      "pvuid": 216,
-      "flags": 3,
-      "decalScaler": 412,
-      "projectedDecal": 413,
-      "transform": {
-        "mirrorVuid": -1,
-        "pos": [
-          -0.0114802122,
-          0.7099916,
-          0.0136217428
-        ],
-        "rot": [
-          90.0,
-          180.0,
-          0.0,
-          0.0
-        ],
-        "scale": [
-          0.043,
-          0.043,
-          0.21100001
-        ]
-      },
-      "decalProjectionBlueprintVuid": 108,
-      "decalBlueprintVuid": 109
-    },
-    {
-      "guid": "bfa86d1e-41ab-43fa-92f8-ef29e1e52c00",
-      "vuid": 254,
-      "pvuid": 249,
-      "flags": 2,
-      "cannon": 255,
-      "breech": 256,
-      "breechModel": 257,
-      "transform": {
-        "mirrorVuid": -1,
-        "pos": [
-          0.0,
-          0.0,
-          -0.25
-        ],
-        "rot": [
-          0.0,
-          0.0,
-          0.0,
-          0.0
-        ],
-        "scale": [
-          1.0,
-          1.0,
-          1.0
-        ]
-      },
-      "cannonBlueprintVuid": 50,
-      "cannonInstanceBlueprintVuid": 49
-    },
-    {
-      "guid": "c56166b7-89f3-4791-9a22-a9c3c8e8ce16",
-      "vuid": 258,
-      "pvuid": 254,
-      "flags": 2,
-      "cannonBarrelSegment": 259,
-      "transform": {
-        "mirrorVuid": -1,
-        "pos": [
-          0.0,
-          0.0,
-          0.0
-        ],
-        "rot": [
-          0.0,
-          0.0,
-          0.0,
-          0.0
-        ],
-        "scale": [
-          1.0,
-          1.0,
-          1.0
-        ]
-      }
-    },
-    {
-      "guid": "c56166b7-89f3-4791-9a22-a9c3c8e8ce16",
-      "vuid": 209,
-      "pvuid": 258,
-      "flags": 2,
-      "cannonBarrelSegment": 210,
-      "transform": {
-        "mirrorVuid": -1,
-        "pos": [
-          0.0,
-          0.0,
-          0.6
-        ],
-        "rot": [
-          0.0,
-          0.0,
-          0.0,
-          0.0
-        ],
-        "scale": [
-          1.0,
-          1.0,
-          1.0
-        ]
-      }
     },
     {
       "guid": "30f71011-78ab-4358-89dd-8d10292daae4",
@@ -3174,33 +2923,6 @@
       }
     },
     {
-      "guid": "f90f373f-4edb-4563-a162-6eee6a5d77dd",
-      "vuid": 372,
-      "pvuid": 225,
-      "flags": 2,
-      "sight": 373,
-      "model": 374,
-      "transform": {
-        "mirrorVuid": -1,
-        "pos": [
-          0.367612243,
-          0.48313725,
-          0.8257446
-        ],
-        "rot": [
-          0.0,
-          0.0,
-          0.0,
-          0.0
-        ],
-        "scale": [
-          0.25,
-          0.25,
-          0.25
-        ]
-      }
-    },
-    {
       "guid": "8f8a9d20-eb45-482e-b149-014c964c4e2c",
       "vuid": 350,
       "pvuid": 225,
@@ -3358,7 +3080,7 @@
         "rot": [
           3.10817528,
           276.4287,
-          -7.481525E-07,
+          -5.34394644E-07,
           0.0
         ],
         "scale": [
@@ -3369,6 +3091,284 @@
       },
       "decalProjectionBlueprintVuid": 117,
       "decalBlueprintVuid": 118
+    },
+    {
+      "guid": "222f379f-f58c-4e09-9d8b-e81de7acab48",
+      "vuid": 244,
+      "pvuid": 225,
+      "flags": 2,
+      "mantlet": 245,
+      "transform": {
+        "mirrorVuid": -1,
+        "pos": [
+          4.04659659E-07,
+          0.294726729,
+          0.734100342
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.47135508,
+          0.7696668,
+          0.7696668
+        ]
+      },
+      "mantletBlueprint": {
+        "drive_vuid": 247,
+        "trunnions_vuid": 250,
+        "shield_vuid": -1
+      }
+    },
+    {
+      "guid": "0c396ede-f39b-46ac-9d7e-e37c22b2c89e",
+      "vuid": 246,
+      "pvuid": 244,
+      "flags": 2,
+      "layingDrive": 247,
+      "model": 248,
+      "transform": {
+        "mirrorVuid": -1,
+        "pos": [
+          0.3391636,
+          -0.147386566,
+          -0.381958
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "layingDriveBlueprintVuid": 43
+    },
+    {
+      "guid": "e11ce433-c0b3-4e52-899f-898bfe6d3fd3",
+      "vuid": 249,
+      "pvuid": 244,
+      "flags": 2,
+      "trunnions": 250,
+      "model": 251,
+      "transform": {
+        "mirrorVuid": -1,
+        "pos": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "guid": "8f8a9d20-eb45-482e-b149-014c964c4e2c",
+      "vuid": 252,
+      "pvuid": 249,
+      "flags": 2,
+      "plateStructure": 253,
+      "transform": {
+        "mirrorVuid": -1,
+        "pos": [
+          0.0,
+          0.0,
+          -0.25
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "structureBlueprintVuid": 48
+    },
+    {
+      "guid": "8f8a9d20-eb45-482e-b149-014c964c4e2c",
+      "vuid": 216,
+      "pvuid": 252,
+      "flags": 3,
+      "plateStructure": 230,
+      "transform": {
+        "mirrorVuid": -1,
+        "pos": [
+          -0.395241737,
+          0.0268268585,
+          0.0298156738
+        ],
+        "rot": [
+          90.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "structureBlueprintVuid": 34
+    },
+    {
+      "guid": "e59ff736-a6ea-4a1a-a4c5-6437ed15b872",
+      "vuid": 411,
+      "pvuid": 216,
+      "flags": 3,
+      "decalScaler": 412,
+      "projectedDecal": 413,
+      "transform": {
+        "mirrorVuid": -1,
+        "pos": [
+          -0.0114802122,
+          0.7099916,
+          0.0136217428
+        ],
+        "rot": [
+          90.0,
+          180.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          0.043,
+          0.043,
+          0.21100001
+        ]
+      },
+      "decalProjectionBlueprintVuid": 108,
+      "decalBlueprintVuid": 109
+    },
+    {
+      "guid": "f90f373f-4edb-4563-a162-6eee6a5d77dd",
+      "vuid": 372,
+      "pvuid": 252,
+      "flags": 2,
+      "sight": 373,
+      "model": 374,
+      "transform": {
+        "mirrorVuid": -1,
+        "pos": [
+          0.367390841,
+          0.160785675,
+          0.439178467
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          0.25,
+          0.25,
+          0.25
+        ]
+      }
+    },
+    {
+      "guid": "bfa86d1e-41ab-43fa-92f8-ef29e1e52c00",
+      "vuid": 254,
+      "pvuid": 249,
+      "flags": 2,
+      "cannon": 255,
+      "breech": 256,
+      "breechModel": 257,
+      "transform": {
+        "mirrorVuid": -1,
+        "pos": [
+          0.0,
+          0.0,
+          -0.25
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "cannonBlueprintVuid": 50,
+      "cannonInstanceBlueprintVuid": 49
+    },
+    {
+      "guid": "c56166b7-89f3-4791-9a22-a9c3c8e8ce16",
+      "vuid": 258,
+      "pvuid": 254,
+      "flags": 2,
+      "cannonBarrelSegment": 259,
+      "transform": {
+        "mirrorVuid": -1,
+        "pos": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "guid": "c56166b7-89f3-4791-9a22-a9c3c8e8ce16",
+      "vuid": 209,
+      "pvuid": 258,
+      "flags": 2,
+      "cannonBarrelSegment": 210,
+      "transform": {
+        "mirrorVuid": -1,
+        "pos": [
+          0.0,
+          0.0,
+          0.6
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
     },
     {
       "guid": "4481135e-cefd-499c-8122-414942eecbe4",
@@ -3385,7 +3385,7 @@
           -0.372253418
         ],
         "rot": [
-          7.65565744E-07,
+          7.655651E-07,
           45.0000038,
           -1.07723072E-05,
           0.0
@@ -3414,9 +3414,9 @@
           -0.5504761
         ],
         "rot": [
-          3.40175552E-06,
+          3.44796672E-06,
           300.0,
-          5.89201136E-06,
+          5.865331E-06,
           0.0
         ],
         "scale": [
@@ -3867,7 +3867,7 @@
         ],
         "rot": [
           358.595978,
-          0.5822836,
+          0.582283735,
           -5.00408159E-09,
           0.0
         ],
