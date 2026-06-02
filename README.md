@@ -53,6 +53,8 @@ If you would like to help choose the next vehicles added to the collection, you 
 | Churchill Mk.IV (L/50)              | Heavy        | UK                                      |
 | Churchill Mk.IV (QF 75)             | Heavy        | UK                                      |
 | Churchill Mk.V                      | Heavy        | UK                                      |
+| Churchill Mk.VII                    | Heavy        | UK                                      |
+| Churchill Mk.VII Crocodile          | Heavy        | UK                                      |
 | Ferdinand Sd.Kfz. 184               | Heavy        | Germany                                 |
 | IS-1 (1943)                         | Heavy        | SU                                      |
 | IS-2 (1944)                         | Heavy        | Poland, SU                              |
@@ -75,6 +77,7 @@ If you would like to help choose the next vehicles added to the collection, you 
 | 7TP                                 | Light        | Germany, Poland                         |
 | BT-2                                | Light        | SU                                      |
 | BT-42                               | Light        | Finland                                 |
+| BT-5                                | Light        | Finland, SU                             |
 | BT-7                                | Light        | Finland, Hungary, SU                    |
 | BT-7A                               | Light        | SU                                      |
 | Carro Armato L5-21                  | Light        | Italy                                   |
@@ -144,6 +147,7 @@ If you would like to help choose the next vehicles added to the collection, you 
 | T-28A                               | Medium       | Finland, SU                             |
 | T-28B                               | Medium       | Finland, SU                             |
 | T-28C                               | Medium       | Finland, SU                             |
+| T-34-76 M1941                       | Medium       | Finland, Germany, SU                    |
 | Type 1 Chi-He                       | Medium       | Japan                                   |
 | Karl-Gerät 040                      | SPM          | Germany                                 |
 | Universal Carrier Mk II             | Tankette     | Currently only UK                       |
