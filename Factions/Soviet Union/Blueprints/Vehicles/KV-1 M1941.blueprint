@@ -2,7 +2,7 @@
   "v": "2.0",
   "header": {
     "v": "0.2",
-    "name": "Pz.Kpfw. KV-1B 755(r)",
+    "name": "KV-1 M1941",
     "gameVersion": "0.2.50.10",
     "mass": 43837,
     "creationDate": "1941.12.31",
@@ -19,13 +19,13 @@
         "name": "Primary",
         "description": "",
         "colourMapUrl": "821c5c82-a326-46ca-bfd0-bd2a75830ed7",
-        "scale": 0.423,
+        "scale": 0.5,
         "roughness": 0.5,
         "metallic": 0.0,
-        "r": 0.26,
-        "g": 0.17056,
-        "b": 0.0364000574,
-        "saturation": 0.0,
+        "r": 0.234400064,
+        "g": 0.25,
+        "b": 0.0550000221,
+        "saturation": 0.5,
         "condition": 0.5,
         "grime": 0.5
       }
@@ -1072,8 +1072,8 @@
         "v": "0.0",
         "name": null,
         "description": null,
-        "x": 400,
-        "y": 400,
+        "x": 300,
+        "y": 300,
         "z": 145,
         "flags": 0
       }
@@ -1085,7 +1085,7 @@
         "v": "0.3",
         "name": null,
         "description": null,
-        "imageURL": "cec1dea9-6f23-4b70-a4ef-30d95a7b62c1"
+        "imageURL": "eb977334-4e6b-4686-a92b-8890ded3e4b7"
       }
     },
     {
@@ -1264,6 +1264,98 @@
       }
     },
     {
+      "id": 82,
+      "type": "decalTransform",
+      "blueprint": {
+        "v": "0.0",
+        "name": null,
+        "description": null,
+        "x": 350,
+        "y": 450,
+        "z": 61,
+        "flags": 0
+      }
+    },
+    {
+      "id": 83,
+      "type": "decal",
+      "blueprint": {
+        "v": "0.3",
+        "name": null,
+        "description": null,
+        "imageURL": "Sprocket/Decals/Century White 7.png"
+      }
+    },
+    {
+      "id": 84,
+      "type": "decalTransform",
+      "blueprint": {
+        "v": "0.0",
+        "name": null,
+        "description": null,
+        "x": 350,
+        "y": 450,
+        "z": 61,
+        "flags": 0
+      }
+    },
+    {
+      "id": 85,
+      "type": "decal",
+      "blueprint": {
+        "v": "0.3",
+        "name": null,
+        "description": null,
+        "imageURL": "Sprocket/Decals/Century White 4.png"
+      }
+    },
+    {
+      "id": 90,
+      "type": "decalTransform",
+      "blueprint": {
+        "v": "0.0",
+        "name": null,
+        "description": null,
+        "x": 350,
+        "y": 450,
+        "z": 61,
+        "flags": 0
+      }
+    },
+    {
+      "id": 91,
+      "type": "decal",
+      "blueprint": {
+        "v": "0.3",
+        "name": null,
+        "description": null,
+        "imageURL": "Sprocket/Decals/Century White 7.png"
+      }
+    },
+    {
+      "id": 92,
+      "type": "decalTransform",
+      "blueprint": {
+        "v": "0.0",
+        "name": null,
+        "description": null,
+        "x": 350,
+        "y": 450,
+        "z": 61,
+        "flags": 0
+      }
+    },
+    {
+      "id": 93,
+      "type": "decal",
+      "blueprint": {
+        "v": "0.3",
+        "name": null,
+        "description": null,
+        "imageURL": "Sprocket/Decals/Century White 4.png"
+      }
+    },
+    {
       "id": 96,
       "type": "structure",
       "blueprint": {
@@ -1297,29 +1389,6 @@
         "name": null,
         "description": null,
         "imageURL": "Sprocket/Decals/Black Circle.png"
-      }
-    },
-    {
-      "id": 61,
-      "type": "decalTransform",
-      "blueprint": {
-        "v": "0.0",
-        "name": null,
-        "description": null,
-        "x": 400,
-        "y": 400,
-        "z": 145,
-        "flags": 0
-      }
-    },
-    {
-      "id": 70,
-      "type": "decal",
-      "blueprint": {
-        "v": "0.3",
-        "name": null,
-        "description": null,
-        "imageURL": "cec1dea9-6f23-4b70-a4ef-30d95a7b62c1"
       }
     },
     {
@@ -1571,10 +1640,10 @@
             0.7402478,
             0.0,
             0.165355176,
-            -0.459687382,
+            -0.4596874,
             0.6679453,
             0.165355176,
-            0.0777169243,
+            0.07771693,
             0.071531415,
             0.0,
             0.0,
@@ -1586,7 +1655,7 @@
             -2.946991,
             -0.6679453,
             0.165355176,
-            0.0777169243,
+            0.07771693,
             -0.071531415,
             0.0,
             0.0,
@@ -2205,7 +2274,7 @@
         "pos": [
           0.0,
           0.406833738,
-          1.09155273
+          1.06124878
         ],
         "rot": [
           0.0,
@@ -2723,6 +2792,122 @@
     },
     {
       "guid": "e59ff736-a6ea-4a1a-a4c5-6437ed15b872",
+      "vuid": 398,
+      "pvuid": 337,
+      "flags": 3,
+      "decalScaler": 399,
+      "projectedDecal": 406,
+      "transform": {
+        "mirrorVuid": -1,
+        "pos": [
+          -0.808694839,
+          0.494150251,
+          -0.7400818
+        ],
+        "rot": [
+          14.6363306,
+          86.01619,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          0.350000024,
+          0.450000018,
+          0.0610000044
+        ]
+      },
+      "decalProjectionBlueprintVuid": 82,
+      "decalBlueprintVuid": 83
+    },
+    {
+      "guid": "e59ff736-a6ea-4a1a-a4c5-6437ed15b872",
+      "vuid": 410,
+      "pvuid": 337,
+      "flags": 3,
+      "decalScaler": 411,
+      "projectedDecal": 412,
+      "transform": {
+        "mirrorVuid": -1,
+        "pos": [
+          -0.787974358,
+          0.496564955,
+          -1.04129028
+        ],
+        "rot": [
+          15.2211246,
+          86.38566,
+          8.84813E-07,
+          0.0
+        ],
+        "scale": [
+          0.350000024,
+          0.450000018,
+          0.0610000044
+        ]
+      },
+      "decalProjectionBlueprintVuid": 84,
+      "decalBlueprintVuid": 85
+    },
+    {
+      "guid": "e59ff736-a6ea-4a1a-a4c5-6437ed15b872",
+      "vuid": 419,
+      "pvuid": 337,
+      "flags": 2,
+      "decalScaler": 420,
+      "projectedDecal": 421,
+      "transform": {
+        "mirrorVuid": -1,
+        "pos": [
+          0.791963756,
+          0.5043675,
+          -0.975463867
+        ],
+        "rot": [
+          15.2211266,
+          273.61438,
+          -1.769626E-06,
+          0.0
+        ],
+        "scale": [
+          0.350000024,
+          0.450000018,
+          0.0610000044
+        ]
+      },
+      "decalProjectionBlueprintVuid": 90,
+      "decalBlueprintVuid": 91
+    },
+    {
+      "guid": "e59ff736-a6ea-4a1a-a4c5-6437ed15b872",
+      "vuid": 422,
+      "pvuid": 337,
+      "flags": 2,
+      "decalScaler": 423,
+      "projectedDecal": 424,
+      "transform": {
+        "mirrorVuid": -1,
+        "pos": [
+          0.810129941,
+          0.5109726,
+          -0.6843567
+        ],
+        "rot": [
+          14.6363325,
+          273.983826,
+          1.76481706E-06,
+          0.0
+        ],
+        "scale": [
+          0.350000024,
+          0.450000018,
+          0.0610000044
+        ]
+      },
+      "decalProjectionBlueprintVuid": 92,
+      "decalBlueprintVuid": 93
+    },
+    {
+      "guid": "e59ff736-a6ea-4a1a-a4c5-6437ed15b872",
       "vuid": 268,
       "pvuid": 337,
       "flags": 7,
@@ -2731,19 +2916,19 @@
       "transform": {
         "mirrorVuid": 425,
         "pos": [
-          -0.853849232,
-          0.450299829,
-          0.2774353
+          -0.822126269,
+          0.401798576,
+          0.4900818
         ],
         "rot": [
-          14.9683323,
-          101.944176,
-          -3.53504288E-06,
+          14.9683275,
+          101.944183,
+          2.65128233E-06,
           0.0
         ],
         "scale": [
-          0.4,
-          0.4,
+          0.3,
+          0.3,
           0.145000011
         ]
       },
@@ -2760,19 +2945,19 @@
       "transform": {
         "mirrorVuid": 268,
         "pos": [
-          0.853849232,
-          0.450299829,
-          0.2774353
+          0.822126269,
+          0.401798576,
+          0.4900818
         ],
         "rot": [
-          14.9683342,
+          14.9683275,
           258.0558,
-          2.65128233E-06,
+          -3.53504288E-06,
           0.0
         ],
         "scale": [
-          0.4,
-          0.4,
+          0.3,
+          0.3,
           0.145000011
         ]
       },
@@ -3394,20 +3579,20 @@
       "guid": "e59ff736-a6ea-4a1a-a4c5-6437ed15b872",
       "vuid": 403,
       "pvuid": 0,
-      "flags": 2,
+      "flags": 3,
       "decalScaler": 404,
       "projectedDecal": 405,
       "transform": {
         "mirrorVuid": -1,
         "pos": [
-          1.16809715E-10,
-          1.03547144,
+          -3.15042936E-10,
+          1.01280069,
           2.52880859
         ],
         "rot": [
-          0.0347765572,
+          0.0347765647,
           179.9982,
-          -1.52666657E-13,
+          -2.03555556E-13,
           0.0
         ],
         "scale": [
@@ -3418,35 +3603,6 @@
       },
       "decalProjectionBlueprintVuid": 77,
       "decalBlueprintVuid": 78
-    },
-    {
-      "guid": "e59ff736-a6ea-4a1a-a4c5-6437ed15b872",
-      "vuid": 312,
-      "pvuid": 0,
-      "flags": 2,
-      "decalScaler": 313,
-      "projectedDecal": 317,
-      "transform": {
-        "mirrorVuid": -1,
-        "pos": [
-          0.0,
-          1.13105536,
-          -3.32644653
-        ],
-        "rot": [
-          45.00036,
-          0.0,
-          0.0,
-          0.0
-        ],
-        "scale": [
-          0.4,
-          0.4,
-          0.145000011
-        ]
-      },
-      "decalProjectionBlueprintVuid": 61,
-      "decalBlueprintVuid": 70
     }
   ],
   "meshes": [
@@ -116499,7 +116655,7 @@
       "type": "plateStructureMesh",
       "meshData": {
         "v": "0.2",
-        "name": "KV-1 M1940 Turret",
+        "name": "KV-1 M1941 Turret",
         "smoothAngle": 50,
         "gridSize": 1,
         "format": "freeform",
@@ -160370,7 +160526,7 @@
       "type": "plateStructureMesh",
       "meshData": {
         "v": "0.2",
-        "name": " KV-1 M1942 Gun Rot",
+        "name": "KV-1 M1942 Gun Rot",
         "smoothAngle": 50,
         "gridSize": 1,
         "format": "freeform",
@@ -194697,7 +194853,7 @@
       "type": "plateStructureMesh",
       "meshData": {
         "v": "0.2",
-        "name": "KV-1 M1940 Body Armour",
+        "name": "KV-1 M1941 Body Armour",
         "smoothAngle": 50,
         "gridSize": 1,
         "format": "freeform",
