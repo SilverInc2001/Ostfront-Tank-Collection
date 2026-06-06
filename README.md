@@ -36,6 +36,7 @@ If you would like to help choose the next vehicles added to the collection, you 
 | 47mm Type 1                         | Field Gun    | Japan                                   |
 | 57mm Type 2                         | Field Gun    | Japan                                   |
 | 75mm Pack Howitzer M1               | Field Gun    | France, Poland, UK, USA                 |
+| Armata 75mm wz.02-26                | Field Gun    | Poland                                  |
 | Bofors 37 mm anti-tank gun          | Field Gun    | Finland, Germany, Poland, UK, SU        |
 | Bofors 8cm Model 1929               | Field Gun    | Hungary                                 |
 | ARL 44                              | Heavy        | France                                  |
@@ -60,7 +61,11 @@ If you would like to help choose the next vehicles added to the collection, you 
 | IS-2 (1944)                         | Heavy        | Poland, SU                              |
 | ISU-122S                            | Heavy        | Poland, SU                              |
 | Jagdtiger                           | Heavy        | Germany                                 |
-| KV-1E                               | Heavy        | Finland, Germany, SU                    |
+| KV-1 (1939)                         | Heavy        | Germany, SU                             |
+| KV-1 (1940)                         | Heavy        | Finland, Germany, SU                    |
+| KV-1 (1941)                         | Heavy        | German, SU                              |
+| KV-1 (1942)                         | Heavy        | Finland, German, SU                     |
+| KV-1S                               | Heavy        | SU                                      |
 | M26 Pershing                        | Heavy        | USA                                     |
 | M6A1                                | Heavy        | USA                                     |
 | St Chamond                          | Heavy        | France                                  |
@@ -92,6 +97,7 @@ If you would like to help choose the next vehicles added to the collection, you 
 | FT-17 (MG)                          | Light        | Currently only France                   |
 | Hotchkiss H35                       | Light        | France, Germany, Hungary                |
 | Hotchkiss H39                       | Light        | France, Germany, Poland, Hungary        |
+| Jagdpanzer 38(t) ""Hetzer""         | Light        | Germany, Hungary, Poland                |
 | Light Tank Mk VIII                  | Light        | UK                                      |
 | M22 Locust                          | Light        | UK                                      |
 | M2A4 Stuart I                       | Light        | France, UK, USA, SU                     |
