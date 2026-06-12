@@ -1005,19 +1005,6 @@
       }
     },
     {
-      "id": 0,
-      "type": "paintJobRegister",
-      "blueprint": {
-        "v": "0.0",
-        "name": null,
-        "description": null,
-        "paintJobIDs": [
-          1,
-          2
-        ]
-      }
-    },
-    {
       "id": 77,
       "type": "fuelTank",
       "blueprint": {
@@ -1039,6 +1026,42 @@
         "x": 377,
         "y": 419,
         "z": 1202
+      }
+    },
+    {
+      "id": 5,
+      "type": "paintJobRegister",
+      "blueprint": {
+        "v": "0.0",
+        "name": null,
+        "description": null,
+        "paintJobIDs": [
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "id": 49,
+      "type": "decalTransform",
+      "blueprint": {
+        "v": "0.0",
+        "name": null,
+        "description": null,
+        "x": 670,
+        "y": 499,
+        "z": 124,
+        "flags": 0
+      }
+    },
+    {
+      "id": 76,
+      "type": "decal",
+      "blueprint": {
+        "v": "0.3",
+        "name": null,
+        "description": null,
+        "imageURL": "Sprocket/Decals/ALL_Canvas.png"
       }
     }
   ],
@@ -1794,7 +1817,7 @@
         "mirrorVuid": -1,
         "pos": [
           0.0,
-          0.8074341,
+          0.807434,
           1.26013184
         ],
         "rot": [
@@ -2087,7 +2110,7 @@
         ],
         "rot": [
           1.02525873E-05,
-          -3.56100572E-05,
+          -3.56100536E-05,
           18.89336,
           0.0
         ],
@@ -2315,7 +2338,7 @@
         ],
         "rot": [
           3.71915746,
-          0.8360208,
+          0.8360209,
           3.342092E-09,
           0.0
         ],
@@ -2343,9 +2366,9 @@
           -2.25979614
         ],
         "rot": [
-          3.7191596,
+          3.71916,
           359.163971,
-          -1.83815061E-08,
+          -2.17235971E-08,
           0.0
         ],
         "scale": [
@@ -2367,8 +2390,8 @@
       "transform": {
         "mirrorVuid": -1,
         "pos": [
-          0.761000037,
-          0.921447754,
+          0.761000156,
+          0.9214477,
           -0.353515625
         ],
         "rot": [
@@ -2990,6 +3013,62 @@
         ]
       },
       "fuelTankBlueprintVuid": 78
+    },
+    {
+      "guid": "e59ff736-a6ea-4a1a-a4c5-6437ed15b872",
+      "vuid": 208,
+      "pvuid": 0,
+      "flags": 2,
+      "decalScaler": 209,
+      "projectedDecal": 210,
+      "transform": {
+        "mirrorVuid": -1,
+        "pos": [
+          0.0,
+          2.19603181,
+          0.829
+        ],
+        "rot": [
+          90.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          0.67,
+          0.499,
+          0.124000005
+        ]
+      },
+      "decalProjectionBlueprintVuid": 49,
+      "decalBlueprintVuid": 76
+    },
+    {
+      "guid": "8bdfa0e2-21f3-4d68-ac8e-eba4b481de15",
+      "vuid": 222,
+      "pvuid": 0,
+      "flags": 2,
+      "exhaust": 223,
+      "model": 266,
+      "transform": {
+        "mirrorVuid": -1,
+        "pos": [
+          0.255013,
+          1.34513307,
+          -2.245059
+        ],
+        "rot": [
+          0.451159358,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          0.5,
+          0.5,
+          0.5
+        ]
+      }
     }
   ],
   "meshes": [
