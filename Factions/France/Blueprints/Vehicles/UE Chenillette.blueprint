@@ -22,9 +22,9 @@
         "scale": 0.5,
         "roughness": 0.5,
         "metallic": 0.0,
-        "r": 0.234400064,
-        "g": 0.25,
-        "b": 0.0550000221,
+        "r": 0.208598062,
+        "g": 0.24,
+        "b": 0.144000009,
         "saturation": 0.5,
         "condition": 0.5,
         "grime": 0.5
@@ -514,6 +514,75 @@
       }
     },
     {
+      "id": 38,
+      "type": "decalTransform",
+      "blueprint": {
+        "v": "0.0",
+        "name": null,
+        "description": null,
+        "x": 151,
+        "y": 151,
+        "z": 38,
+        "flags": 0
+      }
+    },
+    {
+      "id": 39,
+      "type": "decal",
+      "blueprint": {
+        "v": "0.3",
+        "name": null,
+        "description": null,
+        "imageURL": "7df1ce88-cc63-4e24-8cff-8ce830492b43"
+      }
+    },
+    {
+      "id": 40,
+      "type": "decalTransform",
+      "blueprint": {
+        "v": "0.0",
+        "name": null,
+        "description": null,
+        "x": 175,
+        "y": 99,
+        "z": 25,
+        "flags": 0
+      }
+    },
+    {
+      "id": 41,
+      "type": "decal",
+      "blueprint": {
+        "v": "0.3",
+        "name": null,
+        "description": null,
+        "imageURL": "7df1ce88-cc63-4e24-8cff-8ce830492b43"
+      }
+    },
+    {
+      "id": 42,
+      "type": "decalTransform",
+      "blueprint": {
+        "v": "0.0",
+        "name": null,
+        "description": null,
+        "x": 175,
+        "y": 99,
+        "z": 25,
+        "flags": 0
+      }
+    },
+    {
+      "id": 43,
+      "type": "decal",
+      "blueprint": {
+        "v": "0.3",
+        "name": null,
+        "description": null,
+        "imageURL": "7df1ce88-cc63-4e24-8cff-8ce830492b43"
+      }
+    },
+    {
       "id": 30,
       "type": "fuelTank",
       "blueprint": {
@@ -523,52 +592,6 @@
         "x": 352,
         "y": 298,
         "z": 535
-      }
-    },
-    {
-      "id": 34,
-      "type": "decalTransform",
-      "blueprint": {
-        "v": "0.0",
-        "name": null,
-        "description": null,
-        "x": 100,
-        "y": 199,
-        "z": 46,
-        "flags": 0
-      }
-    },
-    {
-      "id": 36,
-      "type": "decal",
-      "blueprint": {
-        "v": "0.3",
-        "name": null,
-        "description": null,
-        "imageURL": "Sprocket/Decals/1st Polish Grenadier Infantry Division.png"
-      }
-    },
-    {
-      "id": 37,
-      "type": "decalTransform",
-      "blueprint": {
-        "v": "0.0",
-        "name": null,
-        "description": null,
-        "x": 200,
-        "y": 200,
-        "z": 25,
-        "flags": 0
-      }
-    },
-    {
-      "id": 38,
-      "type": "decal",
-      "blueprint": {
-        "v": "0.3",
-        "name": null,
-        "description": null,
-        "imageURL": "Sprocket/Decals/Royal Artillery.png"
       }
     },
     {
@@ -781,16 +804,16 @@
             3.07556917E-07,
             0.4648247,
             0.9990545,
-            -0.5575,
+            -0.5575001,
             0.356598139,
             1.04992092,
-            0.5575,
+            0.5575001,
             0.356598169,
             1.04992092,
-            -0.5575,
+            -0.5574999,
             0.0,
             0.0,
-            0.5575,
+            0.5574999,
             0.0,
             0.0
           ],
@@ -830,9 +853,9 @@
             0.0,
             0.0,
             0.0,
-            -2.23517418E-08,
-            0.306030273,
-            1.08000016,
+            -2.60770321E-07,
+            0.306,
+            1.07999992,
             -0.144821227,
             0.108226553,
             0.05086647,
@@ -842,9 +865,9 @@
             0.0,
             0.0,
             0.0,
-            2.23517418E-08,
-            0.306030273,
-            1.08000016
+            2.60770321E-07,
+            0.306,
+            1.07999992
           ],
           "portDirections": [
             0.0,
@@ -1390,7 +1413,7 @@
         "pos": [
           -0.383449078,
           -0.03326416,
-          0.152832031
+          0.152832508
         ],
         "rot": [
           0.0,
@@ -1419,7 +1442,7 @@
         "pos": [
           0.4063034,
           -0.03326416,
-          0.152832031
+          0.152832508
         ],
         "rot": [
           0.0,
@@ -1491,6 +1514,93 @@
       }
     },
     {
+      "guid": "e59ff736-a6ea-4a1a-a4c5-6437ed15b872",
+      "vuid": 229,
+      "pvuid": 0,
+      "flags": 3,
+      "decalScaler": 230,
+      "projectedDecal": 231,
+      "transform": {
+        "mirrorVuid": -1,
+        "pos": [
+          -0.8358238,
+          0.705161333,
+          -0.121948242
+        ],
+        "rot": [
+          0.0,
+          89.3953247,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          0.151000008,
+          0.151000008,
+          0.0380000025
+        ]
+      },
+      "decalProjectionBlueprintVuid": 38,
+      "decalBlueprintVuid": 39
+    },
+    {
+      "guid": "e59ff736-a6ea-4a1a-a4c5-6437ed15b872",
+      "vuid": 232,
+      "pvuid": 0,
+      "flags": 2,
+      "decalScaler": 233,
+      "projectedDecal": 234,
+      "transform": {
+        "mirrorVuid": -1,
+        "pos": [
+          0.0,
+          0.303126335,
+          1.27206421
+        ],
+        "rot": [
+          21.1757965,
+          180.0,
+          -1.09147778E-13,
+          0.0
+        ],
+        "scale": [
+          0.175000012,
+          0.09900001,
+          0.025
+        ]
+      },
+      "decalProjectionBlueprintVuid": 40,
+      "decalBlueprintVuid": 41
+    },
+    {
+      "guid": "e59ff736-a6ea-4a1a-a4c5-6437ed15b872",
+      "vuid": 235,
+      "pvuid": 0,
+      "flags": 2,
+      "decalScaler": 236,
+      "projectedDecal": 237,
+      "transform": {
+        "mirrorVuid": -1,
+        "pos": [
+          0.0,
+          0.5555935,
+          -1.16000366
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          0.175000012,
+          0.09900001,
+          0.025
+        ]
+      },
+      "decalProjectionBlueprintVuid": 42,
+      "decalBlueprintVuid": 43
+    },
+    {
       "guid": "5e8ab5c7-e9f1-4c64-a04a-29efc78b1918",
       "vuid": 208,
       "pvuid": 0,
@@ -1517,64 +1627,6 @@
         ]
       },
       "fuelTankBlueprintVuid": 30
-    },
-    {
-      "guid": "e59ff736-a6ea-4a1a-a4c5-6437ed15b872",
-      "vuid": 214,
-      "pvuid": 0,
-      "flags": 3,
-      "decalScaler": 215,
-      "projectedDecal": 216,
-      "transform": {
-        "mirrorVuid": -1,
-        "pos": [
-          -0.5343134,
-          0.55666256,
-          -1.16745
-        ],
-        "rot": [
-          356.980621,
-          0.14117,
-          -2.504767E-09,
-          0.0
-        ],
-        "scale": [
-          0.1,
-          0.199000016,
-          0.0460000038
-        ]
-      },
-      "decalProjectionBlueprintVuid": 34,
-      "decalBlueprintVuid": 36
-    },
-    {
-      "guid": "e59ff736-a6ea-4a1a-a4c5-6437ed15b872",
-      "vuid": 220,
-      "pvuid": 0,
-      "flags": 2,
-      "decalScaler": 221,
-      "projectedDecal": 222,
-      "transform": {
-        "mirrorVuid": -1,
-        "pos": [
-          0.5260883,
-          0.5518203,
-          -1.16000366
-        ],
-        "rot": [
-          0.0,
-          0.0,
-          0.0,
-          0.0
-        ],
-        "scale": [
-          0.2,
-          0.2,
-          0.025
-        ]
-      },
-      "decalProjectionBlueprintVuid": 37,
-      "decalBlueprintVuid": 38
     }
   ],
   "meshes": [
