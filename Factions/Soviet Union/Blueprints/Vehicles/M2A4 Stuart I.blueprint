@@ -3,12 +3,12 @@
   "header": {
     "v": "0.2",
     "name": "M2A4 Stuart I",
-    "gameVersion": "0.2.50.10",
-    "mass": 15089,
+    "gameVersion": "0.2.51.36",
+    "mass": 14835,
     "creationDate": "1941.12.31",
     "class": "",
     "desc": "",
-    "cost": 33570
+    "cost": 33014
   },
   "blueprints": [
     {
@@ -78,10 +78,12 @@
       "id": 6,
       "type": "powertrainSteeringControls",
       "blueprint": {
-        "v": "0.0",
+        "v": "0.2",
         "name": null,
         "description": null,
-        "viewportVUID": -1
+        "viewportVUID": -1,
+        "startInSecondGear": false,
+        "inclineThreshold": 5.0
       }
     },
     {
@@ -105,25 +107,27 @@
       "id": 8,
       "type": "transmission",
       "blueprint": {
-        "v": "0.4",
+        "v": "0.7",
         "name": "M2A4 Stuart I",
         "description": "",
+        "meshType": "constantMesh",
         "autoInputTorque": true,
         "maxInputTorque": 757.977844,
         "autoResistanceTorque": true,
         "maxResistanceTorque": 757.977844,
         "finalDriveRatio": 6.48,
-        "msrRatioThreshold": 1.0,
+        "msrRatioThreshold": 3.60000014,
         "auxillaryGearRatio": 1.0,
         "auxiliaryMsrRatioThreshold": 1.5,
         "d": [
-          8.17,
-          3.26,
-          1.63,
+          7.25,
+          3.81,
+          2.32,
+          1.47,
           1.0
         ],
         "r": [
-          3.26
+          8.37
         ]
       }
     },
@@ -301,17 +305,17 @@
       "id": 19,
       "type": "track",
       "blueprint": {
-        "v": "1.0",
+        "v": "1.1",
         "name": null,
         "description": null,
         "separation": 1347,
         "length": 4500,
-        "rrCoeff": 1.5,
         "brake": 139172,
         "autoBrake": true,
         "rollersEnabled": true,
         "matchChassis": false,
-        "frontalTransmission": true
+        "frontalTransmission": true,
+        "finalDriveRatio": 6.48
       }
     },
     {
@@ -333,12 +337,12 @@
       "id": 35,
       "type": "suspension",
       "blueprint": {
-        "v": "0.5",
+        "v": "0.6",
         "name": null,
         "description": null,
         "targetAngle": -5.0,
         "upTravelLimit": 1000.0,
-        "damper": 200.0,
+        "damper": 10018.0,
         "armLength": 500
       }
     },
@@ -1373,26 +1377,26 @@
             0.190734416,
             0.321604669,
             0.0,
-            0.104541622,
-            -0.290625751,
-            0.6161748,
-            0.104541622,
-            0.0491345674,
-            0.0133269429,
-            -0.0102945864,
-            -0.0388323069,
+            0.124653712,
+            -0.346537322,
+            0.266489923,
+            0.124653712,
+            0.0585872419,
+            0.0393646955,
+            -0.00622797,
+            -0.0152409077,
             0.0,
             0.0,
             0.0,
             -2.23517418E-08,
             0.2960205,
             1.606,
-            -0.6161748,
-            0.104541622,
-            0.0491345674,
-            -0.0133269429,
-            -0.0102945864,
-            -0.0388323069,
+            -0.266489923,
+            0.124653712,
+            0.0585872419,
+            -0.0393646955,
+            -0.00622797,
+            -0.0152409077,
             0.0,
             0.0,
             0.0,
@@ -1410,9 +1414,9 @@
             1.0,
             0.0,
             0.0,
-            0.314860076,
-            -0.243218765,
-            -0.9174464,
+            0.9225574,
+            -0.145959586,
+            -0.357188255,
             0.0,
             0.0,
             1.0,
@@ -1422,9 +1426,9 @@
             -1.0,
             0.0,
             0.0,
-            -0.3148603,
-            -0.243218288,
-            -0.9174464,
+            -0.9225575,
+            -0.145959511,
+            -0.357188344,
             0.0,
             0.0,
             1.0,
@@ -2392,9 +2396,9 @@
           0.784484863
         ],
         "rot": [
-          1.84415281,
-          -7.38271044E-13,
-          -1.64851372E-05,
+          1.84415364,
+          -7.891863E-13,
+          -1.648514E-05,
           0.0
         ],
         "scale": [
@@ -2421,8 +2425,8 @@
         ],
         "rot": [
           358.155853,
-          -5.30778834E-07,
-          1.649373E-05,
+          -5.30778948E-07,
+          1.64937355E-05,
           0.0
         ],
         "scale": [
@@ -2928,7 +2932,7 @@
         "rot": [
           358.384033,
           180.573,
-          0.363940448,
+          0.3639405,
           0.0
         ],
         "scale": [
@@ -2957,7 +2961,7 @@
         "rot": [
           356.8209,
           178.653488,
-          8.350484E-08,
+          9.01852246E-08,
           0.0
         ],
         "scale": [

@@ -3,12 +3,12 @@
   "header": {
     "v": "0.2",
     "name": "KV-1S",
-    "gameVersion": "0.2.50.10",
-    "mass": 37187,
+    "gameVersion": "0.2.51.36",
+    "mass": 38015,
     "creationDate": "1941.12.31",
     "class": "",
     "desc": "",
-    "cost": 40077
+    "cost": 39883
   },
   "blueprints": [
     {
@@ -78,10 +78,12 @@
       "id": 6,
       "type": "powertrainSteeringControls",
       "blueprint": {
-        "v": "0.0",
+        "v": "0.2",
         "name": null,
         "description": null,
-        "viewportVUID": -1
+        "viewportVUID": -1,
+        "startInSecondGear": false,
+        "inclineThreshold": 5.0
       }
     },
     {
@@ -105,26 +107,27 @@
       "id": 8,
       "type": "transmission",
       "blueprint": {
-        "v": "0.4",
-        "name": "KV-1S",
-        "description": null,
+        "v": "0.7",
+        "name": "KV-1",
+        "description": "",
+        "meshType": "slidingMesh",
         "autoInputTorque": true,
         "maxInputTorque": 2690.40479,
         "autoResistanceTorque": true,
         "maxResistanceTorque": 2690.40479,
-        "finalDriveRatio": 5.65,
-        "msrRatioThreshold": 3.60000014,
+        "finalDriveRatio": 6.23,
+        "msrRatioThreshold": 2.8,
         "auxillaryGearRatio": 1.0,
         "auxiliaryMsrRatioThreshold": 1.5,
         "d": [
-          10.25,
-          4.15,
-          2.21,
-          1.41,
-          1.0
+          5.56,
+          2.91,
+          1.74,
+          1.14,
+          0.79
         ],
         "r": [
-          4.15
+          5.09
         ]
       }
     },
@@ -302,17 +305,17 @@
       "id": 19,
       "type": "track",
       "blueprint": {
-        "v": "1.0",
+        "v": "1.1",
         "name": null,
         "description": null,
         "separation": 1720,
         "length": 6750,
-        "rrCoeff": 1.5,
-        "brake": 243101,
+        "brake": 304127,
         "autoBrake": true,
         "rollersEnabled": true,
         "matchChassis": false,
-        "frontalTransmission": false
+        "frontalTransmission": false,
+        "finalDriveRatio": 8.75
       }
     },
     {
@@ -334,12 +337,12 @@
       "id": 35,
       "type": "suspension",
       "blueprint": {
-        "v": "0.5",
+        "v": "0.6",
         "name": null,
         "description": null,
         "targetAngle": -15.0,
         "upTravelLimit": 1000.0,
-        "damper": 200.0,
+        "damper": 10018.0,
         "armLength": 500
       }
     },
@@ -1434,7 +1437,7 @@
       }
     },
     {
-      "id": 5,
+      "id": 0,
       "type": "paintJobRegister",
       "blueprint": {
         "v": "0.0",
@@ -1644,11 +1647,11 @@
             0.2912466,
             -2.845206,
             -0.86,
-            0.4542855,
-            -2.92183423,
+            0.476436079,
+            -2.932245,
             0.86,
-            0.4542855,
-            -2.92183447,
+            0.476436079,
+            -2.93224525,
             -0.86,
             0.0,
             0.0,
@@ -1681,32 +1684,32 @@
             0.274453,
             0.7402478,
             0.0,
-            0.163038924,
-            -0.453248173,
-            0.6679453,
-            0.163038924,
-            0.07662828,
-            0.06963593,
+            0.185189471,
+            -0.5148267,
+            0.9279789,
+            0.185189471,
+            0.087039046,
+            -0.056791544,
             0.0,
             0.0,
             0.0,
             0.0,
             0.0,
             -2.23517418E-08,
-            0.366027832,
-            -2.92800021,
-            -0.6679453,
-            0.163038924,
-            0.07662828,
-            -0.06963593,
+            0.366000056,
+            -2.928009,
+            -0.9279789,
+            0.185189471,
+            0.087039046,
+            0.056791544,
             0.0,
             0.0,
             0.0,
             0.0,
             0.0,
             2.23517418E-08,
-            0.366027832,
-            -2.92800021
+            0.366000056,
+            -2.928009
           ],
           "portDirections": [
             0.0,
@@ -1718,7 +1721,7 @@
             1.0,
             0.0,
             0.0,
-            1.0,
+            -1.0,
             0.0,
             0.0,
             0.0,
@@ -1730,7 +1733,7 @@
             -1.0,
             0.0,
             0.0,
-            -1.0,
+            1.0,
             0.0,
             0.0,
             0.0,
@@ -2826,7 +2829,7 @@
         "rot": [
           14.6844053,
           273.9776,
-          -0.00323473732,
+          -0.00323561975,
           0.0
         ],
         "scale": [
@@ -3135,7 +3138,7 @@
           2.33886719
         ],
         "rot": [
-          1.578636,
+          1.57863593,
           0.0,
           0.0,
           0.0
@@ -3608,7 +3611,7 @@
         "rot": [
           325.885468,
           90.00005,
-          -1.03122984E-05,
+          -1.23747577E-05,
           0.0
         ],
         "scale": [
@@ -3662,9 +3665,9 @@
           -2.11901855
         ],
         "rot": [
-          325.885468,
+          325.885437,
           90.0001,
-          2.06245954E-06,
+          0.0,
           0.0
         ],
         "scale": [

@@ -3,12 +3,12 @@
   "header": {
     "v": "0.2",
     "name": "AEC Mk.I",
-    "gameVersion": "0.2.50.10",
-    "mass": 14053,
+    "gameVersion": "0.2.51.36",
+    "mass": 16178,
     "creationDate": "1943.12.31",
     "class": "",
-    "desc": "",
-    "cost": 29192
+    "desc": "Currently depricated as of 0.2.51.36",
+    "cost": 34407
   },
   "blueprints": [
     {
@@ -78,10 +78,12 @@
       "id": 6,
       "type": "powertrainSteeringControls",
       "blueprint": {
-        "v": "0.0",
+        "v": "0.2",
         "name": null,
         "description": null,
-        "viewportVUID": -1
+        "viewportVUID": -1,
+        "startInSecondGear": false,
+        "inclineThreshold": 5.0
       }
     },
     {
@@ -105,9 +107,10 @@
       "id": 8,
       "type": "transmission",
       "blueprint": {
-        "v": "0.4",
+        "v": "0.7",
         "name": "aec",
         "description": "",
+        "meshType": "synchromesh",
         "autoInputTorque": true,
         "maxInputTorque": 352.182526,
         "autoResistanceTorque": true,
@@ -303,17 +306,17 @@
       "id": 19,
       "type": "track",
       "blueprint": {
-        "v": "1.0",
+        "v": "1.1",
         "name": "Wheels",
         "description": "",
         "separation": 1649,
         "length": 5200,
-        "rrCoeff": 1.25,
         "brake": 109221,
         "autoBrake": true,
         "rollersEnabled": false,
         "matchChassis": false,
-        "frontalTransmission": false
+        "frontalTransmission": false,
+        "finalDriveRatio": 15.0
       }
     },
     {
@@ -335,12 +338,12 @@
       "id": 35,
       "type": "suspension",
       "blueprint": {
-        "v": "0.5",
+        "v": "0.6",
         "name": "",
         "description": "",
         "targetAngle": -30.0,
         "upTravelLimit": 1000.0,
-        "damper": 200.0,
+        "damper": 10018.0,
         "armLength": 500
       }
     },
@@ -1119,7 +1122,7 @@
       }
     },
     {
-      "id": 0,
+      "id": 5,
       "type": "paintJobRegister",
       "blueprint": {
         "v": "0.0",
@@ -1403,9 +1406,9 @@
           1.6895752
         ],
         "rot": [
-          52.32193,
+          52.3219337,
           180.0,
-          3.33029286E-13,
+          0.0,
           0.0
         ],
         "scale": [
@@ -1831,8 +1834,8 @@
           0.921424448
         ],
         "rot": [
-          0.319283038,
-          0.0,
+          0.319283068,
+          6.361208E-15,
           -2.1701806E-05,
           0.0
         ],
@@ -1912,9 +1915,9 @@
           -0.133610711
         ],
         "rot": [
-          -0.003148723,
-          29.3273373,
-          -0.000643629348,
+          -0.00320174126,
+          29.3363113,
+          -0.000651754439,
           0.0
         ],
         "scale": [
@@ -2024,8 +2027,8 @@
         ],
         "rot": [
           0.243812039,
-          -1.02449449E-05,
-          1.71635762E-07,
+          -1.02449458E-05,
+          1.71635747E-07,
           0.0
         ],
         "scale": [
@@ -2080,9 +2083,9 @@
           -0.38064903
         ],
         "rot": [
-          89.76677,
-          179.993744,
-          224.99379,
+          89.76761,
+          179.993286,
+          224.993469,
           0.0
         ],
         "scale": [

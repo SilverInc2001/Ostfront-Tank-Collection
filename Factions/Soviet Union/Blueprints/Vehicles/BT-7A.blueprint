@@ -3,12 +3,12 @@
   "header": {
     "v": "0.2",
     "name": "BT-7A",
-    "gameVersion": "0.2.50.10",
-    "mass": 13053,
+    "gameVersion": "0.2.51.36",
+    "mass": 14037,
     "creationDate": "1941.12.31",
     "class": "",
     "desc": "",
-    "cost": 25501
+    "cost": 25117
   },
   "blueprints": [
     {
@@ -58,7 +58,7 @@
         "description": null,
         "length": 6000,
         "width": 2000,
-        "groundClearance": 360
+        "groundClearance": 359
       }
     },
     {
@@ -78,10 +78,12 @@
       "id": 6,
       "type": "powertrainSteeringControls",
       "blueprint": {
-        "v": "0.0",
+        "v": "0.2",
         "name": null,
         "description": null,
-        "viewportVUID": -1
+        "viewportVUID": -1,
+        "startInSecondGear": false,
+        "inclineThreshold": 5.0
       }
     },
     {
@@ -105,25 +107,26 @@
       "id": 8,
       "type": "transmission",
       "blueprint": {
-        "v": "0.4",
-        "name": null,
-        "description": null,
+        "v": "0.7",
+        "name": "BT",
+        "description": "",
+        "meshType": "slidingMesh",
         "autoInputTorque": true,
         "maxInputTorque": 1890.77991,
         "autoResistanceTorque": true,
         "maxResistanceTorque": 1890.77991,
-        "finalDriveRatio": 3.28,
-        "msrRatioThreshold": 5.3,
-        "auxillaryGearRatio": 2.0,
+        "finalDriveRatio": 3.67,
+        "msrRatioThreshold": 7.0,
+        "auxillaryGearRatio": 1.0,
         "auxiliaryMsrRatioThreshold": 1.5,
         "d": [
-          5.59,
-          2.48,
-          1.46,
+          6.53,
+          3.12,
+          1.7,
           1.0
         ],
         "r": [
-          2.48
+          7.5
         ]
       }
     },
@@ -301,17 +304,17 @@
       "id": 19,
       "type": "track",
       "blueprint": {
-        "v": "1.0",
+        "v": "1.1",
         "name": null,
         "description": null,
         "separation": 1375,
         "length": 6000,
-        "rrCoeff": 1.5,
         "brake": 103925,
         "autoBrake": true,
         "rollersEnabled": false,
         "matchChassis": false,
-        "frontalTransmission": false
+        "frontalTransmission": false,
+        "finalDriveRatio": 3.28
       }
     },
     {
@@ -333,12 +336,12 @@
       "id": 35,
       "type": "suspension",
       "blueprint": {
-        "v": "0.5",
+        "v": "0.6",
         "name": null,
         "description": null,
         "targetAngle": -34.0,
         "upTravelLimit": 1000.0,
-        "damper": 200.0,
+        "damper": 10018.0,
         "armLength": 450
       }
     },
@@ -1197,19 +1200,6 @@
       }
     },
     {
-      "id": 0,
-      "type": "paintJobRegister",
-      "blueprint": {
-        "v": "0.0",
-        "name": null,
-        "description": null,
-        "paintJobIDs": [
-          1,
-          2
-        ]
-      }
-    },
-    {
       "id": 61,
       "type": "decalTransform",
       "blueprint": {
@@ -1299,6 +1289,19 @@
         "name": null,
         "description": null,
         "imageURL": "Sprocket/Decals/Century White 2.png"
+      }
+    },
+    {
+      "id": 5,
+      "type": "paintJobRegister",
+      "blueprint": {
+        "v": "0.0",
+        "name": null,
+        "description": null,
+        "paintJobIDs": [
+          1,
+          2
+        ]
       }
     }
   ],
@@ -1536,32 +1539,32 @@
             0.2300804,
             0.6205671,
             0.0,
-            0.195511788,
-            -0.5435228,
-            0.518631041,
-            0.195511788,
-            0.0918905362,
-            0.0214487314,
-            0.02429679,
-            0.03883612,
+            0.257633984,
+            -0.7162225,
+            0.5919919,
+            0.257633984,
+            0.121087976,
+            0.0110360384,
+            0.0386774838,
+            0.0386618376,
             0.0,
             0.0,
             0.0,
             -2.23517418E-08,
-            0.262000084,
-            -2.18798828,
-            -0.518631041,
-            0.195511788,
-            0.0918905362,
-            -0.0214487314,
-            0.02429679,
-            0.03883612,
+            0.262023926,
+            -2.1880002,
+            -0.5919919,
+            0.257633984,
+            0.121087976,
+            -0.0110360384,
+            0.0386774838,
+            0.0386618376,
             0.0,
             0.0,
             0.0,
             2.23517418E-08,
-            0.262000084,
-            -2.18798828
+            0.262023926,
+            -2.1880002
           ],
           "portDirections": [
             0.0,
@@ -1573,9 +1576,9 @@
             1.0,
             0.0,
             0.0,
-            0.4240317,
-            0.480335832,
-            0.767772436,
+            0.197815686,
+            0.693273544,
+            0.692994058,
             0.0,
             0.0,
             1.0,
@@ -1585,9 +1588,9 @@
             -1.0,
             0.0,
             0.0,
-            -0.424031526,
-            0.48033607,
-            0.767772436,
+            -0.197815359,
+            0.6932738,
+            0.6929939,
             0.0,
             0.0,
             1.0,
@@ -2282,9 +2285,9 @@
           0.206604
         ],
         "rot": [
-          14.8742361,
+          14.874238,
           253.20874,
-          -2.6501225E-06,
+          -3.0918095E-06,
           0.0
         ],
         "scale": [
@@ -2340,9 +2343,9 @@
           -0.0807189941
         ],
         "rot": [
-          14.8280354,
+          14.8280373,
           275.1261,
-          0.0001722211,
+          0.000173104287,
           0.0
         ],
         "scale": [

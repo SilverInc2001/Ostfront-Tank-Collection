@@ -3,12 +3,12 @@
   "header": {
     "v": "0.2",
     "name": "Carro Armato L3 CC",
-    "gameVersion": "0.2.50.10",
-    "mass": 3023,
+    "gameVersion": "0.2.51.36",
+    "mass": 3054,
     "creationDate": "1941.12.31",
     "class": "",
     "desc": "",
-    "cost": 9666
+    "cost": 9168
   },
   "blueprints": [
     {
@@ -78,10 +78,12 @@
       "id": 6,
       "type": "powertrainSteeringControls",
       "blueprint": {
-        "v": "0.0",
+        "v": "0.2",
         "name": null,
         "description": null,
-        "viewportVUID": -1
+        "viewportVUID": -1,
+        "startInSecondGear": false,
+        "inclineThreshold": 5.0
       }
     },
     {
@@ -105,25 +107,26 @@
       "id": 8,
       "type": "transmission",
       "blueprint": {
-        "v": "0.4",
-        "name": null,
-        "description": null,
+        "v": "0.7",
+        "name": "Carro Veloce CV.33",
+        "description": "",
+        "meshType": "slidingMesh",
         "autoInputTorque": true,
         "maxInputTorque": 190.466232,
         "autoResistanceTorque": true,
         "maxResistanceTorque": 190.466232,
         "finalDriveRatio": 6.16,
-        "msrRatioThreshold": 7.3,
+        "msrRatioThreshold": 4.1,
         "auxillaryGearRatio": 1.0,
         "auxiliaryMsrRatioThreshold": 1.5,
         "d": [
-          7.64,
-          3.1,
-          1.6,
+          4.25,
+          2.4,
+          1.45,
           1.0
         ],
         "r": [
-          3.1
+          5.1
         ]
       }
     },
@@ -301,17 +304,17 @@
       "id": 19,
       "type": "track",
       "blueprint": {
-        "v": "1.0",
+        "v": "1.1",
         "name": null,
         "description": null,
         "separation": 788,
         "length": 6000,
-        "rrCoeff": 1.5,
         "brake": 24188,
         "autoBrake": true,
         "rollersEnabled": false,
         "matchChassis": false,
-        "frontalTransmission": true
+        "frontalTransmission": true,
+        "finalDriveRatio": 6.16
       }
     },
     {
@@ -333,12 +336,12 @@
       "id": 35,
       "type": "suspension",
       "blueprint": {
-        "v": "0.5",
+        "v": "0.6",
         "name": null,
         "description": null,
         "targetAngle": -5.0,
         "upTravelLimit": 1000.0,
-        "damper": 200.0,
+        "damper": 10018.0,
         "armLength": 500
       }
     },
@@ -899,19 +902,6 @@
       }
     },
     {
-      "id": 5,
-      "type": "paintJobRegister",
-      "blueprint": {
-        "v": "0.0",
-        "name": null,
-        "description": null,
-        "paintJobIDs": [
-          1,
-          2
-        ]
-      }
-    },
-    {
       "id": 48,
       "type": "decalTransform",
       "blueprint": {
@@ -932,6 +922,19 @@
         "name": null,
         "description": null,
         "imageURL": "Sprocket/Decals/Arial 2 White.png"
+      }
+    },
+    {
+      "id": 5,
+      "type": "paintJobRegister",
+      "blueprint": {
+        "v": "0.0",
+        "name": null,
+        "description": null,
+        "paintJobIDs": [
+          1,
+          2
+        ]
       }
     }
   ],
@@ -1132,11 +1135,11 @@
             0.445622176,
             1.16954482,
             -0.394000024,
-            0.339404881,
-            1.21946692,
+            0.3490449,
+            1.21493614,
             0.394000024,
-            0.3394049,
-            1.21946692,
+            0.349044919,
+            1.21493614,
             -0.394000024,
             0.0,
             0.0,
@@ -1169,32 +1172,32 @@
             0.12648201,
             0.17064026,
             0.0,
-            0.106217265,
-            -0.295284,
-            0.125260189,
-            0.106217265,
-            0.0499221124,
-            0.0261189938,
+            0.09657726,
+            -0.268484771,
+            0.20756343,
+            0.09657726,
+            0.04539131,
+            0.022827,
             0.0,
             0.0,
             0.0,
             0.0,
             0.0,
             7.450581E-09,
-            0.232971191,
-            1.33900011,
-            -0.125260189,
-            0.106217265,
-            0.0499221124,
-            -0.0261189938,
+            0.23300004,
+            1.33898926,
+            -0.20756343,
+            0.09657726,
+            0.04539131,
+            -0.022827,
             0.0,
             0.0,
             0.0,
             0.0,
             0.0,
             -7.450581E-09,
-            0.232971191,
-            1.33900011
+            0.23300004,
+            1.33898926
           ],
           "portDirections": [
             0.0,
@@ -1774,8 +1777,8 @@
           -1.27246094
         ],
         "rot": [
-          0.154028252,
-          -4.16883167E-10,
+          0.154028282,
+          -6.25324736E-10,
           358.669342,
           0.0
         ],
@@ -1801,8 +1804,8 @@
           -1.27246094
         ],
         "rot": [
-          0.154028252,
-          8.33766334E-10,
+          0.154028282,
+          1.042208E-09,
           1.33064461,
           0.0
         ],
@@ -2136,9 +2139,9 @@
           -1.22180176
         ],
         "rot": [
-          9.08873749,
+          9.088739,
           89.96994,
-          0.251258582,
+          0.251259416,
           0.0
         ],
         "scale": [
@@ -2163,9 +2166,9 @@
           0.200073242
         ],
         "rot": [
-          0.486883223,
+          0.4868833,
           179.828918,
-          -5.21120924E-11,
+          -1.04224185E-10,
           0.0
         ],
         "scale": [
@@ -2192,9 +2195,9 @@
           0.200042725
         ],
         "rot": [
-          0.486883163,
+          0.486883253,
           180.171082,
-          5.21120924E-11,
+          1.04224185E-10,
           0.0
         ],
         "scale": [
@@ -2584,9 +2587,9 @@
           -0.211669922
         ],
         "rot": [
-          0.566276848,
+          0.5662771,
           90.1345139,
-          1.067269E-07,
+          1.33408633E-07,
           0.0
         ],
         "scale": [
@@ -2613,9 +2616,9 @@
           -0.211669922
         ],
         "rot": [
-          0.566276848,
+          0.5662771,
           269.865479,
-          -1.067269E-07,
+          -1.33408619E-07,
           0.0
         ],
         "scale": [
@@ -2642,9 +2645,9 @@
           -0.205535889
         ],
         "rot": [
-          0.448313832,
-          90.08865,
-          -5.336248E-08,
+          0.448313981,
+          90.0886459,
+          -8.00437263E-08,
           0.0
         ],
         "scale": [
@@ -2671,9 +2674,9 @@
           -0.205535889
         ],
         "rot": [
-          0.448313832,
+          0.448313981,
           269.911346,
-          5.336248E-08,
+          8.00437263E-08,
           0.0
         ],
         "scale": [

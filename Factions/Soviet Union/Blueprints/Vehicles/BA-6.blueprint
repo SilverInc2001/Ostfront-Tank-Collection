@@ -3,12 +3,12 @@
   "header": {
     "v": "0.2",
     "name": "BA-6",
-    "gameVersion": "0.2.50.10",
-    "mass": 6148,
+    "gameVersion": "0.2.51.36",
+    "mass": 8205,
     "creationDate": "1941.12.31",
     "class": "",
-    "desc": "",
-    "cost": 22082
+    "desc": "Currently depricated as of 0.2.51.36",
+    "cost": 25302
   },
   "blueprints": [
     {
@@ -78,10 +78,12 @@
       "id": 6,
       "type": "powertrainSteeringControls",
       "blueprint": {
-        "v": "0.0",
+        "v": "0.2",
         "name": null,
         "description": null,
-        "viewportVUID": -1
+        "viewportVUID": -1,
+        "startInSecondGear": false,
+        "inclineThreshold": 5.0
       }
     },
     {
@@ -105,9 +107,10 @@
       "id": 8,
       "type": "transmission",
       "blueprint": {
-        "v": "0.4",
+        "v": "0.7",
         "name": null,
         "description": null,
+        "meshType": "synchromesh",
         "autoInputTorque": true,
         "maxInputTorque": 170.75325,
         "autoResistanceTorque": true,
@@ -301,17 +304,17 @@
       "id": 19,
       "type": "track",
       "blueprint": {
-        "v": "1.0",
+        "v": "1.1",
         "name": "Wheels",
         "description": "",
         "separation": 1118,
         "length": 5200,
-        "rrCoeff": 1.5,
         "brake": 51635,
         "autoBrake": true,
         "rollersEnabled": false,
         "matchChassis": false,
-        "frontalTransmission": false
+        "frontalTransmission": false,
+        "finalDriveRatio": 3.77
       }
     },
     {
@@ -333,12 +336,12 @@
       "id": 35,
       "type": "suspension",
       "blueprint": {
-        "v": "0.5",
+        "v": "0.6",
         "name": "",
         "description": "",
         "targetAngle": -48.0,
         "upTravelLimit": 1000.0,
-        "damper": 200.0,
+        "damper": 10018.0,
         "armLength": 274
       }
     },
@@ -1200,19 +1203,6 @@
       }
     },
     {
-      "id": 5,
-      "type": "paintJobRegister",
-      "blueprint": {
-        "v": "0.0",
-        "name": null,
-        "description": null,
-        "paintJobIDs": [
-          1,
-          2
-        ]
-      }
-    },
-    {
       "id": 25,
       "type": "decalTransform",
       "blueprint": {
@@ -1256,6 +1246,19 @@
         "name": null,
         "description": null,
         "imageURL": "Sprocket/Decals/Century White 1.png"
+      }
+    },
+    {
+      "id": 0,
+      "type": "paintJobRegister",
+      "blueprint": {
+        "v": "0.0",
+        "name": null,
+        "description": null,
+        "paintJobIDs": [
+          1,
+          2
+        ]
       }
     }
   ],
@@ -1550,9 +1553,9 @@
             0.0,
             0.138284534,
             0.2331669,
-            4.08576861E-09,
-            0.000213623047,
-            0.0273129344,
+            3.74298947E-09,
+            0.00019569695,
+            0.0250214934,
             0.0161108747,
             0.0,
             0.0,
@@ -2296,7 +2299,7 @@
         "rot": [
           356.479736,
           181.456009,
-          9.355802E-08,
+          9.689938E-08,
           0.0
         ],
         "scale": [
@@ -2325,7 +2328,7 @@
         "rot": [
           359.4829,
           178.237732,
-          -1.2506959E-08,
+          -1.33407569E-08,
           0.0
         ],
         "scale": [
@@ -2352,7 +2355,7 @@
           -1.99636841
         ],
         "rot": [
-          1.66828167,
+          1.66828191,
           359.443756,
           -2.25211547E-08,
           0.0
@@ -2381,7 +2384,7 @@
           0.7541375
         ],
         "rot": [
-          1.99904358,
+          1.99904382,
           5.012005E-06,
           180.0,
           0.0
@@ -3092,7 +3095,7 @@
         ],
         "rot": [
           0.0,
-          232.50061,
+          232.5006,
           0.0,
           0.0
         ],
@@ -3121,7 +3124,7 @@
         ],
         "rot": [
           358.0028,
-          6.624864E-06,
+          6.62486445E-06,
           1.18391717E-05,
           0.0
         ],
@@ -3150,7 +3153,7 @@
         ],
         "rot": [
           358.6832,
-          48.7732468,
+          48.773243,
           358.4977,
           0.0
         ],

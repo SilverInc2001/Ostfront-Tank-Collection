@@ -3,12 +3,12 @@
   "header": {
     "v": "0.2",
     "name": "M4A2 Sherman III (Mid)",
-    "gameVersion": "0.2.50.10",
-    "mass": 26319,
+    "gameVersion": "0.2.51.36",
+    "mass": 26089,
     "creationDate": "1943.12.31",
     "class": "",
     "desc": "",
-    "cost": 44194
+    "cost": 45047
   },
   "blueprints": [
     {
@@ -78,10 +78,12 @@
       "id": 6,
       "type": "powertrainSteeringControls",
       "blueprint": {
-        "v": "0.0",
+        "v": "0.2",
         "name": null,
         "description": null,
-        "viewportVUID": -1
+        "viewportVUID": -1,
+        "startInSecondGear": false,
+        "inclineThreshold": 5.0
       }
     },
     {
@@ -105,26 +107,27 @@
       "id": 8,
       "type": "transmission",
       "blueprint": {
-        "v": "0.4",
-        "name": "M4A2 Sherman III",
+        "v": "0.7",
+        "name": "M4 Sherman III",
         "description": "",
+        "meshType": "synchromesh",
         "autoInputTorque": true,
         "maxInputTorque": 1014.98566,
         "autoResistanceTorque": true,
         "maxResistanceTorque": 1014.98566,
-        "finalDriveRatio": 6.16,
-        "msrRatioThreshold": 5.9,
+        "finalDriveRatio": 7.25,
+        "msrRatioThreshold": 5.5,
         "auxillaryGearRatio": 1.0,
         "auxiliaryMsrRatioThreshold": 1.5,
         "d": [
-          16.64,
-          6.11,
-          2.74,
-          1.55,
+          5.56,
+          3.11,
+          1.78,
+          1.11,
           1.0
         ],
         "r": [
-          6.11
+          5.65
         ]
       }
     },
@@ -302,17 +305,17 @@
       "id": 19,
       "type": "track",
       "blueprint": {
-        "v": "1.0",
+        "v": "1.1",
         "name": "M4 Sherman I",
         "description": "",
         "separation": 1419,
         "length": 6060,
-        "rrCoeff": 1.25,
         "brake": 141645,
         "autoBrake": true,
         "rollersEnabled": true,
         "matchChassis": false,
-        "frontalTransmission": true
+        "frontalTransmission": true,
+        "finalDriveRatio": 6.16
       }
     },
     {
@@ -334,12 +337,12 @@
       "id": 35,
       "type": "suspension",
       "blueprint": {
-        "v": "0.5",
+        "v": "0.6",
         "name": "",
         "description": "",
         "targetAngle": -5.0,
         "upTravelLimit": 1000.0,
-        "damper": 200.0,
+        "damper": 10018.0,
         "armLength": 500
       }
     },
@@ -1430,19 +1433,6 @@
       }
     },
     {
-      "id": 0,
-      "type": "paintJobRegister",
-      "blueprint": {
-        "v": "0.0",
-        "name": null,
-        "description": null,
-        "paintJobIDs": [
-          1,
-          2
-        ]
-      }
-    },
-    {
       "id": 63,
       "type": "decalTransform",
       "blueprint": {
@@ -1555,6 +1545,19 @@
         "name": null,
         "description": null,
         "imageURL": "Sprocket/Decals/Century White 2.png"
+      }
+    },
+    {
+      "id": 5,
+      "type": "paintJobRegister",
+      "blueprint": {
+        "v": "0.0",
+        "name": null,
+        "description": null,
+        "paintJobIDs": [
+          1,
+          2
+        ]
       }
     }
   ],
@@ -2203,26 +2206,26 @@
             0.164473414,
             0.443613529,
             0.0,
-            0.138180539,
-            -0.384141833,
-            0.4102627,
-            0.138180539,
-            0.06494484,
-            0.0514902472,
-            0.0123852193,
-            -0.0115859509,
+            0.145838723,
+            -0.4054317,
+            0.349709928,
+            0.145838723,
+            0.0685442,
+            0.03668517,
+            0.00652855635,
+            -0.00647544861,
             0.0,
             0.0,
             0.0,
             -2.23517418E-08,
             0.292000055,
             2.850006,
-            -0.4102627,
-            0.138180539,
-            0.06494484,
-            -0.0514901876,
-            0.0123852491,
-            -0.0115859509,
+            -0.349709928,
+            0.145838723,
+            0.0685442,
+            -0.03668517,
+            0.00652855635,
+            -0.00647544861,
             0.0,
             0.0,
             0.0,
@@ -2240,9 +2243,9 @@
             1.0,
             0.0,
             0.0,
-            0.9498049,
-            0.228461847,
-            -0.21371907,
+            0.969993,
+            0.172621548,
+            -0.171217784,
             0.0,
             0.0,
             1.0,
@@ -2252,9 +2255,9 @@
             -1.0,
             0.0,
             0.0,
-            -0.9498048,
-            0.228462055,
-            -0.213719085,
+            -0.9699929,
+            0.172621712,
+            -0.1712178,
             0.0,
             0.0,
             1.0,
@@ -2374,7 +2377,7 @@
         "rot": [
           349.1827,
           186.482925,
-          1.46680713E-06,
+          1.5211333E-06,
           0.0
         ],
         "scale": [
@@ -2572,9 +2575,9 @@
           0.4199524
         ],
         "rot": [
-          2.91101951E-05,
+          2.91101987E-05,
           60.000042,
-          -2.238347E-05,
+          -2.23834686E-05,
           0.0
         ],
         "scale": [
@@ -3103,8 +3106,8 @@
           -1.32608032
         ],
         "rot": [
-          0.9052581,
-          -6.256634E-10,
+          0.905258358,
+          -6.25663465E-10,
           -7.914617E-08,
           0.0
         ],
@@ -3133,7 +3136,7 @@
         "rot": [
           5.809049,
           100.7843,
-          6.436354E-07,
+          8.58180556E-07,
           0.0
         ],
         "scale": [
@@ -3160,9 +3163,9 @@
           0.259521484
         ],
         "rot": [
-          5.80904865,
+          5.809049,
           259.2157,
-          -4.290903E-07,
+          -6.436354E-07,
           0.0
         ],
         "scale": [
@@ -3191,7 +3194,7 @@
         "rot": [
           2.212474,
           82.82568,
-          2.13602618E-07,
+          3.20403927E-07,
           0.0
         ],
         "scale": [
@@ -3220,7 +3223,7 @@
         "rot": [
           2.212474,
           277.174316,
-          -2.13602618E-07,
+          -3.20403927E-07,
           0.0
         ],
         "scale": [
@@ -3729,7 +3732,7 @@
         ],
         "rot": [
           358.595978,
-          0.5822847,
+          0.582284749,
           -5.00408159E-09,
           0.0
         ],

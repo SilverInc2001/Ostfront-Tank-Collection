@@ -3,12 +3,12 @@
   "header": {
     "v": "0.2",
     "name": "M3A3 Stuart V",
-    "gameVersion": "0.2.50.10",
-    "mass": 14678,
+    "gameVersion": "0.2.51.36",
+    "mass": 14405,
     "creationDate": "1943.12.31",
     "class": "",
     "desc": "",
-    "cost": 37733
+    "cost": 37117
   },
   "blueprints": [
     {
@@ -78,10 +78,12 @@
       "id": 6,
       "type": "powertrainSteeringControls",
       "blueprint": {
-        "v": "0.0",
+        "v": "0.2",
         "name": null,
         "description": null,
-        "viewportVUID": -1
+        "viewportVUID": -1,
+        "startInSecondGear": false,
+        "inclineThreshold": 5.0
       }
     },
     {
@@ -105,25 +107,27 @@
       "id": 8,
       "type": "transmission",
       "blueprint": {
-        "v": "0.4",
-        "name": "M3A3 Stuart V",
-        "description": null,
+        "v": "0.7",
+        "name": "M2A4 Stuart I",
+        "description": "",
+        "meshType": "constantMesh",
         "autoInputTorque": true,
         "maxInputTorque": 796.238831,
         "autoResistanceTorque": true,
         "maxResistanceTorque": 796.238831,
-        "finalDriveRatio": 5.48,
-        "msrRatioThreshold": 1.0,
+        "finalDriveRatio": 6.48,
+        "msrRatioThreshold": 3.60000014,
         "auxillaryGearRatio": 1.0,
         "auxiliaryMsrRatioThreshold": 1.5,
         "d": [
-          9.28,
-          3.6,
-          1.7,
+          7.25,
+          3.81,
+          2.32,
+          1.47,
           1.0
         ],
         "r": [
-          3.58
+          8.37
         ]
       }
     },
@@ -301,17 +305,17 @@
       "id": 19,
       "type": "track",
       "blueprint": {
-        "v": "1.0",
+        "v": "1.1",
         "name": null,
         "description": null,
         "separation": 1304,
         "length": 4500,
-        "rrCoeff": 1.25,
         "brake": 116158,
         "autoBrake": true,
         "rollersEnabled": true,
         "matchChassis": false,
-        "frontalTransmission": true
+        "frontalTransmission": true,
+        "finalDriveRatio": 5.48
       }
     },
     {
@@ -333,12 +337,12 @@
       "id": 35,
       "type": "suspension",
       "blueprint": {
-        "v": "0.5",
+        "v": "0.6",
         "name": null,
         "description": null,
         "targetAngle": -5.0,
         "upTravelLimit": 1000.0,
-        "damper": 200.0,
+        "damper": 10018.0,
         "armLength": 500
       }
     },
@@ -1267,6 +1271,29 @@
       }
     },
     {
+      "id": 46,
+      "type": "decalTransform",
+      "blueprint": {
+        "v": "0.0",
+        "name": null,
+        "description": null,
+        "x": 67,
+        "y": 67,
+        "z": 282,
+        "flags": 0
+      }
+    },
+    {
+      "id": 48,
+      "type": "decal",
+      "blueprint": {
+        "v": "0.3",
+        "name": null,
+        "description": null,
+        "imageURL": "Sprocket/Decals/Black Circle.png"
+      }
+    },
+    {
       "id": 5,
       "type": "paintJobRegister",
       "blueprint": {
@@ -1514,26 +1541,26 @@
             0.190734416,
             0.321604669,
             0.0,
-            0.10383673,
-            -0.2886661,
-            0.658351,
-            0.10383673,
-            0.04880326,
-            0.00547528267,
-            0.0131717622,
-            -0.0386033058,
+            0.122866742,
+            -0.3415695,
+            0.273133,
+            0.122866742,
+            0.057747364,
+            0.0385910869,
+            0.0016784966,
+            -0.009433031,
             0.0,
             0.0,
             0.0,
             -2.23517418E-08,
             0.268981934,
             1.47199988,
-            -0.658351,
-            0.10383673,
-            0.04880326,
-            -0.00547528267,
-            0.0131718218,
-            -0.0386031866,
+            -0.273133,
+            0.122866742,
+            0.057747364,
+            -0.0385910869,
+            0.0016784966,
+            -0.009433031,
             0.0,
             0.0,
             0.0,
@@ -1551,9 +1578,9 @@
             1.0,
             0.0,
             0.0,
-            0.133042544,
-            0.320057154,
-            -0.9380102,
+            0.970535338,
+            0.0422128774,
+            -0.2372324,
             0.0,
             0.0,
             1.0,
@@ -1563,9 +1590,9 @@
             -1.0,
             0.0,
             0.0,
-            -0.133042634,
-            0.3200584,
-            -0.9380098,
+            -0.970535338,
+            0.0422130227,
+            -0.2372324,
             0.0,
             0.0,
             1.0,
@@ -2290,8 +2317,8 @@
           -0.7604675
         ],
         "rot": [
-          0.5534155,
-          -1.65396546E-13,
+          0.5534156,
+          -1.78119347E-13,
           -1.700297E-05,
           0.0
         ],
@@ -2331,6 +2358,35 @@
       "structureBlueprintVuid": 45
     },
     {
+      "guid": "e59ff736-a6ea-4a1a-a4c5-6437ed15b872",
+      "vuid": 223,
+      "pvuid": 235,
+      "flags": 2,
+      "decalScaler": 224,
+      "projectedDecal": 225,
+      "transform": {
+        "mirrorVuid": -1,
+        "pos": [
+          0.13280721,
+          0.190984845,
+          -0.117931649
+        ],
+        "rot": [
+          90.0,
+          179.999985,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          0.067,
+          0.067,
+          0.282
+        ]
+      },
+      "decalProjectionBlueprintVuid": 46,
+      "decalBlueprintVuid": 48
+    },
+    {
       "guid": "f90f373f-4edb-4563-a162-6eee6a5d77dd",
       "vuid": 198,
       "pvuid": 193,
@@ -2347,7 +2403,7 @@
         "rot": [
           359.4466,
           -1.642353E-07,
-          1.70038111E-05,
+          1.70038147E-05,
           0.0
         ],
         "scale": [
@@ -2729,7 +2785,7 @@
       "transform": {
         "mirrorVuid": -1,
         "pos": [
-          0.31659174,
+          0.3165917,
           -0.9994507,
           -0.242248535
         ],
@@ -2924,7 +2980,7 @@
       "transform": {
         "mirrorVuid": 201,
         "pos": [
-          0.410803318,
+          0.410803258,
           0.0440063477,
           0.589386
         ],
@@ -3070,7 +3126,7 @@
           1.45175171
         ],
         "rot": [
-          0.8563833,
+          0.856383443,
           179.428024,
           0.512159765,
           0.0
@@ -3101,7 +3157,7 @@
         "rot": [
           356.273438,
           188.615631,
-          5.614761E-07,
+          6.1495E-07,
           0.0
         ],
         "scale": [
@@ -3130,7 +3186,7 @@
         "rot": [
           3.72656417,
           188.615631,
-          -5.08002245E-07,
+          -5.614761E-07,
           0.0
         ],
         "scale": [
@@ -3186,7 +3242,7 @@
           1.43536377
         ],
         "rot": [
-          1.346163,
+          1.34616327,
           178.462921,
           359.785065,
           0.0
@@ -3438,7 +3494,7 @@
           0.6714783
         ],
         "rot": [
-          5.413813,
+          5.413814,
           0.0,
           0.0,
           0.0
@@ -3466,7 +3522,7 @@
           0.6714783
         ],
         "rot": [
-          5.413813,
+          5.413814,
           0.0,
           0.0,
           0.0
@@ -3548,7 +3604,7 @@
           0.286346436
         ],
         "rot": [
-          15.94542,
+          15.9454231,
           90.0000153,
           -1.77587583E-06,
           0.0

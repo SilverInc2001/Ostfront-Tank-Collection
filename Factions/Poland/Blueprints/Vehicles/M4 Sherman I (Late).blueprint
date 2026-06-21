@@ -3,12 +3,12 @@
   "header": {
     "v": "0.2",
     "name": "M4 Sherman I (Late)",
-    "gameVersion": "0.2.50.10",
-    "mass": 29798,
+    "gameVersion": "0.2.51.36",
+    "mass": 29581,
     "creationDate": "1943.12.31",
     "class": "",
     "desc": "",
-    "cost": 48407
+    "cost": 49268
   },
   "blueprints": [
     {
@@ -78,10 +78,12 @@
       "id": 6,
       "type": "powertrainSteeringControls",
       "blueprint": {
-        "v": "0.0",
+        "v": "0.2",
         "name": null,
         "description": null,
-        "viewportVUID": -1
+        "viewportVUID": -1,
+        "startInSecondGear": false,
+        "inclineThreshold": 5.0
       }
     },
     {
@@ -105,26 +107,27 @@
       "id": 8,
       "type": "transmission",
       "blueprint": {
-        "v": "0.4",
-        "name": null,
-        "description": null,
+        "v": "0.7",
+        "name": "M4 Sherman Ib",
+        "description": "",
+        "meshType": "synchromesh",
         "autoInputTorque": true,
         "maxInputTorque": 1161.54626,
         "autoResistanceTorque": true,
         "maxResistanceTorque": 1161.54626,
-        "finalDriveRatio": 6.26,
-        "msrRatioThreshold": 4.0,
+        "finalDriveRatio": 7.25,
+        "msrRatioThreshold": 5.5,
         "auxillaryGearRatio": 1.0,
         "auxiliaryMsrRatioThreshold": 1.5,
         "d": [
-          10.78,
-          4.31,
-          2.26,
-          1.43,
+          7.56,
+          3.11,
+          1.78,
+          1.11,
           1.0
         ],
         "r": [
-          4.3
+          5.65
         ]
       }
     },
@@ -302,17 +305,17 @@
       "id": 19,
       "type": "track",
       "blueprint": {
-        "v": "1.0",
+        "v": "1.1",
         "name": "M4 Sherman I",
         "description": "",
         "separation": 1419,
         "length": 6060,
-        "rrCoeff": 1.25,
         "brake": 238386,
         "autoBrake": true,
         "rollersEnabled": true,
         "matchChassis": false,
-        "frontalTransmission": true
+        "frontalTransmission": true,
+        "finalDriveRatio": 6.26
       }
     },
     {
@@ -334,12 +337,12 @@
       "id": 35,
       "type": "suspension",
       "blueprint": {
-        "v": "0.5",
+        "v": "0.6",
         "name": "",
         "description": "",
         "targetAngle": -5.0,
         "upTravelLimit": 1000.0,
-        "damper": 200.0,
+        "damper": 10018.0,
         "armLength": 500
       }
     },
@@ -1604,19 +1607,6 @@
       }
     },
     {
-      "id": 5,
-      "type": "paintJobRegister",
-      "blueprint": {
-        "v": "0.0",
-        "name": null,
-        "description": null,
-        "paintJobIDs": [
-          1,
-          2
-        ]
-      }
-    },
-    {
       "id": 82,
       "type": "decalTransform",
       "blueprint": {
@@ -1660,6 +1650,19 @@
         "name": null,
         "description": null,
         "imageURL": "Sprocket/Decals/Circled Star.png"
+      }
+    },
+    {
+      "id": 5,
+      "type": "paintJobRegister",
+      "blueprint": {
+        "v": "0.0",
+        "name": null,
+        "description": null,
+        "paintJobIDs": [
+          1,
+          2
+        ]
       }
     }
   ],
@@ -2267,9 +2270,9 @@
             -3.96021079E-13,
             0.190605342,
             -1.37877274,
-            6.86186263E-09,
-            0.518441737,
-            2.79406166,
+            1.67242238E-08,
+            0.5184418,
+            2.706887,
             -0.704862356,
             0.309399426,
             2.851988,
@@ -2308,26 +2311,26 @@
             0.2031671,
             0.411037624,
             0.0,
-            0.131922722,
-            -0.366745174,
-            0.4388846,
-            0.131922722,
-            0.0620036758,
-            0.0471189022,
-            0.01366201,
-            0.0007224083,
+            0.150326863,
+            -0.417908669,
+            0.3741074,
+            0.150326863,
+            0.0706536248,
+            0.04190409,
+            0.007438779,
+            -0.009431839,
             0.0,
             0.0,
             0.0,
             -2.23517418E-08,
             0.292000055,
             2.850006,
-            -0.4388846,
-            0.131922722,
-            0.0620036758,
-            -0.0471189022,
-            0.01366201,
-            0.0007224083,
+            -0.3741074,
+            0.150326863,
+            0.0706536248,
+            -0.04190409,
+            0.00743880868,
+            -0.009431839,
             0.0,
             0.0,
             0.0,
@@ -2345,9 +2348,9 @@
             1.0,
             0.0,
             0.0,
-            0.9603386,
-            0.278447568,
-            0.0147211133,
+            0.9612826,
+            0.170646325,
+            -0.216369256,
             0.0,
             0.0,
             1.0,
@@ -2357,9 +2360,9 @@
             -1.0,
             0.0,
             0.0,
-            -0.9603386,
-            0.278447777,
-            0.0147211133,
+            -0.9612827,
+            0.170646548,
+            -0.216368616,
             0.0,
             0.0,
             1.0,
@@ -2415,9 +2418,9 @@
       "transform": {
         "mirrorVuid": -1,
         "pos": [
-          6.86186263E-09,
-          0.518441737,
-          2.79406166
+          1.67242238E-08,
+          0.5184418,
+          2.706887
         ],
         "rot": [
           3.07358532E-05,
@@ -2508,7 +2511,7 @@
         "rot": [
           349.1827,
           186.482925,
-          5.432619E-07,
+          6.51914263E-07,
           0.0
         ],
         "scale": [
@@ -2677,9 +2680,9 @@
           0.4199524
         ],
         "rot": [
-          2.91101242E-05,
+          2.91101333E-05,
           60.000042,
-          -2.23835123E-05,
+          -2.23835068E-05,
           0.0
         ],
         "scale": [
@@ -2888,6 +2891,33 @@
       },
       "decalProjectionBlueprintVuid": 108,
       "decalBlueprintVuid": 109
+    },
+    {
+      "guid": "f90f373f-4edb-4563-a162-6eee6a5d77dd",
+      "vuid": 372,
+      "pvuid": 252,
+      "flags": 2,
+      "sight": 373,
+      "model": 374,
+      "transform": {
+        "mirrorVuid": -1,
+        "pos": [
+          0.367253363,
+          0.156028032,
+          0.4328003
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          0.25,
+          0.25,
+          0.25
+        ]
+      }
     },
     {
       "guid": "bfa86d1e-41ab-43fa-92f8-ef29e1e52c00",
@@ -3168,33 +3198,6 @@
       }
     },
     {
-      "guid": "f90f373f-4edb-4563-a162-6eee6a5d77dd",
-      "vuid": 372,
-      "pvuid": 225,
-      "flags": 2,
-      "sight": 373,
-      "model": 374,
-      "transform": {
-        "mirrorVuid": -1,
-        "pos": [
-          0.367612243,
-          0.48313725,
-          0.8257446
-        ],
-        "rot": [
-          0.0,
-          0.0,
-          0.0,
-          0.0
-        ],
-        "scale": [
-          0.25,
-          0.25,
-          0.25
-        ]
-      }
-    },
-    {
       "guid": "8f8a9d20-eb45-482e-b149-014c964c4e2c",
       "vuid": 350,
       "pvuid": 225,
@@ -3321,9 +3324,9 @@
           -0.372253418
         ],
         "rot": [
-          7.65565744E-07,
+          8.148632E-07,
           45.0000038,
-          -1.07723072E-05,
+          -1.07518845E-05,
           0.0
         ],
         "scale": [
@@ -3350,9 +3353,9 @@
           -0.5504761
         ],
         "rot": [
-          3.40175552E-06,
+          3.38841369E-06,
           300.0,
-          5.89201136E-06,
+          5.868905E-06,
           0.0
         ],
         "scale": [
@@ -3803,7 +3806,7 @@
         ],
         "rot": [
           358.595978,
-          0.5822837,
+          0.5822838,
           -5.00408159E-09,
           0.0
         ],
@@ -3862,7 +3865,7 @@
         "rot": [
           15.9455109,
           180.0,
-          4.763273E-13,
+          5.82177861E-13,
           0.0
         ],
         "scale": [
@@ -4198,7 +4201,7 @@
         "rot": [
           1.40857836E-07,
           270.000183,
-          1.27222172E-14,
+          6.36110944E-15,
           0.0
         ],
         "scale": [

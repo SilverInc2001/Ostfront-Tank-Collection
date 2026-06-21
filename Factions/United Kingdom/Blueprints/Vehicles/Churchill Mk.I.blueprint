@@ -3,12 +3,12 @@
   "header": {
     "v": "0.2",
     "name": "Churchill Mk.I",
-    "gameVersion": "0.2.50.10",
-    "mass": 39138,
+    "gameVersion": "0.2.51.36",
+    "mass": 39140,
     "creationDate": "1941.12.31",
     "class": "",
     "desc": "",
-    "cost": 58770
+    "cost": 57904
   },
   "blueprints": [
     {
@@ -78,10 +78,12 @@
       "id": 6,
       "type": "powertrainSteeringControls",
       "blueprint": {
-        "v": "0.0",
+        "v": "0.2",
         "name": null,
         "description": null,
-        "viewportVUID": -1
+        "viewportVUID": -1,
+        "startInSecondGear": false,
+        "inclineThreshold": 5.0
       }
     },
     {
@@ -105,25 +107,26 @@
       "id": 8,
       "type": "transmission",
       "blueprint": {
-        "v": "0.4",
+        "v": "0.7",
         "name": "Churchill Mk.II",
         "description": "",
+        "meshType": "slidingMesh",
         "autoInputTorque": true,
         "maxInputTorque": 1474.30847,
         "autoResistanceTorque": true,
         "maxResistanceTorque": 1474.30847,
-        "finalDriveRatio": 7.85,
-        "msrRatioThreshold": 1.6,
+        "finalDriveRatio": 15.0,
+        "msrRatioThreshold": 2.3,
         "auxillaryGearRatio": 1.0,
         "auxiliaryMsrRatioThreshold": 1.5,
         "d": [
-          10.75,
-          4.06,
-          1.79,
+          5.54,
+          3.09,
+          1.77,
           1.0
         ],
         "r": [
-          4.08
+          6.09
         ]
       }
     },
@@ -301,17 +304,17 @@
       "id": 19,
       "type": "track",
       "blueprint": {
-        "v": "1.0",
+        "v": "1.1",
         "name": null,
         "description": null,
         "separation": 1563,
         "length": 7440,
-        "rrCoeff": 1.5,
         "brake": 309247,
         "autoBrake": true,
         "rollersEnabled": true,
         "matchChassis": false,
-        "frontalTransmission": false
+        "frontalTransmission": false,
+        "finalDriveRatio": 7.85
       }
     },
     {
@@ -333,12 +336,12 @@
       "id": 35,
       "type": "suspension",
       "blueprint": {
-        "v": "0.5",
+        "v": "0.6",
         "name": null,
         "description": null,
         "targetAngle": -35.0,
         "upTravelLimit": 1000.0,
-        "damper": 200.0,
+        "damper": 10018.0,
         "armLength": 500
       }
     },
@@ -1631,7 +1634,7 @@
       }
     },
     {
-      "id": 5,
+      "id": 0,
       "type": "paintJobRegister",
       "blueprint": {
         "v": "0.0",
@@ -1855,7 +1858,7 @@
         ],
         "rot": [
           0.415065318,
-          8.905787E-14,
+          9.541915E-14,
           -2.19909289E-05,
           0.0
         ],
@@ -2475,7 +2478,7 @@
           0.748504639
         ],
         "rot": [
-          0.3192832,
+          0.319283217,
           -6.361208E-15,
           -2.17018078E-05,
           0.0
@@ -3921,11 +3924,11 @@
             0.248218924,
             -3.07604671,
             -0.781500041,
-            0.374703646,
-            -3.13549447,
+            0.380409,
+            -3.138176,
             0.781500041,
-            0.374703646,
-            -3.13549471,
+            0.380409,
+            -3.1381762,
             -0.781500041,
             0.0,
             0.0,
@@ -3958,12 +3961,12 @@
             0.2031671,
             0.547977149,
             0.0,
-            0.126484737,
-            -0.351627558,
-            0.713391542,
-            0.126484737,
-            0.059447825,
-            0.0578964353,
+            0.132190064,
+            -0.367488354,
+            0.7416817,
+            0.132190064,
+            0.0621293262,
+            0.0479058027,
             0.0,
             0.0,
             0.0,
@@ -3972,10 +3975,10 @@
             -2.23517418E-08,
             0.312011719,
             -3.11800027,
-            -0.713391542,
-            0.126484737,
-            0.059447825,
-            -0.0578964353,
+            -0.7416817,
+            0.132190064,
+            0.0621293262,
+            -0.0479058027,
             0.0,
             0.0,
             0.0,

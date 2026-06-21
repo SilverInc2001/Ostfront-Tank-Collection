@@ -3,12 +3,12 @@
   "header": {
     "v": "0.2",
     "name": "Carro Armato L5-30",
-    "gameVersion": "0.2.50.10",
-    "mass": 6137,
+    "gameVersion": "0.2.51.36",
+    "mass": 6258,
     "creationDate": "1939.09.01",
     "class": "",
     "desc": "",
-    "cost": 13370
+    "cost": 13030
   },
   "blueprints": [
     {
@@ -78,10 +78,12 @@
       "id": 6,
       "type": "powertrainSteeringControls",
       "blueprint": {
-        "v": "0.0",
+        "v": "0.2",
         "name": null,
         "description": null,
-        "viewportVUID": -1
+        "viewportVUID": -1,
+        "startInSecondGear": false,
+        "inclineThreshold": 5.0
       }
     },
     {
@@ -105,24 +107,26 @@
       "id": 8,
       "type": "transmission",
       "blueprint": {
-        "v": "0.4",
-        "name": null,
-        "description": null,
+        "v": "0.7",
+        "name": "Carro Armato L5-21",
+        "description": "",
+        "meshType": "slidingMesh",
         "autoInputTorque": true,
         "maxInputTorque": 414.096954,
         "autoResistanceTorque": true,
         "maxResistanceTorque": 414.096954,
         "finalDriveRatio": 7.69,
-        "msrRatioThreshold": 6.3,
+        "msrRatioThreshold": 4.6,
         "auxillaryGearRatio": 1.0,
         "auxiliaryMsrRatioThreshold": 1.5,
         "d": [
-          6.37,
-          2.44,
+          4.8,
+          2.45,
+          1.55,
           1.0
         ],
         "r": [
-          2.44
+          4.8
         ]
       }
     },
@@ -300,17 +304,17 @@
       "id": 19,
       "type": "track",
       "blueprint": {
-        "v": "1.0",
+        "v": "1.1",
         "name": "FT-17",
         "description": "",
         "separation": 851,
         "length": 5000,
-        "rrCoeff": 3.0,
         "brake": 49826,
         "autoBrake": true,
         "rollersEnabled": true,
         "matchChassis": false,
-        "frontalTransmission": false
+        "frontalTransmission": false,
+        "finalDriveRatio": 7.69
       }
     },
     {
@@ -332,12 +336,12 @@
       "id": 35,
       "type": "suspension",
       "blueprint": {
-        "v": "0.5",
+        "v": "0.6",
         "name": "",
         "description": "",
         "targetAngle": -45.0,
         "upTravelLimit": 1000.0,
-        "damper": 200.0,
+        "damper": 10018.0,
         "armLength": 50
       }
     },
@@ -892,7 +896,7 @@
       }
     },
     {
-      "id": 0,
+      "id": 5,
       "type": "paintJobRegister",
       "blueprint": {
         "v": "0.0",
@@ -1102,11 +1106,11 @@
             0.472492874,
             -1.391231,
             -0.4255,
-            0.591818154,
-            -1.44731379,
+            0.5904814,
+            -1.44668555,
             0.4255,
-            0.591818154,
-            -1.4473139,
+            0.5904814,
+            -1.44668555,
             -0.4255,
             0.0,
             0.0,
@@ -1139,32 +1143,32 @@
             0.190734416,
             0.257324874,
             0.0,
-            0.1193253,
-            -0.331724375,
-            0.165356368,
-            0.1193253,
-            0.0560828969,
-            0.0347574353,
+            0.117988504,
+            -0.328008056,
+            0.30605036,
+            0.117988504,
+            0.0554546,
+            0.0316287279,
             0.0,
             0.0,
             0.0,
             0.0,
             0.0,
             7.450581E-09,
-            0.577,
-            -1.4460144,
-            -0.165356368,
-            0.1193253,
-            0.0560828969,
-            -0.0347574353,
+            0.577026367,
+            -1.446,
+            -0.30605036,
+            0.117988504,
+            0.0554546,
+            -0.0316287279,
             0.0,
             0.0,
             0.0,
             0.0,
             0.0,
             -7.450581E-09,
-            0.577,
-            -1.4460144
+            0.577026367,
+            -1.446
           ],
           "portDirections": [
             0.0,
@@ -1916,8 +1920,8 @@
         ],
         "rot": [
           84.57292,
-          239.999756,
-          179.999756,
+          239.999786,
+          179.999786,
           0.0
         ],
         "scale": [
@@ -2025,7 +2029,7 @@
           0.368896484
         ],
         "rot": [
-          3.87421775,
+          3.87421823,
           171.562,
           1.525893,
           0.0
@@ -2083,9 +2087,9 @@
           0.08792115
         ],
         "rot": [
-          5.28544569,
+          5.285445,
           254.878937,
-          2.357903E-06,
+          2.14354827E-06,
           0.0
         ],
         "scale": [
@@ -2114,7 +2118,7 @@
         "rot": [
           5.28545,
           105.121086,
-          -4.287096E-06,
+          -4.07274138E-06,
           0.0
         ],
         "scale": [
@@ -2172,7 +2176,7 @@
         "rot": [
           0.0,
           0.0,
-          -2.59533263E-11,
+          0.0,
           0.0
         ],
         "scale": [
@@ -2251,7 +2255,7 @@
         "mirrorVuid": -1,
         "pos": [
           -0.0829706863,
-          0.645874143,
+          0.645874,
           -0.09576416
         ],
         "rot": [
@@ -2451,7 +2455,7 @@
           0.7617798
         ],
         "rot": [
-          12.523551,
+          12.5235519,
           136.933792,
           8.745825E-07,
           0.0

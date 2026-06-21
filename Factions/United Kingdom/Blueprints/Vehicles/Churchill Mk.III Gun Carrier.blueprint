@@ -3,12 +3,12 @@
   "header": {
     "v": "0.2",
     "name": "Churchill Mk.III Gun Carrier",
-    "gameVersion": "0.2.50.10",
-    "mass": 34996,
+    "gameVersion": "0.2.51.36",
+    "mass": 35195,
     "creationDate": "1943.12.31",
     "class": "",
     "desc": "",
-    "cost": 42021
+    "cost": 41594
   },
   "blueprints": [
     {
@@ -78,10 +78,12 @@
       "id": 6,
       "type": "powertrainSteeringControls",
       "blueprint": {
-        "v": "0.0",
+        "v": "0.2",
         "name": null,
         "description": null,
-        "viewportVUID": -1
+        "viewportVUID": -1,
+        "startInSecondGear": false,
+        "inclineThreshold": 5.0
       }
     },
     {
@@ -105,25 +107,26 @@
       "id": 8,
       "type": "transmission",
       "blueprint": {
-        "v": "0.4",
-        "name": "Churchill Mk.III",
+        "v": "0.7",
+        "name": "Churchill Mk.II",
         "description": "",
+        "meshType": "slidingMesh",
         "autoInputTorque": true,
         "maxInputTorque": 1548.72827,
         "autoResistanceTorque": true,
         "maxResistanceTorque": 1548.72827,
-        "finalDriveRatio": 6.38,
-        "msrRatioThreshold": 4.20000029,
+        "finalDriveRatio": 15.0,
+        "msrRatioThreshold": 2.3,
         "auxillaryGearRatio": 1.0,
         "auxiliaryMsrRatioThreshold": 1.5,
         "d": [
-          11.72,
-          4.38,
-          1.84,
+          5.54,
+          3.09,
+          1.77,
           1.0
         ],
         "r": [
-          4.37
+          6.09
         ]
       }
     },
@@ -301,17 +304,17 @@
       "id": 19,
       "type": "track",
       "blueprint": {
-        "v": "1.0",
+        "v": "1.1",
         "name": "c",
         "description": "",
         "separation": 1563,
         "length": 7440,
-        "rrCoeff": 1.25,
         "brake": 281503,
         "autoBrake": true,
         "rollersEnabled": true,
         "matchChassis": false,
-        "frontalTransmission": false
+        "frontalTransmission": false,
+        "finalDriveRatio": 6.38
       }
     },
     {
@@ -333,12 +336,12 @@
       "id": 35,
       "type": "suspension",
       "blueprint": {
-        "v": "0.5",
+        "v": "0.6",
         "name": "",
         "description": "",
         "targetAngle": -35.0,
         "upTravelLimit": 1000.0,
-        "damper": 200.0,
+        "damper": 10018.0,
         "armLength": 500
       }
     },
@@ -1310,7 +1313,7 @@
       }
     },
     {
-      "id": 0,
+      "id": 5,
       "type": "paintJobRegister",
       "blueprint": {
         "v": "0.0",
@@ -2273,11 +2276,11 @@
             0.248218924,
             -3.07604671,
             -0.781500041,
-            0.389129758,
-            -3.14227486,
+            0.378413618,
+            -3.13723826,
             0.781500041,
-            0.389129758,
-            -3.14227486,
+            0.378413618,
+            -3.13723826,
             -0.781500041,
             0.0,
             0.0,
@@ -2310,32 +2313,32 @@
             0.2031671,
             0.547977149,
             0.0,
-            0.140910849,
-            -0.391732156,
-            0.469381154,
-            0.140910849,
-            0.0662281,
-            0.055529058,
+            0.130194709,
+            -0.3619413,
+            0.76017046,
+            0.130194709,
+            0.0611915141,
+            0.0446426868,
             0.0,
             0.0,
             0.0,
             0.0,
             0.0,
             -2.23517418E-08,
-            0.312000036,
-            -3.118,
-            -0.469381154,
-            0.140910849,
-            0.0662281,
-            -0.055529058,
+            0.312011719,
+            -3.11800027,
+            -0.76017046,
+            0.130194709,
+            0.0611915141,
+            -0.0446426868,
             0.0,
             0.0,
             0.0,
             0.0,
             0.0,
             2.23517418E-08,
-            0.312000036,
-            -3.118
+            0.312011719,
+            -3.11800027
           ],
           "portDirections": [
             0.0,
@@ -3070,9 +3073,9 @@
           0.0155653954
         ],
         "rot": [
-          1.758575,
+          1.75857532,
           88.25877,
-          1.06771985E-07,
+          1.60157981E-07,
           0.0
         ],
         "scale": [

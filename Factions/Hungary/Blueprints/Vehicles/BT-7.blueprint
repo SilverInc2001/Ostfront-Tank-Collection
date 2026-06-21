@@ -3,12 +3,12 @@
   "header": {
     "v": "0.2",
     "name": "BT-7",
-    "gameVersion": "0.2.50.10",
-    "mass": 12073,
+    "gameVersion": "0.2.51.36",
+    "mass": 12003,
     "creationDate": "1941.12.31",
     "class": "",
     "desc": "",
-    "cost": 22235
+    "cost": 21361
   },
   "blueprints": [
     {
@@ -58,7 +58,7 @@
         "description": null,
         "length": 6000,
         "width": 2000,
-        "groundClearance": 359
+        "groundClearance": 360
       }
     },
     {
@@ -78,10 +78,12 @@
       "id": 6,
       "type": "powertrainSteeringControls",
       "blueprint": {
-        "v": "0.0",
+        "v": "0.2",
         "name": null,
         "description": null,
-        "viewportVUID": -1
+        "viewportVUID": -1,
+        "startInSecondGear": false,
+        "inclineThreshold": 5.0
       }
     },
     {
@@ -105,25 +107,26 @@
       "id": 8,
       "type": "transmission",
       "blueprint": {
-        "v": "0.4",
-        "name": "BT-7",
+        "v": "0.7",
+        "name": "BT",
         "description": "",
+        "meshType": "slidingMesh",
         "autoInputTorque": true,
         "maxInputTorque": 1890.77991,
         "autoResistanceTorque": true,
         "maxResistanceTorque": 1890.77991,
-        "finalDriveRatio": 3.15,
-        "msrRatioThreshold": 5.0,
-        "auxillaryGearRatio": 2.0,
+        "finalDriveRatio": 3.67,
+        "msrRatioThreshold": 6.4,
+        "auxillaryGearRatio": 1.0,
         "auxiliaryMsrRatioThreshold": 1.5,
         "d": [
-          5.39,
-          2.42,
-          1.44,
+          6.53,
+          3.12,
+          1.7,
           1.0
         ],
         "r": [
-          2.42
+          7.5
         ]
       }
     },
@@ -301,17 +304,17 @@
       "id": 19,
       "type": "track",
       "blueprint": {
-        "v": "1.0",
+        "v": "1.1",
         "name": null,
         "description": null,
         "separation": 1375,
         "length": 6000,
-        "rrCoeff": 1.5,
         "brake": 73361,
         "autoBrake": true,
         "rollersEnabled": false,
         "matchChassis": false,
-        "frontalTransmission": false
+        "frontalTransmission": false,
+        "finalDriveRatio": 3.15
       }
     },
     {
@@ -333,12 +336,12 @@
       "id": 35,
       "type": "suspension",
       "blueprint": {
-        "v": "0.5",
+        "v": "0.6",
         "name": null,
         "description": null,
         "targetAngle": -34.0,
         "upTravelLimit": 1000.0,
-        "damper": 200.0,
+        "damper": 10018.0,
         "armLength": 450
       }
     },
@@ -1157,7 +1160,7 @@
       }
     },
     {
-      "id": 0,
+      "id": 5,
       "type": "paintJobRegister",
       "blueprint": {
         "v": "0.0",
@@ -1404,32 +1407,32 @@
             0.2300804,
             0.6205671,
             0.0,
-            0.193664044,
-            -0.538386047,
-            0.518631041,
-            0.193664044,
-            0.0910221,
-            0.0212041736,
-            0.02372861,
-            0.03853011,
+            0.173392177,
+            -0.482030243,
+            0.6539768,
+            0.173392177,
+            0.0814943239,
+            -0.000147879124,
+            0.0254635513,
+            0.0496393442,
             0.0,
             0.0,
             0.0,
             -2.23517418E-08,
-            0.262023926,
-            -2.1880002,
-            -0.518631041,
-            0.193664044,
-            0.0910221,
-            -0.0212041736,
-            0.02372861,
-            0.03853011,
+            0.262000084,
+            -2.18798828,
+            -0.6539768,
+            0.173392177,
+            0.0814943239,
+            0.000147879124,
+            0.0254635513,
+            0.0496393442,
             0.0,
             0.0,
             0.0,
             2.23517418E-08,
-            0.262023926,
-            -2.1880002
+            0.262000084,
+            -2.18798828
           ],
           "portDirections": [
             0.0,
@@ -1441,9 +1444,9 @@
             1.0,
             0.0,
             0.0,
-            0.424318165,
-            0.474834949,
-            0.771029055,
+            -0.00265076081,
+            0.4564206,
+            0.8897602,
             0.0,
             0.0,
             1.0,
@@ -1453,9 +1456,9 @@
             -1.0,
             0.0,
             0.0,
-            -0.424318,
-            0.4748352,
-            0.771029055,
+            0.00265117921,
+            0.4564208,
+            0.889760137,
             0.0,
             0.0,
             1.0,
@@ -2351,7 +2354,7 @@
         "rot": [
           350.999542,
           180.0,
-          -1.03046545E-13,
+          -1.28808178E-13,
           0.0
         ],
         "scale": [
@@ -2627,9 +2630,9 @@
           -0.08029175
         ],
         "rot": [
-          14.85537,
+          14.8553658,
           84.5962143,
-          -1.7665941E-06,
+          -1.76659387E-06,
           0.0
         ],
         "scale": [
@@ -2714,9 +2717,9 @@
           -0.5856323
         ],
         "rot": [
-          14.0691137,
+          14.0691156,
           285.070648,
-          -8.801761E-07,
+          -1.32026412E-06,
           0.0
         ],
         "scale": [
@@ -2772,7 +2775,7 @@
           -0.318328857
         ],
         "rot": [
-          6.52969845E-10,
+          6.529699E-10,
           344.999969,
           4.959782E-09,
           0.0

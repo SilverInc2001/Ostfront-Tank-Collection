@@ -3,12 +3,12 @@
   "header": {
     "v": "0.2",
     "name": "Autoblinda AB41",
-    "gameVersion": "0.2.50.10",
-    "mass": 7063,
+    "gameVersion": "0.2.51.36",
+    "mass": 8907,
     "creationDate": "1941.12.31",
     "class": "",
-    "desc": "",
-    "cost": 30971
+    "desc": "Currently depricated as of 0.2.51.36",
+    "cost": 37807
   },
   "blueprints": [
     {
@@ -78,10 +78,12 @@
       "id": 6,
       "type": "powertrainSteeringControls",
       "blueprint": {
-        "v": "0.0",
+        "v": "0.2",
         "name": null,
         "description": null,
-        "viewportVUID": -1
+        "viewportVUID": -1,
+        "startInSecondGear": false,
+        "inclineThreshold": 5.0
       }
     },
     {
@@ -105,9 +107,10 @@
       "id": 8,
       "type": "transmission",
       "blueprint": {
-        "v": "0.4",
+        "v": "0.7",
         "name": "Autoblinda AB41",
         "description": null,
+        "meshType": "synchromesh",
         "autoInputTorque": true,
         "maxInputTorque": 173.460312,
         "autoResistanceTorque": true,
@@ -306,17 +309,17 @@
       "id": 19,
       "type": "track",
       "blueprint": {
-        "v": "1.0",
+        "v": "1.1",
         "name": "Wheels",
         "description": "",
         "separation": 1362,
         "length": 5200,
-        "rrCoeff": 1.5,
         "brake": 56690,
         "autoBrake": true,
         "rollersEnabled": false,
         "matchChassis": false,
-        "frontalTransmission": false
+        "frontalTransmission": false,
+        "finalDriveRatio": 3.76
       }
     },
     {
@@ -338,12 +341,12 @@
       "id": 35,
       "type": "suspension",
       "blueprint": {
-        "v": "0.5",
+        "v": "0.6",
         "name": "",
         "description": "",
         "targetAngle": -30.0,
         "upTravelLimit": 1000.0,
-        "damper": 200.0,
+        "damper": 10018.0,
         "armLength": 433
       }
     },
@@ -1113,7 +1116,7 @@
       }
     },
     {
-      "id": 5,
+      "id": 0,
       "type": "paintJobRegister",
       "blueprint": {
         "v": "0.0",
@@ -1505,7 +1508,7 @@
           -0.30645752
         ],
         "rot": [
-          0.4874006,
+          0.487400532,
           0.0,
           0.0,
           0.0
@@ -1533,7 +1536,7 @@
           0.561000347
         ],
         "rot": [
-          0.07732422,
+          0.0773242339,
           180.231979,
           0.00197336264,
           0.0
@@ -1697,8 +1700,8 @@
         "mirrorVuid": -1,
         "pos": [
           -0.0169432238,
-          -0.847533941,
-          -0.2421264
+          -0.8475342,
+          -0.242126465
         ],
         "rot": [
           0.0,
@@ -1786,7 +1789,7 @@
         "rot": [
           359.979767,
           179.998108,
-          2.67347014E-06,
+          2.67347036E-06,
           0.0
         ],
         "scale": [
@@ -1809,7 +1812,7 @@
         "mirrorVuid": -1,
         "pos": [
           0.007602796,
-          -0.0369856358,
+          -0.0369873047,
           1.17956543
         ],
         "rot": [
@@ -1838,7 +1841,7 @@
         "mirrorVuid": -1,
         "pos": [
           -0.340172648,
-          -0.0369874239,
+          -0.0369873047,
           -0.45135498
         ],
         "rot": [
@@ -1867,7 +1870,7 @@
         "mirrorVuid": -1,
         "pos": [
           0.246021837,
-          -0.0530391932,
+          -0.05303955,
           -0.221405029
         ],
         "rot": [
@@ -2508,8 +2511,8 @@
             0.0,
             0.0,
             -2.23517418E-08,
-            0.06099999,
-            -1.60900879,
+            0.06097412,
+            -1.60900009,
             -0.0161955673,
             0.0,
             0.0,
@@ -2526,8 +2529,8 @@
             0.0,
             0.0,
             2.23517418E-08,
-            0.06099999,
-            -1.60900879
+            0.06097412,
+            -1.60900009
           ],
           "portDirections": [
             0.0,

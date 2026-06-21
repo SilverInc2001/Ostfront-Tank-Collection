@@ -3,12 +3,12 @@
   "header": {
     "v": "0.2",
     "name": "Pz.Kpfw. 733 (f)",
-    "gameVersion": "0.2.50.10",
-    "mass": 18382,
+    "gameVersion": "0.2.51.36",
+    "mass": 18489,
     "creationDate": "1941.12.31",
     "class": "",
     "desc": "",
-    "cost": 46006
+    "cost": 45536
   },
   "blueprints": [
     {
@@ -78,10 +78,12 @@
       "id": 6,
       "type": "powertrainSteeringControls",
       "blueprint": {
-        "v": "0.0",
+        "v": "0.2",
         "name": null,
         "description": null,
-        "viewportVUID": -1
+        "viewportVUID": -1,
+        "startInSecondGear": false,
+        "inclineThreshold": 5.0
       }
     },
     {
@@ -105,25 +107,26 @@
       "id": 8,
       "type": "transmission",
       "blueprint": {
-        "v": "0.4",
-        "name": null,
-        "description": null,
+        "v": "0.7",
+        "name": "Char D2",
+        "description": "",
+        "meshType": "slidingMesh",
         "autoInputTorque": true,
         "maxInputTorque": 658.0247,
         "autoResistanceTorque": true,
         "maxResistanceTorque": 658.0247,
         "finalDriveRatio": 8.77,
-        "msrRatioThreshold": 4.8,
+        "msrRatioThreshold": 3.60000014,
         "auxillaryGearRatio": 1.0,
         "auxiliaryMsrRatioThreshold": 1.5,
         "d": [
-          13.58,
-          5.0,
-          1.95,
+          8.0,
+          4.0,
+          1.99999988,
           1.0
         ],
         "r": [
-          5.0
+          7.5
         ]
       }
     },
@@ -301,17 +304,17 @@
       "id": 19,
       "type": "track",
       "blueprint": {
-        "v": "1.0",
+        "v": "1.1",
         "name": null,
         "description": null,
         "separation": 1147,
         "length": 6000,
-        "rrCoeff": 1.5,
         "brake": 147061,
         "autoBrake": true,
         "rollersEnabled": true,
         "matchChassis": false,
-        "frontalTransmission": false
+        "frontalTransmission": false,
+        "finalDriveRatio": 8.77
       }
     },
     {
@@ -333,12 +336,12 @@
       "id": 35,
       "type": "suspension",
       "blueprint": {
-        "v": "0.5",
+        "v": "0.6",
         "name": null,
         "description": null,
         "targetAngle": -5.0,
         "upTravelLimit": 1000.0,
-        "damper": 200.0,
+        "damper": 10018.0,
         "armLength": 500
       }
     },
@@ -1084,7 +1087,7 @@
       }
     },
     {
-      "id": 0,
+      "id": 5,
       "type": "paintJobRegister",
       "blueprint": {
         "v": "0.0",
@@ -1294,11 +1297,11 @@
             -0.0116737485,
             -2.088531,
             -0.573500037,
-            0.110607818,
-            -2.14600325,
+            0.103109471,
+            -2.14247918,
             0.573500037,
-            0.110607818,
-            -2.14600348,
+            0.103109471,
+            -2.14247918,
             -0.573500037,
             0.0,
             0.0,
@@ -1331,12 +1334,12 @@
             0.191953167,
             0.323659658,
             0.0,
-            0.122281566,
-            -0.339942753,
-            0.3059561,
-            0.122281566,
-            0.0574723333,
-            0.0478299856,
+            0.11478322,
+            -0.31909734,
+            0.495500922,
+            0.11478322,
+            0.0539481081,
+            0.0400956273,
             0.0,
             0.0,
             0.0,
@@ -1345,10 +1348,10 @@
             -2.23517418E-08,
             0.133000016,
             -2.18000031,
-            -0.3059561,
-            0.122281566,
-            0.0574723333,
-            -0.0478299856,
+            -0.495500922,
+            0.11478322,
+            0.0539481081,
+            -0.0400956273,
             0.0,
             0.0,
             0.0,
@@ -2616,7 +2619,7 @@
         "rot": [
           25.8367653,
           180.0,
-          1.13081441E-12,
+          1.24389583E-12,
           0.0
         ],
         "scale": [
@@ -2757,7 +2760,7 @@
         "rot": [
           40.4193268,
           180.0,
-          -2.67371926E-13,
+          -5.34743853E-13,
           0.0
         ],
         "scale": [

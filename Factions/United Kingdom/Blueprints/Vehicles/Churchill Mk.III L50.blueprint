@@ -3,12 +3,12 @@
   "header": {
     "v": "0.2",
     "name": "Churchill Mk.III L50",
-    "gameVersion": "0.2.50.10",
-    "mass": 43368,
+    "gameVersion": "0.2.51.36",
+    "mass": 43503,
     "creationDate": "1945.09.02",
     "class": "",
     "desc": "",
-    "cost": 50799
+    "cost": 50341
   },
   "blueprints": [
     {
@@ -78,10 +78,12 @@
       "id": 6,
       "type": "powertrainSteeringControls",
       "blueprint": {
-        "v": "0.0",
+        "v": "0.2",
         "name": null,
         "description": null,
-        "viewportVUID": -1
+        "viewportVUID": -1,
+        "startInSecondGear": false,
+        "inclineThreshold": 5.0
       }
     },
     {
@@ -105,25 +107,26 @@
       "id": 8,
       "type": "transmission",
       "blueprint": {
-        "v": "0.4",
-        "name": "Churchill Mk.III",
+        "v": "0.7",
+        "name": "Churchill Mk.II",
         "description": "",
+        "meshType": "slidingMesh",
         "autoInputTorque": true,
         "maxInputTorque": 1574.96606,
         "autoResistanceTorque": true,
         "maxResistanceTorque": 1574.96606,
-        "finalDriveRatio": 5.9,
-        "msrRatioThreshold": 5.6,
+        "finalDriveRatio": 15.0,
+        "msrRatioThreshold": 2.3,
         "auxillaryGearRatio": 1.0,
         "auxiliaryMsrRatioThreshold": 1.5,
         "d": [
-          15.52,
-          5.67,
-          2.05,
+          5.54,
+          3.09,
+          1.77,
           1.0
         ],
         "r": [
-          5.67
+          6.09
         ]
       }
     },
@@ -301,17 +304,17 @@
       "id": 19,
       "type": "track",
       "blueprint": {
-        "v": "1.0",
+        "v": "1.1",
         "name": "c",
         "description": "",
         "separation": 1563,
         "length": 7440,
-        "rrCoeff": 1.0,
         "brake": 331117,
         "autoBrake": true,
         "rollersEnabled": true,
         "matchChassis": false,
-        "frontalTransmission": false
+        "frontalTransmission": false,
+        "finalDriveRatio": 5.9
       }
     },
     {
@@ -333,12 +336,12 @@
       "id": 35,
       "type": "suspension",
       "blueprint": {
-        "v": "0.5",
+        "v": "0.6",
         "name": "",
         "description": "",
         "targetAngle": -35.0,
         "upTravelLimit": 1000.0,
-        "damper": 200.0,
+        "damper": 10018.0,
         "armLength": 500
       }
     },
@@ -1460,7 +1463,7 @@
       }
     },
     {
-      "id": 0,
+      "id": 5,
       "type": "paintJobRegister",
       "blueprint": {
         "v": "0.0",
@@ -2393,15 +2396,15 @@
             0.248218924,
             -3.07604671,
             -0.781500041,
-            0.394978732,
-            -3.14502382,
+            0.378898531,
+            -3.137466,
             0.781500041,
-            0.394978732,
-            -3.14502382,
-            -0.781499863,
+            0.378898531,
+            -3.13746619,
+            -0.781500041,
             0.0,
             0.0,
-            0.781499863,
+            0.781500041,
             0.0,
             0.0
           ],
@@ -2430,32 +2433,32 @@
             0.2031671,
             0.547977149,
             0.0,
-            0.146759808,
-            -0.4079923,
-            0.473340452,
-            0.146759808,
-            0.06897711,
-            0.0613206625,
+            0.1306796,
+            -0.3632893,
+            0.7665826,
+            0.1306796,
+            0.0614194125,
+            0.044893384,
             0.0,
             0.0,
             0.0,
             0.0,
             0.0,
-            -2.01165676E-07,
-            0.312000036,
-            -3.118,
-            -0.473340452,
-            0.146759808,
-            0.06897711,
-            -0.0613206625,
+            -2.23517418E-08,
+            0.312011719,
+            -3.11800027,
+            -0.7665826,
+            0.1306796,
+            0.0614194125,
+            -0.044893384,
             0.0,
             0.0,
             0.0,
             0.0,
             0.0,
-            2.01165676E-07,
-            0.312000036,
-            -3.118
+            2.23517418E-08,
+            0.312011719,
+            -3.11800027
           ],
           "portDirections": [
             0.0,
@@ -2909,7 +2912,7 @@
           0.748504639
         ],
         "rot": [
-          0.3192836,
+          0.319283634,
           6.361208E-15,
           -2.17018078E-05,
           0.0
@@ -3323,7 +3326,7 @@
         "pos": [
           0.494171143,
           -1.12866211,
-          -0.5314941
+          -0.531494141
         ],
         "rot": [
           -3.07714945E-05,
@@ -3352,7 +3355,7 @@
         "pos": [
           -0.20098877,
           -0.9550171,
-          -0.00827074
+          -0.008270264
         ],
         "rot": [
           0.0,
@@ -3381,10 +3384,10 @@
         "pos": [
           -0.365691662,
           -0.9550171,
-          -0.473846376
+          -0.473846436
         ],
         "rot": [
-          2.4649486E-08,
+          2.46494878E-08,
           45.0001373,
           1.02101865E-08,
           0.0

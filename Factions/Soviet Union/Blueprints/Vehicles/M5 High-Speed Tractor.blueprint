@@ -3,12 +3,12 @@
   "header": {
     "v": "0.2",
     "name": "M5 High-Speed Tractor",
-    "gameVersion": "0.2.50.10",
-    "mass": 8940,
+    "gameVersion": "0.2.51.36",
+    "mass": 8846,
     "creationDate": "1943.12.31",
     "class": "",
     "desc": "",
-    "cost": 27968
+    "cost": 28173
   },
   "blueprints": [
     {
@@ -78,10 +78,12 @@
       "id": 6,
       "type": "powertrainSteeringControls",
       "blueprint": {
-        "v": "0.0",
+        "v": "0.2",
         "name": null,
         "description": null,
-        "viewportVUID": -1
+        "viewportVUID": -1,
+        "startInSecondGear": false,
+        "inclineThreshold": 5.0
       }
     },
     {
@@ -105,25 +107,27 @@
       "id": 8,
       "type": "transmission",
       "blueprint": {
-        "v": "0.4",
-        "name": "M5 High-Speed Tractor",
+        "v": "0.7",
+        "name": "M2A4 Stuart I",
         "description": "",
+        "meshType": "constantMesh",
         "autoInputTorque": true,
         "maxInputTorque": 682.928,
         "autoResistanceTorque": true,
         "maxResistanceTorque": 682.928,
-        "finalDriveRatio": 4.69,
-        "msrRatioThreshold": 5.8,
+        "finalDriveRatio": 6.48,
+        "msrRatioThreshold": 3.60000014,
         "auxillaryGearRatio": 1.0,
         "auxiliaryMsrRatioThreshold": 1.5,
         "d": [
-          10.44,
-          3.97,
-          1.77,
+          7.25,
+          3.81,
+          2.32,
+          1.47,
           1.0
         ],
         "r": [
-          3.97
+          8.37
         ]
       }
     },
@@ -301,17 +305,17 @@
       "id": 19,
       "type": "track",
       "blueprint": {
-        "v": "1.0",
+        "v": "1.1",
         "name": "Stuart III",
         "description": "",
         "separation": 1462,
         "length": 4500,
-        "rrCoeff": 1.25,
         "brake": 68170,
         "autoBrake": true,
         "rollersEnabled": true,
         "matchChassis": false,
-        "frontalTransmission": true
+        "frontalTransmission": true,
+        "finalDriveRatio": 4.69
       }
     },
     {
@@ -333,12 +337,12 @@
       "id": 35,
       "type": "suspension",
       "blueprint": {
-        "v": "0.5",
+        "v": "0.6",
         "name": "",
         "description": "",
         "targetAngle": -5.0,
         "upTravelLimit": 1000.0,
-        "damper": 200.0,
+        "damper": 10018.0,
         "armLength": 500
       }
     },
@@ -1029,19 +1033,6 @@
       }
     },
     {
-      "id": 5,
-      "type": "paintJobRegister",
-      "blueprint": {
-        "v": "0.0",
-        "name": null,
-        "description": null,
-        "paintJobIDs": [
-          1,
-          2
-        ]
-      }
-    },
-    {
       "id": 49,
       "type": "decalTransform",
       "blueprint": {
@@ -1062,6 +1053,19 @@
         "name": null,
         "description": null,
         "imageURL": "Sprocket/Decals/ALL_Canvas.png"
+      }
+    },
+    {
+      "id": 0,
+      "type": "paintJobRegister",
+      "blueprint": {
+        "v": "0.0",
+        "name": null,
+        "description": null,
+        "paintJobIDs": [
+          1,
+          2
+        ]
       }
     }
   ],
@@ -1262,11 +1266,11 @@
             0.519535065,
             1.66399562,
             -0.731,
-            0.370025545,
-            1.73426509,
+            0.40052563,
+            1.71993,
             0.731,
-            0.370025575,
-            1.73426509,
+            0.4005257,
+            1.71993,
             -0.731,
             0.0,
             0.0,
@@ -1299,32 +1303,32 @@
             0.190795526,
             0.3217077,
             0.0,
-            0.1495095,
-            -0.4156364,
-            0.237187341,
-            0.1495095,
-            0.07026946,
-            0.0406672359,
+            0.11900939,
+            -0.3308461,
+            0.252953082,
+            0.11900939,
+            0.05593441,
+            0.037779212,
             0.0,
             0.0,
             0.0,
             0.0,
             0.0,
             -2.23517418E-08,
-            0.362976074,
-            1.739,
-            -0.237187341,
-            0.1495095,
-            0.07026946,
-            -0.0406672359,
+            0.363000035,
+            1.73901367,
+            -0.252953082,
+            0.11900939,
+            0.05593441,
+            -0.037779212,
             0.0,
             0.0,
             0.0,
             0.0,
             0.0,
             2.23517418E-08,
-            0.362976074,
-            1.739
+            0.363000035,
+            1.73901367
           ],
           "portDirections": [
             0.0,
@@ -1817,7 +1821,7 @@
         "mirrorVuid": -1,
         "pos": [
           0.0,
-          0.807434,
+          0.8074341,
           1.26013184
         ],
         "rot": [
@@ -2109,8 +2113,8 @@
           -1.41101074
         ],
         "rot": [
-          1.02525873E-05,
-          -3.56100536E-05,
+          1.02525883E-05,
+          -3.561005E-05,
           18.89336,
           0.0
         ],
@@ -2338,8 +2342,8 @@
         ],
         "rot": [
           3.71915746,
-          0.8360209,
-          3.342092E-09,
+          0.836020947,
+          5.013138E-09,
           0.0
         ],
         "scale": [
@@ -2366,9 +2370,9 @@
           -2.25979614
         ],
         "rot": [
-          3.71916,
+          3.71916056,
           359.163971,
-          -2.17235971E-08,
+          -2.506569E-08,
           0.0
         ],
         "scale": [
@@ -2391,7 +2395,7 @@
         "mirrorVuid": -1,
         "pos": [
           0.761000156,
-          0.9214477,
+          0.921447754,
           -0.353515625
         ],
         "rot": [
@@ -3058,7 +3062,7 @@
           -2.245059
         ],
         "rot": [
-          0.451159358,
+          0.4511593,
           0.0,
           0.0,
           0.0

@@ -3,12 +3,12 @@
   "header": {
     "v": "0.2",
     "name": "T-28C",
-    "gameVersion": "0.2.50.10",
-    "mass": 32732,
+    "gameVersion": "0.2.51.36",
+    "mass": 33487,
     "creationDate": "1941.12.31",
     "class": "",
     "desc": "",
-    "cost": 54736
+    "cost": 54316
   },
   "blueprints": [
     {
@@ -78,10 +78,12 @@
       "id": 6,
       "type": "powertrainSteeringControls",
       "blueprint": {
-        "v": "0.0",
+        "v": "0.2",
         "name": null,
         "description": null,
-        "viewportVUID": -1
+        "viewportVUID": -1,
+        "startInSecondGear": false,
+        "inclineThreshold": 5.0
       }
     },
     {
@@ -105,26 +107,27 @@
       "id": 8,
       "type": "transmission",
       "blueprint": {
-        "v": "0.4",
-        "name": null,
-        "description": null,
+        "v": "0.7",
+        "name": "T-28",
+        "description": "",
+        "meshType": "slidingMesh",
         "autoInputTorque": true,
         "maxInputTorque": 3256.806,
         "autoResistanceTorque": true,
         "maxResistanceTorque": 3256.806,
-        "finalDriveRatio": 3.55,
-        "msrRatioThreshold": 1.7,
+        "finalDriveRatio": 3.35,
+        "msrRatioThreshold": 3.8,
         "auxillaryGearRatio": 1.0,
         "auxiliaryMsrRatioThreshold": 1.5,
         "d": [
-          7.67,
-          3.35,
-          1.96,
-          1.34,
+          5.14,
+          2.8,
+          1.62,
+          1.19,
           1.0
         ],
         "r": [
-          3.35
+          3.74
         ]
       }
     },
@@ -302,17 +305,17 @@
       "id": 19,
       "type": "track",
       "blueprint": {
-        "v": "1.0",
+        "v": "1.1",
         "name": "",
         "description": "",
         "separation": 1760,
         "length": 7440,
-        "rrCoeff": 1.5,
         "brake": 251285,
         "autoBrake": true,
         "rollersEnabled": true,
         "matchChassis": false,
-        "frontalTransmission": false
+        "frontalTransmission": false,
+        "finalDriveRatio": 3.55
       }
     },
     {
@@ -334,12 +337,12 @@
       "id": 35,
       "type": "suspension",
       "blueprint": {
-        "v": "0.5",
+        "v": "0.6",
         "name": "",
         "description": "",
         "targetAngle": -5.0,
         "upTravelLimit": 1000.0,
-        "damper": 200.0,
+        "damper": 10018.0,
         "armLength": 500
       }
     },
@@ -1688,7 +1691,7 @@
       }
     },
     {
-      "id": 5,
+      "id": 0,
       "type": "paintJobRegister",
       "blueprint": {
         "v": "0.0",
@@ -1898,11 +1901,11 @@
             0.04051792,
             -3.0193882,
             -0.880000055,
-            0.19954887,
-            -3.09413266,
+            0.25709644,
+            -3.12118,
             0.880000055,
-            0.19954887,
-            -3.094133,
+            0.25709644,
+            -3.12118,
             -0.880000055,
             0.0,
             0.0,
@@ -1935,12 +1938,12 @@
             0.301963985,
             0.8144496,
             0.0,
-            0.159030944,
-            -0.442106038,
-            0.897600949,
-            0.159030944,
-            0.0747445449,
-            -0.06737757,
+            0.216578513,
+            -0.6020883,
+            0.858297348,
+            0.216578513,
+            0.101791896,
+            0.05896187,
             0.0,
             0.0,
             0.0,
@@ -1949,10 +1952,10 @@
             -2.23517418E-08,
             0.2869873,
             -3.21000028,
-            -0.897600949,
-            0.159030944,
-            0.0747445449,
-            0.06737757,
+            -0.858297348,
+            0.216578513,
+            0.101791896,
+            -0.05896187,
             0.0,
             0.0,
             0.0,
@@ -1972,7 +1975,7 @@
             1.0,
             0.0,
             0.0,
-            -1.0,
+            1.0,
             0.0,
             0.0,
             0.0,
@@ -1984,7 +1987,7 @@
             -1.0,
             0.0,
             0.0,
-            1.0,
+            -1.0,
             0.0,
             0.0,
             0.0,

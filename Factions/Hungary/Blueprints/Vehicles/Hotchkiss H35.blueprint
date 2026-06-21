@@ -3,12 +3,12 @@
   "header": {
     "v": "0.2",
     "name": "Hotchkiss H35",
-    "gameVersion": "0.2.50.10",
-    "mass": 8944,
+    "gameVersion": "0.2.51.36",
+    "mass": 9011,
     "creationDate": "1939.09.01",
     "class": "",
     "desc": "",
-    "cost": 22402
+    "cost": 21991
   },
   "blueprints": [
     {
@@ -78,10 +78,12 @@
       "id": 6,
       "type": "powertrainSteeringControls",
       "blueprint": {
-        "v": "0.0",
+        "v": "0.2",
         "name": null,
         "description": null,
-        "viewportVUID": -1
+        "viewportVUID": -1,
+        "startInSecondGear": false,
+        "inclineThreshold": 5.0
       }
     },
     {
@@ -105,26 +107,27 @@
       "id": 8,
       "type": "transmission",
       "blueprint": {
-        "v": "0.4",
-        "name": null,
-        "description": null,
+        "v": "0.7",
+        "name": "Hotchkiss H35",
+        "description": "",
+        "meshType": "slidingMesh",
         "autoInputTorque": true,
         "maxInputTorque": 307.918274,
         "autoResistanceTorque": true,
         "maxResistanceTorque": 307.918274,
-        "finalDriveRatio": 10.0,
-        "msrRatioThreshold": 6.0,
+        "finalDriveRatio": 13.98,
+        "msrRatioThreshold": 3.60000014,
         "auxillaryGearRatio": 1.0,
         "auxiliaryMsrRatioThreshold": 1.5,
         "d": [
-          6.2,
-          2.89,
-          1.81,
-          1.29,
+          6.5,
+          4.070849,
+          2.54950976,
+          1.59671843,
           1.0
         ],
         "r": [
-          2.89
+          7.0
         ]
       }
     },
@@ -302,17 +305,17 @@
       "id": 19,
       "type": "track",
       "blueprint": {
-        "v": "1.0",
+        "v": "1.1",
         "name": null,
         "description": null,
         "separation": 1175,
         "length": 6000,
-        "rrCoeff": 3.0,
         "brake": 71557,
         "autoBrake": true,
         "rollersEnabled": true,
         "matchChassis": false,
-        "frontalTransmission": true
+        "frontalTransmission": true,
+        "finalDriveRatio": 10.0
       }
     },
     {
@@ -334,12 +337,12 @@
       "id": 35,
       "type": "suspension",
       "blueprint": {
-        "v": "0.5",
+        "v": "0.6",
         "name": null,
         "description": null,
         "targetAngle": -5.0,
         "upTravelLimit": 1000.0,
-        "damper": 200.0,
+        "damper": 10018.0,
         "armLength": 500
       }
     },
@@ -959,19 +962,6 @@
       }
     },
     {
-      "id": 5,
-      "type": "paintJobRegister",
-      "blueprint": {
-        "v": "0.0",
-        "name": null,
-        "description": null,
-        "paintJobIDs": [
-          1,
-          2
-        ]
-      }
-    },
-    {
       "id": 38,
       "type": "decalTransform",
       "blueprint": {
@@ -992,6 +982,19 @@
         "name": null,
         "description": null,
         "imageURL": "Sprocket/Decals/Hungarian Roundle 1941.png"
+      }
+    },
+    {
+      "id": 0,
+      "type": "paintJobRegister",
+      "blueprint": {
+        "v": "0.0",
+        "name": null,
+        "description": null,
+        "paintJobIDs": [
+          1,
+          2
+        ]
       }
     }
   ],
@@ -1229,32 +1232,32 @@
             0.11630027,
             0.235292971,
             0.0,
-            0.118530631,
-            -0.329515159,
-            0.175941527,
-            0.118530631,
-            0.0557093956,
-            0.0272908211,
-            0.0148052275,
-            -0.00313866138,
+            0.1144827,
+            -0.3182619,
+            0.313940257,
+            0.1144827,
+            0.0538068675,
+            -0.005452037,
+            0.0312426984,
+            -0.007076025,
             0.0,
             0.0,
             0.0,
             -2.23517418E-08,
-            0.4980001,
-            1.79599,
-            -0.175941527,
-            0.118530631,
-            0.0557093956,
-            -0.03105241,
-            0.00302824378,
-            -0.000641942,
+            0.49798584,
+            1.79600012,
+            -0.313940257,
+            0.1144827,
+            0.0538068675,
+            -0.03221494,
+            0.00414919853,
+            -0.00093972683,
             0.0,
             0.0,
             0.0,
             2.23517418E-08,
-            0.4980001,
-            1.79599
+            0.49798584,
+            1.79600012
           ],
           "portDirections": [
             0.0,
@@ -1266,9 +1269,9 @@
             1.0,
             0.0,
             0.0,
-            0.8745287,
-            0.474429846,
-            -0.100577846,
+            -0.167782649,
+            0.961473,
+            -0.217758432,
             0.0,
             0.0,
             1.0,
@@ -1278,9 +1281,9 @@
             -1.0,
             0.0,
             0.0,
-            -0.995067954,
-            0.09703912,
-            -0.02057203,
+            -0.9913927,
+            0.127688259,
+            -0.028919559,
             0.0,
             0.0,
             1.0,
@@ -2086,9 +2089,9 @@
           0.119018555
         ],
         "rot": [
-          20.6185169,
-          90.27777,
-          6.385428E-06,
+          20.6185188,
+          90.27776,
+          7.29763269E-06,
           0.0
         ],
         "scale": [
@@ -2115,9 +2118,9 @@
           0.119018555
         ],
         "rot": [
-          20.6185169,
+          20.6185188,
           269.722229,
-          -6.385428E-06,
+          -7.29763269E-06,
           0.0
         ],
         "scale": [
@@ -2202,9 +2205,9 @@
           0.909820557
         ],
         "rot": [
-          45.0000153,
+          45.0000229,
           270.000031,
-          1.44890191E-05,
+          1.20741861E-05,
           0.0
         ],
         "scale": [
@@ -2456,7 +2459,7 @@
         "rot": [
           13.09987,
           180.0,
-          1.04497133E-13,
+          1.5674571E-13,
           0.0
         ],
         "scale": [
@@ -2483,8 +2486,8 @@
           -1.10592651
         ],
         "rot": [
-          78.46964,
-          27.9016,
+          78.46968,
+          27.9016037,
           28.75685,
           0.0
         ],
@@ -2595,8 +2598,8 @@
         ],
         "rot": [
           1.69736433,
-          1.83508444E-08,
-          1.00708747,
+          2.00191028E-08,
+          1.00708759,
           0.0
         ],
         "scale": [
@@ -2677,7 +2680,7 @@
         "rot": [
           35.1342,
           180.0,
-          -1.24452139E-13,
+          -2.48904277E-13,
           0.0
         ],
         "scale": [
@@ -2733,7 +2736,7 @@
         "rot": [
           10.8240786,
           179.604614,
-          4.49314642,
+          4.493146,
           0.0
         ],
         "scale": [

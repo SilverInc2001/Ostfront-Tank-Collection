@@ -3,12 +3,12 @@
   "header": {
     "v": "0.2",
     "name": "StuG III Ausf.G",
-    "gameVersion": "0.2.50.10",
-    "mass": 21224,
+    "gameVersion": "0.2.51.36",
+    "mass": 20929,
     "creationDate": "1943.12.31",
     "class": "",
     "desc": "",
-    "cost": 29420
+    "cost": 29784
   },
   "blueprints": [
     {
@@ -78,10 +78,12 @@
       "id": 6,
       "type": "powertrainSteeringControls",
       "blueprint": {
-        "v": "0.0",
+        "v": "0.2",
         "name": null,
         "description": null,
-        "viewportVUID": -1
+        "viewportVUID": -1,
+        "startInSecondGear": false,
+        "inclineThreshold": 5.0
       }
     },
     {
@@ -105,27 +107,28 @@
       "id": 8,
       "type": "transmission",
       "blueprint": {
-        "v": "0.4",
-        "name": "g",
+        "v": "0.7",
+        "name": "Panzer IV Ausf. J",
         "description": "",
+        "meshType": "synchromesh",
         "autoInputTorque": true,
         "maxInputTorque": 865.3628,
         "autoResistanceTorque": true,
         "maxResistanceTorque": 865.3628,
-        "finalDriveRatio": 8.56,
-        "msrRatioThreshold": 1.0,
+        "finalDriveRatio": 5.93,
+        "msrRatioThreshold": 3.2,
         "auxillaryGearRatio": 1.0,
         "auxiliaryMsrRatioThreshold": 1.5,
         "d": [
-          10.26,
-          4.39,
-          2.54,
-          1.73,
-          1.28,
+          9.51,
+          5.51,
+          3.31,
+          2.07,
+          1.34,
           1.0
         ],
         "r": [
-          4.39
+          8.93
         ]
       }
     },
@@ -303,17 +306,17 @@
       "id": 19,
       "type": "track",
       "blueprint": {
-        "v": "1.0",
+        "v": "1.1",
         "name": "Panzer",
         "description": "",
         "separation": 1878,
         "length": 6000,
-        "rrCoeff": 1.25,
         "brake": 129922,
         "autoBrake": true,
         "rollersEnabled": true,
         "matchChassis": false,
-        "frontalTransmission": true
+        "frontalTransmission": true,
+        "finalDriveRatio": 8.56
       }
     },
     {
@@ -335,12 +338,12 @@
       "id": 35,
       "type": "suspension",
       "blueprint": {
-        "v": "0.5",
+        "v": "0.6",
         "name": "",
         "description": "",
         "targetAngle": -18.0,
         "upTravelLimit": 1000.0,
-        "damper": 200.0,
+        "damper": 10018.0,
         "armLength": 500
       }
     },
@@ -1123,7 +1126,7 @@
       }
     },
     {
-      "id": 5,
+      "id": 0,
       "type": "paintJobRegister",
       "blueprint": {
         "v": "0.0",
@@ -1333,11 +1336,11 @@
             0.354454368,
             2.17936921,
             -0.939,
-            0.249164343,
-            2.22885561,
+            0.22886014,
+            2.23839855,
             0.939,
-            0.2491645,
-            2.22885537,
+            0.228860229,
+            2.23839831,
             -0.93900007,
             0.0,
             0.0,
@@ -1370,12 +1373,12 @@
             0.151867509,
             0.409613252,
             0.0,
-            0.105289936,
-            -0.292706,
-            0.9099801,
-            0.105289936,
-            0.04948627,
-            0.0437523127,
+            0.125594184,
+            -0.34915188,
+            0.462686181,
+            0.125594184,
+            0.05902927,
+            0.0426591635,
             0.0,
             0.0,
             0.0,
@@ -1384,10 +1387,10 @@
             3.7252903E-08,
             0.274000049,
             2.24798584,
-            -0.9099801,
-            0.105289936,
-            0.04948627,
-            -0.0437523127,
+            -0.462686181,
+            0.125594184,
+            0.05902927,
+            -0.0426591635,
             0.0,
             0.0,
             0.0,
@@ -1642,7 +1645,7 @@
           -1.09100008
         ],
         "rot": [
-          1.30000937,
+          1.30000961,
           0.0,
           0.0,
           0.0
@@ -1804,7 +1807,7 @@
           -1.09100008
         ],
         "rot": [
-          1.30000937,
+          1.30000961,
           0.0,
           0.0,
           0.0
@@ -2112,7 +2115,7 @@
         ],
         "rot": [
           1.00035727,
-          -0.000347471621,
+          -0.00034747165,
           -8.746057E-08,
           0.0
         ],
@@ -2198,7 +2201,7 @@
         ],
         "rot": [
           359.500824,
-          -1.72503692E-10,
+          -1.725037E-10,
           8.745146E-08,
           0.0
         ],
@@ -2227,7 +2230,7 @@
         "rot": [
           358.999664,
           179.999664,
-          7.125528E-12,
+          7.329115E-12,
           0.0
         ],
         "scale": [
@@ -2676,9 +2679,9 @@
           -1.09503174
         ],
         "rot": [
-          273.825623,
-          110.88839,
-          159.068878,
+          273.8255,
+          110.88842,
+          159.068817,
           0.0
         ],
         "scale": [

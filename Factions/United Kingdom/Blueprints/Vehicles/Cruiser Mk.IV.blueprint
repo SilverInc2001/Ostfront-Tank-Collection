@@ -3,12 +3,12 @@
   "header": {
     "v": "0.2",
     "name": "Cruiser Mk.IV",
-    "gameVersion": "0.2.50.10",
-    "mass": 22335,
+    "gameVersion": "0.2.51.36",
+    "mass": 22865,
     "creationDate": "1941.12.31",
     "class": "",
     "desc": "",
-    "cost": 41425
+    "cost": 41112
   },
   "blueprints": [
     {
@@ -78,10 +78,12 @@
       "id": 6,
       "type": "powertrainSteeringControls",
       "blueprint": {
-        "v": "0.0",
+        "v": "0.2",
         "name": null,
         "description": null,
-        "viewportVUID": -1
+        "viewportVUID": -1,
+        "startInSecondGear": false,
+        "inclineThreshold": 5.0
       }
     },
     {
@@ -105,25 +107,26 @@
       "id": 8,
       "type": "transmission",
       "blueprint": {
-        "v": "0.4",
-        "name": "Cruiser Mk.3",
+        "v": "0.7",
+        "name": "Cruiser Tank Mk.IV",
         "description": "",
+        "meshType": "slidingMesh",
         "autoInputTorque": true,
         "maxInputTorque": 1876.86975,
         "autoResistanceTorque": true,
         "maxResistanceTorque": 1876.86975,
-        "finalDriveRatio": 4.46,
-        "msrRatioThreshold": 3.60000014,
+        "finalDriveRatio": 4.47,
+        "msrRatioThreshold": 3.4,
         "auxillaryGearRatio": 1.0,
         "auxiliaryMsrRatioThreshold": 1.5,
         "d": [
-          9.32,
-          3.61,
-          1.7,
-          1.0
+          6.26,
+          3.6,
+          1.62,
+          0.823
         ],
         "r": [
-          3.61
+          5.23
         ]
       }
     },
@@ -301,17 +304,17 @@
       "id": 19,
       "type": "track",
       "blueprint": {
-        "v": "1.0",
+        "v": "1.1",
         "name": "Cruiser",
         "description": "",
         "separation": 1891,
         "length": 6000,
-        "rrCoeff": 1.5,
         "brake": 202427,
         "autoBrake": true,
         "rollersEnabled": false,
         "matchChassis": false,
-        "frontalTransmission": false
+        "frontalTransmission": false,
+        "finalDriveRatio": 4.46
       }
     },
     {
@@ -333,12 +336,12 @@
       "id": 35,
       "type": "suspension",
       "blueprint": {
-        "v": "0.5",
+        "v": "0.6",
         "name": "",
         "description": "",
         "targetAngle": -5.0,
         "upTravelLimit": 1000.0,
-        "damper": 500000.0,
+        "damper": 55000.0,
         "armLength": 796
       }
     },
@@ -1336,7 +1339,7 @@
       }
     },
     {
-      "id": 0,
+      "id": 5,
       "type": "paintJobRegister",
       "blueprint": {
         "v": "0.0",
@@ -1583,26 +1586,26 @@
             0.22923252,
             0.618280232,
             0.0,
-            0.14694421,
-            -0.408504874,
-            0.5167198,
-            0.14694421,
-            0.0690637752,
-            0.05839324,
-            0.0118050575,
-            -0.00554823875,
+            0.171057448,
+            -0.4755397,
+            0.713323236,
+            0.171057448,
+            0.080397,
+            0.04635012,
+            0.0221188217,
+            -0.0103957653,
             0.0,
             0.0,
             0.0,
             -2.23517418E-08,
             0.120000005,
             -3.1,
-            -0.5167198,
-            0.14694421,
-            0.0690637752,
-            -0.05875522,
-            0.011163421,
-            -0.00176405907,
+            -0.713323236,
+            0.171057448,
+            0.080397,
+            -0.047485292,
+            0.02159363,
+            -0.004950762,
             0.0,
             0.0,
             0.0,
@@ -1620,9 +1623,9 @@
             1.0,
             0.0,
             0.0,
-            0.975947,
-            0.197302282,
-            -0.09273164,
+            0.8845621,
+            0.4221237,
+            -0.198397428,
             0.0,
             0.0,
             1.0,
@@ -1632,9 +1635,9 @@
             -1.0,
             0.0,
             0.0,
-            -0.9819976,
-            0.186578289,
-            -0.0294822976,
+            -0.9062264,
+            0.412100732,
+            -0.09448179,
             0.0,
             0.0,
             1.0,
@@ -2442,7 +2445,7 @@
           0.361978531
         ],
         "rot": [
-          0.319283336,
+          0.319283366,
           6.361208E-15,
           -2.17018078E-05,
           0.0
@@ -2726,7 +2729,7 @@
         "rot": [
           15.572649,
           180.042358,
-          -6.05875528E-09,
+          -6.49152332E-09,
           0.0
         ],
         "scale": [
@@ -2755,7 +2758,7 @@
         "rot": [
           15.572649,
           179.957642,
-          6.05875528E-09,
+          6.49152332E-09,
           0.0
         ],
         "scale": [
@@ -2955,7 +2958,7 @@
           -0.7132263
         ],
         "rot": [
-          -3.17777626E-08,
+          -3.17777662E-08,
           14.9999886,
           2.41376028E-07,
           0.0
@@ -3071,8 +3074,8 @@
         ],
         "rot": [
           83.48892,
-          0.19621183,
-          0.197485119,
+          0.196211934,
+          0.1974852,
           0.0
         ],
         "scale": [

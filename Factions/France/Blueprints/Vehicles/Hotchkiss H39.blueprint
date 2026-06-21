@@ -3,12 +3,12 @@
   "header": {
     "v": "0.2",
     "name": "Hotchkiss H39",
-    "gameVersion": "0.2.50.10",
-    "mass": 9821,
+    "gameVersion": "0.2.51.36",
+    "mass": 9864,
     "creationDate": "1941.12.31",
     "class": "",
     "desc": "",
-    "cost": 25095
+    "cost": 24525
   },
   "blueprints": [
     {
@@ -78,10 +78,12 @@
       "id": 6,
       "type": "powertrainSteeringControls",
       "blueprint": {
-        "v": "0.0",
+        "v": "0.2",
         "name": null,
         "description": null,
-        "viewportVUID": -1
+        "viewportVUID": -1,
+        "startInSecondGear": false,
+        "inclineThreshold": 5.0
       }
     },
     {
@@ -105,26 +107,27 @@
       "id": 8,
       "type": "transmission",
       "blueprint": {
-        "v": "0.4",
-        "name": null,
-        "description": null,
+        "v": "0.7",
+        "name": "Hotchkiss H35",
+        "description": "",
+        "meshType": "slidingMesh",
         "autoInputTorque": true,
         "maxInputTorque": 414.389,
         "autoResistanceTorque": true,
         "maxResistanceTorque": 414.389,
-        "finalDriveRatio": 6.58,
-        "msrRatioThreshold": 3.9,
+        "finalDriveRatio": 13.98,
+        "msrRatioThreshold": 4.0,
         "auxillaryGearRatio": 1.0,
         "auxiliaryMsrRatioThreshold": 1.5,
         "d": [
-          10.0,
-          4.07,
-          2.19,
-          1.41,
+          6.5,
+          4.070849,
+          2.54950976,
+          1.59671843,
           1.0
         ],
         "r": [
-          4.07
+          7.0
         ]
       }
     },
@@ -302,17 +305,17 @@
       "id": 19,
       "type": "track",
       "blueprint": {
-        "v": "1.0",
+        "v": "1.1",
         "name": null,
         "description": null,
         "separation": 1175,
         "length": 6000,
-        "rrCoeff": 1.5,
         "brake": 85147,
         "autoBrake": true,
         "rollersEnabled": true,
         "matchChassis": false,
-        "frontalTransmission": true
+        "frontalTransmission": true,
+        "finalDriveRatio": 6.58
       }
     },
     {
@@ -334,12 +337,12 @@
       "id": 35,
       "type": "suspension",
       "blueprint": {
-        "v": "0.5",
+        "v": "0.6",
         "name": null,
         "description": null,
         "targetAngle": -5.0,
         "upTravelLimit": 1000.0,
-        "damper": 200.0,
+        "damper": 10018.0,
         "armLength": 500
       }
     },
@@ -1021,7 +1024,7 @@
         "v": "0.0",
         "name": null,
         "description": null,
-        "x": 239,
+        "x": 140,
         "y": 240,
         "z": 124,
         "flags": 0
@@ -1034,11 +1037,11 @@
         "v": "0.3",
         "name": null,
         "description": null,
-        "imageURL": "Sprocket/Decals/10.png"
+        "imageURL": "Sprocket/Decals/Arial 1 White.png"
       }
     },
     {
-      "id": 5,
+      "id": 0,
       "type": "paintJobRegister",
       "blueprint": {
         "v": "0.0",
@@ -1048,6 +1051,29 @@
           1,
           2
         ]
+      }
+    },
+    {
+      "id": 36,
+      "type": "decalTransform",
+      "blueprint": {
+        "v": "0.0",
+        "name": null,
+        "description": null,
+        "x": 140,
+        "y": 240,
+        "z": 124,
+        "flags": 0
+      }
+    },
+    {
+      "id": 37,
+      "type": "decal",
+      "blueprint": {
+        "v": "0.3",
+        "name": null,
+        "description": null,
+        "imageURL": "Sprocket/Decals/Bahnschrift White 0.png"
       }
     }
   ],
@@ -1246,7 +1272,7 @@
             -1.13492584,
             -0.286139458,
             0.602584243,
-            1.73350608,
+            1.70968592,
             -0.587500036,
             0.4798936,
             1.80363965,
@@ -1285,26 +1311,26 @@
             0.152327478,
             0.256845236,
             0.0,
-            0.108006082,
-            -0.300256878,
-            0.262141764,
-            0.108006082,
-            0.05076285,
-            0.0314676762,
-            0.0117822886,
-            -0.0155422688,
+            0.115756355,
+            -0.321802676,
+            0.3641945,
+            0.115756355,
+            0.0544054843,
+            -0.0276992917,
+            0.003056854,
+            -0.01743424,
             0.0,
             0.0,
             0.0,
             -2.23517418E-08,
             0.49798584,
             1.79600012,
-            -0.262141764,
-            0.108006082,
-            0.05076285,
-            -0.03699243,
-            0.0008883476,
-            -0.00117182732,
+            -0.3641945,
+            0.115756355,
+            0.0544054843,
+            -0.0327700377,
+            0.000446051359,
+            -0.00254392624,
             0.0,
             0.0,
             0.0,
@@ -1322,9 +1348,9 @@
             1.0,
             0.0,
             0.0,
-            0.8499813,
-            0.31825453,
-            -0.419816345,
+            -0.842649639,
+            0.09299346,
+            -0.5303714,
             0.0,
             0.0,
             1.0,
@@ -1334,9 +1360,9 @@
             -1.0,
             0.0,
             0.0,
-            -0.9992108,
-            0.02399518,
-            -0.0316526219,
+            -0.996908665,
+            0.0135694314,
+            -0.07739015,
             0.0,
             0.0,
             1.0,
@@ -1423,7 +1449,7 @@
         "pos": [
           -0.286139458,
           0.602584243,
-          1.73350608
+          1.70968592
         ],
         "rot": [
           5.008956E-06,
@@ -2195,18 +2221,18 @@
       "transform": {
         "mirrorVuid": 290,
         "pos": [
-          -0.5087919,
+          -0.494186223,
           0.285807222,
-          0.237548828
+          0.282745361
         ],
         "rot": [
-          10.9456844,
+          10.9456854,
           107.909363,
-          8.695937E-07,
+          2.60878073E-06,
           0.0
         ],
         "scale": [
-          0.239000008,
+          0.14,
           0.24000001,
           0.124000005
         ]
@@ -2224,18 +2250,18 @@
       "transform": {
         "mirrorVuid": 285,
         "pos": [
-          0.5087919,
+          0.5243955,
           0.285807222,
-          0.237548828
+          0.18927002
         ],
         "rot": [
-          10.9456844,
-          252.090637,
-          -8.695936E-07,
+          10.9456863,
+          252.090622,
+          -4.78276525E-06,
           0.0
         ],
         "scale": [
-          0.239000008,
+          0.14,
           0.24000001,
           0.124000005
         ]
@@ -2289,7 +2315,7 @@
         "rot": [
           21.2786636,
           96.05461,
-          -9.162367E-07,
+          -1.83247334E-06,
           0.0
         ],
         "scale": [
@@ -2300,6 +2326,64 @@
       },
       "decalProjectionBlueprintVuid": 30,
       "decalBlueprintVuid": 32
+    },
+    {
+      "guid": "e59ff736-a6ea-4a1a-a4c5-6437ed15b872",
+      "vuid": 199,
+      "pvuid": 664,
+      "flags": 7,
+      "decalScaler": 200,
+      "projectedDecal": 201,
+      "transform": {
+        "mirrorVuid": 205,
+        "pos": [
+          -0.508909643,
+          0.2798594,
+          0.1774292
+        ],
+        "rot": [
+          10.9456873,
+          107.909378,
+          4.78276434E-06,
+          0.0
+        ],
+        "scale": [
+          0.14,
+          0.24000001,
+          0.124000005
+        ]
+      },
+      "decalProjectionBlueprintVuid": 36,
+      "decalBlueprintVuid": 37
+    },
+    {
+      "guid": "e59ff736-a6ea-4a1a-a4c5-6437ed15b872",
+      "vuid": 205,
+      "pvuid": 664,
+      "flags": 6,
+      "decalScaler": 206,
+      "projectedDecal": 207,
+      "transform": {
+        "mirrorVuid": 199,
+        "pos": [
+          0.4712284,
+          0.2798594,
+          0.294036865
+        ],
+        "rot": [
+          10.94569,
+          252.0906,
+          -5.21756147E-06,
+          0.0
+        ],
+        "scale": [
+          0.14,
+          0.24000001,
+          0.124000005
+        ]
+      },
+      "decalProjectionBlueprintVuid": 36,
+      "decalBlueprintVuid": 37
     },
     {
       "guid": "4481135e-cefd-499c-8122-414942eecbe4",
@@ -2655,7 +2739,7 @@
         "rot": [
           35.1342,
           180.0,
-          -6.222607E-13,
+          -7.467128E-13,
           0.0
         ],
         "scale": [
@@ -2790,9 +2874,9 @@
           1.1595459
         ],
         "rot": [
-          13.1772327,
+          13.1772356,
           180.133469,
-          -1.71262038E-09,
+          0.0,
           0.0
         ],
         "scale": [

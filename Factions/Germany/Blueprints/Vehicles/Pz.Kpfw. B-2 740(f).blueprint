@@ -3,12 +3,12 @@
   "header": {
     "v": "0.2",
     "name": "Pz.Kpfw. B-2 740(f)",
-    "gameVersion": "0.2.50.10",
-    "mass": 35270,
+    "gameVersion": "0.2.51.36",
+    "mass": 35419,
     "creationDate": "1941.12.31",
     "class": "",
     "desc": "",
-    "cost": 49824
+    "cost": 49243
   },
   "blueprints": [
     {
@@ -78,10 +78,12 @@
       "id": 6,
       "type": "powertrainSteeringControls",
       "blueprint": {
-        "v": "0.0",
+        "v": "0.2",
         "name": null,
         "description": null,
-        "viewportVUID": -1
+        "viewportVUID": -1,
+        "startInSecondGear": false,
+        "inclineThreshold": 5.0
       }
     },
     {
@@ -105,26 +107,27 @@
       "id": 8,
       "type": "transmission",
       "blueprint": {
-        "v": "0.4",
-        "name": null,
-        "description": null,
+        "v": "0.7",
+        "name": "Char B1 Bis",
+        "description": "",
+        "meshType": "slidingMesh",
         "autoInputTorque": true,
         "maxInputTorque": 1732.52063,
         "autoResistanceTorque": true,
         "maxResistanceTorque": 1732.52063,
-        "finalDriveRatio": 7.26,
-        "msrRatioThreshold": 4.4,
+        "finalDriveRatio": 8.51,
+        "msrRatioThreshold": 4.0,
         "auxillaryGearRatio": 1.0,
-        "auxiliaryMsrRatioThreshold": 1.5,
+        "auxiliaryMsrRatioThreshold": 1.0,
         "d": [
-          11.27,
-          4.46,
-          2.3,
-          1.44,
+          4.5,
+          3.08965087,
+          2.12132025,
+          1.45647526,
           1.0
         ],
         "r": [
-          4.46
+          4.25
         ]
       }
     },
@@ -302,17 +305,17 @@
       "id": 19,
       "type": "track",
       "blueprint": {
-        "v": "1.0",
+        "v": "1.1",
         "name": null,
         "description": null,
         "separation": 1281,
         "length": 6520,
-        "rrCoeff": 1.5,
         "brake": 285089,
         "autoBrake": true,
         "rollersEnabled": true,
         "matchChassis": false,
-        "frontalTransmission": false
+        "frontalTransmission": false,
+        "finalDriveRatio": 7.26
       }
     },
     {
@@ -334,12 +337,12 @@
       "id": 35,
       "type": "suspension",
       "blueprint": {
-        "v": "0.5",
+        "v": "0.6",
         "name": null,
         "description": null,
         "targetAngle": -60.0,
         "upTravelLimit": 1000.0,
-        "damper": 200.0,
+        "damper": 10018.0,
         "armLength": 332
       }
     },
@@ -1507,19 +1510,6 @@
       }
     },
     {
-      "id": 0,
-      "type": "paintJobRegister",
-      "blueprint": {
-        "v": "0.0",
-        "name": null,
-        "description": null,
-        "paintJobIDs": [
-          1,
-          2
-        ]
-      }
-    },
-    {
       "id": 89,
       "type": "decalTransform",
       "blueprint": {
@@ -1609,6 +1599,19 @@
         "name": null,
         "description": null,
         "imageURL": "Sprocket/Decals/Bahnschrift White 1.png"
+      }
+    },
+    {
+      "id": 5,
+      "type": "paintJobRegister",
+      "blueprint": {
+        "v": "0.0",
+        "name": null,
+        "description": null,
+        "paintJobIDs": [
+          1,
+          2
+        ]
       }
     }
   ],
@@ -1809,11 +1812,11 @@
             0.31971848,
             -2.36586857,
             -0.6405,
-            0.468964756,
-            -2.43601418,
+            0.4887657,
+            -2.44532061,
             0.6405,
-            0.468964756,
-            -2.43601441,
+            0.4887657,
+            -2.44532084,
             -0.6405,
             0.0,
             0.0,
@@ -1846,12 +1849,12 @@
             0.2202411,
             0.5940288,
             0.0,
-            0.149246275,
-            -0.414904654,
-            0.53600806,
-            0.149246275,
-            0.07014575,
-            0.06206596,
+            0.1690472,
+            -0.4699512,
+            0.685343862,
+            0.1690472,
+            0.07945218,
+            -0.04570353,
             0.0,
             0.0,
             0.0,
@@ -1860,10 +1863,10 @@
             -2.23517418E-08,
             0.450000048,
             -2.43798828,
-            -0.53600806,
-            0.149246275,
-            0.07014575,
-            -0.06206596,
+            -0.685343862,
+            0.1690472,
+            0.07945218,
+            0.04570353,
             0.0,
             0.0,
             0.0,
@@ -1883,7 +1886,7 @@
             1.0,
             0.0,
             0.0,
-            1.0,
+            -1.0,
             0.0,
             0.0,
             0.0,
@@ -1895,7 +1898,7 @@
             -1.0,
             0.0,
             0.0,
-            -1.0,
+            1.0,
             0.0,
             0.0,
             0.0,
@@ -2594,7 +2597,7 @@
           -2.74407959
         ],
         "rot": [
-          0.1658221,
+          0.165822119,
           0.0,
           0.0,
           0.0
@@ -3072,7 +3075,7 @@
         "rot": [
           25.2399158,
           83.55649,
-          -5.66331664E-06,
+          -4.71943167E-06,
           0.0
         ],
         "scale": [
@@ -3099,7 +3102,7 @@
           -0.331634521
         ],
         "rot": [
-          25.3922062,
+          25.3922119,
           83.56026,
           -2.835221E-06,
           0.0
@@ -3130,7 +3133,7 @@
         "rot": [
           23.0964413,
           276.471924,
-          -9.28170266E-07,
+          0.0,
           0.0
         ],
         "scale": [
@@ -3157,9 +3160,9 @@
           -0.23538208
         ],
         "rot": [
-          22.992548,
+          22.9925442,
           276.6112,
-          -1.20569093E-05,
+          -1.29843665E-05,
           0.0
         ],
         "scale": [
@@ -4028,7 +4031,7 @@
           -2.01629543
         ],
         "rot": [
-          12.1527348,
+          12.1527357,
           180.503067,
           5.458409E-08,
           0.0

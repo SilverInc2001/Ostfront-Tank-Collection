@@ -3,12 +3,12 @@
   "header": {
     "v": "0.2",
     "name": "M4 Sherman I (Late)",
-    "gameVersion": "0.2.50.10",
-    "mass": 29769,
+    "gameVersion": "0.2.51.36",
+    "mass": 29599,
     "creationDate": "1943.12.31",
     "class": "",
     "desc": "",
-    "cost": 48459
+    "cost": 49343
   },
   "blueprints": [
     {
@@ -78,10 +78,12 @@
       "id": 6,
       "type": "powertrainSteeringControls",
       "blueprint": {
-        "v": "0.0",
+        "v": "0.2",
         "name": null,
         "description": null,
-        "viewportVUID": -1
+        "viewportVUID": -1,
+        "startInSecondGear": false,
+        "inclineThreshold": 5.0
       }
     },
     {
@@ -105,26 +107,27 @@
       "id": 8,
       "type": "transmission",
       "blueprint": {
-        "v": "0.4",
-        "name": null,
-        "description": null,
+        "v": "0.7",
+        "name": "M4 Sherman Ib",
+        "description": "",
+        "meshType": "synchromesh",
         "autoInputTorque": true,
         "maxInputTorque": 1161.54626,
         "autoResistanceTorque": true,
         "maxResistanceTorque": 1161.54626,
-        "finalDriveRatio": 6.26,
-        "msrRatioThreshold": 4.0,
+        "finalDriveRatio": 7.25,
+        "msrRatioThreshold": 5.5,
         "auxillaryGearRatio": 1.0,
         "auxiliaryMsrRatioThreshold": 1.5,
         "d": [
-          10.78,
-          4.31,
-          2.26,
-          1.43,
+          7.56,
+          3.11,
+          1.78,
+          1.11,
           1.0
         ],
         "r": [
-          4.3
+          5.65
         ]
       }
     },
@@ -302,17 +305,17 @@
       "id": 19,
       "type": "track",
       "blueprint": {
-        "v": "1.0",
+        "v": "1.1",
         "name": "M4 Sherman I",
         "description": "",
         "separation": 1419,
         "length": 6060,
-        "rrCoeff": 1.25,
         "brake": 238123,
         "autoBrake": true,
         "rollersEnabled": true,
         "matchChassis": false,
-        "frontalTransmission": true
+        "frontalTransmission": true,
+        "finalDriveRatio": 6.26
       }
     },
     {
@@ -334,12 +337,12 @@
       "id": 35,
       "type": "suspension",
       "blueprint": {
-        "v": "0.5",
+        "v": "0.6",
         "name": "",
         "description": "",
         "targetAngle": -5.0,
         "upTravelLimit": 1000.0,
-        "damper": 200.0,
+        "damper": 10018.0,
         "armLength": 500
       }
     },
@@ -1627,7 +1630,7 @@
       }
     },
     {
-      "id": 0,
+      "id": 5,
       "type": "paintJobRegister",
       "blueprint": {
         "v": "0.0",
@@ -2285,26 +2288,26 @@
             0.2031671,
             0.411037624,
             0.0,
-            0.131922722,
-            -0.366745174,
-            0.4388846,
-            0.131922722,
-            0.0620036758,
-            0.0471189022,
-            0.01366201,
-            0.0007224083,
+            0.150326863,
+            -0.417908669,
+            0.3741074,
+            0.150326863,
+            0.0706536248,
+            0.0428900719,
+            0.007613808,
+            0.0016503334,
             0.0,
             0.0,
             0.0,
             -2.23517418E-08,
             0.292000055,
             2.850006,
-            -0.4388846,
-            0.131922722,
-            0.0620036758,
-            -0.0471189022,
-            0.01366201,
-            0.0007224083,
+            -0.3741074,
+            0.150326863,
+            0.0706536248,
+            -0.0428900719,
+            0.007613808,
+            0.0016503334,
             0.0,
             0.0,
             0.0,
@@ -2322,9 +2325,9 @@
             1.0,
             0.0,
             0.0,
-            0.9603386,
-            0.278447568,
-            0.0147211133,
+            0.9839005,
+            0.174661279,
+            0.0378592126,
             0.0,
             0.0,
             1.0,
@@ -2334,9 +2337,9 @@
             -1.0,
             0.0,
             0.0,
-            -0.9603386,
-            0.278447777,
-            0.0147211133,
+            -0.983900368,
+            0.174661443,
+            0.03785992,
             0.0,
             0.0,
             1.0,
@@ -2425,7 +2428,7 @@
           -3.42556763
         ],
         "rot": [
-          12.6847706,
+          12.6847715,
           0.0,
           0.0,
           0.0
@@ -2683,9 +2686,9 @@
           0.4199524
         ],
         "rot": [
-          2.911013E-05,
+          2.91101333E-05,
           60.000042,
-          -2.238351E-05,
+          -2.23835068E-05,
           0.0
         ],
         "scale": [
@@ -3385,7 +3388,7 @@
           -0.372253418
         ],
         "rot": [
-          7.655651E-07,
+          7.65565346E-07,
           45.0000038,
           -1.07723072E-05,
           0.0
@@ -3416,7 +3419,7 @@
         "rot": [
           3.44796672E-06,
           300.0,
-          5.865331E-06,
+          5.86533133E-06,
           0.0
         ],
         "scale": [
@@ -3867,7 +3870,7 @@
         ],
         "rot": [
           358.595978,
-          0.582283735,
+          0.5822838,
           -5.00408159E-09,
           0.0
         ],

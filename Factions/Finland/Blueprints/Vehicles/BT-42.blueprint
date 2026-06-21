@@ -3,12 +3,12 @@
   "header": {
     "v": "0.2",
     "name": "BT-42",
-    "gameVersion": "0.2.50.10",
-    "mass": 12246,
+    "gameVersion": "0.2.51.36",
+    "mass": 12860,
     "creationDate": "1943.12.31",
     "class": "",
     "desc": "",
-    "cost": 22251
+    "cost": 21687
   },
   "blueprints": [
     {
@@ -58,7 +58,7 @@
         "description": null,
         "length": 6000,
         "width": 2000,
-        "groundClearance": 316
+        "groundClearance": 317
       }
     },
     {
@@ -78,10 +78,12 @@
       "id": 6,
       "type": "powertrainSteeringControls",
       "blueprint": {
-        "v": "0.0",
+        "v": "0.2",
         "name": null,
         "description": null,
-        "viewportVUID": -1
+        "viewportVUID": -1,
+        "startInSecondGear": false,
+        "inclineThreshold": 5.0
       }
     },
     {
@@ -105,25 +107,26 @@
       "id": 8,
       "type": "transmission",
       "blueprint": {
-        "v": "0.4",
+        "v": "0.7",
         "name": null,
         "description": null,
+        "meshType": "slidingMesh",
         "autoInputTorque": true,
         "maxInputTorque": 1391.23035,
         "autoResistanceTorque": true,
         "maxResistanceTorque": 1391.23035,
         "finalDriveRatio": 3.67,
-        "msrRatioThreshold": 6.3,
-        "auxillaryGearRatio": 2.0,
+        "msrRatioThreshold": 7.3,
+        "auxillaryGearRatio": 1.0,
         "auxiliaryMsrRatioThreshold": 1.5,
         "d": [
-          6.38,
-          2.72,
-          1.51,
+          6.53,
+          3.12,
+          1.7,
           1.0
         ],
         "r": [
-          2.72
+          7.5
         ]
       }
     },
@@ -301,17 +304,17 @@
       "id": 19,
       "type": "track",
       "blueprint": {
-        "v": "1.0",
+        "v": "1.1",
         "name": null,
         "description": null,
         "separation": 1375,
         "length": 6000,
-        "rrCoeff": 1.25,
         "brake": 94451,
         "autoBrake": true,
         "rollersEnabled": false,
         "matchChassis": false,
-        "frontalTransmission": false
+        "frontalTransmission": false,
+        "finalDriveRatio": 3.67
       }
     },
     {
@@ -333,12 +336,12 @@
       "id": 35,
       "type": "suspension",
       "blueprint": {
-        "v": "0.5",
+        "v": "0.6",
         "name": null,
         "description": null,
         "targetAngle": -34.0,
         "upTravelLimit": 1000.0,
-        "damper": 200.0,
+        "damper": 10018.0,
         "armLength": 450
       }
     },
@@ -1003,19 +1006,6 @@
       }
     },
     {
-      "id": 5,
-      "type": "paintJobRegister",
-      "blueprint": {
-        "v": "0.0",
-        "name": null,
-        "description": null,
-        "paintJobIDs": [
-          1,
-          2
-        ]
-      }
-    },
-    {
       "id": 48,
       "type": "decalTransform",
       "blueprint": {
@@ -1036,6 +1026,19 @@
         "name": null,
         "description": null,
         "imageURL": "Sprocket/Decals/ALL_Red_Circle.png"
+      }
+    },
+    {
+      "id": 5,
+      "type": "paintJobRegister",
+      "blueprint": {
+        "v": "0.0",
+        "name": null,
+        "description": null,
+        "paintJobIDs": [
+          1,
+          2
+        ]
       }
     }
   ],
@@ -1241,10 +1244,10 @@
             0.653219759,
             0.273989618,
             -1.9818064,
-            -0.6875,
+            -0.68750006,
             0.0,
             0.0,
-            0.6875,
+            0.68750006,
             0.0,
             0.0
           ],
@@ -1273,32 +1276,32 @@
             0.192559645,
             0.519367039,
             0.0,
-            0.181296781,
-            -0.504005,
-            0.4448745,
-            0.181296781,
-            0.08520948,
-            0.0257590413,
-            0.0170920789,
-            0.0309553146,
+            0.231543377,
+            -0.6436906,
+            0.5078024,
+            0.231543377,
+            0.108825386,
+            0.020421505,
+            0.026470542,
+            0.0318444967,
             0.0,
             0.0,
             0.0,
-            1.56462193E-07,
-            0.281999946,
-            -1.974,
-            -0.4448745,
-            0.181296781,
-            0.08520948,
-            -0.0257590413,
-            0.0170920789,
-            0.0309553146,
+            -2.23517418E-08,
+            0.281982422,
+            -1.97400022,
+            -0.5078024,
+            0.231543377,
+            0.108825386,
+            -0.0204214454,
+            0.026470542,
+            0.0318444967,
             0.0,
             0.0,
             0.0,
-            -1.56462193E-07,
-            0.281999946,
-            -1.974
+            2.23517418E-08,
+            0.281982422,
+            -1.97400022
           ],
           "portDirections": [
             0.0,
@@ -1310,9 +1313,9 @@
             1.0,
             0.0,
             0.0,
-            0.588803351,
-            0.39069286,
-            0.7075801,
+            0.442297578,
+            0.5733105,
+            0.6897013,
             0.0,
             0.0,
             1.0,
@@ -1322,9 +1325,9 @@
             -1.0,
             0.0,
             0.0,
-            -0.588803053,
-            0.390692979,
-            0.7075803,
+            -0.4422974,
+            0.573310733,
+            0.689701259,
             0.0,
             0.0,
             1.0,
@@ -2407,14 +2410,14 @@
       "transform": {
         "mirrorVuid": 165,
         "pos": [
-          -0.246687382,
+          -0.24668929,
           -0.5477905,
-          -0.318328738
+          -0.318328857
         ],
         "rot": [
-          3.8807638E-08,
+          -8.706228E-10,
           14.9999838,
-          1.18367787E-08,
+          6.61304256E-09,
           0.0
         ],
         "scale": [
@@ -2436,14 +2439,14 @@
       "transform": {
         "mirrorVuid": 162,
         "pos": [
-          0.3000345,
+          0.300035983,
           -0.5477905,
-          -0.3183297
+          -0.318328857
         ],
         "rot": [
-          6.52969456E-10,
+          -1.04067432E-07,
           344.999969,
-          4.959782E-09,
+          2.71561049E-08,
           0.0
         ],
         "scale": [
@@ -2465,7 +2468,7 @@
       "transform": {
         "mirrorVuid": -1,
         "pos": [
-          -3.33786E-06,
+          -5.036593E-06,
           0.0536499023,
           1.73205566
         ],

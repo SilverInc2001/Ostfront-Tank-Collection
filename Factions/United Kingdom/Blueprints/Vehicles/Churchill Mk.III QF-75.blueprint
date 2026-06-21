@@ -3,12 +3,12 @@
   "header": {
     "v": "0.2",
     "name": "Churchill Mk.III QF-75",
-    "gameVersion": "0.2.50.10",
-    "mass": 43593,
+    "gameVersion": "0.2.51.36",
+    "mass": 43724,
     "creationDate": "1945.09.02",
     "class": "",
     "desc": "",
-    "cost": 51354
+    "cost": 50894
   },
   "blueprints": [
     {
@@ -78,10 +78,12 @@
       "id": 6,
       "type": "powertrainSteeringControls",
       "blueprint": {
-        "v": "0.0",
+        "v": "0.2",
         "name": null,
         "description": null,
-        "viewportVUID": -1
+        "viewportVUID": -1,
+        "startInSecondGear": false,
+        "inclineThreshold": 5.0
       }
     },
     {
@@ -105,25 +107,26 @@
       "id": 8,
       "type": "transmission",
       "blueprint": {
-        "v": "0.4",
+        "v": "0.7",
         "name": "Churchill Mk.II",
         "description": "",
+        "meshType": "slidingMesh",
         "autoInputTorque": true,
         "maxInputTorque": 1574.96606,
         "autoResistanceTorque": true,
         "maxResistanceTorque": 1574.96606,
-        "finalDriveRatio": 5.99,
-        "msrRatioThreshold": 5.70000029,
+        "finalDriveRatio": 15.0,
+        "msrRatioThreshold": 2.3,
         "auxillaryGearRatio": 1.0,
         "auxiliaryMsrRatioThreshold": 1.5,
         "d": [
-          15.73,
-          5.75,
-          2.07,
+          5.54,
+          3.09,
+          1.77,
           1.0
         ],
         "r": [
-          5.75
+          6.09
         ]
       }
     },
@@ -301,17 +304,17 @@
       "id": 19,
       "type": "track",
       "blueprint": {
-        "v": "1.0",
+        "v": "1.1",
         "name": "c",
         "description": "",
         "separation": 1563,
         "length": 7440,
-        "rrCoeff": 1.0,
         "brake": 331117,
         "autoBrake": true,
         "rollersEnabled": true,
         "matchChassis": false,
-        "frontalTransmission": false
+        "frontalTransmission": false,
+        "finalDriveRatio": 5.99
       }
     },
     {
@@ -333,12 +336,12 @@
       "id": 35,
       "type": "suspension",
       "blueprint": {
-        "v": "0.5",
+        "v": "0.6",
         "name": "",
         "description": "",
         "targetAngle": -35.0,
         "upTravelLimit": 1000.0,
-        "damper": 200.0,
+        "damper": 10018.0,
         "armLength": 500
       }
     },
@@ -1460,7 +1463,7 @@
       }
     },
     {
-      "id": 0,
+      "id": 5,
       "type": "paintJobRegister",
       "blueprint": {
         "v": "0.0",
@@ -2393,11 +2396,11 @@
             0.248218924,
             -3.07604671,
             -0.781500041,
-            0.395244539,
-            -3.14514875,
+            0.378898531,
+            -3.137466,
             0.781500041,
-            0.395244539,
-            -3.14514875,
+            0.378898531,
+            -3.13746619,
             -0.781500041,
             0.0,
             0.0,
@@ -2430,12 +2433,12 @@
             0.2031671,
             0.547977149,
             0.0,
-            0.1470256,
-            -0.408731163,
-            0.473340452,
-            0.1470256,
-            0.06910203,
-            0.061596036,
+            0.1306796,
+            -0.3632893,
+            0.7665826,
+            0.1306796,
+            0.0614194125,
+            0.044893384,
             0.0,
             0.0,
             0.0,
@@ -2444,10 +2447,10 @@
             -2.23517418E-08,
             0.312011719,
             -3.11800027,
-            -0.473340452,
-            0.1470256,
-            0.06910203,
-            -0.061596036,
+            -0.7665826,
+            0.1306796,
+            0.0614194125,
+            -0.044893384,
             0.0,
             0.0,
             0.0,
@@ -2909,7 +2912,7 @@
           0.748504639
         ],
         "rot": [
-          0.3192836,
+          0.319283634,
           6.361208E-15,
           -2.17018078E-05,
           0.0

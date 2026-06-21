@@ -3,12 +3,12 @@
   "header": {
     "v": "0.2",
     "name": "105 leFH18B2",
-    "gameVersion": "0.2.50.10",
-    "mass": 36078,
+    "gameVersion": "0.2.51.36",
+    "mass": 35902,
     "creationDate": "1943.12.31",
     "class": "",
     "desc": "",
-    "cost": 36859
+    "cost": 35822
   },
   "blueprints": [
     {
@@ -78,10 +78,12 @@
       "id": 6,
       "type": "powertrainSteeringControls",
       "blueprint": {
-        "v": "0.0",
+        "v": "0.2",
         "name": null,
         "description": null,
-        "viewportVUID": -1
+        "viewportVUID": -1,
+        "startInSecondGear": false,
+        "inclineThreshold": 5.0
       }
     },
     {
@@ -105,26 +107,27 @@
       "id": 8,
       "type": "transmission",
       "blueprint": {
-        "v": "0.4",
-        "name": null,
-        "description": null,
+        "v": "0.7",
+        "name": "Char B1 Bis",
+        "description": "",
+        "meshType": "slidingMesh",
         "autoInputTorque": true,
         "maxInputTorque": 1251.23254,
         "autoResistanceTorque": true,
         "maxResistanceTorque": 1251.23254,
         "finalDriveRatio": 8.51,
-        "msrRatioThreshold": 2.10000014,
+        "msrRatioThreshold": 4.0,
         "auxillaryGearRatio": 1.0,
-        "auxiliaryMsrRatioThreshold": 1.5,
+        "auxiliaryMsrRatioThreshold": 1.0,
         "d": [
-          10.93,
-          4.36,
-          2.27,
-          1.43,
+          4.5,
+          3.08965087,
+          2.12132025,
+          1.45647526,
           1.0
         ],
         "r": [
-          4.36
+          4.25
         ]
       }
     },
@@ -302,17 +305,17 @@
       "id": 19,
       "type": "track",
       "blueprint": {
-        "v": "1.0",
+        "v": "1.1",
         "name": null,
         "description": null,
         "separation": 1238,
         "length": 6520,
-        "rrCoeff": 1.25,
         "brake": 283933,
         "autoBrake": true,
         "rollersEnabled": true,
         "matchChassis": false,
-        "frontalTransmission": false
+        "frontalTransmission": false,
+        "finalDriveRatio": 8.51
       }
     },
     {
@@ -334,12 +337,12 @@
       "id": 35,
       "type": "suspension",
       "blueprint": {
-        "v": "0.5",
+        "v": "0.6",
         "name": null,
         "description": null,
         "targetAngle": -60.0,
         "upTravelLimit": 1000.0,
-        "damper": 200.0,
+        "damper": 10018.0,
         "armLength": 332
       }
     },
@@ -1137,7 +1140,7 @@
       }
     },
     {
-      "id": 0,
+      "id": 5,
       "type": "paintJobRegister",
       "blueprint": {
         "v": "0.0",
@@ -1346,16 +1349,16 @@
             2.49759218E-08,
             0.24637109,
             -2.21430874,
-            -0.6189998,
-            0.366205573,
-            -2.27063084,
-            0.6189998,
-            0.366205573,
-            -2.270631,
-            -0.618999958,
+            -0.619,
+            0.398816019,
+            -2.28595781,
+            0.619,
+            0.398816019,
+            -2.28595781,
+            -0.619,
             0.0,
             0.0,
-            0.618999958,
+            0.619,
             0.0,
             0.0
           ],
@@ -1384,32 +1387,32 @@
             0.182614282,
             0.492542684,
             0.0,
-            0.119834475,
-            -0.333139837,
-            0.657207847,
-            0.119834475,
-            0.0563222,
-            -0.0505287647,
+            0.152444929,
+            -0.423796922,
+            0.5824227,
+            0.152444929,
+            0.07164912,
+            0.03758973,
             0.0,
             0.0,
             0.0,
             0.0,
             0.0,
-            1.56462193E-07,
-            0.45,
-            -2.34300041,
-            -0.657207847,
-            0.119834475,
-            0.0563222,
-            0.0505287647,
+            -2.23517418E-08,
+            0.450000048,
+            -2.342987,
+            -0.5824227,
+            0.152444929,
+            0.07164912,
+            -0.03758973,
             0.0,
             0.0,
             0.0,
             0.0,
             0.0,
-            -1.56462193E-07,
-            0.45,
-            -2.34300041
+            2.23517418E-08,
+            0.450000048,
+            -2.342987
           ],
           "portDirections": [
             0.0,
@@ -1421,7 +1424,7 @@
             1.0,
             0.0,
             0.0,
-            -1.0,
+            1.0,
             0.0,
             0.0,
             0.0,
@@ -1433,7 +1436,7 @@
             -1.0,
             0.0,
             0.0,
-            1.0,
+            -1.0,
             0.0,
             0.0,
             0.0,
@@ -2210,7 +2213,7 @@
         "mirrorVuid": -1,
         "pos": [
           -0.3948393,
-          0.19744879,
+          0.19744873,
           1.44171143
         ],
         "rot": [
@@ -2239,7 +2242,7 @@
         "mirrorVuid": -1,
         "pos": [
           -0.546186447,
-          0.487976134,
+          0.487976074,
           0.7260132
         ],
         "rot": [
@@ -2268,7 +2271,7 @@
         "mirrorVuid": -1,
         "pos": [
           0.554533958,
-          0.452209532,
+          0.452209473,
           0.6984863
         ],
         "rot": [
@@ -2297,7 +2300,7 @@
         "mirrorVuid": -1,
         "pos": [
           0.4412365,
-          0.484314024,
+          0.484313965,
           0.115692139
         ],
         "rot": [
@@ -2550,7 +2553,7 @@
         "rot": [
           11.7250338,
           180.0,
-          -3.63813417E-13,
+          -4.15786763E-13,
           0.0
         ],
         "scale": [
@@ -2749,7 +2752,7 @@
         "rot": [
           14.7066526,
           119.105316,
-          4.41346037E-06,
+          3.972114E-06,
           0.0
         ],
         "scale": [

@@ -3,12 +3,12 @@
   "header": {
     "v": "0.2",
     "name": "M36 GMC",
-    "gameVersion": "0.2.50.10",
-    "mass": 25844,
+    "gameVersion": "0.2.51.36",
+    "mass": 25764,
     "creationDate": "1945.01.17",
     "class": "",
     "desc": "",
-    "cost": 47851
+    "cost": 49074
   },
   "blueprints": [
     {
@@ -78,10 +78,12 @@
       "id": 6,
       "type": "powertrainSteeringControls",
       "blueprint": {
-        "v": "0.0",
+        "v": "0.2",
         "name": null,
         "description": null,
-        "viewportVUID": -1
+        "viewportVUID": -1,
+        "startInSecondGear": false,
+        "inclineThreshold": 5.0
       }
     },
     {
@@ -105,26 +107,27 @@
       "id": 8,
       "type": "transmission",
       "blueprint": {
-        "v": "0.4",
-        "name": null,
-        "description": null,
+        "v": "0.7",
+        "name": "17pdr SP M10 Achilles",
+        "description": "",
+        "meshType": "synchromesh",
         "autoInputTorque": true,
         "maxInputTorque": 1334.71716,
         "autoResistanceTorque": true,
         "maxResistanceTorque": 1334.71716,
-        "finalDriveRatio": 5.67,
-        "msrRatioThreshold": 4.6,
+        "finalDriveRatio": 5.82,
+        "msrRatioThreshold": 2.8,
         "auxillaryGearRatio": 1.0,
         "auxiliaryMsrRatioThreshold": 1.5,
         "d": [
-          12.35,
-          4.79,
-          2.4,
-          1.46,
-          1.0
+          6.23,
+          3.11,
+          1.78,
+          1.11,
+          0.73
         ],
         "r": [
-          4.79
+          5.65
         ]
       }
     },
@@ -302,17 +305,17 @@
       "id": 19,
       "type": "track",
       "blueprint": {
-        "v": "1.0",
+        "v": "1.1",
         "name": null,
         "description": null,
         "separation": 1548,
         "length": 5970,
-        "rrCoeff": 1.0,
         "brake": 205717,
         "autoBrake": true,
         "rollersEnabled": true,
         "matchChassis": false,
-        "frontalTransmission": true
+        "frontalTransmission": true,
+        "finalDriveRatio": 5.67
       }
     },
     {
@@ -334,12 +337,12 @@
       "id": 35,
       "type": "suspension",
       "blueprint": {
-        "v": "0.5",
+        "v": "0.6",
         "name": null,
         "description": null,
         "targetAngle": -5.0,
         "upTravelLimit": 1000.0,
-        "damper": 200.0,
+        "damper": 10018.0,
         "armLength": 500
       }
     },
@@ -1374,7 +1377,7 @@
       }
     },
     {
-      "id": 5,
+      "id": 0,
       "type": "paintJobRegister",
       "blueprint": {
         "v": "0.0",
@@ -1584,11 +1587,11 @@
             0.573751,
             2.439388,
             -0.774000049,
-            0.4345333,
-            2.50482035,
+            0.431798726,
+            2.50610566,
             0.774000049,
-            0.434533417,
-            2.50482035,
+            0.431798816,
+            2.50610542,
             -0.774000049,
             0.0,
             0.0,
@@ -1621,12 +1624,12 @@
             0.229064584,
             0.463432223,
             0.0,
-            0.139217615,
-            -0.387024969,
-            0.4704643,
-            0.139217615,
-            0.06543228,
-            0.05377388,
+            0.1419522,
+            -0.3946271,
+            0.5051834,
+            0.1419522,
+            0.06671753,
+            0.042806685,
             0.0,
             0.0,
             0.0,
@@ -1635,10 +1638,10 @@
             -2.23517418E-08,
             0.411010742,
             2.57300019,
-            -0.4704643,
-            0.139217615,
-            0.06543228,
-            -0.05377388,
+            -0.5051834,
+            0.1419522,
+            0.06671753,
+            -0.042806685,
             0.0,
             0.0,
             0.0,
@@ -2342,9 +2345,9 @@
           0.2437439
         ],
         "rot": [
-          28.1275978,
+          28.1276,
           179.943665,
-          1.89083416E-09,
+          2.83625123E-09,
           0.0
         ],
         "scale": [
@@ -2675,7 +2678,7 @@
           -0.463104248
         ],
         "rot": [
-          -9.676567E-06,
+          -9.676568E-06,
           329.999969,
           -2.59282433E-06,
           0.0
@@ -2760,9 +2763,9 @@
           -0.295898438
         ],
         "rot": [
-          1.99513E-07,
+          1.99512982E-07,
           29.99998,
-          -1.2608119E-07,
+          -1.260812E-07,
           0.0
         ],
         "scale": [
@@ -3552,7 +3555,7 @@
         "rot": [
           54.91737,
           179.999954,
-          -2.83327225E-12,
+          -2.833273E-12,
           0.0
         ],
         "scale": [

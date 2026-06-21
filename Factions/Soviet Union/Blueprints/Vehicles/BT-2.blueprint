@@ -3,12 +3,12 @@
   "header": {
     "v": "0.2",
     "name": "BT-2",
-    "gameVersion": "0.2.50.10",
-    "mass": 11782,
+    "gameVersion": "0.2.51.36",
+    "mass": 13477,
     "creationDate": "1941.12.31",
     "class": "",
     "desc": "",
-    "cost": 18789
+    "cost": 19143
   },
   "blueprints": [
     {
@@ -78,10 +78,12 @@
       "id": 6,
       "type": "powertrainSteeringControls",
       "blueprint": {
-        "v": "0.0",
+        "v": "0.2",
         "name": null,
         "description": null,
-        "viewportVUID": -1
+        "viewportVUID": -1,
+        "startInSecondGear": false,
+        "inclineThreshold": 5.0
       }
     },
     {
@@ -105,25 +107,26 @@
       "id": 8,
       "type": "transmission",
       "blueprint": {
-        "v": "0.4",
-        "name": null,
-        "description": null,
+        "v": "0.7",
+        "name": "BT",
+        "description": "",
+        "meshType": "slidingMesh",
         "autoInputTorque": true,
         "maxInputTorque": 1874.121,
         "autoResistanceTorque": true,
         "maxResistanceTorque": 1874.121,
-        "finalDriveRatio": 3.06,
-        "msrRatioThreshold": 5.20000029,
+        "finalDriveRatio": 3.67,
+        "msrRatioThreshold": 7.0,
         "auxillaryGearRatio": 1.0,
         "auxiliaryMsrRatioThreshold": 1.5,
         "d": [
-          5.88,
-          2.57,
-          1.48,
+          6.53,
+          3.12,
+          1.7,
           1.0
         ],
         "r": [
-          2.57
+          7.5
         ]
       }
     },
@@ -179,7 +182,7 @@
         "v": "0.0",
         "name": null,
         "description": null,
-        "wheelID": "82cb07ea-8e4a-4dd9-82fa-8237fef0dfff",
+        "wheelID": "aac797c7-1b6a-4b86-ba4b-62cc683174be",
         "perAxle": 2,
         "spacingOnAxle": 0.08,
         "xOffset": 0.03,
@@ -289,7 +292,7 @@
         "v": "0.0",
         "name": null,
         "description": null,
-        "wheelID": "82cb07ea-8e4a-4dd9-82fa-8237fef0dfff",
+        "wheelID": "50907d5b-dde1-451c-a0be-07c69d2fc886",
         "perAxle": 2,
         "spacingOnAxle": 0.08,
         "xOffset": 0.02,
@@ -301,17 +304,17 @@
       "id": 19,
       "type": "track",
       "blueprint": {
-        "v": "1.0",
+        "v": "1.1",
         "name": null,
         "description": null,
         "separation": 1447,
         "length": 6000,
-        "rrCoeff": 1.5,
-        "brake": 95498,
+        "brake": 94258,
         "autoBrake": true,
         "rollersEnabled": false,
         "matchChassis": false,
-        "frontalTransmission": false
+        "frontalTransmission": false,
+        "finalDriveRatio": 3.06
       }
     },
     {
@@ -333,12 +336,12 @@
       "id": 35,
       "type": "suspension",
       "blueprint": {
-        "v": "0.5",
+        "v": "0.6",
         "name": null,
         "description": null,
         "targetAngle": -34.0,
         "upTravelLimit": 1000.0,
-        "damper": 200.0,
+        "damper": 10018.0,
         "armLength": 450
       }
     },
@@ -1131,7 +1134,7 @@
       }
     },
     {
-      "id": 0,
+      "id": 5,
       "type": "paintJobRegister",
       "blueprint": {
         "v": "0.0",
@@ -1337,19 +1340,19 @@
             -0.4309551,
             0.572277665,
             -0.555293441,
-            6.81788E-08,
+            7.929792E-08,
             0.15,
-            -1.72012484,
-            -0.738000035,
+            -1.592937,
+            -0.5870838,
             0.350131333,
             -2.17812467,
-            0.738000035,
+            0.5870838,
             0.350131333,
             -2.17812467,
-            -0.723500252,
+            -0.7235,
             0.0,
             0.0,
-            0.723500252,
+            0.7235,
             0.0,
             0.0
           ],
@@ -1378,32 +1381,32 @@
             0.229064584,
             0.617827237,
             0.0,
-            0.158983976,
-            -0.441975445,
-            0.392918855,
-            0.158983976,
-            0.07472246,
-            0.0342106223,
-            -0.00407925248,
-            0.0379972458,
+            0.257051647,
+            -0.7146036,
+            0.589378238,
+            0.257051647,
+            0.120814279,
+            -0.000272810459,
+            0.00676751137,
+            0.0552113056,
             0.0,
             0.0,
             0.0,
-            -1.41561031E-07,
+            -2.23517418E-08,
             0.319,
-            -2.243,
-            -0.392918855,
-            0.158983976,
-            0.07472246,
-            -0.0342106223,
-            -0.00407925248,
-            0.0379972458,
+            -2.24301147,
+            -0.589378238,
+            0.257051647,
+            0.120814279,
+            0.000272810459,
+            0.00676751137,
+            0.0552113056,
             0.0,
             0.0,
             0.0,
-            1.41561031E-07,
+            2.23517418E-08,
             0.319,
-            -2.243
+            -2.24301147
           ],
           "portDirections": [
             0.0,
@@ -1415,9 +1418,9 @@
             1.0,
             0.0,
             0.0,
-            0.666986167,
-            -0.07953116,
-            0.7408132,
+            -0.00490400568,
+            0.121662416,
+            0.9925594,
             0.0,
             0.0,
             1.0,
@@ -1427,9 +1430,9 @@
             -1.0,
             0.0,
             0.0,
-            -0.666986167,
-            -0.07953119,
-            0.7408132,
+            0.00490426226,
+            0.121662453,
+            0.992559433,
             0.0,
             0.0,
             1.0,
@@ -1514,9 +1517,9 @@
       "transform": {
         "mirrorVuid": -1,
         "pos": [
-          6.81788E-08,
+          7.929792E-08,
           0.15,
-          -1.72012484
+          -1.592937
         ],
         "rot": [
           0.0,
@@ -2717,7 +2720,7 @@
         "mirrorVuid": -1,
         "pos": [
           -2.38418579E-06,
-          0.104980469,
+          0.104980528,
           1.73205566
         ],
         "rot": [
@@ -2861,9 +2864,9 @@
           1.77816772
         ],
         "rot": [
-          23.9444942,
+          23.9444962,
           180.0,
-          1.11361624E-13,
+          1.11361651E-13,
           0.0
         ],
         "scale": [
@@ -2947,7 +2950,7 @@
         "rot": [
           359.529175,
           180.0,
-          -1.1132316E-14,
+          -1.590331E-14,
           0.0
         ],
         "scale": [
@@ -2976,7 +2979,7 @@
         "rot": [
           359.529175,
           180.0,
-          -1.1132316E-14,
+          -1.590331E-14,
           0.0
         ],
         "scale": [

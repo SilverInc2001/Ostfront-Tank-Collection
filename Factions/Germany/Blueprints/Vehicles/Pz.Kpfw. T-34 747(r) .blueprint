@@ -3,12 +3,12 @@
   "header": {
     "v": "0.2",
     "name": "Pz.Kpfw. T-34 747(r) ",
-    "gameVersion": "0.2.50.10",
-    "mass": 25633,
+    "gameVersion": "0.2.51.36",
+    "mass": 26258,
     "creationDate": "1941.12.31",
     "class": "",
     "desc": "",
-    "cost": 36451
+    "cost": 36158
   },
   "blueprints": [
     {
@@ -78,10 +78,12 @@
       "id": 6,
       "type": "powertrainSteeringControls",
       "blueprint": {
-        "v": "0.0",
+        "v": "0.2",
         "name": null,
         "description": null,
-        "viewportVUID": -1
+        "viewportVUID": -1,
+        "startInSecondGear": false,
+        "inclineThreshold": 5.0
       }
     },
     {
@@ -105,25 +107,26 @@
       "id": 8,
       "type": "transmission",
       "blueprint": {
-        "v": "0.4",
-        "name": null,
-        "description": null,
+        "v": "0.7",
+        "name": "T-34-76 M1941",
+        "description": "",
+        "meshType": "slidingMesh",
         "autoInputTorque": true,
         "maxInputTorque": 2698.73462,
         "autoResistanceTorque": true,
         "maxResistanceTorque": 2698.73462,
         "finalDriveRatio": 3.77,
-        "msrRatioThreshold": 3.3,
+        "msrRatioThreshold": 4.8,
         "auxillaryGearRatio": 1.0,
         "auxiliaryMsrRatioThreshold": 1.5,
         "d": [
-          9.02,
-          3.52,
-          1.69,
-          1.0
+          5.0,
+          2.39,
+          1.45,
+          0.756
         ],
         "r": [
-          3.52
+          5.35
         ]
       }
     },
@@ -301,17 +304,17 @@
       "id": 19,
       "type": "track",
       "blueprint": {
-        "v": "1.0",
+        "v": "1.1",
         "name": null,
         "description": null,
         "separation": 1677,
         "length": 6000,
-        "rrCoeff": 1.5,
         "brake": 206275,
         "autoBrake": true,
         "rollersEnabled": false,
         "matchChassis": false,
-        "frontalTransmission": false
+        "frontalTransmission": false,
+        "finalDriveRatio": 3.77
       }
     },
     {
@@ -333,12 +336,12 @@
       "id": 35,
       "type": "suspension",
       "blueprint": {
-        "v": "0.5",
+        "v": "0.6",
         "name": null,
         "description": null,
         "targetAngle": -10.0,
         "upTravelLimit": 1000.0,
-        "damper": 200.0,
+        "damper": 10018.0,
         "armLength": 500
       }
     },
@@ -1291,19 +1294,6 @@
       }
     },
     {
-      "id": 0,
-      "type": "paintJobRegister",
-      "blueprint": {
-        "v": "0.0",
-        "name": null,
-        "description": null,
-        "paintJobIDs": [
-          1,
-          2
-        ]
-      }
-    },
-    {
       "id": 26,
       "type": "decalTransform",
       "blueprint": {
@@ -1324,6 +1314,19 @@
         "name": null,
         "description": null,
         "imageURL": "cec1dea9-6f23-4b70-a4ef-30d95a7b62c1"
+      }
+    },
+    {
+      "id": 5,
+      "type": "paintJobRegister",
+      "blueprint": {
+        "v": "0.0",
+        "name": null,
+        "description": null,
+        "paintJobIDs": [
+          1,
+          2
+        ]
       }
     }
   ],
@@ -1524,11 +1527,11 @@
             0.253988922,
             -2.094872,
             -0.8385,
-            0.413411856,
-            -2.16980076,
+            0.444300443,
+            -2.1843183,
             0.8385,
-            0.413411856,
-            -2.16980076,
+            0.444300443,
+            -2.18431854,
             -0.8385,
             0.0,
             0.0,
@@ -1561,32 +1564,32 @@
             0.274877518,
             0.741392732,
             0.0,
-            0.159422919,
-            -0.44319573,
-            0.619609535,
-            0.159422919,
-            0.07492877,
-            0.06679976,
+            0.190311521,
+            -0.529066,
+            0.78130734,
+            0.190311521,
+            0.08944642,
+            0.056125164,
             0.0,
             0.0,
             0.0,
             0.0,
             0.0,
             -2.23517418E-08,
-            0.348,
-            -2.540985,
-            -0.619609535,
-            0.159422919,
-            0.07492877,
-            -0.06679976,
+            0.348022461,
+            -2.54100013,
+            -0.78130734,
+            0.190311521,
+            0.08944642,
+            -0.056125164,
             0.0,
             0.0,
             0.0,
             0.0,
             0.0,
             2.23517418E-08,
-            0.348,
-            -2.540985
+            0.348022461,
+            -2.54100013
           ],
           "portDirections": [
             0.0,
@@ -2618,9 +2621,9 @@
           0.485717833
         ],
         "rot": [
-          28.859623,
+          28.8596268,
           104.093163,
-          -1.949689E-06,
+          -9.748445E-07,
           0.0
         ],
         "scale": [
@@ -2649,7 +2652,7 @@
         "rot": [
           28.859623,
           255.90683,
-          2.92453387E-06,
+          9.748446E-07,
           0.0
         ],
         "scale": [
@@ -2676,9 +2679,9 @@
           -1.123993
         ],
         "rot": [
-          30.0001831,
-          -0.000173565044,
-          -2.63251625E-11,
+          30.00018,
+          -0.000173565059,
+          -2.2564426E-11,
           0.0
         ],
         "scale": [
@@ -2956,7 +2959,7 @@
         "rot": [
           317.409058,
           -6.8037657E-06,
-          4.60451247E-06,
+          4.604513E-06,
           0.0
         ],
         "scale": [
@@ -2983,7 +2986,7 @@
         "rot": [
           317.409058,
           6.8037657E-06,
-          -4.60451247E-06,
+          -4.604513E-06,
           0.0
         ],
         "scale": [
@@ -3597,9 +3600,9 @@
           -1.45040894
         ],
         "rot": [
-          40.4860077,
-          90.00002,
-          2.245105E-06,
+          40.48601,
+          90.00003,
+          4.49020945E-06,
           0.0
         ],
         "scale": [
@@ -3628,7 +3631,7 @@
         "rot": [
           40.4860077,
           269.999969,
-          -2.245105E-06,
+          -4.49021E-06,
           0.0
         ],
         "scale": [

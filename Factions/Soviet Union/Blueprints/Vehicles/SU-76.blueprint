@@ -3,12 +3,12 @@
   "header": {
     "v": "0.2",
     "name": "SU-76",
-    "gameVersion": "0.2.50.10",
-    "mass": 11274,
+    "gameVersion": "0.2.51.36",
+    "mass": 11291,
     "creationDate": "1943.12.31",
     "class": "",
     "desc": "",
-    "cost": 24176
+    "cost": 25520
   },
   "blueprints": [
     {
@@ -78,10 +78,12 @@
       "id": 6,
       "type": "powertrainSteeringControls",
       "blueprint": {
-        "v": "0.0",
+        "v": "0.2",
         "name": null,
         "description": null,
-        "viewportVUID": -1
+        "viewportVUID": -1,
+        "startInSecondGear": false,
+        "inclineThreshold": 5.0
       }
     },
     {
@@ -105,25 +107,26 @@
       "id": 8,
       "type": "transmission",
       "blueprint": {
-        "v": "0.4",
-        "name": null,
-        "description": null,
+        "v": "0.7",
+        "name": "SU-76",
+        "description": "",
+        "meshType": "synchromesh",
         "autoInputTorque": true,
         "maxInputTorque": 508.367828,
         "autoResistanceTorque": true,
         "maxResistanceTorque": 508.367828,
         "finalDriveRatio": 5.6,
-        "msrRatioThreshold": 8.0,
+        "msrRatioThreshold": 2.7,
         "auxillaryGearRatio": 1.0,
         "auxiliaryMsrRatioThreshold": 1.5,
         "d": [
-          8.26,
-          3.28,
-          1.64,
+          6.6,
+          3.74,
+          1.84,
           1.0
         ],
         "r": [
-          3.28
+          7.63
         ]
       }
     },
@@ -301,17 +304,17 @@
       "id": 19,
       "type": "track",
       "blueprint": {
-        "v": "1.0",
+        "v": "1.1",
         "name": "SU-76",
         "description": "",
         "separation": 1900,
         "length": 6000,
-        "rrCoeff": 1.25,
         "brake": 89885,
         "autoBrake": true,
         "rollersEnabled": true,
         "matchChassis": true,
-        "frontalTransmission": true
+        "frontalTransmission": true,
+        "finalDriveRatio": 5.6
       }
     },
     {
@@ -333,12 +336,12 @@
       "id": 35,
       "type": "suspension",
       "blueprint": {
-        "v": "0.5",
+        "v": "0.6",
         "name": "",
         "description": "",
         "targetAngle": -30.0,
         "upTravelLimit": 1000.0,
-        "damper": 200.0,
+        "damper": 10018.0,
         "armLength": 440
       }
     },
@@ -1139,19 +1142,6 @@
       }
     },
     {
-      "id": 0,
-      "type": "paintJobRegister",
-      "blueprint": {
-        "v": "0.0",
-        "name": null,
-        "description": null,
-        "paintJobIDs": [
-          1,
-          2
-        ]
-      }
-    },
-    {
       "id": 63,
       "type": "decalTransform",
       "blueprint": {
@@ -1195,6 +1185,19 @@
         "name": null,
         "description": null,
         "imageURL": "Sprocket/Decals/Century White 4.png"
+      }
+    },
+    {
+      "id": 5,
+      "type": "paintJobRegister",
+      "blueprint": {
+        "v": "0.0",
+        "name": null,
+        "description": null,
+        "paintJobIDs": [
+          1,
+          2
+        ]
       }
     }
   ],
@@ -1395,11 +1398,11 @@
             0.495314628,
             1.92597377,
             -0.950000048,
-            0.366671,
-            1.98643625,
+            0.389368,
+            1.97576869,
             0.950000048,
-            0.366671026,
-            1.98643625,
+            0.389368057,
+            1.97576869,
             -0.950000048,
             0.0,
             0.0,
@@ -1432,12 +1435,12 @@
             0.116400488,
             0.3139525,
             0.0,
-            0.128643617,
-            -0.35762924,
-            0.2046412,
-            0.128643617,
-            0.0604624934,
-            0.0340883136,
+            0.1059466,
+            -0.294531554,
+            0.2903495,
+            0.1059466,
+            0.0497949,
+            0.0331986547,
             0.0,
             0.0,
             0.0,
@@ -1446,10 +1449,10 @@
             -2.23517418E-08,
             0.322021484,
             2.22100019,
-            -0.2046412,
-            0.128643617,
-            0.0604624934,
-            -0.0340883136,
+            -0.2903495,
+            0.1059466,
+            0.0497949,
+            -0.0331986547,
             0.0,
             0.0,
             0.0,
@@ -2768,7 +2771,7 @@
         "rot": [
           19.23236,
           269.999939,
-          -1.80847746E-06,
+          -9.04238732E-07,
           0.0
         ],
         "scale": [
@@ -2795,7 +2798,7 @@
           -1.14151
         ],
         "rot": [
-          19.2323647,
+          19.2323666,
           90.00007,
           -1.80847746E-06,
           0.0
@@ -2824,7 +2827,7 @@
           -0.847503662
         ],
         "rot": [
-          19.2323761,
+          19.232378,
           90.0001,
           9.042388E-06,
           0.0
@@ -2998,7 +3001,7 @@
         "rot": [
           60.3670921,
           179.981308,
-          6.745096E-09,
+          8.43137E-09,
           0.0
         ],
         "scale": [

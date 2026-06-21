@@ -3,12 +3,12 @@
   "header": {
     "v": "0.2",
     "name": "Universal Carrier Mk2",
-    "gameVersion": "0.2.50.10",
-    "mass": 10407,
+    "gameVersion": "0.2.51.36",
+    "mass": 10577,
     "creationDate": "1943.12.31",
     "class": "",
     "desc": "",
-    "cost": 31470
+    "cost": 31080
   },
   "blueprints": [
     {
@@ -78,10 +78,12 @@
       "id": 6,
       "type": "powertrainSteeringControls",
       "blueprint": {
-        "v": "0.0",
+        "v": "0.2",
         "name": null,
         "description": null,
-        "viewportVUID": -1
+        "viewportVUID": -1,
+        "startInSecondGear": false,
+        "inclineThreshold": 5.0
       }
     },
     {
@@ -105,21 +107,22 @@
       "id": 8,
       "type": "transmission",
       "blueprint": {
-        "v": "0.4",
-        "name": null,
+        "v": "0.7",
+        "name": "Universal Carrier Mk2",
         "description": null,
+        "meshType": "slidingMesh",
         "autoInputTorque": true,
         "maxInputTorque": 758.322632,
         "autoResistanceTorque": true,
         "maxResistanceTorque": 758.322632,
         "finalDriveRatio": 6.42,
-        "msrRatioThreshold": 5.20000029,
+        "msrRatioThreshold": 3.7,
         "auxillaryGearRatio": 1.0,
         "auxiliaryMsrRatioThreshold": 1.5,
         "d": [
-          5.29,
-          2.39,
-          1.44,
+          6.4,
+          3.09,
+          1.69,
           1.0
         ],
         "r": [
@@ -301,17 +304,17 @@
       "id": 19,
       "type": "track",
       "blueprint": {
-        "v": "1.0",
+        "v": "1.1",
         "name": null,
         "description": null,
         "separation": 1462,
         "length": 3660,
-        "rrCoeff": 1.25,
         "brake": 83257,
         "autoBrake": true,
         "rollersEnabled": true,
         "matchChassis": false,
-        "frontalTransmission": false
+        "frontalTransmission": false,
+        "finalDriveRatio": 6.42
       }
     },
     {
@@ -333,12 +336,12 @@
       "id": 35,
       "type": "suspension",
       "blueprint": {
-        "v": "0.5",
+        "v": "0.6",
         "name": null,
         "description": null,
         "targetAngle": 5.0,
         "upTravelLimit": 1000.0,
-        "damper": 1000000.0,
+        "damper": 100000.0,
         "armLength": 50
       }
     },
@@ -450,8 +453,8 @@
         "operatedBehaviours": [
           161,
           168,
-          174,
-          175
+          245,
+          246
         ]
       }
     },
@@ -616,51 +619,6 @@
       }
     },
     {
-      "id": 45,
-      "type": "cannonInstance",
-      "blueprint": {
-        "v": "0.2",
-        "name": null,
-        "description": null,
-        "flags": 0,
-        "fireGroup": 1,
-        "fireDelayLoadFraction": 0,
-        "sightVuid": 208,
-        "linkedCannonVuid": -1,
-        "barrelVuids": [
-          178
-        ]
-      }
-    },
-    {
-      "id": 46,
-      "type": "cannon",
-      "blueprint": {
-        "v": "1.9",
-        "name": "Unnamed Cannon",
-        "description": null,
-        "caliber": 20,
-        "breechLength": 99,
-        "muzzle": "34c1eda8-bcff-4879-89df-1e826cce8b50",
-        "segments": [
-          {
-            "v": "0.0",
-            "segments": [
-              {
-                "t0": 1,
-                "t1": 1,
-                "l": 1230
-              }
-            ]
-          }
-        ],
-        "muzzleMass": 0.0,
-        "K": 1900,
-        "PSI": 40000,
-        "shellID": 47
-      }
-    },
-    {
       "id": 47,
       "type": "shellSlot",
       "blueprint": {
@@ -808,29 +766,6 @@
     },
     {
       "id": 53,
-      "type": "decal",
-      "blueprint": {
-        "v": "0.3",
-        "name": null,
-        "description": null,
-        "imageURL": "Sprocket/Decals/Black Circle.png"
-      }
-    },
-    {
-      "id": 56,
-      "type": "decalTransform",
-      "blueprint": {
-        "v": "0.0",
-        "name": null,
-        "description": null,
-        "x": 500,
-        "y": 500,
-        "z": 25,
-        "flags": 0
-      }
-    },
-    {
-      "id": 57,
       "type": "decal",
       "blueprint": {
         "v": "0.3",
@@ -1047,7 +982,7 @@
       }
     },
     {
-      "id": 5,
+      "id": 0,
       "type": "paintJobRegister",
       "blueprint": {
         "v": "0.0",
@@ -1056,6 +991,81 @@
         "paintJobIDs": [
           1,
           2
+        ]
+      }
+    },
+    {
+      "id": 74,
+      "type": "cannonInstance",
+      "blueprint": {
+        "v": "0.2",
+        "name": null,
+        "description": null,
+        "flags": 0,
+        "fireGroup": 1,
+        "fireDelayLoadFraction": 0,
+        "sightVuid": 208,
+        "linkedCannonVuid": -1,
+        "barrelVuids": [
+          249
+        ]
+      }
+    },
+    {
+      "id": 75,
+      "type": "cannon",
+      "blueprint": {
+        "v": "1.9",
+        "name": "Boys",
+        "description": "",
+        "caliber": 20,
+        "breechLength": 99,
+        "muzzle": "34c1eda8-bcff-4879-89df-1e826cce8b50",
+        "segments": [
+          {
+            "v": "0.0",
+            "segments": [
+              {
+                "t0": 1,
+                "t1": 1,
+                "l": 1230
+              }
+            ]
+          }
+        ],
+        "muzzleMass": 0.0,
+        "K": 1900,
+        "PSI": 40000,
+        "shellID": 76
+      }
+    },
+    {
+      "id": 76,
+      "type": "shellSlot",
+      "blueprint": {
+        "v": "0.0",
+        "name": null,
+        "description": null,
+        "diameter": 20,
+        "propellantLength": 99,
+        "generatedProjectiles": [
+          {
+            "projectileTypeGuid": "1a378fb0-1c8b-43ba-8024-12ae88b097e2",
+            "functions": [
+              {
+                "id": "AP",
+                "definition": {
+                  "penetratorConstant": 1900
+                }
+              },
+              {
+                "id": "Propellant",
+                "definition": {
+                  "length": 99
+                }
+              }
+            ]
+          }
         ]
       }
     }
@@ -1253,9 +1263,9 @@
             0.00145337847,
             0.644027,
             -0.229885757,
-            5.593969E-09,
+            8.524231E-09,
             0.499999434,
-            -1.16967559,
+            -1.13615727,
             -0.731,
             0.5681095,
             -1.26567483,
@@ -1294,26 +1304,26 @@
             0.1741159,
             0.352262735,
             0.0,
-            0.123174034,
-            -0.342423826,
-            0.249937281,
-            0.123174034,
-            0.0578917935,
-            0.0332523,
-            0.0038061738,
-            0.00263404846,
+            0.136420622,
+            -0.3792493,
+            0.374905944,
+            0.136420622,
+            0.06411769,
+            0.0345751643,
+            0.00663268566,
+            0.00635004044,
             0.0,
             0.0,
             0.0,
             -2.23517418E-08,
             0.508999944,
             -1.67401123,
-            -0.249937281,
-            0.123174034,
-            0.0578917935,
-            -0.0332481265,
-            0.00401997566,
-            0.002354145,
+            -0.374905944,
+            0.136420622,
+            0.06411769,
+            -0.0345852971,
+            0.00693577528,
+            0.00595891476,
             0.0,
             0.0,
             0.0,
@@ -1331,9 +1341,9 @@
             1.0,
             0.0,
             0.0,
-            0.9904501,
-            0.113370053,
-            0.07845878,
+            0.966496944,
+            0.18540591,
+            0.177505881,
             0.0,
             0.0,
             1.0,
@@ -1343,9 +1353,9 @@
             -1.0,
             0.0,
             0.0,
-            -0.9903261,
-            0.119739026,
-            0.07011911,
+            -0.9667806,
+            0.193878576,
+            0.1665727,
             0.0,
             0.0,
             1.0,
@@ -1430,9 +1440,9 @@
       "transform": {
         "mirrorVuid": -1,
         "pos": [
-          5.593969E-09,
+          8.524231E-09,
           0.499999434,
-          -1.16967559
+          -1.13615727
         ],
         "rot": [
           0.0,
@@ -1783,13 +1793,13 @@
         "mirrorVuid": -1,
         "pos": [
           0.42330116,
-          0.2962036,
+          0.296203732,
           0.8344116
         ],
         "rot": [
           0.0,
           0.0,
-          1.19202093E-09,
+          -3.03541925E-09,
           0.0
         ],
         "scale": [
@@ -1812,13 +1822,13 @@
         "mirrorVuid": -1,
         "pos": [
           -0.3743229,
-          0.307373047,
+          0.307372928,
           0.750640869
         ],
         "rot": [
           0.0,
           0.0,
-          1.19202093E-09,
+          -3.03541925E-09,
           0.0
         ],
         "scale": [
@@ -2005,19 +2015,19 @@
       }
     },
     {
-      "guid": "bfa86d1e-41ab-43fa-92f8-ef29e1e52c00",
-      "vuid": 173,
+      "guid": "bfa86d1e-41ab-43fa-92f8-ef29e1e52c00b",
+      "vuid": 244,
       "pvuid": 170,
       "flags": 2,
-      "cannon": 174,
-      "breech": 175,
-      "breechModel": 176,
+      "cannon": 245,
+      "breech": 246,
+      "breechModel": 247,
       "transform": {
         "mirrorVuid": -1,
         "pos": [
           0.0,
           0.0,
-          0.01408577
+          -0.250009656
         ],
         "rot": [
           0.0,
@@ -2031,15 +2041,15 @@
           1.0
         ]
       },
-      "cannonBlueprintVuid": 46,
-      "cannonInstanceBlueprintVuid": 45
+      "cannonBlueprintVuid": 75,
+      "cannonInstanceBlueprintVuid": 74
     },
     {
       "guid": "c56166b7-89f3-4791-9a22-a9c3c8e8ce16",
-      "vuid": 177,
-      "pvuid": 173,
+      "vuid": 248,
+      "pvuid": 244,
       "flags": 2,
-      "cannonBarrelSegment": 178,
+      "cannonBarrelSegment": 249,
       "transform": {
         "mirrorVuid": -1,
         "pos": [
@@ -2063,20 +2073,20 @@
     {
       "guid": "8f8a9d20-eb45-482e-b149-014c964c4e2c",
       "vuid": 181,
-      "pvuid": 173,
+      "pvuid": 248,
       "flags": 3,
       "plateStructure": 182,
       "transform": {
         "mirrorVuid": -1,
         "pos": [
-          -0.000557422638,
-          -0.09398544,
-          0.089939
+          -0.00193357468,
+          -0.09502268,
+          0.0955810547
         ],
         "rot": [
-          0.0,
+          3.0533326E-13,
           270.0,
-          0.0,
+          -2.41483622E-06,
           0.0
         ],
         "scale": [
@@ -2086,35 +2096,6 @@
         ]
       },
       "structureBlueprintVuid": 48
-    },
-    {
-      "guid": "e59ff736-a6ea-4a1a-a4c5-6437ed15b872",
-      "vuid": 222,
-      "pvuid": 181,
-      "flags": 3,
-      "decalScaler": 223,
-      "projectedDecal": 224,
-      "transform": {
-        "mirrorVuid": -1,
-        "pos": [
-          0.00137141347,
-          -0.0631281137,
-          0.3492756
-        ],
-        "rot": [
-          271.524445,
-          270.000183,
-          269.999817,
-          0.0
-        ],
-        "scale": [
-          0.5,
-          0.5,
-          0.025
-        ]
-      },
-      "decalProjectionBlueprintVuid": 56,
-      "decalBlueprintVuid": 57
     },
     {
       "guid": "f90f373f-4edb-4563-a162-6eee6a5d77dd",
@@ -2467,7 +2448,7 @@
         "rot": [
           44.68868,
           179.265457,
-          0.0,
+          -3.7528455E-08,
           0.0
         ],
         "scale": [
@@ -2699,7 +2680,7 @@
         "rot": [
           0.09882257,
           359.378052,
-          -3.64772E-10,
+          -4.16882251E-10,
           0.0
         ],
         "scale": [

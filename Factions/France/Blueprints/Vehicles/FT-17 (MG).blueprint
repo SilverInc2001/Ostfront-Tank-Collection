@@ -3,12 +3,12 @@
   "header": {
     "v": "0.2",
     "name": "FT-17 (MG)",
-    "gameVersion": "0.2.50.10",
-    "mass": 6920,
+    "gameVersion": "0.2.51.36",
+    "mass": 6950,
     "creationDate": "1939.09.01",
     "class": "",
     "desc": "",
-    "cost": 20649
+    "cost": 20069
   },
   "blueprints": [
     {
@@ -78,10 +78,12 @@
       "id": 6,
       "type": "powertrainSteeringControls",
       "blueprint": {
-        "v": "0.0",
+        "v": "0.2",
         "name": null,
         "description": null,
-        "viewportVUID": -1
+        "viewportVUID": -1,
+        "startInSecondGear": false,
+        "inclineThreshold": 5.0
       }
     },
     {
@@ -105,25 +107,26 @@
       "id": 8,
       "type": "transmission",
       "blueprint": {
-        "v": "0.4",
-        "name": null,
-        "description": null,
+        "v": "0.7",
+        "name": "FT-17",
+        "description": "",
+        "meshType": "slidingMesh",
         "autoInputTorque": true,
         "maxInputTorque": 298.627655,
         "autoResistanceTorque": true,
         "maxResistanceTorque": 298.627655,
         "finalDriveRatio": 9.45,
-        "msrRatioThreshold": 3.4,
+        "msrRatioThreshold": 4.0,
         "auxillaryGearRatio": 1.0,
         "auxiliaryMsrRatioThreshold": 1.5,
         "d": [
-          9.34,
-          3.62,
-          1.71,
+          4.8,
+          2.4,
+          1.45,
           1.0
         ],
         "r": [
-          3.62
+          5.0
         ]
       }
     },
@@ -301,17 +304,17 @@
       "id": 19,
       "type": "track",
       "blueprint": {
-        "v": "1.0",
+        "v": "1.1",
         "name": null,
         "description": null,
         "separation": 851,
         "length": 5000,
-        "rrCoeff": 3.0,
         "brake": 56838,
         "autoBrake": true,
         "rollersEnabled": true,
         "matchChassis": false,
-        "frontalTransmission": false
+        "frontalTransmission": false,
+        "finalDriveRatio": 9.45
       }
     },
     {
@@ -333,12 +336,12 @@
       "id": 35,
       "type": "suspension",
       "blueprint": {
-        "v": "0.5",
+        "v": "0.6",
         "name": null,
         "description": null,
         "targetAngle": -45.0,
         "upTravelLimit": 1000.0,
-        "damper": 200.0,
+        "damper": 10018.0,
         "armLength": 50
       }
     },
@@ -903,7 +906,7 @@
       }
     },
     {
-      "id": 0,
+      "id": 5,
       "type": "paintJobRegister",
       "blueprint": {
         "v": "0.0",
@@ -1113,11 +1116,11 @@
             0.452271551,
             -1.3001523,
             -0.4255,
-            0.5570799,
-            -1.3494122,
+            0.561995566,
+            -1.3517226,
             0.4255,
-            0.5570799,
-            -1.3494122,
+            0.561995566,
+            -1.3517226,
             -0.4255,
             0.0,
             0.0,
@@ -1150,12 +1153,12 @@
             0.161973119,
             0.218522266,
             0.0,
-            0.104808368,
-            -0.2913673,
-            0.206111878,
-            0.104808368,
-            0.0492599346,
-            0.0354100168,
+            0.109724008,
+            -0.30503273,
+            0.259900331,
+            0.109724008,
+            0.05157028,
+            0.02875194,
             0.0,
             0.0,
             0.0,
@@ -1164,10 +1167,10 @@
             7.450581E-09,
             0.539001465,
             -1.354,
-            -0.206111878,
-            0.104808368,
-            0.0492599346,
-            -0.0354100168,
+            -0.259900331,
+            0.109724008,
+            0.05157028,
+            -0.02875194,
             0.0,
             0.0,
             0.0,
@@ -1632,14 +1635,14 @@
       "guid": "4481135e-cefd-499c-8122-414942eecbe4",
       "vuid": 416,
       "pvuid": 0,
-      "flags": 2,
+      "flags": 3,
       "crewSeat": 417,
       "posture": 418,
       "transform": {
         "mirrorVuid": -1,
         "pos": [
           -9.536743E-07,
-          0.445007563,
+          0.445007324,
           0.8601074
         ],
         "rot": [
@@ -1927,13 +1930,13 @@
         "mirrorVuid": -1,
         "pos": [
           -0.210569382,
-          -0.9907838,
-          -0.270108223
+          -0.9907837,
+          -0.270111084
         ],
         "rot": [
-          -1.82650073E-09,
+          -1.82650051E-09,
           29.99998,
-          3.73766129E-10,
+          3.73766157E-10,
           0.0
         ],
         "scale": [
@@ -1988,7 +1991,7 @@
         ],
         "rot": [
           75.000206,
-          89.99991,
+          89.9999161,
           179.999939,
           0.0
         ],

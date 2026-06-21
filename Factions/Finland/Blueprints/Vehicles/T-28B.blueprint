@@ -3,12 +3,12 @@
   "header": {
     "v": "0.2",
     "name": "T-28B",
-    "gameVersion": "0.2.50.10",
-    "mass": 29269,
+    "gameVersion": "0.2.51.36",
+    "mass": 29962,
     "creationDate": "1941.12.31",
     "class": "",
     "desc": "",
-    "cost": 51106
+    "cost": 50607
   },
   "blueprints": [
     {
@@ -78,10 +78,12 @@
       "id": 6,
       "type": "powertrainSteeringControls",
       "blueprint": {
-        "v": "0.0",
+        "v": "0.2",
         "name": null,
         "description": null,
-        "viewportVUID": -1
+        "viewportVUID": -1,
+        "startInSecondGear": false,
+        "inclineThreshold": 5.0
       }
     },
     {
@@ -105,26 +107,27 @@
       "id": 8,
       "type": "transmission",
       "blueprint": {
-        "v": "0.4",
-        "name": null,
-        "description": null,
+        "v": "0.7",
+        "name": "T-28",
+        "description": "",
+        "meshType": "slidingMesh",
         "autoInputTorque": true,
         "maxInputTorque": 3256.806,
         "autoResistanceTorque": true,
         "maxResistanceTorque": 3256.806,
-        "finalDriveRatio": 3.34,
-        "msrRatioThreshold": 1.6,
+        "finalDriveRatio": 3.35,
+        "msrRatioThreshold": 3.8,
         "auxillaryGearRatio": 1.0,
         "auxiliaryMsrRatioThreshold": 1.5,
         "d": [
-          7.21,
-          3.21,
-          1.92,
-          1.33,
+          5.14,
+          2.8,
+          1.62,
+          1.19,
           1.0
         ],
         "r": [
-          3.09
+          3.74
         ]
       }
     },
@@ -302,17 +305,17 @@
       "id": 19,
       "type": "track",
       "blueprint": {
-        "v": "1.0",
+        "v": "1.1",
         "name": "",
         "description": "",
         "separation": 1760,
         "length": 7440,
-        "rrCoeff": 1.5,
         "brake": 223167,
         "autoBrake": true,
         "rollersEnabled": true,
         "matchChassis": false,
-        "frontalTransmission": false
+        "frontalTransmission": false,
+        "finalDriveRatio": 3.34
       }
     },
     {
@@ -334,12 +337,12 @@
       "id": 35,
       "type": "suspension",
       "blueprint": {
-        "v": "0.5",
+        "v": "0.6",
         "name": "",
         "description": "",
         "targetAngle": -5.0,
         "upTravelLimit": 1000.0,
-        "damper": 200.0,
+        "damper": 10018.0,
         "armLength": 500
       }
     },
@@ -1659,7 +1662,7 @@
       }
     },
     {
-      "id": 0,
+      "id": 5,
       "type": "paintJobRegister",
       "blueprint": {
         "v": "0.0",
@@ -1869,11 +1872,11 @@
             0.128464669,
             -3.029226,
             -0.880000055,
-            0.285223722,
-            -3.10290265,
+            0.345043182,
+            -3.131018,
             0.880000055,
-            0.285223722,
-            -3.102903,
+            0.345043182,
+            -3.131018,
             -0.880000055,
             0.0,
             0.0,
@@ -1906,12 +1909,12 @@
             0.301963985,
             0.8144496,
             0.0,
-            0.156759039,
-            -0.435790122,
-            0.951834738,
-            0.156759039,
-            0.07367674,
-            -0.06600273,
+            0.216578513,
+            -0.6020883,
+            0.858297348,
+            0.216578513,
+            0.101791896,
+            0.05896187,
             0.0,
             0.0,
             0.0,
@@ -1920,10 +1923,10 @@
             -2.23517418E-08,
             0.2869873,
             -3.21000028,
-            -0.951834738,
-            0.156759039,
-            0.07367674,
-            0.06600273,
+            -0.858297348,
+            0.216578513,
+            0.101791896,
+            -0.05896187,
             0.0,
             0.0,
             0.0,
@@ -1943,7 +1946,7 @@
             1.0,
             0.0,
             0.0,
-            -1.0,
+            1.0,
             0.0,
             0.0,
             0.0,
@@ -1955,7 +1958,7 @@
             -1.0,
             0.0,
             0.0,
-            1.0,
+            -1.0,
             0.0,
             0.0,
             0.0,
@@ -3753,8 +3756,8 @@
         ],
         "rot": [
           88.3434143,
-          9.317787,
-          9.321674,
+          9.317784,
+          9.321675,
           0.0
         ],
         "scale": [
@@ -4428,7 +4431,7 @@
         "rot": [
           20.4495583,
           180.0,
-          4.34492665E-13,
+          5.43115845E-13,
           0.0
         ],
         "scale": [
