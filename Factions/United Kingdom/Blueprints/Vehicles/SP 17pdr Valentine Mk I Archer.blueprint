@@ -4,11 +4,11 @@
     "v": "0.2",
     "name": "SP 17pdr Valentine Mk I Archer",
     "gameVersion": "0.2.51.36",
-    "mass": 15412,
+    "mass": 15772,
     "creationDate": "1945.01.17",
     "class": "",
     "desc": "",
-    "cost": 44551
+    "cost": 44770
   },
   "blueprints": [
     {
@@ -136,8 +136,8 @@
       "type": "trackWheelMount",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "mountID": "97844d15-24a8-4feb-9548-668e2bb81ce6",
         "scale": 0.5,
         "x": 0,
@@ -151,8 +151,8 @@
       "type": "trackWheel",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "wheelID": "8b31d0e4-3946-4a3a-81ef-b2bbf3a84989",
         "perAxle": 1,
         "spacingOnAxle": 0.01,
@@ -166,8 +166,8 @@
       "type": "trackWheelMount",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "mountID": "25261a10-1c39-4191-9378-b6108d71cbf1",
         "scale": 1.0,
         "x": 0,
@@ -181,8 +181,8 @@
       "type": "trackWheel",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "wheelID": "ed05e419-9705-41ac-801c-11a0a0dd0700",
         "perAxle": 1,
         "spacingOnAxle": 0.08,
@@ -196,8 +196,8 @@
       "type": "trackWheelArray",
       "blueprint": {
         "v": "0.2",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "spacingMode": 0,
         "spacing": 1300,
         "length": 5690,
@@ -221,8 +221,8 @@
       "type": "trackWheelMount",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "mountID": "062b2d20-13d5-4dec-9d1c-b2855fdccfac",
         "scale": 0.5,
         "x": 0,
@@ -236,8 +236,8 @@
       "type": "trackWheel",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "wheelID": "50907d5b-dde1-451c-a0be-07c69d2fc886",
         "perAxle": 2,
         "spacingOnAxle": 0.08,
@@ -251,8 +251,8 @@
       "type": "trackWheelArray",
       "blueprint": {
         "v": "0.2",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "spacingMode": 2,
         "spacing": 135,
         "length": 5690,
@@ -276,8 +276,8 @@
       "type": "trackWheelMount",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "mountID": "6b0a1425-3943-491b-ad87-f56d8b811e19",
         "scale": 0.5,
         "x": 0,
@@ -291,8 +291,8 @@
       "type": "trackWheel",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "wheelID": "50907d5b-dde1-451c-a0be-07c69d2fc886",
         "perAxle": 1,
         "spacingOnAxle": 0.08,
@@ -306,16 +306,16 @@
       "type": "track",
       "blueprint": {
         "v": "1.1",
-        "name": null,
-        "description": null,
+        "name": "SP 17pdr Valentine Mk I Archer",
+        "description": "",
         "separation": 1538,
         "length": 5690,
-        "brake": 123326,
+        "brake": 126183,
         "autoBrake": true,
         "rollersEnabled": true,
         "matchChassis": false,
         "frontalTransmission": false,
-        "finalDriveRatio": 5.44
+        "finalDriveRatio": 9.6
       }
     },
     {
@@ -323,8 +323,8 @@
       "type": "trackBelt",
       "blueprint": {
         "v": "1.1",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "segmentID": "222d83dc-ff5f-49ec-8b97-ce7ad0b05826",
         "x": 356,
         "y": 75,
@@ -338,12 +338,12 @@
       "type": "suspension",
       "blueprint": {
         "v": "0.6",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "targetAngle": -45.0,
         "upTravelLimit": 1000.0,
         "damper": 10018.0,
-        "armLength": 500
+        "armLength": 200
       }
     },
     {
@@ -351,9 +351,9 @@
       "type": "torsionBar",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
-        "torsionBarLength": 100,
+        "name": "",
+        "description": "",
+        "torsionBarLength": 764,
         "torsionBarDiameter": 60
       }
     },
@@ -1812,7 +1812,7 @@
       }
     },
     {
-      "id": 0,
+      "id": 5,
       "type": "paintJobRegister",
       "blueprint": {
         "v": "0.0",
@@ -2348,7 +2348,7 @@
           0.3916626
         ],
         "rot": [
-          52.30751,
+          52.3075142,
           180.0,
           180.0,
           0.0
@@ -3045,8 +3045,8 @@
             0.0,
             0.0,
             -2.23517418E-08,
-            0.431030273,
-            -2.45200014,
+            0.431000054,
+            -2.45199585,
             -0.292840838,
             0.132004336,
             0.0620420352,
@@ -3057,8 +3057,8 @@
             0.0,
             0.0,
             2.23517418E-08,
-            0.431030273,
-            -2.45200014
+            0.431000054,
+            -2.45199585
           ],
           "portDirections": [
             0.0,
@@ -3285,9 +3285,9 @@
           0.4776001
         ],
         "rot": [
-          53.7073441,
+          53.7073479,
           180.0,
-          -5.15844225E-12,
+          -5.50233773E-12,
           0.0
         ],
         "scale": [
@@ -3343,9 +3343,9 @@
           0.6741333
         ],
         "rot": [
-          53.7073441,
+          53.7073479,
           180.0,
-          -5.15844225E-12,
+          -5.50233773E-12,
           0.0
         ],
         "scale": [
@@ -3372,9 +3372,9 @@
           0.6444702
         ],
         "rot": [
-          53.7073441,
+          53.7073479,
           180.0,
-          -5.15844225E-12,
+          -5.50233773E-12,
           0.0
         ],
         "scale": [
@@ -4041,7 +4041,7 @@
         "rot": [
           349.283173,
           359.0883,
-          8.825064E-08,
+          8.14621259E-08,
           0.0
         ],
         "scale": [
@@ -4069,7 +4069,7 @@
         ],
         "rot": [
           349.2845,
-          0.8729793,
+          0.872979343,
           0.0,
           0.0
         ],
@@ -4155,7 +4155,7 @@
           -2.884552
         ],
         "rot": [
-          17.5357647,
+          17.5357666,
           0.0,
           0.0,
           0.0
@@ -4184,7 +4184,7 @@
           -2.88458252
         ],
         "rot": [
-          17.5357647,
+          17.5357666,
           0.0,
           0.0,
           0.0

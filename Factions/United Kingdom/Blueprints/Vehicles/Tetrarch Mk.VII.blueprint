@@ -136,12 +136,12 @@
       "type": "trackWheelMount",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "mountID": "25261a10-1c39-4191-9378-b6108d71cbf1",
         "scale": 1.38,
         "x": 0,
-        "y": 203,
+        "y": 197,
         "z": 909,
         "rearFacing": true
       }
@@ -151,8 +151,8 @@
       "type": "trackWheel",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "wheelID": "470581da-c2aa-4748-ad51-cbcf64767a1d",
         "perAxle": 1,
         "spacingOnAxle": 0.01,
@@ -166,12 +166,12 @@
       "type": "trackWheelMount",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "mountID": "25261a10-1c39-4191-9378-b6108d71cbf1",
         "scale": 1.0,
         "x": 0,
-        "y": 196,
+        "y": 199,
         "z": -379,
         "rearFacing": false
       }
@@ -181,8 +181,8 @@
       "type": "trackWheel",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "wheelID": "50907d5b-dde1-451c-a0be-07c69d2fc886",
         "perAxle": 1,
         "spacingOnAxle": 0.08,
@@ -196,8 +196,8 @@
       "type": "trackWheelArray",
       "blueprint": {
         "v": "0.2",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "spacingMode": 0,
         "spacing": 1300,
         "length": 4340,
@@ -221,8 +221,8 @@
       "type": "trackWheelMount",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "mountID": "062b2d20-13d5-4dec-9d1c-b2855fdccfac",
         "scale": 0.5,
         "x": 0,
@@ -236,8 +236,8 @@
       "type": "trackWheel",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "wheelID": "50907d5b-dde1-451c-a0be-07c69d2fc886",
         "perAxle": 2,
         "spacingOnAxle": 0.08,
@@ -251,8 +251,8 @@
       "type": "trackWheelArray",
       "blueprint": {
         "v": "0.2",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "spacingMode": 0,
         "spacing": 450,
         "length": 4340,
@@ -276,8 +276,8 @@
       "type": "trackWheelMount",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "mountID": "6b0a1425-3943-491b-ad87-f56d8b811e19",
         "scale": 0.6,
         "x": 0,
@@ -291,8 +291,8 @@
       "type": "trackWheel",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "wheelID": "50907d5b-dde1-451c-a0be-07c69d2fc886",
         "perAxle": 1,
         "spacingOnAxle": 0.08,
@@ -306,8 +306,8 @@
       "type": "track",
       "blueprint": {
         "v": "1.1",
-        "name": null,
-        "description": null,
+        "name": "Tetrarch Mk.VII",
+        "description": "",
         "separation": 1692,
         "length": 4340,
         "brake": 64300,
@@ -315,7 +315,7 @@
         "rollersEnabled": false,
         "matchChassis": false,
         "frontalTransmission": false,
-        "finalDriveRatio": 5.23
+        "finalDriveRatio": 5.5
       }
     },
     {
@@ -323,8 +323,8 @@
       "type": "trackBelt",
       "blueprint": {
         "v": "1.1",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "segmentID": "f3b848a2-e3b2-470d-aecf-897143bdb5cd",
         "x": 241,
         "y": 50,
@@ -338,8 +338,8 @@
       "type": "suspension",
       "blueprint": {
         "v": "0.6",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "targetAngle": -21.0,
         "upTravelLimit": 1000.0,
         "damper": 54847.0,
@@ -351,8 +351,8 @@
       "type": "torsionBar",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "torsionBarLength": 100,
         "torsionBarDiameter": 60
       }
@@ -1215,7 +1215,7 @@
       }
     },
     {
-      "id": 0,
+      "id": 5,
       "type": "paintJobRegister",
       "blueprint": {
         "v": "0.0",
@@ -1338,7 +1338,7 @@
         "mirrorVuid": -1,
         "pos": [
           -0.1,
-          0.203000009,
+          0.197000012,
           -1.261
         ],
         "rot": [
@@ -1371,7 +1371,7 @@
         "mirrorVuid": -1,
         "pos": [
           -0.1,
-          0.19600001,
+          0.199000016,
           1.79100013
         ],
         "rot": [
@@ -1500,7 +1500,7 @@
         "mirrorVuid": -1,
         "pos": [
           0.1,
-          0.203000009,
+          0.197000012,
           -1.261
         ],
         "rot": [
@@ -1533,7 +1533,7 @@
         "mirrorVuid": -1,
         "pos": [
           0.1,
-          0.19600001,
+          0.199000016,
           1.79100013
         ],
         "rot": [
@@ -1827,7 +1827,7 @@
             0.0,
             0.0,
             -2.23517418E-08,
-            0.203000069,
+            0.197000027,
             -1.26098633,
             -0.212160826,
             0.120992757,
@@ -1839,7 +1839,7 @@
             0.0,
             0.0,
             2.23517418E-08,
-            0.203000069,
+            0.197000027,
             -1.26098633
           ],
           "portDirections": [
@@ -2213,7 +2213,7 @@
           0.254364
         ],
         "rot": [
-          0.319283038,
+          0.319283068,
           -6.361208E-15,
           -2.17018078E-05,
           0.0
@@ -2434,7 +2434,7 @@
           -0.35647583
         ],
         "rot": [
-          4.022299E-07,
+          4.02229858E-07,
           14.9999857,
           1.89715252E-07,
           0.0
@@ -2714,7 +2714,7 @@
         ],
         "rot": [
           65.81005,
-          5.614747,
+          5.614751,
           264.911621,
           0.0
         ],
@@ -2878,8 +2878,8 @@
           -1.14776611
         ],
         "rot": [
-          83.11251,
-          6.61793,
+          83.11254,
+          6.61790228,
           269.999817,
           0.0
         ],

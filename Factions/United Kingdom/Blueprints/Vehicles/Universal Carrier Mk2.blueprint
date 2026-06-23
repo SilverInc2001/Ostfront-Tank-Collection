@@ -309,12 +309,12 @@
         "description": null,
         "separation": 1462,
         "length": 3660,
-        "brake": 83257,
+        "brake": 84616,
         "autoBrake": true,
         "rollersEnabled": true,
         "matchChassis": false,
         "frontalTransmission": false,
-        "finalDriveRatio": 6.42
+        "finalDriveRatio": 9.0199995
       }
     },
     {
@@ -982,19 +982,6 @@
       }
     },
     {
-      "id": 0,
-      "type": "paintJobRegister",
-      "blueprint": {
-        "v": "0.0",
-        "name": null,
-        "description": null,
-        "paintJobIDs": [
-          1,
-          2
-        ]
-      }
-    },
-    {
       "id": 74,
       "type": "cannonInstance",
       "blueprint": {
@@ -1066,6 +1053,19 @@
               }
             ]
           }
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "type": "paintJobRegister",
+      "blueprint": {
+        "v": "0.0",
+        "name": null,
+        "description": null,
+        "paintJobIDs": [
+          1,
+          2
         ]
       }
     }
@@ -1799,7 +1799,7 @@
         "rot": [
           0.0,
           0.0,
-          -3.03541925E-09,
+          1.95413263E-09,
           0.0
         ],
         "scale": [
@@ -1821,14 +1821,14 @@
       "transform": {
         "mirrorVuid": -1,
         "pos": [
-          -0.3743229,
+          -0.374322861,
           0.307372928,
           0.750640869
         ],
         "rot": [
           0.0,
           0.0,
-          -3.03541925E-09,
+          1.95413263E-09,
           0.0
         ],
         "scale": [
@@ -2086,7 +2086,7 @@
         "rot": [
           3.0533326E-13,
           270.0,
-          -2.41483622E-06,
+          -2.41483644E-06,
           0.0
         ],
         "scale": [
@@ -2128,7 +2128,7 @@
       "guid": "e59ff736-a6ea-4a1a-a4c5-6437ed15b872",
       "vuid": 210,
       "pvuid": 181,
-      "flags": 2,
+      "flags": 3,
       "decalScaler": 211,
       "projectedDecal": 212,
       "transform": {
@@ -2448,7 +2448,7 @@
         "rot": [
           44.68868,
           179.265457,
-          -3.7528455E-08,
+          -7.505691E-08,
           0.0
         ],
         "scale": [
@@ -2680,7 +2680,7 @@
         "rot": [
           0.09882257,
           359.378052,
-          -4.16882251E-10,
+          -4.68992567E-10,
           0.0
         ],
         "scale": [
