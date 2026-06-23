@@ -305,16 +305,16 @@
       "type": "track",
       "blueprint": {
         "v": "1.1",
-        "name": "c",
+        "name": "Churchill Mk.III",
         "description": "",
         "separation": 1563,
         "length": 7440,
-        "brake": 281503,
+        "brake": 281563,
         "autoBrake": true,
         "rollersEnabled": true,
         "matchChassis": false,
         "frontalTransmission": false,
-        "finalDriveRatio": 6.38
+        "finalDriveRatio": 10.5
       }
     },
     {
@@ -1313,7 +1313,7 @@
       }
     },
     {
-      "id": 5,
+      "id": 0,
       "type": "paintJobRegister",
       "blueprint": {
         "v": "0.0",
@@ -2325,8 +2325,8 @@
             0.0,
             0.0,
             -2.23517418E-08,
-            0.312011719,
-            -3.11800027,
+            0.312000036,
+            -3.11801147,
             -0.76017046,
             0.130194709,
             0.0611915141,
@@ -2337,8 +2337,8 @@
             0.0,
             0.0,
             2.23517418E-08,
-            0.312011719,
-            -3.11800027
+            0.312000036,
+            -3.11801147
           ],
           "portDirections": [
             0.0,
@@ -3073,7 +3073,7 @@
           0.0155653954
         ],
         "rot": [
-          1.75857532,
+          1.75857568,
           88.25877,
           1.60157981E-07,
           0.0

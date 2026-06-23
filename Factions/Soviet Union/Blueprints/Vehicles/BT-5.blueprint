@@ -3,12 +3,12 @@
   "header": {
     "v": "0.2",
     "name": "BT-5",
-    "gameVersion": "0.2.50.10",
-    "mass": 12428,
+    "gameVersion": "0.2.51.36",
+    "mass": 12480,
     "creationDate": "1941.12.31",
     "class": "",
     "desc": "",
-    "cost": 21914
+    "cost": 23278
   },
   "blueprints": [
     {
@@ -58,7 +58,7 @@
         "description": null,
         "length": 6000,
         "width": 2000,
-        "groundClearance": 359
+        "groundClearance": 360
       }
     },
     {
@@ -78,10 +78,12 @@
       "id": 6,
       "type": "powertrainSteeringControls",
       "blueprint": {
-        "v": "0.0",
+        "v": "0.2",
         "name": null,
         "description": null,
-        "viewportVUID": -1
+        "viewportVUID": -1,
+        "startInSecondGear": false,
+        "inclineThreshold": 5.0
       }
     },
     {
@@ -105,9 +107,10 @@
       "id": 8,
       "type": "transmission",
       "blueprint": {
-        "v": "0.4",
+        "v": "0.7",
         "name": "BT-7",
         "description": "",
+        "meshType": "synchromesh",
         "autoInputTorque": true,
         "maxInputTorque": 1890.77991,
         "autoResistanceTorque": true,
@@ -132,8 +135,8 @@
       "type": "trackWheelMount",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "mountID": "97844d15-24a8-4feb-9548-668e2bb81ce6",
         "scale": 0.5,
         "x": 0,
@@ -147,8 +150,8 @@
       "type": "trackWheel",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "wheelID": "470581da-c2aa-4748-ad51-cbcf64767a1d",
         "perAxle": 1,
         "spacingOnAxle": 0.01,
@@ -162,8 +165,8 @@
       "type": "trackWheelMount",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "mountID": "25261a10-1c39-4191-9378-b6108d71cbf1",
         "scale": 0.5,
         "x": 0,
@@ -177,8 +180,8 @@
       "type": "trackWheel",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "wheelID": "2567dca8-081d-4b59-8376-9dfb343cb903",
         "perAxle": 2,
         "spacingOnAxle": 0.08,
@@ -192,8 +195,8 @@
       "type": "trackWheelArray",
       "blueprint": {
         "v": "0.2",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "spacingMode": 0,
         "spacing": 1300,
         "length": 6000,
@@ -217,8 +220,8 @@
       "type": "trackWheelMount",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "mountID": "062b2d20-13d5-4dec-9d1c-b2855fdccfac",
         "scale": 0.5,
         "x": 0,
@@ -232,8 +235,8 @@
       "type": "trackWheel",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "wheelID": "50907d5b-dde1-451c-a0be-07c69d2fc886",
         "perAxle": 2,
         "spacingOnAxle": 0.08,
@@ -247,8 +250,8 @@
       "type": "trackWheelArray",
       "blueprint": {
         "v": "0.2",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "spacingMode": 2,
         "spacing": 181,
         "length": 6000,
@@ -272,8 +275,8 @@
       "type": "trackWheelMount",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "mountID": "6b0a1425-3943-491b-ad87-f56d8b811e19",
         "scale": 0.6,
         "x": 0,
@@ -287,8 +290,8 @@
       "type": "trackWheel",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "wheelID": "50907d5b-dde1-451c-a0be-07c69d2fc886",
         "perAxle": 2,
         "spacingOnAxle": 0.08,
@@ -301,17 +304,17 @@
       "id": 19,
       "type": "track",
       "blueprint": {
-        "v": "1.0",
-        "name": null,
-        "description": null,
+        "v": "1.1",
+        "name": "BT-5",
+        "description": "",
         "separation": 1375,
         "length": 6000,
-        "rrCoeff": 1.5,
-        "brake": 99431,
+        "brake": 99842,
         "autoBrake": true,
         "rollersEnabled": false,
         "matchChassis": false,
-        "frontalTransmission": false
+        "frontalTransmission": false,
+        "finalDriveRatio": 3.95
       }
     },
     {
@@ -319,8 +322,8 @@
       "type": "trackBelt",
       "blueprint": {
         "v": "1.1",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "segmentID": "241bb8c8-8f04-41ae-8e2a-850a3c95970e",
         "x": 263,
         "y": 75,
@@ -333,12 +336,12 @@
       "id": 35,
       "type": "suspension",
       "blueprint": {
-        "v": "0.5",
-        "name": null,
-        "description": null,
+        "v": "0.6",
+        "name": "",
+        "description": "",
         "targetAngle": -34.0,
         "upTravelLimit": 1000.0,
-        "damper": 200.0,
+        "damper": 10018.0,
         "armLength": 450
       }
     },
@@ -347,8 +350,8 @@
       "type": "torsionBar",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "torsionBarLength": 1059,
         "torsionBarDiameter": 60
       }
@@ -1409,7 +1412,7 @@
       }
     },
     {
-      "id": 0,
+      "id": 5,
       "type": "paintJobRegister",
       "blueprint": {
         "v": "0.0",
@@ -1661,27 +1664,27 @@
             0.518631041,
             0.196148038,
             0.09218958,
-            -0.009902,
-            0.0187596381,
-            0.046151638,
+            -0.012475729,
+            0.0236356556,
+            0.05814743,
             0.0,
             0.0,
             0.0,
             -2.23517418E-08,
-            0.262023926,
-            -2.1880002,
+            0.262000084,
+            -2.18798828,
             -0.518631041,
             0.196148038,
             0.09218958,
-            -0.0215327144,
-            0.0244936943,
-            0.03894031,
+            -0.0271294713,
+            0.0308600962,
+            0.0490617752,
             0.0,
             0.0,
             0.0,
             2.23517418E-08,
-            0.262023926,
-            -2.1880002
+            0.262000084,
+            -2.18798828
           ],
           "portDirections": [
             0.0,
@@ -2406,9 +2409,9 @@
           0.199707031
         ],
         "rot": [
-          26.999567,
+          26.9995689,
           180.0,
-          3.42682154E-13,
+          3.426822E-13,
           0.0
         ],
         "scale": [
@@ -2437,7 +2440,7 @@
         "rot": [
           350.999542,
           180.0,
-          -2.06093091E-13,
+          -2.31854737E-13,
           0.0
         ],
         "scale": [
@@ -2522,9 +2525,9 @@
           0.186065674
         ],
         "rot": [
-          8.999443,
+          8.999442,
           179.9208,
-          4.220775E-10,
+          1.26623245E-09,
           0.0
         ],
         "scale": [
@@ -2770,7 +2773,7 @@
           -0.08029175
         ],
         "rot": [
-          14.8553677,
+          14.85537,
           84.5962143,
           -5.2997807E-06,
           0.0
@@ -3227,7 +3230,7 @@
         "rot": [
           359.659119,
           73.58961,
-          -2.66808939E-08,
+          -4.00213445E-08,
           0.0
         ],
         "scale": [
@@ -3283,9 +3286,9 @@
           0.5317994
         ],
         "rot": [
-          7.13130139E-05,
+          7.131301E-05,
           142.5,
-          1.46559969E-11,
+          1.628444E-11,
           0.0
         ],
         "scale": [
@@ -3791,8 +3794,8 @@
           -2.1159668
         ],
         "rot": [
-          3.11131644,
-          -5.01635168E-06,
+          3.111317,
+          -5.016352E-06,
           180.0,
           0.0
         ],
@@ -3818,8 +3821,8 @@
           -2.1159668
         ],
         "rot": [
-          3.11131644,
-          5.01635031E-06,
+          3.111317,
+          5.01635077E-06,
           180.0,
           0.0
         ],

@@ -136,8 +136,8 @@
       "type": "trackWheelMount",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "mountID": "97844d15-24a8-4feb-9548-668e2bb81ce6",
         "scale": 0.5,
         "x": 0,
@@ -151,8 +151,8 @@
       "type": "trackWheel",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "wheelID": "8b31d0e4-3946-4a3a-81ef-b2bbf3a84989",
         "perAxle": 1,
         "spacingOnAxle": 0.01,
@@ -166,8 +166,8 @@
       "type": "trackWheelMount",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "mountID": "25261a10-1c39-4191-9378-b6108d71cbf1",
         "scale": 0.5,
         "x": 0,
@@ -181,8 +181,8 @@
       "type": "trackWheel",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "wheelID": "ed05e419-9705-41ac-801c-11a0a0dd0700",
         "perAxle": 2,
         "spacingOnAxle": 0.08,
@@ -196,8 +196,8 @@
       "type": "trackWheelArray",
       "blueprint": {
         "v": "0.2",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "spacingMode": 0,
         "spacing": 785,
         "length": 6000,
@@ -221,8 +221,8 @@
       "type": "trackWheelMount",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "mountID": "062b2d20-13d5-4dec-9d1c-b2855fdccfac",
         "scale": 0.5,
         "x": 0,
@@ -236,8 +236,8 @@
       "type": "trackWheel",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "wheelID": "50907d5b-dde1-451c-a0be-07c69d2fc886",
         "perAxle": 2,
         "spacingOnAxle": 0.08,
@@ -251,8 +251,8 @@
       "type": "trackWheelArray",
       "blueprint": {
         "v": "0.2",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "spacingMode": 0,
         "spacing": 135,
         "length": 6000,
@@ -276,8 +276,8 @@
       "type": "trackWheelMount",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "mountID": "c9314baa-f287-4752-aca5-fa2b78ce4f02",
         "scale": 0.53,
         "x": 0,
@@ -291,8 +291,8 @@
       "type": "trackWheel",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "wheelID": "50907d5b-dde1-451c-a0be-07c69d2fc886",
         "perAxle": 1,
         "spacingOnAxle": 0.08,
@@ -306,16 +306,16 @@
       "type": "track",
       "blueprint": {
         "v": "1.1",
-        "name": null,
-        "description": null,
+        "name": "Hotchkiss H35",
+        "description": "",
         "separation": 1175,
         "length": 6000,
-        "brake": 71557,
+        "brake": 72049,
         "autoBrake": true,
         "rollersEnabled": true,
         "matchChassis": false,
         "frontalTransmission": true,
-        "finalDriveRatio": 13.98
+        "finalDriveRatio": 10.0
       }
     },
     {
@@ -323,8 +323,8 @@
       "type": "trackBelt",
       "blueprint": {
         "v": "1.1",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "segmentID": "625f3a65-30f6-4180-a719-f3af1e2bacfe",
         "x": 230,
         "y": 75,
@@ -338,8 +338,8 @@
       "type": "suspension",
       "blueprint": {
         "v": "0.6",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "targetAngle": -5.0,
         "upTravelLimit": 1000.0,
         "damper": 10018.0,
@@ -1077,7 +1077,7 @@
       }
     },
     {
-      "id": 5,
+      "id": 0,
       "type": "paintJobRegister",
       "blueprint": {
         "v": "0.0",
@@ -2072,9 +2072,9 @@
           0.796234131
         ],
         "rot": [
-          2.13866639,
+          2.13866615,
           179.423767,
-          2.83677135E-08,
+          2.92020559E-08,
           0.0
         ],
         "scale": [
@@ -2239,9 +2239,9 @@
           0.150482178
         ],
         "rot": [
-          17.6888466,
+          17.6888485,
           263.729645,
-          -1.34421389E-05,
+          -1.43382822E-05,
           0.0
         ],
         "scale": [
@@ -2297,7 +2297,7 @@
           -0.04748535
         ],
         "rot": [
-          89.9233856,
+          89.92599,
           359.9703,
           0.0,
           0.0
@@ -2322,13 +2322,13 @@
         "mirrorVuid": -1,
         "pos": [
           0.1934959,
-          0.205017149,
+          0.20501709,
           1.03564453
         ],
         "rot": [
           0.0,
           0.0,
-          2.47523474E-10,
+          0.0,
           0.0
         ],
         "scale": [
@@ -2357,7 +2357,7 @@
         "rot": [
           0.0,
           0.0,
-          2.47523474E-10,
+          0.0,
           0.0
         ],
         "scale": [
@@ -2638,7 +2638,7 @@
         "rot": [
           13.09987,
           180.0,
-          2.08994267E-13,
+          2.61242823E-13,
           0.0
         ],
         "scale": [
@@ -2665,9 +2665,9 @@
           -1.10592651
         ],
         "rot": [
-          78.469696,
-          27.9015961,
-          28.7568417,
+          78.46973,
+          27.9016018,
+          28.75685,
           0.0
         ],
         "scale": [
@@ -2777,8 +2777,8 @@
         ],
         "rot": [
           1.69736433,
-          2.16873612E-08,
-          1.00708771,
+          2.33556214E-08,
+          1.00708783,
           0.0
         ],
         "scale": [
@@ -2917,7 +2917,7 @@
         "rot": [
           35.1342,
           180.0,
-          -3.733564E-13,
+          -4.97808554E-13,
           0.0
         ],
         "scale": [

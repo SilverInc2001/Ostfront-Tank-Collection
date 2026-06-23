@@ -305,16 +305,16 @@
       "type": "track",
       "blueprint": {
         "v": "1.1",
-        "name": "c",
+        "name": "Churchill Mk.II",
         "description": "",
         "separation": 1563,
         "length": 7440,
-        "brake": 309214,
+        "brake": 314359,
         "autoBrake": true,
         "rollersEnabled": true,
         "matchChassis": false,
         "frontalTransmission": false,
-        "finalDriveRatio": 7.85
+        "finalDriveRatio": 9.5
       }
     },
     {
@@ -1581,7 +1581,7 @@
       }
     },
     {
-      "id": 0,
+      "id": 5,
       "type": "paintJobRegister",
       "blueprint": {
         "v": "0.0",
@@ -2091,7 +2091,7 @@
           0.748504639
         ],
         "rot": [
-          0.319283277,
+          0.3192833,
           -6.361208E-15,
           -2.17018078E-05,
           0.0
@@ -3530,8 +3530,8 @@
             0.0,
             0.0,
             -2.23517418E-08,
-            0.312011719,
-            -3.11800027,
+            0.312000036,
+            -3.11801147,
             -0.7416817,
             0.132190064,
             0.0621293262,
@@ -3542,8 +3542,8 @@
             0.0,
             0.0,
             2.23517418E-08,
-            0.312011719,
-            -3.11800027
+            0.312000036,
+            -3.11801147
           ],
           "portDirections": [
             0.0,

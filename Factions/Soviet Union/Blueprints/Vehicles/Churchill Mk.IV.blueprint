@@ -4,7 +4,7 @@
     "v": "0.2",
     "name": "Churchill Mk.IV",
     "gameVersion": "0.2.51.36",
-    "mass": 39395,
+    "mass": 39394,
     "creationDate": "1943.12.31",
     "class": "",
     "desc": "",
@@ -171,7 +171,7 @@
         "scale": 0.0,
         "x": 0,
         "y": 307,
-        "z": -339,
+        "z": -340,
         "rearFacing": false
       }
     },
@@ -305,16 +305,16 @@
       "type": "track",
       "blueprint": {
         "v": "1.1",
-        "name": "c",
+        "name": "Churchill Mk.III",
         "description": "",
         "separation": 1563,
         "length": 7440,
-        "brake": 313747,
+        "brake": 315158,
         "autoBrake": true,
         "rollersEnabled": true,
         "matchChassis": false,
         "frontalTransmission": false,
-        "finalDriveRatio": 11.0
+        "finalDriveRatio": 10.5
       }
     },
     {
@@ -1335,7 +1335,7 @@
       }
     },
     {
-      "id": 0,
+      "id": 5,
       "type": "paintJobRegister",
       "blueprint": {
         "v": "0.0",
@@ -1746,7 +1746,7 @@
         "pos": [
           -0.1,
           0.307,
-          3.38100028
+          3.38000035
         ],
         "rot": [
           0.0,
@@ -1908,7 +1908,7 @@
         "pos": [
           0.1,
           0.307,
-          3.38100028
+          3.38000035
         ],
         "rot": [
           0.0,
@@ -2668,7 +2668,7 @@
           0.748504639
         ],
         "rot": [
-          0.319283843,
+          0.319283873,
           1.27224162E-14,
           -2.17018078E-05,
           0.0

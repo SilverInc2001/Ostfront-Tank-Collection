@@ -4,11 +4,11 @@
     "v": "0.2",
     "name": "M3A1 Stuart III",
     "gameVersion": "0.2.51.36",
-    "mass": 14127,
+    "mass": 14108,
     "creationDate": "1943.12.31",
     "class": "",
     "desc": "",
-    "cost": 32688
+    "cost": 32682
   },
   "blueprints": [
     {
@@ -136,8 +136,8 @@
       "type": "trackWheelMount",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "mountID": "97844d15-24a8-4feb-9548-668e2bb81ce6",
         "scale": 0.5,
         "x": 0,
@@ -151,13 +151,13 @@
       "type": "trackWheel",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "wheelID": "8b31d0e4-3946-4a3a-81ef-b2bbf3a84989",
         "perAxle": 1,
         "spacingOnAxle": 0.01,
         "xOffset": -0.008,
-        "diameter": 0.65,
+        "diameter": 0.625,
         "width": 0.319000036
       }
     },
@@ -166,12 +166,12 @@
       "type": "trackWheelMount",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "mountID": "25261a10-1c39-4191-9378-b6108d71cbf1",
         "scale": 0.5,
         "x": 0,
-        "y": 98,
+        "y": 88,
         "z": 480,
         "rearFacing": true
       }
@@ -181,8 +181,8 @@
       "type": "trackWheel",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "wheelID": "ed05e419-9705-41ac-801c-11a0a0dd0700",
         "perAxle": 1,
         "spacingOnAxle": 0.08,
@@ -196,8 +196,8 @@
       "type": "trackWheelArray",
       "blueprint": {
         "v": "0.2",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "spacingMode": 0,
         "spacing": 657,
         "length": 4500,
@@ -221,8 +221,8 @@
       "type": "trackWheelMount",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "mountID": "062b2d20-13d5-4dec-9d1c-b2855fdccfac",
         "scale": 0.5,
         "x": 0,
@@ -236,8 +236,8 @@
       "type": "trackWheel",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "wheelID": "50907d5b-dde1-451c-a0be-07c69d2fc886",
         "perAxle": 1,
         "spacingOnAxle": 0.08,
@@ -251,8 +251,8 @@
       "type": "trackWheelArray",
       "blueprint": {
         "v": "0.2",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "spacingMode": 0,
         "spacing": 178,
         "length": 4500,
@@ -276,8 +276,8 @@
       "type": "trackWheelMount",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "mountID": "c9314baa-f287-4752-aca5-fa2b78ce4f02",
         "scale": 0.69,
         "x": 0,
@@ -291,8 +291,8 @@
       "type": "trackWheel",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "wheelID": "2567dca8-081d-4b59-8376-9dfb343cb903",
         "perAxle": 1,
         "spacingOnAxle": 0.08,
@@ -306,16 +306,16 @@
       "type": "track",
       "blueprint": {
         "v": "1.1",
-        "name": null,
-        "description": null,
+        "name": "M2A4 Stuart III",
+        "description": "",
         "separation": 1347,
         "length": 4500,
-        "brake": 130755,
+        "brake": 112864,
         "autoBrake": true,
         "rollersEnabled": true,
         "matchChassis": false,
         "frontalTransmission": true,
-        "finalDriveRatio": 5.43
+        "finalDriveRatio": 2.85
       }
     },
     {
@@ -323,8 +323,8 @@
       "type": "trackBelt",
       "blueprint": {
         "v": "1.1",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "segmentID": "222d83dc-ff5f-49ec-8b97-ce7ad0b05826",
         "x": 290,
         "y": 75,
@@ -338,8 +338,8 @@
       "type": "suspension",
       "blueprint": {
         "v": "0.6",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "targetAngle": -5.0,
         "upTravelLimit": 1000.0,
         "damper": 10018.0,
@@ -1129,7 +1129,7 @@
       }
     },
     {
-      "id": 0,
+      "id": 5,
       "type": "paintJobRegister",
       "blueprint": {
         "v": "0.0",
@@ -1388,8 +1388,8 @@
             0.0,
             0.0,
             -2.23517418E-08,
-            0.2960205,
-            1.606,
+            0.296,
+            1.60598755,
             -0.273133,
             0.122866742,
             0.057747364,
@@ -1400,8 +1400,8 @@
             0.0,
             0.0,
             2.23517418E-08,
-            0.2960205,
-            1.606
+            0.296,
+            1.60598755
           ],
           "portDirections": [
             0.0,
@@ -1616,7 +1616,7 @@
         "mirrorVuid": -1,
         "pos": [
           -0.1,
-          0.0980000049,
+          0.08800001,
           -1.77
         ],
         "rot": [
@@ -1778,7 +1778,7 @@
         "mirrorVuid": -1,
         "pos": [
           0.1,
-          0.0980000049,
+          0.08800001,
           -1.77
         ],
         "rot": [
@@ -2287,7 +2287,7 @@
         "rot": [
           358.384033,
           180.573,
-          0.363940626,
+          0.363940656,
           0.0
         ],
         "scale": [
@@ -2316,7 +2316,7 @@
         "rot": [
           356.8209,
           178.653488,
-          9.686561E-08,
+          1.0020581E-07,
           0.0
         ],
         "scale": [
@@ -2684,9 +2684,9 @@
           0.8126526
         ],
         "rot": [
-          1.84415531,
-          -9.419321E-13,
-          -1.648515E-05,
+          1.84415579,
+          -9.673897E-13,
+          -1.64851517E-05,
           0.0
         ],
         "scale": [
@@ -2713,8 +2713,8 @@
         ],
         "rot": [
           358.155853,
-          -5.30779E-07,
-          1.649374E-05,
+          -5.30779062E-07,
+          1.64937428E-05,
           0.0
         ],
         "scale": [

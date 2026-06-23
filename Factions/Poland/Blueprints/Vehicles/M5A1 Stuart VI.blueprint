@@ -135,8 +135,8 @@
       "type": "trackWheelMount",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "mountID": "97844d15-24a8-4feb-9548-668e2bb81ce6",
         "scale": 0.68,
         "x": 0,
@@ -150,8 +150,8 @@
       "type": "trackWheel",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "wheelID": "8b31d0e4-3946-4a3a-81ef-b2bbf3a84989",
         "perAxle": 1,
         "spacingOnAxle": 0.01,
@@ -165,8 +165,8 @@
       "type": "trackWheelMount",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "mountID": "25261a10-1c39-4191-9378-b6108d71cbf1",
         "scale": 0.5,
         "x": 0,
@@ -180,8 +180,8 @@
       "type": "trackWheel",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "wheelID": "ed05e419-9705-41ac-801c-11a0a0dd0700",
         "perAxle": 1,
         "spacingOnAxle": 0.08,
@@ -195,8 +195,8 @@
       "type": "trackWheelArray",
       "blueprint": {
         "v": "0.2",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "spacingMode": 0,
         "spacing": 618,
         "length": 4500,
@@ -220,8 +220,8 @@
       "type": "trackWheelMount",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "mountID": "062b2d20-13d5-4dec-9d1c-b2855fdccfac",
         "scale": 0.5,
         "x": 0,
@@ -235,8 +235,8 @@
       "type": "trackWheel",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "wheelID": "50907d5b-dde1-451c-a0be-07c69d2fc886",
         "perAxle": 1,
         "spacingOnAxle": 0.08,
@@ -250,8 +250,8 @@
       "type": "trackWheelArray",
       "blueprint": {
         "v": "0.2",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "spacingMode": 0,
         "spacing": 173,
         "length": 4500,
@@ -275,8 +275,8 @@
       "type": "trackWheelMount",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "mountID": "c9314baa-f287-4752-aca5-fa2b78ce4f02",
         "scale": 0.69,
         "x": 0,
@@ -290,8 +290,8 @@
       "type": "trackWheel",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "wheelID": "2567dca8-081d-4b59-8376-9dfb343cb903",
         "perAxle": 1,
         "spacingOnAxle": 0.08,
@@ -305,16 +305,16 @@
       "type": "track",
       "blueprint": {
         "v": "1.1",
-        "name": null,
-        "description": null,
+        "name": "M5A1 Stuart VI",
+        "description": "",
         "separation": 1376,
         "length": 4500,
-        "brake": 111081,
+        "brake": 113110,
         "autoBrake": true,
         "rollersEnabled": true,
         "matchChassis": false,
         "frontalTransmission": true,
-        "finalDriveRatio": 5.45
+        "finalDriveRatio": 6.0
       }
     },
     {
@@ -322,8 +322,8 @@
       "type": "trackBelt",
       "blueprint": {
         "v": "1.1",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "segmentID": "222d83dc-ff5f-49ec-8b97-ce7ad0b05826",
         "x": 298,
         "y": 75,
@@ -337,8 +337,8 @@
       "type": "suspension",
       "blueprint": {
         "v": "0.6",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "targetAngle": -5.0,
         "upTravelLimit": 1000.0,
         "damper": 10018.0,
@@ -1427,7 +1427,7 @@
       }
     },
     {
-      "id": 5,
+      "id": 0,
       "type": "paintJobRegister",
       "blueprint": {
         "v": "0.0",
@@ -1767,7 +1767,7 @@
         ],
         "rot": [
           0.5534159,
-          -2.03564989E-13,
+          -2.099264E-13,
           -1.70029743E-05,
           0.0
         ],
@@ -1823,7 +1823,7 @@
         "rot": [
           359.4466,
           -1.642353E-07,
-          1.7003822E-05,
+          1.70038238E-05,
           0.0
         ],
         "scale": [
@@ -2124,7 +2124,7 @@
         "rot": [
           55.04533,
           180.0,
-          -1.06586918E-12,
+          -1.42115887E-12,
           0.0
         ],
         "scale": [
@@ -2403,7 +2403,7 @@
           1.568634
         ],
         "rot": [
-          0.8563837,
+          0.856383741,
           179.428024,
           0.512159765,
           0.0
@@ -2463,7 +2463,7 @@
         "rot": [
           3.72656441,
           188.615616,
-          -1.20316327E-06,
+          -1.22990014E-06,
           0.0
         ],
         "scale": [
@@ -2886,7 +2886,7 @@
           -1.82220459
         ],
         "rot": [
-          1.96207428,
+          1.96207452,
           180.000031,
           180.0,
           0.0
@@ -2913,7 +2913,7 @@
           -1.82220459
         ],
         "rot": [
-          1.96207428,
+          1.96207452,
           179.999969,
           180.0,
           0.0
@@ -3194,7 +3194,7 @@
         "rot": [
           5.320127,
           1.57006985E-09,
-          0.018905405,
+          0.0189054068,
           0.0
         ],
         "scale": [

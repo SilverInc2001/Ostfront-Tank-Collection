@@ -306,16 +306,16 @@
       "type": "track",
       "blueprint": {
         "v": "1.1",
-        "name": "",
+        "name": "T-28",
         "description": "",
         "separation": 1760,
         "length": 7440,
-        "brake": 268944,
+        "brake": 267888,
         "autoBrake": true,
         "rollersEnabled": true,
         "matchChassis": false,
         "frontalTransmission": false,
-        "finalDriveRatio": 3.6
+        "finalDriveRatio": 3.5
       }
     },
     {
@@ -342,7 +342,7 @@
         "description": "",
         "targetAngle": -5.0,
         "upTravelLimit": 1000.0,
-        "damper": 10018.0,
+        "damper": 10017.999,
         "armLength": 500
       }
     },
@@ -1714,7 +1714,7 @@
       }
     },
     {
-      "id": 5,
+      "id": 0,
       "type": "paintJobRegister",
       "blueprint": {
         "v": "0.0",
@@ -1973,8 +1973,8 @@
             0.0,
             0.0,
             -2.23517418E-08,
-            0.2869873,
-            -3.21000028,
+            0.28700006,
+            -3.20999146,
             -0.858297348,
             0.216578513,
             0.101791896,
@@ -1985,8 +1985,8 @@
             0.0,
             0.0,
             2.23517418E-08,
-            0.2869873,
-            -3.21000028
+            0.28700006,
+            -3.20999146
           ],
           "portDirections": [
             0.0,
@@ -4618,7 +4618,7 @@
           -3.60983276
         ],
         "rot": [
-          5.15856171,
+          5.158562,
           0.0,
           0.0,
           0.0

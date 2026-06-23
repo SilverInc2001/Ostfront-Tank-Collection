@@ -8,7 +8,7 @@
     "creationDate": "1943.12.31",
     "class": "",
     "desc": "",
-    "cost": 46363
+    "cost": 46768
   },
   "blueprints": [
     {
@@ -310,12 +310,12 @@
         "description": "",
         "separation": 1433,
         "length": 6000,
-        "brake": 166463,
+        "brake": 167822,
         "autoBrake": true,
         "rollersEnabled": true,
         "matchChassis": false,
         "frontalTransmission": true,
-        "finalDriveRatio": 5.55
+        "finalDriveRatio": 9.25
       }
     },
     {
@@ -459,104 +459,6 @@
       }
     },
     {
-      "id": 55,
-      "type": "cannonInstance",
-      "blueprint": {
-        "v": "0.2",
-        "name": null,
-        "description": null,
-        "flags": 0,
-        "fireGroup": 1,
-        "fireDelayLoadFraction": 0,
-        "sightVuid": 211,
-        "linkedCannonVuid": -1,
-        "barrelVuids": [
-          407,
-          425,
-          213,
-          215
-        ]
-      }
-    },
-    {
-      "id": 56,
-      "type": "cannon",
-      "blueprint": {
-        "v": "1.9",
-        "name": "Canon de 155 mm GPF",
-        "description": null,
-        "caliber": 155,
-        "breechLength": 355,
-        "muzzle": null,
-        "segments": [
-          {
-            "v": "0.0",
-            "segments": [
-              {
-                "t0": 120,
-                "t1": 120,
-                "l": 552
-              },
-              {
-                "t0": 120,
-                "t1": 105,
-                "l": 60
-              }
-            ]
-          },
-          {
-            "v": "0.0",
-            "segments": [
-              {
-                "t0": 105,
-                "t1": 105,
-                "l": 1300
-              },
-              {
-                "t0": 105,
-                "t1": 85,
-                "l": 70
-              },
-              {
-                "t0": 85,
-                "t1": 70,
-                "l": 890
-              }
-            ]
-          },
-          {
-            "v": "0.0",
-            "segments": [
-              {
-                "t0": 53,
-                "t1": 51,
-                "l": 660
-              },
-              {
-                "t0": 51,
-                "t1": 42,
-                "l": 177
-              }
-            ]
-          },
-          {
-            "v": "0.0",
-            "segments": [
-              {
-                "t0": 29,
-                "t1": 28,
-                "l": 1225
-              }
-            ]
-          }
-        ],
-        "muzzleMass": 0.0,
-        "K": 1900,
-        "PSI": 40000,
-        "shellID": 57
-      }
-    },
-    {
       "id": 57,
       "type": "shellSlot",
       "blueprint": {
@@ -584,19 +486,6 @@
             ]
           }
         ]
-      }
-    },
-    {
-      "id": 59,
-      "type": "structure",
-      "blueprint": {
-        "v": "0.1",
-        "name": "Unnamed Structure",
-        "description": null,
-        "armourVolume": 0.0260324553,
-        "bodyMeshVuid": 7,
-        "partRepositioning": true,
-        "armourTechID": "rha"
       }
     },
     {
@@ -628,7 +517,7 @@
         "operatedBehaviours": [
           376,
           383,
-          399
+          290
         ]
       }
     },
@@ -795,7 +684,9 @@
         "occupied": true,
         "baseEfficiency": 1.0,
         "priority": 5,
-        "operatedBehaviours": null
+        "operatedBehaviours": [
+          291
+        ]
       }
     },
     {
@@ -1428,7 +1319,7 @@
       }
     },
     {
-      "id": 0,
+      "id": 5,
       "type": "paintJobRegister",
       "blueprint": {
         "v": "0.0",
@@ -1438,6 +1329,147 @@
           1,
           2
         ]
+      }
+    },
+    {
+      "id": 87,
+      "type": "cannonInstance",
+      "blueprint": {
+        "v": "0.2",
+        "name": null,
+        "description": null,
+        "flags": 0,
+        "fireGroup": 1,
+        "fireDelayLoadFraction": 0,
+        "sightVuid": 211,
+        "linkedCannonVuid": -1,
+        "barrelVuids": [
+          328,
+          330,
+          338,
+          340
+        ]
+      }
+    },
+    {
+      "id": 88,
+      "type": "cannon",
+      "blueprint": {
+        "v": "1.9",
+        "name": "Canon de 155 mm GPF",
+        "description": "",
+        "caliber": 155,
+        "breechLength": 355,
+        "muzzle": "",
+        "segments": [
+          {
+            "v": "0.0",
+            "segments": [
+              {
+                "t0": 120,
+                "t1": 120,
+                "l": 552
+              },
+              {
+                "t0": 120,
+                "t1": 105,
+                "l": 60
+              }
+            ]
+          },
+          {
+            "v": "0.0",
+            "segments": [
+              {
+                "t0": 105,
+                "t1": 105,
+                "l": 1300
+              },
+              {
+                "t0": 105,
+                "t1": 85,
+                "l": 70
+              },
+              {
+                "t0": 85,
+                "t1": 70,
+                "l": 890
+              }
+            ]
+          },
+          {
+            "v": "0.0",
+            "segments": [
+              {
+                "t0": 53,
+                "t1": 51,
+                "l": 660
+              },
+              {
+                "t0": 51,
+                "t1": 42,
+                "l": 177
+              }
+            ]
+          },
+          {
+            "v": "0.0",
+            "segments": [
+              {
+                "t0": 29,
+                "t1": 28,
+                "l": 1225
+              }
+            ]
+          }
+        ],
+        "muzzleMass": 0.0,
+        "K": 1900,
+        "PSI": 40000,
+        "shellID": 89
+      }
+    },
+    {
+      "id": 89,
+      "type": "shellSlot",
+      "blueprint": {
+        "v": "0.0",
+        "name": null,
+        "description": null,
+        "diameter": 155,
+        "propellantLength": 355,
+        "generatedProjectiles": [
+          {
+            "projectileTypeGuid": "1af0fd00-5b9d-4b5b-b31d-edca293c6447",
+            "functions": [
+              {
+                "id": "AP",
+                "definition": {
+                  "penetratorConstant": 1900
+                }
+              },
+              {
+                "id": "Propellant",
+                "definition": {
+                  "length": 355
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 94,
+      "type": "structure",
+      "blueprint": {
+        "v": "0.1",
+        "name": "Unnamed Structure",
+        "description": null,
+        "armourVolume": 0.0260324553,
+        "bodyMeshVuid": 7,
+        "partRepositioning": true,
+        "armourTechID": "rha"
       }
     }
   ],
@@ -1687,8 +1719,8 @@
             0.0,
             0.0,
             -2.23517418E-08,
-            0.3499756,
-            2.39100027,
+            0.350000024,
+            2.39099121,
             -0.406496,
             0.1642681,
             0.07720601,
@@ -1699,8 +1731,8 @@
             0.0,
             0.0,
             2.23517418E-08,
-            0.3499756,
-            2.39100027
+            0.350000024,
+            2.39099121
           ],
           "portDirections": [
             0.0,
@@ -2242,6 +2274,35 @@
       "motorBlueprintVuid": 48
     },
     {
+      "guid": "4481135e-cefd-499c-8122-414942eecbe4",
+      "vuid": 220,
+      "pvuid": 378,
+      "flags": 3,
+      "crewSeat": 221,
+      "posture": 222,
+      "transform": {
+        "mirrorVuid": -1,
+        "pos": [
+          -0.427754372,
+          -0.3729248,
+          -0.771698
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          3.10055737E-09,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "seatBlueprintVuid": 30,
+      "postureBlueprintVuid": 32
+    },
+    {
       "guid": "222f379f-f58c-4e09-9d8b-e81de7acab48",
       "vuid": 380,
       "pvuid": 378,
@@ -2261,9 +2322,9 @@
           0.0
         ],
         "scale": [
-          1.32537007,
-          1.32537007,
-          1.32537007
+          0.644452155,
+          0.644452155,
+          0.644452155
         ]
       },
       "mantletBlueprint": {
@@ -2382,19 +2443,19 @@
       }
     },
     {
-      "guid": "bfa86d1e-41ab-43fa-92f8-ef29e1e52c00",
-      "vuid": 398,
+      "guid": "bfa86d1e-41ab-43fa-92f8-ef29e1e52c00b",
+      "vuid": 289,
       "pvuid": 385,
       "flags": 2,
-      "cannon": 399,
-      "breech": 400,
-      "breechModel": 401,
+      "cannon": 290,
+      "breech": 291,
+      "breechModel": 295,
       "transform": {
         "mirrorVuid": -1,
         "pos": [
           0.0,
-          0.0,
-          -0.25
+          0.0544383526,
+          -0.881164551
         ],
         "rot": [
           0.0,
@@ -2408,15 +2469,15 @@
           1.0
         ]
       },
-      "cannonBlueprintVuid": 56,
-      "cannonInstanceBlueprintVuid": 55
+      "cannonBlueprintVuid": 88,
+      "cannonInstanceBlueprintVuid": 87
     },
     {
       "guid": "c56166b7-89f3-4791-9a22-a9c3c8e8ce16",
-      "vuid": 406,
-      "pvuid": 398,
+      "vuid": 303,
+      "pvuid": 289,
       "flags": 2,
-      "cannonBarrelSegment": 407,
+      "cannonBarrelSegment": 328,
       "transform": {
         "mirrorVuid": -1,
         "pos": [
@@ -2439,10 +2500,10 @@
     },
     {
       "guid": "c56166b7-89f3-4791-9a22-a9c3c8e8ce16",
-      "vuid": 424,
-      "pvuid": 406,
+      "vuid": 329,
+      "pvuid": 303,
       "flags": 2,
-      "cannonBarrelSegment": 425,
+      "cannonBarrelSegment": 330,
       "transform": {
         "mirrorVuid": -1,
         "pos": [
@@ -2465,10 +2526,10 @@
     },
     {
       "guid": "c56166b7-89f3-4791-9a22-a9c3c8e8ce16",
-      "vuid": 212,
-      "pvuid": 424,
+      "vuid": 337,
+      "pvuid": 329,
       "flags": 2,
-      "cannonBarrelSegment": 213,
+      "cannonBarrelSegment": 338,
       "transform": {
         "mirrorVuid": -1,
         "pos": [
@@ -2491,10 +2552,10 @@
     },
     {
       "guid": "c56166b7-89f3-4791-9a22-a9c3c8e8ce16",
-      "vuid": 214,
-      "pvuid": 212,
+      "vuid": 339,
+      "pvuid": 337,
       "flags": 2,
-      "cannonBarrelSegment": 215,
+      "cannonBarrelSegment": 340,
       "transform": {
         "mirrorVuid": -1,
         "pos": [
@@ -2517,21 +2578,21 @@
     },
     {
       "guid": "8f8a9d20-eb45-482e-b149-014c964c4e2c",
-      "vuid": 426,
-      "pvuid": 424,
+      "vuid": 423,
+      "pvuid": 339,
       "flags": 2,
-      "plateStructure": 427,
+      "plateStructure": 428,
       "transform": {
         "mirrorVuid": -1,
         "pos": [
-          0.0196662731,
-          -0.105549812,
-          -0.5885016
+          0.0167999249,
+          -0.0987770557,
+          -3.70249987
         ],
         "rot": [
-          0.0,
-          0.0,
-          0.0,
+          0.0451750867,
+          -2.38541673E-15,
+          -2.34506533E-05,
           0.0
         ],
         "scale": [
@@ -2540,36 +2601,7 @@
           1.0
         ]
       },
-      "structureBlueprintVuid": 59
-    },
-    {
-      "guid": "4481135e-cefd-499c-8122-414942eecbe4",
-      "vuid": 220,
-      "pvuid": 378,
-      "flags": 3,
-      "crewSeat": 221,
-      "posture": 222,
-      "transform": {
-        "mirrorVuid": -1,
-        "pos": [
-          -0.4277544,
-          -0.3729248,
-          -0.771698
-        ],
-        "rot": [
-          0.0,
-          0.0,
-          0.0,
-          0.0
-        ],
-        "scale": [
-          1.0,
-          1.0,
-          1.0
-        ]
-      },
-      "seatBlueprintVuid": 30,
-      "postureBlueprintVuid": 32
+      "structureBlueprintVuid": 94
     },
     {
       "guid": "85b83f8c-b64b-43e4-8785-24cde9fccc1d",
@@ -2643,7 +2675,7 @@
         "rot": [
           0.0,
           0.0,
-          0.0,
+          3.10055737E-09,
           0.0
         ],
         "scale": [
@@ -2665,14 +2697,14 @@
       "transform": {
         "mirrorVuid": 223,
         "pos": [
-          0.330656528,
+          0.330656469,
           -0.4387207,
           -3.12908936
         ],
         "rot": [
           0.0,
           0.0,
-          0.0,
+          3.10055737E-09,
           0.0
         ],
         "scale": [
@@ -2701,7 +2733,7 @@
         "rot": [
           0.0,
           0.0,
-          0.0,
+          3.10055737E-09,
           0.0
         ],
         "scale": [
@@ -2723,14 +2755,14 @@
       "transform": {
         "mirrorVuid": 229,
         "pos": [
-          0.4997921,
+          0.499792039,
           0.180847168,
           0.9115906
         ],
         "rot": [
           0.0,
           0.0,
-          0.0,
+          3.10055737E-09,
           0.0
         ],
         "scale": [
@@ -2925,9 +2957,9 @@
           1.19662476
         ],
         "rot": [
-          1.68452823,
+          1.68452835,
           179.629532,
-          3.753557E-09,
+          4.170619E-09,
           0.0
         ],
         "scale": [
@@ -2954,9 +2986,9 @@
           1.19662476
         ],
         "rot": [
-          1.68452823,
+          1.68452835,
           180.370468,
-          -3.3364953E-09,
+          -3.753557E-09,
           0.0
         ],
         "scale": [

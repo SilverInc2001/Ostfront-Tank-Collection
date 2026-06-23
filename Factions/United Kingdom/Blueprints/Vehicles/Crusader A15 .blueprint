@@ -4,11 +4,11 @@
     "v": "0.2",
     "name": "Crusader A15 ",
     "gameVersion": "0.2.51.36",
-    "mass": 14776,
+    "mass": 14773,
     "creationDate": "1941.12.31",
     "class": "",
     "desc": "",
-    "cost": 35387
+    "cost": 35385
   },
   "blueprints": [
     {
@@ -135,8 +135,8 @@
       "type": "trackWheelMount",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "mountID": "97844d15-24a8-4feb-9548-668e2bb81ce6",
         "scale": 0.5,
         "x": 0,
@@ -150,8 +150,8 @@
       "type": "trackWheel",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "wheelID": "8b31d0e4-3946-4a3a-81ef-b2bbf3a84989",
         "perAxle": 1,
         "spacingOnAxle": 0.01,
@@ -165,8 +165,8 @@
       "type": "trackWheelMount",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "mountID": "25261a10-1c39-4191-9378-b6108d71cbf1",
         "scale": 1.0,
         "x": 0,
@@ -180,8 +180,8 @@
       "type": "trackWheel",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "wheelID": "ed05e419-9705-41ac-801c-11a0a0dd0700",
         "perAxle": 2,
         "spacingOnAxle": 0.049999997,
@@ -195,8 +195,8 @@
       "type": "trackWheelArray",
       "blueprint": {
         "v": "0.2",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "spacingMode": 0,
         "spacing": 1300,
         "length": 6000,
@@ -220,8 +220,8 @@
       "type": "trackWheelMount",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "mountID": "062b2d20-13d5-4dec-9d1c-b2855fdccfac",
         "scale": 0.5,
         "x": 0,
@@ -235,8 +235,8 @@
       "type": "trackWheel",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "wheelID": "50907d5b-dde1-451c-a0be-07c69d2fc886",
         "perAxle": 2,
         "spacingOnAxle": 0.08,
@@ -250,8 +250,8 @@
       "type": "trackWheelArray",
       "blueprint": {
         "v": "0.2",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "spacingMode": 0,
         "spacing": 135,
         "length": 6000,
@@ -275,8 +275,8 @@
       "type": "trackWheelMount",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "mountID": "6b0a1425-3943-491b-ad87-f56d8b811e19",
         "scale": 0.6,
         "x": 0,
@@ -290,8 +290,8 @@
       "type": "trackWheel",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "wheelID": "50907d5b-dde1-451c-a0be-07c69d2fc886",
         "perAxle": 2,
         "spacingOnAxle": 0.07,
@@ -305,16 +305,16 @@
       "type": "track",
       "blueprint": {
         "v": "1.1",
-        "name": null,
-        "description": null,
-        "separation": 1800,
+        "name": "Crusader A15 ",
+        "description": "",
+        "separation": 1763,
         "length": 6000,
-        "brake": 118615,
+        "brake": 118188,
         "autoBrake": true,
         "rollersEnabled": false,
         "matchChassis": false,
         "frontalTransmission": false,
-        "finalDriveRatio": 3.58
+        "finalDriveRatio": 5.0
       }
     },
     {
@@ -322,8 +322,8 @@
       "type": "trackBelt",
       "blueprint": {
         "v": "1.1",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "segmentID": "24fc57c7-b8cf-4949-8671-0721525c9d10",
         "x": 272,
         "y": 75,
@@ -337,8 +337,8 @@
       "type": "suspension",
       "blueprint": {
         "v": "0.6",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "targetAngle": -20.0,
         "upTravelLimit": 1000.0,
         "damper": 10018.0,
@@ -350,8 +350,8 @@
       "type": "torsionBar",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "torsionBarLength": 1500,
         "torsionBarDiameter": 60
       }
@@ -1564,7 +1564,7 @@
       }
     },
     {
-      "id": 5,
+      "id": 0,
       "type": "paintJobRegister",
       "blueprint": {
         "v": "0.0",
@@ -1773,16 +1773,16 @@
             2.53967318E-08,
             0.15,
             -2.20949531,
-            -0.900000036,
+            -0.881500065,
             0.3021409,
             -2.28100157,
-            0.900000036,
+            0.881500065,
             0.3021409,
             -2.28100157,
-            -0.900000036,
+            -0.881500065,
             0.0,
             0.0,
-            0.900000036,
+            0.881500065,
             0.0,
             0.0
           ],
@@ -1823,8 +1823,8 @@
             0.0,
             0.0,
             -2.23517418E-08,
-            0.281005859,
-            -2.47700024,
+            0.281000018,
+            -2.47698975,
             -0.390237451,
             0.1521409,
             0.0715062246,
@@ -1835,8 +1835,8 @@
             0.0,
             0.0,
             2.23517418E-08,
-            0.281005859,
-            -2.47700024
+            0.281000018,
+            -2.47698975
           ],
           "portDirections": [
             0.0,
@@ -1976,7 +1976,7 @@
       "transform": {
         "mirrorVuid": 38,
         "pos": [
-          -0.900000036,
+          -0.881500065,
           0.0,
           0.0
         ],
@@ -2138,7 +2138,7 @@
       "transform": {
         "mirrorVuid": 16,
         "pos": [
-          0.900000036,
+          0.881500065,
           0.0,
           0.0
         ],
@@ -2306,9 +2306,9 @@
           1.76953125
         ],
         "rot": [
-          8.151358,
+          8.151359,
           359.051971,
-          -4.71672763E-08,
+          -5.390546E-08,
           0.0
         ],
         "scale": [
@@ -2392,7 +2392,7 @@
         ],
         "rot": [
           352.0023,
-          -5.33780565E-07,
+          -5.337807E-07,
           -1.61763118E-08,
           0.0
         ],
@@ -2872,7 +2872,7 @@
           0.105529785
         ],
         "rot": [
-          1.93284926E-08,
+          1.93284944E-08,
           29.9999943,
           5.1790523E-09,
           0.0
@@ -2985,7 +2985,7 @@
           -0.398223877
         ],
         "rot": [
-          270.019775,
+          270.027985,
           270.0,
           0.0,
           0.0
@@ -3129,7 +3129,7 @@
           0.673187256
         ],
         "rot": [
-          6.99965143,
+          6.999652,
           180.0,
           -7.69065E-14,
           0.0
@@ -3185,9 +3185,9 @@
           1.95361328
         ],
         "rot": [
-          -2.561321E-06,
+          -2.13443423E-06,
           90.00003,
-          7.544586,
+          7.544585,
           0.0
         ],
         "scale": [
@@ -3894,9 +3894,9 @@
           -0.98349
         ],
         "rot": [
-          29.99998,
+          29.9999771,
           270.0,
-          -4.92926347E-06,
+          -5.91511662E-06,
           0.0
         ],
         "scale": [
@@ -3921,9 +3921,9 @@
           -0.98349
         ],
         "rot": [
-          29.99998,
+          29.9999771,
           90.0,
-          4.92926347E-06,
+          5.91511662E-06,
           0.0
         ],
         "scale": [

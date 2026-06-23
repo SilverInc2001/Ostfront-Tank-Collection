@@ -4,11 +4,11 @@
     "v": "0.2",
     "name": "FT-17",
     "gameVersion": "0.2.51.36",
-    "mass": 7143,
-    "creationDate": "1939.09.01",
+    "mass": 7125,
+    "creationDate": "1918.11.11",
     "class": "",
     "desc": "",
-    "cost": 21329
+    "cost": 20347
   },
   "blueprints": [
     {
@@ -96,10 +96,10 @@
         "cylinders": 4,
         "idleRPM": 800,
         "cylinderDisplacement": 1.125,
-        "tech": 0.2,
+        "tech": 0.0,
         "targetMinRPM": 1000,
         "targetMaxRPM": 1500,
-        "torqueCoeff": 0.6,
+        "torqueCoeff": 0.5,
         "revLimit": -1
       }
     },
@@ -112,9 +112,9 @@
         "description": "",
         "meshType": "slidingMesh",
         "autoInputTorque": true,
-        "maxInputTorque": 298.627655,
+        "maxInputTorque": 206.32077,
         "autoResistanceTorque": true,
-        "maxResistanceTorque": 298.627655,
+        "maxResistanceTorque": 206.32077,
         "finalDriveRatio": 9.45,
         "msrRatioThreshold": 4.0,
         "auxillaryGearRatio": 1.0,
@@ -198,7 +198,7 @@
         "name": "",
         "description": "",
         "spacingMode": 0,
-        "spacing": 268,
+        "spacing": 258,
         "length": 5000,
         "count": 6,
         "interleaveOverlapFraction": 0.0,
@@ -309,12 +309,12 @@
         "description": "",
         "separation": 851,
         "length": 5000,
-        "brake": 57147,
+        "brake": 57000,
         "autoBrake": true,
         "rollersEnabled": true,
         "matchChassis": false,
         "frontalTransmission": false,
-        "finalDriveRatio": 9.45
+        "finalDriveRatio": 20.0
       }
     },
     {
@@ -391,7 +391,7 @@
         "torque": 200.0,
         "ratio": 30.0,
         "type": 1,
-        "resist": 1.5
+        "resist": 2.0
       }
     },
     {
@@ -506,8 +506,8 @@
           }
         ],
         "muzzleMass": 0.0,
-        "K": 2200,
-        "PSI": 30000,
+        "K": 2400,
+        "PSI": 25000,
         "shellID": 41
       }
     },
@@ -527,7 +527,7 @@
               {
                 "id": "AP",
                 "definition": {
-                  "penetratorConstant": 2200
+                  "penetratorConstant": 2400
                 }
               },
               {
@@ -1161,11 +1161,11 @@
             0.452271551,
             -1.3001523,
             -0.4255,
-            0.561995566,
-            -1.3517226,
+            0.565199852,
+            -1.35322857,
             0.4255,
-            0.561995566,
-            -1.3517226,
+            0.565199852,
+            -1.35322857,
             -0.4255,
             0.0,
             0.0,
@@ -1198,12 +1198,12 @@
             0.161973119,
             0.218522266,
             0.0,
-            0.109724008,
-            -0.30503273,
-            0.259900331,
-            0.109724008,
-            0.05157028,
-            0.02875194,
+            0.112928286,
+            -0.3139406,
+            0.216029644,
+            0.112928286,
+            0.05307629,
+            0.0306782722,
             0.0,
             0.0,
             0.0,
@@ -1212,10 +1212,10 @@
             7.450581E-09,
             0.539001465,
             -1.354,
-            -0.259900331,
-            0.109724008,
-            0.05157028,
-            -0.02875194,
+            -0.216029644,
+            0.112928286,
+            0.05307629,
+            -0.0306782722,
             0.0,
             0.0,
             0.0,
@@ -2086,8 +2086,8 @@
           0.009429932
         ],
         "rot": [
-          75.000206,
-          89.9999161,
+          75.00026,
+          89.99992,
           179.999939,
           0.0
         ],

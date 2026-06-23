@@ -4,11 +4,11 @@
     "v": "0.2",
     "name": "M3 Grant",
     "gameVersion": "0.2.51.36",
-    "mass": 28972,
+    "mass": 28986,
     "creationDate": "1941.12.31",
     "class": "",
     "desc": "",
-    "cost": 52348
+    "cost": 52353
   },
   "blueprints": [
     {
@@ -58,7 +58,7 @@
         "description": null,
         "length": 6000,
         "width": 2000,
-        "groundClearance": 380
+        "groundClearance": 385
       }
     },
     {
@@ -141,8 +141,8 @@
         "mountID": "97844d15-24a8-4feb-9548-668e2bb81ce6",
         "scale": 0.5,
         "x": 0,
-        "y": 329,
-        "z": -720,
+        "y": 349,
+        "z": -700,
         "rearFacing": true
       }
     },
@@ -153,10 +153,10 @@
         "v": "0.0",
         "name": "",
         "description": "",
-        "wheelID": "8b31d0e4-3946-4a3a-81ef-b2bbf3a84989",
+        "wheelID": "0bc468a8-ccb3-49bd-91ea-e95ebfc919e6",
         "perAxle": 1,
         "spacingOnAxle": 0.01,
-        "xOffset": -0.008,
+        "xOffset": -0.0200000014,
         "diameter": 0.66,
         "width": 0.460900038
       }
@@ -171,7 +171,7 @@
         "mountID": "25261a10-1c39-4191-9378-b6108d71cbf1",
         "scale": 0.5,
         "x": 0,
-        "y": 289,
+        "y": 311,
         "z": 506,
         "rearFacing": false
       }
@@ -183,7 +183,7 @@
         "v": "0.0",
         "name": "",
         "description": "",
-        "wheelID": "ed05e419-9705-41ac-801c-11a0a0dd0700",
+        "wheelID": "ebbca166-59fe-4c0b-80e4-48922e996007",
         "perAxle": 2,
         "spacingOnAxle": 0.08,
         "xOffset": 0.08,
@@ -199,7 +199,7 @@
         "name": "",
         "description": "",
         "spacingMode": 0,
-        "spacing": 1201,
+        "spacing": 1196,
         "length": 6000,
         "count": 3,
         "interleaveOverlapFraction": 0.0,
@@ -210,8 +210,8 @@
         "yOrigin": 0,
         "xOrigin": -3000,
         "zOffset": 0,
-        "yOffset": 481,
-        "xOffset": 1506,
+        "yOffset": 480,
+        "xOffset": 1503,
         "syncLengthEnabled": false,
         "angle": 0.0
       }
@@ -254,7 +254,7 @@
         "name": "",
         "description": "",
         "spacingMode": 0,
-        "spacing": 200,
+        "spacing": 195,
         "length": 6000,
         "count": 3,
         "interleaveOverlapFraction": 0.5,
@@ -265,8 +265,8 @@
         "yOrigin": 0,
         "xOrigin": -3000,
         "zOffset": 0,
-        "yOffset": 99,
-        "xOffset": 1065,
+        "yOffset": 94,
+        "xOffset": 1069,
         "syncLengthEnabled": false,
         "angle": 0.0
       }
@@ -296,7 +296,7 @@
         "wheelID": "50907d5b-dde1-451c-a0be-07c69d2fc886",
         "perAxle": 2,
         "spacingOnAxle": 0.08,
-        "xOffset": 0.03,
+        "xOffset": 0.08,
         "diameter": 0.496999979,
         "width": 0.14
       }
@@ -308,14 +308,14 @@
         "v": "1.1",
         "name": "M3 Lee",
         "description": "",
-        "separation": 1433,
+        "separation": 1390,
         "length": 6000,
-        "brake": 230801,
+        "brake": 231892,
         "autoBrake": true,
         "rollersEnabled": true,
         "matchChassis": false,
         "frontalTransmission": true,
-        "finalDriveRatio": 7.46
+        "finalDriveRatio": 8.75
       }
     },
     {
@@ -1842,7 +1842,7 @@
       }
     },
     {
-      "id": 0,
+      "id": 5,
       "type": "paintJobRegister",
       "blueprint": {
         "v": "0.0",
@@ -2051,16 +2051,16 @@
             3.857425E-07,
             0.635358,
             1.91237986,
-            -0.716500044,
+            -0.695000052,
             0.4684604,
             1.99082172,
-            0.716500044,
+            0.695000052,
             0.46846047,
             1.9908216,
-            -0.716500044,
+            -0.695000052,
             0.0,
             0.0,
-            0.716500044,
+            0.695000052,
             0.0,
             0.0
           ],
@@ -2101,8 +2101,8 @@
             0.0,
             0.0,
             -2.23517418E-08,
-            0.329,
-            2.27999878,
+            0.348999977,
+            2.29998779,
             -0.396609277,
             0.166897535,
             0.0784418359,
@@ -2113,8 +2113,8 @@
             0.0,
             0.0,
             2.23517418E-08,
-            0.329,
-            2.27999878
+            0.348999977,
+            2.29998779
           ],
           "portDirections": [
             0.0,
@@ -2254,7 +2254,7 @@
       "transform": {
         "mirrorVuid": 38,
         "pos": [
-          -0.716500044,
+          -0.695000052,
           0.0,
           0.0
         ],
@@ -2296,8 +2296,8 @@
         "mirrorVuid": -1,
         "pos": [
           -0.1,
-          0.329000026,
-          2.28000021
+          0.349,
+          2.30000019
         ],
         "rot": [
           0.0,
@@ -2329,7 +2329,7 @@
         "mirrorVuid": -1,
         "pos": [
           -0.1,
-          0.289,
+          0.311000019,
           -2.4940002
         ],
         "rot": [
@@ -2357,8 +2357,8 @@
         "mirrorVuid": -1,
         "pos": [
           0.0,
-          0.481000036,
-          -1.49400008
+          0.480000019,
+          -1.4970001
         ],
         "rot": [
           0.0,
@@ -2386,8 +2386,8 @@
         "mirrorVuid": -1,
         "pos": [
           0.0,
-          0.09900001,
-          -1.93500006
+          0.0940000042,
+          -1.93100011
         ],
         "rot": [
           0.0,
@@ -2416,7 +2416,7 @@
       "transform": {
         "mirrorVuid": 16,
         "pos": [
-          0.716500044,
+          0.695000052,
           0.0,
           0.0
         ],
@@ -2458,8 +2458,8 @@
         "mirrorVuid": -1,
         "pos": [
           0.1,
-          0.329000026,
-          2.28000021
+          0.349,
+          2.30000019
         ],
         "rot": [
           0.0,
@@ -2491,7 +2491,7 @@
         "mirrorVuid": -1,
         "pos": [
           0.1,
-          0.289,
+          0.311000019,
           -2.4940002
         ],
         "rot": [
@@ -2519,8 +2519,8 @@
         "mirrorVuid": -1,
         "pos": [
           0.0,
-          0.481000036,
-          -1.49400008
+          0.480000019,
+          -1.4970001
         ],
         "rot": [
           0.0,
@@ -2548,8 +2548,8 @@
         "mirrorVuid": -1,
         "pos": [
           0.0,
-          0.09900001,
-          -1.93500006
+          0.0940000042,
+          -1.93100011
         ],
         "rot": [
           0.0,
@@ -4280,9 +4280,9 @@
           1.33145142
         ],
         "rot": [
-          16.699049,
+          16.6990471,
           180.0,
-          1.59388453E-13,
+          1.06258982E-13,
           0.0
         ],
         "scale": [

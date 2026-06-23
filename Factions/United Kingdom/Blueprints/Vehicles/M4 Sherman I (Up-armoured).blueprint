@@ -306,16 +306,16 @@
       "type": "track",
       "blueprint": {
         "v": "1.1",
-        "name": "M4 Sherman I",
+        "name": "M4 Sherman I (Late)",
         "description": "",
         "separation": 1419,
         "length": 6060,
-        "brake": 241342,
+        "brake": 239980,
         "autoBrake": true,
         "rollersEnabled": true,
         "matchChassis": false,
         "frontalTransmission": true,
-        "finalDriveRatio": 6.26
+        "finalDriveRatio": 6.0
       }
     },
     {
@@ -1640,7 +1640,7 @@
       }
     },
     {
-      "id": 0,
+      "id": 5,
       "type": "paintJobRegister",
       "blueprint": {
         "v": "0.0",
@@ -2527,7 +2527,7 @@
         "rot": [
           349.1827,
           186.482925,
-          5.975881E-07,
+          6.51914263E-07,
           0.0
         ],
         "scale": [
@@ -2725,9 +2725,9 @@
           0.4199524
         ],
         "rot": [
-          2.911013E-05,
+          2.91101333E-05,
           60.000042,
-          -2.238351E-05,
+          -2.23835068E-05,
           0.0
         ],
         "scale": [
@@ -3824,7 +3824,7 @@
         ],
         "rot": [
           358.595978,
-          0.582283735,
+          0.5822838,
           -5.00408159E-09,
           0.0
         ],
@@ -3883,7 +3883,7 @@
         "rot": [
           15.9455109,
           180.0,
-          5.292526E-13,
+          5.82177861E-13,
           0.0
         ],
         "scale": [

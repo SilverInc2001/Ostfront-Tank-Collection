@@ -309,12 +309,12 @@
         "description": null,
         "separation": 1800,
         "length": 6000,
-        "brake": 118615,
+        "brake": 118112,
         "autoBrake": true,
         "rollersEnabled": false,
         "matchChassis": false,
         "frontalTransmission": false,
-        "finalDriveRatio": 4.93
+        "finalDriveRatio": 5.0
       }
     },
     {
@@ -1183,7 +1183,7 @@
       }
     },
     {
-      "id": 5,
+      "id": 0,
       "type": "paintJobRegister",
       "blueprint": {
         "v": "0.0",
@@ -1442,8 +1442,8 @@
             0.0,
             0.0,
             3.7252903E-08,
-            0.281005859,
-            -2.47700024,
+            0.281000018,
+            -2.47698975,
             -0.390237451,
             0.1521409,
             0.0715062246,
@@ -1454,8 +1454,8 @@
             0.0,
             0.0,
             -3.7252903E-08,
-            0.281005859,
-            -2.47700024
+            0.281000018,
+            -2.47698975
           ],
           "portDirections": [
             0.0,

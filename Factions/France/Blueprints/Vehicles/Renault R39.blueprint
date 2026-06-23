@@ -135,8 +135,8 @@
       "type": "trackWheelMount",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "mountID": "97844d15-24a8-4feb-9548-668e2bb81ce6",
         "scale": 0.0,
         "x": 0,
@@ -150,8 +150,8 @@
       "type": "trackWheel",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "wheelID": "8b31d0e4-3946-4a3a-81ef-b2bbf3a84989",
         "perAxle": 1,
         "spacingOnAxle": 0.01,
@@ -165,8 +165,8 @@
       "type": "trackWheelMount",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "mountID": "25261a10-1c39-4191-9378-b6108d71cbf1",
         "scale": 0.0,
         "x": 0,
@@ -180,8 +180,8 @@
       "type": "trackWheel",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "wheelID": "ed05e419-9705-41ac-801c-11a0a0dd0700",
         "perAxle": 2,
         "spacingOnAxle": 0.08,
@@ -195,8 +195,8 @@
       "type": "trackWheelArray",
       "blueprint": {
         "v": "0.2",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "spacingMode": 0,
         "spacing": 722,
         "length": 6000,
@@ -220,8 +220,8 @@
       "type": "trackWheelMount",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "mountID": "062b2d20-13d5-4dec-9d1c-b2855fdccfac",
         "scale": 0.0,
         "x": 0,
@@ -235,8 +235,8 @@
       "type": "trackWheel",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "wheelID": "50907d5b-dde1-451c-a0be-07c69d2fc886",
         "perAxle": 2,
         "spacingOnAxle": 0.03,
@@ -250,8 +250,8 @@
       "type": "trackWheelArray",
       "blueprint": {
         "v": "0.2",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "spacingMode": 2,
         "spacing": 154,
         "length": 6000,
@@ -275,8 +275,8 @@
       "type": "trackWheelMount",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "mountID": "6b0a1425-3943-491b-ad87-f56d8b811e19",
         "scale": 0.0,
         "x": 0,
@@ -290,8 +290,8 @@
       "type": "trackWheel",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "wheelID": "50907d5b-dde1-451c-a0be-07c69d2fc886",
         "perAxle": 1,
         "spacingOnAxle": 0.03,
@@ -305,16 +305,16 @@
       "type": "track",
       "blueprint": {
         "v": "1.1",
-        "name": null,
-        "description": null,
+        "name": "Renault R35",
+        "description": "",
         "separation": 1032,
         "length": 6000,
-        "brake": 67032,
+        "brake": 68928,
         "autoBrake": true,
         "rollersEnabled": true,
         "matchChassis": false,
         "frontalTransmission": true,
-        "finalDriveRatio": 8.13
+        "finalDriveRatio": 12.25
       }
     },
     {
@@ -322,8 +322,8 @@
       "type": "trackBelt",
       "blueprint": {
         "v": "1.1",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "segmentID": "625f3a65-30f6-4180-a719-f3af1e2bacfe",
         "x": 260,
         "y": 75,
@@ -337,8 +337,8 @@
       "type": "suspension",
       "blueprint": {
         "v": "0.6",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "targetAngle": -28.0,
         "upTravelLimit": 1000.0,
         "damper": 10018.0,
@@ -350,8 +350,8 @@
       "type": "torsionBar",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "torsionBarLength": 816,
         "torsionBarDiameter": 60
       }
@@ -1049,7 +1049,7 @@
       }
     },
     {
-      "id": 5,
+      "id": 0,
       "type": "paintJobRegister",
       "blueprint": {
         "v": "0.0",
@@ -1308,8 +1308,8 @@
             0.0,
             0.0,
             -2.23517418E-08,
-            0.53302,
-            1.62400019,
+            0.5330001,
+            1.62399292,
             -0.2824679,
             0.107690237,
             0.05061441,
@@ -1320,8 +1320,8 @@
             0.0,
             0.0,
             2.23517418E-08,
-            0.53302,
-            1.62400019
+            0.5330001,
+            1.62399292
           ],
           "portDirections": [
             0.0,
@@ -2075,7 +2075,7 @@
         "rot": [
           359.3815,
           177.702591,
-          -5.88671242E-07,
+          -5.90338857E-07,
           0.0
         ],
         "scale": [
@@ -2356,9 +2356,9 @@
           1.71038818
         ],
         "rot": [
-          11.1874647,
+          11.1874657,
           179.093369,
-          6.119378E-08,
+          6.799309E-08,
           0.0
         ],
         "scale": [
@@ -2727,7 +2727,7 @@
         "rot": [
           356.18692,
           181.468842,
-          1.06958481E-07,
+          1.10300938E-07,
           0.0
         ],
         "scale": [
@@ -2780,7 +2780,7 @@
           -0.548858643
         ],
         "rot": [
-          3.16002369,
+          3.1600244,
           88.94118,
           180.1936,
           0.0
@@ -2807,9 +2807,9 @@
           -1.29653931
         ],
         "rot": [
-          0.000389000634,
+          0.0003890273,
           270.0,
-          0.497724682,
+          0.497724742,
           0.0
         ],
         "scale": [
@@ -2835,7 +2835,7 @@
         ],
         "rot": [
           359.5023,
-          3.05344779E-13,
+          4.071264E-13,
           0.000389170978,
           0.0
         ],
@@ -2888,7 +2888,7 @@
           -1.1824646
         ],
         "rot": [
-          0.0905204341,
+          0.09052044,
           0.0,
           90.0,
           0.0

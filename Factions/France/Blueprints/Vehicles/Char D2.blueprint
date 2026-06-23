@@ -4,11 +4,11 @@
     "v": "0.2",
     "name": "Char D2",
     "gameVersion": "0.2.51.36",
-    "mass": 18433,
+    "mass": 18427,
     "creationDate": "1941.12.31",
     "class": "",
     "desc": "",
-    "cost": 46931
+    "cost": 46928
   },
   "blueprints": [
     {
@@ -265,7 +265,7 @@
         "xOrigin": -3000,
         "zOffset": 0,
         "yOffset": -437,
-        "xOffset": 912,
+        "xOffset": 1092,
         "syncLengthEnabled": false,
         "angle": 0.0
       }
@@ -309,12 +309,12 @@
         "description": null,
         "separation": 1147,
         "length": 6000,
-        "brake": 147061,
+        "brake": 147421,
         "autoBrake": true,
         "rollersEnabled": true,
         "matchChassis": false,
         "frontalTransmission": false,
-        "finalDriveRatio": 8.77
+        "finalDriveRatio": 12.5
       }
     },
     {
@@ -339,7 +339,7 @@
         "v": "0.6",
         "name": null,
         "description": null,
-        "targetAngle": -5.0,
+        "targetAngle": -47.0,
         "upTravelLimit": 1000.0,
         "damper": 10018.0,
         "armLength": 500
@@ -433,7 +433,7 @@
           "v": "0.4",
           "flags": 3,
           "torqueMultiplier": 1.0,
-          "ratio": 8.05,
+          "ratio": 10.0,
           "max": 20.0,
           "min": -10.0
         },
@@ -1087,7 +1087,7 @@
       }
     },
     {
-      "id": 0,
+      "id": 5,
       "type": "paintJobRegister",
       "blueprint": {
         "v": "0.0",
@@ -1632,7 +1632,7 @@
         "pos": [
           0.0,
           -0.437,
-          -2.088
+          -1.90800011
         ],
         "rot": [
           0.0,
@@ -1794,7 +1794,7 @@
         "pos": [
           0.0,
           -0.437,
-          -2.088
+          -1.90800011
         ],
         "rot": [
           0.0,
@@ -2276,9 +2276,9 @@
           0.422124445
         ],
         "rot": [
-          15.8936663,
+          15.8936691,
           240.31076,
-          0.07830042,
+          0.07829954,
           0.0
         ],
         "scale": [
@@ -2302,12 +2302,12 @@
         "pos": [
           -0.0141148511,
           -0.7783203,
-          -0.288482666
+          -0.2884827
         ],
         "rot": [
           0.0,
           0.0,
-          -3.02890574E-10,
+          -3.204778E-09,
           0.0
         ],
         "scale": [
@@ -2412,14 +2412,14 @@
       "transform": {
         "mirrorVuid": -1,
         "pos": [
-          0.3028436,
+          0.30284363,
           -0.190002441,
           1.55307007
         ],
         "rot": [
           0.0,
           0.0,
-          -3.02890574E-10,
+          -3.204778E-09,
           0.0
         ],
         "scale": [
@@ -2441,14 +2441,14 @@
       "transform": {
         "mirrorVuid": -1,
         "pos": [
-          -0.272493869,
+          -0.2724939,
           -0.190002441,
           1.59057617
         ],
         "rot": [
           0.0,
           0.0,
-          -3.02890574E-10,
+          -3.204778E-09,
           0.0
         ],
         "scale": [
@@ -2677,7 +2677,7 @@
         "rot": [
           25.8367653,
           180.0,
-          1.13081441E-12,
+          1.24389583E-12,
           0.0
         ],
         "scale": [

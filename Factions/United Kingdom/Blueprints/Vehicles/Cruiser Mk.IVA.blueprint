@@ -4,11 +4,11 @@
     "v": "0.2",
     "name": "Cruiser Mk.IVA",
     "gameVersion": "0.2.51.36",
-    "mass": 22097,
+    "mass": 22080,
     "creationDate": "1941.12.31",
     "class": "",
     "desc": "",
-    "cost": 39765
+    "cost": 39761
   },
   "blueprints": [
     {
@@ -138,7 +138,7 @@
         "name": "",
         "description": "",
         "mountID": "97844d15-24a8-4feb-9548-668e2bb81ce6",
-        "scale": 1.0,
+        "scale": 0.5,
         "x": 0,
         "y": 120,
         "z": -100,
@@ -305,16 +305,16 @@
       "type": "track",
       "blueprint": {
         "v": "1.1",
-        "name": "Cruiser",
+        "name": "Cruiser Tank Mk.IV",
         "description": "",
         "separation": 1891,
         "length": 6000,
-        "brake": 173636,
+        "brake": 176641,
         "autoBrake": true,
         "rollersEnabled": false,
         "matchChassis": false,
         "frontalTransmission": false,
-        "finalDriveRatio": 4.38
+        "finalDriveRatio": 5.0
       }
     },
     {
@@ -1268,7 +1268,7 @@
       }
     },
     {
-      "id": 0,
+      "id": 5,
       "type": "paintJobRegister",
       "blueprint": {
         "v": "0.0",
@@ -2569,7 +2569,7 @@
         "rot": [
           15.572649,
           180.042358,
-          -7.35705941E-09,
+          -7.789828E-09,
           0.0
         ],
         "scale": [
@@ -2914,8 +2914,8 @@
         ],
         "rot": [
           83.48892,
-          0.19621183,
-          0.197485119,
+          0.196211934,
+          0.1974852,
           0.0
         ],
         "scale": [

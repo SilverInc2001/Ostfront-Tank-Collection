@@ -136,8 +136,8 @@
       "type": "trackWheelMount",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "mountID": "97844d15-24a8-4feb-9548-668e2bb81ce6",
         "scale": 0.5,
         "x": 0,
@@ -151,8 +151,8 @@
       "type": "trackWheel",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "wheelID": "8b31d0e4-3946-4a3a-81ef-b2bbf3a84989",
         "perAxle": 1,
         "spacingOnAxle": 0.01,
@@ -166,8 +166,8 @@
       "type": "trackWheelMount",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "mountID": "25261a10-1c39-4191-9378-b6108d71cbf1",
         "scale": 0.5,
         "x": 0,
@@ -181,8 +181,8 @@
       "type": "trackWheel",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "wheelID": "ed05e419-9705-41ac-801c-11a0a0dd0700",
         "perAxle": 2,
         "spacingOnAxle": 0.08,
@@ -196,8 +196,8 @@
       "type": "trackWheelArray",
       "blueprint": {
         "v": "0.2",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "spacingMode": 0,
         "spacing": 785,
         "length": 6000,
@@ -221,8 +221,8 @@
       "type": "trackWheelMount",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "mountID": "062b2d20-13d5-4dec-9d1c-b2855fdccfac",
         "scale": 0.5,
         "x": 0,
@@ -236,8 +236,8 @@
       "type": "trackWheel",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "wheelID": "50907d5b-dde1-451c-a0be-07c69d2fc886",
         "perAxle": 2,
         "spacingOnAxle": 0.08,
@@ -251,8 +251,8 @@
       "type": "trackWheelArray",
       "blueprint": {
         "v": "0.2",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "spacingMode": 0,
         "spacing": 135,
         "length": 6000,
@@ -276,8 +276,8 @@
       "type": "trackWheelMount",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "mountID": "c9314baa-f287-4752-aca5-fa2b78ce4f02",
         "scale": 0.53,
         "x": 0,
@@ -291,8 +291,8 @@
       "type": "trackWheel",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "wheelID": "50907d5b-dde1-451c-a0be-07c69d2fc886",
         "perAxle": 1,
         "spacingOnAxle": 0.08,
@@ -306,16 +306,16 @@
       "type": "track",
       "blueprint": {
         "v": "1.1",
-        "name": null,
-        "description": null,
+        "name": "Hotchkiss H35",
+        "description": "",
         "separation": 1175,
         "length": 6000,
-        "brake": 85147,
+        "brake": 78913,
         "autoBrake": true,
         "rollersEnabled": true,
         "matchChassis": false,
         "frontalTransmission": true,
-        "finalDriveRatio": 6.58
+        "finalDriveRatio": 4.25
       }
     },
     {
@@ -323,8 +323,8 @@
       "type": "trackBelt",
       "blueprint": {
         "v": "1.1",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "segmentID": "625f3a65-30f6-4180-a719-f3af1e2bacfe",
         "x": 230,
         "y": 75,
@@ -338,8 +338,8 @@
       "type": "suspension",
       "blueprint": {
         "v": "0.6",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "targetAngle": -5.0,
         "upTravelLimit": 1000.0,
         "damper": 10018.0,
@@ -1041,19 +1041,6 @@
       }
     },
     {
-      "id": 0,
-      "type": "paintJobRegister",
-      "blueprint": {
-        "v": "0.0",
-        "name": null,
-        "description": null,
-        "paintJobIDs": [
-          1,
-          2
-        ]
-      }
-    },
-    {
       "id": 36,
       "type": "decalTransform",
       "blueprint": {
@@ -1074,6 +1061,19 @@
         "name": null,
         "description": null,
         "imageURL": "Sprocket/Decals/Bahnschrift White 0.png"
+      }
+    },
+    {
+      "id": 5,
+      "type": "paintJobRegister",
+      "blueprint": {
+        "v": "0.0",
+        "name": null,
+        "description": null,
+        "paintJobIDs": [
+          1,
+          2
+        ]
       }
     }
   ],
@@ -1323,8 +1323,8 @@
             0.0,
             0.0,
             -2.23517418E-08,
-            0.49798584,
-            1.79600012,
+            0.4980001,
+            1.79599,
             -0.3641945,
             0.115756355,
             0.0544054843,
@@ -1335,8 +1335,8 @@
             0.0,
             0.0,
             2.23517418E-08,
-            0.49798584,
-            1.79600012
+            0.4980001,
+            1.79599
           ],
           "portDirections": [
             0.0,
@@ -2228,7 +2228,7 @@
         "rot": [
           10.9456854,
           107.909363,
-          2.60878073E-06,
+          2.608781E-06,
           0.0
         ],
         "scale": [
@@ -2256,7 +2256,7 @@
         ],
         "rot": [
           10.9456863,
-          252.090622,
+          252.0906,
           -4.78276525E-06,
           0.0
         ],
@@ -2315,7 +2315,7 @@
         "rot": [
           21.2786636,
           96.05461,
-          -1.83247334E-06,
+          -3.66494669E-06,
           0.0
         ],
         "scale": [
@@ -2342,9 +2342,9 @@
           0.1774292
         ],
         "rot": [
-          10.9456873,
+          10.9456882,
           107.909378,
-          4.78276434E-06,
+          4.347968E-06,
           0.0
         ],
         "scale": [
@@ -2371,9 +2371,9 @@
           0.294036865
         ],
         "rot": [
-          10.94569,
+          10.9456892,
           252.0906,
-          -5.21756147E-06,
+          -5.217562E-06,
           0.0
         ],
         "scale": [
@@ -2395,8 +2395,8 @@
       "transform": {
         "mirrorVuid": -1,
         "pos": [
-          0.193495885,
-          0.20501709,
+          0.193498954,
+          0.20501703,
           1.03564453
         ],
         "rot": [
@@ -2424,8 +2424,8 @@
       "transform": {
         "mirrorVuid": -1,
         "pos": [
-          -0.123686135,
-          0.3268432,
+          -0.123688467,
+          0.326843321,
           -0.263793945
         ],
         "rot": [
@@ -2739,7 +2739,7 @@
         "rot": [
           35.1342,
           180.0,
-          -7.467128E-13,
+          -6.222607E-13,
           0.0
         ],
         "scale": [
@@ -2874,9 +2874,9 @@
           1.1595459
         ],
         "rot": [
-          13.1772356,
+          13.1772366,
           180.133469,
-          0.0,
+          1.71262082E-09,
           0.0
         ],
         "scale": [

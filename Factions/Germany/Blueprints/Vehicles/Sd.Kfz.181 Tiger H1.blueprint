@@ -142,8 +142,8 @@
       "type": "trackWheelMount",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "mountID": "97844d15-24a8-4feb-9548-668e2bb81ce6",
         "scale": 0.5,
         "x": 0,
@@ -157,8 +157,8 @@
       "type": "trackWheel",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "wheelID": "8b31d0e4-3946-4a3a-81ef-b2bbf3a84989",
         "perAxle": 1,
         "spacingOnAxle": 0.01,
@@ -172,8 +172,8 @@
       "type": "trackWheelMount",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "mountID": "25261a10-1c39-4191-9378-b6108d71cbf1",
         "scale": 1.0,
         "x": 0,
@@ -187,8 +187,8 @@
       "type": "trackWheel",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "wheelID": "ed05e419-9705-41ac-801c-11a0a0dd0700",
         "perAxle": 2,
         "spacingOnAxle": 0.049999997,
@@ -202,8 +202,8 @@
       "type": "trackWheelArray",
       "blueprint": {
         "v": "0.2",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "spacingMode": 0,
         "spacing": 1300,
         "length": 6316,
@@ -227,8 +227,8 @@
       "type": "trackWheelMount",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "mountID": "062b2d20-13d5-4dec-9d1c-b2855fdccfac",
         "scale": 0.5,
         "x": 0,
@@ -242,8 +242,8 @@
       "type": "trackWheel",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "wheelID": "50907d5b-dde1-451c-a0be-07c69d2fc886",
         "perAxle": 2,
         "spacingOnAxle": 0.08,
@@ -257,8 +257,8 @@
       "type": "trackWheelArray",
       "blueprint": {
         "v": "0.2",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "spacingMode": 1,
         "spacing": 135,
         "length": 6316,
@@ -282,8 +282,8 @@
       "type": "trackWheelMount",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "mountID": "6b0a1425-3943-491b-ad87-f56d8b811e19",
         "scale": 0.6,
         "x": 0,
@@ -297,8 +297,8 @@
       "type": "trackWheel",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "wheelID": "50907d5b-dde1-451c-a0be-07c69d2fc886",
         "perAxle": 2,
         "spacingOnAxle": 0.12,
@@ -312,8 +312,8 @@
       "type": "track",
       "blueprint": {
         "v": "1.1",
-        "name": null,
-        "description": null,
+        "name": "Sd.Kfz.181 Tiger H1",
+        "description": "",
         "separation": 1764,
         "length": 6316,
         "brake": 385490,
@@ -321,7 +321,7 @@
         "rollersEnabled": false,
         "matchChassis": false,
         "frontalTransmission": true,
-        "finalDriveRatio": 11.0
+        "finalDriveRatio": 10.0
       }
     },
     {
@@ -329,8 +329,8 @@
       "type": "trackBelt",
       "blueprint": {
         "v": "1.1",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "segmentID": "24fc57c7-b8cf-4949-8671-0721525c9d10",
         "x": 725,
         "y": 105,
@@ -344,8 +344,8 @@
       "type": "suspension",
       "blueprint": {
         "v": "0.6",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "targetAngle": -5.0,
         "upTravelLimit": 1000.0,
         "damper": 10018.0,
@@ -357,8 +357,8 @@
       "type": "torsionBar",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "torsionBarLength": 1500,
         "torsionBarDiameter": 60
       }
@@ -1430,7 +1430,7 @@
       }
     },
     {
-      "id": 5,
+      "id": 0,
       "type": "paintJobRegister",
       "blueprint": {
         "v": "0.0",
@@ -1769,7 +1769,7 @@
         ],
         "rot": [
           0.4261447,
-          1.46309573E-13,
+          1.52670845E-13,
           -2.557081E-05,
           0.0
         ],
@@ -2107,12 +2107,12 @@
         "pos": [
           -0.4969101,
           -0.7000122,
-          -0.0502929576
+          -0.05029297
         ],
         "rot": [
-          -1.27254168E-07,
+          -1.27254154E-07,
           30.0000038,
-          6.257798E-08,
+          6.257799E-08,
           0.0
         ],
         "scale": [
@@ -2136,12 +2136,12 @@
         "pos": [
           -0.429283649,
           -0.7000122,
-          -0.6965025
+          -0.6965027
         ],
         "rot": [
           0.0,
           0.0,
-          -2.57945487E-09,
+          0.0,
           0.0
         ],
         "scale": [
@@ -2165,7 +2165,7 @@
         "pos": [
           0.6214293,
           -0.7000122,
-          -0.157440141
+          -0.157440186
         ],
         "rot": [
           -1.13195462E-07,
@@ -2220,13 +2220,13 @@
         "mirrorVuid": 255,
         "pos": [
           -0.473614663,
-          0.038574338,
+          0.03857422,
           1.8866272
         ],
         "rot": [
           0.0,
           0.0,
-          -2.57945487E-09,
+          0.0,
           0.0
         ],
         "scale": [
@@ -2255,7 +2255,7 @@
         "rot": [
           0.0,
           0.0,
-          -2.57945487E-09,
+          0.0,
           0.0
         ],
         "scale": [
@@ -2895,7 +2895,7 @@
         "rot": [
           359.7022,
           180.0,
-          -1.59029877E-14,
+          -1.66981365E-14,
           0.0
         ],
         "scale": [
