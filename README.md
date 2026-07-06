@@ -58,6 +58,7 @@ If you would like to help choose the next vehicles added to the collection, you 
 | Churchill Mk.VII                    | Heavy            | UK                                      |
 | Churchill Mk.VII Crocodile          | Heavy            | UK                                      |
 | Ferdinand Sd.Kfz. 184               | Heavy            | Germany                                 |
+| I-O                                 | Heavy            | Japan                                   |
 | IS-1 (1943)                         | Heavy            | SU                                      |
 | IS-2 (1944)                         | Heavy            | Poland, SU                              |
 | ISU-122S                            | Heavy            | Poland, SU                              |
@@ -69,6 +70,7 @@ If you would like to help choose the next vehicles added to the collection, you 
 | KV-1S                               | Heavy            | SU                                      |
 | M26 Pershing                        | Heavy            | USA                                     |
 | M6A1                                | Heavy            | USA                                     |
+| O-Ro Kai                            | Heavy            | Japan                                   |
 | St Chamond                          | Heavy            | France                                  |
 | SU-100Y                             | Heavy            | SU                                      |
 | T26E1-1 Super Pershing              | Heavy            | USA                                     |
@@ -100,7 +102,10 @@ If you would like to help choose the next vehicles added to the collection, you 
 | Hotchkiss H35                       | Light            | France, Germany, Hungary                |
 | Hotchkiss H39                       | Light            | France, Germany, Poland, Hungary        |
 | Jagdpanzer 38(t) ""Hetzer""         | Light            | Germany, Hungary, Poland                |
+| KhT-130                             | Light            | Finland, Germany, SU                    |
+| KhT-26                              | Light            | Finland, Germany, SU                    |
 | Light Tank Mk VIII                  | Light            | UK                                      |
+| Little Willie                       | Light            | UK                                      |
 | M22 Locust                          | Light            | UK                                      |
 | M2A4 Stuart I                       | Light            | France, UK, USA, SU                     |
 | M3A1 Stuart III                     | Light            | France, UK, USA, SU                     |
@@ -108,8 +113,18 @@ If you would like to help choose the next vehicles added to the collection, you 
 | M5A1 Stuart VI                      | Light            | France, Poland, UK, USA                 |
 | R35                                 | Light            | France, Germany, Italy, Poland          |
 | R39                                 | Light            | France                                  |
+| SU-26                               | Light            | SU                                      |
+| SU-26-4                             | Light            | SU                                      |
+| SU-5-3                              | Light            | SU                                      |
 | SU-76                               | Light            | Germany, Poland, SU                     |
+| T-26 (1931)                         | Light            | Finland, Germany, SU                    |
+| T-26 (1933)                         | Light            | Finland, Germany, Hungary, SU           |
+| T-26 (1937)                         | Light            | Finland, Germany, SU                    |
+| T-26 (1939)                         | Light            | Finland, Germany, SU                    |
+| T-26E                               | Light            | Finland                                 |
 | Tetrarch Mk VII                     | Light            | UK, SU                                  |
+| Vickers Mk.E DW                     | Light            | Poland                                  |
+| Vickers Mk.E JW                     | Light            | Poland                                  |
 | 105 leFH18B2                        | Medium           | France, Germany                         |
 | 40M Turán I                         | Medium           | Hungary                                 |
 | 43M Zrínyi I                        | Medium           | Hungary                                 |
@@ -140,6 +155,12 @@ If you would like to help choose the next vehicles added to the collection, you 
 | M4 Sherman I (Early)                | Medium           | UK, USA                                 |
 | M4 Sherman I (Late)                 | Medium           | France, Poland, UK, USA                 |
 | M4 Sherman I (Up-armoured)          | Medium           | UK, USA                                 |
+| M4 Sherman Ib (105)                 | Medium           | France, UK, USA                         |
+| M4A1 Sherman II (DV)                | Medium           | France, UK, USA                         |
+| M4A1 Sherman II (Late)              | Medium           | France, UK, USA                         |
+| M4A1 Sherman II (Mid)               | Medium           | France, Germany, Poland, UK, USA        |
+| M4A1 Sherman IIA (76W)              | Medium           | France, Poland, UK, USA                 |
+| M4A1 Sherman IIAY                   | Medium           | France, USA                             |
 | M4A2 Sherman III (Early)            | Medium           | France, Poland, UK, USA, SU             |
 | M4A2 Sherman III (Late)             | Medium           | France, Poland, UK, USA, SU             |
 | M4A2 Sherman III (Mid)              | Medium           | France, Poland, UK, USA, SU             |
