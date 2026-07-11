@@ -40,6 +40,7 @@ If you would like to help choose the next vehicles added to the collection, you 
 | Armata 75mm wz.02-26                | Field Gun        | Poland                                  |
 | Bofors 37 mm anti-tank gun          | Field Gun        | Finland, Germany, Poland, UK, SU        |
 | Bofors 8cm Model 1929               | Field Gun        | Hungary                                 |
+| 44M Tas                             | Heavy            | Hungary                                 |
 | ARL 44                              | Heavy            | France                                  |
 | ARL-44 (ACL-1)                      | Heavy            | France                                  |
 | Black Prince                        | Heavy            | UK                                      |
@@ -57,11 +58,13 @@ If you would like to help choose the next vehicles added to the collection, you 
 | Churchill Mk.V                      | Heavy            | UK                                      |
 | Churchill Mk.VII                    | Heavy            | UK                                      |
 | Churchill Mk.VII Crocodile          | Heavy            | UK                                      |
+| Churchill Mk.VIII                   | Heavy            | UK                                      |
 | Ferdinand Sd.Kfz. 184               | Heavy            | Germany                                 |
 | I-O                                 | Heavy            | Japan                                   |
 | IS-1 (1943)                         | Heavy            | SU                                      |
 | IS-2 (1944)                         | Heavy            | Poland, SU                              |
 | ISU-122S                            | Heavy            | Poland, SU                              |
+| ISU-152                             | Heavy            | Finland, Poland, SU                     |
 | Jagdtiger                           | Heavy            | Germany                                 |
 | KV-1 (1939)                         | Heavy            | Germany, SU                             |
 | KV-1 (1940)                         | Heavy            | Finland, Germany, SU                    |
@@ -83,6 +86,7 @@ If you would like to help choose the next vehicles added to the collection, you 
 | 38M Toldi IIA                       | Light            | Hungary                                 |
 | 40M Nimród                          | Light            | Hungary                                 |
 | 7TP                                 | Light            | Germany, Poland                         |
+| AMR 35 ZT2                          | Light            | France, Germany                         |
 | BT-2                                | Light            | SU                                      |
 | BT-42                               | Light            | Finland                                 |
 | BT-5                                | Light            | Finland, SU                             |
