@@ -3,12 +3,12 @@
   "header": {
     "v": "0.2",
     "name": "AEC Mk.I",
-    "gameVersion": "0.2.51.36",
-    "mass": 16178,
-    "creationDate": "1943.12.31",
+    "gameVersion": "0.2.53.2",
+    "mass": 13598,
+    "creationDate": "1941.12.31",
     "class": "",
-    "desc": "Currently depricated as of 0.2.51.36",
-    "cost": 34407
+    "desc": "",
+    "cost": 26066
   },
   "blueprints": [
     {
@@ -65,12 +65,13 @@
       "id": 4,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": null,
         "description": null,
         "armourVolume": 0.9190133,
         "bodyMeshVuid": 0,
         "partRepositioning": true,
+        "collisionEnabled": true,
         "armourTechID": "rha"
       }
     },
@@ -91,15 +92,15 @@
       "type": "engine",
       "blueprint": {
         "v": "0.4",
-        "name": "aec",
+        "name": "AEC Mk.I",
         "description": "",
         "cylinders": 6,
         "idleRPM": 500,
-        "cylinderDisplacement": 1.61,
-        "tech": 0.8,
-        "targetMinRPM": 600,
-        "targetMaxRPM": 2200,
-        "torqueCoeff": 0.85,
+        "cylinderDisplacement": 1.263,
+        "tech": 0.4,
+        "targetMinRPM": 1000,
+        "targetMaxRPM": 1800,
+        "torqueCoeff": 0.75,
         "revLimit": -1
       }
     },
@@ -108,27 +109,25 @@
       "type": "transmission",
       "blueprint": {
         "v": "0.7",
-        "name": "aec",
+        "name": "AEC Mk.I",
         "description": "",
-        "meshType": "synchromesh",
+        "meshType": "constantMesh",
         "autoInputTorque": true,
-        "maxInputTorque": 352.182526,
+        "maxInputTorque": 526.0033,
         "autoResistanceTorque": true,
-        "maxResistanceTorque": 352.182526,
-        "finalDriveRatio": 15.0,
-        "msrRatioThreshold": 1.30000007,
+        "maxResistanceTorque": 526.0033,
+        "finalDriveRatio": 2.46,
+        "msrRatioThreshold": 2.3,
         "auxillaryGearRatio": 1.0,
         "auxiliaryMsrRatioThreshold": 1.5,
         "d": [
-          14.51,
-          5.7,
-          2.99,
-          1.89,
-          1.32,
-          0.99
+          4.64,
+          2.54,
+          1.65,
+          1.0
         ],
         "r": [
-          5.7
+          4.13
         ]
       }
     },
@@ -143,7 +142,7 @@
         "scale": 1.0,
         "x": 0,
         "y": 24,
-        "z": 940,
+        "z": 999,
         "rearFacing": true
       }
     },
@@ -158,7 +157,7 @@
         "perAxle": 1,
         "spacingOnAxle": 0.01,
         "xOffset": -0.008,
-        "diameter": 1.27,
+        "diameter": 0.5,
         "width": 0.0
       }
     },
@@ -170,10 +169,10 @@
         "name": "",
         "description": "",
         "mountID": "25261a10-1c39-4191-9378-b6108d71cbf1",
-        "scale": 0.5,
+        "scale": 0.3,
         "x": 0,
-        "y": -47,
-        "z": -847,
+        "y": 193,
+        "z": -114,
         "rearFacing": false
       }
     },
@@ -188,7 +187,7 @@
         "perAxle": 1,
         "spacingOnAxle": 0.0,
         "xOffset": 0.0,
-        "diameter": 0.299999982,
+        "diameter": 0.01,
         "width": 0.049999997
       }
     },
@@ -267,7 +266,7 @@
         "xOrigin": -2600,
         "zOffset": 0,
         "yOffset": -28,
-        "xOffset": 289,
+        "xOffset": 324,
         "syncLengthEnabled": false,
         "angle": 0.0
       }
@@ -307,16 +306,16 @@
       "type": "track",
       "blueprint": {
         "v": "1.1",
-        "name": "Wheels",
+        "name": "AEC Mk.I",
         "description": "",
         "separation": 1649,
         "length": 5200,
-        "brake": 109221,
+        "brake": 110419,
         "autoBrake": true,
         "rollersEnabled": false,
         "matchChassis": false,
         "frontalTransmission": false,
-        "finalDriveRatio": 15.0
+        "finalDriveRatio": 5.2
       }
     },
     {
@@ -328,7 +327,7 @@
         "description": "",
         "segmentID": "625f3a65-30f6-4188-a719-f3afle2bacfe",
         "x": 520,
-        "y": 75,
+        "y": 25,
         "z": 300,
         "pitch": 170,
         "tension": 5000
@@ -354,7 +353,7 @@
         "v": "0.0",
         "name": "",
         "description": "",
-        "torsionBarLength": 1500,
+        "torsionBarLength": 783,
         "torsionBarDiameter": 60
       }
     },
@@ -477,7 +476,7 @@
         "torque": 1000.0,
         "ratio": 21.3,
         "type": 2,
-        "resist": 0.5
+        "resist": 0.75
       }
     },
     {
@@ -499,12 +498,13 @@
       "id": 34,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": "Unnamed Structure",
         "description": null,
         "armourVolume": 0.232587323,
         "bodyMeshVuid": 1,
         "partRepositioning": true,
+        "collisionEnabled": true,
         "armourTechID": "rha"
       }
     },
@@ -584,8 +584,8 @@
           }
         ],
         "muzzleMass": 0.0,
-        "K": 1900,
-        "PSI": 40000,
+        "K": 2000,
+        "PSI": 35000,
         "shellID": 43
       }
     },
@@ -605,7 +605,7 @@
               {
                 "id": "AP",
                 "definition": {
-                  "penetratorConstant": 1900
+                  "penetratorConstant": 2000
                 }
               },
               {
@@ -623,12 +623,13 @@
       "id": 45,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": "Unnamed Structure",
         "description": null,
         "armourVolume": 0.00385158835,
         "bodyMeshVuid": 3,
         "partRepositioning": true,
+        "collisionEnabled": false,
         "armourTechID": "rha"
       }
     },
@@ -1173,7 +1174,7 @@
       "transform": {
         "mirrorVuid": -1,
         "pos": [
-          -3.81469727E-06,
+          -1.72853447E-06,
           -0.165771484,
           1.041687
         ],
@@ -1834,7 +1835,7 @@
           0.921424448
         ],
         "rot": [
-          0.319283068,
+          0.319283366,
           6.361208E-15,
           -2.1701806E-05,
           0.0
@@ -1910,14 +1911,14 @@
       "transform": {
         "mirrorVuid": -1,
         "pos": [
-          -0.3694396,
+          -0.3694366,
           -0.768237233,
           -0.133610711
         ],
         "rot": [
-          -0.00320174126,
-          29.3363113,
-          -0.000651754439,
+          -0.00422317069,
+          29.3461437,
+          -0.000893620949,
           0.0
         ],
         "scale": [
@@ -2021,14 +2022,14 @@
       "transform": {
         "mirrorVuid": -1,
         "pos": [
-          0.297338963,
+          0.2973376,
           -0.7419741,
           -0.367296249
         ],
         "rot": [
-          0.243812039,
-          -1.02449458E-05,
-          1.71635747E-07,
+          0.243811637,
+          -1.02453541E-05,
+          -2.179175E-08,
           0.0
         ],
         "scale": [
@@ -2083,9 +2084,9 @@
           -0.38064903
         ],
         "rot": [
-          89.76761,
-          179.993286,
-          224.993469,
+          89.7761841,
+          179.994781,
+          224.994766,
           0.0
         ],
         "scale": [
@@ -2323,13 +2324,13 @@
       }
     },
     {
-      "guid": "6192f19f-4029-4686-9b92-57261096a362",
-      "vuid": 220,
+      "guid": "5081f19f-4029-4686-9b92-57261096a362",
+      "vuid": 101,
       "pvuid": 0,
       "flags": 2,
-      "powertrain": 221,
-      "driveshaftBuilder": 222,
-      "powertrainLayout": 227,
+      "powertrain": 102,
+      "driveshaftBuilder": 103,
+      "powertrainLayout": 104,
       "transform": {
         "mirrorVuid": -1,
         "pos": [
@@ -2365,189 +2366,137 @@
             },
             {
               "id": 1,
-              "flags": 112,
-              "type": 4,
-              "behaviourID": -1,
+              "flags": 0,
+              "type": 2,
+              "behaviourID": 107,
               "mirrorID": -1
             },
             {
-              "id": 2,
-              "flags": 2,
-              "type": 2,
-              "behaviourID": 234,
-              "mirrorID": 3
-            },
-            {
-              "id": 3,
-              "flags": 4,
-              "type": 2,
-              "behaviourID": 241,
-              "mirrorID": 2
-            },
-            {
-              "id": 6,
-              "flags": 6160,
-              "type": 4,
-              "behaviourID": -1,
-              "mirrorID": 7
-            },
-            {
-              "id": 7,
-              "flags": 6160,
-              "type": 4,
-              "behaviourID": -1,
-              "mirrorID": 6
-            },
-            {
               "id": 4,
-              "flags": 10,
-              "type": 8,
-              "behaviourID": 18,
+              "flags": 6160,
+              "type": 4,
+              "behaviourID": -1,
               "mirrorID": 5
             },
             {
               "id": 5,
+              "flags": 6160,
+              "type": 4,
+              "behaviourID": -1,
+              "mirrorID": 4
+            },
+            {
+              "id": 2,
+              "flags": 10,
+              "type": 8,
+              "behaviourID": 18,
+              "mirrorID": 3
+            },
+            {
+              "id": 3,
               "flags": 12,
               "type": 8,
               "behaviourID": 40,
-              "mirrorID": 4
+              "mirrorID": 2
             }
           ],
           "ports": [
             {
-              "id": 8,
+              "id": 6,
               "flags": 0,
               "moduleID": 0
             },
             {
-              "id": 9,
-              "flags": 3,
+              "id": 7,
+              "flags": 0,
               "moduleID": 1
             },
             {
-              "id": 11,
-              "flags": 3,
+              "id": 9,
+              "flags": 0,
               "moduleID": 1
+            },
+            {
+              "id": 10,
+              "flags": 3,
+              "moduleID": 4
             },
             {
               "id": 12,
               "flags": 0,
-              "moduleID": 2
+              "moduleID": 4
             },
             {
-              "id": 14,
+              "id": 13,
               "flags": 0,
               "moduleID": 2
             },
             {
               "id": 15,
-              "flags": 3,
-              "moduleID": 6
+              "flags": 0,
+              "moduleID": 1
             },
             {
-              "id": 17,
-              "flags": 0,
-              "moduleID": 6
+              "id": 16,
+              "flags": 3,
+              "moduleID": 5
             },
             {
               "id": 18,
               "flags": 0,
-              "moduleID": 4
-            },
-            {
-              "id": 20,
-              "flags": 3,
-              "moduleID": 1
-            },
-            {
-              "id": 21,
-              "flags": 0,
-              "moduleID": 3
-            },
-            {
-              "id": 23,
-              "flags": 0,
-              "moduleID": 3
-            },
-            {
-              "id": 24,
-              "flags": 3,
-              "moduleID": 7
-            },
-            {
-              "id": 26,
-              "flags": 0,
-              "moduleID": 7
-            },
-            {
-              "id": 27,
-              "flags": 0,
               "moduleID": 5
+            },
+            {
+              "id": 19,
+              "flags": 0,
+              "moduleID": 3
             }
           ],
           "connections": [
             {
-              "id": 10,
+              "id": 8,
               "flags": 0,
-              "providerID": 8,
-              "receiverID": 9
+              "providerID": 6,
+              "receiverID": 7
             },
             {
-              "id": 13,
+              "id": 11,
               "flags": 0,
-              "providerID": 11,
-              "receiverID": 12
+              "providerID": 9,
+              "receiverID": 10
             },
             {
-              "id": 16,
-              "flags": 0,
-              "providerID": 14,
-              "receiverID": 15
-            },
-            {
-              "id": 19,
+              "id": 14,
               "flags": 1,
-              "providerID": 17,
-              "receiverID": 18
+              "providerID": 12,
+              "receiverID": 13
             },
             {
-              "id": 22,
+              "id": 17,
               "flags": 0,
-              "providerID": 20,
-              "receiverID": 21
+              "providerID": 15,
+              "receiverID": 16
             },
             {
-              "id": 25,
-              "flags": 0,
-              "providerID": 23,
-              "receiverID": 24
-            },
-            {
-              "id": 28,
+              "id": 20,
               "flags": 1,
-              "providerID": 26,
-              "receiverID": 27
+              "providerID": 18,
+              "receiverID": 19
             }
           ],
           "modulePositions": [
             0.00556349754,
             0.0149121284,
             -1.1789856,
-            0.0,
-            0.0501399338,
-            -1.65834463,
-            0.4651681,
-            -0.0366682559,
-            -1.65834463,
-            -0.4651681,
-            -0.0366682559,
-            -1.65834463,
+            7.426624E-08,
+            -0.0222646445,
+            -1.65049326,
             -0.8245,
-            0.149122447,
-            -1.65834451,
+            0.08805322,
+            -1.70234263,
             0.8245,
-            0.149122447,
-            -1.65834451,
+            0.08805322,
+            -1.70234263,
             -0.8245,
             0.0,
             0.0,
@@ -2560,13 +2509,7 @@
             180.0,
             0.0,
             0.0,
-            0.0,
-            0.0,
-            0.0,
-            270.0,
-            0.0,
-            0.0,
-            90.0,
+            180.0,
             0.0,
             0.0,
             0.0,
@@ -2583,64 +2526,46 @@
           ],
           "portOffsets": [
             0.0,
-            0.193766937,
-            0.3267179,
-            0.0005985867,
-            0.0170575976,
-            0.016422987,
-            0.0187997427,
+            0.17162019,
+            0.289375454,
             0.0,
-            0.0,
-            0.0,
-            0.08680819,
-            -0.167852923,
-            0.0,
-            0.1857907,
-            1.10258389,
-            0.0458536744,
+            0.110317864,
+            -0.3066837,
+            0.191483021,
+            0.110317864,
+            0.0518494,
+            0.03103286,
             0.0,
             0.0,
             0.0,
             0.0,
             0.0,
             -2.23517418E-08,
-            0.0239868164,
-            -1.66000009,
-            -0.0187997427,
-            0.0,
-            0.0,
-            0.0,
-            0.08680819,
-            -0.167852923,
-            0.0,
-            0.1857907,
-            1.10258389,
-            -0.0458536744,
+            0.0240000486,
+            -1.60101318,
+            -0.191483021,
+            0.110317864,
+            0.0518494,
+            -0.03103286,
             0.0,
             0.0,
             0.0,
             0.0,
             0.0,
             2.23517418E-08,
-            0.0239868164,
-            -1.66000009
+            0.0240000486,
+            -1.60101318
           ],
           "portDirections": [
             0.0,
             0.0,
             1.0,
-            0.025271548,
-            0.720149457,
-            0.693358541,
-            1.0,
-            0.0,
-            0.0,
             0.0,
             0.0,
             -1.0,
-            0.0,
-            0.0,
             1.0,
+            0.0,
+            0.0,
             1.0,
             0.0,
             0.0,
@@ -2653,12 +2578,6 @@
             -1.0,
             0.0,
             0.0,
-            0.0,
-            0.0,
-            -1.0,
-            0.0,
-            0.0,
-            1.0,
             -1.0,
             0.0,
             0.0,
@@ -2671,19 +2590,18 @@
           ]
         }
       },
-      "twinTransmissionBlueprint": {
+      "clutchBrakingBlueprint": {
         "v": "0.0",
         "engineID": 0,
-        "leftTransmissionID": 2,
-        "rightTransmissionID": 3,
-        "leftPropulsionID": 4,
-        "rightPropulsionID": 5
+        "transmissionID": 1,
+        "leftPropulsionID": 2,
+        "rightPropulsionID": 3
       }
     },
     {
       "guid": "fbbe2fd4-9092-46c6-8657-8d5fbcd8186d",
       "vuid": 6,
-      "pvuid": 220,
+      "pvuid": 101,
       "flags": 2,
       "powertrainSteering": 7,
       "model": 8,
@@ -2711,7 +2629,7 @@
     {
       "guid": "ebcf5eda-e50b-4f18-a063-0138a9d630e0",
       "vuid": 9,
-      "pvuid": 220,
+      "pvuid": 101,
       "flags": 2,
       "engine": 10,
       "powertrainNode": 11,
@@ -2738,50 +2656,22 @@
       "engineBlueprintVuid": 7
     },
     {
-      "guid": "7a508b04-0d69-40d3-9f4c-92c02346b9de",
-      "vuid": 228,
-      "pvuid": 220,
+      "guid": "6b417b04-0d69-40d3-9f4c-92c02346b9de",
+      "vuid": 105,
+      "pvuid": 101,
       "flags": 2,
-      "transmission": 233,
-      "powertrainNode": 234,
+      "transmission": 106,
+      "powertrainNode": 107,
       "transform": {
-        "mirrorVuid": 235,
+        "mirrorVuid": -1,
         "pos": [
-          0.4651681,
-          -0.0366682559,
-          -1.65834463
+          7.426624E-08,
+          -0.0222646445,
+          -1.65049326
         ],
         "rot": [
           0.0,
-          270.0,
-          0.0,
-          0.0
-        ],
-        "scale": [
-          1.0,
-          1.0,
-          1.0
-        ]
-      },
-      "transmissionBlueprintVuid": 8
-    },
-    {
-      "guid": "7a508b04-0d69-40d3-9f4c-92c02346b9de",
-      "vuid": 235,
-      "pvuid": 220,
-      "flags": 3,
-      "transmission": 240,
-      "powertrainNode": 241,
-      "transform": {
-        "mirrorVuid": 228,
-        "pos": [
-          -0.4651681,
-          -0.0366682559,
-          -1.65834463
-        ],
-        "rot": [
-          0.0,
-          90.0,
+          180.0,
           0.0,
           0.0
         ],
@@ -2796,7 +2686,7 @@
     {
       "guid": "ef551781-05bc-4aff-902a-372bdf0b3621",
       "vuid": 16,
-      "pvuid": 220,
+      "pvuid": 101,
       "flags": 3,
       "track": 17,
       "powertrainNode": 18,
@@ -2847,7 +2737,7 @@
         "pos": [
           -0.1,
           0.024,
-          -1.66000009
+          -1.60100007
         ],
         "rot": [
           0.0,
@@ -2879,8 +2769,8 @@
         "mirrorVuid": -1,
         "pos": [
           -0.1,
-          -0.0470000021,
-          1.753
+          0.193,
+          2.486
         ],
         "rot": [
           0.0,
@@ -2907,11 +2797,11 @@
         "mirrorVuid": -1,
         "pos": [
           0.0,
-          0.68,
-          -2.25
+          0.485,
+          -1.18800008
         ],
         "rot": [
-          0.0,
+          356.8,
           0.0,
           0.0,
           0.0
@@ -2937,7 +2827,7 @@
         "pos": [
           0.0,
           -0.028,
-          -2.311
+          -2.276
         ],
         "rot": [
           0.0,
@@ -2958,7 +2848,7 @@
     {
       "guid": "ef551781-05bc-4aff-902a-372bdf0b3621",
       "vuid": 38,
-      "pvuid": 220,
+      "pvuid": 101,
       "flags": 2,
       "track": 39,
       "powertrainNode": 40,
@@ -3009,7 +2899,7 @@
         "pos": [
           0.1,
           0.024,
-          -1.66000009
+          -1.60100007
         ],
         "rot": [
           0.0,
@@ -3041,8 +2931,8 @@
         "mirrorVuid": -1,
         "pos": [
           0.1,
-          -0.0470000021,
-          1.753
+          0.193,
+          2.486
         ],
         "rot": [
           0.0,
@@ -3069,11 +2959,11 @@
         "mirrorVuid": -1,
         "pos": [
           0.0,
-          0.68,
-          -2.25
+          0.485,
+          -1.18800008
         ],
         "rot": [
-          0.0,
+          356.8,
           0.0,
           0.0,
           0.0
@@ -3099,7 +2989,7 @@
         "pos": [
           0.0,
           -0.028,
-          -2.311
+          -2.276
         ],
         "rot": [
           0.0,
