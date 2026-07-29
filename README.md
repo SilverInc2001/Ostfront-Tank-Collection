@@ -77,6 +77,9 @@ If you would like to help choose the next vehicles added to the collection, you 
 | St Chamond                           | Heavy            | France                                  |
 | SU-100Y                              | Heavy            | SU                                      |
 | T26E1-1 Super Pershing               | Heavy            | USA                                     |
+| T29                                  | Heavy            | USA                                     |
+| T30                                  | Heavy            | USA                                     |
+| T34                                  | Heavy            | USA                                     |
 | Tiger 1E                             | Heavy            | Germany, Hungary                        |
 | Tiger H1                             | Heavy            | Germany                                 |
 | TOG 2                                | Heavy            | UK                                      |
@@ -131,6 +134,7 @@ If you would like to help choose the next vehicles added to the collection, you 
 | T-26 (1939)                          | Light            | Finland, Germany, SU                    |
 | T-26E                                | Light            | Finland                                 |
 | Tetrarch Mk VII                      | Light            | UK, SU                                  |
+| Type 89 Otsu-Gata Sensha             | Light            | Japan                                   |
 | Vickers Mk.E DW                      | Light            | Poland                                  |
 | Vickers Mk.E JW                      | Light            | Poland                                  |
 | 105 leFH18B2                         | Medium           | France, Germany                         |
@@ -158,6 +162,7 @@ If you would like to help choose the next vehicles added to the collection, you 
 | Crusader A15                         | Medium           | France, Poland, UK                      |
 | Crusader AA Mk I                     | Medium           | UK                                      |
 | Crusader Mk.II                       | Medium           | France, Germany, Poland, UK             |
+| E-25                                 | Medium           | Germany                                 |
 | M12 GMC                              | Medium           | USA                                     |
 | M3 Grant                             | Medium           | UK                                      |
 | M3 Lee                               | Medium           | USA, SU                                 |
@@ -188,6 +193,7 @@ If you would like to help choose the next vehicles added to the collection, you 
 | T-28B                                | Medium           | Finland, SU                             |
 | T-28C                                | Medium           | Finland, SU                             |
 | T-34-76 M1941                        | Medium           | Finland, Germany, SU                    |
+| T-34-76 M1942                        | Medium           | Finland, Germany, Poland, SU            |
 | Type 1 Chi-He                        | Medium           | Japan                                   |
 | Karl-Gerät 040                       | SPM              | Germany                                 |
 | Carro Armato L3 CC                   | Tankette         | Germany, Italy                          |
