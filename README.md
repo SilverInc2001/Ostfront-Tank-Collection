@@ -74,6 +74,7 @@ If you would like to help choose the next vehicles added to the collection, you 
 | M26 Pershing                         | Heavy            | USA                                     |
 | M6A1                                 | Heavy            | USA                                     |
 | O-Ro Kai                             | Heavy            | Japan                                   |
+| SDP Wz. 40                           | Heavy            | Poland                                  |
 | St Chamond                           | Heavy            | France                                  |
 | SU-100Y                              | Heavy            | SU                                      |
 | T26E1-1 Super Pershing               | Heavy            | USA                                     |
@@ -112,6 +113,7 @@ If you would like to help choose the next vehicles added to the collection, you 
 | Jagdpanzer 38(t) ""Hetzer""          | Light            | Germany, Hungary, Poland                |
 | KhT-130                              | Light            | Finland, Germany, SU                    |
 | KhT-26                               | Light            | Finland, Germany, SU                    |
+| Lago M38                             | Light            | Sweden                                  |
 | Landsverk L-62 Anti II               | Light            | Finland                                 |
 | Light Tank Mk VIII                   | Light            | UK                                      |
 | Little Willie                        | Light            | UK                                      |
@@ -143,6 +145,11 @@ If you would like to help choose the next vehicles added to the collection, you 
 | 43M Zrínyi II                        | Medium           | Hungary                                 |
 | A34 Comet                            | Medium           | UK                                      |
 | A7V                                  | Medium           | Germany                                 |
+| AC-1 Sentinel                        | Medium           | UK                                      |
+| AC-3 Scorpion                        | Medium           | UK                                      |
+| AC-3 Thunderbolt                     | Medium           | UK                                      |
+| AC-3 Twin Thunderbolt                | Medium           | UK                                      |
+| AC-4 Woomera                         | Medium           | UK                                      |
 | Achilles Mk II                       | Medium           | UK                                      |
 | Archer                               | Medium           | Poland, UK                              |
 | Bishop                               | Medium           | UK                                      |
@@ -184,6 +191,7 @@ If you would like to help choose the next vehicles added to the collection, you 
 | Panzer III Ausf. E                   | Medium           | Germany                                 |
 | Panzer IV Ausf. J                    | Medium           | Finland, Germany                        |
 | Sd.Kfz. 165 ""Hummel""               | Medium           | Germany                                 |
+| Škoda T 24                           | Medium           | Czechia                                 |
 | SOMUA S35                            | Medium           | France                                  |
 | SOMUA SAu 40                         | Medium           | France                                  |
 | StuG III Ausf. G                     | Medium           | Finland, Germany, Hungary, Italy        |
