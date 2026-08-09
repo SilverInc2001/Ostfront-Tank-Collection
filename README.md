@@ -28,6 +28,7 @@ If you would like to help choose the next vehicles added to the collection, you 
 | BA-27M                               | Armoured Car     | SU                                      |
 | BA-6                                 | Armoured Car     | Finland, SU                             |
 | M5 High-Speed Tractor                | Armoured Carrier | USA, SU                                 |
+| 10 cm M. 14 Feldhaubitze             | Field Gun        | Czechia, Germany, Hungary, Italy        |
 | 25mm Hotchkiss anti-tank gun         | Field Gun        | Finland, France, Germany, Italy, UK     |
 | 3.7 cm Pak 36                        | Field Gun        | Finland, Germany, Hungary, Italy        |
 | 37mm 1-K M1930                       | Field Gun        | SU                                      |
@@ -40,6 +41,7 @@ If you would like to help choose the next vehicles added to the collection, you 
 | Armata 75mm wz.02-26                 | Field Gun        | Poland                                  |
 | Bofors 37 mm anti-tank gun           | Field Gun        | Finland, Germany, Poland, UK, SU        |
 | Bofors 8cm Model 1929                | Field Gun        | Hungary                                 |
+|  Pawlack                             | Heavy            | USA                                     |
 | 44M Tas                              | Heavy            | Hungary                                 |
 | ARL 44                               | Heavy            | France                                  |
 | ARL-44 (ACL-1)                       | Heavy            | France                                  |
@@ -111,6 +113,7 @@ If you would like to help choose the next vehicles added to the collection, you 
 | Hotchkiss H35                        | Light            | France, Germany, Hungary                |
 | Hotchkiss H39                        | Light            | France, Germany, Poland, Hungary        |
 | Jagdpanzer 38(t) ""Hetzer""          | Light            | Germany, Hungary, Poland                |
+| KH-50                                | Light            | Czechia                                 |
 | KhT-130                              | Light            | Finland, Germany, SU                    |
 | KhT-26                               | Light            | Finland, Germany, SU                    |
 | Lago M38                             | Light            | Sweden                                  |
@@ -170,6 +173,9 @@ If you would like to help choose the next vehicles added to the collection, you 
 | Crusader AA Mk I                     | Medium           | UK                                      |
 | Crusader Mk.II                       | Medium           | France, Germany, Poland, UK             |
 | E-25                                 | Medium           | Germany                                 |
+| Lago I M38-A                         | Medium           | Sweden                                  |
+| Lago I M40-B                         | Medium           | Sweden                                  |
+| Lago I M40-C                         | Medium           | Sweden                                  |
 | M12 GMC                              | Medium           | USA                                     |
 | M3 Grant                             | Medium           | UK                                      |
 | M3 Lee                               | Medium           | USA, SU                                 |
