@@ -76,6 +76,7 @@ If you would like to help choose the next vehicles added to the collection, you 
 | M26 Pershing                         | Heavy            | USA                                     |
 | M6A1                                 | Heavy            | USA                                     |
 | O-Ro Kai                             | Heavy            | Japan                                   |
+| Sd.Kfz. 166 Brummbär                 | Heavy            | Germany                                 |
 | SDP Wz. 40                           | Heavy            | Poland                                  |
 | St Chamond                           | Heavy            | France                                  |
 | SU-100Y                              | Heavy            | SU                                      |
@@ -88,6 +89,7 @@ If you would like to help choose the next vehicles added to the collection, you 
 | TOG 2                                | Heavy            | UK                                      |
 | Type 5 Chi-Ri                        | Heavy            | Japan                                   |
 | Type 91 Heavy                        | Heavy            | Japan                                   |
+| Vz. 44-1                             | Heavy            | Czechia                                 |
 | 10TP                                 | Light            | Poland                                  |
 | 38M Toldi I                          | Light            | Hungary                                 |
 | 38M Toldi IIA                        | Light            | Hungary                                 |
@@ -138,6 +140,7 @@ If you would like to help choose the next vehicles added to the collection, you 
 | T-26 (1937)                          | Light            | Finland, Germany, SU                    |
 | T-26 (1939)                          | Light            | Finland, Germany, SU                    |
 | T-26E                                | Light            | Finland                                 |
+| T-50                                 | Light            | Finland, SU                             |
 | Tetrarch Mk VII                      | Light            | UK, SU                                  |
 | Type 89 Otsu-Gata Sensha             | Light            | Japan                                   |
 | Vickers Mk.E DW                      | Light            | Poland                                  |
@@ -200,6 +203,8 @@ If you would like to help choose the next vehicles added to the collection, you 
 | Škoda T 24                           | Medium           | Czechia                                 |
 | SOMUA S35                            | Medium           | France                                  |
 | SOMUA SAu 40                         | Medium           | France                                  |
+| Strv M42                             | Medium           | Sweden                                  |
+| Strv M42 DT                          | Medium           | Sweden                                  |
 | StuG III Ausf. G                     | Medium           | Finland, Germany, Hungary, Italy        |
 | StuG III Ausf. G (Finnish Modified)  | Medium           | Finland                                 |
 | StuH 42                              | Medium           | Finland, Germany                        |
