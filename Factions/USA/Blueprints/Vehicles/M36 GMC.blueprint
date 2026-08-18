@@ -3,7 +3,7 @@
   "header": {
     "v": "0.2",
     "name": "M36 GMC",
-    "gameVersion": "0.2.51.36",
+    "gameVersion": "0.2.53.2",
     "mass": 25764,
     "creationDate": "1945.01.17",
     "class": "",
@@ -65,12 +65,13 @@
       "id": 4,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": null,
         "description": null,
         "armourVolume": 1.43659246,
         "bodyMeshVuid": 0,
         "partRepositioning": true,
+        "collisionEnabled": true,
         "armourTechID": "rha"
       }
     },
@@ -398,12 +399,13 @@
       "id": 50,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": "Unnamed Structure",
         "description": null,
         "armourVolume": 0.446416229,
         "bodyMeshVuid": 3,
         "partRepositioning": true,
+        "collisionEnabled": true,
         "armourTechID": "rha"
       }
     },
@@ -522,12 +524,13 @@
       "id": 62,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": "Unnamed Structure",
         "description": null,
         "armourVolume": 0.0006459113,
         "bodyMeshVuid": 5,
         "partRepositioning": true,
+        "collisionEnabled": false,
         "armourTechID": "rha"
       }
     },
@@ -535,12 +538,13 @@
       "id": 63,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": "Unnamed Structure",
         "description": null,
         "armourVolume": 0.13276805,
         "bodyMeshVuid": 7,
         "partRepositioning": true,
+        "collisionEnabled": false,
         "armourTechID": "rha"
       }
     },
@@ -1109,12 +1113,13 @@
       "id": 111,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": "Unnamed Structure",
         "description": null,
         "armourVolume": 0.00167184218,
         "bodyMeshVuid": 2,
         "partRepositioning": true,
+        "collisionEnabled": false,
         "armourTechID": "rha"
       }
     },
@@ -1122,12 +1127,13 @@
       "id": 112,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": "Unnamed Structure",
         "description": null,
         "armourVolume": 0.002574601,
         "bodyMeshVuid": 6,
         "partRepositioning": true,
+        "collisionEnabled": false,
         "armourTechID": "rha"
       }
     },
@@ -1275,12 +1281,13 @@
       "id": 67,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": "Unnamed Structure",
         "description": null,
         "armourVolume": 0.020608753,
         "bodyMeshVuid": 9,
         "partRepositioning": true,
+        "collisionEnabled": false,
         "armourTechID": "rha"
       }
     },
@@ -1377,7 +1384,7 @@
       }
     },
     {
-      "id": 0,
+      "id": 5,
       "type": "paintJobRegister",
       "blueprint": {
         "v": "0.0",
@@ -1636,8 +1643,8 @@
             0.0,
             0.0,
             -2.23517418E-08,
-            0.411010742,
-            2.57300019,
+            0.411,
+            2.572998,
             -0.5051834,
             0.1419522,
             0.06671753,
@@ -1648,8 +1655,8 @@
             0.0,
             0.0,
             2.23517418E-08,
-            0.411010742,
-            2.57300019
+            0.411,
+            2.572998
           ],
           "portDirections": [
             0.0,
@@ -2345,9 +2352,9 @@
           0.2437439
         ],
         "rot": [
-          28.1276,
+          28.1276035,
           179.943665,
-          2.83625123E-09,
+          3.78166831E-09,
           0.0
         ],
         "scale": [
@@ -2678,7 +2685,7 @@
           -0.463104248
         ],
         "rot": [
-          -9.676568E-06,
+          -9.676569E-06,
           329.999969,
           -2.59282433E-06,
           0.0
@@ -2763,7 +2770,7 @@
           -0.295898438
         ],
         "rot": [
-          1.99512982E-07,
+          1.99512968E-07,
           29.99998,
           -1.260812E-07,
           0.0
@@ -3635,14 +3642,14 @@
       "transform": {
         "mirrorVuid": 356,
         "pos": [
-          -1.26624942,
-          1.189569,
+          -1.268108,
+          1.19096446,
           1.69030762
         ],
         "rot": [
           36.90027,
-          90.00014,
-          1.06764164E-05,
+          90.000145,
+          8.541134E-06,
           0.0
         ],
         "scale": [
@@ -3664,14 +3671,14 @@
       "transform": {
         "mirrorVuid": 347,
         "pos": [
-          1.26624942,
-          1.189569,
+          1.268108,
+          1.19096446,
           1.69030762
         ],
         "rot": [
           36.90027,
-          269.999878,
-          -8.541133E-06,
+          269.999847,
+          -8.541134E-06,
           0.0
         ],
         "scale": [

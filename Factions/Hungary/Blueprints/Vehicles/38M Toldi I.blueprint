@@ -3,7 +3,7 @@
   "header": {
     "v": "0.2",
     "name": "38M Toldi I",
-    "gameVersion": "0.2.51.36",
+    "gameVersion": "0.2.53.2",
     "mass": 6640,
     "creationDate": "1939.09.01",
     "class": "",
@@ -65,12 +65,13 @@
       "id": 4,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": null,
         "description": null,
         "armourVolume": 0.359963655,
         "bodyMeshVuid": 0,
         "partRepositioning": true,
+        "collisionEnabled": true,
         "armourTechID": "rha"
       }
     },
@@ -306,7 +307,7 @@
       "type": "track",
       "blueprint": {
         "v": "1.1",
-        "name": "t",
+        "name": "38M Toldi I",
         "description": "",
         "separation": 1419,
         "length": 3940,
@@ -414,12 +415,13 @@
       "id": 54,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": "Unnamed Structure",
         "description": null,
         "armourVolume": 0.0744230151,
         "bodyMeshVuid": 3,
         "partRepositioning": true,
+        "collisionEnabled": true,
         "armourTechID": "rha"
       }
     },
@@ -452,12 +454,13 @@
       "id": 31,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": "Unnamed Structure",
         "description": null,
         "armourVolume": 0.0153573453,
         "bodyMeshVuid": 2,
         "partRepositioning": true,
+        "collisionEnabled": false,
         "armourTechID": "rha"
       }
     },
@@ -551,12 +554,13 @@
       "id": 40,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": "Unnamed Structure",
         "description": null,
         "armourVolume": 0.000730305153,
         "bodyMeshVuid": 5,
         "partRepositioning": true,
+        "collisionEnabled": false,
         "armourTechID": "rha"
       }
     },
@@ -835,12 +839,13 @@
       "id": 47,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": "Unnamed Structure",
         "description": null,
         "armourVolume": 0.00332009257,
         "bodyMeshVuid": 4,
         "partRepositioning": true,
+        "collisionEnabled": false,
         "armourTechID": "rha"
       }
     },
@@ -1064,7 +1069,7 @@
       }
     },
     {
-      "id": 0,
+      "id": 5,
       "type": "paintJobRegister",
       "blueprint": {
         "v": "0.0",
@@ -2341,7 +2346,7 @@
         "rot": [
           359.8222,
           5.34460938E-08,
-          -5.49036265E-08,
+          -5.491281E-08,
           0.0
         ],
         "scale": [
@@ -2370,7 +2375,7 @@
         "rot": [
           359.8222,
           5.34460938E-08,
-          -5.49036265E-08,
+          -5.491281E-08,
           0.0
         ],
         "scale": [
@@ -2399,7 +2404,7 @@
         "rot": [
           0.0,
           0.0,
-          -2.29284924E-09,
+          0.0,
           0.0
         ],
         "scale": [
@@ -2455,7 +2460,7 @@
         "rot": [
           20.5335274,
           179.723236,
-          -3.56131338E-08,
+          -4.27357669E-08,
           0.0
         ],
         "scale": [
