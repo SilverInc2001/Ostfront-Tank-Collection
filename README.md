@@ -61,6 +61,7 @@ If you would like to help choose the next vehicles added to the collection, you 
 | Churchill Mk.VII                     | Heavy            | UK                                      |
 | Churchill Mk.VII Crocodile           | Heavy            | UK                                      |
 | Churchill Mk.VIII                    | Heavy            | UK                                      |
+| DW II                                | Heavy            | Germany                                 |
 | Ferdinand Sd.Kfz. 184                | Heavy            | Germany                                 |
 | I-O                                  | Heavy            | Japan                                   |
 | IS-1 (1943)                          | Heavy            | SU                                      |
@@ -76,6 +77,7 @@ If you would like to help choose the next vehicles added to the collection, you 
 | M26 Pershing                         | Heavy            | USA                                     |
 | M6A1                                 | Heavy            | USA                                     |
 | O-Ro Kai                             | Heavy            | Japan                                   |
+| Sd.Kfz. 166 Brummbär                 | Heavy            | Germany                                 |
 | SDP Wz. 40                           | Heavy            | Poland                                  |
 | St Chamond                           | Heavy            | France                                  |
 | SU-100Y                              | Heavy            | SU                                      |
@@ -88,6 +90,7 @@ If you would like to help choose the next vehicles added to the collection, you 
 | TOG 2                                | Heavy            | UK                                      |
 | Type 5 Chi-Ri                        | Heavy            | Japan                                   |
 | Type 91 Heavy                        | Heavy            | Japan                                   |
+| Vz. 44-1                             | Heavy            | Czechia                                 |
 | 10TP                                 | Light            | Poland                                  |
 | 38M Toldi I                          | Light            | Hungary                                 |
 | 38M Toldi IIA                        | Light            | Hungary                                 |
@@ -117,16 +120,19 @@ If you would like to help choose the next vehicles added to the collection, you 
 | KhT-130                              | Light            | Finland, Germany, SU                    |
 | KhT-26                               | Light            | Finland, Germany, SU                    |
 | Lago M38                             | Light            | Sweden                                  |
+| Landsverk L-60                       | Light            | Sweden                                  |
 | Landsverk L-62 Anti II               | Light            | Finland                                 |
 | Light Tank Mk VIII                   | Light            | UK                                      |
 | Little Willie                        | Light            | UK                                      |
 | LT vz. 35                            | Light            | Germany                                 |
 | LT vz. 38                            | Light            | Germany, Hungary                        |
+| M18 Hellcat                          | Light            | USA                                     |
 | M22 Locust                           | Light            | UK                                      |
 | M2A4 Stuart I                        | Light            | France, UK, USA, SU                     |
 | M3A1 Stuart III                      | Light            | France, UK, USA, SU                     |
 | M3A3 Stuart V                        | Light            | France, UK                              |
 | M5A1 Stuart VI                       | Light            | France, Poland, UK, USA                 |
+| M88 105mm HMC                        | Light            | USA                                     |
 | R35                                  | Light            | France, Germany, Italy, Poland          |
 | R39                                  | Light            | France                                  |
 | SU-26                                | Light            | SU                                      |
@@ -138,6 +144,7 @@ If you would like to help choose the next vehicles added to the collection, you 
 | T-26 (1937)                          | Light            | Finland, Germany, SU                    |
 | T-26 (1939)                          | Light            | Finland, Germany, SU                    |
 | T-26E                                | Light            | Finland                                 |
+| T-50                                 | Light            | Finland, SU                             |
 | Tetrarch Mk VII                      | Light            | UK, SU                                  |
 | Type 89 Otsu-Gata Sensha             | Light            | Japan                                   |
 | Vickers Mk.E DW                      | Light            | Poland                                  |
@@ -198,8 +205,12 @@ If you would like to help choose the next vehicles added to the collection, you 
 | Panzer IV Ausf. J                    | Medium           | Finland, Germany                        |
 | Sd.Kfz. 165 ""Hummel""               | Medium           | Germany                                 |
 | Škoda T 24                           | Medium           | Czechia                                 |
+| Škoda T 25 Druhý                     | Medium           | Czechia                                 |
+| Škoda T 25 První                     | Medium           | Czechia                                 |
 | SOMUA S35                            | Medium           | France                                  |
 | SOMUA SAu 40                         | Medium           | France                                  |
+| Strv M42                             | Medium           | Sweden                                  |
+| Strv M42 DT                          | Medium           | Sweden                                  |
 | StuG III Ausf. G                     | Medium           | Finland, Germany, Hungary, Italy        |
 | StuG III Ausf. G (Finnish Modified)  | Medium           | Finland                                 |
 | StuH 42                              | Medium           | Finland, Germany                        |
