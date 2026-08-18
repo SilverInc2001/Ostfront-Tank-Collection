@@ -61,6 +61,7 @@ If you would like to help choose the next vehicles added to the collection, you 
 | Churchill Mk.VII                     | Heavy            | UK                                      |
 | Churchill Mk.VII Crocodile           | Heavy            | UK                                      |
 | Churchill Mk.VIII                    | Heavy            | UK                                      |
+| DW II                                | Heavy            | Germany                                 |
 | Ferdinand Sd.Kfz. 184                | Heavy            | Germany                                 |
 | I-O                                  | Heavy            | Japan                                   |
 | IS-1 (1943)                          | Heavy            | SU                                      |
@@ -119,16 +120,19 @@ If you would like to help choose the next vehicles added to the collection, you 
 | KhT-130                              | Light            | Finland, Germany, SU                    |
 | KhT-26                               | Light            | Finland, Germany, SU                    |
 | Lago M38                             | Light            | Sweden                                  |
+| Landsverk L-60                       | Light            | Sweden                                  |
 | Landsverk L-62 Anti II               | Light            | Finland                                 |
 | Light Tank Mk VIII                   | Light            | UK                                      |
 | Little Willie                        | Light            | UK                                      |
 | LT vz. 35                            | Light            | Germany                                 |
 | LT vz. 38                            | Light            | Germany, Hungary                        |
+| M18 Hellcat                          | Light            | USA                                     |
 | M22 Locust                           | Light            | UK                                      |
 | M2A4 Stuart I                        | Light            | France, UK, USA, SU                     |
 | M3A1 Stuart III                      | Light            | France, UK, USA, SU                     |
 | M3A3 Stuart V                        | Light            | France, UK                              |
 | M5A1 Stuart VI                       | Light            | France, Poland, UK, USA                 |
+| M88 105mm HMC                        | Light            | USA                                     |
 | R35                                  | Light            | France, Germany, Italy, Poland          |
 | R39                                  | Light            | France                                  |
 | SU-26                                | Light            | SU                                      |
@@ -201,6 +205,8 @@ If you would like to help choose the next vehicles added to the collection, you 
 | Panzer IV Ausf. J                    | Medium           | Finland, Germany                        |
 | Sd.Kfz. 165 ""Hummel""               | Medium           | Germany                                 |
 | Škoda T 24                           | Medium           | Czechia                                 |
+| Škoda T 25 Druhý                     | Medium           | Czechia                                 |
+| Škoda T 25 První                     | Medium           | Czechia                                 |
 | SOMUA S35                            | Medium           | France                                  |
 | SOMUA SAu 40                         | Medium           | France                                  |
 | Strv M42                             | Medium           | Sweden                                  |
