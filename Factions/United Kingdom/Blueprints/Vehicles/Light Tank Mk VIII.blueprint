@@ -3,12 +3,12 @@
   "header": {
     "v": "0.2",
     "name": "Light Tank Mk VIII",
-    "gameVersion": "0.2.51.36",
-    "mass": 12781,
+    "gameVersion": "0.2.53.2",
+    "mass": 12795,
     "creationDate": "1943.12.31",
     "class": "",
     "desc": "",
-    "cost": 30684
+    "cost": 30687
   },
   "blueprints": [
     {
@@ -65,12 +65,13 @@
       "id": 4,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": null,
         "description": null,
         "armourVolume": 0.9200074,
         "bodyMeshVuid": 0,
         "partRepositioning": true,
+        "collisionEnabled": true,
         "armourTechID": "rha"
       }
     },
@@ -498,12 +499,13 @@
       "id": 48,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": "Unnamed Structure",
         "description": null,
         "armourVolume": 0.217429519,
         "bodyMeshVuid": 1,
         "partRepositioning": false,
+        "collisionEnabled": true,
         "armourTechID": "rha"
       }
     },
@@ -565,9 +567,14 @@
             "v": "0.0",
             "segments": [
               {
-                "t0": 37,
+                "t0": 35,
+                "t1": 35,
+                "l": 700
+              },
+              {
+                "t0": 35,
                 "t1": 25,
-                "l": 565
+                "l": 350
               }
             ]
           },
@@ -576,8 +583,8 @@
             "segments": [
               {
                 "t0": 20,
-                "t1": 20,
-                "l": 1515
+                "t1": 15,
+                "l": 1030
               }
             ]
           }
@@ -622,12 +629,13 @@
       "id": 56,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": "Unnamed Structure",
         "description": null,
         "armourVolume": 0.0401912481,
         "bodyMeshVuid": 3,
         "partRepositioning": false,
+        "collisionEnabled": false,
         "armourTechID": "rha"
       }
     },
@@ -1023,7 +1031,7 @@
       }
     },
     {
-      "id": 0,
+      "id": 5,
       "type": "paintJobRegister",
       "blueprint": {
         "v": "0.0",
@@ -1075,13 +1083,13 @@
         "mirrorVuid": -1,
         "pos": [
           -1.69742852E-05,
-          0.111999571,
+          0.111999452,
           1.46328735
         ],
         "rot": [
           0.0,
           0.0,
-          2.08440842E-09,
+          0.0,
           0.0
         ],
         "scale": [
@@ -1191,8 +1199,8 @@
         "mirrorVuid": -1,
         "pos": [
           -0.0323504061,
-          0.326791167,
-          0.462352276
+          0.3637136,
+          0.462358
         ],
         "rot": [
           0.0,
@@ -1279,7 +1287,7 @@
         "mirrorVuid": -1,
         "pos": [
           0.0,
-          -2.98023224E-08,
+          -0.0258441269,
           -0.276910782
         ],
         "rot": [
@@ -1333,12 +1341,12 @@
         "mirrorVuid": -1,
         "pos": [
           -0.00608297065,
-          0.05295801,
-          0.3769226
+          0.0497450829,
+          0.3768921
         ],
         "rot": [
-          0.319283068,
-          8.447684E-12,
+          0.319283128,
+          8.441322E-12,
           -2.17012766E-05,
           0.0
         ],
@@ -1388,7 +1396,7 @@
         "pos": [
           0.0,
           0.0,
-          0.565
+          1.05000007
         ],
         "rot": [
           0.0,
@@ -1587,7 +1595,7 @@
         "rot": [
           0.0,
           0.0,
-          2.08440842E-09,
+          0.0,
           0.0
         ],
         "scale": [
@@ -1610,11 +1618,11 @@
         "mirrorVuid": -1,
         "pos": [
           0.4405959,
-          -0.853210568,
+          -0.853210449,
           -0.337982178
         ],
         "rot": [
-          -7.706598E-08,
+          -7.70659838E-08,
           329.999969,
           2.2781191E-07,
           0.0

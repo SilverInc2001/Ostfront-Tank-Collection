@@ -3,12 +3,12 @@
   "header": {
     "v": "0.2",
     "name": "Cruiser Mk.V Covenanter",
-    "gameVersion": "0.2.51.36",
-    "mass": 13552,
+    "gameVersion": "0.2.53.2",
+    "mass": 13569,
     "creationDate": "1941.12.31",
     "class": "",
     "desc": "",
-    "cost": 30983
+    "cost": 30987
   },
   "blueprints": [
     {
@@ -65,12 +65,13 @@
       "id": 4,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": null,
         "description": null,
         "armourVolume": 0.6859762,
         "bodyMeshVuid": 0,
         "partRepositioning": true,
+        "collisionEnabled": true,
         "armourTechID": "rha"
       }
     },
@@ -408,12 +409,13 @@
       "id": 33,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": "Unnamed Structure",
         "description": null,
         "armourVolume": 0.172917187,
         "bodyMeshVuid": 1,
         "partRepositioning": true,
+        "collisionEnabled": true,
         "armourTechID": "rha"
       }
     },
@@ -446,12 +448,13 @@
       "id": 39,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": "Unnamed Structure",
         "description": null,
         "armourVolume": 0.0167937875,
         "bodyMeshVuid": 3,
         "partRepositioning": true,
+        "collisionEnabled": false,
         "armourTechID": "rha"
       }
     },
@@ -459,12 +462,13 @@
       "id": 40,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": "Unnamed Structure",
         "description": null,
         "armourVolume": 0.00237431144,
         "bodyMeshVuid": 5,
         "partRepositioning": true,
+        "collisionEnabled": false,
         "armourTechID": "rha"
       }
     },
@@ -501,9 +505,14 @@
             "v": "0.0",
             "segments": [
               {
-                "t0": 37,
+                "t0": 35,
+                "t1": 35,
+                "l": 700
+              },
+              {
+                "t0": 35,
                 "t1": 25,
-                "l": 565
+                "l": 350
               }
             ]
           },
@@ -512,8 +521,8 @@
             "segments": [
               {
                 "t0": 20,
-                "t1": 17,
-                "l": 1515
+                "t1": 15,
+                "l": 1030
               }
             ]
           }
@@ -558,12 +567,13 @@
       "id": 44,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": "Unnamed Structure",
         "description": null,
         "armourVolume": 0.000163793433,
         "bodyMeshVuid": 7,
         "partRepositioning": true,
+        "collisionEnabled": false,
         "armourTechID": "rha"
       }
     },
@@ -1192,7 +1202,7 @@
       }
     },
     {
-      "id": 0,
+      "id": 5,
       "type": "paintJobRegister",
       "blueprint": {
         "v": "0.0",
@@ -1451,8 +1461,8 @@
             0.0,
             0.0,
             -2.23517418E-08,
-            0.332000017,
-            -2.36199951,
+            0.3319702,
+            -2.36200023,
             -0.552133,
             0.151740044,
             0.0713178143,
@@ -1463,8 +1473,8 @@
             0.0,
             0.0,
             2.23517418E-08,
-            0.332000017,
-            -2.36199951
+            0.3319702,
+            -2.36200023
           ],
           "portDirections": [
             0.0,
@@ -2239,7 +2249,7 @@
         "pos": [
           0.0,
           0.0,
-          0.565
+          1.05000007
         ],
         "rot": [
           0.0,
@@ -2264,8 +2274,8 @@
         "mirrorVuid": -1,
         "pos": [
           0.0002758035,
-          -0.000180453062,
-          1.54715228
+          -0.000180333853,
+          1.05647671
         ],
         "rot": [
           0.0,
@@ -2298,7 +2308,7 @@
         "rot": [
           0.0,
           0.0,
-          -4.06459577E-09,
+          0.0,
           0.0
         ],
         "scale": [
@@ -2327,7 +2337,7 @@
         "rot": [
           0.0,
           0.0,
-          -4.06459577E-09,
+          0.0,
           0.0
         ],
         "scale": [
@@ -2349,14 +2359,14 @@
       "transform": {
         "mirrorVuid": -1,
         "pos": [
-          2.32830679E-08,
+          2.32830644E-08,
           -0.7575073,
           -0.33795166
         ],
         "rot": [
           0.0,
           0.0,
-          -4.06459577E-09,
+          0.0,
           0.0
         ],
         "scale": [
@@ -2806,7 +2816,7 @@
         "rot": [
           0.0,
           0.0,
-          -4.06459577E-09,
+          0.0,
           0.0
         ],
         "scale": [
@@ -2916,7 +2926,7 @@
           1.70770264
         ],
         "rot": [
-          6.61346245,
+          6.613463,
           0.0,
           0.0,
           0.0
@@ -2943,7 +2953,7 @@
           1.7097168
         ],
         "rot": [
-          6.613462,
+          6.61346245,
           0.0,
           0.0,
           0.0
@@ -2970,7 +2980,7 @@
           1.71298218
         ],
         "rot": [
-          6.613462,
+          6.61346245,
           0.0,
           0.0,
           0.0
@@ -2997,7 +3007,7 @@
           1.71585083
         ],
         "rot": [
-          6.57611465,
+          6.57611561,
           0.0,
           0.0,
           0.0
@@ -3024,9 +3034,9 @@
           0.29473877
         ],
         "rot": [
-          52.5495071,
+          52.5495148,
           90.00001,
-          -2.80811582E-05,
+          -2.80811619E-05,
           0.0
         ],
         "scale": [
@@ -3084,7 +3094,7 @@
         "rot": [
           0.321936369,
           180.0,
-          4.770907E-15,
+          6.36120939E-15,
           0.0
         ],
         "scale": [
@@ -3113,7 +3123,7 @@
         "rot": [
           0.321936369,
           180.0,
-          4.770907E-15,
+          6.36120939E-15,
           0.0
         ],
         "scale": [
@@ -3142,7 +3152,7 @@
         "rot": [
           0.321936369,
           180.0,
-          4.770907E-15,
+          6.36120939E-15,
           0.0
         ],
         "scale": [

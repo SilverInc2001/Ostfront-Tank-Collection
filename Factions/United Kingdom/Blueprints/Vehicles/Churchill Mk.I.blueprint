@@ -3,12 +3,12 @@
   "header": {
     "v": "0.2",
     "name": "Churchill Mk.I",
-    "gameVersion": "0.2.51.36",
-    "mass": 39140,
+    "gameVersion": "0.2.53.2",
+    "mass": 39153,
     "creationDate": "1941.12.31",
     "class": "",
     "desc": "",
-    "cost": 57904
+    "cost": 57907
   },
   "blueprints": [
     {
@@ -65,12 +65,13 @@
       "id": 4,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": null,
         "description": null,
         "armourVolume": 2.9475677,
         "bodyMeshVuid": 0,
         "partRepositioning": true,
+        "collisionEnabled": true,
         "armourTechID": "rha"
       }
     },
@@ -471,12 +472,13 @@
       "id": 38,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": "Unnamed Structure",
         "description": null,
         "armourVolume": 0.0512963049,
         "bodyMeshVuid": 2,
         "partRepositioning": true,
+        "collisionEnabled": false,
         "armourTechID": "rha"
       }
     },
@@ -537,12 +539,13 @@
       "id": 43,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": "Unnamed Structure",
         "description": null,
         "armourVolume": 0.564977944,
         "bodyMeshVuid": 3,
         "partRepositioning": true,
+        "collisionEnabled": true,
         "armourTechID": "rha"
       }
     },
@@ -604,9 +607,14 @@
             "v": "0.0",
             "segments": [
               {
-                "t0": 37,
+                "t0": 35,
+                "t1": 35,
+                "l": 700
+              },
+              {
+                "t0": 35,
                 "t1": 25,
-                "l": 565
+                "l": 350
               }
             ]
           },
@@ -615,8 +623,8 @@
             "segments": [
               {
                 "t0": 20,
-                "t1": 20,
-                "l": 1515
+                "t1": 15,
+                "l": 1030
               }
             ]
           }
@@ -661,12 +669,13 @@
       "id": 49,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": "Unnamed Structure",
         "description": null,
         "armourVolume": 0.0345713422,
         "bodyMeshVuid": 5,
         "partRepositioning": true,
+        "collisionEnabled": false,
         "armourTechID": "rha"
       }
     },
@@ -1634,7 +1643,7 @@
       }
     },
     {
-      "id": 5,
+      "id": 0,
       "type": "paintJobRegister",
       "blueprint": {
         "v": "0.0",
@@ -1858,7 +1867,7 @@
         ],
         "rot": [
           0.415065318,
-          1.01780421E-13,
+          1.081417E-13,
           -2.19909289E-05,
           0.0
         ],
@@ -2478,7 +2487,7 @@
           0.748504639
         ],
         "rot": [
-          0.319283247,
+          0.319283277,
           -6.361208E-15,
           -2.17018078E-05,
           0.0
@@ -2529,7 +2538,7 @@
         "pos": [
           0.0,
           0.0,
-          0.565
+          1.05000007
         ],
         "rot": [
           0.0,

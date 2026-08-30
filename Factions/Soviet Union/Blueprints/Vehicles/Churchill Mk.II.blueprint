@@ -3,12 +3,12 @@
   "header": {
     "v": "0.2",
     "name": "Churchill Mk.II",
-    "gameVersion": "0.2.51.36",
-    "mass": 39085,
+    "gameVersion": "0.2.53.2",
+    "mass": 39099,
     "creationDate": "1941.12.31",
     "class": "",
     "desc": "",
-    "cost": 54898
+    "cost": 54902
   },
   "blueprints": [
     {
@@ -65,12 +65,13 @@
       "id": 4,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": null,
         "description": null,
         "armourVolume": 3.06023717,
         "bodyMeshVuid": 0,
         "partRepositioning": false,
+        "collisionEnabled": true,
         "armourTechID": "rha"
       }
     },
@@ -438,12 +439,13 @@
       "id": 43,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": "Unnamed Structure",
         "description": null,
         "armourVolume": 0.5328141,
         "bodyMeshVuid": 3,
         "partRepositioning": true,
+        "collisionEnabled": true,
         "armourTechID": "rha"
       }
     },
@@ -505,9 +507,14 @@
             "v": "0.0",
             "segments": [
               {
-                "t0": 37,
+                "t0": 35,
+                "t1": 35,
+                "l": 700
+              },
+              {
+                "t0": 35,
                 "t1": 25,
-                "l": 565
+                "l": 350
               }
             ]
           },
@@ -516,8 +523,8 @@
             "segments": [
               {
                 "t0": 20,
-                "t1": 20,
-                "l": 1515
+                "t1": 15,
+                "l": 1030
               }
             ]
           }
@@ -562,12 +569,13 @@
       "id": 49,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": "Unnamed Structure",
         "description": null,
         "armourVolume": 0.0345713422,
         "bodyMeshVuid": 5,
         "partRepositioning": true,
+        "collisionEnabled": false,
         "armourTechID": "rha"
       }
     },
@@ -1305,12 +1313,13 @@
       "id": 99,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": "Unnamed Structure",
         "description": null,
         "armourVolume": 0.0196383186,
         "bodyMeshVuid": 7,
         "partRepositioning": true,
+        "collisionEnabled": true,
         "armourTechID": "rha"
       }
     },
@@ -1318,12 +1327,13 @@
       "id": 106,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": "Unnamed Structure",
         "description": null,
         "armourVolume": 0.0133763626,
         "bodyMeshVuid": 9,
         "partRepositioning": true,
+        "collisionEnabled": false,
         "armourTechID": "rha"
       }
     },
@@ -1489,7 +1499,7 @@
       }
     },
     {
-      "id": 0,
+      "id": 5,
       "type": "paintJobRegister",
       "blueprint": {
         "v": "0.0",
@@ -1540,7 +1550,7 @@
       "transform": {
         "mirrorVuid": 424,
         "pos": [
-          0.332773179,
+          0.3327732,
           -0.2960205,
           1.74597168
         ],
@@ -1569,8 +1579,8 @@
       "transform": {
         "mirrorVuid": 421,
         "pos": [
-          -0.481302261,
-          -0.2960205,
+          -0.4813023,
+          -0.296020269,
           1.65786743
         ],
         "rot": [
@@ -1999,7 +2009,7 @@
           0.748504639
         ],
         "rot": [
-          0.319283277,
+          0.3192833,
           -6.361208E-15,
           -2.17018078E-05,
           0.0
@@ -2050,7 +2060,7 @@
         "pos": [
           0.0,
           0.0,
-          0.565
+          1.05000007
         ],
         "rot": [
           0.0,
@@ -2249,9 +2259,9 @@
           0.2088623
         ],
         "rot": [
-          9.098102,
+          9.09810448,
           105.778015,
-          -1.29697764E-06,
+          -1.72930356E-06,
           0.0
         ],
         "scale": [
@@ -2278,9 +2288,9 @@
           0.2043457
         ],
         "rot": [
-          9.098097,
+          9.098099,
           254.221985,
-          -8.646518E-07,
+          -1.29697764E-06,
           0.0
         ],
         "scale": [
@@ -2307,7 +2317,7 @@
           0.426483154
         ],
         "rot": [
-          8.58201,
+          8.582011,
           113.46209,
           -2.59032367E-06,
           0.0
@@ -2365,9 +2375,9 @@
           0.344665527
         ],
         "rot": [
-          15.0304441,
+          15.0304461,
           250.714325,
-          -8.840174E-07,
+          -1.32602622E-06,
           0.0
         ],
         "scale": [
@@ -2396,7 +2406,7 @@
         "rot": [
           13.1366234,
           266.290161,
-          0.0,
+          4.38358256E-07,
           0.0
         ],
         "scale": [
@@ -2419,13 +2429,13 @@
         "mirrorVuid": -1,
         "pos": [
           0.494161665,
-          -1.12866223,
-          -0.531493962
+          -1.12866259,
+          -0.531494141
         ],
         "rot": [
-          -2.826478E-05,
+          -2.828519E-05,
           314.999847,
-          7.454774E-05,
+          7.44984354E-05,
           0.0
         ],
         "scale": [
@@ -2448,8 +2458,8 @@
         "mirrorVuid": -1,
         "pos": [
           -0.20098877,
-          -0.9550171,
-          -0.008300778
+          -0.955016851,
+          -0.008300781
         ],
         "rot": [
           0.0,
@@ -2477,13 +2487,13 @@
         "mirrorVuid": -1,
         "pos": [
           -0.3656807,
-          -0.9550171,
-          -0.473846257
+          -0.9550173,
+          -0.473846436
         ],
         "rot": [
-          -2.03562149E-06,
+          -2.04072626E-06,
           44.9999962,
-          -8.19280649E-06,
+          -8.180481E-06,
           0.0
         ],
         "scale": [

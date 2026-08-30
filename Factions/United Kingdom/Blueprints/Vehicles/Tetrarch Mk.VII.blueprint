@@ -3,12 +3,12 @@
   "header": {
     "v": "0.2",
     "name": "Tetrarch Mk.VII",
-    "gameVersion": "0.2.51.36",
-    "mass": 8037,
+    "gameVersion": "0.2.53.2",
+    "mass": 8050,
     "creationDate": "1943.12.31",
     "class": "",
     "desc": "",
-    "cost": 26539
+    "cost": 26542
   },
   "blueprints": [
     {
@@ -65,12 +65,13 @@
       "id": 4,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": null,
         "description": null,
         "armourVolume": 0.473037183,
         "bodyMeshVuid": 0,
         "partRepositioning": true,
+        "collisionEnabled": true,
         "armourTechID": "rha"
       }
     },
@@ -506,12 +507,13 @@
       "id": 37,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": "Unnamed Structure",
         "description": null,
         "armourVolume": 0.09501469,
         "bodyMeshVuid": 3,
         "partRepositioning": true,
+        "collisionEnabled": true,
         "armourTechID": "rha"
       }
     },
@@ -573,9 +575,14 @@
             "v": "0.0",
             "segments": [
               {
-                "t0": 37,
+                "t0": 35,
+                "t1": 35,
+                "l": 700
+              },
+              {
+                "t0": 35,
                 "t1": 25,
-                "l": 565
+                "l": 350
               }
             ]
           },
@@ -584,8 +591,8 @@
             "segments": [
               {
                 "t0": 20,
-                "t1": 20,
-                "l": 1515
+                "t1": 15,
+                "l": 1030
               }
             ]
           }
@@ -630,12 +637,13 @@
       "id": 46,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": "Unnamed Structure",
         "description": null,
         "armourVolume": 0.0273706652,
         "bodyMeshVuid": 7,
         "partRepositioning": true,
+        "collisionEnabled": false,
         "armourTechID": "rha"
       }
     },
@@ -643,12 +651,13 @@
       "id": 48,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": "Unnamed Structure",
         "description": null,
         "armourVolume": 0.00279339938,
         "bodyMeshVuid": 9,
         "partRepositioning": true,
+        "collisionEnabled": false,
         "armourTechID": "rha"
       }
     },
@@ -874,12 +883,13 @@
       "id": 73,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": "Unnamed Structure",
         "description": null,
         "armourVolume": 0.00700671552,
         "bodyMeshVuid": 11,
         "partRepositioning": true,
+        "collisionEnabled": false,
         "armourTechID": "rha"
       }
     },
@@ -963,12 +973,13 @@
       "id": 26,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": "Unnamed Structure",
         "description": null,
         "armourVolume": 0.00145907537,
         "bodyMeshVuid": 2,
         "partRepositioning": true,
+        "collisionEnabled": false,
         "armourTechID": "rha"
       }
     },
@@ -1215,7 +1226,7 @@
       }
     },
     {
-      "id": 5,
+      "id": 0,
       "type": "paintJobRegister",
       "blueprint": {
         "v": "0.0",
@@ -2213,7 +2224,7 @@
           0.254364
         ],
         "rot": [
-          0.319283068,
+          0.3192831,
           -6.361208E-15,
           -2.17018078E-05,
           0.0
@@ -2291,7 +2302,7 @@
         "pos": [
           0.0,
           0.0,
-          0.565
+          1.05000007
         ],
         "rot": [
           0.0,
@@ -2316,8 +2327,8 @@
         "mirrorVuid": -1,
         "pos": [
           -0.0231349617,
-          -0.00725054741,
-          1.51294184
+          -0.00741791725,
+          1.02791131
         ],
         "rot": [
           89.98022,
@@ -2714,7 +2725,7 @@
         ],
         "rot": [
           65.81005,
-          5.614751,
+          5.614747,
           264.911621,
           0.0
         ],
@@ -2878,8 +2889,8 @@
           -1.14776611
         ],
         "rot": [
-          83.11254,
-          6.61790228,
+          83.11257,
+          6.617901,
           269.999817,
           0.0
         ],

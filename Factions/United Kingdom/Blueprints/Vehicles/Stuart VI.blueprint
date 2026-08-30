@@ -3,7 +3,7 @@
   "header": {
     "v": "0.2",
     "name": "Stuart VI",
-    "gameVersion": "0.2.51.36",
+    "gameVersion": "0.2.54.4",
     "mass": 14139,
     "creationDate": "1945.09.02",
     "class": "",
@@ -65,12 +65,13 @@
       "id": 4,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": null,
         "description": null,
         "armourVolume": 0.953452647,
         "bodyMeshVuid": 0,
         "partRepositioning": true,
+        "collisionEnabled": true,
         "armourTechID": "rha"
       }
     },
@@ -431,12 +432,13 @@
       "id": 31,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": "Unnamed Structure",
         "description": null,
         "armourVolume": 0.001219752,
         "bodyMeshVuid": 2,
         "partRepositioning": false,
+        "collisionEnabled": false,
         "armourTechID": "rha"
       }
     },
@@ -497,12 +499,13 @@
       "id": 37,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": "Unnamed Structure",
         "description": null,
         "armourVolume": 0.235384166,
         "bodyMeshVuid": 3,
         "partRepositioning": true,
+        "collisionEnabled": true,
         "armourTechID": "rha"
       }
     },
@@ -792,12 +795,13 @@
       "id": 45,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": "Unnamed Structure",
         "description": null,
         "armourVolume": 0.001219752,
         "bodyMeshVuid": 2,
         "partRepositioning": false,
+        "collisionEnabled": false,
         "armourTechID": "rha"
       }
     },
@@ -828,12 +832,13 @@
       "id": 47,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": "Unnamed Structure",
         "description": null,
         "armourVolume": 0.0372685,
         "bodyMeshVuid": 4,
         "partRepositioning": true,
+        "collisionEnabled": false,
         "armourTechID": "rha"
       }
     },
@@ -1212,7 +1217,7 @@
         "v": "0.3",
         "name": "",
         "description": "",
-        "imageURL": "Sprocket/Decals/2nd Warszawski Armoured Brigade.png"
+        "imageURL": "Sprocket/Decals/7th_armoured_division_insignia_1944_3000px.png"
       }
     },
     {
@@ -1289,12 +1294,13 @@
       "id": 96,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": "Unnamed Structure",
         "description": null,
         "armourVolume": 0.007938883,
         "bodyMeshVuid": 7,
         "partRepositioning": true,
+        "collisionEnabled": false,
         "armourTechID": "rha"
       }
     },
@@ -1302,12 +1308,13 @@
       "id": 99,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": "Unnamed Structure",
         "description": null,
         "armourVolume": 0.00119527057,
         "bodyMeshVuid": 9,
         "partRepositioning": true,
+        "collisionEnabled": false,
         "armourTechID": "rha"
       }
     },
@@ -1341,8 +1348,8 @@
         "v": "0.0",
         "name": null,
         "description": null,
-        "x": 250,
-        "y": 250,
+        "x": 200,
+        "y": 200,
         "z": 25,
         "flags": 0
       }
@@ -1364,8 +1371,8 @@
         "v": "0.0",
         "name": null,
         "description": null,
-        "x": 250,
-        "y": 250,
+        "x": 200,
+        "y": 200,
         "z": 25,
         "flags": 0
       }
@@ -1721,7 +1728,7 @@
         ],
         "rot": [
           0.5534159,
-          -2.099264E-13,
+          -2.226492E-13,
           -1.70029743E-05,
           0.0
         ],
@@ -1777,7 +1784,7 @@
         "rot": [
           359.4466,
           -1.642353E-07,
-          1.70038238E-05,
+          1.70038275E-05,
           0.0
         ],
         "scale": [
@@ -2357,7 +2364,7 @@
           1.568634
         ],
         "rot": [
-          0.856383741,
+          0.85638386,
           179.428024,
           0.512159765,
           0.0
@@ -2417,7 +2424,7 @@
         "rot": [
           3.72656441,
           188.615616,
-          -1.22990014E-06,
+          -1.2833741E-06,
           0.0
         ],
         "scale": [
@@ -2840,7 +2847,7 @@
           -1.82220459
         ],
         "rot": [
-          1.96207452,
+          1.962075,
           180.000031,
           180.0,
           0.0
@@ -2867,7 +2874,7 @@
           -1.82220459
         ],
         "rot": [
-          1.96207452,
+          1.962075,
           179.999969,
           180.0,
           0.0
@@ -2983,8 +2990,8 @@
           0.0
         ],
         "scale": [
-          0.25,
-          0.25,
+          0.2,
+          0.2,
           0.025
         ]
       },
@@ -3012,8 +3019,8 @@
           0.0
         ],
         "scale": [
-          0.25,
-          0.25,
+          0.2,
+          0.2,
           0.025
         ]
       },
@@ -3148,7 +3155,7 @@
         "rot": [
           5.320127,
           1.57006985E-09,
-          0.0189054068,
+          0.01890541,
           0.0
         ],
         "scale": [
