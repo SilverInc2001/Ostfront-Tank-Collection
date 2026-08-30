@@ -48,6 +48,7 @@ If you would like to help choose the next vehicles added to the collection, you 
 | Black Prince                         | Heavy            | UK                                      |
 | Char 2C                              | Heavy            | France                                  |
 | Char B1 Bis                          | Heavy            | France, Germany                         |
+| Char C2 Bis                          | Heavy            | France                                  |
 | Churchill Mk I                       | Heavy            | UK                                      |
 | Churchill Mk II                      | Heavy            | UK, SU                                  |
 | Churchill Mk III                     | Heavy            | UK, SU                                  |
@@ -78,6 +79,8 @@ If you would like to help choose the next vehicles added to the collection, you 
 | M6A1                                 | Heavy            | USA                                     |
 | O-Ro Kai                             | Heavy            | Japan                                   |
 | Sd.Kfz. 166 Brummbär                 | Heavy            | Germany                                 |
+| Sd.Kfz. E 75 Ausf. A                 | Heavy            | Germany                                 |
+| Sd.Kfz. E 75 Ausf. B                 | Heavy            | Germany                                 |
 | SDP Wz. 40                           | Heavy            | Poland                                  |
 | St Chamond                           | Heavy            | France                                  |
 | SU-100Y                              | Heavy            | SU                                      |
@@ -106,7 +109,10 @@ If you would like to help choose the next vehicles added to the collection, you 
 | Carro Armato L5-30                   | Light            | Italy                                   |
 | Cruiser Mk.V Covenanter              | Light            | UK                                      |
 | Cruiser Tank Mk I                    | Light            | UK                                      |
+| Cruiser Tank Mk I CS                 | Light            | UK                                      |
 | Cruiser Tank Mk II                   | Light            | UK                                      |
+| Cruiser Tank Mk IIA                  | Light            | UK                                      |
+| Cruiser Tank Mk IIA CS               | Light            | UK                                      |
 | Cruiser Tank Mk III                  | Light            | UK                                      |
 | Cruiser Tank Mk IIIA                 | Light            | UK                                      |
 | Cruiser Tank Mk IV                   | Light            | Germany, UK                             |
@@ -146,6 +152,8 @@ If you would like to help choose the next vehicles added to the collection, you 
 | T-26E                                | Light            | Finland                                 |
 | T-50                                 | Light            | Finland, SU                             |
 | Tetrarch Mk VII                      | Light            | UK, SU                                  |
+| Type 1 Ho-Ni I                       | Light            | Japan                                   |
+| Type 1 Ho-Ni II                      | Light            | Japan                                   |
 | Type 89 Otsu-Gata Sensha             | Light            | Japan                                   |
 | Vickers Mk.E DW                      | Light            | Poland                                  |
 | Vickers Mk.E JW                      | Light            | Poland                                  |
@@ -201,6 +209,7 @@ If you would like to help choose the next vehicles added to the collection, you 
 | M4A2 Sherman III (Mid)               | Medium           | France, Poland, UK, USA, SU             |
 | M4A2 Sherman III DV                  | Medium           | UK, USA, SU                             |
 | M4A2 Sherman III DV (Up-Armoured)    | Medium           | France, UK, USA, SU                     |
+| OT-34-85                             | Medium           | SU                                      |
 | Panzer III Ausf. E                   | Medium           | Germany                                 |
 | Panzer IV Ausf. J                    | Medium           | Finland, Germany                        |
 | Sd.Kfz. 165 ""Hummel""               | Medium           | Germany                                 |
@@ -219,9 +228,11 @@ If you would like to help choose the next vehicles added to the collection, you 
 | T-28C                                | Medium           | Finland, SU                             |
 | T-34-76 M1941                        | Medium           | Finland, Germany, SU                    |
 | T-34-76 M1942                        | Medium           | Finland, Germany, Poland, SU            |
+| T-34-85 M1944                        | Medium           | Czechia, Finland, Germany, Poland, SU   |
 | Type 1 Chi-He                        | Medium           | Japan                                   |
 | Karl-Gerät 040                       | SPM              | Germany                                 |
 | Carro Armato L3 CC                   | Tankette         | Germany, Italy                          |
 | Carro Armato L3/35                   | Tankette         | France, Germany, Italy, Poland          |
 | UE Chenillette                       | Tankette         | France, Germany, Italy, Poland          |
 | Universal Carrier Mk II              | Tankette         | Currently only UK                       |
+
