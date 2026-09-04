@@ -3,7 +3,7 @@
   "header": {
     "v": "0.2",
     "name": "Karl-Gerät 040",
-    "gameVersion": "0.2.51.36",
+    "gameVersion": "0.2.54.4",
     "mass": 100425,
     "creationDate": "1943.12.31",
     "class": "",
@@ -65,12 +65,13 @@
       "id": 4,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": null,
         "description": null,
         "armourVolume": 1.9801439,
         "bodyMeshVuid": 0,
         "partRepositioning": true,
+        "collisionEnabled": true,
         "armourTechID": "rha"
       }
     },
@@ -379,8 +380,8 @@
         "v": "0.1",
         "name": null,
         "description": null,
-        "maxRot": 8,
-        "minRot": -8,
+        "maxRot": 2,
+        "minRot": -2,
         "radial": true
       }
     },
@@ -411,12 +412,13 @@
       "id": 45,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": "Unnamed Structure",
         "description": null,
         "armourVolume": 0.5841015,
         "bodyMeshVuid": 1,
         "partRepositioning": true,
+        "collisionEnabled": true,
         "armourTechID": "rha"
       }
     },
@@ -449,12 +451,13 @@
       "id": 50,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": "Unnamed Structure",
         "description": null,
         "armourVolume": 0.20794946,
         "bodyMeshVuid": 5,
         "partRepositioning": true,
+        "collisionEnabled": false,
         "armourTechID": "rha"
       }
     },
@@ -492,12 +495,13 @@
       "id": 29,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": "Unnamed Structure",
         "description": null,
         "armourVolume": 0.165620908,
         "bodyMeshVuid": 3,
         "partRepositioning": true,
+        "collisionEnabled": false,
         "armourTechID": "rha"
       }
     },
@@ -1155,7 +1159,7 @@
       }
     },
     {
-      "id": 0,
+      "id": 5,
       "type": "paintJobRegister",
       "blueprint": {
         "v": "0.0",
@@ -2318,8 +2322,8 @@
         ],
         "rot": [
           89.67615,
-          90.0160141,
-          0.0160114542,
+          90.0154,
+          0.0154073695,
           0.0
         ],
         "scale": [
@@ -2399,14 +2403,14 @@
       "transform": {
         "mirrorVuid": -1,
         "pos": [
-          -1.46769166,
+          -1.46769774,
           0.67498827,
           2.86782837
         ],
         "rot": [
-          0.0,
-          0.0,
-          -3.96037558E-09,
+          -1.66752645E-09,
+          4.85314E-20,
+          -3.335053E-09,
           0.0
         ],
         "scale": [
@@ -2455,14 +2459,14 @@
       "transform": {
         "mirrorVuid": -1,
         "pos": [
-          0.546623945,
+          0.5466216,
           0.602234364,
           -4.44516
         ],
         "rot": [
-          1.33402214E-08,
+          1.25064545E-08,
           180.0,
-          -2.12922288E-07,
+          -2.13443386E-07,
           0.0
         ],
         "scale": [
@@ -2511,14 +2515,14 @@
       "transform": {
         "mirrorVuid": -1,
         "pos": [
-          1.54029655,
+          1.54030383,
           1.18499851,
           -4.97555542
         ],
         "rot": [
-          0.0,
-          0.0,
-          -3.96037558E-09,
+          -1.66752645E-09,
+          4.85314E-20,
+          -3.335053E-09,
           0.0
         ],
         "scale": [
@@ -2596,14 +2600,14 @@
       "transform": {
         "mirrorVuid": 481,
         "pos": [
-          1.41842365,
+          1.418427,
           1.19799852,
           -1.88232422
         ],
         "rot": [
-          -1.50927264E-07,
+          -1.4385256E-07,
           270.0,
-          -1.41494311E-07,
+          -1.34419579E-07,
           0.0
         ],
         "scale": [
@@ -2625,14 +2629,14 @@
       "transform": {
         "mirrorVuid": 497,
         "pos": [
-          -1.41841137,
+          -1.41841519,
           1.197999,
           -1.88232422
         ],
         "rot": [
-          1.43852574E-07,
+          1.49748189E-07,
           90.0000153,
-          -1.48569E-07,
+          -1.45031635E-07,
           0.0
         ],
         "scale": [

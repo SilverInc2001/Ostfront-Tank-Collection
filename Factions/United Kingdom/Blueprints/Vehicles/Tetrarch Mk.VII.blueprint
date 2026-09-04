@@ -3,12 +3,12 @@
   "header": {
     "v": "0.2",
     "name": "Tetrarch Mk.VII",
-    "gameVersion": "0.2.53.2",
-    "mass": 8050,
+    "gameVersion": "0.2.54.4",
+    "mass": 7986,
     "creationDate": "1943.12.31",
     "class": "",
     "desc": "",
-    "cost": 26542
+    "cost": 26524
   },
   "blueprints": [
     {
@@ -157,9 +157,9 @@
         "wheelID": "470581da-c2aa-4748-ad51-cbcf64767a1d",
         "perAxle": 1,
         "spacingOnAxle": 0.01,
-        "xOffset": 0.00602500048,
+        "xOffset": 0.0482000038,
         "diameter": 0.7,
-        "width": 0.25305
+        "width": 0.144600019
       }
     },
     {
@@ -311,7 +311,7 @@
         "description": "",
         "separation": 1692,
         "length": 4340,
-        "brake": 64300,
+        "brake": 63865,
         "autoBrake": true,
         "rollersEnabled": false,
         "matchChassis": false,
@@ -326,7 +326,7 @@
         "v": "1.1",
         "name": "",
         "description": "",
-        "segmentID": "f3b848a2-e3b2-470d-aecf-897143bdb5cd",
+        "segmentID": "241bb8c8-8f04-41ae-8e2a-850a3c95970e",
         "x": 241,
         "y": 50,
         "z": 100,
@@ -1226,7 +1226,7 @@
       }
     },
     {
-      "id": 0,
+      "id": 5,
       "type": "paintJobRegister",
       "blueprint": {
         "v": "0.0",
@@ -2224,7 +2224,7 @@
           0.254364
         ],
         "rot": [
-          0.3192831,
+          0.319283128,
           -6.361208E-15,
           -2.17018078E-05,
           0.0
@@ -2725,7 +2725,7 @@
         ],
         "rot": [
           65.81005,
-          5.614747,
+          5.614751,
           264.911621,
           0.0
         ],
@@ -2889,8 +2889,8 @@
           -1.14776611
         ],
         "rot": [
-          83.11257,
-          6.617901,
+          83.1126251,
+          6.61790133,
           269.999817,
           0.0
         ],
