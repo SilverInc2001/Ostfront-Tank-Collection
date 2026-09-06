@@ -33,6 +33,7 @@ You can join using this link: https://discord.gg/RDAaC5jg
 | BA-27M                               | Armoured Car     | SU                                       |
 | BA-6                                 | Armoured Car     | Finland, SU                              |
 | M5 High-Speed Tractor                | Armoured Carrier | USA, SU                                  |
+| Citroën 7 Traction Avant             | Car              | France, Germany, UK                      |
 | 10 cm M14 FH                         | Field Gun        | Czechia, Germany, Hungary, Italy, Poland |
 | 25mm Hotchkiss anti-tank gun         | Field Gun        | Finland, France, Germany, Italy, UK      |
 | 3.7 cm Pak 36                        | Field Gun        | Finland, Germany, Hungary, Italy         |
