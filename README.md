@@ -7,6 +7,11 @@ Britain, Finland, France, Germany, Hungary, Italy, Japan, Poland, the United Sta
 
 If you would like to help choose the next vehicles added to the collection, you can vote on the Sprocket Discord server whenever a new update is released.
 
+**I have a Discord server!**
+For those who want to get directly involved, you can join here! This server is a place to discuss and contribute to everything surrounding the collection, as well as share your own creations.
+
+You can join using this link: https://discord.gg/RDAaC5jg
+
 **Purpose of the collection**
 
 - Reference material and parts for designers to use when creating their own tanks
