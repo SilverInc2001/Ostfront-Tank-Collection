@@ -3,12 +3,12 @@
   "header": {
     "v": "0.2",
     "name": "Black Prince (A43)",
-    "gameVersion": "0.2.51.36",
-    "mass": 50276,
+    "gameVersion": "0.2.54.4",
+    "mass": 50283,
     "creationDate": "1945.09.02",
     "class": "",
     "desc": "",
-    "cost": 67190
+    "cost": 67232
   },
   "blueprints": [
     {
@@ -65,12 +65,13 @@
       "id": 4,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": null,
         "description": null,
         "armourVolume": 3.777614,
         "bodyMeshVuid": 0,
         "partRepositioning": false,
+        "collisionEnabled": true,
         "armourTechID": "rha"
       }
     },
@@ -440,12 +441,13 @@
       "id": 43,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": "Unnamed Structure",
         "description": null,
         "armourVolume": 0.8791293,
         "bodyMeshVuid": 3,
         "partRepositioning": true,
+        "collisionEnabled": true,
         "armourTechID": "rha"
       }
     },
@@ -510,6 +512,11 @@
                 "t0": 55,
                 "t1": 50,
                 "l": 1125
+              },
+              {
+                "t0": 50,
+                "t1": 45,
+                "l": 50
               }
             ]
           },
@@ -564,12 +571,13 @@
       "id": 49,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": "Unnamed Structure",
         "description": null,
         "armourVolume": 0.153760314,
         "bodyMeshVuid": 5,
         "partRepositioning": true,
+        "collisionEnabled": false,
         "armourTechID": "rha"
       }
     },
@@ -1299,12 +1307,13 @@
       "id": 106,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": "Unnamed Structure",
         "description": null,
         "armourVolume": 0.0118884053,
         "bodyMeshVuid": 9,
         "partRepositioning": true,
+        "collisionEnabled": false,
         "armourTechID": "rha"
       }
     },
@@ -1312,12 +1321,13 @@
       "id": 32,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": "Unnamed Structure",
         "description": null,
         "armourVolume": 0.00217607431,
         "bodyMeshVuid": 2,
         "partRepositioning": true,
+        "collisionEnabled": false,
         "armourTechID": "rha"
       }
     },
@@ -1698,7 +1708,7 @@
       }
     },
     {
-      "id": 0,
+      "id": 5,
       "type": "paintJobRegister",
       "blueprint": {
         "v": "0.0",
@@ -1750,13 +1760,13 @@
         "mirrorVuid": 424,
         "pos": [
           0.332773775,
-          -0.149597287,
+          -0.149597168,
           1.855896
         ],
         "rot": [
           0.0,
           0.0,
-          1.58936131E-09,
+          0.0,
           0.0
         ],
         "scale": [
@@ -1779,13 +1789,13 @@
         "mirrorVuid": 421,
         "pos": [
           -0.332772762,
-          -0.149597049,
+          -0.149597168,
           1.855896
         ],
         "rot": [
           0.0,
           0.0,
-          1.58936131E-09,
+          0.0,
           0.0
         ],
         "scale": [
@@ -2096,7 +2106,7 @@
           0.191955566
         ],
         "rot": [
-          0.319283634,
+          0.319283664,
           -3.18060431E-14,
           -2.17018078E-05,
           0.0
@@ -2147,7 +2157,7 @@
         "pos": [
           0.0,
           0.0,
-          1.125
+          1.17500007
         ],
         "rot": [
           0.0,
@@ -2176,8 +2186,8 @@
           3.12463379
         ],
         "rot": [
-          0.361124247,
-          2.54449443E-14,
+          0.361124277,
+          3.180618E-14,
           -1.96348847E-05,
           0.0
         ],
@@ -2509,11 +2519,11 @@
         "mirrorVuid": -1,
         "pos": [
           0.56027174,
-          -1.08190906,
-          -0.465393
+          -1.08190918,
+          -0.465393066
         ],
         "rot": [
-          -2.82698857E-05,
+          -2.8269882E-05,
           314.999847,
           7.453542E-05,
           0.0
@@ -2539,12 +2549,12 @@
         "pos": [
           0.455050558,
           -0.9550171,
-          -0.00830078
+          -0.008300781
         ],
         "rot": [
           0.0,
           0.0,
-          1.58936131E-09,
+          0.0,
           0.0
         ],
         "scale": [
@@ -2568,10 +2578,10 @@
         "pos": [
           -0.3656803,
           -0.9550171,
-          -0.473846376
+          -0.473846436
         ],
         "rot": [
-          -2.006743E-06,
+          -2.00674322E-06,
           44.9999962,
           -8.123088E-06,
           0.0
@@ -3388,8 +3398,8 @@
             0.0,
             0.0,
             3.7252903E-08,
-            0.439,
-            -2.93099976,
+            0.439025879,
+            -2.93100023,
             -0.357738554,
             0.152323768,
             0.07159216,
@@ -3400,8 +3410,8 @@
             0.0,
             0.0,
             -3.7252903E-08,
-            0.439,
-            -2.93099976
+            0.439025879,
+            -2.93100023
           ],
           "portDirections": [
             0.0,
@@ -4215,7 +4225,7 @@
         "rot": [
           339.91806,
           180.0,
-          -4.33464571E-13,
+          -5.4183074E-13,
           0.0
         ],
         "scale": [
@@ -4300,9 +4310,9 @@
           3.81033325
         ],
         "rot": [
-          50.267128,
+          50.26713,
           178.845856,
-          -1.66958984E-07,
+          -1.25219231E-07,
           0.0
         ],
         "scale": [
@@ -4360,7 +4370,7 @@
         "rot": [
           339.91806,
           180.0,
-          -4.33464571E-13,
+          -5.4183074E-13,
           0.0
         ],
         "scale": [

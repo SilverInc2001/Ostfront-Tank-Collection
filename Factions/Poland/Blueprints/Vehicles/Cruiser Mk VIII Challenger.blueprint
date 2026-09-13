@@ -3,12 +3,12 @@
   "header": {
     "v": "0.2",
     "name": "Cruiser Mk VIII Challenger",
-    "gameVersion": "0.2.51.36",
-    "mass": 24820,
+    "gameVersion": "0.2.54.4",
+    "mass": 24827,
     "creationDate": "1945.01.17",
     "class": "",
     "desc": "",
-    "cost": 42175
+    "cost": 42217
   },
   "blueprints": [
     {
@@ -65,12 +65,13 @@
       "id": 4,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": null,
         "description": null,
         "armourVolume": 1.35360873,
         "bodyMeshVuid": 0,
         "partRepositioning": true,
+        "collisionEnabled": true,
         "armourTechID": "rha"
       }
     },
@@ -414,12 +415,13 @@
       "id": 46,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": "Unnamed Structure",
         "description": null,
         "armourVolume": 0.5386674,
         "bodyMeshVuid": 3,
         "partRepositioning": true,
+        "collisionEnabled": true,
         "armourTechID": "rha"
       }
     },
@@ -459,6 +461,11 @@
                 "t0": 55,
                 "t1": 50,
                 "l": 1125
+              },
+              {
+                "t0": 50,
+                "t1": 45,
+                "l": 50
               }
             ]
           },
@@ -538,12 +545,13 @@
       "id": 65,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": "Unnamed Structure",
         "description": null,
         "armourVolume": 0.06082135,
         "bodyMeshVuid": 5,
         "partRepositioning": true,
+        "collisionEnabled": false,
         "armourTechID": "rha"
       }
     },
@@ -887,12 +895,13 @@
       "id": 75,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": "Unnamed Structure",
         "description": null,
         "armourVolume": 0.001604503,
         "bodyMeshVuid": 7,
         "partRepositioning": true,
+        "collisionEnabled": false,
         "armourTechID": "rha"
       }
     },
@@ -1377,7 +1386,7 @@
       }
     },
     {
-      "id": 0,
+      "id": 5,
       "type": "paintJobRegister",
       "blueprint": {
         "v": "0.0",
@@ -1636,8 +1645,8 @@
             0.0,
             0.0,
             -2.23517418E-08,
-            0.434000015,
-            -3.26699829,
+            0.434021,
+            -3.2670002,
             -0.533676744,
             0.178467572,
             0.0838797539,
@@ -1648,8 +1657,8 @@
             0.0,
             0.0,
             2.23517418E-08,
-            0.434000015,
-            -3.26699829
+            0.434021,
+            -3.2670002
           ],
           "portDirections": [
             0.0,
@@ -2375,7 +2384,7 @@
         ],
         "rot": [
           359.577332,
-          -1.86228576E-07,
+          -1.8622859E-07,
           2.524535E-05,
           0.0
         ],
@@ -2397,7 +2406,7 @@
         "pos": [
           0.0,
           0.0,
-          1.125
+          1.17500007
         ],
         "rot": [
           0.0,
@@ -2423,10 +2432,10 @@
         "pos": [
           0.000802774,
           0.002073288,
-          3.059845
+          3.05983257
         ],
         "rot": [
-          0.361124128,
+          0.3611242,
           2.54449443E-14,
           -1.96348847E-05,
           0.0
@@ -2450,8 +2459,8 @@
         "mirrorVuid": 460,
         "pos": [
           0.364370584,
-          -0.454773068,
-          -0.81967175
+          -0.454772949,
+          -0.819671631
         ],
         "rot": [
           -1.74125248E-09,
@@ -2480,7 +2489,7 @@
         "pos": [
           -0.3643844,
           -0.454772949,
-          -0.81967175
+          -0.819671631
         ],
         "rot": [
           0.0,
@@ -2706,8 +2715,8 @@
         "mirrorVuid": 457,
         "pos": [
           -0.3782571,
-          -0.6726686,
-          -0.0932922438
+          -0.672668457,
+          -0.09329224
         ],
         "rot": [
           0.0,
@@ -2736,7 +2745,7 @@
         "pos": [
           0.3782504,
           -0.672668457,
-          -0.0932922438
+          -0.09329224
         ],
         "rot": [
           -1.74125248E-09,
@@ -2770,7 +2779,7 @@
         "rot": [
           0.0,
           0.0,
-          3.12661275E-09,
+          0.0,
           0.0
         ],
         "scale": [
@@ -3077,7 +3086,7 @@
         "rot": [
           344.237854,
           180.0,
-          -6.345262E-13,
+          -6.874033E-13,
           0.0
         ],
         "scale": [
@@ -3471,7 +3480,7 @@
         "rot": [
           344.237854,
           180.0,
-          -2.643859E-13,
+          -3.172631E-13,
           0.0
         ],
         "scale": [

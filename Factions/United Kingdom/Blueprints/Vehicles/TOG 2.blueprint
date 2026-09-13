@@ -3,12 +3,12 @@
   "header": {
     "v": "0.2",
     "name": "TOG 2",
-    "gameVersion": "0.2.52.3",
-    "mass": 58184,
+    "gameVersion": "0.2.54.4",
+    "mass": 59904,
     "creationDate": "1941.12.31",
     "class": "",
     "desc": "",
-    "cost": 61342
+    "cost": 61762
   },
   "blueprints": [
     {
@@ -58,7 +58,7 @@
         "description": null,
         "length": 6000,
         "width": 2000,
-        "groundClearance": 445
+        "groundClearance": 470
       }
     },
     {
@@ -311,7 +311,7 @@
         "description": null,
         "separation": 1147,
         "length": 6000,
-        "brake": 469605,
+        "brake": 479239,
         "autoBrake": true,
         "rollersEnabled": true,
         "matchChassis": false,
@@ -328,7 +328,7 @@
         "description": null,
         "segmentID": "dba848a2-e3b2-470d-aecf-897143bdb5cd",
         "x": 660,
-        "y": 100,
+        "y": 125,
         "z": 165,
         "pitch": 165,
         "tension": 5000
@@ -1915,7 +1915,7 @@
       }
     },
     {
-      "id": 0,
+      "id": 5,
       "type": "paintJobRegister",
       "blueprint": {
         "v": "0.0",
@@ -3050,7 +3050,7 @@
         "rot": [
           -5.20337373E-08,
           344.999969,
-          1.35780267E-08,
+          1.35780285E-08,
           0.0
         ],
         "scale": [
@@ -3333,7 +3333,7 @@
         "rot": [
           -5.20337373E-08,
           344.999969,
-          1.35780267E-08,
+          1.35780285E-08,
           0.0
         ],
         "scale": [

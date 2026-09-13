@@ -3,12 +3,12 @@
   "header": {
     "v": "0.2",
     "name": "Churchill Mk.IV QF-75",
-    "gameVersion": "0.2.51.36",
-    "mass": 40300,
+    "gameVersion": "0.2.54.4",
+    "mass": 40189,
     "creationDate": "1945.09.02",
     "class": "",
     "desc": "",
-    "cost": 49494
+    "cost": 49224
   },
   "blueprints": [
     {
@@ -65,12 +65,13 @@
       "id": 4,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": null,
         "description": null,
         "armourVolume": 2.918471,
         "bodyMeshVuid": 0,
         "partRepositioning": false,
+        "collisionEnabled": true,
         "armourTechID": "rha"
       }
     },
@@ -413,12 +414,13 @@
       "id": 43,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": "Unnamed Structure",
         "description": null,
         "armourVolume": 0.676469147,
         "bodyMeshVuid": 3,
         "partRepositioning": true,
+        "collisionEnabled": true,
         "armourTechID": "rha"
       }
     },
@@ -470,7 +472,7 @@
       "type": "cannon",
       "blueprint": {
         "v": "1.9",
-        "name": "OQF 75 mm",
+        "name": "QF 75 mm",
         "description": "",
         "caliber": 75,
         "breechLength": 350,
@@ -480,14 +482,9 @@
             "v": "0.0",
             "segments": [
               {
-                "t0": 46,
-                "t1": 46,
-                "l": 500
-              },
-              {
-                "t0": 46,
-                "t1": 36,
-                "l": 250
+                "t0": 35,
+                "t1": 35,
+                "l": 400
               }
             ]
           },
@@ -495,9 +492,19 @@
             "v": "0.0",
             "segments": [
               {
-                "t0": 31,
-                "t1": 26,
-                "l": 2250
+                "t0": 30,
+                "t1": 30,
+                "l": 260
+              },
+              {
+                "t0": 30,
+                "t1": 20,
+                "l": 160
+              },
+              {
+                "t0": 20,
+                "t1": 18,
+                "l": 1880
               }
             ]
           }
@@ -542,12 +549,13 @@
       "id": 49,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": "Unnamed Structure",
         "description": null,
         "armourVolume": 0.0363581777,
         "bodyMeshVuid": 5,
         "partRepositioning": true,
+        "collisionEnabled": false,
         "armourTechID": "rha"
       }
     },
@@ -1362,12 +1370,13 @@
       "id": 106,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": "Unnamed Structure",
         "description": null,
         "armourVolume": 0.008567678,
         "bodyMeshVuid": 9,
         "partRepositioning": true,
+        "collisionEnabled": false,
         "armourTechID": "rha"
       }
     },
@@ -1375,12 +1384,13 @@
       "id": 32,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": "Unnamed Structure",
         "description": null,
         "armourVolume": 0.00267395633,
         "bodyMeshVuid": 6,
         "partRepositioning": true,
+        "collisionEnabled": false,
         "armourTechID": "rha"
       }
     },
@@ -1388,12 +1398,13 @@
       "id": 31,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": "Unnamed Structure",
         "description": null,
         "armourVolume": 0.00106380484,
         "bodyMeshVuid": 2,
         "partRepositioning": true,
+        "collisionEnabled": false,
         "armourTechID": "rha"
       }
     },
@@ -1440,12 +1451,13 @@
       "id": 82,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": "Unnamed Structure",
         "description": null,
         "armourVolume": 0.084913075,
         "bodyMeshVuid": 7,
         "partRepositioning": true,
+        "collisionEnabled": false,
         "armourTechID": "rha"
       }
     },
@@ -1473,7 +1485,7 @@
       }
     },
     {
-      "id": 0,
+      "id": 5,
       "type": "paintJobRegister",
       "blueprint": {
         "v": "0.0",
@@ -2455,8 +2467,8 @@
             0.0,
             0.0,
             -2.23517418E-08,
-            0.312000036,
-            -3.11801147,
+            0.312011719,
+            -3.11800027,
             -0.7665826,
             0.1306796,
             0.0614194125,
@@ -2467,8 +2479,8 @@
             0.0,
             0.0,
             2.23517418E-08,
-            0.312000036,
-            -3.11801147
+            0.312011719,
+            -3.11800027
           ],
           "portDirections": [
             0.0,
@@ -2691,7 +2703,7 @@
         "mirrorVuid": -1,
         "pos": [
           0.0,
-          0.8714832,
+          0.8333689,
           0.3222046
         ],
         "rot": [
@@ -2770,13 +2782,13 @@
       "guid": "222f379f-f58c-4e09-9d8b-e81de7acab48",
       "vuid": 400,
       "pvuid": 398,
-      "flags": 3,
+      "flags": 2,
       "mantlet": 401,
       "transform": {
         "mirrorVuid": -1,
         "pos": [
-          -0.0041916417,
-          0.308442444,
+          0.001925651,
+          0.35959062,
           0.90448
         ],
         "rot": [
@@ -2853,78 +2865,22 @@
       }
     },
     {
-      "guid": "bfa86d1e-41ab-43fa-92f8-ef29e1e52c00",
-      "vuid": 408,
-      "pvuid": 405,
-      "flags": 2,
-      "cannon": 409,
-      "breech": 410,
-      "breechModel": 411,
-      "transform": {
-        "mirrorVuid": -1,
-        "pos": [
-          0.04525443,
-          0.0107862949,
-          -0.25
-        ],
-        "rot": [
-          0.0,
-          0.0,
-          0.0,
-          0.0
-        ],
-        "scale": [
-          1.0,
-          1.0,
-          1.0
-        ]
-      },
-      "cannonBlueprintVuid": 47,
-      "cannonInstanceBlueprintVuid": 46
-    },
-    {
-      "guid": "c56166b7-89f3-4791-9a22-a9c3c8e8ce16",
-      "vuid": 412,
-      "pvuid": 408,
-      "flags": 2,
-      "cannonBarrelSegment": 413,
-      "transform": {
-        "mirrorVuid": -1,
-        "pos": [
-          0.0,
-          0.0,
-          0.0
-        ],
-        "rot": [
-          0.0,
-          0.0,
-          0.0,
-          0.0
-        ],
-        "scale": [
-          1.0,
-          1.0,
-          1.0
-        ]
-      }
-    },
-    {
       "guid": "8f8a9d20-eb45-482e-b149-014c964c4e2c",
       "vuid": 416,
-      "pvuid": 412,
-      "flags": 3,
+      "pvuid": 405,
+      "flags": 2,
       "plateStructure": 417,
       "transform": {
         "mirrorVuid": -1,
         "pos": [
-          -0.04228127,
-          0.05422616,
-          0.272888184
+          0.0,
+          0.0,
+          0.00268554688
         ],
         "rot": [
-          0.319283724,
-          1.27224162E-14,
-          -2.17018078E-05,
+          0.0,
+          0.0,
+          0.0,
           0.0
         ],
         "scale": [
@@ -3019,6 +2975,62 @@
       "decalBlueprintVuid": 67
     },
     {
+      "guid": "bfa86d1e-41ab-43fa-92f8-ef29e1e52c00",
+      "vuid": 408,
+      "pvuid": 405,
+      "flags": 2,
+      "cannon": 409,
+      "breech": 410,
+      "breechModel": 411,
+      "transform": {
+        "mirrorVuid": -1,
+        "pos": [
+          0.0426468737,
+          -0.0505666733,
+          -0.427368164
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "cannonBlueprintVuid": 47,
+      "cannonInstanceBlueprintVuid": 46
+    },
+    {
+      "guid": "c56166b7-89f3-4791-9a22-a9c3c8e8ce16",
+      "vuid": 412,
+      "pvuid": 408,
+      "flags": 2,
+      "cannonBarrelSegment": 413,
+      "transform": {
+        "mirrorVuid": -1,
+        "pos": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
       "guid": "c56166b7-89f3-4791-9a22-a9c3c8e8ce16",
       "vuid": 343,
       "pvuid": 412,
@@ -3029,7 +3041,7 @@
         "pos": [
           0.0,
           0.0,
-          0.75000006
+          0.4
         ],
         "rot": [
           0.0,

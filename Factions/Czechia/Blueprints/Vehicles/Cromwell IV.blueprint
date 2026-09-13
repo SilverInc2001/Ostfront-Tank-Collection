@@ -1134,7 +1134,7 @@
         "v": "0.3",
         "name": null,
         "description": null,
-        "imageURL": "Sprocket/Decals/HQ Armoured Regiment.png"
+        "imageURL": "Sprocket/Decals/Third Armoured Regiment.png"
       }
     },
     {
@@ -1249,7 +1249,7 @@
         "v": "0.3",
         "name": null,
         "description": null,
-        "imageURL": "Sprocket/Decals/HQ Armoured Regiment.png"
+        "imageURL": "Sprocket/Decals/Third Armoured Regiment.png"
       }
     },
     {
@@ -1391,7 +1391,7 @@
       }
     },
     {
-      "id": 0,
+      "id": 5,
       "type": "paintJobRegister",
       "blueprint": {
         "v": "0.0",
@@ -1650,8 +1650,8 @@
             0.0,
             0.0,
             3.7252903E-08,
-            0.317993164,
-            -2.73,
+            0.317999959,
+            -2.730011,
             -0.533676744,
             0.178467572,
             0.0838797539,
@@ -1662,8 +1662,8 @@
             0.0,
             0.0,
             -3.7252903E-08,
-            0.317993164,
-            -2.73
+            0.317999959,
+            -2.730011
           ],
           "portDirections": [
             0.0,
@@ -2387,9 +2387,9 @@
           0.227508545
         ],
         "rot": [
-          0.80787915,
-          -6.23450673E-13,
-          -2.40759618E-05,
+          0.8078792,
+          -6.36174165E-13,
+          -2.40759637E-05,
           0.0
         ],
         "scale": [
@@ -2779,7 +2779,7 @@
           -0.102539063
         ],
         "rot": [
-          2.6634515E-08,
+          2.66345186E-08,
           29.9999943,
           3.683986E-09,
           0.0
@@ -3229,7 +3229,7 @@
         "rot": [
           344.487946,
           180.0,
-          1.05625231E-12,
+          1.16187767E-12,
           0.0
         ],
         "scale": [

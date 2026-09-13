@@ -3,12 +3,12 @@
   "header": {
     "v": "0.2",
     "name": "Centurion Mk.I",
-    "gameVersion": "0.2.51.36",
-    "mass": 40554,
+    "gameVersion": "0.2.54.4",
+    "mass": 40561,
     "creationDate": "1945.09.02",
     "class": "",
     "desc": "",
-    "cost": 65121
+    "cost": 65163
   },
   "blueprints": [
     {
@@ -65,12 +65,13 @@
       "id": 4,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": null,
         "description": null,
         "armourVolume": 2.24396825,
         "bodyMeshVuid": 0,
         "partRepositioning": true,
+        "collisionEnabled": true,
         "armourTechID": "rha"
       }
     },
@@ -415,12 +416,13 @@
       "id": 45,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": "Unnamed Structure",
         "description": null,
         "armourVolume": 1.06324279,
         "bodyMeshVuid": 1,
         "partRepositioning": true,
+        "collisionEnabled": true,
         "armourTechID": "rha"
       }
     },
@@ -478,12 +480,13 @@
       "id": 49,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": "Unnamed Structure",
         "description": null,
         "armourVolume": 0.0191179719,
         "bodyMeshVuid": 3,
         "partRepositioning": true,
+        "collisionEnabled": false,
         "armourTechID": "rha"
       }
     },
@@ -516,12 +519,13 @@
       "id": 52,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": "Unnamed Structure",
         "description": null,
         "armourVolume": 0.07148549,
         "bodyMeshVuid": 5,
         "partRepositioning": true,
+        "collisionEnabled": false,
         "armourTechID": "rha"
       }
     },
@@ -561,6 +565,11 @@
                 "t0": 55,
                 "t1": 50,
                 "l": 1125
+              },
+              {
+                "t0": 50,
+                "t1": 45,
+                "l": 50
               }
             ]
           },
@@ -615,12 +624,13 @@
       "id": 57,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": "Unnamed Structure",
         "description": null,
         "armourVolume": 0.00217607431,
         "bodyMeshVuid": 7,
         "partRepositioning": true,
+        "collisionEnabled": false,
         "armourTechID": "rha"
       }
     },
@@ -2406,9 +2416,9 @@
           0.128997833
         ],
         "rot": [
-          -1.23247466E-08,
+          -1.23247457E-08,
           224.999985,
-          -5.10507547E-09,
+          -5.105075E-09,
           0.0
         ],
         "scale": [
@@ -3223,7 +3233,7 @@
         "pos": [
           0.0,
           0.0,
-          1.125
+          1.17500007
         ],
         "rot": [
           0.0,
@@ -3248,11 +3258,11 @@
         "mirrorVuid": -1,
         "pos": [
           -0.001030884,
-          -0.00106337667,
-          3.09707785
+          -0.00124529,
+          3.12590456
         ],
         "rot": [
-          0.361124545,
+          0.361124635,
           1.733564E-10,
           -1.96294131E-05,
           0.0
@@ -4181,9 +4191,9 @@
           -3.67498779
         ],
         "rot": [
-          0.95892334,
+          0.9589236,
           357.898834,
-          -2.001312E-08,
+          -2.16808811E-08,
           0.0
         ],
         "scale": [

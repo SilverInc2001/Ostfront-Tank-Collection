@@ -3,12 +3,12 @@
   "header": {
     "v": "0.2",
     "name": "Churchill Mk.IV",
-    "gameVersion": "0.2.51.36",
-    "mass": 39485,
+    "gameVersion": "0.2.54.4",
+    "mass": 39513,
     "creationDate": "1943.12.31",
     "class": "",
     "desc": "",
-    "cost": 48085
+    "cost": 48092
   },
   "blueprints": [
     {
@@ -65,12 +65,13 @@
       "id": 4,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": null,
         "description": null,
         "armourVolume": 2.918471,
         "bodyMeshVuid": 0,
         "partRepositioning": false,
+        "collisionEnabled": true,
         "armourTechID": "rha"
       }
     },
@@ -413,12 +414,13 @@
       "id": 43,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": "Unnamed Structure",
         "description": null,
         "armourVolume": 0.676469147,
         "bodyMeshVuid": 3,
         "partRepositioning": true,
+        "collisionEnabled": true,
         "armourTechID": "rha"
       }
     },
@@ -496,7 +498,7 @@
             "segments": [
               {
                 "t0": 35,
-                "t1": 19,
+                "t1": 30,
                 "l": 1840
               }
             ]
@@ -542,12 +544,13 @@
       "id": 49,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": "Unnamed Structure",
         "description": null,
         "armourVolume": 0.0465629473,
         "bodyMeshVuid": 5,
         "partRepositioning": true,
+        "collisionEnabled": false,
         "armourTechID": "rha"
       }
     },
@@ -1362,12 +1365,13 @@
       "id": 106,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": "Unnamed Structure",
         "description": null,
         "armourVolume": 0.008567678,
         "bodyMeshVuid": 9,
         "partRepositioning": true,
+        "collisionEnabled": false,
         "armourTechID": "rha"
       }
     },
@@ -1375,12 +1379,13 @@
       "id": 32,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": "Unnamed Structure",
         "description": null,
         "armourVolume": 0.00267395633,
         "bodyMeshVuid": 6,
         "partRepositioning": true,
+        "collisionEnabled": false,
         "armourTechID": "rha"
       }
     },
@@ -1388,12 +1393,13 @@
       "id": 31,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": "Unnamed Structure",
         "description": null,
         "armourVolume": 0.000414548151,
         "bodyMeshVuid": 2,
         "partRepositioning": true,
+        "collisionEnabled": false,
         "armourTechID": "rha"
       }
     },
@@ -1401,12 +1407,13 @@
       "id": 33,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": "Unnamed Structure",
         "description": null,
         "armourVolume": 0.00335729169,
         "bodyMeshVuid": 4,
         "partRepositioning": true,
+        "collisionEnabled": false,
         "armourTechID": "rha"
       }
     },
@@ -1450,7 +1457,7 @@
       }
     },
     {
-      "id": 0,
+      "id": 5,
       "type": "paintJobRegister",
       "blueprint": {
         "v": "0.0",
@@ -1502,13 +1509,13 @@
         "mirrorVuid": 424,
         "pos": [
           0.332771271,
-          -0.296020627,
+          -0.2960205,
           1.74597168
         ],
         "rot": [
           0.0,
           0.0,
-          -5.341296E-10,
+          0.0,
           0.0
         ],
         "scale": [
@@ -1537,7 +1544,7 @@
         "rot": [
           0.0,
           0.0,
-          -5.341296E-10,
+          0.0,
           0.0
         ],
         "scale": [
@@ -2490,8 +2497,8 @@
             0.0,
             0.0,
             -2.23517418E-08,
-            0.312000036,
-            -3.11801147,
+            0.312011719,
+            -3.11800027,
             -0.76017046,
             0.130194709,
             0.0611915141,
@@ -2502,8 +2509,8 @@
             0.0,
             0.0,
             2.23517418E-08,
-            0.312000036,
-            -3.11801147
+            0.312011719,
+            -3.11800027
           ],
           "portDirections": [
             0.0,
@@ -2957,7 +2964,7 @@
           0.748504639
         ],
         "rot": [
-          0.319283783,
+          0.3192838,
           1.27224162E-14,
           -2.17018078E-05,
           0.0
@@ -3344,10 +3351,10 @@
         "pos": [
           0.494176984,
           -1.12866211,
-          -0.5314942
+          -0.531494141
         ],
         "rot": [
-          -3.076894E-05,
+          -3.07689443E-05,
           314.999756,
           7.742608E-05,
           0.0
@@ -3373,12 +3380,12 @@
         "pos": [
           -0.200984508,
           -0.738098145,
-          -0.008270265
+          -0.008270264
         ],
         "rot": [
           0.0,
           0.0,
-          -5.341296E-10,
+          0.0,
           0.0
         ],
         "scale": [
@@ -3401,8 +3408,8 @@
         "mirrorVuid": -1,
         "pos": [
           -0.365692675,
-          -0.7791749,
-          -0.4738465
+          -0.7791748,
+          -0.473846436
         ],
         "rot": [
           -1.2324743E-08,

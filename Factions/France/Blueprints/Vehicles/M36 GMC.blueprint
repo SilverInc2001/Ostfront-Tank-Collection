@@ -3,12 +3,12 @@
   "header": {
     "v": "0.2",
     "name": "M36 GMC",
-    "gameVersion": "0.2.51.36",
-    "mass": 25764,
+    "gameVersion": "0.2.54.4",
+    "mass": 25688,
     "creationDate": "1945.01.17",
     "class": "",
     "desc": "",
-    "cost": 49081
+    "cost": 49200
   },
   "blueprints": [
     {
@@ -65,12 +65,13 @@
       "id": 4,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": null,
         "description": null,
         "armourVolume": 1.43659246,
         "bodyMeshVuid": 0,
         "partRepositioning": true,
+        "collisionEnabled": true,
         "armourTechID": "rha"
       }
     },
@@ -398,12 +399,13 @@
       "id": 50,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": "Unnamed Structure",
         "description": null,
         "armourVolume": 0.446416229,
         "bodyMeshVuid": 3,
         "partRepositioning": true,
+        "collisionEnabled": true,
         "armourTechID": "rha"
       }
     },
@@ -455,11 +457,11 @@
       "type": "cannon",
       "blueprint": {
         "v": "1.9",
-        "name": "Ordnance QF 17-pounder",
-        "description": null,
+        "name": "90 mm Gun M3",
+        "description": "",
         "caliber": 90,
         "breechLength": 600,
-        "muzzle": "34c1eda8-bcff-4879-89df-1e826cce8b51",
+        "muzzle": "",
         "segments": [
           {
             "v": "0.0",
@@ -467,7 +469,7 @@
               {
                 "t0": 70,
                 "t1": 60,
-                "l": 800
+                "l": 720
               }
             ]
           },
@@ -475,9 +477,14 @@
             "v": "0.0",
             "segments": [
               {
-                "t0": 60,
-                "t1": 27,
-                "l": 3800
+                "t0": 55,
+                "t1": 45,
+                "l": 450
+              },
+              {
+                "t0": 45,
+                "t1": 29,
+                "l": 3600
               }
             ]
           }
@@ -493,8 +500,8 @@
       "type": "shellSlot",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "diameter": 90,
         "propellantLength": 600,
         "generatedProjectiles": [
@@ -522,12 +529,13 @@
       "id": 62,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": "Unnamed Structure",
         "description": null,
         "armourVolume": 0.0006459113,
         "bodyMeshVuid": 5,
         "partRepositioning": true,
+        "collisionEnabled": false,
         "armourTechID": "rha"
       }
     },
@@ -535,12 +543,13 @@
       "id": 63,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": "Unnamed Structure",
         "description": null,
         "armourVolume": 0.13276805,
         "bodyMeshVuid": 7,
         "partRepositioning": true,
+        "collisionEnabled": false,
         "armourTechID": "rha"
       }
     },
@@ -1109,12 +1118,13 @@
       "id": 111,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": "Unnamed Structure",
         "description": null,
         "armourVolume": 0.00167184218,
         "bodyMeshVuid": 2,
         "partRepositioning": true,
+        "collisionEnabled": false,
         "armourTechID": "rha"
       }
     },
@@ -1122,12 +1132,13 @@
       "id": 112,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": "Unnamed Structure",
         "description": null,
         "armourVolume": 0.002574601,
         "bodyMeshVuid": 6,
         "partRepositioning": true,
+        "collisionEnabled": false,
         "armourTechID": "rha"
       }
     },
@@ -1275,12 +1286,13 @@
       "id": 67,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": "Unnamed Structure",
         "description": null,
         "armourVolume": 0.020608753,
         "bodyMeshVuid": 9,
         "partRepositioning": true,
+        "collisionEnabled": false,
         "armourTechID": "rha"
       }
     },
@@ -1400,7 +1412,7 @@
       }
     },
     {
-      "id": 0,
+      "id": 5,
       "type": "paintJobRegister",
       "blueprint": {
         "v": "0.0",
@@ -2368,9 +2380,9 @@
           0.2437439
         ],
         "rot": [
-          28.1275959,
+          28.1275978,
           179.943665,
-          9.454171E-10,
+          1.89083416E-09,
           0.0
         ],
         "scale": [
@@ -2449,7 +2461,7 @@
         "pos": [
           0.0,
           0.0,
-          0.8
+          0.72
         ],
         "rot": [
           0.0,
@@ -2475,7 +2487,7 @@
         "pos": [
           -0.00209995313,
           0.0007965565,
-          3.71181035
+          3.93826413
         ],
         "rot": [
           0.0,
@@ -2701,9 +2713,9 @@
           -0.463104248
         ],
         "rot": [
-          -9.676566E-06,
+          -9.676567E-06,
           329.999969,
-          -2.59282456E-06,
+          -2.59282433E-06,
           0.0
         ],
         "scale": [
@@ -2783,7 +2795,7 @@
         "pos": [
           -0.662201166,
           -0.517944336,
-          -0.2958985
+          -0.295898438
         ],
         "rot": [
           1.51423052E-07,
@@ -2812,12 +2824,12 @@
         "pos": [
           0.4860927,
           -0.6281738,
-          -0.0485839956
+          -0.0485839844
         ],
         "rot": [
           0.0,
           0.0,
-          1.98018779E-09,
+          0.0,
           0.0
         ],
         "scale": [
@@ -2841,12 +2853,12 @@
         "pos": [
           0.507402,
           -0.488647461,
-          -0.5770265
+          -0.577026367
         ],
         "rot": [
           -3.161612E-07,
           330.0,
-          5.70935477E-08,
+          5.709355E-08,
           0.0
         ],
         "scale": [
@@ -3043,7 +3055,7 @@
         "rot": [
           0.0,
           0.0,
-          1.98018779E-09,
+          0.0,
           0.0
         ],
         "scale": [
@@ -3072,7 +3084,7 @@
         "rot": [
           0.0,
           0.0,
-          1.98018779E-09,
+          0.0,
           0.0
         ],
         "scale": [
@@ -3576,9 +3588,9 @@
           2.195221
         ],
         "rot": [
-          54.9173622,
+          54.91737,
           179.999954,
-          0.0,
+          -2.83327225E-12,
           0.0
         ],
         "scale": [
@@ -3636,7 +3648,7 @@
         "rot": [
           36.90027,
           269.999817,
-          -2.13528328E-05,
+          -1.92175485E-05,
           0.0
         ],
         "scale": [

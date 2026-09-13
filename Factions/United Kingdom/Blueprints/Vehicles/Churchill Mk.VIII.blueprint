@@ -3,7 +3,7 @@
   "header": {
     "v": "0.2",
     "name": "Churchill Mk.VIII",
-    "gameVersion": "0.2.52.3",
+    "gameVersion": "0.2.54.4",
     "mass": 42935,
     "creationDate": "1945.09.02",
     "class": "",
@@ -1447,7 +1447,7 @@
       }
     },
     {
-      "id": 0,
+      "id": 5,
       "type": "paintJobRegister",
       "blueprint": {
         "v": "0.0",
@@ -1457,6 +1457,29 @@
           1,
           2
         ]
+      }
+    },
+    {
+      "id": 71,
+      "type": "decalTransform",
+      "blueprint": {
+        "v": "0.0",
+        "name": null,
+        "description": null,
+        "x": 62,
+        "y": 62,
+        "z": 25,
+        "flags": 0
+      }
+    },
+    {
+      "id": 72,
+      "type": "decal",
+      "blueprint": {
+        "v": "0.3",
+        "name": null,
+        "description": null,
+        "imageURL": "Sprocket/Decals/Black Circle.png"
       }
     }
   ],
@@ -2345,8 +2368,8 @@
             0.0,
             0.0,
             -2.23517418E-08,
-            0.312000036,
-            -3.11801147,
+            0.312011719,
+            -3.11800027,
             -0.278537869,
             0.146893024,
             0.06903972,
@@ -2357,8 +2380,8 @@
             0.0,
             0.0,
             2.23517418E-08,
-            0.312000036,
-            -3.11801147
+            0.312011719,
+            -3.11800027
           ],
           "portDirections": [
             0.0,
@@ -3130,6 +3153,35 @@
         ]
       },
       "structureBlueprintVuid": 32
+    },
+    {
+      "guid": "e59ff736-a6ea-4a1a-a4c5-6437ed15b872",
+      "vuid": 455,
+      "pvuid": 416,
+      "flags": 3,
+      "decalScaler": 456,
+      "projectedDecal": 457,
+      "transform": {
+        "mirrorVuid": -1,
+        "pos": [
+          0.242989153,
+          -0.0651650652,
+          0.103271484
+        ],
+        "rot": [
+          0.00218002847,
+          179.978256,
+          180.0,
+          0.0
+        ],
+        "scale": [
+          0.0620000027,
+          0.0620000027,
+          0.025
+        ]
+      },
+      "decalProjectionBlueprintVuid": 71,
+      "decalBlueprintVuid": 72
     },
     {
       "guid": "bfa86d1e-41ab-43fa-92f8-ef29e1e52c00",
