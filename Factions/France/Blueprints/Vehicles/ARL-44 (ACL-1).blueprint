@@ -3,7 +3,7 @@
   "header": {
     "v": "0.2",
     "name": "ARL-44 (ACL-1)",
-    "gameVersion": "0.2.51.36",
+    "gameVersion": "0.2.54.4",
     "mass": 49607,
     "creationDate": "1945.09.02",
     "class": "",
@@ -65,12 +65,13 @@
       "id": 4,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": null,
         "description": null,
         "armourVolume": 3.70990944,
         "bodyMeshVuid": 0,
         "partRepositioning": true,
+        "collisionEnabled": true,
         "armourTechID": "rha"
       }
     },
@@ -418,12 +419,13 @@
       "id": 78,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": "Unnamed Structure",
         "description": null,
         "armourVolume": 0.731305957,
         "bodyMeshVuid": 3,
         "partRepositioning": true,
+        "collisionEnabled": true,
         "armourTechID": "rha"
       }
     },
@@ -456,12 +458,13 @@
       "id": 82,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": "Unnamed Structure",
         "description": null,
         "armourVolume": 0.0722927451,
         "bodyMeshVuid": 5,
         "partRepositioning": true,
+        "collisionEnabled": false,
         "armourTechID": "rha"
       }
     },
@@ -833,12 +836,13 @@
       "id": 42,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": "Unnamed Structure",
         "description": null,
         "armourVolume": 0.000655139,
         "bodyMeshVuid": 2,
         "partRepositioning": true,
+        "collisionEnabled": false,
         "armourTechID": "rha"
       }
     },
@@ -1221,12 +1225,13 @@
       "id": 44,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": "Unnamed Structure",
         "description": null,
         "armourVolume": 0.000655139,
         "bodyMeshVuid": 2,
         "partRepositioning": true,
+        "collisionEnabled": false,
         "armourTechID": "rha"
       }
     },
@@ -1438,19 +1443,6 @@
       }
     },
     {
-      "id": 5,
-      "type": "paintJobRegister",
-      "blueprint": {
-        "v": "0.0",
-        "name": null,
-        "description": null,
-        "paintJobIDs": [
-          1,
-          2
-        ]
-      }
-    },
-    {
       "id": 67,
       "type": "decalTransform",
       "blueprint": {
@@ -1494,6 +1486,19 @@
         "name": null,
         "description": null,
         "imageURL": "Sprocket/Decals/Century White 2.png"
+      }
+    },
+    {
+      "id": 0,
+      "type": "paintJobRegister",
+      "blueprint": {
+        "v": "0.0",
+        "name": null,
+        "description": null,
+        "paintJobIDs": [
+          1,
+          2
+        ]
       }
     }
   ],
@@ -1743,8 +1748,8 @@
             0.0,
             0.0,
             -2.23517418E-08,
-            0.200000048,
-            -2.29998779,
+            0.2000122,
+            -2.30000019,
             -0.7583232,
             0.137461841,
             0.06460706,
@@ -1755,8 +1760,8 @@
             0.0,
             0.0,
             2.23517418E-08,
-            0.200000048,
-            -2.29998779
+            0.2000122,
+            -2.30000019
           ],
           "portDirections": [
             0.0,
@@ -2761,9 +2766,9 @@
           -1.47766113
         ],
         "rot": [
-          14.8377514,
+          14.8377542,
           86.2904053,
-          2.64967434E-06,
+          1.7664496E-06,
           0.0
         ],
         "scale": [
@@ -2790,9 +2795,9 @@
           -1.47766113
         ],
         "rot": [
-          14.8377542,
+          14.8377562,
           273.7096,
-          -3.5328992E-06,
+          -4.41612428E-06,
           0.0
         ],
         "scale": [
@@ -2874,7 +2879,7 @@
         "pos": [
           -0.724319935,
           -0.9580078,
-          -0.196075484
+          -0.196075439
         ],
         "rot": [
           0.0,
@@ -2903,7 +2908,7 @@
         "pos": [
           0.722197056,
           -0.9580078,
-          0.200653121
+          0.200653076
         ],
         "rot": [
           0.0,
@@ -2931,8 +2936,8 @@
         "mirrorVuid": -1,
         "pos": [
           0.5413599,
-          -0.958007932,
-          -0.689727962
+          -0.9580078,
+          -0.6897278
         ],
         "rot": [
           1.72635162E-09,
@@ -3096,14 +3101,14 @@
       "transform": {
         "mirrorVuid": 461,
         "pos": [
-          -0.4373422,
+          -0.437342167,
           -0.1329956,
           1.53866577
         ],
         "rot": [
           0.0,
           0.0,
-          4.689919E-10,
+          0.0,
           0.0
         ],
         "scale": [
@@ -3132,7 +3137,7 @@
         "rot": [
           0.0,
           0.0,
-          4.689919E-10,
+          0.0,
           0.0
         ],
         "scale": [
@@ -3358,7 +3363,7 @@
         "rot": [
           4.08532238,
           180.0,
-          1.53055533E-13,
+          1.65810155E-13,
           0.0
         ],
         "scale": [
@@ -3638,9 +3643,9 @@
           0.8709717
         ],
         "rot": [
-          0.000285747374,
+          0.0002857474,
           270.078369,
-          -1.56330615E-10,
+          -1.43303064E-10,
           0.0
         ],
         "scale": [
@@ -3754,9 +3759,9 @@
           -1.324708
         ],
         "rot": [
-          0.06900201,
+          0.06900202,
           90.00006,
-          0.04608172,
+          0.0460817181,
           0.0
         ],
         "scale": [
@@ -3794,6 +3799,87 @@
       },
       "decalProjectionBlueprintVuid": 40,
       "decalBlueprintVuid": 87
+    },
+    {
+      "guid": "8bdfa0e2-21f3-4d68-ac8e-eba4b481de15",
+      "vuid": 533,
+      "pvuid": 0,
+      "flags": 3,
+      "exhaust": 534,
+      "model": 535,
+      "transform": {
+        "mirrorVuid": -1,
+        "pos": [
+          -1.43718815,
+          0.9309976,
+          -2.95926571
+        ],
+        "rot": [
+          332.56015,
+          -5.64392667E-06,
+          2.60081674E-06,
+          0.0
+        ],
+        "scale": [
+          0.5,
+          0.5,
+          0.5
+        ]
+      }
+    },
+    {
+      "guid": "8bdfa0e2-21f3-4d68-ac8e-eba4b481de15",
+      "vuid": 542,
+      "pvuid": 0,
+      "flags": 3,
+      "exhaust": 543,
+      "model": 544,
+      "transform": {
+        "mirrorVuid": -1,
+        "pos": [
+          -1.28508711,
+          0.9286938,
+          -2.9637022
+        ],
+        "rot": [
+          332.56015,
+          -5.643927E-06,
+          2.60081674E-06,
+          0.0
+        ],
+        "scale": [
+          0.5,
+          0.5,
+          0.5
+        ]
+      }
+    },
+    {
+      "guid": "8bdfa0e2-21f3-4d68-ac8e-eba4b481de15",
+      "vuid": 570,
+      "pvuid": 0,
+      "flags": 3,
+      "exhaust": 571,
+      "model": 572,
+      "transform": {
+        "mirrorVuid": -1,
+        "pos": [
+          -1.13298035,
+          0.929256439,
+          -2.96261883
+        ],
+        "rot": [
+          332.56015,
+          -5.643927E-06,
+          2.60081674E-06,
+          0.0
+        ],
+        "scale": [
+          0.5,
+          0.5,
+          0.5
+        ]
+      }
     }
   ],
   "meshes": [
