@@ -35,6 +35,7 @@ You can join using this link: https://discord.gg/RDAaC5jg
 | M5 High-Speed Tractor                | Armoured Carrier | USA, SU                                  |
 | Citroën 7 Traction Avant             | Car              | France, Germany, UK                      |
 | 10 cm M14 FH                         | Field Gun        | Czechia, Germany, Hungary, Italy, Poland |
+| 105 mm Armata wz. 29                 | Field Gun        | Finland, Germany, Poland                 |
 | 25mm Hotchkiss anti-tank gun         | Field Gun        | Finland, France, Germany, Italy, UK      |
 | 3.7 cm Pak 36                        | Field Gun        | Finland, Germany, Hungary, Italy         |
 | 37mm 1-K M1930                       | Field Gun        | SU                                       |
@@ -70,6 +71,7 @@ You can join using this link: https://discord.gg/RDAaC5jg
 | Churchill Mk.VII Crocodile           | Heavy            | UK                                       |
 | Churchill Mk.VIII                    | Heavy            | UK                                       |
 | DW II                                | Heavy            | Germany                                  |
+| Excelsior (A33)                      | Heavy            | UK                                       |
 | Ferdinand Sd.Kfz. 184                | Heavy            | Germany                                  |
 | I-O                                  | Heavy            | Japan                                    |
 | IS-1 (1943)                          | Heavy            | SU                                       |
@@ -212,6 +214,7 @@ You can join using this link: https://discord.gg/RDAaC5jg
 | M4 Sherman I (Late)                  | Medium           | France, Poland, UK, USA                  |
 | M4 Sherman I (Up-armoured)           | Medium           | UK, USA                                  |
 | M4 Sherman Ib (105)                  | Medium           | France, UK, USA                          |
+| M4 Sherman IC Firefly                | Medium           | Czechia, Poland, UK                      |
 | M4A1 Sherman II (DV)                 | Medium           | France, UK, USA                          |
 | M4A1 Sherman II (Late)               | Medium           | France, UK, USA                          |
 | M4A1 Sherman II (Mid)                | Medium           | France, Germany, Poland, UK, USA         |
@@ -225,6 +228,7 @@ You can join using this link: https://discord.gg/RDAaC5jg
 | OT-34-85                             | Medium           | SU                                       |
 | Panzer III Ausf. E                   | Medium           | Germany                                  |
 | Panzer IV Ausf. J                    | Medium           | Finland, Germany                         |
+| Pz.Kpfw. Panther II                  | Medium           | Germany                                  |
 | Sd.Kfz. 165 ""Hummel""               | Medium           | Germany                                  |
 | Škoda T 24                           | Medium           | Czechia                                  |
 | Škoda T 25 Druhý                     | Medium           | Czechia                                  |
@@ -250,3 +254,4 @@ You can join using this link: https://discord.gg/RDAaC5jg
 | Carro Armato L3/35                   | Tankette         | France, Germany, Italy, Poland           |
 | UE Chenillette                       | Tankette         | France, Germany, Italy, Poland           |
 | Universal Carrier Mk II              | Tankette         | Currently only UK                        |
+
