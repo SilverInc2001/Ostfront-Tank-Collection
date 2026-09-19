@@ -3,7 +3,7 @@
   "header": {
     "v": "0.2",
     "name": "M4A2 Sherman III DV",
-    "gameVersion": "0.2.51.36",
+    "gameVersion": "0.2.54.4",
     "mass": 26396,
     "creationDate": "1943.12.31",
     "class": "",
@@ -65,12 +65,13 @@
       "id": 4,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": null,
         "description": null,
         "armourVolume": 1.49765015,
         "bodyMeshVuid": 0,
         "partRepositioning": true,
+        "collisionEnabled": true,
         "armourTechID": "rha"
       }
     },
@@ -564,12 +565,13 @@
       "id": 33,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": "Unnamed Structure",
         "description": null,
         "armourVolume": 0.476782829,
         "bodyMeshVuid": 1,
         "partRepositioning": true,
+        "collisionEnabled": true,
         "armourTechID": "rha"
       }
     },
@@ -688,12 +690,13 @@
       "id": 48,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": "Unnamed Structure",
         "description": null,
         "armourVolume": 0.0304585565,
         "bodyMeshVuid": 3,
         "partRepositioning": true,
+        "collisionEnabled": false,
         "armourTechID": "rha"
       }
     },
@@ -1019,12 +1022,13 @@
       "id": 37,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": "Unnamed Structure",
         "description": null,
         "armourVolume": 0.00122050208,
         "bodyMeshVuid": 4,
         "partRepositioning": true,
+        "collisionEnabled": false,
         "armourTechID": "rha"
       }
     },
@@ -1147,12 +1151,13 @@
       "id": 34,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": "Unnamed Structure",
         "description": null,
         "armourVolume": 0.00122050208,
         "bodyMeshVuid": 4,
         "partRepositioning": true,
+        "collisionEnabled": false,
         "armourTechID": "rha"
       }
     },
@@ -1341,12 +1346,13 @@
       "id": 102,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": "Unnamed Structure",
         "description": null,
         "armourVolume": 0.000476943562,
         "bodyMeshVuid": 7,
         "partRepositioning": true,
+        "collisionEnabled": false,
         "armourTechID": "rha"
       }
     },
@@ -1382,7 +1388,7 @@
         "description": null,
         "x": 43,
         "y": 43,
-        "z": 211,
+        "z": 425,
         "flags": 0
       }
     },
@@ -1400,12 +1406,13 @@
       "id": 82,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": "Unnamed Structure",
         "description": null,
         "armourVolume": 0.009528398,
         "bodyMeshVuid": 6,
         "partRepositioning": true,
+        "collisionEnabled": false,
         "armourTechID": "rha"
       }
     },
@@ -1413,12 +1420,13 @@
       "id": 60,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": "Unnamed Structure",
         "description": null,
         "armourVolume": 0.049938608,
         "bodyMeshVuid": 5,
         "partRepositioning": true,
+        "collisionEnabled": false,
         "armourTechID": "rha"
       }
     },
@@ -1561,7 +1569,7 @@
       }
     },
     {
-      "id": 5,
+      "id": 0,
       "type": "paintJobRegister",
       "blueprint": {
         "v": "0.0",
@@ -1571,6 +1579,29 @@
           1,
           2
         ]
+      }
+    },
+    {
+      "id": 86,
+      "type": "decalTransform",
+      "blueprint": {
+        "v": "0.0",
+        "name": null,
+        "description": null,
+        "x": 43,
+        "y": 43,
+        "z": 425,
+        "flags": 0
+      }
+    },
+    {
+      "id": 87,
+      "type": "decal",
+      "blueprint": {
+        "v": "0.3",
+        "name": null,
+        "description": null,
+        "imageURL": "Sprocket/Decals/Black Circle.png"
       }
     }
   ],
@@ -2390,7 +2421,7 @@
         "rot": [
           349.1827,
           186.482925,
-          1.5211333E-06,
+          1.57545958E-06,
           0.0
         ],
         "scale": [
@@ -2588,7 +2619,7 @@
           0.4199524
         ],
         "rot": [
-          2.91101987E-05,
+          2.91102024E-05,
           60.000042,
           -2.23834686E-05,
           0.0
@@ -2753,9 +2784,9 @@
       "transform": {
         "mirrorVuid": -1,
         "pos": [
-          -0.414019346,
+          -0.4170614,
           0.0268270969,
-          -0.415557861
+          -0.233612061
         ],
         "rot": [
           90.0,
@@ -2782,8 +2813,8 @@
         "mirrorVuid": -1,
         "pos": [
           -0.0114802122,
-          0.7099916,
-          0.0136217428
+          0.709991455,
+          0.0136218071
         ],
         "rot": [
           90.0,
@@ -2794,7 +2825,7 @@
         "scale": [
           0.043,
           0.043,
-          0.21100001
+          0.425
         ]
       },
       "decalProjectionBlueprintVuid": 108,
@@ -3092,7 +3123,7 @@
           -1.31665039
         ],
         "rot": [
-          0.9052196,
+          0.905219734,
           4.283405E-06,
           9.10346E-06,
           0.0
@@ -3104,33 +3135,6 @@
         ]
       },
       "structureBlueprintVuid": 82
-    },
-    {
-      "guid": "f90f373f-4edb-4563-a162-6eee6a5d77dd",
-      "vuid": 372,
-      "pvuid": 225,
-      "flags": 2,
-      "sight": 373,
-      "model": 374,
-      "transform": {
-        "mirrorVuid": -1,
-        "pos": [
-          0.529142737,
-          0.7589241,
-          0.384674072
-        ],
-        "rot": [
-          325.152344,
-          0.0,
-          0.0,
-          0.0
-        ],
-        "scale": [
-          0.25,
-          0.25,
-          0.25
-        ]
-      }
     },
     {
       "guid": "e59ff736-a6ea-4a1a-a4c5-6437ed15b872",
@@ -3147,9 +3151,9 @@
           -0.01977539
         ],
         "rot": [
-          3.04839468,
+          3.048395,
           94.3980255,
-          -1.06872925E-07,
+          0.0,
           0.0
         ],
         "scale": [
@@ -3189,6 +3193,62 @@
       },
       "decalProjectionBlueprintVuid": 83,
       "decalBlueprintVuid": 84
+    },
+    {
+      "guid": "e59ff736-a6ea-4a1a-a4c5-6437ed15b872",
+      "vuid": 376,
+      "pvuid": 225,
+      "flags": 2,
+      "decalScaler": 377,
+      "projectedDecal": 378,
+      "transform": {
+        "mirrorVuid": -1,
+        "pos": [
+          0.224450156,
+          0.36241138,
+          0.9661255
+        ],
+        "rot": [
+          7.49801445,
+          180.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          0.043,
+          0.043,
+          0.425
+        ]
+      },
+      "decalProjectionBlueprintVuid": 86,
+      "decalBlueprintVuid": 87
+    },
+    {
+      "guid": "f90f373f-4edb-4563-a162-6eee6a5d77dd",
+      "vuid": 372,
+      "pvuid": 225,
+      "flags": 2,
+      "sight": 373,
+      "model": 374,
+      "transform": {
+        "mirrorVuid": -1,
+        "pos": [
+          0.2236406,
+          0.3590573,
+          0.9506531
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          0.25,
+          0.25,
+          0.25
+        ]
+      }
     },
     {
       "guid": "4481135e-cefd-499c-8122-414942eecbe4",
@@ -3687,7 +3747,7 @@
         ],
         "rot": [
           358.595978,
-          0.582284749,
+          0.5822848,
           -5.00408159E-09,
           0.0
         ],
@@ -3856,7 +3916,7 @@
         "rot": [
           0.3480202,
           179.997849,
-          -4.071185E-12,
+          -4.478303E-12,
           0.0
         ],
         "scale": [
@@ -3885,7 +3945,7 @@
         "rot": [
           0.3480202,
           180.002151,
-          4.071185E-12,
+          4.478303E-12,
           0.0
         ],
         "scale": [
@@ -3999,7 +4059,7 @@
           -2.44503784
         ],
         "rot": [
-          12.6338749,
+          12.6338758,
           0.00351077481,
           0.0,
           0.0

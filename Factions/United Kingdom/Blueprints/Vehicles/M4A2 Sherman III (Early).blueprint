@@ -3,7 +3,7 @@
   "header": {
     "v": "0.2",
     "name": "M4A2 Sherman III (Early)",
-    "gameVersion": "0.2.51.36",
+    "gameVersion": "0.2.54.4",
     "mass": 27036,
     "creationDate": "1943.12.31",
     "class": "",
@@ -65,12 +65,13 @@
       "id": 4,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": null,
         "description": null,
         "armourVolume": 1.57131135,
         "bodyMeshVuid": 0,
         "partRepositioning": true,
+        "collisionEnabled": true,
         "armourTechID": "rha"
       }
     },
@@ -564,12 +565,13 @@
       "id": 33,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": "Unnamed Structure",
         "description": null,
         "armourVolume": 0.476782829,
         "bodyMeshVuid": 1,
         "partRepositioning": true,
+        "collisionEnabled": true,
         "armourTechID": "rha"
       }
     },
@@ -688,12 +690,13 @@
       "id": 48,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": "Unnamed Structure",
         "description": null,
         "armourVolume": 0.0304585565,
         "bodyMeshVuid": 3,
         "partRepositioning": true,
+        "collisionEnabled": false,
         "armourTechID": "rha"
       }
     },
@@ -1019,12 +1022,13 @@
       "id": 37,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": "Unnamed Structure",
         "description": null,
         "armourVolume": 0.00122050208,
         "bodyMeshVuid": 4,
         "partRepositioning": true,
+        "collisionEnabled": false,
         "armourTechID": "rha"
       }
     },
@@ -1170,12 +1174,13 @@
       "id": 34,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": "Unnamed Structure",
         "description": null,
         "armourVolume": 0.00122050208,
         "bodyMeshVuid": 4,
         "partRepositioning": true,
+        "collisionEnabled": false,
         "armourTechID": "rha"
       }
     },
@@ -1364,12 +1369,13 @@
       "id": 102,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": "Unnamed Structure",
         "description": null,
         "armourVolume": 0.000476943562,
         "bodyMeshVuid": 7,
         "partRepositioning": true,
+        "collisionEnabled": false,
         "armourTechID": "rha"
       }
     },
@@ -1423,12 +1429,13 @@
       "id": 82,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": "Unnamed Structure",
         "description": null,
         "armourVolume": 0.009528398,
         "bodyMeshVuid": 6,
         "partRepositioning": true,
+        "collisionEnabled": false,
         "armourTechID": "rha"
       }
     },
@@ -1436,12 +1443,13 @@
       "id": 60,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": "Unnamed Structure",
         "description": null,
         "armourVolume": 0.0355305,
         "bodyMeshVuid": 5,
         "partRepositioning": true,
+        "collisionEnabled": false,
         "armourTechID": "rha"
       }
     },
@@ -1676,7 +1684,7 @@
       }
     },
     {
-      "id": 5,
+      "id": 0,
       "type": "paintJobRegister",
       "blueprint": {
         "v": "0.0",
@@ -1686,6 +1694,29 @@
           1,
           2
         ]
+      }
+    },
+    {
+      "id": 92,
+      "type": "decalTransform",
+      "blueprint": {
+        "v": "0.0",
+        "name": null,
+        "description": null,
+        "x": 43,
+        "y": 43,
+        "z": 211,
+        "flags": 0
+      }
+    },
+    {
+      "id": 97,
+      "type": "decal",
+      "blueprint": {
+        "v": "0.3",
+        "name": null,
+        "description": null,
+        "imageURL": "Sprocket/Decals/Black Circle.png"
       }
     }
   ],
@@ -2534,7 +2565,7 @@
         "rot": [
           349.1827,
           186.482925,
-          1.412481E-06,
+          1.46680713E-06,
           0.0
         ],
         "scale": [
@@ -2732,9 +2763,9 @@
           0.4199524
         ],
         "rot": [
-          2.91101915E-05,
+          2.91101951E-05,
           60.000042,
-          -2.23834722E-05,
+          -2.238347E-05,
           0.0
         ],
         "scale": [
@@ -3236,7 +3267,7 @@
           -1.3203125
         ],
         "rot": [
-          0.9052577,
+          0.90525794,
           5.00895658E-06,
           5.00895658E-06,
           0.0
@@ -3248,33 +3279,6 @@
         ]
       },
       "structureBlueprintVuid": 82
-    },
-    {
-      "guid": "f90f373f-4edb-4563-a162-6eee6a5d77dd",
-      "vuid": 372,
-      "pvuid": 225,
-      "flags": 2,
-      "sight": 373,
-      "model": 374,
-      "transform": {
-        "mirrorVuid": -1,
-        "pos": [
-          0.529142737,
-          0.7589241,
-          0.384674072
-        ],
-        "rot": [
-          325.152344,
-          0.0,
-          0.0,
-          0.0
-        ],
-        "scale": [
-          0.25,
-          0.25,
-          0.25
-        ]
-      }
     },
     {
       "guid": "e59ff736-a6ea-4a1a-a4c5-6437ed15b872",
@@ -3320,9 +3324,9 @@
           0.209564209
         ],
         "rot": [
-          5.8294363,
+          5.829437,
           259.414276,
-          -6.43658768E-06,
+          -7.08024663E-06,
           0.0
         ],
         "scale": [
@@ -3378,7 +3382,7 @@
           -0.100250244
         ],
         "rot": [
-          2.24671364,
+          2.24671388,
           82.71266,
           7.476266E-07,
           0.0
@@ -3391,6 +3395,62 @@
       },
       "decalProjectionBlueprintVuid": 105,
       "decalBlueprintVuid": 110
+    },
+    {
+      "guid": "f90f373f-4edb-4563-a162-6eee6a5d77dd",
+      "vuid": 372,
+      "pvuid": 225,
+      "flags": 2,
+      "sight": 373,
+      "model": 374,
+      "transform": {
+        "mirrorVuid": -1,
+        "pos": [
+          0.220207781,
+          0.350246549,
+          0.9515991
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          0.25,
+          0.25,
+          0.25
+        ]
+      }
+    },
+    {
+      "guid": "e59ff736-a6ea-4a1a-a4c5-6437ed15b872",
+      "vuid": 322,
+      "pvuid": 225,
+      "flags": 2,
+      "decalScaler": 329,
+      "projectedDecal": 330,
+      "transform": {
+        "mirrorVuid": -1,
+        "pos": [
+          0.222761482,
+          0.369672656,
+          0.965179443
+        ],
+        "rot": [
+          7.49801254,
+          180.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          0.043,
+          0.043,
+          0.21100001
+        ]
+      },
+      "decalProjectionBlueprintVuid": 92,
+      "decalBlueprintVuid": 97
     },
     {
       "guid": "4481135e-cefd-499c-8122-414942eecbe4",
@@ -3889,7 +3949,7 @@
         ],
         "rot": [
           358.595978,
-          0.5822846,
+          0.5822847,
           -5.00408159E-09,
           0.0
         ],
@@ -4250,7 +4310,7 @@
         "rot": [
           351.000549,
           180.0,
-          -7.72846956E-14,
+          -1.03046268E-13,
           0.0
         ],
         "scale": [
@@ -4277,7 +4337,7 @@
           -2.46105957
         ],
         "rot": [
-          12.6338844,
+          12.6338854,
           0.00340208574,
           1.0680646E-10,
           0.0
@@ -4306,9 +4366,9 @@
           -2.45806885
         ],
         "rot": [
-          12.6338778,
+          12.6338787,
           -0.003402559,
-          -2.67016149E-11,
+          -5.340323E-11,
           0.0
         ],
         "scale": [
