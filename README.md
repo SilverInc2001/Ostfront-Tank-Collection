@@ -88,6 +88,7 @@ You can join using this link: https://discord.gg/RDAaC5jg
 | M26 Pershing                         | Heavy            | USA                                      |
 | M6A1                                 | Heavy            | USA                                      |
 | O-Ro Kai                             | Heavy            | Japan                                    |
+| Pz.Kpfw. E-100                       | Heavy            | Germany                                  |
 | Pz.Kpfw. Tiger Ausf. B               | Heavy            | Germany                                  |
 | Pz.Kpfw. Tiger Ausf. B (P)           | Heavy            | Germany                                  |
 | Sd.Kfz. 166 Brummbär                 | Heavy            | Germany                                  |
@@ -114,6 +115,7 @@ You can join using this link: https://discord.gg/RDAaC5jg
 | Alecto Mk.I CS                       | Light            | UK                                       |
 | Alecto Mk.II                         | Light            | UK                                       |
 | Alecto Mk.II                         | Light            | UK                                       |
+| AMC.34 YR                            | Light            | France                                   |
 | AMR 35 ZT2                           | Light            | France, Germany                          |
 | BT-2                                 | Light            | SU                                       |
 | BT-42                                | Light            | Finland                                  |
@@ -225,6 +227,13 @@ You can join using this link: https://discord.gg/RDAaC5jg
 | M4A2 Sherman III (Mid)               | Medium           | France, Poland, UK, USA, SU              |
 | M4A2 Sherman III DV                  | Medium           | UK, USA, SU                              |
 | M4A2 Sherman III DV (Up-Armoured)    | Medium           | France, UK, USA, SU                      |
+| M4A4 Sherman V (Crocodile)           | Medium           | UK                                       |
+| M4A4 Sherman V (Late)                | Medium           | Czechia, France, Poland, UK              |
+| M4A4 Sherman V (Mid)                 | Medium           | Czechia, France, Poland, UK              |
+| M4A4 Sherman V (Tulip)               | Medium           | UK                                       |
+| M4A4 Sherman V DV                    | Medium           | France, Poland, UK                       |
+| M4A4 Sherman V DV (Up-Armoured)      | Medium           | Poland, UK                               |
+| M4A4 Sherman VC (Firefly)            | Medium           | Czechia, Poland, UK                      |
 | OT-34-85                             | Medium           | SU                                       |
 | Panzer III Ausf. E                   | Medium           | Germany                                  |
 | Panzer IV Ausf. J                    | Medium           | Finland, Germany                         |
@@ -254,4 +263,3 @@ You can join using this link: https://discord.gg/RDAaC5jg
 | Carro Armato L3/35                   | Tankette         | France, Germany, Italy, Poland           |
 | UE Chenillette                       | Tankette         | France, Germany, Italy, Poland           |
 | Universal Carrier Mk II              | Tankette         | Currently only UK                        |
-
