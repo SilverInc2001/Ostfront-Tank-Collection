@@ -10,7 +10,7 @@ If you would like to help choose the next vehicles added to the collection, you 
 **I have a Discord server!**
 For those who want to get directly involved, you can join here! This server is a place to discuss and contribute to everything surrounding the collection, as well as share your own creations.
 
-You can join using this link: https://discord.gg/RDAaC5jg
+You can join using this link: [https://discord.gg/RDAaC5jg](https://discord.gg/KSvbnXqNv)
 
 **Purpose of the collection**
 
