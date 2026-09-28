@@ -3,12 +3,12 @@
   "header": {
     "v": "0.2",
     "name": "Cromwell VI",
-    "gameVersion": "0.2.51.36",
-    "mass": 22729,
+    "gameVersion": "0.2.55.5",
+    "mass": 22833,
     "creationDate": "1945.01.17",
     "class": "",
     "desc": "",
-    "cost": 42336
+    "cost": 41638
   },
   "blueprints": [
     {
@@ -16,37 +16,18 @@
       "type": "paintJob",
       "blueprint": {
         "v": "2.2",
-        "name": "Primary",
-        "description": "",
-        "colourMapUrl": "821c5c82-a326-46ca-bfd0-bd2a75830ed7",
-        "scale": 0.5,
-        "roughness": 0.5,
-        "metallic": 0.0,
-        "r": 0.234400064,
-        "g": 0.25,
-        "b": 0.0550000221,
-        "saturation": 0.5,
-        "condition": 0.5,
-        "grime": 0.5
-      }
-    },
-    {
-      "id": 2,
-      "type": "paintJob",
-      "blueprint": {
-        "v": "2.2",
-        "name": "Powertrain",
+        "name": "Gray-Brown",
         "description": "",
         "colourMapUrl": "821c5c82-a326-46ca-bfd0-bd2a75830ed7",
         "scale": 0.5,
         "roughness": 0.5,
         "metallic": 0.0,
         "r": 0.25,
-        "g": 0.4,
-        "b": 0.5,
-        "saturation": 0.75,
-        "condition": 0.75,
-        "grime": 0.0
+        "g": 0.23749958,
+        "b": 0.125,
+        "saturation": 0.5,
+        "condition": 0.5,
+        "grime": 0.5
       }
     },
     {
@@ -58,19 +39,20 @@
         "description": null,
         "length": 6350,
         "width": 2910,
-        "groundClearance": 355
+        "groundClearance": 326
       }
     },
     {
       "id": 4,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": null,
         "description": null,
         "armourVolume": 1.316429,
         "bodyMeshVuid": 0,
         "partRepositioning": true,
+        "collisionEnabled": true,
         "armourTechID": "rha"
       }
     },
@@ -265,8 +247,8 @@
         "yOrigin": 0,
         "xOrigin": -3560,
         "zOffset": 0,
-        "yOffset": 70,
-        "xOffset": 1227,
+        "yOffset": 99,
+        "xOffset": 1266,
         "syncLengthEnabled": false,
         "angle": 0.0
       }
@@ -278,7 +260,7 @@
         "v": "0.0",
         "name": "",
         "description": "",
-        "mountID": "6b0a1425-3943-491b-ad87-f56d8b811e19",
+        "mountID": "74fb4df5-590c-41e2-a26c-97ad6ffce845",
         "scale": 0.55,
         "x": 0,
         "y": 0,
@@ -293,12 +275,12 @@
         "v": "0.0",
         "name": "",
         "description": "",
-        "wheelID": "98283b0c-eeeb-436d-8f9a-4b59da236d2f",
-        "perAxle": 1,
-        "spacingOnAxle": 0.08,
-        "xOffset": 0.25,
+        "wheelID": "6bc716af-6101-4a96-92b4-f020e08da4b7",
+        "perAxle": 2,
+        "spacingOnAxle": 0.049999997,
+        "xOffset": 0.06,
         "diameter": 0.7,
-        "width": 0.14
+        "width": 0.1
       }
     },
     {
@@ -310,7 +292,7 @@
         "description": "",
         "separation": 1806,
         "length": 7120,
-        "brake": 181837,
+        "brake": 182669,
         "autoBrake": true,
         "rollersEnabled": false,
         "matchChassis": false,
@@ -340,33 +322,23 @@
         "v": "0.6",
         "name": "",
         "description": "",
-        "targetAngle": -5.0,
+        "targetAngle": 0.0,
         "upTravelLimit": 1000.0,
         "damper": 10018.0,
         "armLength": 468
       }
     },
     {
-      "id": 36,
-      "type": "torsionBar",
-      "blueprint": {
-        "v": "0.0",
-        "name": "",
-        "description": "",
-        "torsionBarLength": 1500,
-        "torsionBarDiameter": 60
-      }
-    },
-    {
       "id": 25,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": "Unnamed Structure",
         "description": null,
         "armourVolume": 0.008018435,
         "bodyMeshVuid": 2,
         "partRepositioning": true,
+        "collisionEnabled": false,
         "armourTechID": "rha"
       }
     },
@@ -427,12 +399,13 @@
       "id": 30,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": "Unnamed Structure",
         "description": null,
         "armourVolume": 0.3868621,
         "bodyMeshVuid": 3,
         "partRepositioning": true,
+        "collisionEnabled": true,
         "armourTechID": "rha"
       }
     },
@@ -551,12 +524,13 @@
       "id": 39,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": "Unnamed Structure",
         "description": null,
         "armourVolume": 0.0216798726,
         "bodyMeshVuid": 7,
         "partRepositioning": true,
+        "collisionEnabled": false,
         "armourTechID": "rha"
       }
     },
@@ -1355,13 +1329,52 @@
       "id": 84,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": "Unnamed Structure",
         "description": null,
         "armourVolume": 0.001507811,
         "bodyMeshVuid": 4,
         "partRepositioning": true,
+        "collisionEnabled": false,
         "armourTechID": "rha"
+      }
+    },
+    {
+      "id": 21,
+      "type": "paintJob",
+      "blueprint": {
+        "v": "2.2",
+        "name": "Powertrain",
+        "description": "",
+        "colourMapUrl": "821c5c82-a326-46ca-bfd0-bd2a75830ed7",
+        "scale": 0.5,
+        "roughness": 0.5,
+        "metallic": 0.0,
+        "r": 0.25,
+        "g": 0.4,
+        "b": 0.5,
+        "saturation": 0.75,
+        "condition": 0.75,
+        "grime": 0.0
+      }
+    },
+    {
+      "id": 22,
+      "type": "paintJob",
+      "blueprint": {
+        "v": "2.2",
+        "name": "Interior",
+        "description": "",
+        "colourMapUrl": "",
+        "scale": 0.5,
+        "roughness": 0.6,
+        "metallic": 0.0,
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5,
+        "saturation": 0.5,
+        "condition": -1.0,
+        "grime": 0.0
       }
     },
     {
@@ -1373,8 +1386,22 @@
         "description": null,
         "paintJobIDs": [
           1,
-          2
+          21,
+          22
         ]
+      }
+    },
+    {
+      "id": 82,
+      "type": "coilSpring",
+      "blueprint": {
+        "v": "0.0",
+        "name": "",
+        "description": "",
+        "springLength": 500,
+        "endSpringLengthMultiplier": 1.0,
+        "springDiameter": 150,
+        "springAngle": 0
       }
     }
   ],
@@ -1909,8 +1936,8 @@
         "mirrorVuid": -1,
         "pos": [
           0.0,
-          0.07,
-          -2.33300018
+          0.09900001,
+          -2.29400015
         ],
         "rot": [
           0.0,
@@ -2071,8 +2098,8 @@
         "mirrorVuid": -1,
         "pos": [
           0.0,
-          0.07,
-          -2.33300018
+          0.09900001,
+          -2.29400015
         ],
         "rot": [
           0.0,
@@ -2361,9 +2388,9 @@
           0.476104736
         ],
         "rot": [
-          0.8078792,
-          -6.997916E-13,
-          -2.40759655E-05,
+          0.8078793,
+          -7.252386E-13,
+          -2.407597E-05,
           0.0
         ],
         "scale": [
@@ -2682,6 +2709,60 @@
       }
     },
     {
+      "guid": "293e9b84-7aa7-4d9b-9159-5e7a38cc5c89",
+      "vuid": 342,
+      "pvuid": 190,
+      "flags": 7,
+      "spareWheel": 343,
+      "transform": {
+        "mirrorVuid": 344,
+        "pos": [
+          -0.6912842,
+          0.5164007,
+          -0.910614
+        ],
+        "rot": [
+          0.0,
+          250.300583,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "blueprintID": 18
+    },
+    {
+      "guid": "293e9b84-7aa7-4d9b-9159-5e7a38cc5c89",
+      "vuid": 344,
+      "pvuid": 190,
+      "flags": 6,
+      "spareWheel": 345,
+      "transform": {
+        "mirrorVuid": 342,
+        "pos": [
+          0.6912842,
+          0.5164007,
+          -0.910614
+        ],
+        "rot": [
+          0.0,
+          109.699417,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "blueprintID": 18
+    },
+    {
       "guid": "4481135e-cefd-499c-8122-414942eecbe4",
       "vuid": 221,
       "pvuid": 182,
@@ -2696,9 +2777,9 @@
           -0.102539063
         ],
         "rot": [
-          1.72635339E-09,
+          1.72635406E-09,
           30.0000019,
-          -6.442828E-09,
+          -6.44282849E-09,
           0.0
         ],
         "scale": [
@@ -3207,7 +3288,7 @@
         "rot": [
           344.487946,
           180.0,
-          8.450019E-13,
+          9.506272E-13,
           0.0
         ],
         "scale": [

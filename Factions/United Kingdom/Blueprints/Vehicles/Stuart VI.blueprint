@@ -3,8 +3,8 @@
   "header": {
     "v": "0.2",
     "name": "Stuart VI",
-    "gameVersion": "0.2.54.4",
-    "mass": 14139,
+    "gameVersion": "0.2.55.5",
+    "mass": 14141,
     "creationDate": "1945.09.02",
     "class": "",
     "desc": "",
@@ -16,37 +16,18 @@
       "type": "paintJob",
       "blueprint": {
         "v": "2.2",
-        "name": "Primary",
-        "description": "",
-        "colourMapUrl": "821c5c82-a326-46ca-bfd0-bd2a75830ed7",
-        "scale": 0.5,
-        "roughness": 0.5,
-        "metallic": 0.0,
-        "r": 0.234400064,
-        "g": 0.25,
-        "b": 0.0550000221,
-        "saturation": 0.5,
-        "condition": 0.5,
-        "grime": 0.5
-      }
-    },
-    {
-      "id": 2,
-      "type": "paintJob",
-      "blueprint": {
-        "v": "2.2",
-        "name": "Powertrain",
+        "name": "Gray-Brown",
         "description": "",
         "colourMapUrl": "821c5c82-a326-46ca-bfd0-bd2a75830ed7",
         "scale": 0.5,
         "roughness": 0.5,
         "metallic": 0.0,
         "r": 0.25,
-        "g": 0.4,
-        "b": 0.5,
-        "saturation": 0.75,
-        "condition": 0.75,
-        "grime": 0.0
+        "g": 0.23749958,
+        "b": 0.125,
+        "saturation": 0.5,
+        "condition": 0.5,
+        "grime": 0.5
       }
     },
     {
@@ -1388,7 +1369,7 @@
       }
     },
     {
-      "id": 0,
+      "id": 5,
       "type": "paintJobRegister",
       "blueprint": {
         "v": "0.0",
@@ -1396,8 +1377,47 @@
         "description": null,
         "paintJobIDs": [
           1,
-          2
+          21,
+          22
         ]
+      }
+    },
+    {
+      "id": 21,
+      "type": "paintJob",
+      "blueprint": {
+        "v": "2.2",
+        "name": "Powertrain",
+        "description": "",
+        "colourMapUrl": "821c5c82-a326-46ca-bfd0-bd2a75830ed7",
+        "scale": 0.5,
+        "roughness": 0.5,
+        "metallic": 0.0,
+        "r": 0.25,
+        "g": 0.4,
+        "b": 0.5,
+        "saturation": 0.75,
+        "condition": 0.75,
+        "grime": 0.0
+      }
+    },
+    {
+      "id": 22,
+      "type": "paintJob",
+      "blueprint": {
+        "v": "2.2",
+        "name": "Interior",
+        "description": "",
+        "colourMapUrl": "",
+        "scale": 0.5,
+        "roughness": 0.6,
+        "metallic": 0.0,
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5,
+        "saturation": 0.5,
+        "condition": -1.0,
+        "grime": 0.0
       }
     }
   ],
@@ -1728,7 +1748,7 @@
         ],
         "rot": [
           0.5534159,
-          -2.226492E-13,
+          -2.290106E-13,
           -1.70029743E-05,
           0.0
         ],
@@ -1784,7 +1804,7 @@
         "rot": [
           359.4466,
           -1.642353E-07,
-          1.70038275E-05,
+          1.700383E-05,
           0.0
         ],
         "scale": [
@@ -2085,7 +2105,7 @@
         "rot": [
           55.04533,
           180.0,
-          -1.42115887E-12,
+          -1.06586918E-12,
           0.0
         ],
         "scale": [
@@ -2364,7 +2384,7 @@
           1.568634
         ],
         "rot": [
-          0.85638386,
+          0.8563839,
           179.428024,
           0.512159765,
           0.0
@@ -2424,7 +2444,7 @@
         "rot": [
           3.72656441,
           188.615616,
-          -1.2833741E-06,
+          -1.310111E-06,
           0.0
         ],
         "scale": [
@@ -2847,7 +2867,7 @@
           -1.82220459
         ],
         "rot": [
-          1.962075,
+          1.96207511,
           180.000031,
           180.0,
           0.0
@@ -2874,7 +2894,7 @@
           -1.82220459
         ],
         "rot": [
-          1.962075,
+          1.96207511,
           179.999969,
           180.0,
           0.0
@@ -3155,7 +3175,7 @@
         "rot": [
           5.320127,
           1.57006985E-09,
-          0.01890541,
+          0.0189054124,
           0.0
         ],
         "scale": [

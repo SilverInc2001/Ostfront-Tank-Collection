@@ -3,8 +3,8 @@
   "header": {
     "v": "0.2",
     "name": "Centurion Mk.I",
-    "gameVersion": "0.2.54.4",
-    "mass": 40561,
+    "gameVersion": "0.2.55.5",
+    "mass": 40586,
     "creationDate": "1945.09.02",
     "class": "",
     "desc": "",
@@ -16,37 +16,18 @@
       "type": "paintJob",
       "blueprint": {
         "v": "2.2",
-        "name": "Primary",
-        "description": "",
-        "colourMapUrl": "821c5c82-a326-46ca-bfd0-bd2a75830ed7",
-        "scale": 0.5,
-        "roughness": 0.5,
-        "metallic": 0.0,
-        "r": 0.234400064,
-        "g": 0.25,
-        "b": 0.0550000221,
-        "saturation": 0.5,
-        "condition": 0.5,
-        "grime": 0.5
-      }
-    },
-    {
-      "id": 2,
-      "type": "paintJob",
-      "blueprint": {
-        "v": "2.2",
-        "name": "Powertrain",
+        "name": "Gray-Brown",
         "description": "",
         "colourMapUrl": "821c5c82-a326-46ca-bfd0-bd2a75830ed7",
         "scale": 0.5,
         "roughness": 0.5,
         "metallic": 0.0,
         "r": 0.25,
-        "g": 0.4,
-        "b": 0.5,
-        "saturation": 0.75,
-        "condition": 0.75,
-        "grime": 0.0
+        "g": 0.23749958,
+        "b": 0.125,
+        "saturation": 0.5,
+        "condition": 0.5,
+        "grime": 0.5
       }
     },
     {
@@ -58,7 +39,7 @@
         "description": null,
         "length": 6000,
         "width": 2000,
-        "groundClearance": 336
+        "groundClearance": 335
       }
     },
     {
@@ -312,7 +293,7 @@
         "description": null,
         "separation": 1742,
         "length": 6000,
-        "brake": 328543,
+        "brake": 324693,
         "autoBrake": true,
         "rollersEnabled": true,
         "matchChassis": false,
@@ -1592,7 +1573,7 @@
       }
     },
     {
-      "id": 5,
+      "id": 0,
       "type": "paintJobRegister",
       "blueprint": {
         "v": "0.0",
@@ -1600,8 +1581,47 @@
         "description": null,
         "paintJobIDs": [
           1,
-          2
+          21,
+          22
         ]
+      }
+    },
+    {
+      "id": 21,
+      "type": "paintJob",
+      "blueprint": {
+        "v": "2.2",
+        "name": "Powertrain",
+        "description": "",
+        "colourMapUrl": "821c5c82-a326-46ca-bfd0-bd2a75830ed7",
+        "scale": 0.5,
+        "roughness": 0.5,
+        "metallic": 0.0,
+        "r": 0.25,
+        "g": 0.4,
+        "b": 0.5,
+        "saturation": 0.75,
+        "condition": 0.75,
+        "grime": 0.0
+      }
+    },
+    {
+      "id": 22,
+      "type": "paintJob",
+      "blueprint": {
+        "v": "2.2",
+        "name": "Interior",
+        "description": "",
+        "colourMapUrl": "",
+        "scale": 0.5,
+        "roughness": 0.6,
+        "metallic": 0.0,
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5,
+        "saturation": 0.5,
+        "condition": -1.0,
+        "grime": 0.0
       }
     }
   ],
@@ -1851,8 +1871,8 @@
             0.0,
             0.0,
             -2.23517418E-08,
-            0.465999961,
-            -3.10101318,
+            0.466003418,
+            -3.10100031,
             -0.492635429,
             0.145700917,
             0.0684794262,
@@ -1863,8 +1883,8 @@
             0.0,
             0.0,
             2.23517418E-08,
-            0.465999961,
-            -3.10101318
+            0.466003418,
+            -3.10100031
           ],
           "portDirections": [
             0.0,
@@ -3262,8 +3282,8 @@
           3.12590456
         ],
         "rot": [
-          0.361124635,
-          1.733564E-10,
+          0.361124665,
+          1.73362755E-10,
           -1.96294131E-05,
           0.0
         ],
@@ -4191,9 +4211,9 @@
           -3.67498779
         ],
         "rot": [
-          0.9589236,
+          0.9589237,
           357.898834,
-          -2.16808811E-08,
+          -2.33486421E-08,
           0.0
         ],
         "scale": [

@@ -3,12 +3,12 @@
   "header": {
     "v": "0.2",
     "name": "Cruiser Mk.V Covenanter",
-    "gameVersion": "0.2.53.2",
-    "mass": 13569,
+    "gameVersion": "0.2.55.5",
+    "mass": 13206,
     "creationDate": "1941.12.31",
     "class": "",
     "desc": "",
-    "cost": 30987
+    "cost": 30345
   },
   "blueprints": [
     {
@@ -16,37 +16,18 @@
       "type": "paintJob",
       "blueprint": {
         "v": "2.2",
-        "name": "Primary",
-        "description": "",
-        "colourMapUrl": "821c5c82-a326-46ca-bfd0-bd2a75830ed7",
-        "scale": 0.5,
-        "roughness": 0.5,
-        "metallic": 0.0,
-        "r": 0.234400064,
-        "g": 0.25,
-        "b": 0.0550000221,
-        "saturation": 0.5,
-        "condition": 0.5,
-        "grime": 0.5
-      }
-    },
-    {
-      "id": 2,
-      "type": "paintJob",
-      "blueprint": {
-        "v": "2.2",
-        "name": "Powertrain",
+        "name": "Gray-Brown",
         "description": "",
         "colourMapUrl": "821c5c82-a326-46ca-bfd0-bd2a75830ed7",
         "scale": 0.5,
         "roughness": 0.5,
         "metallic": 0.0,
         "r": 0.25,
-        "g": 0.4,
-        "b": 0.5,
-        "saturation": 0.75,
-        "condition": 0.75,
-        "grime": 0.0
+        "g": 0.23749958,
+        "b": 0.125,
+        "saturation": 0.5,
+        "condition": 0.5,
+        "grime": 0.5
       }
     },
     {
@@ -254,11 +235,11 @@
         "name": "",
         "description": "",
         "spacingMode": 2,
-        "spacing": 106,
+        "spacing": 161,
         "length": 6000,
         "count": 4,
         "interleaveOverlapFraction": 0.5,
-        "groupSpacing": 327,
+        "groupSpacing": 249,
         "perGroup": 3,
         "groupingOffset": 0,
         "zOrigin": 0,
@@ -266,7 +247,7 @@
         "xOrigin": -3000,
         "zOffset": 0,
         "yOffset": 157,
-        "xOffset": 999,
+        "xOffset": 1012,
         "syncLengthEnabled": false,
         "angle": 0.0
       }
@@ -278,7 +259,7 @@
         "v": "0.0",
         "name": "",
         "description": "",
-        "mountID": "6b0a1425-3943-491b-ad87-f56d8b811e19",
+        "mountID": "74fb4df5-590c-41e2-a26c-97ad6ffce845",
         "scale": 0.6,
         "x": 0,
         "y": 0,
@@ -310,7 +291,7 @@
         "description": "",
         "separation": 1763,
         "length": 6000,
-        "brake": 108416,
+        "brake": 105649,
         "autoBrake": true,
         "rollersEnabled": false,
         "matchChassis": false,
@@ -340,21 +321,10 @@
         "v": "0.6",
         "name": "",
         "description": "",
-        "targetAngle": -20.0,
+        "targetAngle": 0.0,
         "upTravelLimit": 1000.0,
         "damper": 10018.0,
         "armLength": 500
-      }
-    },
-    {
-      "id": 36,
-      "type": "torsionBar",
-      "blueprint": {
-        "v": "0.0",
-        "name": "",
-        "description": "",
-        "torsionBarLength": 1500,
-        "torsionBarDiameter": 60
       }
     },
     {
@@ -1202,7 +1172,58 @@
       }
     },
     {
-      "id": 5,
+      "id": 21,
+      "type": "paintJob",
+      "blueprint": {
+        "v": "2.2",
+        "name": "Powertrain",
+        "description": "",
+        "colourMapUrl": "821c5c82-a326-46ca-bfd0-bd2a75830ed7",
+        "scale": 0.5,
+        "roughness": 0.5,
+        "metallic": 0.0,
+        "r": 0.25,
+        "g": 0.4,
+        "b": 0.5,
+        "saturation": 0.75,
+        "condition": 0.75,
+        "grime": 0.0
+      }
+    },
+    {
+      "id": 22,
+      "type": "paintJob",
+      "blueprint": {
+        "v": "2.2",
+        "name": "Interior",
+        "description": "",
+        "colourMapUrl": "",
+        "scale": 0.5,
+        "roughness": 0.6,
+        "metallic": 0.0,
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5,
+        "saturation": 0.5,
+        "condition": -1.0,
+        "grime": 0.0
+      }
+    },
+    {
+      "id": 34,
+      "type": "coilSpring",
+      "blueprint": {
+        "v": "0.0",
+        "name": null,
+        "description": null,
+        "springLength": 500,
+        "endSpringLengthMultiplier": 1.0,
+        "springDiameter": 150,
+        "springAngle": 0
+      }
+    },
+    {
+      "id": 2,
       "type": "paintJobRegister",
       "blueprint": {
         "v": "0.0",
@@ -1210,7 +1231,8 @@
         "description": null,
         "paintJobIDs": [
           1,
-          2
+          21,
+          22
         ]
       }
     }
@@ -1461,8 +1483,8 @@
             0.0,
             0.0,
             -2.23517418E-08,
-            0.3319702,
-            -2.36200023,
+            0.332000017,
+            -2.36199951,
             -0.552133,
             0.151740044,
             0.0713178143,
@@ -1473,8 +1495,8 @@
             0.0,
             0.0,
             2.23517418E-08,
-            0.3319702,
-            -2.36200023
+            0.332000017,
+            -2.36199951
           ],
           "portDirections": [
             0.0,
@@ -1747,7 +1769,7 @@
         "pos": [
           0.0,
           0.157,
-          -2.00100017
+          -1.988
         ],
         "rot": [
           0.0,
@@ -1909,7 +1931,7 @@
         "pos": [
           0.0,
           0.157,
-          -2.00100017
+          -1.988
         ],
         "rot": [
           0.0,
@@ -2926,7 +2948,7 @@
           1.70770264
         ],
         "rot": [
-          6.613463,
+          6.613464,
           0.0,
           0.0,
           0.0
@@ -2953,7 +2975,7 @@
           1.7097168
         ],
         "rot": [
-          6.61346245,
+          6.6134634,
           0.0,
           0.0,
           0.0
@@ -2980,7 +3002,7 @@
           1.71298218
         ],
         "rot": [
-          6.61346245,
+          6.6134634,
           0.0,
           0.0,
           0.0
@@ -3007,7 +3029,7 @@
           1.71585083
         ],
         "rot": [
-          6.57611561,
+          6.57611752,
           0.0,
           0.0,
           0.0
@@ -3034,9 +3056,9 @@
           0.29473877
         ],
         "rot": [
-          52.5495148,
+          52.5495224,
           90.00001,
-          -2.80811619E-05,
+          -2.80811728E-05,
           0.0
         ],
         "scale": [
@@ -3094,7 +3116,7 @@
         "rot": [
           0.321936369,
           180.0,
-          6.36120939E-15,
+          9.541814E-15,
           0.0
         ],
         "scale": [
@@ -3123,7 +3145,7 @@
         "rot": [
           0.321936369,
           180.0,
-          6.36120939E-15,
+          9.541814E-15,
           0.0
         ],
         "scale": [
@@ -3152,7 +3174,7 @@
         "rot": [
           0.321936369,
           180.0,
-          6.36120939E-15,
+          9.541814E-15,
           0.0
         ],
         "scale": [

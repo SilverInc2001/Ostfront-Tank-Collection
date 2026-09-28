@@ -3,12 +3,12 @@
   "header": {
     "v": "0.2",
     "name": "Pz.Kpfw. T-34B 747(r) ",
-    "gameVersion": "0.2.52.3",
-    "mass": 26258,
+    "gameVersion": "0.2.55.5",
+    "mass": 25796,
     "creationDate": "1941.12.31",
     "class": "",
     "desc": "",
-    "cost": 36158
+    "cost": 35350
   },
   "blueprints": [
     {
@@ -31,25 +31,6 @@
       }
     },
     {
-      "id": 2,
-      "type": "paintJob",
-      "blueprint": {
-        "v": "2.2",
-        "name": "Powertrain",
-        "description": "",
-        "colourMapUrl": "821c5c82-a326-46ca-bfd0-bd2a75830ed7",
-        "scale": 0.5,
-        "roughness": 0.5,
-        "metallic": 0.0,
-        "r": 0.25,
-        "g": 0.4,
-        "b": 0.5,
-        "saturation": 0.75,
-        "condition": 0.75,
-        "grime": 0.0
-      }
-    },
-    {
       "id": 3,
       "type": "chassis",
       "blueprint": {
@@ -58,7 +39,7 @@
         "description": null,
         "length": 6000,
         "width": 2000,
-        "groundClearance": 264
+        "groundClearance": 225
       }
     },
     {
@@ -265,7 +246,7 @@
         "yOrigin": 0,
         "xOrigin": -3000,
         "zOffset": 0,
-        "yOffset": 186,
+        "yOffset": 225,
         "xOffset": 780,
         "syncLengthEnabled": false,
         "angle": 0.0
@@ -278,7 +259,7 @@
         "v": "0.0",
         "name": "",
         "description": "",
-        "mountID": "6b0a1425-3943-491b-ad87-f56d8b811e19",
+        "mountID": "74fb4df5-590c-41e2-a26c-97ad6ffce845",
         "scale": 0.6,
         "x": 0,
         "y": 0,
@@ -306,11 +287,11 @@
       "type": "track",
       "blueprint": {
         "v": "1.1",
-        "name": "T-34-76 M1941 ",
+        "name": "T-34-76 M1941",
         "description": "",
         "separation": 1677,
         "length": 6000,
-        "brake": 210065,
+        "brake": 206375,
         "autoBrake": true,
         "rollersEnabled": false,
         "matchChassis": false,
@@ -340,21 +321,10 @@
         "v": "0.6",
         "name": "",
         "description": "",
-        "targetAngle": -10.0,
+        "targetAngle": 0.0,
         "upTravelLimit": 1000.0,
         "damper": 10018.0,
         "armLength": 500
-      }
-    },
-    {
-      "id": 36,
-      "type": "torsionBar",
-      "blueprint": {
-        "v": "0.0",
-        "name": "",
-        "description": "",
-        "torsionBarLength": 1500,
-        "torsionBarDiameter": 60
       }
     },
     {
@@ -1323,7 +1293,7 @@
       }
     },
     {
-      "id": 5,
+      "id": 0,
       "type": "paintJobRegister",
       "blueprint": {
         "v": "0.0",
@@ -1331,8 +1301,60 @@
         "description": null,
         "paintJobIDs": [
           1,
-          2
+          21,
+          22
         ]
+      }
+    },
+    {
+      "id": 21,
+      "type": "paintJob",
+      "blueprint": {
+        "v": "2.2",
+        "name": "Powertrain",
+        "description": "",
+        "colourMapUrl": "821c5c82-a326-46ca-bfd0-bd2a75830ed7",
+        "scale": 0.5,
+        "roughness": 0.5,
+        "metallic": 0.0,
+        "r": 0.25,
+        "g": 0.4,
+        "b": 0.5,
+        "saturation": 0.75,
+        "condition": 0.75,
+        "grime": 0.0
+      }
+    },
+    {
+      "id": 22,
+      "type": "paintJob",
+      "blueprint": {
+        "v": "2.2",
+        "name": "Interior",
+        "description": "",
+        "colourMapUrl": "",
+        "scale": 0.5,
+        "roughness": 0.6,
+        "metallic": 0.0,
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5,
+        "saturation": 0.5,
+        "condition": -1.0,
+        "grime": 0.0
+      }
+    },
+    {
+      "id": 80,
+      "type": "coilSpring",
+      "blueprint": {
+        "v": "0.0",
+        "name": null,
+        "description": null,
+        "springLength": 500,
+        "endSpringLengthMultiplier": 1.0,
+        "springDiameter": 150,
+        "springAngle": 0
       }
     }
   ],
@@ -1582,8 +1604,8 @@
             0.0,
             0.0,
             -2.23517418E-08,
-            0.348022461,
-            -2.54100013,
+            0.348,
+            -2.540985,
             -0.78130734,
             0.190311521,
             0.08944642,
@@ -1594,8 +1616,8 @@
             0.0,
             0.0,
             2.23517418E-08,
-            0.348022461,
-            -2.54100013
+            0.348,
+            -2.540985
           ],
           "portDirections": [
             0.0,
@@ -1867,7 +1889,7 @@
         "mirrorVuid": -1,
         "pos": [
           0.0,
-          0.186,
+          0.225000009,
           -2.22
         ],
         "rot": [
@@ -2029,7 +2051,7 @@
         "mirrorVuid": -1,
         "pos": [
           0.0,
-          0.186,
+          0.225000009,
           -2.22
         ],
         "rot": [
@@ -2964,8 +2986,8 @@
         ],
         "rot": [
           317.409058,
-          -6.80376752E-06,
-          4.60451429E-06,
+          -6.803768E-06,
+          4.60451474E-06,
           0.0
         ],
         "scale": [
@@ -2991,8 +3013,8 @@
         ],
         "rot": [
           317.409058,
-          6.80376752E-06,
-          -4.60451429E-06,
+          6.803768E-06,
+          -4.60451474E-06,
           0.0
         ],
         "scale": [
@@ -3041,7 +3063,7 @@
         "mirrorVuid": 225,
         "pos": [
           -0.247621715,
-          0.172973692,
+          0.172973633,
           1.65515137
         ],
         "rot": [
@@ -3070,7 +3092,7 @@
         "mirrorVuid": 222,
         "pos": [
           0.421883643,
-          0.172973692,
+          0.172973633,
           1.65515137
         ],
         "rot": [
@@ -3607,8 +3629,8 @@
         ],
         "rot": [
           40.4860153,
-          90.0000458,
-          1.12255248E-05,
+          90.00005,
+          1.34706324E-05,
           0.0
         ],
         "scale": [
@@ -3637,7 +3659,7 @@
         "rot": [
           40.4860077,
           269.999969,
-          -1.12255248E-05,
+          -1.347063E-05,
           0.0
         ],
         "scale": [

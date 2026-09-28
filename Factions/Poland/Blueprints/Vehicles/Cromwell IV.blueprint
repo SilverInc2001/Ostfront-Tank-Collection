@@ -3,12 +3,12 @@
   "header": {
     "v": "0.2",
     "name": "Cromwell IV",
-    "gameVersion": "0.2.54.4",
-    "mass": 22621,
+    "gameVersion": "0.2.55.5",
+    "mass": 22725,
     "creationDate": "1945.01.17",
     "class": "",
     "desc": "",
-    "cost": 43847
+    "cost": 43149
   },
   "blueprints": [
     {
@@ -31,25 +31,6 @@
       }
     },
     {
-      "id": 2,
-      "type": "paintJob",
-      "blueprint": {
-        "v": "2.2",
-        "name": "Powertrain",
-        "description": "",
-        "colourMapUrl": "821c5c82-a326-46ca-bfd0-bd2a75830ed7",
-        "scale": 0.5,
-        "roughness": 0.5,
-        "metallic": 0.0,
-        "r": 0.25,
-        "g": 0.4,
-        "b": 0.5,
-        "saturation": 0.75,
-        "condition": 0.75,
-        "grime": 0.0
-      }
-    },
-    {
       "id": 3,
       "type": "chassis",
       "blueprint": {
@@ -58,7 +39,7 @@
         "description": null,
         "length": 6350,
         "width": 2910,
-        "groundClearance": 355
+        "groundClearance": 326
       }
     },
     {
@@ -266,8 +247,8 @@
         "yOrigin": 0,
         "xOrigin": -3560,
         "zOffset": 0,
-        "yOffset": 70,
-        "xOffset": 1227,
+        "yOffset": 99,
+        "xOffset": 1266,
         "syncLengthEnabled": false,
         "angle": 0.0
       }
@@ -279,7 +260,7 @@
         "v": "0.0",
         "name": "",
         "description": "",
-        "mountID": "6b0a1425-3943-491b-ad87-f56d8b811e19",
+        "mountID": "74fb4df5-590c-41e2-a26c-97ad6ffce845",
         "scale": 0.55,
         "x": 0,
         "y": 0,
@@ -294,12 +275,12 @@
         "v": "0.0",
         "name": "",
         "description": "",
-        "wheelID": "98283b0c-eeeb-436d-8f9a-4b59da236d2f",
-        "perAxle": 1,
-        "spacingOnAxle": 0.08,
-        "xOffset": 0.25,
+        "wheelID": "6bc716af-6101-4a96-92b4-f020e08da4b7",
+        "perAxle": 2,
+        "spacingOnAxle": 0.049999997,
+        "xOffset": 0.06,
         "diameter": 0.7,
-        "width": 0.14
+        "width": 0.1
       }
     },
     {
@@ -311,7 +292,7 @@
         "description": "",
         "separation": 1806,
         "length": 7120,
-        "brake": 178302,
+        "brake": 180835,
         "autoBrake": true,
         "rollersEnabled": false,
         "matchChassis": false,
@@ -341,21 +322,10 @@
         "v": "0.6",
         "name": "",
         "description": "",
-        "targetAngle": -5.0,
+        "targetAngle": 0.0,
         "upTravelLimit": 1000.0,
         "damper": 10018.0,
         "armLength": 468
-      }
-    },
-    {
-      "id": 36,
-      "type": "torsionBar",
-      "blueprint": {
-        "v": "0.0",
-        "name": "",
-        "description": "",
-        "torsionBarLength": 1500,
-        "torsionBarDiameter": 60
       }
     },
     {
@@ -1419,7 +1389,7 @@
       }
     },
     {
-      "id": 0,
+      "id": 5,
       "type": "paintJobRegister",
       "blueprint": {
         "v": "0.0",
@@ -1427,8 +1397,60 @@
         "description": null,
         "paintJobIDs": [
           1,
-          2
+          21,
+          22
         ]
+      }
+    },
+    {
+      "id": 21,
+      "type": "paintJob",
+      "blueprint": {
+        "v": "2.2",
+        "name": "Powertrain",
+        "description": "",
+        "colourMapUrl": "821c5c82-a326-46ca-bfd0-bd2a75830ed7",
+        "scale": 0.5,
+        "roughness": 0.5,
+        "metallic": 0.0,
+        "r": 0.25,
+        "g": 0.4,
+        "b": 0.5,
+        "saturation": 0.75,
+        "condition": 0.75,
+        "grime": 0.0
+      }
+    },
+    {
+      "id": 22,
+      "type": "paintJob",
+      "blueprint": {
+        "v": "2.2",
+        "name": "Interior",
+        "description": "",
+        "colourMapUrl": "",
+        "scale": 0.5,
+        "roughness": 0.6,
+        "metallic": 0.0,
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5,
+        "saturation": 0.5,
+        "condition": -1.0,
+        "grime": 0.0
+      }
+    },
+    {
+      "id": 87,
+      "type": "coilSpring",
+      "blueprint": {
+        "v": "0.0",
+        "name": "",
+        "description": "",
+        "springLength": 500,
+        "endSpringLengthMultiplier": 1.0,
+        "springDiameter": 150,
+        "springAngle": 0
       }
     }
   ],
@@ -1963,8 +1985,8 @@
         "mirrorVuid": -1,
         "pos": [
           0.0,
-          0.07,
-          -2.33300018
+          0.09900001,
+          -2.29400015
         ],
         "rot": [
           0.0,
@@ -2125,8 +2147,8 @@
         "mirrorVuid": -1,
         "pos": [
           0.0,
-          0.07,
-          -2.33300018
+          0.09900001,
+          -2.29400015
         ],
         "rot": [
           0.0,
@@ -2415,9 +2437,9 @@
           0.227508545
         ],
         "rot": [
-          0.807879269,
-          -6.36174165E-13,
-          -2.40759655E-05,
+          0.8078793,
+          -6.48897657E-13,
+          -2.40759673E-05,
           0.0
         ],
         "scale": [
@@ -2793,6 +2815,60 @@
       }
     },
     {
+      "guid": "293e9b84-7aa7-4d9b-9159-5e7a38cc5c89",
+      "vuid": 502,
+      "pvuid": 190,
+      "flags": 7,
+      "spareWheel": 503,
+      "transform": {
+        "mirrorVuid": 504,
+        "pos": [
+          -0.691119552,
+          0.5159565,
+          -0.9110718
+        ],
+        "rot": [
+          0.0,
+          250.300583,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "blueprintID": 18
+    },
+    {
+      "guid": "293e9b84-7aa7-4d9b-9159-5e7a38cc5c89",
+      "vuid": 504,
+      "pvuid": 190,
+      "flags": 6,
+      "spareWheel": 505,
+      "transform": {
+        "mirrorVuid": 502,
+        "pos": [
+          0.691119552,
+          0.5159565,
+          -0.9110718
+        ],
+        "rot": [
+          0.0,
+          109.699417,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "blueprintID": 18
+    },
+    {
       "guid": "4481135e-cefd-499c-8122-414942eecbe4",
       "vuid": 221,
       "pvuid": 182,
@@ -2807,7 +2883,7 @@
           -0.102539063
         ],
         "rot": [
-          2.40449616E-08,
+          2.40449634E-08,
           29.9999981,
           1.33482283E-08,
           0.0
@@ -3199,7 +3275,7 @@
         "rot": [
           344.487946,
           180.0,
-          1.26750292E-12,
+          1.37312807E-12,
           0.0
         ],
         "scale": [
@@ -3908,7 +3984,7 @@
         "rot": [
           74.7623,
           269.999939,
-          -1.94907643E-05,
+          -2.5987687E-05,
           0.0
         ],
         "scale": [

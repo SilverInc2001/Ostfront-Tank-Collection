@@ -3,12 +3,12 @@
   "header": {
     "v": "0.2",
     "name": "Cruiser Mk.IV",
-    "gameVersion": "0.2.53.2",
-    "mass": 14566,
+    "gameVersion": "0.2.55.5",
+    "mass": 14206,
     "creationDate": "1941.12.31",
     "class": "",
     "desc": "",
-    "cost": 38265
+    "cost": 37621
   },
   "blueprints": [
     {
@@ -16,37 +16,18 @@
       "type": "paintJob",
       "blueprint": {
         "v": "2.2",
-        "name": "Primary",
+        "name": "Stripe Camo",
         "description": "",
-        "colourMapUrl": "821c5c82-a326-46ca-bfd0-bd2a75830ed7",
-        "scale": 0.5,
+        "colourMapUrl": "a4666fe7-5f0c-4dc8-ba3b-7b350c4fa14d",
+        "scale": 0.366,
         "roughness": 0.5,
         "metallic": 0.0,
-        "r": 0.234400064,
-        "g": 0.25,
-        "b": 0.0550000221,
+        "r": 0.628191948,
+        "g": 0.669999957,
+        "b": 0.147399843,
         "saturation": 0.5,
         "condition": 0.5,
         "grime": 0.5
-      }
-    },
-    {
-      "id": 2,
-      "type": "paintJob",
-      "blueprint": {
-        "v": "2.2",
-        "name": "Powertrain",
-        "description": "",
-        "colourMapUrl": "821c5c82-a326-46ca-bfd0-bd2a75830ed7",
-        "scale": 0.5,
-        "roughness": 0.5,
-        "metallic": 0.0,
-        "r": 0.25,
-        "g": 0.4,
-        "b": 0.5,
-        "saturation": 0.75,
-        "condition": 0.75,
-        "grime": 0.0
       }
     },
     {
@@ -266,7 +247,7 @@
         "xOrigin": -3000,
         "zOffset": 0,
         "yOffset": 1,
-        "xOffset": 853,
+        "xOffset": 926,
         "syncLengthEnabled": false,
         "angle": 0.0
       }
@@ -278,7 +259,7 @@
         "v": "0.0",
         "name": "",
         "description": "",
-        "mountID": "6b0a1425-3943-491b-ad87-f56d8b811e19",
+        "mountID": "74fb4df5-590c-41e2-a26c-97ad6ffce845",
         "scale": 0.6,
         "x": 0,
         "y": 0,
@@ -310,7 +291,7 @@
         "description": "",
         "separation": 1618,
         "length": 6000,
-        "brake": 116618,
+        "brake": 113651,
         "autoBrake": true,
         "rollersEnabled": false,
         "matchChassis": false,
@@ -340,21 +321,10 @@
         "v": "0.6",
         "name": "",
         "description": "",
-        "targetAngle": -5.0,
+        "targetAngle": 0.0,
         "upTravelLimit": 1000.0,
         "damper": 55000.0,
         "armLength": 274
-      }
-    },
-    {
-      "id": 36,
-      "type": "torsionBar",
-      "blueprint": {
-        "v": "0.0",
-        "name": "",
-        "description": "",
-        "torsionBarLength": 1500,
-        "torsionBarDiameter": 60
       }
     },
     {
@@ -1020,29 +990,6 @@
       }
     },
     {
-      "id": 58,
-      "type": "decalTransform",
-      "blueprint": {
-        "v": "0.0",
-        "name": null,
-        "description": null,
-        "x": 200,
-        "y": 200,
-        "z": 25,
-        "flags": 0
-      }
-    },
-    {
-      "id": 59,
-      "type": "decal",
-      "blueprint": {
-        "v": "0.3",
-        "name": null,
-        "description": null,
-        "imageURL": "Sprocket/Decals/Squad B Second Armoured Regiment.png"
-      }
-    },
-    {
       "id": 77,
       "type": "decalTransform",
       "blueprint": {
@@ -1310,7 +1257,81 @@
       }
     },
     {
-      "id": 5,
+      "id": 21,
+      "type": "paintJob",
+      "blueprint": {
+        "v": "2.2",
+        "name": "Powertrain",
+        "description": "",
+        "colourMapUrl": "821c5c82-a326-46ca-bfd0-bd2a75830ed7",
+        "scale": 0.5,
+        "roughness": 0.5,
+        "metallic": 0.0,
+        "r": 0.25,
+        "g": 0.4,
+        "b": 0.5,
+        "saturation": 0.75,
+        "condition": 0.75,
+        "grime": 0.0
+      }
+    },
+    {
+      "id": 22,
+      "type": "paintJob",
+      "blueprint": {
+        "v": "2.2",
+        "name": "Interior",
+        "description": "",
+        "colourMapUrl": "",
+        "scale": 0.5,
+        "roughness": 0.6,
+        "metallic": 0.0,
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5,
+        "saturation": 0.5,
+        "condition": -1.0,
+        "grime": 0.0
+      }
+    },
+    {
+      "id": 79,
+      "type": "coilSpring",
+      "blueprint": {
+        "v": "0.0",
+        "name": "",
+        "description": "",
+        "springLength": 500,
+        "endSpringLengthMultiplier": 1.0,
+        "springDiameter": 150,
+        "springAngle": 0
+      }
+    },
+    {
+      "id": 84,
+      "type": "decalTransform",
+      "blueprint": {
+        "v": "0.0",
+        "name": null,
+        "description": null,
+        "x": 500,
+        "y": 100,
+        "z": 61,
+        "flags": 0
+      }
+    },
+    {
+      "id": 85,
+      "type": "decal",
+      "blueprint": {
+        "v": "0.3",
+        "name": null,
+        "description": null,
+        "imageURL": "Sprocket/Decals/T 271490.png"
+      }
+    },
+    {
+      "id": 2,
       "type": "paintJobRegister",
       "blueprint": {
         "v": "0.0",
@@ -1318,7 +1339,8 @@
         "description": null,
         "paintJobIDs": [
           1,
-          2
+          21,
+          22
         ]
       }
     }
@@ -2092,7 +2114,7 @@
         "rot": [
           351.0,
           180.0,
-          5.15232117E-14,
+          1.03046423E-13,
           0.0
         ],
         "scale": [
@@ -2217,93 +2239,6 @@
     },
     {
       "guid": "e59ff736-a6ea-4a1a-a4c5-6437ed15b872",
-      "vuid": 227,
-      "pvuid": 179,
-      "flags": 7,
-      "decalScaler": 228,
-      "projectedDecal": 229,
-      "transform": {
-        "mirrorVuid": 203,
-        "pos": [
-          -0.916738331,
-          0.408325642,
-          -1.00314331
-        ],
-        "rot": [
-          38.8656158,
-          90.00008,
-          -8.772174E-06,
-          0.0
-        ],
-        "scale": [
-          0.3,
-          0.3,
-          0.0610000044
-        ]
-      },
-      "decalProjectionBlueprintVuid": 77,
-      "decalBlueprintVuid": 78
-    },
-    {
-      "guid": "e59ff736-a6ea-4a1a-a4c5-6437ed15b872",
-      "vuid": 203,
-      "pvuid": 179,
-      "flags": 6,
-      "decalScaler": 204,
-      "projectedDecal": 205,
-      "transform": {
-        "mirrorVuid": 227,
-        "pos": [
-          0.916738331,
-          0.408325642,
-          -1.00314331
-        ],
-        "rot": [
-          38.8656235,
-          269.999939,
-          1.096522E-05,
-          0.0
-        ],
-        "scale": [
-          0.3,
-          0.3,
-          0.0610000044
-        ]
-      },
-      "decalProjectionBlueprintVuid": 77,
-      "decalBlueprintVuid": 78
-    },
-    {
-      "guid": "e59ff736-a6ea-4a1a-a4c5-6437ed15b872",
-      "vuid": 236,
-      "pvuid": 179,
-      "flags": 3,
-      "decalScaler": 237,
-      "projectedDecal": 238,
-      "transform": {
-        "mirrorVuid": -1,
-        "pos": [
-          -0.743613541,
-          0.128566,
-          0.7090759
-        ],
-        "rot": [
-          15.5893707,
-          179.963257,
-          8.65606864E-10,
-          0.0
-        ],
-        "scale": [
-          0.2,
-          0.2,
-          0.025
-        ]
-      },
-      "decalProjectionBlueprintVuid": 58,
-      "decalBlueprintVuid": 59
-    },
-    {
-      "guid": "e59ff736-a6ea-4a1a-a4c5-6437ed15b872",
       "vuid": 152,
       "pvuid": 179,
       "flags": 2,
@@ -2390,6 +2325,122 @@
       "decalBlueprintVuid": 61
     },
     {
+      "guid": "e59ff736-a6ea-4a1a-a4c5-6437ed15b872",
+      "vuid": 227,
+      "pvuid": 179,
+      "flags": 7,
+      "decalScaler": 228,
+      "projectedDecal": 229,
+      "transform": {
+        "mirrorVuid": 203,
+        "pos": [
+          -0.882315934,
+          0.455427617,
+          0.26739502
+        ],
+        "rot": [
+          38.8656578,
+          90.00006,
+          -4.38608959E-06,
+          0.0
+        ],
+        "scale": [
+          0.3,
+          0.3,
+          0.0610000044
+        ]
+      },
+      "decalProjectionBlueprintVuid": 77,
+      "decalBlueprintVuid": 78
+    },
+    {
+      "guid": "e59ff736-a6ea-4a1a-a4c5-6437ed15b872",
+      "vuid": 203,
+      "pvuid": 179,
+      "flags": 6,
+      "decalScaler": 204,
+      "projectedDecal": 205,
+      "transform": {
+        "mirrorVuid": 227,
+        "pos": [
+          0.882315934,
+          0.455427617,
+          0.26739502
+        ],
+        "rot": [
+          38.8656578,
+          269.999939,
+          2.19304457E-06,
+          0.0
+        ],
+        "scale": [
+          0.3,
+          0.3,
+          0.0610000044
+        ]
+      },
+      "decalProjectionBlueprintVuid": 77,
+      "decalBlueprintVuid": 78
+    },
+    {
+      "guid": "e59ff736-a6ea-4a1a-a4c5-6437ed15b872",
+      "vuid": 415,
+      "pvuid": 179,
+      "flags": 7,
+      "decalScaler": 416,
+      "projectedDecal": 417,
+      "transform": {
+        "mirrorVuid": 418,
+        "pos": [
+          -0.9565963,
+          0.3730912,
+          -0.84765625
+        ],
+        "rot": [
+          38.86561,
+          89.99992,
+          -2.19304343E-06,
+          0.0
+        ],
+        "scale": [
+          0.5,
+          0.1,
+          0.0610000044
+        ]
+      },
+      "decalProjectionBlueprintVuid": 84,
+      "decalBlueprintVuid": 85
+    },
+    {
+      "guid": "e59ff736-a6ea-4a1a-a4c5-6437ed15b872",
+      "vuid": 418,
+      "pvuid": 179,
+      "flags": 6,
+      "decalScaler": 419,
+      "projectedDecal": 420,
+      "transform": {
+        "mirrorVuid": 415,
+        "pos": [
+          0.9565963,
+          0.3730912,
+          -0.84765625
+        ],
+        "rot": [
+          38.865612,
+          270.000061,
+          2.1930432E-06,
+          0.0
+        ],
+        "scale": [
+          0.5,
+          0.1,
+          0.0610000044
+        ]
+      },
+      "decalProjectionBlueprintVuid": 84,
+      "decalBlueprintVuid": 85
+    },
+    {
       "guid": "4481135e-cefd-499c-8122-414942eecbe4",
       "vuid": 158,
       "pvuid": 171,
@@ -2433,7 +2484,7 @@
           -0.665710449
         ],
         "rot": [
-          3.212164E-07,
+          3.212165E-07,
           29.9999943,
           1.41312825E-07,
           0.0
@@ -2752,7 +2803,7 @@
           -2.972931
         ],
         "rot": [
-          17.9951153,
+          17.9951229,
           0.000110232635,
           1.36975995E-11,
           0.0
@@ -3013,8 +3064,8 @@
             0.0,
             0.0,
             -2.23517418E-08,
-            0.184021,
-            -2.50700021,
+            0.184000015,
+            -2.50698853,
             -0.713323236,
             0.171057448,
             0.080397,
@@ -3025,8 +3076,8 @@
             0.0,
             0.0,
             2.23517418E-08,
-            0.184021,
-            -2.50700021
+            0.184000015,
+            -2.50698853
           ],
           "portDirections": [
             0.0,
@@ -3299,7 +3350,7 @@
         "pos": [
           0.0,
           0.001,
-          -2.147
+          -2.07400012
         ],
         "rot": [
           0.0,
@@ -3461,7 +3512,7 @@
         "pos": [
           0.0,
           0.001,
-          -2.147
+          -2.07400012
         ],
         "rot": [
           0.0,

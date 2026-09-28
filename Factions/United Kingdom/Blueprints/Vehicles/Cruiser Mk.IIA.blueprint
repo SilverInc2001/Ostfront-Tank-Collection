@@ -3,8 +3,8 @@
   "header": {
     "v": "0.2",
     "name": "Cruiser Mk.IIA",
-    "gameVersion": "0.2.53.2",
-    "mass": 11602,
+    "gameVersion": "0.2.55.5",
+    "mass": 11604,
     "creationDate": "1941.12.31",
     "class": "",
     "desc": "",
@@ -16,37 +16,18 @@
       "type": "paintJob",
       "blueprint": {
         "v": "2.2",
-        "name": "Primary",
+        "name": "Stripe Camo",
         "description": "",
-        "colourMapUrl": "821c5c82-a326-46ca-bfd0-bd2a75830ed7",
-        "scale": 0.5,
+        "colourMapUrl": "a4666fe7-5f0c-4dc8-ba3b-7b350c4fa14d",
+        "scale": 0.366,
         "roughness": 0.5,
         "metallic": 0.0,
-        "r": 0.234400064,
-        "g": 0.25,
-        "b": 0.0550000221,
+        "r": 0.628191948,
+        "g": 0.669999957,
+        "b": 0.147399843,
         "saturation": 0.5,
         "condition": 0.5,
         "grime": 0.5
-      }
-    },
-    {
-      "id": 2,
-      "type": "paintJob",
-      "blueprint": {
-        "v": "2.2",
-        "name": "Powertrain",
-        "description": "",
-        "colourMapUrl": "821c5c82-a326-46ca-bfd0-bd2a75830ed7",
-        "scale": 0.5,
-        "roughness": 0.5,
-        "metallic": 0.0,
-        "r": 0.25,
-        "g": 0.4,
-        "b": 0.5,
-        "saturation": 0.75,
-        "condition": 0.75,
-        "grime": 0.0
       }
     },
     {
@@ -1240,7 +1221,7 @@
       }
     },
     {
-      "id": 0,
+      "id": 5,
       "type": "paintJobRegister",
       "blueprint": {
         "v": "0.0",
@@ -1248,8 +1229,93 @@
         "description": null,
         "paintJobIDs": [
           1,
-          2
+          21,
+          22
         ]
+      }
+    },
+    {
+      "id": 21,
+      "type": "paintJob",
+      "blueprint": {
+        "v": "2.2",
+        "name": "Powertrain",
+        "description": "",
+        "colourMapUrl": "821c5c82-a326-46ca-bfd0-bd2a75830ed7",
+        "scale": 0.5,
+        "roughness": 0.5,
+        "metallic": 0.0,
+        "r": 0.25,
+        "g": 0.4,
+        "b": 0.5,
+        "saturation": 0.75,
+        "condition": 0.75,
+        "grime": 0.0
+      }
+    },
+    {
+      "id": 22,
+      "type": "paintJob",
+      "blueprint": {
+        "v": "2.2",
+        "name": "Interior",
+        "description": "",
+        "colourMapUrl": "",
+        "scale": 0.5,
+        "roughness": 0.6,
+        "metallic": 0.0,
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5,
+        "saturation": 0.5,
+        "condition": -1.0,
+        "grime": 0.0
+      }
+    },
+    {
+      "id": 33,
+      "type": "decalTransform",
+      "blueprint": {
+        "v": "0.0",
+        "name": null,
+        "description": null,
+        "x": 200,
+        "y": 300,
+        "z": 115,
+        "flags": 0
+      }
+    },
+    {
+      "id": 34,
+      "type": "decal",
+      "blueprint": {
+        "v": "0.3",
+        "name": null,
+        "description": null,
+        "imageURL": "Sprocket/Decals/HQ First Armoured Regiment.png"
+      }
+    },
+    {
+      "id": 37,
+      "type": "decalTransform",
+      "blueprint": {
+        "v": "0.0",
+        "name": null,
+        "description": null,
+        "x": 500,
+        "y": 100,
+        "z": 115,
+        "flags": 0
+      }
+    },
+    {
+      "id": 51,
+      "type": "decal",
+      "blueprint": {
+        "v": "0.3",
+        "name": null,
+        "description": null,
+        "imageURL": "Sprocket/Decals/T 271490.png"
       }
     }
   ],
@@ -2007,7 +2073,7 @@
           -2.16766357
         ],
         "rot": [
-          0.02814786,
+          0.0281478632,
           359.987457,
           0.0149675962,
           0.0
@@ -2645,14 +2711,14 @@
       "transform": {
         "mirrorVuid": -1,
         "pos": [
-          -0.643596649,
-          0.232562631,
-          0.6866455
+          -0.611650944,
+          0.34112367,
+          0.6630249
         ],
         "rot": [
-          12.2896843,
+          12.2896824,
           179.928879,
-          0.0,
+          3.41327233E-09,
           0.0
         ],
         "scale": [
@@ -2674,14 +2740,14 @@
       "transform": {
         "mirrorVuid": 446,
         "pos": [
-          -0.742327869,
-          0.4493321,
-          -0.861541748
+          -0.685810864,
+          0.6035763,
+          -0.867218
         ],
         "rot": [
-          20.1234665,
+          20.1234722,
           90.0,
-          -9.092822E-07,
+          -7.274257E-06,
           0.0
         ],
         "scale": [
@@ -2703,14 +2769,14 @@
       "transform": {
         "mirrorVuid": 312,
         "pos": [
-          0.742327869,
-          0.4493321,
-          -0.861541748
+          0.685810864,
+          0.6035763,
+          -0.867218
         ],
         "rot": [
-          20.1234665,
+          20.1234722,
           270.0,
-          9.092822E-07,
+          7.274257E-06,
           0.0
         ],
         "scale": [
@@ -2752,6 +2818,64 @@
       "decalBlueprintVuid": 137
     },
     {
+      "guid": "e59ff736-a6ea-4a1a-a4c5-6437ed15b872",
+      "vuid": 250,
+      "pvuid": 355,
+      "flags": 3,
+      "decalScaler": 251,
+      "projectedDecal": 255,
+      "transform": {
+        "mirrorVuid": -1,
+        "pos": [
+          -0.45549804,
+          0.5708016,
+          -1.06790161
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          0.2,
+          0.3,
+          0.115
+        ]
+      },
+      "decalProjectionBlueprintVuid": 33,
+      "decalBlueprintVuid": 34
+    },
+    {
+      "guid": "e59ff736-a6ea-4a1a-a4c5-6437ed15b872",
+      "vuid": 275,
+      "pvuid": 355,
+      "flags": 3,
+      "decalScaler": 276,
+      "projectedDecal": 283,
+      "transform": {
+        "mirrorVuid": -1,
+        "pos": [
+          -0.7549394,
+          0.368312925,
+          -0.732055664
+        ],
+        "rot": [
+          20.1838818,
+          89.99929,
+          5.457805E-06,
+          0.0
+        ],
+        "scale": [
+          0.5,
+          0.1,
+          0.115
+        ]
+      },
+      "decalProjectionBlueprintVuid": 37,
+      "decalBlueprintVuid": 51
+    },
+    {
       "guid": "4481135e-cefd-499c-8122-414942eecbe4",
       "vuid": 375,
       "pvuid": 347,
@@ -2766,7 +2890,7 @@
           -0.07537842
         ],
         "rot": [
-          -1.52073271E-05,
+          -1.52073289E-05,
           30.0000839,
           1.71696829E-05,
           0.0
@@ -2824,7 +2948,7 @@
           -0.478424072
         ],
         "rot": [
-          -1.52073271E-05,
+          -1.52073289E-05,
           30.0000839,
           1.71696829E-05,
           0.0

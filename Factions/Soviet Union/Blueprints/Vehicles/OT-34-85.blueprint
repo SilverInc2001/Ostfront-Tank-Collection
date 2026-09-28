@@ -3,12 +3,12 @@
   "header": {
     "v": "0.2",
     "name": "OT-34-85",
-    "gameVersion": "0.2.54.4",
-    "mass": 30769,
+    "gameVersion": "0.2.55.5",
+    "mass": 30308,
     "creationDate": "1945.09.02",
     "class": "",
     "desc": "",
-    "cost": 38792
+    "cost": 37984
   },
   "blueprints": [
     {
@@ -31,25 +31,6 @@
       }
     },
     {
-      "id": 2,
-      "type": "paintJob",
-      "blueprint": {
-        "v": "2.2",
-        "name": "Powertrain",
-        "description": "",
-        "colourMapUrl": "821c5c82-a326-46ca-bfd0-bd2a75830ed7",
-        "scale": 0.5,
-        "roughness": 0.5,
-        "metallic": 0.0,
-        "r": 0.25,
-        "g": 0.4,
-        "b": 0.5,
-        "saturation": 0.75,
-        "condition": 0.75,
-        "grime": 0.0
-      }
-    },
-    {
       "id": 3,
       "type": "chassis",
       "blueprint": {
@@ -58,7 +39,7 @@
         "description": null,
         "length": 6000,
         "width": 2000,
-        "groundClearance": 264
+        "groundClearance": 225
       }
     },
     {
@@ -265,7 +246,7 @@
         "yOrigin": 0,
         "xOrigin": -3000,
         "zOffset": 0,
-        "yOffset": 186,
+        "yOffset": 225,
         "xOffset": 780,
         "syncLengthEnabled": false,
         "angle": 0.0
@@ -278,7 +259,7 @@
         "v": "0.0",
         "name": "",
         "description": "",
-        "mountID": "6b0a1425-3943-491b-ad87-f56d8b811e19",
+        "mountID": "74fb4df5-590c-41e2-a26c-97ad6ffce845",
         "scale": 0.6,
         "x": 0,
         "y": 0,
@@ -306,11 +287,11 @@
       "type": "track",
       "blueprint": {
         "v": "1.1",
-        "name": "T-34-76 M1941 ",
+        "name": "T-34-76 M1941",
         "description": "",
         "separation": 1677,
         "length": 6000,
-        "brake": 210065,
+        "brake": 242466,
         "autoBrake": true,
         "rollersEnabled": false,
         "matchChassis": false,
@@ -340,21 +321,10 @@
         "v": "0.6",
         "name": "",
         "description": "",
-        "targetAngle": -10.0,
+        "targetAngle": 0.0,
         "upTravelLimit": 1000.0,
         "damper": 10018.0,
         "armLength": 500
-      }
-    },
-    {
-      "id": 36,
-      "type": "torsionBar",
-      "blueprint": {
-        "v": "0.0",
-        "name": "",
-        "description": "",
-        "torsionBarLength": 1500,
-        "torsionBarDiameter": 60
       }
     },
     {
@@ -1414,19 +1384,6 @@
       }
     },
     {
-      "id": 5,
-      "type": "paintJobRegister",
-      "blueprint": {
-        "v": "0.0",
-        "name": null,
-        "description": null,
-        "paintJobIDs": [
-          1,
-          2
-        ]
-      }
-    },
-    {
       "id": 63,
       "type": "decalTransform",
       "blueprint": {
@@ -1585,6 +1542,71 @@
         "name": null,
         "description": null,
         "imageURL": "Sprocket/Decals/Century White 8.png"
+      }
+    },
+    {
+      "id": 0,
+      "type": "paintJobRegister",
+      "blueprint": {
+        "v": "0.0",
+        "name": null,
+        "description": null,
+        "paintJobIDs": [
+          1,
+          21,
+          22
+        ]
+      }
+    },
+    {
+      "id": 21,
+      "type": "paintJob",
+      "blueprint": {
+        "v": "2.2",
+        "name": "Powertrain",
+        "description": "",
+        "colourMapUrl": "821c5c82-a326-46ca-bfd0-bd2a75830ed7",
+        "scale": 0.5,
+        "roughness": 0.5,
+        "metallic": 0.0,
+        "r": 0.25,
+        "g": 0.4,
+        "b": 0.5,
+        "saturation": 0.75,
+        "condition": 0.75,
+        "grime": 0.0
+      }
+    },
+    {
+      "id": 22,
+      "type": "paintJob",
+      "blueprint": {
+        "v": "2.2",
+        "name": "Interior",
+        "description": "",
+        "colourMapUrl": "",
+        "scale": 0.5,
+        "roughness": 0.6,
+        "metallic": 0.0,
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5,
+        "saturation": 0.5,
+        "condition": -1.0,
+        "grime": 0.0
+      }
+    },
+    {
+      "id": 102,
+      "type": "coilSpring",
+      "blueprint": {
+        "v": "0.0",
+        "name": "",
+        "description": "",
+        "springLength": 500,
+        "endSpringLengthMultiplier": 1.0,
+        "springDiameter": 150,
+        "springAngle": 0
       }
     }
   ],
@@ -1834,8 +1856,8 @@
             0.0,
             0.0,
             -2.23517418E-08,
-            0.348022461,
-            -2.54100013,
+            0.348,
+            -2.540985,
             -0.807538748,
             0.187885344,
             0.08830611,
@@ -1846,8 +1868,8 @@
             0.0,
             0.0,
             2.23517418E-08,
-            0.348022461,
-            -2.54100013
+            0.348,
+            -2.540985
           ],
           "portDirections": [
             0.0,
@@ -2119,7 +2141,7 @@
         "mirrorVuid": -1,
         "pos": [
           0.0,
-          0.186,
+          0.225000009,
           -2.22
         ],
         "rot": [
@@ -2281,7 +2303,7 @@
         "mirrorVuid": -1,
         "pos": [
           0.0,
-          0.186,
+          0.225000009,
           -2.22
         ],
         "rot": [
@@ -2492,7 +2514,7 @@
         "rot": [
           18.7371788,
           296.827881,
-          -1.3523314E-05,
+          -1.44248679E-05,
           0.0
         ],
         "scale": [
@@ -2521,7 +2543,7 @@
         "rot": [
           18.7371788,
           296.827881,
-          -1.3523314E-05,
+          -1.44248679E-05,
           0.0
         ],
         "scale": [
@@ -3078,7 +3100,7 @@
         "rot": [
           20.1842384,
           87.8591,
-          0.0,
+          -9.096362E-07,
           0.0
         ],
         "scale": [
@@ -3105,7 +3127,7 @@
           -0.248613834
         ],
         "rot": [
-          19.5819588,
+          19.58196,
           85.0954,
           0.0,
           0.0
@@ -3134,9 +3156,9 @@
           -0.469004154
         ],
         "rot": [
-          19.58196,
+          19.5819645,
           85.09539,
-          -9.061846E-07,
+          0.0,
           0.0
         ],
         "scale": [
@@ -3163,7 +3185,7 @@
           -0.47581768
         ],
         "rot": [
-          19.581953,
+          19.58195,
           274.9046,
           2.71855379E-06,
           0.0
@@ -3192,9 +3214,9 @@
           -0.2547207
         ],
         "rot": [
-          19.581953,
+          19.58195,
           274.9046,
-          1.81236908E-06,
+          2.71855379E-06,
           0.0
         ],
         "scale": [
@@ -3221,9 +3243,9 @@
           -0.0335335732
         ],
         "rot": [
-          19.581953,
+          19.5819511,
           274.9046,
-          5.437108E-06,
+          6.343292E-06,
           0.0
         ],
         "scale": [
@@ -3251,8 +3273,8 @@
         ],
         "rot": [
           18.4146824,
-          110.619827,
-          -2.69955126E-06,
+          110.61982,
+          -3.59940145E-06,
           0.0
         ],
         "scale": [
@@ -3280,8 +3302,8 @@
         ],
         "rot": [
           18.4146824,
-          249.380173,
-          2.69955126E-06,
+          249.380188,
+          3.599401E-06,
           0.0
         ],
         "scale": [
@@ -3473,8 +3495,8 @@
         ],
         "rot": [
           317.409058,
-          -6.80377434E-06,
-          4.60452E-06,
+          -6.803775E-06,
+          4.60452065E-06,
           0.0
         ],
         "scale": [
@@ -3500,8 +3522,8 @@
         ],
         "rot": [
           317.409058,
-          6.80377434E-06,
-          -4.60452E-06,
+          6.803775E-06,
+          -4.60452065E-06,
           0.0
         ],
         "scale": [
@@ -3550,7 +3572,7 @@
         "mirrorVuid": 225,
         "pos": [
           -0.247621536,
-          0.172973573,
+          0.172973633,
           1.65515137
         ],
         "rot": [
@@ -3579,7 +3601,7 @@
         "mirrorVuid": 222,
         "pos": [
           0.421883583,
-          0.172973573,
+          0.172973633,
           1.65515137
         ],
         "rot": [

@@ -3,8 +3,8 @@
   "header": {
     "v": "0.2",
     "name": "Valentine 25-pdr Mk 1 Bishop",
-    "gameVersion": "0.2.51.36",
-    "mass": 23293,
+    "gameVersion": "0.2.55.5",
+    "mass": 23300,
     "creationDate": "1945.01.17",
     "class": "",
     "desc": "",
@@ -16,37 +16,18 @@
       "type": "paintJob",
       "blueprint": {
         "v": "2.2",
-        "name": "Sand",
+        "name": "Stripe Camo",
         "description": "",
-        "colourMapUrl": "821c5c82-a326-46ca-bfd0-bd2a75830ed7",
-        "scale": 0.5,
+        "colourMapUrl": "a4666fe7-5f0c-4dc8-ba3b-7b350c4fa14d",
+        "scale": 0.29,
         "roughness": 0.5,
         "metallic": 0.0,
-        "r": 0.42,
-        "g": 0.327599883,
-        "b": 0.0,
+        "r": 0.628191948,
+        "g": 0.669999957,
+        "b": 0.147399843,
         "saturation": 0.5,
         "condition": 0.5,
         "grime": 0.5
-      }
-    },
-    {
-      "id": 2,
-      "type": "paintJob",
-      "blueprint": {
-        "v": "2.2",
-        "name": "Powertrain",
-        "description": "",
-        "colourMapUrl": "821c5c82-a326-46ca-bfd0-bd2a75830ed7",
-        "scale": 0.5,
-        "roughness": 0.5,
-        "metallic": 0.0,
-        "r": 0.25,
-        "g": 0.4,
-        "b": 0.5,
-        "saturation": 0.75,
-        "condition": 0.75,
-        "grime": 0.0
       }
     },
     {
@@ -65,12 +46,13 @@
       "id": 4,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": null,
         "description": null,
         "armourVolume": 2.13938284,
         "bodyMeshVuid": 0,
         "partRepositioning": false,
+        "collisionEnabled": true,
         "armourTechID": "rha"
       }
     },
@@ -426,12 +408,13 @@
       "id": 70,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": "Unnamed Structure",
         "description": null,
         "armourVolume": 0.028779747,
         "bodyMeshVuid": 1,
         "partRepositioning": true,
+        "collisionEnabled": true,
         "armourTechID": "rha"
       }
     },
@@ -550,12 +533,13 @@
       "id": 142,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": "Unnamed Structure",
         "description": null,
         "armourVolume": 0.0184140056,
         "bodyMeshVuid": 8,
         "partRepositioning": true,
+        "collisionEnabled": false,
         "armourTechID": "rha"
       }
     },
@@ -563,12 +547,13 @@
       "id": 143,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": "Unnamed Structure",
         "description": null,
         "armourVolume": 0.008643442,
         "bodyMeshVuid": 10,
         "partRepositioning": true,
+        "collisionEnabled": false,
         "armourTechID": "rha"
       }
     },
@@ -1251,7 +1236,7 @@
       }
     },
     {
-      "id": 0,
+      "id": 5,
       "type": "paintJobRegister",
       "blueprint": {
         "v": "0.0",
@@ -1259,8 +1244,47 @@
         "description": null,
         "paintJobIDs": [
           1,
-          2
+          21,
+          22
         ]
+      }
+    },
+    {
+      "id": 21,
+      "type": "paintJob",
+      "blueprint": {
+        "v": "2.2",
+        "name": "Powertrain",
+        "description": "",
+        "colourMapUrl": "821c5c82-a326-46ca-bfd0-bd2a75830ed7",
+        "scale": 0.5,
+        "roughness": 0.5,
+        "metallic": 0.0,
+        "r": 0.25,
+        "g": 0.4,
+        "b": 0.5,
+        "saturation": 0.75,
+        "condition": 0.75,
+        "grime": 0.0
+      }
+    },
+    {
+      "id": 22,
+      "type": "paintJob",
+      "blueprint": {
+        "v": "2.2",
+        "name": "Interior",
+        "description": "",
+        "colourMapUrl": "",
+        "scale": 0.5,
+        "roughness": 0.6,
+        "metallic": 0.0,
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5,
+        "saturation": 0.5,
+        "condition": -1.0,
+        "grime": 0.0
       }
     }
   ],
@@ -1863,8 +1887,8 @@
             0.0,
             0.0,
             -2.23517418E-08,
-            0.431000054,
-            -2.45199585,
+            0.431030273,
+            -2.45200014,
             -0.343578577,
             0.14128913,
             0.0664058849,
@@ -1875,8 +1899,8 @@
             0.0,
             0.0,
             2.23517418E-08,
-            0.431000054,
-            -2.45199585
+            0.431030273,
+            -2.45200014
           ],
           "portDirections": [
             0.0,
@@ -2275,9 +2299,9 @@
           0.7373047
         ],
         "rot": [
-          1.22966444,
+          1.22966456,
           -3.817545E-14,
-          -1.97483168E-05,
+          -1.97483187E-05,
           0.0
         ],
         "scale": [
@@ -2358,7 +2382,7 @@
         "rot": [
           0.0,
           0.0,
-          -1.45908563E-09,
+          0.0,
           0.0
         ],
         "scale": [
@@ -2381,13 +2405,13 @@
         "mirrorVuid": -1,
         "pos": [
           0.5926971,
-          0.9833365,
+          0.983337462,
           -0.4169922
         ],
         "rot": [
           0.0,
           0.0,
-          -1.45908563E-09,
+          0.0,
           0.0
         ],
         "scale": [
@@ -2414,7 +2438,7 @@
           -0.5008545
         ],
         "rot": [
-          -1.11513572E-08,
+          -1.115136E-08,
           14.9999866,
           1.86906448E-07,
           0.0
@@ -2439,13 +2463,13 @@
         "mirrorVuid": -1,
         "pos": [
           0.004607035,
-          0.15502888,
+          0.155029356,
           1.79324341
         ],
         "rot": [
           0.0,
           0.0,
-          -1.45908563E-09,
+          0.0,
           0.0
         ],
         "scale": [
@@ -2868,7 +2892,7 @@
         "rot": [
           348.971466,
           180.0889,
-          7.645058E-09,
+          8.494509E-09,
           0.0
         ],
         "scale": [
@@ -2897,7 +2921,7 @@
         "rot": [
           348.971466,
           180.0889,
-          7.645058E-09,
+          8.494509E-09,
           0.0
         ],
         "scale": [

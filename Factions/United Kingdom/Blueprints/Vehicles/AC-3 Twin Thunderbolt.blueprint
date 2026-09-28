@@ -3,8 +3,8 @@
   "header": {
     "v": "0.2",
     "name": "AC-3 Twin Thunderbolt",
-    "gameVersion": "0.2.53.2",
-    "mass": 25969,
+    "gameVersion": "0.2.55.5",
+    "mass": 25974,
     "creationDate": "1943.12.31",
     "class": "",
     "desc": "",
@@ -28,25 +28,6 @@
         "saturation": 0.75,
         "condition": 0.5,
         "grime": 0.5
-      }
-    },
-    {
-      "id": 2,
-      "type": "paintJob",
-      "blueprint": {
-        "v": "2.2",
-        "name": "Powertrain",
-        "description": "",
-        "colourMapUrl": "821c5c82-a326-46ca-bfd0-bd2a75830ed7",
-        "scale": 0.5,
-        "roughness": 0.5,
-        "metallic": 0.0,
-        "r": 0.25,
-        "g": 0.4,
-        "b": 0.5,
-        "saturation": 0.75,
-        "condition": 0.75,
-        "grime": 0.0
       }
     },
     {
@@ -1385,7 +1366,7 @@
       }
     },
     {
-      "id": 0,
+      "id": 5,
       "type": "paintJobRegister",
       "blueprint": {
         "v": "0.0",
@@ -1393,8 +1374,47 @@
         "description": null,
         "paintJobIDs": [
           1,
-          2
+          21,
+          22
         ]
+      }
+    },
+    {
+      "id": 21,
+      "type": "paintJob",
+      "blueprint": {
+        "v": "2.2",
+        "name": "Powertrain",
+        "description": "",
+        "colourMapUrl": "821c5c82-a326-46ca-bfd0-bd2a75830ed7",
+        "scale": 0.5,
+        "roughness": 0.5,
+        "metallic": 0.0,
+        "r": 0.25,
+        "g": 0.4,
+        "b": 0.5,
+        "saturation": 0.75,
+        "condition": 0.75,
+        "grime": 0.0
+      }
+    },
+    {
+      "id": 22,
+      "type": "paintJob",
+      "blueprint": {
+        "v": "2.2",
+        "name": "Interior",
+        "description": "",
+        "colourMapUrl": "",
+        "scale": 0.5,
+        "roughness": 0.6,
+        "metallic": 0.0,
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5,
+        "saturation": 0.5,
+        "condition": -1.0,
+        "grime": 0.0
       }
     }
   ],
@@ -2689,7 +2709,7 @@
           -1.36233521
         ],
         "rot": [
-          0.6151567,
+          0.61515677,
           0.0,
           0.0,
           0.0
@@ -3370,7 +3390,7 @@
           -0.577331543
         ],
         "rot": [
-          270.019775,
+          270.027985,
           270.0,
           0.0,
           0.0
@@ -3539,9 +3559,9 @@
           -0.466522217
         ],
         "rot": [
-          8.631753E-09,
+          8.631754E-09,
           29.9999943,
-          -3.221414E-08,
+          -3.22141425E-08,
           0.0
         ],
         "scale": [

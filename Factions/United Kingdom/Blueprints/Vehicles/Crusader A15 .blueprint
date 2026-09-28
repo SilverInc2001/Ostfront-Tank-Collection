@@ -3,12 +3,12 @@
   "header": {
     "v": "0.2",
     "name": "Crusader A15 ",
-    "gameVersion": "0.2.53.2",
-    "mass": 14787,
+    "gameVersion": "0.2.55.5",
+    "mass": 14331,
     "creationDate": "1941.12.31",
     "class": "",
     "desc": "",
-    "cost": 36745
+    "cost": 35940
   },
   "blueprints": [
     {
@@ -16,37 +16,18 @@
       "type": "paintJob",
       "blueprint": {
         "v": "2.2",
-        "name": "Primary",
+        "name": "Blob Camo",
         "description": "",
-        "colourMapUrl": "Sprocket/Paint/Australian Camo.png",
-        "scale": 0.271,
+        "colourMapUrl": "Sprocket/Paint/12.png",
+        "scale": 0.669999957,
         "roughness": 0.5,
         "metallic": 0.0,
-        "r": 0.38,
-        "g": 0.3495999,
-        "b": 0.19,
-        "saturation": 1.0,
+        "r": 0.4642,
+        "g": 0.55,
+        "b": 0.120999888,
+        "saturation": 0.5,
         "condition": 0.5,
         "grime": 0.5
-      }
-    },
-    {
-      "id": 2,
-      "type": "paintJob",
-      "blueprint": {
-        "v": "2.2",
-        "name": "Powertrain",
-        "description": "",
-        "colourMapUrl": "821c5c82-a326-46ca-bfd0-bd2a75830ed7",
-        "scale": 0.5,
-        "roughness": 0.5,
-        "metallic": 0.0,
-        "r": 0.25,
-        "g": 0.4,
-        "b": 0.5,
-        "saturation": 0.75,
-        "condition": 0.75,
-        "grime": 0.0
       }
     },
     {
@@ -278,7 +259,7 @@
         "v": "0.0",
         "name": "",
         "description": "",
-        "mountID": "6b0a1425-3943-491b-ad87-f56d8b811e19",
+        "mountID": "74fb4df5-590c-41e2-a26c-97ad6ffce845",
         "scale": 0.6,
         "x": 0,
         "y": 0,
@@ -310,7 +291,7 @@
         "description": "",
         "separation": 1763,
         "length": 6000,
-        "brake": 118188,
+        "brake": 114650,
         "autoBrake": true,
         "rollersEnabled": false,
         "matchChassis": false,
@@ -340,21 +321,10 @@
         "v": "0.6",
         "name": "",
         "description": "",
-        "targetAngle": -20.0,
+        "targetAngle": 0.0,
         "upTravelLimit": 1000.0,
         "damper": 10018.0,
         "armLength": 500
-      }
-    },
-    {
-      "id": 36,
-      "type": "torsionBar",
-      "blueprint": {
-        "v": "0.0",
-        "name": "",
-        "description": "",
-        "torsionBarLength": 1500,
-        "torsionBarDiameter": 60
       }
     },
     {
@@ -1575,7 +1545,58 @@
       }
     },
     {
-      "id": 5,
+      "id": 21,
+      "type": "paintJob",
+      "blueprint": {
+        "v": "2.2",
+        "name": "Powertrain",
+        "description": "",
+        "colourMapUrl": "821c5c82-a326-46ca-bfd0-bd2a75830ed7",
+        "scale": 0.5,
+        "roughness": 0.5,
+        "metallic": 0.0,
+        "r": 0.25,
+        "g": 0.4,
+        "b": 0.5,
+        "saturation": 0.75,
+        "condition": 0.75,
+        "grime": 0.0
+      }
+    },
+    {
+      "id": 22,
+      "type": "paintJob",
+      "blueprint": {
+        "v": "2.2",
+        "name": "Interior",
+        "description": "",
+        "colourMapUrl": "",
+        "scale": 0.5,
+        "roughness": 0.6,
+        "metallic": 0.0,
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5,
+        "saturation": 0.5,
+        "condition": -1.0,
+        "grime": 0.0
+      }
+    },
+    {
+      "id": 30,
+      "type": "coilSpring",
+      "blueprint": {
+        "v": "0.0",
+        "name": null,
+        "description": null,
+        "springLength": 500,
+        "endSpringLengthMultiplier": 1.0,
+        "springDiameter": 150,
+        "springAngle": 0
+      }
+    },
+    {
+      "id": 2,
       "type": "paintJobRegister",
       "blueprint": {
         "v": "0.0",
@@ -1583,7 +1604,8 @@
         "description": null,
         "paintJobIDs": [
           1,
-          2
+          21,
+          22
         ]
       }
     }
@@ -1834,8 +1856,8 @@
             0.0,
             0.0,
             -2.23517418E-08,
-            0.281005859,
-            -2.47700024,
+            0.281000018,
+            -2.47698975,
             -0.390237451,
             0.1521409,
             0.0715062246,
@@ -1846,8 +1868,8 @@
             0.0,
             0.0,
             2.23517418E-08,
-            0.281005859,
-            -2.47700024
+            0.281000018,
+            -2.47698975
           ],
           "portDirections": [
             0.0,
@@ -2317,9 +2339,9 @@
           1.76953125
         ],
         "rot": [
-          8.15136,
+          8.151361,
           359.051971,
-          -6.064364E-08,
+          -7.412001E-08,
           0.0
         ],
         "scale": [
@@ -2403,7 +2425,7 @@
         ],
         "rot": [
           352.0023,
-          -5.337808E-07,
+          -5.33781E-07,
           -1.61763118E-08,
           0.0
         ],
@@ -2883,7 +2905,7 @@
           0.105529785
         ],
         "rot": [
-          1.93284961E-08,
+          1.93285E-08,
           29.9999943,
           5.1790523E-09,
           0.0
@@ -3140,7 +3162,7 @@
           0.673187256
         ],
         "rot": [
-          6.99965239,
+          6.99965334,
           180.0,
           -7.69065E-14,
           0.0
@@ -3198,7 +3220,7 @@
         "rot": [
           -2.561321E-06,
           90.00003,
-          7.54458427,
+          7.544583,
           0.0
         ],
         "scale": [

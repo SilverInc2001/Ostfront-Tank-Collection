@@ -3,8 +3,8 @@
   "header": {
     "v": "0.2",
     "name": "Stuart III",
-    "gameVersion": "0.2.51.36",
-    "mass": 14108,
+    "gameVersion": "0.2.55.5",
+    "mass": 14110,
     "creationDate": "1943.12.31",
     "class": "",
     "desc": "",
@@ -16,37 +16,18 @@
       "type": "paintJob",
       "blueprint": {
         "v": "2.2",
-        "name": "Primary",
-        "description": "",
-        "colourMapUrl": "821c5c82-a326-46ca-bfd0-bd2a75830ed7",
-        "scale": 0.5,
-        "roughness": 0.5,
-        "metallic": 0.0,
-        "r": 0.37,
-        "g": 0.301103532,
-        "b": 0.148000017,
-        "saturation": 0.5,
-        "condition": 0.5,
-        "grime": 0.5
-      }
-    },
-    {
-      "id": 2,
-      "type": "paintJob",
-      "blueprint": {
-        "v": "2.2",
-        "name": "Powertrain",
+        "name": "Gray-Brown",
         "description": "",
         "colourMapUrl": "821c5c82-a326-46ca-bfd0-bd2a75830ed7",
         "scale": 0.5,
         "roughness": 0.5,
         "metallic": 0.0,
         "r": 0.25,
-        "g": 0.4,
-        "b": 0.5,
-        "saturation": 0.75,
-        "condition": 0.75,
-        "grime": 0.0
+        "g": 0.23749958,
+        "b": 0.125,
+        "saturation": 0.5,
+        "condition": 0.5,
+        "grime": 0.5
       }
     },
     {
@@ -65,12 +46,13 @@
       "id": 4,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": null,
         "description": null,
         "armourVolume": 0.932475269,
         "bodyMeshVuid": 0,
         "partRepositioning": false,
+        "collisionEnabled": true,
         "armourTechID": "rha"
       }
     },
@@ -516,12 +498,13 @@
       "id": 31,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": "Unnamed Structure",
         "description": null,
         "armourVolume": 0.0012197519,
         "bodyMeshVuid": 2,
         "partRepositioning": false,
+        "collisionEnabled": false,
         "armourTechID": "rha"
       }
     },
@@ -582,12 +565,13 @@
       "id": 37,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": "Unnamed Structure",
         "description": null,
         "armourVolume": 0.310809553,
         "bodyMeshVuid": 3,
         "partRepositioning": false,
+        "collisionEnabled": true,
         "armourTechID": "rha"
       }
     },
@@ -706,12 +690,13 @@
       "id": 44,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": "Unnamed Structure",
         "description": null,
         "armourVolume": 0.0276630931,
         "bodyMeshVuid": 5,
         "partRepositioning": true,
+        "collisionEnabled": false,
         "armourTechID": "rha"
       }
     },
@@ -1175,12 +1160,13 @@
       "id": 45,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": "Unnamed Structure",
         "description": null,
         "armourVolume": 0.0012197519,
         "bodyMeshVuid": 2,
         "partRepositioning": false,
+        "collisionEnabled": false,
         "armourTechID": "rha"
       }
     },
@@ -1188,12 +1174,13 @@
       "id": 52,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": "Unnamed Structure",
         "description": null,
         "armourVolume": 0.00122050219,
         "bodyMeshVuid": 6,
         "partRepositioning": true,
+        "collisionEnabled": false,
         "armourTechID": "rha"
       }
     },
@@ -1221,7 +1208,7 @@
       }
     },
     {
-      "id": 0,
+      "id": 5,
       "type": "paintJobRegister",
       "blueprint": {
         "v": "0.0",
@@ -1229,8 +1216,47 @@
         "description": null,
         "paintJobIDs": [
           1,
-          2
+          21,
+          22
         ]
+      }
+    },
+    {
+      "id": 21,
+      "type": "paintJob",
+      "blueprint": {
+        "v": "2.2",
+        "name": "Powertrain",
+        "description": "",
+        "colourMapUrl": "821c5c82-a326-46ca-bfd0-bd2a75830ed7",
+        "scale": 0.5,
+        "roughness": 0.5,
+        "metallic": 0.0,
+        "r": 0.25,
+        "g": 0.4,
+        "b": 0.5,
+        "saturation": 0.75,
+        "condition": 0.75,
+        "grime": 0.0
+      }
+    },
+    {
+      "id": 22,
+      "type": "paintJob",
+      "blueprint": {
+        "v": "2.2",
+        "name": "Interior",
+        "description": "",
+        "colourMapUrl": "",
+        "scale": 0.5,
+        "roughness": 0.6,
+        "metallic": 0.0,
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5,
+        "saturation": 0.5,
+        "condition": -1.0,
+        "grime": 0.0
       }
     }
   ],
@@ -1480,8 +1506,8 @@
             0.0,
             0.0,
             -2.23517418E-08,
-            0.296,
-            1.60598755,
+            0.2960205,
+            1.606,
             -0.273133,
             0.122866742,
             0.057747364,
@@ -1492,8 +1518,8 @@
             0.0,
             0.0,
             2.23517418E-08,
-            0.296,
-            1.60598755
+            0.2960205,
+            1.606
           ],
           "portDirections": [
             0.0,
@@ -2495,7 +2521,7 @@
         "rot": [
           358.384033,
           180.573,
-          0.363940626,
+          0.363940656,
           0.0
         ],
         "scale": [
@@ -2524,7 +2550,7 @@
         "rot": [
           356.8209,
           178.653488,
-          9.686561E-08,
+          1.0020581E-07,
           0.0
         ],
         "scale": [
@@ -2979,9 +3005,9 @@
           0.8126526
         ],
         "rot": [
-          1.84415531,
-          -9.419321E-13,
-          -1.648515E-05,
+          1.84415579,
+          -9.673897E-13,
+          -1.64851517E-05,
           0.0
         ],
         "scale": [
@@ -3008,8 +3034,8 @@
         ],
         "rot": [
           358.155853,
-          -5.30779E-07,
-          1.649374E-05,
+          -5.30779062E-07,
+          1.64937428E-05,
           0.0
         ],
         "scale": [

@@ -3,12 +3,12 @@
   "header": {
     "v": "0.2",
     "name": "BT-7",
-    "gameVersion": "0.2.51.36",
-    "mass": 13084,
+    "gameVersion": "0.2.55.5",
+    "mass": 12856,
     "creationDate": "1941.12.31",
     "class": "",
     "desc": "",
-    "cost": 21865
+    "cost": 21309
   },
   "blueprints": [
     {
@@ -31,25 +31,6 @@
       }
     },
     {
-      "id": 2,
-      "type": "paintJob",
-      "blueprint": {
-        "v": "2.2",
-        "name": "Powertrain",
-        "description": "",
-        "colourMapUrl": "821c5c82-a326-46ca-bfd0-bd2a75830ed7",
-        "scale": 0.5,
-        "roughness": 0.5,
-        "metallic": 0.0,
-        "r": 0.25,
-        "g": 0.4,
-        "b": 0.5,
-        "saturation": 0.75,
-        "condition": 0.75,
-        "grime": 0.0
-      }
-    },
-    {
       "id": 3,
       "type": "chassis",
       "blueprint": {
@@ -65,12 +46,13 @@
       "id": 4,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": null,
         "description": null,
         "armourVolume": 0.5068775,
         "bodyMeshVuid": 0,
         "partRepositioning": false,
+        "collisionEnabled": true,
         "armourTechID": "rha"
       }
     },
@@ -277,7 +259,7 @@
         "v": "0.0",
         "name": "",
         "description": "",
-        "mountID": "6b0a1425-3943-491b-ad87-f56d8b811e19",
+        "mountID": "74fb4df5-590c-41e2-a26c-97ad6ffce845",
         "scale": 0.6,
         "x": 0,
         "y": 0,
@@ -309,12 +291,12 @@
         "description": "",
         "separation": 1375,
         "length": 6000,
-        "brake": 104672,
+        "brake": 102848,
         "autoBrake": true,
         "rollersEnabled": false,
         "matchChassis": false,
         "frontalTransmission": false,
-        "finalDriveRatio": 3.95
+        "finalDriveRatio": 3.12
       }
     },
     {
@@ -339,21 +321,10 @@
         "v": "0.6",
         "name": "",
         "description": "",
-        "targetAngle": -34.0,
+        "targetAngle": 0.0,
         "upTravelLimit": 1000.0,
         "damper": 10018.0,
         "armLength": 450
-      }
-    },
-    {
-      "id": 36,
-      "type": "torsionBar",
-      "blueprint": {
-        "v": "0.0",
-        "name": "",
-        "description": "",
-        "torsionBarLength": 1059,
-        "torsionBarDiameter": 60
       }
     },
     {
@@ -408,12 +379,13 @@
       "id": 45,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": "Unnamed Structure",
         "description": null,
         "armourVolume": 0.08642424,
         "bodyMeshVuid": 1,
         "partRepositioning": true,
+        "collisionEnabled": true,
         "armourTechID": "rha"
       }
     },
@@ -446,12 +418,13 @@
       "id": 49,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": "Unnamed Structure",
         "description": null,
         "armourVolume": 0.009239582,
         "bodyMeshVuid": 3,
         "partRepositioning": true,
+        "collisionEnabled": false,
         "armourTechID": "rha"
       }
     },
@@ -1042,12 +1015,13 @@
       "id": 72,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": "Unnamed Structure",
         "description": null,
         "armourVolume": 0.0020362807,
         "bodyMeshVuid": 4,
         "partRepositioning": true,
+        "collisionEnabled": false,
         "armourTechID": "rha"
       }
     },
@@ -1160,7 +1134,7 @@
       }
     },
     {
-      "id": 5,
+      "id": 0,
       "type": "paintJobRegister",
       "blueprint": {
         "v": "0.0",
@@ -1168,8 +1142,60 @@
         "description": null,
         "paintJobIDs": [
           1,
-          2
+          21,
+          22
         ]
+      }
+    },
+    {
+      "id": 21,
+      "type": "paintJob",
+      "blueprint": {
+        "v": "2.2",
+        "name": "Powertrain",
+        "description": "",
+        "colourMapUrl": "821c5c82-a326-46ca-bfd0-bd2a75830ed7",
+        "scale": 0.5,
+        "roughness": 0.5,
+        "metallic": 0.0,
+        "r": 0.25,
+        "g": 0.4,
+        "b": 0.5,
+        "saturation": 0.75,
+        "condition": 0.75,
+        "grime": 0.0
+      }
+    },
+    {
+      "id": 22,
+      "type": "paintJob",
+      "blueprint": {
+        "v": "2.2",
+        "name": "Interior",
+        "description": "",
+        "colourMapUrl": "",
+        "scale": 0.5,
+        "roughness": 0.6,
+        "metallic": 0.0,
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5,
+        "saturation": 0.5,
+        "condition": -1.0,
+        "grime": 0.0
+      }
+    },
+    {
+      "id": 54,
+      "type": "coilSpring",
+      "blueprint": {
+        "v": "0.0",
+        "name": null,
+        "description": null,
+        "springLength": 500,
+        "endSpringLengthMultiplier": 0.75,
+        "springDiameter": 150,
+        "springAngle": 0
       }
     }
   ],
@@ -2354,7 +2380,7 @@
         "rot": [
           350.999542,
           180.0,
-          -1.28808178E-13,
+          -1.54569825E-13,
           0.0
         ],
         "scale": [
@@ -2631,8 +2657,8 @@
         ],
         "rot": [
           14.8740892,
-          106.8472,
-          1.766747E-06,
+          106.847206,
+          2.65012045E-06,
           0.0
         ],
         "scale": [
@@ -2661,7 +2687,7 @@
         "rot": [
           14.8740892,
           253.152786,
-          -8.833735E-07,
+          -2.20843367E-06,
           0.0
         ],
         "scale": [
@@ -2690,7 +2716,7 @@
         "rot": [
           14.8553658,
           84.5962143,
-          -1.76659387E-06,
+          -3.53318774E-06,
           0.0
         ],
         "scale": [
@@ -2747,8 +2773,8 @@
         ],
         "rot": [
           5.63868525E-08,
-          15.0000486,
-          -1.94871621E-08,
+          15.0000467,
+          -1.94871639E-08,
           0.0
         ],
         "scale": [

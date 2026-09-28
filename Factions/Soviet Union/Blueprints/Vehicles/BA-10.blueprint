@@ -3,12 +3,12 @@
   "header": {
     "v": "0.2",
     "name": "BA-10",
-    "gameVersion": "0.2.53.2",
-    "mass": 8723,
+    "gameVersion": "0.2.55.5",
+    "mass": 9226,
     "creationDate": "1941.12.31",
     "class": "",
     "desc": "",
-    "cost": 20360
+    "cost": 20201
   },
   "blueprints": [
     {
@@ -28,25 +28,6 @@
         "saturation": 0.5,
         "condition": 0.5,
         "grime": 0.5
-      }
-    },
-    {
-      "id": 2,
-      "type": "paintJob",
-      "blueprint": {
-        "v": "2.2",
-        "name": "Powertrain",
-        "description": "",
-        "colourMapUrl": "821c5c82-a326-46ca-bfd0-bd2a75830ed7",
-        "scale": 0.5,
-        "roughness": 0.5,
-        "metallic": 0.0,
-        "r": 0.25,
-        "g": 0.4,
-        "b": 0.5,
-        "saturation": 0.75,
-        "condition": 0.75,
-        "grime": 0.0
       }
     },
     {
@@ -141,8 +122,8 @@
         "mountID": "97844d15-24a8-4feb-9548-668e2bb81ce6",
         "scale": 1.0,
         "x": 0,
-        "y": -180,
-        "z": 1111,
+        "y": -4,
+        "z": 1110,
         "rearFacing": true
       }
     },
@@ -157,7 +138,7 @@
         "perAxle": 1,
         "spacingOnAxle": 0.01,
         "xOffset": -0.008,
-        "diameter": 0.5,
+        "diameter": 1.70999992,
         "width": 0.0
       }
     },
@@ -266,7 +247,7 @@
         "xOrigin": -2600,
         "zOffset": 0,
         "yOffset": -184,
-        "xOffset": 638,
+        "xOffset": 651,
         "syncLengthEnabled": false,
         "angle": 0.0
       }
@@ -278,7 +259,7 @@
         "v": "0.0",
         "name": "",
         "description": "",
-        "mountID": "6b0a1425-3943-491b-ad87-f56d8b811e19",
+        "mountID": "74fb4df5-590c-41e2-a26c-97ad6ffce845",
         "scale": 0.6,
         "x": 0,
         "y": 0,
@@ -296,7 +277,7 @@
         "wheelID": "864e251d-8eac-471d-b70c-f030d25f8c87",
         "perAxle": 1,
         "spacingOnAxle": 0.08,
-        "xOffset": 0.0,
+        "xOffset": 0.14,
         "diameter": 0.87,
         "width": 0.165
       }
@@ -308,14 +289,14 @@
         "v": "1.1",
         "name": "BA-10",
         "description": "",
-        "separation": 1060,
+        "separation": 816,
         "length": 5200,
-        "brake": 69785,
+        "brake": 73814,
         "autoBrake": true,
         "rollersEnabled": false,
         "matchChassis": false,
         "frontalTransmission": false,
-        "finalDriveRatio": 5.5
+        "finalDriveRatio": 15.0
       }
     },
     {
@@ -340,21 +321,10 @@
         "v": "0.6",
         "name": "",
         "description": "",
-        "targetAngle": -48.0,
+        "targetAngle": 0.0,
         "upTravelLimit": 1000.0,
         "damper": 10018.0,
         "armLength": 274
-      }
-    },
-    {
-      "id": 36,
-      "type": "torsionBar",
-      "blueprint": {
-        "v": "0.0",
-        "name": "",
-        "description": "",
-        "torsionBarLength": 510,
-        "torsionBarDiameter": 60
       }
     },
     {
@@ -1324,7 +1294,7 @@
       }
     },
     {
-      "id": 0,
+      "id": 5,
       "type": "paintJobRegister",
       "blueprint": {
         "v": "0.0",
@@ -1332,8 +1302,60 @@
         "description": null,
         "paintJobIDs": [
           1,
-          2
+          21,
+          22
         ]
+      }
+    },
+    {
+      "id": 21,
+      "type": "paintJob",
+      "blueprint": {
+        "v": "2.2",
+        "name": "Powertrain",
+        "description": "",
+        "colourMapUrl": "821c5c82-a326-46ca-bfd0-bd2a75830ed7",
+        "scale": 0.5,
+        "roughness": 0.5,
+        "metallic": 0.0,
+        "r": 0.25,
+        "g": 0.4,
+        "b": 0.5,
+        "saturation": 0.75,
+        "condition": 0.75,
+        "grime": 0.0
+      }
+    },
+    {
+      "id": 22,
+      "type": "paintJob",
+      "blueprint": {
+        "v": "2.2",
+        "name": "Interior",
+        "description": "",
+        "colourMapUrl": "",
+        "scale": 0.5,
+        "roughness": 0.6,
+        "metallic": 0.0,
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5,
+        "saturation": 0.5,
+        "condition": -1.0,
+        "grime": 0.0
+      }
+    },
+    {
+      "id": 85,
+      "type": "coilSpring",
+      "blueprint": {
+        "v": "0.0",
+        "name": null,
+        "description": null,
+        "springLength": 500,
+        "endSpringLengthMultiplier": 1.0,
+        "springDiameter": 150,
+        "springAngle": 0
       }
     }
   ],
@@ -2061,7 +2083,7 @@
         "rot": [
           358.002838,
           -1.70855833E-06,
-          4.3122963E-08,
+          4.31229665E-08,
           0.0
         ],
         "scale": [
@@ -2512,7 +2534,7 @@
         "rot": [
           356.479736,
           181.456009,
-          6.68271554E-08,
+          7.016852E-08,
           0.0
         ],
         "scale": [
@@ -2541,7 +2563,7 @@
         "rot": [
           359.4829,
           178.237732,
-          -9.17177E-09,
+          -1.0005567E-08,
           0.0
         ],
         "scale": [
@@ -2568,9 +2590,9 @@
           -2.00653076
         ],
         "rot": [
-          1.66827452,
+          1.66827476,
           359.443756,
-          -2.50235055E-09,
+          -1.66823377E-09,
           0.0
         ],
         "scale": [
@@ -2597,7 +2619,7 @@
           0.7541375
         ],
         "rot": [
-          1.999042,
+          1.99904227,
           5.012005E-06,
           180.0,
           0.0
@@ -2626,7 +2648,7 @@
         "rot": [
           6.32950354,
           93.20525,
-          3.65079245E-06,
+          3.43604E-06,
           0.0
         ],
         "scale": [
@@ -2682,9 +2704,9 @@
           0.344543457
         ],
         "rot": [
-          6.43575525,
+          6.435756,
           266.790924,
-          -1.7183761E-06,
+          -1.933173E-06,
           0.0
         ],
         "scale": [
@@ -2711,9 +2733,9 @@
           0.175994873
         ],
         "rot": [
-          7.13255835,
+          7.132558,
           265.9807,
-          4.51726828E-06,
+          4.73237651E-06,
           0.0
         ],
         "scale": [
@@ -2893,16 +2915,16 @@
             9.017186E-08,
             -0.004358858,
             -1.46855414,
-            -0.530000031,
+            -0.408000022,
             0.105301782,
             -1.52009463,
-            0.530000031,
+            0.408000022,
             0.105301782,
             -1.52009463,
-            -0.530000031,
+            -0.408000022,
             0.0,
             0.0,
-            0.530000031,
+            0.408000022,
             0.0,
             0.0
           ],
@@ -2942,9 +2964,9 @@
             0.0,
             0.0,
             0.0,
-            -2.23517418E-08,
-            -0.180000067,
-            -1.48901367,
+            7.450581E-09,
+            -0.0039999485,
+            -1.48999023,
             -0.227104917,
             0.10966064,
             0.0515404977,
@@ -2954,9 +2976,9 @@
             0.0,
             0.0,
             0.0,
-            2.23517418E-08,
-            -0.180000067,
-            -1.48901367
+            -7.450581E-09,
+            -0.0039999485,
+            -1.48999023
           ],
           "portDirections": [
             0.0,
@@ -3096,7 +3118,7 @@
       "transform": {
         "mirrorVuid": 38,
         "pos": [
-          -0.530000031,
+          -0.408000022,
           0.0,
           0.0
         ],
@@ -3138,8 +3160,8 @@
         "mirrorVuid": -1,
         "pos": [
           -0.1,
-          -0.18,
-          -1.48900008
+          -0.004,
+          -1.49000013
         ],
         "rot": [
           0.0,
@@ -3229,7 +3251,7 @@
         "pos": [
           0.0,
           -0.184000015,
-          -1.96200013
+          -1.94900012
         ],
         "rot": [
           0.0,
@@ -3258,7 +3280,7 @@
       "transform": {
         "mirrorVuid": 16,
         "pos": [
-          0.530000031,
+          0.408000022,
           0.0,
           0.0
         ],
@@ -3300,8 +3322,8 @@
         "mirrorVuid": -1,
         "pos": [
           0.1,
-          -0.18,
-          -1.48900008
+          -0.004,
+          -1.49000013
         ],
         "rot": [
           0.0,
@@ -3391,7 +3413,7 @@
         "pos": [
           0.0,
           -0.184000015,
-          -1.96200013
+          -1.94900012
         ],
         "rot": [
           0.0,
