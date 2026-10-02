@@ -34,6 +34,8 @@ You can join using this link: [https://discord.gg/RDAaC5jg](https://discord.gg/K
 | BA-6                                 | Armoured Car     | Finland, SU                              |
 | M5 High-Speed Tractor                | Armoured Carrier | USA, SU                                  |
 | Citroën 7 Traction Avant             | Car              | France, Germany, UK                      |
+| SPA-Viberti AS.42 (Breda 20-65)      | Car              | Italy                                    |
+| SPA-Viberti AS.42 (Solothurn)        | Car              | Italy                                    |
 | 10 cm M14 FH                         | Field Gun        | Czechia, Germany, Hungary, Italy, Poland |
 | 105 mm Armata wz. 29                 | Field Gun        | Finland, Germany, Poland                 |
 | 25mm Hotchkiss anti-tank gun         | Field Gun        | Finland, France, Germany, Italy, UK      |
@@ -44,12 +46,12 @@ You can join using this link: [https://discord.gg/RDAaC5jg](https://discord.gg/K
 | 45mm M-37 M1937                      | Field Gun        | Finland, Germany, SU                     |
 | 47mm Type 1                          | Field Gun        | Japan                                    |
 | 57mm Type 2                          | Field Gun        | Japan                                    |
+| 75 mm Armata wz.02/06                | Field Gun        | Poland                                   |
 | 75mm Pack Howitzer M1                | Field Gun        | France, Poland, UK, USA                  |
-| Armata 75mm wz.02-26                 | Field Gun        | Poland                                   |
 | Bofors 37 mm anti-tank gun           | Field Gun        | Finland, Germany, Poland, UK, SU         |
 | Bofors 8cm Model 1929                | Field Gun        | Hungary                                  |
-|  Pawlack                             | Heavy            | USA                                      |
 | 44M Tas                              | Heavy            | Hungary                                  |
+| A33 Excelsior                        | Heavy            | UK                                       |
 | ARL 44                               | Heavy            | France                                   |
 | ARL-44 (ACL-1)                       | Heavy            | France                                   |
 | Black Prince                         | Heavy            | UK                                       |
@@ -71,9 +73,6 @@ You can join using this link: [https://discord.gg/RDAaC5jg](https://discord.gg/K
 | Churchill Mk.VII Crocodile           | Heavy            | UK                                       |
 | Churchill Mk.VIII                    | Heavy            | UK                                       |
 | DW II                                | Heavy            | Germany                                  |
-| Excelsior (A33)                      | Heavy            | UK                                       |
-| Ferdinand Sd.Kfz. 184                | Heavy            | Germany                                  |
-| I-O                                  | Heavy            | Japan                                    |
 | IS-1 (1943)                          | Heavy            | SU                                       |
 | IS-2 (1944)                          | Heavy            | Poland, SU                               |
 | ISU-122S                             | Heavy            | Poland, SU                               |
@@ -87,13 +86,16 @@ You can join using this link: [https://discord.gg/RDAaC5jg](https://discord.gg/K
 | KV-1S                                | Heavy            | SU                                       |
 | M26 Pershing                         | Heavy            | USA                                      |
 | M6A1                                 | Heavy            | USA                                      |
+| O-I                                  | Heavy            | Japan                                    |
 | O-Ro Kai                             | Heavy            | Japan                                    |
+| Pawlack                              | Heavy            | USA                                      |
 | Pz.Kpfw. E-100                       | Heavy            | Germany                                  |
 | Pz.Kpfw. Tiger Ausf. B               | Heavy            | Germany                                  |
 | Pz.Kpfw. Tiger Ausf. B (P)           | Heavy            | Germany                                  |
 | Sd.Kfz. 166 Brummbär                 | Heavy            | Germany                                  |
-| Sd.Kfz. E 75 Ausf. A                 | Heavy            | Germany                                  |
-| Sd.Kfz. E 75 Ausf. B                 | Heavy            | Germany                                  |
+| Sd.Kfz. 184 Ferdinand                | Heavy            | Germany                                  |
+| Sd.Kfz. E-75 Ausf. A                 | Heavy            | Germany                                  |
+| Sd.Kfz. E-75 Ausf. B                 | Heavy            | Germany                                  |
 | SDP Wz. 40                           | Heavy            | Poland                                   |
 | St Chamond                           | Heavy            | France                                   |
 | SU-100Y                              | Heavy            | SU                                       |
@@ -105,12 +107,14 @@ You can join using this link: [https://discord.gg/RDAaC5jg](https://discord.gg/K
 | Tiger H1                             | Heavy            | Germany                                  |
 | TOG 2                                | Heavy            | UK                                       |
 | Type 5 Chi-Ri                        | Heavy            | Japan                                    |
+| Type 5 Chi-Se                        | Heavy            | Japan                                    |
 | Type 91 Heavy                        | Heavy            | Japan                                    |
 | Vz. 44-1                             | Heavy            | Czechia                                  |
 | 10TP                                 | Light            | Poland                                   |
 | 38M Toldi I                          | Light            | Hungary                                  |
 | 38M Toldi IIA                        | Light            | Hungary                                  |
 | 40M Nimród                           | Light            | Hungary                                  |
+| 4TP                                  | Light            | Poland                                   |
 | 7TP                                  | Light            | Germany, Poland                          |
 | Alecto Mk.I CS                       | Light            | UK                                       |
 | Alecto Mk.II                         | Light            | UK                                       |
@@ -122,9 +126,8 @@ You can join using this link: [https://discord.gg/RDAaC5jg](https://discord.gg/K
 | BT-5                                 | Light            | Finland, SU                              |
 | BT-7                                 | Light            | Finland, Hungary, SU                     |
 | BT-7A                                | Light            | SU                                       |
-| Carro Armato L5-21                   | Light            | Italy                                    |
-| Carro Armato L5-30                   | Light            | Italy                                    |
-| Cruiser Mk.V Covenanter              | Light            | UK                                       |
+| Carro Armato L5/21                   | Light            | Italy                                    |
+| Carro Armato L5/30                   | Light            | Italy                                    |
 | Cruiser Tank Mk I                    | Light            | UK                                       |
 | Cruiser Tank Mk I CS                 | Light            | UK                                       |
 | Cruiser Tank Mk II                   | Light            | UK                                       |
@@ -134,6 +137,7 @@ You can join using this link: [https://discord.gg/RDAaC5jg](https://discord.gg/K
 | Cruiser Tank Mk IIIA                 | Light            | UK                                       |
 | Cruiser Tank Mk IV                   | Light            | Germany, UK                              |
 | Cruiser Tank Mk IVA                  | Light            | UK                                       |
+| Cruiser Tank Mk V Covenanter         | Light            | UK                                       |
 | FT-17                                | Light            | France, Finland, Germany, Japan, Poland  |
 | FT-17 (MG)                           | Light            | Currently only France                    |
 | Hotchkiss H35                        | Light            | France, Germany, Hungary                 |
@@ -147,8 +151,8 @@ You can join using this link: [https://discord.gg/RDAaC5jg](https://discord.gg/K
 | Landsverk L-62 Anti II               | Light            | Finland                                  |
 | Light Tank Mk VIII                   | Light            | UK                                       |
 | Little Willie                        | Light            | UK                                       |
-| LT vz. 35                            | Light            | Germany                                  |
-| LT vz. 38                            | Light            | Germany, Hungary                         |
+| LT vz. 35                            | Light            | Czechia, Germany                         |
+| LT vz. 38                            | Light            | Czechia, Germany, Hungary                |
 | M18 Hellcat                          | Light            | USA                                      |
 | M22 Locust                           | Light            | UK                                       |
 | M2A4 Stuart I                        | Light            | France, UK, USA, SU                      |
@@ -204,10 +208,11 @@ You can join using this link: [https://discord.gg/RDAaC5jg](https://discord.gg/K
 | Crusader A15                         | Medium           | France, Poland, UK                       |
 | Crusader AA Mk I                     | Medium           | UK                                       |
 | Crusader Mk.II                       | Medium           | France, Germany, Poland, UK              |
-| E-25                                 | Medium           | Germany                                  |
 | Lago I M38-A                         | Medium           | Sweden                                   |
 | Lago I M40-B                         | Medium           | Sweden                                   |
 | Lago I M40-C                         | Medium           | Sweden                                   |
+| M10 Wolverine (Early)                | Medium           | France,UK, USA, SU                       |
+| M10 Wolverine (Late)                 | Medium           | UK, USA                                  |
 | M12 GMC                              | Medium           | USA                                      |
 | M3 Grant                             | Medium           | UK                                       |
 | M3 Lee                               | Medium           | USA, SU                                  |
@@ -239,6 +244,7 @@ You can join using this link: [https://discord.gg/RDAaC5jg](https://discord.gg/K
 | Panzer IV Ausf. J                    | Medium           | Finland, Germany                         |
 | Pz.Kpfw. Panther II                  | Medium           | Germany                                  |
 | Sd.Kfz. 165 ""Hummel""               | Medium           | Germany                                  |
+| Sd.Kfz. E-25                         | Medium           | Germany                                  |
 | Škoda T 24                           | Medium           | Czechia                                  |
 | Škoda T 25 Druhý                     | Medium           | Czechia                                  |
 | Škoda T 25 První                     | Medium           | Czechia                                  |
