@@ -4,11 +4,11 @@
     "v": "0.2",
     "name": "4TP",
     "gameVersion": "0.2.55.5",
-    "mass": 4062,
+    "mass": 4044,
     "creationDate": "1939.09.01",
     "class": "",
     "desc": "",
-    "cost": 19188
+    "cost": 19184
   },
   "blueprints": [
     {
@@ -158,7 +158,7 @@
         "name": null,
         "description": null,
         "mountID": "97844d15-24a8-4feb-9548-668e2bb81ce6",
-        "scale": 0.5,
+        "scale": 0.0,
         "x": 0,
         "y": 146,
         "z": -1384,
@@ -188,7 +188,7 @@
         "name": null,
         "description": null,
         "mountID": "25261a10-1c39-4191-9378-b6108d71cbf1",
-        "scale": 1.0,
+        "scale": 0.0,
         "x": 0,
         "y": 80,
         "z": 1510,
@@ -329,7 +329,7 @@
         "description": null,
         "separation": 1241,
         "length": 6000,
-        "brake": 32499,
+        "brake": 32359,
         "autoBrake": true,
         "rollersEnabled": true,
         "matchChassis": false,
@@ -908,20 +908,6 @@
       }
     },
     {
-      "id": 0,
-      "type": "paintJobRegister",
-      "blueprint": {
-        "v": "0.0",
-        "name": null,
-        "description": null,
-        "paintJobIDs": [
-          1,
-          2,
-          3
-        ]
-      }
-    },
-    {
       "id": 43,
       "type": "decalTransform",
       "blueprint": {
@@ -942,6 +928,20 @@
         "name": null,
         "description": null,
         "imageURL": "Sprocket/Decals/ALL_Red_Circle.png"
+      }
+    },
+    {
+      "id": 6,
+      "type": "paintJobRegister",
+      "blueprint": {
+        "v": "0.0",
+        "name": null,
+        "description": null,
+        "paintJobIDs": [
+          1,
+          2,
+          3
+        ]
       }
     }
   ],
@@ -2062,14 +2062,14 @@
       "transform": {
         "mirrorVuid": -1,
         "pos": [
-          0.0,
-          -0.9506836,
-          -0.161682129
+          2.38418579E-06,
+          -0.9506837,
+          -0.161677346
         ],
         "rot": [
           0.0,
           0.0,
-          0.0,
+          -2.66804268E-08,
           0.0
         ],
         "scale": [
@@ -2149,14 +2149,14 @@
       "transform": {
         "mirrorVuid": -1,
         "pos": [
-          -0.202539116,
-          -0.080078125,
-          0.774597168
+          -0.2025404,
+          -0.0800782442,
+          0.7745905
         ],
         "rot": [
           0.0,
           0.0,
-          0.0,
+          -2.66804268E-08,
           0.0
         ],
         "scale": [
@@ -2269,7 +2269,7 @@
         "rot": [
           39.9305954,
           180.0,
-          -1.327266E-13,
+          -3.9817978E-13,
           0.0
         ],
         "scale": [
@@ -2323,7 +2323,7 @@
           1.20953369
         ],
         "rot": [
-          0.7025159,
+          0.70251596,
           180.0,
           -3.180794E-15,
           0.0
@@ -2381,7 +2381,7 @@
         "rot": [
           356.512115,
           1.05830491,
-          1.00237276E-08,
+          6.682485E-09,
           0.0
         ],
         "scale": [
