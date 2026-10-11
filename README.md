@@ -232,6 +232,18 @@ You can join using this link: [https://discord.gg/RDAaC5jg](https://discord.gg/K
 | M4A2 Sherman III (Mid)               | Medium           | France, Poland, UK, USA, SU              |
 | M4A2 Sherman III DV                  | Medium           | UK, USA, SU                              |
 | M4A2 Sherman III DV (Up-Armoured)    | Medium           | France, UK, USA, SU                      |
+| M4A3 Sherman IV (Early)              | Medium           | France, USA                              |
+| M4A3 Sherman IV (Late)               | Medium           | France, USA                              |
+| M4A3 Sherman IVA (76W)               | Medium           | UK, USA                                  |
+| M4A3 Sherman IVAY (76W HVSS)         | Medium           | UK, USA                                  |
+| M4A3 Sherman IVB (105)               | Medium           | France, Poland, UK, USA                  |
+| M4A3 Sherman IVBY (105 HVSS)         | Medium           | UK, USA                                  |
+| M4A3 Sherman IVC Firefly             | Medium           | UK                                       |
+| M4A3 Sherman IVW (75W)               | Medium           | France, USA                              |
+| M4A3 Sherman IVW (Early)             | Medium           | USA                                      |
+| M4A3 Sherman IVW (Flame)             | Medium           | USA                                      |
+| M4A3E2 Sherman IV Jumbo (75)         | Medium           | France, USA                              |
+| M4A3E2 Sherman IV Jumbo (76)         | Medium           | USA                                      |
 | M4A4 Sherman V (Crocodile)           | Medium           | UK                                       |
 | M4A4 Sherman V (Late)                | Medium           | Czechia, France, Poland, UK              |
 | M4A4 Sherman V (Mid)                 | Medium           | Czechia, France, Poland, UK              |
