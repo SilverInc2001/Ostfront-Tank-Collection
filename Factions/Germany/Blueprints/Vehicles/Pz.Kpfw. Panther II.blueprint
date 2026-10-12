@@ -3,8 +3,8 @@
   "header": {
     "v": "0.2",
     "name": "Pz.Kpfw. Panther II",
-    "gameVersion": "0.2.54.4",
-    "mass": 40586,
+    "gameVersion": "0.2.55.5",
+    "mass": 40599,
     "creationDate": "1943.12.31",
     "class": "",
     "desc": "",
@@ -28,25 +28,6 @@
         "saturation": 0.5,
         "condition": 0.5,
         "grime": 0.5
-      }
-    },
-    {
-      "id": 2,
-      "type": "paintJob",
-      "blueprint": {
-        "v": "2.2",
-        "name": "Powertrain",
-        "description": "",
-        "colourMapUrl": "821c5c82-a326-46ca-bfd0-bd2a75830ed7",
-        "scale": 0.5,
-        "roughness": 0.5,
-        "metallic": 0.0,
-        "r": 0.25,
-        "g": 0.4,
-        "b": 0.5,
-        "saturation": 0.75,
-        "condition": 0.75,
-        "grime": 0.0
       }
     },
     {
@@ -294,7 +275,7 @@
         "v": "0.0",
         "name": "",
         "description": "",
-        "wheelID": "50907d5b-dde1-451c-a0be-07c69d2fc886",
+        "wheelID": "6bc716af-6101-4a96-92b4-f020e08da4b7",
         "perAxle": 2,
         "spacingOnAxle": 0.12,
         "xOffset": 0.03,
@@ -311,7 +292,7 @@
         "description": "",
         "separation": 1706,
         "length": 6316,
-        "brake": 324694,
+        "brake": 324796,
         "autoBrake": true,
         "rollersEnabled": false,
         "matchChassis": false,
@@ -1411,7 +1392,7 @@
       }
     },
     {
-      "id": 5,
+      "id": 0,
       "type": "paintJobRegister",
       "blueprint": {
         "v": "0.0",
@@ -1419,8 +1400,47 @@
         "description": null,
         "paintJobIDs": [
           1,
-          2
+          21,
+          22
         ]
+      }
+    },
+    {
+      "id": 21,
+      "type": "paintJob",
+      "blueprint": {
+        "v": "2.2",
+        "name": "Powertrain",
+        "description": "",
+        "colourMapUrl": "821c5c82-a326-46ca-bfd0-bd2a75830ed7",
+        "scale": 0.5,
+        "roughness": 0.5,
+        "metallic": 0.0,
+        "r": 0.25,
+        "g": 0.4,
+        "b": 0.5,
+        "saturation": 0.75,
+        "condition": 0.75,
+        "grime": 0.0
+      }
+    },
+    {
+      "id": 22,
+      "type": "paintJob",
+      "blueprint": {
+        "v": "2.2",
+        "name": "Interior",
+        "description": "",
+        "colourMapUrl": "",
+        "scale": 0.5,
+        "roughness": 0.6,
+        "metallic": 0.0,
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5,
+        "saturation": 0.5,
+        "condition": -1.0,
+        "grime": 0.0
       }
     }
   ],
@@ -2210,7 +2230,7 @@
           0.5674871
         ],
         "rot": [
-          6.636271E-09,
+          6.636272E-09,
           314.9999,
           -1.44808094E-08,
           0.0
@@ -2519,7 +2539,7 @@
         "rot": [
           0.0,
           0.0,
-          -7.295429E-10,
+          0.0,
           0.0
         ],
         "scale": [
@@ -2548,7 +2568,7 @@
         "rot": [
           0.0,
           0.0,
-          -7.295429E-10,
+          0.0,
           0.0
         ],
         "scale": [
@@ -2577,7 +2597,7 @@
         "rot": [
           0.0,
           0.0,
-          -7.295429E-10,
+          0.0,
           0.0
         ],
         "scale": [
@@ -2687,7 +2707,7 @@
           0.769051135
         ],
         "rot": [
-          25.935318,
+          25.93532,
           259.1931,
           359.966156,
           0.0
@@ -3446,7 +3466,7 @@
         "rot": [
           4.83300829,
           170.553253,
-          2.14205016E-07,
+          2.67756263E-07,
           0.0
         ],
         "scale": [
@@ -3474,7 +3494,7 @@
         "rot": [
           60.0621643,
           269.998718,
-          1.0264579E-05,
+          6.84305223E-06,
           0.0
         ],
         "scale": [
@@ -3530,7 +3550,7 @@
         "rot": [
           60.0621643,
           269.998718,
-          1.0264579E-05,
+          6.84305223E-06,
           0.0
         ],
         "scale": [
@@ -3586,7 +3606,7 @@
         "rot": [
           60.0621643,
           269.998718,
-          1.0264579E-05,
+          6.84305223E-06,
           0.0
         ],
         "scale": [
@@ -3697,7 +3717,7 @@
         ],
         "rot": [
           59.9276581,
-          -1.624892E-12,
+          -2.031115E-12,
           180.0,
           0.0
         ],
@@ -3724,7 +3744,7 @@
         ],
         "rot": [
           59.9276581,
-          -1.624892E-12,
+          -2.031115E-12,
           180.0,
           0.0
         ],
@@ -3752,7 +3772,7 @@
         "rot": [
           0.0,
           0.0,
-          -7.295429E-10,
+          0.0,
           0.0
         ],
         "scale": [
@@ -3781,7 +3801,7 @@
         "rot": [
           0.0,
           0.0,
-          -7.295429E-10,
+          0.0,
           0.0
         ],
         "scale": [
