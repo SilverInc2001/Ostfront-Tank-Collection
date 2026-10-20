@@ -4,11 +4,11 @@
     "v": "0.2",
     "name": "M24 Chaffee",
     "gameVersion": "0.2.55.5",
-    "mass": 16007,
+    "mass": 16006,
     "creationDate": "1945.09.02",
     "class": "",
     "desc": "",
-    "cost": 42074
+    "cost": 42070
   },
   "blueprints": [
     {
@@ -834,7 +834,7 @@
         "name": null,
         "description": null,
         "diameter": 75,
-        "length": 576,
+        "length": 575,
         "x": 452,
         "y": 267,
         "z": 1208,
@@ -868,7 +868,7 @@
         "name": "75 mm Gun M6",
         "description": "",
         "caliber": 75,
-        "breechLength": 351,
+        "breechLength": 350,
         "muzzle": "",
         "segments": [
           {
@@ -906,7 +906,7 @@
         "name": null,
         "description": null,
         "diameter": 75,
-        "propellantLength": 351,
+        "propellantLength": 350,
         "generatedProjectiles": [
           {
             "projectileTypeGuid": "60a99b1c-c8c5-4518-a9ec-e15e0652fe3e",
@@ -920,7 +920,7 @@
               {
                 "id": "Propellant",
                 "definition": {
-                  "length": 351
+                  "length": 350
                 }
               }
             ]
@@ -1287,20 +1287,6 @@
       }
     },
     {
-      "id": 0,
-      "type": "paintJobRegister",
-      "blueprint": {
-        "v": "0.0",
-        "name": null,
-        "description": null,
-        "paintJobIDs": [
-          1,
-          2,
-          3
-        ]
-      }
-    },
-    {
       "id": 49,
       "type": "decalTransform",
       "blueprint": {
@@ -1344,6 +1330,20 @@
         "name": null,
         "description": null,
         "imageURL": "Sprocket/Decals/US ARMY.png"
+      }
+    },
+    {
+      "id": 6,
+      "type": "paintJobRegister",
+      "blueprint": {
+        "v": "0.0",
+        "name": null,
+        "description": null,
+        "paintJobIDs": [
+          1,
+          2,
+          3
+        ]
       }
     }
   ],
@@ -1868,7 +1868,7 @@
           0.0103149414
         ],
         "rot": [
-          -2.06924167E-09,
+          -2.06924189E-09,
           45.0000038,
           -8.076778E-09,
           0.0
@@ -2100,7 +2100,7 @@
         "rot": [
           12.2246885,
           93.7782059,
-          -1.00461975E-05,
+          -1.04829887E-05,
           0.0
         ],
         "scale": [
@@ -2127,9 +2127,9 @@
           -0.0203857422
         ],
         "rot": [
-          12.2246885,
+          12.2246895,
           266.2218,
-          1.00461975E-05,
+          1.00461957E-05,
           0.0
         ],
         "scale": [
@@ -2158,7 +2158,7 @@
         "rot": [
           353.07135,
           34.1495171,
-          16.381052,
+          16.3810539,
           0.0
         ],
         "scale": [
@@ -2185,7 +2185,7 @@
         "rot": [
           28.1548328,
           -3.40331026E-05,
-          -9.827538E-06,
+          -9.827537E-06,
           0.0
         ],
         "scale": [
@@ -2212,7 +2212,7 @@
         "rot": [
           28.1548328,
           3.40331026E-05,
-          9.827538E-06,
+          9.827537E-06,
           0.0
         ],
         "scale": [
@@ -3432,7 +3432,7 @@
         "rot": [
           357.588959,
           90.0,
-          -1.06816273E-07,
+          -1.06816259E-07,
           0.0
         ],
         "scale": [
@@ -3461,7 +3461,7 @@
         "rot": [
           357.588959,
           270.0,
-          1.06816273E-07,
+          1.06816259E-07,
           0.0
         ],
         "scale": [
