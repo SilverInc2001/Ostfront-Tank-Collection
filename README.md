@@ -10,7 +10,7 @@ If you would like to help choose the next vehicles added to the collection, you 
 **I have a Discord server!**
 For those who want to get directly involved, you can join here! This server is a place to discuss and contribute to everything surrounding the collection, as well as share your own creations.
 
-You can join using this link: [https://discord.gg/RDAaC5jg](https://discord.gg/KSvbnXqNv)
+You can join using this link: https://discord.gg/tWqbfsHJn
 
 **Purpose of the collection**
 
@@ -73,6 +73,7 @@ You can join using this link: [https://discord.gg/RDAaC5jg](https://discord.gg/K
 | Churchill Mk.VII Crocodile           | Heavy            | UK                                       |
 | Churchill Mk.VIII                    | Heavy            | UK                                       |
 | DW II                                | Heavy            | Germany                                  |
+| Grille 15                            | Heavy            | Germany                                  |
 | IS-1 (1943)                          | Heavy            | SU                                       |
 | IS-2 (1944)                          | Heavy            | Poland, SU                               |
 | ISU-122S                             | Heavy            | Poland, SU                               |
@@ -153,12 +154,18 @@ You can join using this link: [https://discord.gg/RDAaC5jg](https://discord.gg/K
 | Little Willie                        | Light            | UK                                       |
 | LT vz. 35                            | Light            | Czechia, Germany                         |
 | LT vz. 38                            | Light            | Czechia, Germany, Hungary                |
+| LVT(A)(1)                            | Light            | USA                                      |
+| LVT(A)(1) (M24)                      | Light            | USA                                      |
+| LVT(A)(4)                            | Light            | USA                                      |
+| LVT-4                                | Light            | UK, USA                                  |
 | M18 Hellcat                          | Light            | USA                                      |
 | M22 Locust                           | Light            | UK                                       |
+| M24 Chaffee                          | Light            | France, UK, USA                          |
 | M2A4 Stuart I                        | Light            | France, UK, USA, SU                      |
 | M3A1 Stuart III                      | Light            | France, UK, USA, SU                      |
 | M3A3 Stuart V                        | Light            | France, UK                               |
 | M5A1 Stuart VI                       | Light            | France, Poland, UK, USA                  |
+| M8 Scott                             | Light            | France, USA                              |
 | M88 105mm HMC                        | Light            | USA                                      |
 | R35                                  | Light            | France, Germany, Italy, Poland           |
 | R39                                  | Light            | France                                   |
@@ -269,6 +276,7 @@ You can join using this link: [https://discord.gg/RDAaC5jg](https://discord.gg/K
 | StuG III Ausf. G                     | Medium           | Finland, Germany, Hungary, Italy         |
 | StuG III Ausf. G (Finnish Modified)  | Medium           | Finland                                  |
 | StuH 42                              | Medium           | Finland, Germany                         |
+| SU-85                                | Medium           | Czechia, Germany, Poland, SU             |
 | T-28A                                | Medium           | Finland, SU                              |
 | T-28B                                | Medium           | Finland, SU                              |
 | T-28C                                | Medium           | Finland, SU                              |
