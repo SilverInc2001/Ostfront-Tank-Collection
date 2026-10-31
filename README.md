@@ -74,6 +74,8 @@ You can join using this link: https://discord.gg/tWqbfsHJn
 | Churchill Mk.VIII                    | Heavy            | UK                                       |
 | DW II                                | Heavy            | Germany                                  |
 | Grille 15                            | Heavy            | Germany                                  |
+| Grille 17                            | Heavy            | Germany                                  |
+| Grille 21                            | Heavy            | Germany                                  |
 | IS-1 (1943)                          | Heavy            | SU                                       |
 | IS-2 (1944)                          | Heavy            | Poland, SU                               |
 | ISU-122S                             | Heavy            | Poland, SU                               |
@@ -89,6 +91,8 @@ You can join using this link: https://discord.gg/tWqbfsHJn
 | M6A1                                 | Heavy            | USA                                      |
 | O-I                                  | Heavy            | Japan                                    |
 | O-Ro Kai                             | Heavy            | Japan                                    |
+| P.1000 Ratte                         | Heavy            | Germany                                  |
+| Panzer VIII Maus                     | Heavy            | Germany                                  |
 | Pawlack                              | Heavy            | USA                                      |
 | Pz.Kpfw. E-100                       | Heavy            | Germany                                  |
 | Pz.Kpfw. Tiger Ausf. B               | Heavy            | Germany                                  |
@@ -143,7 +147,7 @@ You can join using this link: https://discord.gg/tWqbfsHJn
 | FT-17 (MG)                           | Light            | Currently only France                    |
 | Hotchkiss H35                        | Light            | France, Germany, Hungary                 |
 | Hotchkiss H39                        | Light            | France, Germany, Poland, Hungary         |
-| Jagdpanzer 38(t) ""Hetzer""          | Light            | Germany, Hungary, Poland                 |
+| Jagdpanzer 38(t) "Hetzer"            | Light            | Germany, Hungary, Poland                 |
 | KH-50                                | Light            | Czechia                                  |
 | KhT-130                              | Light            | Finland, Germany, SU                     |
 | KhT-26                               | Light            | Finland, Germany, SU                     |
@@ -167,6 +171,7 @@ You can join using this link: https://discord.gg/tWqbfsHJn
 | M5A1 Stuart VI                       | Light            | France, Poland, UK, USA                  |
 | M8 Scott                             | Light            | France, USA                              |
 | M88 105mm HMC                        | Light            | USA                                      |
+| Pz.Wfg. 39                           | Light            | Czechia                                  |
 | R35                                  | Light            | France, Germany, Italy, Poland           |
 | R39                                  | Light            | France                                   |
 | SU-26                                | Light            | SU                                       |
@@ -208,13 +213,15 @@ You can join using this link: https://discord.gg/tWqbfsHJn
 | Centurion Mk.I                       | Medium           | UK                                       |
 | Char D2                              | Medium           | France, Germany                          |
 | Cromwell Mk IV                       | Medium           | Poland, UK                               |
-| Cromwell Mk IV ""Tulip""             | Medium           | UK                                       |
+| Cromwell Mk IV "Tulip"               | Medium           | UK                                       |
 | Cromwell Mk V                        | Medium           | UK                                       |
 | Cromwell Mk VI                       | Medium           | UK                                       |
+| Cruiser Mk VII Cavalier A24          | Medium           | France, UK                               |
 | Cruiser Tank Mk VIII Challenger      | Medium           | Poland, UK                               |
 | Crusader A15                         | Medium           | France, Poland, UK                       |
 | Crusader AA Mk I                     | Medium           | UK                                       |
 | Crusader Mk.II                       | Medium           | France, Germany, Poland, UK              |
+| Flakpanzer IV Wirblewind             | Medium           | Germany                                  |
 | Lago I M38-A                         | Medium           | Sweden                                   |
 | Lago I M40-B                         | Medium           | Sweden                                   |
 | Lago I M40-C                         | Medium           | Sweden                                   |
@@ -262,7 +269,7 @@ You can join using this link: https://discord.gg/tWqbfsHJn
 | Panzer III Ausf. E                   | Medium           | Germany                                  |
 | Panzer IV Ausf. J                    | Medium           | Finland, Germany                         |
 | Pz.Kpfw. Panther II                  | Medium           | Germany                                  |
-| Sd.Kfz. 165 ""Hummel""               | Medium           | Germany                                  |
+| Sd.Kfz. 165 "Hummel"                 | Medium           | Germany                                  |
 | Sd.Kfz. E-25                         | Medium           | Germany                                  |
 | Škoda T 24                           | Medium           | Czechia                                  |
 | Škoda T 25 Druhý                     | Medium           | Czechia                                  |
