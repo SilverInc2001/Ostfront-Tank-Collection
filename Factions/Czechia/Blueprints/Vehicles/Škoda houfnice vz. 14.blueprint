@@ -3,7 +3,7 @@
   "header": {
     "v": "0.2",
     "name": " Škoda houfnice vz. 14",
-    "gameVersion": "0.2.53.2",
+    "gameVersion": "0.2.55.5",
     "mass": 3498,
     "creationDate": "1939.09.01",
     "class": "",
@@ -28,25 +28,6 @@
         "saturation": 0.5,
         "condition": 0.5,
         "grime": 0.5
-      }
-    },
-    {
-      "id": 2,
-      "type": "paintJob",
-      "blueprint": {
-        "v": "2.2",
-        "name": "Powertrain",
-        "description": "",
-        "colourMapUrl": "821c5c82-a326-46ca-bfd0-bd2a75830ed7",
-        "scale": 0.5,
-        "roughness": 0.5,
-        "metallic": 0.0,
-        "r": 0.25,
-        "g": 0.4,
-        "b": 0.5,
-        "saturation": 0.75,
-        "condition": 0.75,
-        "grime": 0.0
       }
     },
     {
@@ -704,7 +685,45 @@
       }
     },
     {
-      "id": 5,
+      "id": 16,
+      "type": "paintJob",
+      "blueprint": {
+        "v": "2.2",
+        "name": "Powertrain",
+        "description": "",
+        "colourMapUrl": "821c5c82-a326-46ca-bfd0-bd2a75830ed7",
+        "scale": 0.5,
+        "roughness": 0.5,
+        "metallic": 0.0,
+        "r": 0.25,
+        "g": 0.4,
+        "b": 0.5,
+        "saturation": 0.75,
+        "condition": 0.75,
+        "grime": 0.0
+      }
+    },
+    {
+      "id": 18,
+      "type": "paintJob",
+      "blueprint": {
+        "v": "2.2",
+        "name": "Interior",
+        "description": "",
+        "colourMapUrl": "",
+        "scale": 0.5,
+        "roughness": 0.6,
+        "metallic": 0.0,
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5,
+        "saturation": 0.5,
+        "condition": -1.0,
+        "grime": 0.0
+      }
+    },
+    {
+      "id": 2,
       "type": "paintJobRegister",
       "blueprint": {
         "v": "0.0",
@@ -712,7 +731,8 @@
         "description": null,
         "paintJobIDs": [
           1,
-          2
+          16,
+          18
         ]
       }
     }
@@ -1358,7 +1378,7 @@
           -0.0499850363
         ],
         "rot": [
-          1.8110801E-06,
+          1.81108055E-06,
           269.9692,
           180.0,
           0.0
@@ -1384,7 +1404,7 @@
           -0.0502203666
         ],
         "rot": [
-          0.8500803,
+          0.85008055,
           89.96962,
           180.0,
           0.0
@@ -2131,7 +2151,7 @@
           -0.287231445
         ],
         "rot": [
-          0.170687109,
+          0.170687139,
           180.027115,
           179.640808,
           0.0
