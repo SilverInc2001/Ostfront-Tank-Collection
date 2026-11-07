@@ -87,14 +87,19 @@ You can join using this link: (https://discord.gg/9ypgCWJZU)
 | KV-1 (1941)                          | Heavy            | German, SU                               |
 | KV-1 (1942)                          | Heavy            | Finland, German, SU                      |
 | KV-1S                                | Heavy            | SU                                       |
+| KV-2 (MT-1)                          | Heavy            | SU                                       |
+| KV-2 (MT-2)                          | Heavy            | SU                                       |
+| KV-2 (ZiS-6)                         | Heavy            | SU                                       |
 | M26 Pershing                         | Heavy            | USA                                      |
 | M6A1                                 | Heavy            | USA                                      |
+| M6A2E1                               | Heavy            | USA                                      |
 | O-I                                  | Heavy            | Japan                                    |
 | O-Ro Kai                             | Heavy            | Japan                                    |
 | P.1000 Ratte                         | Heavy            | Germany                                  |
 | Panzer VIII Maus                     | Heavy            | Germany                                  |
 | Pawlack                              | Heavy            | USA                                      |
 | Pz.Kpfw. E-100                       | Heavy            | Germany                                  |
+| Pz.Kpfw. KW II 754(r)                | Heavy            | Germany                                  |
 | Pz.Kpfw. Tiger Ausf. B               | Heavy            | Germany                                  |
 | Pz.Kpfw. Tiger Ausf. B (P)           | Heavy            | Germany                                  |
 | Sd.Kfz. 166 Brummbär                 | Heavy            | Germany                                  |
@@ -268,6 +273,7 @@ You can join using this link: (https://discord.gg/9ypgCWJZU)
 | OT-34-85                             | Medium           | SU                                       |
 | Panzer III Ausf. E                   | Medium           | Germany                                  |
 | Panzer IV Ausf. J                    | Medium           | Finland, Germany                         |
+| Panzer V Panther Ausf. A             | Medium           | France, Germany, Hungary, SU             |
 | Pz.Kpfw. Panther II                  | Medium           | Germany                                  |
 | Sd.Kfz. 165 "Hummel"                 | Medium           | Germany                                  |
 | Sd.Kfz. E-25                         | Medium           | Germany                                  |
@@ -296,3 +302,4 @@ You can join using this link: (https://discord.gg/9ypgCWJZU)
 | Carro Armato L3/35                   | Tankette         | France, Germany, Italy, Poland           |
 | UE Chenillette                       | Tankette         | France, Germany, Italy, Poland           |
 | Universal Carrier Mk II              | Tankette         | Currently only UK                        |
+
