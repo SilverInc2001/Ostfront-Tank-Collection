@@ -4,11 +4,11 @@
     "v": "0.2",
     "name": "Pz.Kpfw. Panther II",
     "gameVersion": "0.2.55.5",
-    "mass": 40599,
+    "mass": 40691,
     "creationDate": "1943.12.31",
     "class": "",
     "desc": "",
-    "cost": 54201
+    "cost": 54837
   },
   "blueprints": [
     {
@@ -466,7 +466,7 @@
         "name": "7.5 cm KwK 42 L-70",
         "description": "",
         "caliber": 75,
-        "breechLength": 650,
+        "breechLength": 640,
         "muzzle": "",
         "segments": [
           {
@@ -485,7 +485,7 @@
               {
                 "t0": 55,
                 "t1": 27,
-                "l": 2275
+                "l": 3113
               }
             ]
           }
@@ -504,7 +504,7 @@
         "name": null,
         "description": null,
         "diameter": 75,
-        "propellantLength": 650,
+        "propellantLength": 640,
         "generatedProjectiles": [
           {
             "projectileTypeGuid": "9c5c2da5-2e8a-42e4-8b42-9614b4df6d4c",
@@ -518,7 +518,7 @@
               {
                 "id": "Propellant",
                 "definition": {
-                  "length": 650
+                  "length": 640
                 }
               }
             ]
@@ -572,7 +572,7 @@
         "name": null,
         "description": null,
         "diameter": 75,
-        "length": 875,
+        "length": 865,
         "x": 440,
         "y": 193,
         "z": 720,
@@ -588,7 +588,7 @@
         "name": null,
         "description": null,
         "diameter": 75,
-        "length": 875,
+        "length": 865,
         "x": 449,
         "y": 194,
         "z": 720,
@@ -604,7 +604,7 @@
         "name": null,
         "description": null,
         "diameter": 75,
-        "length": 875,
+        "length": 865,
         "x": 249,
         "y": 250,
         "z": 720,
@@ -620,7 +620,7 @@
         "name": null,
         "description": null,
         "diameter": 75,
-        "length": 875,
+        "length": 865,
         "x": 249,
         "y": 250,
         "z": 720,
@@ -636,7 +636,7 @@
         "name": null,
         "description": null,
         "diameter": 75,
-        "length": 875,
+        "length": 865,
         "x": 741,
         "y": 177,
         "z": 720,
@@ -652,7 +652,7 @@
         "name": null,
         "description": null,
         "diameter": 75,
-        "length": 875,
+        "length": 865,
         "x": 291,
         "y": 75,
         "z": 720,
@@ -1392,20 +1392,6 @@
       }
     },
     {
-      "id": 0,
-      "type": "paintJobRegister",
-      "blueprint": {
-        "v": "0.0",
-        "name": null,
-        "description": null,
-        "paintJobIDs": [
-          1,
-          21,
-          22
-        ]
-      }
-    },
-    {
       "id": 21,
       "type": "paintJob",
       "blueprint": {
@@ -1441,6 +1427,20 @@
         "saturation": 0.5,
         "condition": -1.0,
         "grime": 0.0
+      }
+    },
+    {
+      "id": 0,
+      "type": "paintJobRegister",
+      "blueprint": {
+        "v": "0.0",
+        "name": null,
+        "description": null,
+        "paintJobIDs": [
+          1,
+          21,
+          22
+        ]
       }
     }
   ],
@@ -1690,8 +1690,8 @@
             0.0,
             0.0,
             -2.23517418E-08,
-            0.309000015,
-            2.59701538,
+            0.309021,
+            2.59700012,
             -0.424556166,
             0.147702381,
             0.06942011,
@@ -1702,8 +1702,8 @@
             0.0,
             0.0,
             2.23517418E-08,
-            0.309000015,
-            2.59701538
+            0.309021,
+            2.59700012
           ],
           "portDirections": [
             0.0,
@@ -2230,9 +2230,9 @@
           0.5674871
         ],
         "rot": [
-          6.636272E-09,
+          6.636273E-09,
           314.9999,
-          -1.44808094E-08,
+          -1.44808068E-08,
           0.0
         ],
         "scale": [
@@ -2448,9 +2448,9 @@
       "transform": {
         "mirrorVuid": -1,
         "pos": [
-          -0.001363338,
-          -0.000151783228,
-          2.40374422
+          -0.00136333809,
+          -0.000151842833,
+          3.22329617
         ],
         "rot": [
           0.0,
@@ -3028,7 +3028,7 @@
         "scale": [
           0.440000027,
           0.193,
-          0.87500006
+          0.865000069
         ]
       },
       "ammoRackBlueprintVuid": 40
@@ -3056,7 +3056,7 @@
         "scale": [
           0.440000027,
           0.193,
-          0.87500006
+          0.865000069
         ]
       },
       "ammoRackBlueprintVuid": 40
@@ -3084,7 +3084,7 @@
         "scale": [
           0.449000031,
           0.194,
-          0.87500006
+          0.865000069
         ]
       },
       "ammoRackBlueprintVuid": 41
@@ -3112,7 +3112,7 @@
         "scale": [
           0.449000031,
           0.194,
-          0.87500006
+          0.865000069
         ]
       },
       "ammoRackBlueprintVuid": 41
@@ -3140,7 +3140,7 @@
         "scale": [
           0.249000013,
           0.25,
-          0.87500006
+          0.865000069
         ]
       },
       "ammoRackBlueprintVuid": 42
@@ -3168,7 +3168,7 @@
         "scale": [
           0.249000013,
           0.25,
-          0.87500006
+          0.865000069
         ]
       },
       "ammoRackBlueprintVuid": 42
@@ -3196,7 +3196,7 @@
         "scale": [
           0.249000013,
           0.25,
-          0.87500006
+          0.865000069
         ]
       },
       "ammoRackBlueprintVuid": 43
@@ -3224,7 +3224,7 @@
         "scale": [
           0.249000013,
           0.25,
-          0.87500006
+          0.865000069
         ]
       },
       "ammoRackBlueprintVuid": 43
@@ -3252,7 +3252,7 @@
         "scale": [
           0.741000056,
           0.177,
-          0.87500006
+          0.865000069
         ]
       },
       "ammoRackBlueprintVuid": 44
@@ -3280,7 +3280,7 @@
         "scale": [
           0.291,
           0.075,
-          0.87500006
+          0.865000069
         ]
       },
       "ammoRackBlueprintVuid": 45
@@ -3466,7 +3466,7 @@
         "rot": [
           4.83300829,
           170.553253,
-          2.67756263E-07,
+          3.748588E-07,
           0.0
         ],
         "scale": [
@@ -3717,7 +3717,7 @@
         ],
         "rot": [
           59.9276581,
-          -2.031115E-12,
+          -3.249784E-12,
           180.0,
           0.0
         ],
@@ -3744,7 +3744,7 @@
         ],
         "rot": [
           59.9276581,
-          -2.031115E-12,
+          -3.249784E-12,
           180.0,
           0.0
         ],
