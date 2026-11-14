@@ -32,6 +32,8 @@ You can join using this link: (https://discord.gg/9ypgCWJZU)
 | BA-20                                | Armoured Car     | Finland, SU                              |
 | BA-27M                               | Armoured Car     | SU                                       |
 | BA-6                                 | Armoured Car     | Finland, SU                              |
+| Daimler Mk.I                         | Armoured Car     | Poland, UK                               |
+| Daimler Mk.II                        | Armoured Car     | Poland, UK                               |
 | M5 High-Speed Tractor                | Armoured Carrier | USA, SU                                  |
 | Citroën 7 Traction Avant             | Car              | France, Germany, UK                      |
 | SPA-Viberti AS.42 (Breda 20-65)      | Car              | Italy                                    |
@@ -126,6 +128,7 @@ You can join using this link: (https://discord.gg/9ypgCWJZU)
 | 40M Nimród                           | Light            | Hungary                                  |
 | 4TP                                  | Light            | Poland                                   |
 | 7TP                                  | Light            | Germany, Poland                          |
+| 9TP                                  | Light            | Poland                                   |
 | Alecto Mk.I CS                       | Light            | UK                                       |
 | Alecto Mk.II                         | Light            | UK                                       |
 | Alecto Mk.II                         | Light            | UK                                       |
@@ -176,9 +179,12 @@ You can join using this link: (https://discord.gg/9ypgCWJZU)
 | M5A1 Stuart VI                       | Light            | France, Poland, UK, USA                  |
 | M8 Scott                             | Light            | France, USA                              |
 | M88 105mm HMC                        | Light            | USA                                      |
+| MTLS-1G14                            | Light            | USA                                      |
 | Pz.Wfg. 39                           | Light            | Czechia                                  |
 | R35                                  | Light            | France, Germany, Italy, Poland           |
 | R39                                  | Light            | France                                   |
+| Škoda T-15                           | Light            | Czechia                                  |
+| Škoda T-15A                          | Light            | Czechia                                  |
 | SU-26                                | Light            | SU                                       |
 | SU-26-4                              | Light            | SU                                       |
 | SU-5-3                               | Light            | SU                                       |
@@ -196,6 +202,7 @@ You can join using this link: (https://discord.gg/9ypgCWJZU)
 | Vickers Mk.E DW                      | Light            | Poland                                   |
 | Vickers Mk.E JW                      | Light            | Poland                                   |
 | 105 leFH18B2                         | Medium           | France, Germany                          |
+| 14TP                                 | Medium           | Poland                                   |
 | 40M Turán I                          | Medium           | Hungary                                  |
 | 43M Zrínyi I                         | Medium           | Hungary                                  |
 | 43M Zrínyi II                        | Medium           | Hungary                                  |
@@ -302,4 +309,5 @@ You can join using this link: (https://discord.gg/9ypgCWJZU)
 | Carro Armato L3/35                   | Tankette         | France, Germany, Italy, Poland           |
 | UE Chenillette                       | Tankette         | France, Germany, Italy, Poland           |
 | Universal Carrier Mk II              | Tankette         | Currently only UK                        |
+
 
