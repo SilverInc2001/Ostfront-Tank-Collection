@@ -195,6 +195,10 @@ You can join using this link: https://discord.gg/5pbnFKeE6
 | T-26 (1939)                          | Light            | Finland, Germany, SU                     |
 | T-26E                                | Light            | Finland                                  |
 | T-50                                 | Light            | Finland, SU                              |
+| T-70                                 | Light            | Germany, SU                              |
+| T-70 VT-42                           | Light            | SU                                       |
+| T-70M                                | Light            | Czechia, Poland, SU                      |
+| T-80                                 | Light            | SU                                       |
 | Tetrarch Mk VII                      | Light            | UK, SU                                   |
 | Type 1 Ho-Ni I                       | Light            | Japan                                    |
 | Type 1 Ho-Ni II                      | Light            | Japan                                    |
@@ -309,5 +313,3 @@ You can join using this link: https://discord.gg/5pbnFKeE6
 | Carro Armato L3/35                   | Tankette         | France, Germany, Italy, Poland           |
 | UE Chenillette                       | Tankette         | France, Germany, Italy, Poland           |
 | Universal Carrier Mk II              | Tankette         | Currently only UK                        |
-
-
