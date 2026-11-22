@@ -3,12 +3,12 @@
   "header": {
     "v": "0.2",
     "name": "Lago I M40-B",
-    "gameVersion": "0.2.53.2",
-    "mass": 14733,
+    "gameVersion": "0.2.56.3",
+    "mass": 14224,
     "creationDate": "1941.12.31",
     "class": "",
     "desc": "",
-    "cost": 33744
+    "cost": 32961
   },
   "blueprints": [
     {
@@ -28,25 +28,6 @@
         "saturation": 0.5,
         "condition": 0.5,
         "grime": 0.5
-      }
-    },
-    {
-      "id": 2,
-      "type": "paintJob",
-      "blueprint": {
-        "v": "2.2",
-        "name": "Powertrain",
-        "description": "",
-        "colourMapUrl": "821c5c82-a326-46ca-bfd0-bd2a75830ed7",
-        "scale": 0.5,
-        "roughness": 0.5,
-        "metallic": 0.0,
-        "r": 0.25,
-        "g": 0.4,
-        "b": 0.5,
-        "saturation": 0.75,
-        "condition": 0.75,
-        "grime": 0.0
       }
     },
     {
@@ -91,17 +72,18 @@
       "id": 7,
       "type": "engine",
       "blueprint": {
-        "v": "0.4",
-        "name": null,
-        "description": null,
-        "cylinders": 12,
+        "v": "0.5",
+        "name": "Lago I M40-B",
+        "description": "",
+        "cylinders": 6,
         "idleRPM": 600,
-        "cylinderDisplacement": 1.29,
+        "cylinderDisplacement": 2.82,
         "tech": 0.4,
-        "targetMinRPM": 1400,
+        "targetMinRPM": 1150,
         "targetMaxRPM": 2300,
         "torqueCoeff": 0.75,
-        "revLimit": -1
+        "revLimit": -1,
+        "engineLayout": "Inline"
       }
     },
     {
@@ -113,9 +95,9 @@
         "description": null,
         "meshType": "constantMesh",
         "autoInputTorque": true,
-        "maxInputTorque": 1074.496,
+        "maxInputTorque": 1174.44922,
         "autoResistanceTorque": true,
-        "maxResistanceTorque": 1074.496,
+        "maxResistanceTorque": 1174.44922,
         "finalDriveRatio": 10.0,
         "msrRatioThreshold": 3.60000014,
         "auxillaryGearRatio": 1.0,
@@ -308,16 +290,16 @@
       "type": "track",
       "blueprint": {
         "v": "1.1",
-        "name": "Lago M38",
+        "name": "Lago I M38-A",
         "description": "",
         "separation": 1255,
         "length": 6000,
-        "brake": 115401,
+        "brake": 113795,
         "autoBrake": true,
         "rollersEnabled": true,
         "matchChassis": false,
         "frontalTransmission": true,
-        "finalDriveRatio": 5.60999966
+        "finalDriveRatio": 4.6
       }
     },
     {
@@ -1320,19 +1302,6 @@
       }
     },
     {
-      "id": 0,
-      "type": "paintJobRegister",
-      "blueprint": {
-        "v": "0.0",
-        "name": null,
-        "description": null,
-        "paintJobIDs": [
-          1,
-          2
-        ]
-      }
-    },
-    {
       "id": 80,
       "type": "spareBeltSegmentArray",
       "blueprint": {
@@ -1363,6 +1332,58 @@
         "name": null,
         "description": null,
         "imageURL": "Sprocket/Decals/Black Circle.png"
+      }
+    },
+    {
+      "id": 21,
+      "type": "paintJob",
+      "blueprint": {
+        "v": "2.2",
+        "name": "Powertrain",
+        "description": "",
+        "colourMapUrl": "821c5c82-a326-46ca-bfd0-bd2a75830ed7",
+        "scale": 0.5,
+        "roughness": 0.5,
+        "metallic": 0.0,
+        "r": 0.25,
+        "g": 0.4,
+        "b": 0.5,
+        "saturation": 0.75,
+        "condition": 0.75,
+        "grime": 0.0
+      }
+    },
+    {
+      "id": 22,
+      "type": "paintJob",
+      "blueprint": {
+        "v": "2.2",
+        "name": "Interior",
+        "description": "",
+        "colourMapUrl": "",
+        "scale": 0.5,
+        "roughness": 0.6,
+        "metallic": 0.0,
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5,
+        "saturation": 0.5,
+        "condition": -1.0,
+        "grime": 0.0
+      }
+    },
+    {
+      "id": 0,
+      "type": "paintJobRegister",
+      "blueprint": {
+        "v": "0.0",
+        "name": null,
+        "description": null,
+        "paintJobIDs": [
+          1,
+          21,
+          22
+        ]
       }
     }
   ],
@@ -1558,16 +1579,16 @@
           "modulePositions": [
             -5.31502E-13,
             0.13,
-            -1.897001,
+            -1.8116262,
             4.171307E-07,
             0.6060773,
             2.27141881,
-            -0.627499938,
-            0.4700691,
-            2.33534265,
-            0.627499938,
-            0.47006917,
-            2.33534265,
+            -0.627500057,
+            0.467354029,
+            2.336619,
+            0.627500057,
+            0.4673541,
+            2.33661866,
             -0.627500057,
             0.0,
             0.0,
@@ -1597,35 +1618,35 @@
           ],
           "portOffsets": [
             0.0,
-            0.173444912,
-            0.4678113,
+            0.186747044,
+            0.793674946,
             0.0,
-            0.136008158,
-            -0.3781027,
-            0.339094847,
-            0.136008158,
-            0.0639238358,
-            0.0488317,
-            0.0,
-            0.0,
+            0.138723254,
+            -0.385650635,
+            0.354516059,
+            0.138723254,
+            0.06519993,
+            0.0503012538,
             0.0,
             0.0,
             0.0,
-            9.685755E-08,
+            0.0,
+            0.0,
+            -2.23517418E-08,
             0.424000025,
-            2.33200026,
-            -0.339094847,
-            0.136008158,
-            0.0639238358,
-            -0.0488317,
+            2.33200073,
+            -0.354516059,
+            0.138723254,
+            0.06519993,
+            -0.0503012538,
             0.0,
             0.0,
             0.0,
             0.0,
             0.0,
-            -9.685755E-08,
+            2.23517418E-08,
             0.424000025,
-            2.33200026
+            2.33200073
           ],
           "portDirections": [
             0.0,
@@ -1710,7 +1731,7 @@
         "pos": [
           -5.31502E-13,
           0.13,
-          -1.897001
+          -1.8116262
         ],
         "rot": [
           0.0,
@@ -2096,7 +2117,7 @@
         ],
         "rot": [
           359.969421,
-          1.22133315E-12,
+          4.07111058E-13,
           0.019589005,
           0.0
         ],
@@ -2176,14 +2197,14 @@
       "transform": {
         "mirrorVuid": 311,
         "pos": [
-          -0.369208276,
-          -0.8394364,
+          -0.368865639,
+          -0.839436531,
           -0.06960107
         ],
         "rot": [
-          1.52220691E-05,
-          15.0438385,
-          -1.26617206E-05,
+          1.85860481E-05,
+          15.0535765,
+          -1.46886614E-05,
           0.0
         ],
         "scale": [
@@ -2205,14 +2226,14 @@
       "transform": {
         "mirrorVuid": 308,
         "pos": [
-          0.369207919,
-          -0.8394447,
+          0.368865281,
+          -0.8394446,
           -0.06960094
         ],
         "rot": [
-          1.17126959E-07,
+          1.17181379E-07,
           344.999725,
-          7.203927E-08,
+          7.245259E-08,
           0.0
         ],
         "scale": [
@@ -2228,7 +2249,7 @@
       "guid": "4481135e-cefd-499c-8122-414942eecbe4",
       "vuid": 314,
       "pvuid": 254,
-      "flags": 3,
+      "flags": 2,
       "crewSeat": 315,
       "posture": 316,
       "transform": {
@@ -2241,7 +2262,7 @@
         "rot": [
           0.0,
           0.0,
-          4.73092143E-09,
+          -2.716588E-10,
           0.0
         ],
         "scale": [
@@ -2411,7 +2432,7 @@
         "rot": [
           0.0,
           0.0,
-          -2.7165864E-10,
+          0.0,
           0.0
         ],
         "scale": [
@@ -2552,7 +2573,7 @@
         "rot": [
           0.0,
           0.0,
-          -2.716586E-10,
+          -2.716588E-10,
           0.0
         ],
         "scale": [
@@ -2630,9 +2651,9 @@
           1.73276639
         ],
         "rot": [
-          0.338202953,
+          0.338203,
           -8.258136E-11,
-          -2.03768323E-05,
+          -2.03768359E-05,
           0.0
         ],
         "scale": [
@@ -2660,7 +2681,7 @@
         "rot": [
           10.304759,
           180.01474,
-          -6.567599E-09,
+          -6.77945833E-09,
           0.0
         ],
         "scale": [
@@ -2689,7 +2710,7 @@
         "rot": [
           0.0,
           0.0,
-          -2.04206874E-08,
+          0.0,
           0.0
         ],
         "scale": [
@@ -2718,7 +2739,7 @@
         "rot": [
           0.0,
           0.0,
-          -2.04206874E-08,
+          0.0,
           0.0
         ],
         "scale": [
@@ -2941,9 +2962,9 @@
           1.44287109
         ],
         "rot": [
-          14.7435608,
+          14.7435646,
           180.0,
-          -5.26214577E-14,
+          -1.05242915E-13,
           0.0
         ],
         "scale": [
@@ -3471,8 +3492,8 @@
         ],
         "rot": [
           29.4091835,
-          90.21457,
-          1.07807737E-05,
+          90.2145844,
+          1.37209827E-05,
           0.0
         ],
         "scale": [
@@ -3527,7 +3548,7 @@
           -3.00501919
         ],
         "rot": [
-          1.70754731E-06,
+          0.0,
           90.0,
           288.970276,
           0.0
@@ -3556,7 +3577,7 @@
           -2.47054672
         ],
         "rot": [
-          8.163014,
+          8.163016,
           177.174377,
           291.616425,
           0.0
@@ -3583,9 +3604,9 @@
           -2.47054672
         ],
         "rot": [
-          8.163014,
+          8.163016,
           182.825623,
-          68.38358,
+          68.3836,
           0.0
         ],
         "scale": [

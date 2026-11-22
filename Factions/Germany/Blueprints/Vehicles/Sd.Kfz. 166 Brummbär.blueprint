@@ -3,12 +3,12 @@
   "header": {
     "v": "0.2",
     "name": "Sd.Kfz. 166 Brummbär",
-    "gameVersion": "0.2.53.2",
-    "mass": 26504,
+    "gameVersion": "0.2.56.3",
+    "mass": 26574,
     "creationDate": "1942.01.01",
     "class": "",
     "desc": "",
-    "cost": 41117
+    "cost": 41148
   },
   "blueprints": [
     {
@@ -28,25 +28,6 @@
         "saturation": 0.56,
         "condition": 0.5,
         "grime": 0.5
-      }
-    },
-    {
-      "id": 2,
-      "type": "paintJob",
-      "blueprint": {
-        "v": "2.2",
-        "name": "Powertrain",
-        "description": "",
-        "colourMapUrl": "821c5c82-a326-46ca-bfd0-bd2a75830ed7",
-        "scale": 0.5,
-        "roughness": 0.5,
-        "metallic": 0.0,
-        "r": 0.25,
-        "g": 0.4,
-        "b": 0.5,
-        "saturation": 0.75,
-        "condition": 0.75,
-        "grime": 0.0
       }
     },
     {
@@ -91,17 +72,18 @@
       "id": 7,
       "type": "engine",
       "blueprint": {
-        "v": "0.4",
-        "name": "j",
+        "v": "0.5",
+        "name": "Panzer IV Ausf. J",
         "description": "",
         "cylinders": 12,
         "idleRPM": 800,
         "cylinderDisplacement": 0.989,
         "tech": 0.4,
-        "targetMinRPM": 1600,
-        "targetMaxRPM": 2600,
+        "targetMinRPM": 1400,
+        "targetMaxRPM": 3000,
         "torqueCoeff": 0.75,
-        "revLimit": -1
+        "revLimit": -1,
+        "engineLayout": "V"
       }
     },
     {
@@ -308,16 +290,16 @@
       "type": "track",
       "blueprint": {
         "v": "1.1",
-        "name": "Panzer IV Ausf. J",
+        "name": "Sd.Kfz. 166 Brummbär",
         "description": "",
         "separation": 1591,
         "length": 6000,
-        "brake": 207025,
+        "brake": 212599,
         "autoBrake": true,
         "rollersEnabled": true,
         "matchChassis": false,
         "frontalTransmission": true,
-        "finalDriveRatio": 7.95
+        "finalDriveRatio": 13.15
       }
     },
     {
@@ -1356,7 +1338,7 @@
       }
     },
     {
-      "id": 0,
+      "id": 5,
       "type": "paintJobRegister",
       "blueprint": {
         "v": "0.0",
@@ -1364,8 +1346,47 @@
         "description": null,
         "paintJobIDs": [
           1,
-          2
+          21,
+          22
         ]
+      }
+    },
+    {
+      "id": 21,
+      "type": "paintJob",
+      "blueprint": {
+        "v": "2.2",
+        "name": "Powertrain",
+        "description": "",
+        "colourMapUrl": "821c5c82-a326-46ca-bfd0-bd2a75830ed7",
+        "scale": 0.5,
+        "roughness": 0.5,
+        "metallic": 0.0,
+        "r": 0.25,
+        "g": 0.4,
+        "b": 0.5,
+        "saturation": 0.75,
+        "condition": 0.75,
+        "grime": 0.0
+      }
+    },
+    {
+      "id": 22,
+      "type": "paintJob",
+      "blueprint": {
+        "v": "2.2",
+        "name": "Interior",
+        "description": "",
+        "colourMapUrl": "",
+        "scale": 0.5,
+        "roughness": 0.6,
+        "metallic": 0.0,
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5,
+        "saturation": 0.5,
+        "condition": -1.0,
+        "grime": 0.0
       }
     }
   ],
@@ -1600,8 +1621,8 @@
           ],
           "portOffsets": [
             0.0,
-            0.151867509,
-            0.409613252,
+            0.169915557,
+            0.44039312,
             0.0,
             0.1644496,
             -0.457169861,
@@ -2124,7 +2145,7 @@
         ],
         "rot": [
           57.2642632,
-          47.4250679,
+          47.4250641,
           6.315301E-06,
           0.0
         ],
@@ -2207,7 +2228,7 @@
         ],
         "rot": [
           356.303741,
-          2.40206655E-09,
+          2.50650412E-09,
           0.0279966313,
           0.0
         ],
@@ -2261,7 +2282,7 @@
         ],
         "rot": [
           45.000042,
-          89.9999847,
+          89.99999,
           180.0,
           0.0
         ],
@@ -2574,7 +2595,7 @@
         "rot": [
           5.095217,
           -4.35509673E-06,
-          2.11769952E-06,
+          2.11769975E-06,
           0.0
         ],
         "scale": [
@@ -2629,8 +2650,8 @@
           -0.3681
         ],
         "rot": [
-          3.91035E-07,
-          2.70207,
+          3.906181E-07,
+          2.70207024,
           359.759155,
           0.0
         ],
@@ -3353,9 +3374,9 @@
           -0.3000183
         ],
         "rot": [
-          12.2726784,
+          12.2726812,
           89.76922,
-          1.7474822E-06,
+          1.31061176E-06,
           0.0
         ],
         "scale": [
@@ -3382,7 +3403,7 @@
           -0.463592529
         ],
         "rot": [
-          12.2726812,
+          12.2726831,
           270.230774,
           -1.31061176E-06,
           0.0
@@ -3411,9 +3432,9 @@
           -0.462249756
         ],
         "rot": [
-          12.2726812,
+          12.2726831,
           89.76923,
-          3.4949644E-06,
+          3.931835E-06,
           0.0
         ],
         "scale": [
@@ -3440,9 +3461,9 @@
           -0.2965088
         ],
         "rot": [
-          12.2726812,
+          12.2726831,
           270.230774,
-          -5.242447E-06,
+          -4.80557674E-06,
           0.0
         ],
         "scale": [
@@ -3496,9 +3517,9 @@
           -0.0006713867
         ],
         "rot": [
-          11.875144,
+          11.8751459,
           89.86168,
-          -1.74489082E-06,
+          -1.308668E-06,
           0.0
         ],
         "scale": [
@@ -3527,7 +3548,7 @@
         "rot": [
           11.875144,
           270.1383,
-          1.74489082E-06,
+          8.724454E-07,
           0.0
         ],
         "scale": [

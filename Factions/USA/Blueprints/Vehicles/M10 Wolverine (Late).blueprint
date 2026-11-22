@@ -3,12 +3,12 @@
   "header": {
     "v": "0.2",
     "name": "M10 Wolverine (Late)",
-    "gameVersion": "0.2.55.5",
-    "mass": 21712,
+    "gameVersion": "0.2.56.3",
+    "mass": 20625,
     "creationDate": "1943.12.31",
     "class": "",
     "desc": "",
-    "cost": 43503
+    "cost": 42440
   },
   "blueprints": [
     {
@@ -110,17 +110,18 @@
       "id": 8,
       "type": "engine",
       "blueprint": {
-        "v": "0.4",
-        "name": "17pdr SP M10 Achilles",
+        "v": "0.5",
+        "name": "M10 Wolverine",
         "description": "",
-        "cylinders": 12,
+        "cylinders": 6,
         "idleRPM": 500,
-        "cylinderDisplacement": 1.16,
+        "cylinderDisplacement": 2.32,
         "tech": 0.8,
-        "targetMinRPM": 600,
+        "targetMinRPM": 1150,
         "targetMaxRPM": 2100,
         "torqueCoeff": 0.85,
-        "revLimit": -1
+        "revLimit": -1,
+        "engineLayout": "Inline"
       }
     },
     {
@@ -330,7 +331,7 @@
         "description": "",
         "separation": 1476,
         "length": 6060,
-        "brake": 173820,
+        "brake": 165003,
         "autoBrake": true,
         "rollersEnabled": true,
         "matchChassis": false,
@@ -1381,7 +1382,7 @@
       }
     },
     {
-      "id": 0,
+      "id": 6,
       "type": "paintJobRegister",
       "blueprint": {
         "v": "0.0",
@@ -1585,9 +1586,9 @@
             }
           ],
           "modulePositions": [
-            6.915067E-09,
-            0.13,
-            -1.32090092,
+            6.91431667E-09,
+            0.207549334,
+            -1.25257587,
             0.0,
             0.1707135,
             2.7107408,
@@ -1606,7 +1607,7 @@
           ],
           "moduleRotations": [
             0.0,
-            180.0,
+            0.0,
             0.0,
             0.0,
             0.0,
@@ -1626,8 +1627,8 @@
           ],
           "portOffsets": [
             0.0,
-            0.164473414,
-            0.443613529,
+            0.174984679,
+            0.7436849,
             0.0,
             0.133085027,
             -0.369976372,
@@ -1641,8 +1642,8 @@
             0.0,
             0.0,
             -2.23517418E-08,
-            0.3239746,
-            2.9070003,
+            0.324,
+            2.907013,
             -0.440539062,
             0.133085027,
             0.0625499561,
@@ -1653,8 +1654,8 @@
             0.0,
             0.0,
             2.23517418E-08,
-            0.3239746,
-            2.9070003
+            0.324,
+            2.907013
           ],
           "portDirections": [
             0.0,
@@ -1737,13 +1738,13 @@
       "transform": {
         "mirrorVuid": -1,
         "pos": [
-          6.915067E-09,
-          0.13,
-          -1.32090092
+          6.91431667E-09,
+          0.207549334,
+          -1.25257587
         ],
         "rot": [
           0.0,
-          180.0,
+          0.0,
           0.0,
           0.0
         ],

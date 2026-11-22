@@ -3,12 +3,12 @@
   "header": {
     "v": "0.2",
     "name": "Pz.Wfg. 39",
-    "gameVersion": "0.2.55.5",
-    "mass": 6313,
+    "gameVersion": "0.2.56.3",
+    "mass": 6310,
     "creationDate": "1939.09.01",
     "class": "",
     "desc": "",
-    "cost": 29094
+    "cost": 29093
   },
   "blueprints": [
     {
@@ -110,17 +110,18 @@
       "id": 8,
       "type": "engine",
       "blueprint": {
-        "v": "0.4",
-        "name": null,
+        "v": "0.5",
+        "name": "Pz.Wfg. 39",
         "description": null,
         "cylinders": 6,
         "idleRPM": 800,
         "cylinderDisplacement": 1.33,
         "tech": 0.2,
         "targetMinRPM": 1100,
-        "targetMaxRPM": 1800,
+        "targetMaxRPM": 1900,
         "torqueCoeff": 0.6,
-        "revLimit": -1
+        "revLimit": -1,
+        "engineLayout": "Inline"
       }
     },
     {
@@ -1078,7 +1079,7 @@
       }
     },
     {
-      "id": 6,
+      "id": 0,
       "type": "paintJobRegister",
       "blueprint": {
         "v": "0.0",
@@ -1284,7 +1285,7 @@
           "modulePositions": [
             -5.31502E-13,
             0.178141519,
-            -1.0179131,
+            -1.20279956,
             2.58576716E-09,
             0.510767162,
             1.59668815,
@@ -1323,8 +1324,8 @@
           ],
           "portOffsets": [
             0.0,
-            0.176113471,
-            0.2969517,
+            0.145363241,
+            0.617793739,
             0.0,
             0.127481759,
             -0.3543993,
@@ -1436,7 +1437,7 @@
         "pos": [
           -5.31502E-13,
           0.178141519,
-          -1.0179131
+          -1.20279956
         ],
         "rot": [
           0.0,
@@ -2327,7 +2328,7 @@
         "rot": [
           9.537723,
           103.861427,
-          3.89583465E-06,
+          3.462964E-06,
           0.0
         ],
         "scale": [
@@ -2354,9 +2355,9 @@
           -0.189453125
         ],
         "rot": [
-          9.362442,
+          9.362443,
           284.9798,
-          0.0,
+          4.32650154E-07,
           0.0
         ],
         "scale": [

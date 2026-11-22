@@ -3,12 +3,12 @@
   "header": {
     "v": "0.2",
     "name": "Landsverk L-62 Anti II",
-    "gameVersion": "0.2.52.3",
-    "mass": 11072,
+    "gameVersion": "0.2.56.3",
+    "mass": 10749,
     "creationDate": "1941.12.31",
     "class": "",
     "desc": "",
-    "cost": 40674
+    "cost": 40330
   },
   "blueprints": [
     {
@@ -28,25 +28,6 @@
         "saturation": 0.5,
         "condition": 0.5,
         "grime": 0.5
-      }
-    },
-    {
-      "id": 2,
-      "type": "paintJob",
-      "blueprint": {
-        "v": "2.2",
-        "name": "Powertrain",
-        "description": "",
-        "colourMapUrl": "821c5c82-a326-46ca-bfd0-bd2a75830ed7",
-        "scale": 0.5,
-        "roughness": 0.5,
-        "metallic": 0.0,
-        "r": 0.25,
-        "g": 0.4,
-        "b": 0.5,
-        "saturation": 0.75,
-        "condition": 0.75,
-        "grime": 0.0
       }
     },
     {
@@ -91,17 +72,18 @@
       "id": 7,
       "type": "engine",
       "blueprint": {
-        "v": "0.4",
+        "v": "0.5",
         "name": null,
         "description": null,
-        "cylinders": 8,
+        "cylinders": 6,
         "idleRPM": 700,
         "cylinderDisplacement": 1.29,
         "tech": 0.4,
-        "targetMinRPM": 1100,
-        "targetMaxRPM": 2300,
+        "targetMinRPM": 1200,
+        "targetMaxRPM": 2200,
         "torqueCoeff": 0.75,
-        "revLimit": -1
+        "revLimit": -1,
+        "engineLayout": "Inline"
       }
     },
     {
@@ -113,9 +95,9 @@
         "description": "",
         "meshType": "constantMesh",
         "autoInputTorque": true,
-        "maxInputTorque": 716.3306,
+        "maxInputTorque": 537.248,
         "autoResistanceTorque": true,
-        "maxResistanceTorque": 716.3306,
+        "maxResistanceTorque": 537.248,
         "finalDriveRatio": 7.98,
         "msrRatioThreshold": 3.8,
         "auxillaryGearRatio": 1.0,
@@ -1138,7 +1120,7 @@
       }
     },
     {
-      "id": 0,
+      "id": 5,
       "type": "paintJobRegister",
       "blueprint": {
         "v": "0.0",
@@ -1146,8 +1128,47 @@
         "description": null,
         "paintJobIDs": [
           1,
-          2
+          21,
+          22
         ]
+      }
+    },
+    {
+      "id": 21,
+      "type": "paintJob",
+      "blueprint": {
+        "v": "2.2",
+        "name": "Powertrain",
+        "description": "",
+        "colourMapUrl": "821c5c82-a326-46ca-bfd0-bd2a75830ed7",
+        "scale": 0.5,
+        "roughness": 0.5,
+        "metallic": 0.0,
+        "r": 0.25,
+        "g": 0.4,
+        "b": 0.5,
+        "saturation": 0.75,
+        "condition": 0.75,
+        "grime": 0.0
+      }
+    },
+    {
+      "id": 22,
+      "type": "paintJob",
+      "blueprint": {
+        "v": "2.2",
+        "name": "Interior",
+        "description": "",
+        "colourMapUrl": "",
+        "scale": 0.5,
+        "roughness": 0.6,
+        "metallic": 0.0,
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5,
+        "saturation": 0.5,
+        "condition": -1.0,
+        "grime": 0.0
       }
     }
   ],
@@ -1341,8 +1362,8 @@
             }
           ],
           "modulePositions": [
-            0.27773726,
-            0.4275405,
+            0.261249751,
+            0.437713832,
             -1.59633255,
             0.256893754,
             0.624917269,
@@ -1382,35 +1403,35 @@
           ],
           "portOffsets": [
             0.0,
-            0.173444912,
-            0.3509052,
+            0.1438911,
+            0.611537158,
             0.0,
-            0.1211943,
-            -0.336920172,
-            0.25906533,
-            0.1211943,
-            0.05696132,
-            0.04063344,
-            0.00135117769,
-            -0.006955147,
+            0.114245109,
+            -0.317601383,
+            0.224357158,
+            0.114245109,
+            0.0536952,
+            0.03692943,
+            0.00151643157,
+            -0.006187916,
             0.0,
             0.0,
             0.0,
             -2.23517418E-08,
-            0.56,
-            2.230011,
-            -0.25906533,
-            0.1211943,
-            0.05696132,
-            -0.03478402,
-            0.00422728062,
-            -0.02175951,
+            0.559997559,
+            2.23000026,
+            -0.224357158,
+            0.114245109,
+            0.0536952,
+            -0.03268504,
+            0.00436329842,
+            -0.0178051,
             0.0,
             0.0,
             0.0,
             2.23517418E-08,
-            0.56,
-            2.230011
+            0.559997559,
+            2.23000026
           ],
           "portDirections": [
             0.0,
@@ -1422,9 +1443,9 @@
             1.0,
             0.0,
             0.0,
-            0.985136,
-            0.0327589,
-            -0.1686235,
+            0.9854424,
+            0.0404651053,
+            -0.16512388,
             0.0,
             0.0,
             1.0,
@@ -1434,9 +1455,9 @@
             -1.0,
             0.0,
             0.0,
-            -0.8433195,
-            0.102488384,
-            -0.5275495,
+            -0.8721839,
+            0.116432391,
+            -0.47511968,
             0.0,
             0.0,
             1.0,
@@ -1493,8 +1514,8 @@
       "transform": {
         "mirrorVuid": -1,
         "pos": [
-          0.27773726,
-          0.4275405,
+          0.261249751,
+          0.437713832,
           -1.59633255
         ],
         "rot": [
@@ -2103,7 +2124,7 @@
         "rot": [
           2.57048821,
           270.245544,
-          0.5840725,
+          0.5840727,
           0.0
         ],
         "scale": [
@@ -2245,7 +2266,7 @@
           0.286193848
         ],
         "rot": [
-          -1.432477E-07,
+          -1.432412E-07,
           -8.196229E-05,
           89.99997,
           0.0
@@ -2612,7 +2633,7 @@
         "rot": [
           24.8709278,
           262.416016,
-          0.0718961358,
+          0.07189614,
           0.0
         ],
         "scale": [
@@ -2783,7 +2804,7 @@
         "rot": [
           16.8646317,
           179.506073,
-          2.090958E-08,
+          2.787944E-08,
           0.0
         ],
         "scale": [

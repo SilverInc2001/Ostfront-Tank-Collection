@@ -3,12 +3,12 @@
   "header": {
     "v": "0.2",
     "name": "M8 Scott",
-    "gameVersion": "0.2.55.5",
-    "mass": 14227,
+    "gameVersion": "0.2.56.3",
+    "mass": 14284,
     "creationDate": "1943.12.31",
     "class": "",
     "desc": "",
-    "cost": 46557
+    "cost": 46585
   },
   "blueprints": [
     {
@@ -110,17 +110,18 @@
       "id": 8,
       "type": "engine",
       "blueprint": {
-        "v": "0.4",
-        "name": "M5A1 Stuart VI",
+        "v": "0.5",
+        "name": "M8 Scott",
         "description": "",
         "cylinders": 16,
         "idleRPM": 800,
         "cylinderDisplacement": 0.71,
         "tech": 0.8,
         "targetMinRPM": 1400,
-        "targetMaxRPM": 3700,
+        "targetMaxRPM": 3600,
         "torqueCoeff": 0.85,
-        "revLimit": -1
+        "revLimit": -1,
+        "engineLayout": "V"
       }
     },
     {
@@ -329,12 +330,12 @@
         "description": "",
         "separation": 1405,
         "length": 4500,
-        "brake": 103176,
+        "brake": 114279,
         "autoBrake": true,
         "rollersEnabled": true,
         "matchChassis": false,
         "frontalTransmission": true,
-        "finalDriveRatio": 6.0
+        "finalDriveRatio": 6.66
       }
     },
     {
@@ -1396,20 +1397,6 @@
       }
     },
     {
-      "id": 0,
-      "type": "paintJobRegister",
-      "blueprint": {
-        "v": "0.0",
-        "name": null,
-        "description": null,
-        "paintJobIDs": [
-          1,
-          2,
-          3
-        ]
-      }
-    },
-    {
       "id": 81,
       "type": "decalTransform",
       "blueprint": {
@@ -1476,6 +1463,20 @@
         "name": null,
         "description": null,
         "imageURL": "7df1ce88-cc63-4e24-8cff-8ce830492b43"
+      }
+    },
+    {
+      "id": 6,
+      "type": "paintJobRegister",
+      "blueprint": {
+        "v": "0.0",
+        "name": null,
+        "description": null,
+        "paintJobIDs": [
+          1,
+          2,
+          3
+        ]
       }
     }
   ],
@@ -1669,9 +1670,9 @@
             }
           ],
           "modulePositions": [
-            -0.012226129,
-            0.0493979454,
-            -1.41535735,
+            -0.0144645832,
+            0.5996094,
+            -1.08317065,
             3.845538E-07,
             0.139232725,
             1.44547844,
@@ -1689,8 +1690,8 @@
             0.0
           ],
           "moduleRotations": [
-            0.0,
-            0.0,
+            90.0,
+            179.999969,
             0.0,
             0.0,
             0.0,
@@ -1710,8 +1711,8 @@
           ],
           "portOffsets": [
             0.0,
-            0.1286755,
-            0.4337907,
+            0.152143642,
+            0.496070921,
             0.0,
             0.128063664,
             -0.356017,
@@ -1821,13 +1822,13 @@
       "transform": {
         "mirrorVuid": -1,
         "pos": [
-          -0.012226129,
-          0.0493979454,
-          -1.41535735
+          -0.0144645832,
+          0.5996094,
+          -1.08317065
         ],
         "rot": [
-          0.0,
-          0.0,
+          90.0,
+          179.999969,
           0.0,
           0.0
         ],
@@ -2601,7 +2602,7 @@
           -0.09371948
         ],
         "rot": [
-          -5.21840171E-08,
+          -5.218402E-08,
           75.0,
           -1.07302057E-07,
           0.0
@@ -2855,7 +2856,7 @@
         "rot": [
           69.9648056,
           262.156982,
-          4.984123E-06,
+          1.49523667E-05,
           0.0
         ],
         "scale": [
@@ -3166,7 +3167,7 @@
         "rot": [
           0.6465239,
           179.98204,
-          -1.10741236E-10,
+          -1.17255441E-10,
           0.0
         ],
         "scale": [
@@ -3195,7 +3196,7 @@
         "rot": [
           0.6465236,
           179.98204,
-          -5.21135253E-11,
+          -5.862772E-11,
           0.0
         ],
         "scale": [
@@ -3414,8 +3415,8 @@
         ],
         "rot": [
           359.9475,
-          90.022316,
-          5.00258235E-09,
+          90.02231,
+          3.335055E-09,
           0.0
         ],
         "scale": [
@@ -3443,8 +3444,8 @@
         ],
         "rot": [
           359.9475,
-          269.9777,
-          -5.00258235E-09,
+          269.977661,
+          -6.670109E-09,
           0.0
         ],
         "scale": [
@@ -3473,7 +3474,7 @@
         "rot": [
           45.0498734,
           180.0,
-          -5.76243643E-13,
+          -8.64365545E-13,
           0.0
         ],
         "scale": [

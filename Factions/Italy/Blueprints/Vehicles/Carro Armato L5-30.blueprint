@@ -3,12 +3,12 @@
   "header": {
     "v": "0.2",
     "name": "Carro Armato L5-30",
-    "gameVersion": "0.2.51.36",
-    "mass": 6258,
+    "gameVersion": "0.2.56.3",
+    "mass": 6264,
     "creationDate": "1939.09.01",
     "class": "",
     "desc": "",
-    "cost": 13030
+    "cost": 13032
   },
   "blueprints": [
     {
@@ -31,25 +31,6 @@
       }
     },
     {
-      "id": 2,
-      "type": "paintJob",
-      "blueprint": {
-        "v": "2.2",
-        "name": "Powertrain",
-        "description": "",
-        "colourMapUrl": "821c5c82-a326-46ca-bfd0-bd2a75830ed7",
-        "scale": 0.5,
-        "roughness": 0.5,
-        "metallic": 0.0,
-        "r": 0.25,
-        "g": 0.4,
-        "b": 0.5,
-        "saturation": 0.75,
-        "condition": 0.75,
-        "grime": 0.0
-      }
-    },
-    {
       "id": 3,
       "type": "chassis",
       "blueprint": {
@@ -65,12 +46,13 @@
       "id": 4,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": null,
         "description": null,
         "armourVolume": 0.32916224,
         "bodyMeshVuid": 0,
         "partRepositioning": true,
+        "collisionEnabled": true,
         "armourTechID": "rha"
       }
     },
@@ -90,17 +72,18 @@
       "id": 7,
       "type": "engine",
       "blueprint": {
-        "v": "0.4",
-        "name": null,
-        "description": null,
+        "v": "0.5",
+        "name": "Carro Armato L5-21",
+        "description": "",
         "cylinders": 4,
         "idleRPM": 600,
         "cylinderDisplacement": 1.56,
         "tech": 0.2,
-        "targetMinRPM": 1000,
+        "targetMinRPM": 950,
         "targetMaxRPM": 1700,
         "torqueCoeff": 0.6,
-        "revLimit": -1
+        "revLimit": -1,
+        "engineLayout": "Inline"
       }
     },
     {
@@ -309,12 +292,12 @@
         "description": "",
         "separation": 851,
         "length": 5000,
-        "brake": 50068,
+        "brake": 50114,
         "autoBrake": true,
         "rollersEnabled": true,
         "matchChassis": false,
         "frontalTransmission": false,
-        "finalDriveRatio": 8.2
+        "finalDriveRatio": 7.98
       }
     },
     {
@@ -408,12 +391,13 @@
       "id": 45,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": "Unnamed Structure",
         "description": null,
         "armourVolume": 0.04806098,
         "bodyMeshVuid": 1,
         "partRepositioning": true,
+        "collisionEnabled": true,
         "armourTechID": "rha"
       }
     },
@@ -446,12 +430,13 @@
       "id": 37,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": "Unnamed Structure",
         "description": null,
         "armourVolume": 0.00688344,
         "bodyMeshVuid": 3,
         "partRepositioning": true,
+        "collisionEnabled": false,
         "armourTechID": "rha"
       }
     },
@@ -896,7 +881,7 @@
       }
     },
     {
-      "id": 0,
+      "id": 5,
       "type": "paintJobRegister",
       "blueprint": {
         "v": "0.0",
@@ -904,8 +889,47 @@
         "description": null,
         "paintJobIDs": [
           1,
-          2
+          21,
+          22
         ]
+      }
+    },
+    {
+      "id": 21,
+      "type": "paintJob",
+      "blueprint": {
+        "v": "2.2",
+        "name": "Powertrain",
+        "description": "",
+        "colourMapUrl": "821c5c82-a326-46ca-bfd0-bd2a75830ed7",
+        "scale": 0.5,
+        "roughness": 0.5,
+        "metallic": 0.0,
+        "r": 0.25,
+        "g": 0.4,
+        "b": 0.5,
+        "saturation": 0.75,
+        "condition": 0.75,
+        "grime": 0.0
+      }
+    },
+    {
+      "id": 22,
+      "type": "paintJob",
+      "blueprint": {
+        "v": "2.2",
+        "name": "Interior",
+        "description": "",
+        "colourMapUrl": "",
+        "scale": 0.5,
+        "roughness": 0.6,
+        "metallic": 0.0,
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5,
+        "saturation": 0.5,
+        "condition": -1.0,
+        "grime": 0.0
       }
     }
   ],
@@ -1140,8 +1164,8 @@
           ],
           "portOffsets": [
             0.0,
-            0.190734416,
-            0.257324874,
+            0.153301209,
+            0.498228967,
             0.0,
             0.117988504,
             -0.328008056,
@@ -1919,9 +1943,9 @@
           -0.221588135
         ],
         "rot": [
-          84.57296,
+          84.57299,
           239.999786,
-          179.999756,
+          179.999741,
           0.0
         ],
         "scale": [
@@ -2029,9 +2053,9 @@
           0.368896484
         ],
         "rot": [
-          3.8742187,
+          3.87421918,
           171.562,
-          1.525893,
+          1.52589285,
           0.0
         ],
         "scale": [
@@ -2118,7 +2142,7 @@
         "rot": [
           5.28545,
           105.121086,
-          -3.85838666E-06,
+          -3.429677E-06,
           0.0
         ],
         "scale": [

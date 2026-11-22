@@ -3,8 +3,8 @@
   "header": {
     "v": "0.2",
     "name": "Centurion Mk.I",
-    "gameVersion": "0.2.55.5",
-    "mass": 40586,
+    "gameVersion": "0.2.56.3",
+    "mass": 40585,
     "creationDate": "1945.09.02",
     "class": "",
     "desc": "",
@@ -39,7 +39,7 @@
         "description": null,
         "length": 6000,
         "width": 2000,
-        "groundClearance": 335
+        "groundClearance": 336
       }
     },
     {
@@ -72,17 +72,18 @@
       "id": 7,
       "type": "engine",
       "blueprint": {
-        "v": "0.4",
-        "name": null,
+        "v": "0.5",
+        "name": "Centurion Mk.I",
         "description": null,
         "cylinders": 12,
         "idleRPM": 600,
         "cylinderDisplacement": 2.25,
         "tech": 1.0,
-        "targetMinRPM": 1500,
+        "targetMinRPM": 1250,
         "targetMaxRPM": 2550,
         "torqueCoeff": 1.0,
-        "revLimit": -1
+        "revLimit": -1,
+        "engineLayout": "V"
       }
     },
     {
@@ -289,16 +290,16 @@
       "type": "track",
       "blueprint": {
         "v": "1.1",
-        "name": null,
+        "name": "Centurion Mk.I",
         "description": null,
         "separation": 1742,
         "length": 6000,
-        "brake": 324693,
+        "brake": 324684,
         "autoBrake": true,
         "rollersEnabled": true,
         "matchChassis": false,
         "frontalTransmission": false,
-        "finalDriveRatio": 6.0
+        "finalDriveRatio": 6.1
       }
     },
     {
@@ -1573,20 +1574,6 @@
       }
     },
     {
-      "id": 0,
-      "type": "paintJobRegister",
-      "blueprint": {
-        "v": "0.0",
-        "name": null,
-        "description": null,
-        "paintJobIDs": [
-          1,
-          21,
-          22
-        ]
-      }
-    },
-    {
       "id": 21,
       "type": "paintJob",
       "blueprint": {
@@ -1622,6 +1609,20 @@
         "saturation": 0.5,
         "condition": -1.0,
         "grime": 0.0
+      }
+    },
+    {
+      "id": 2,
+      "type": "paintJobRegister",
+      "blueprint": {
+        "v": "0.0",
+        "name": null,
+        "description": null,
+        "paintJobIDs": [
+          1,
+          21,
+          22
+        ]
       }
     }
   ],
@@ -1856,8 +1857,8 @@
           ],
           "portOffsets": [
             0.0,
-            0.229064584,
-            0.617827237,
+            0.223474815,
+            0.579209864,
             0.0,
             0.145700917,
             -0.405048519,
@@ -1871,8 +1872,8 @@
             0.0,
             0.0,
             -2.23517418E-08,
-            0.466003418,
-            -3.10100031,
+            0.465999961,
+            -3.10101318,
             -0.492635429,
             0.145700917,
             0.0684794262,
@@ -1883,8 +1884,8 @@
             0.0,
             0.0,
             2.23517418E-08,
-            0.466003418,
-            -3.10100031
+            0.465999961,
+            -3.10101318
           ],
           "portDirections": [
             0.0,
@@ -3282,7 +3283,7 @@
           3.12590456
         ],
         "rot": [
-          0.361124665,
+          0.3611247,
           1.73362755E-10,
           -1.96294131E-05,
           0.0
@@ -4211,9 +4212,9 @@
           -3.67498779
         ],
         "rot": [
-          0.9589237,
+          0.958923757,
           357.898834,
-          -2.33486421E-08,
+          -2.50164014E-08,
           0.0
         ],
         "scale": [

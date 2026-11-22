@@ -3,12 +3,12 @@
   "header": {
     "v": "0.2",
     "name": "M4 Sherman IC Firefly",
-    "gameVersion": "0.2.55.5",
-    "mass": 27883,
+    "gameVersion": "0.2.56.3",
+    "mass": 27742,
     "creationDate": "1943.12.31",
     "class": "",
     "desc": "",
-    "cost": 50230
+    "cost": 50161
   },
   "blueprints": [
     {
@@ -72,17 +72,18 @@
       "id": 7,
       "type": "engine",
       "blueprint": {
-        "v": "0.4",
+        "v": "0.5",
         "name": "M4 Sherman I",
         "description": "",
         "cylinders": 9,
         "idleRPM": 750,
         "cylinderDisplacement": 1.77,
         "tech": 0.8,
-        "targetMinRPM": 1600,
+        "targetMinRPM": 1400,
         "targetMaxRPM": 2400,
         "torqueCoeff": 0.85,
-        "revLimit": -1
+        "revLimit": -1,
+        "engineLayout": "Radial"
       }
     },
     {
@@ -288,16 +289,16 @@
       "type": "track",
       "blueprint": {
         "v": "1.1",
-        "name": "M4 Sherman I (Late)",
+        "name": "M4 Sherman I",
         "description": "",
         "separation": 1419,
         "length": 6060,
-        "brake": 236944,
+        "brake": 221936,
         "autoBrake": true,
         "rollersEnabled": true,
         "matchChassis": false,
         "frontalTransmission": true,
-        "finalDriveRatio": 6.0
+        "finalDriveRatio": 5.44
       }
     },
     {
@@ -1623,20 +1624,6 @@
       }
     },
     {
-      "id": 5,
-      "type": "paintJobRegister",
-      "blueprint": {
-        "v": "0.0",
-        "name": null,
-        "description": null,
-        "paintJobIDs": [
-          1,
-          21,
-          22
-        ]
-      }
-    },
-    {
       "id": 21,
       "type": "paintJob",
       "blueprint": {
@@ -1672,6 +1659,20 @@
         "saturation": 0.5,
         "condition": -1.0,
         "grime": 0.0
+      }
+    },
+    {
+      "id": 0,
+      "type": "paintJobRegister",
+      "blueprint": {
+        "v": "0.0",
+        "name": null,
+        "description": null,
+        "paintJobIDs": [
+          1,
+          21,
+          22
+        ]
       }
     }
   ],
@@ -1773,8 +1774,8 @@
         "mirrorVuid": -1,
         "pos": [
           -3.96021079E-13,
-          0.190605342,
-          -1.37877274
+          0.7221707,
+          -0.9322006
         ],
         "rot": [
           0.0,
@@ -2277,8 +2278,8 @@
           ],
           "modulePositions": [
             -3.96021079E-13,
-            0.190605342,
-            -1.37877274,
+            0.7221707,
+            -0.9322006,
             1.29385374E-08,
             0.518441737,
             2.74034929,
@@ -2317,8 +2318,8 @@
           ],
           "portOffsets": [
             0.0,
-            0.2031671,
-            0.411037624,
+            0.0,
+            0.303600281,
             0.0,
             0.150326863,
             -0.417908669,
@@ -2520,7 +2521,7 @@
         "rot": [
           349.1827,
           186.482925,
-          1.08652375E-06,
+          1.14085E-06,
           0.0
         ],
         "scale": [
@@ -2689,9 +2690,9 @@
           0.4199524
         ],
         "rot": [
-          2.911017E-05,
+          2.91101733E-05,
           60.000042,
-          -2.23834868E-05,
+          -2.2383485E-05,
           0.0
         ],
         "scale": [
@@ -3787,7 +3788,7 @@
         ],
         "rot": [
           358.595978,
-          0.5822843,
+          0.582284331,
           -5.00408159E-09,
           0.0
         ],
@@ -3875,7 +3876,7 @@
         "rot": [
           28.3006783,
           180.0,
-          1.15594559E-13,
+          0.0,
           0.0
         ],
         "scale": [
@@ -4210,7 +4211,7 @@
         ],
         "rot": [
           33.49641,
-          0.0,
+          -1.22047338E-13,
           180.0,
           0.0
         ],

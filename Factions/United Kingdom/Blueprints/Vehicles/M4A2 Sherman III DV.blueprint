@@ -3,12 +3,12 @@
   "header": {
     "v": "0.2",
     "name": "M4A2 Sherman III DV",
-    "gameVersion": "0.2.55.5",
-    "mass": 25519,
+    "gameVersion": "0.2.56.3",
+    "mass": 25152,
     "creationDate": "1943.12.31",
     "class": "",
     "desc": "",
-    "cost": 45609
+    "cost": 44897
   },
   "blueprints": [
     {
@@ -72,17 +72,18 @@
       "id": 7,
       "type": "engine",
       "blueprint": {
-        "v": "0.4",
+        "v": "0.5",
         "name": "M4A2 Sherman III",
         "description": "",
-        "cylinders": 12,
+        "cylinders": 6,
         "idleRPM": 750,
-        "cylinderDisplacement": 1.16,
+        "cylinderDisplacement": 2.32,
         "tech": 0.8,
         "targetMinRPM": 1400,
         "targetMaxRPM": 2100,
         "torqueCoeff": 0.85,
-        "revLimit": -1
+        "revLimit": -1,
+        "engineLayout": "V"
       }
     },
     {
@@ -292,12 +293,12 @@
         "description": "",
         "separation": 1419,
         "length": 6060,
-        "brake": 201322,
+        "brake": 201223,
         "autoBrake": true,
         "rollersEnabled": true,
         "matchChassis": false,
         "frontalTransmission": true,
-        "finalDriveRatio": 7.4
+        "finalDriveRatio": 7.62
       }
     },
     {
@@ -1703,7 +1704,7 @@
       }
     },
     {
-      "id": 0,
+      "id": 2,
       "type": "paintJobRegister",
       "blueprint": {
         "v": "0.0",
@@ -2359,8 +2360,8 @@
           ],
           "portOffsets": [
             0.0,
-            0.164473414,
-            0.443613529,
+            0.225768685,
+            0.358695269,
             0.0,
             0.145838723,
             -0.4054317,
@@ -2533,7 +2534,7 @@
         "rot": [
           349.1827,
           186.482925,
-          1.90141668E-06,
+          1.95574285E-06,
           0.0
         ],
         "scale": [
@@ -2731,9 +2732,9 @@
           0.4199524
         ],
         "rot": [
-          2.91102278E-05,
+          2.91102315E-05,
           60.000042,
-          -2.23834541E-05,
+          -2.23834522E-05,
           0.0
         ],
         "scale": [
@@ -3235,8 +3236,8 @@
           -1.31665039
         ],
         "rot": [
-          0.9052203,
-          4.28340763E-06,
+          0.905220449,
+          4.283408E-06,
           9.10346E-06,
           0.0
         ],
@@ -3917,7 +3918,7 @@
         ],
         "rot": [
           358.595978,
-          0.582285166,
+          0.5822852,
           -5.00408159E-09,
           0.0
         ],
@@ -4084,7 +4085,7 @@
           3.07998657
         ],
         "rot": [
-          24.3864021,
+          24.3864,
           180.0,
           0.0,
           0.0
@@ -4168,7 +4169,7 @@
           -2.45916748
         ],
         "rot": [
-          12.6338816,
+          12.6338825,
           -0.00353724672,
           1.60209679E-10,
           0.0
@@ -4197,7 +4198,7 @@
           -2.45910645
         ],
         "rot": [
-          12.6338758,
+          12.6338768,
           0.00351077481,
           0.0,
           0.0

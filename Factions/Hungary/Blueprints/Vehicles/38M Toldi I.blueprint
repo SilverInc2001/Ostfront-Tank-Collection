@@ -3,12 +3,12 @@
   "header": {
     "v": "0.2",
     "name": "38M Toldi I",
-    "gameVersion": "0.2.53.2",
-    "mass": 6640,
-    "creationDate": "1939.09.01",
+    "gameVersion": "0.2.56.3",
+    "mass": 6622,
+    "creationDate": "1941.12.31",
     "class": "",
     "desc": "",
-    "cost": 18173
+    "cost": 18163
   },
   "blueprints": [
     {
@@ -28,25 +28,6 @@
         "saturation": 1.0,
         "condition": 0.5,
         "grime": 0.5
-      }
-    },
-    {
-      "id": 2,
-      "type": "paintJob",
-      "blueprint": {
-        "v": "2.2",
-        "name": "Powertrain",
-        "description": "",
-        "colourMapUrl": "821c5c82-a326-46ca-bfd0-bd2a75830ed7",
-        "scale": 0.5,
-        "roughness": 0.5,
-        "metallic": 0.0,
-        "r": 0.25,
-        "g": 0.4,
-        "b": 0.5,
-        "saturation": 0.75,
-        "condition": 0.75,
-        "grime": 0.0
       }
     },
     {
@@ -91,17 +72,18 @@
       "id": 7,
       "type": "engine",
       "blueprint": {
-        "v": "0.4",
+        "v": "0.5",
         "name": "38M Toldi IIA",
         "description": "",
         "cylinders": 8,
         "idleRPM": 700,
         "cylinderDisplacement": 0.987,
-        "tech": 0.2,
-        "targetMinRPM": 1200,
+        "tech": 0.4,
+        "targetMinRPM": 1250,
         "targetMaxRPM": 2200,
-        "torqueCoeff": 0.6,
-        "revLimit": -1
+        "torqueCoeff": 0.75,
+        "revLimit": -1,
+        "engineLayout": "V"
       }
     },
     {
@@ -113,9 +95,9 @@
         "description": null,
         "meshType": "constantMesh",
         "autoInputTorque": true,
-        "maxInputTorque": 523.991943,
+        "maxInputTorque": 548.0763,
         "autoResistanceTorque": true,
-        "maxResistanceTorque": 523.991943,
+        "maxResistanceTorque": 548.0763,
         "finalDriveRatio": 7.98,
         "msrRatioThreshold": 3.10000014,
         "auxillaryGearRatio": 1.0,
@@ -311,12 +293,12 @@
         "description": "",
         "separation": 1419,
         "length": 3940,
-        "brake": 53121,
+        "brake": 52976,
         "autoBrake": true,
         "rollersEnabled": true,
         "matchChassis": false,
         "frontalTransmission": true,
-        "finalDriveRatio": 4.35
+        "finalDriveRatio": 7.08999968
       }
     },
     {
@@ -393,7 +375,7 @@
         "torque": 200.0,
         "ratio": 22.2,
         "type": 1,
-        "resist": 1.5
+        "resist": 0.75
       }
     },
     {
@@ -515,8 +497,8 @@
           }
         ],
         "muzzleMass": 0.0,
-        "K": 2200,
-        "PSI": 30000,
+        "K": 2000,
+        "PSI": 35000,
         "shellID": 34
       }
     },
@@ -536,7 +518,7 @@
               {
                 "id": "AP",
                 "definition": {
-                  "penetratorConstant": 2200
+                  "penetratorConstant": 2000
                 }
               },
               {
@@ -1069,7 +1051,45 @@
       }
     },
     {
-      "id": 5,
+      "id": 21,
+      "type": "paintJob",
+      "blueprint": {
+        "v": "2.2",
+        "name": "Powertrain",
+        "description": "",
+        "colourMapUrl": "821c5c82-a326-46ca-bfd0-bd2a75830ed7",
+        "scale": 0.5,
+        "roughness": 0.5,
+        "metallic": 0.0,
+        "r": 0.25,
+        "g": 0.4,
+        "b": 0.5,
+        "saturation": 0.75,
+        "condition": 0.75,
+        "grime": 0.0
+      }
+    },
+    {
+      "id": 22,
+      "type": "paintJob",
+      "blueprint": {
+        "v": "2.2",
+        "name": "Interior",
+        "description": "",
+        "colourMapUrl": "",
+        "scale": 0.5,
+        "roughness": 0.6,
+        "metallic": 0.0,
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5,
+        "saturation": 0.5,
+        "condition": -1.0,
+        "grime": 0.0
+      }
+    },
+    {
+      "id": 2,
       "type": "paintJobRegister",
       "blueprint": {
         "v": "0.0",
@@ -1077,7 +1097,8 @@
         "description": null,
         "paintJobIDs": [
           1,
-          2
+          21,
+          22
         ]
       }
     }
@@ -1273,17 +1294,17 @@
           ],
           "modulePositions": [
             0.27773726,
-            0.331864357,
+            0.251916528,
             -1.01817954,
             0.383011639,
             0.565532148,
             1.93777156,
             -0.7095,
-            0.441676468,
-            1.99598372,
+            0.446607083,
+            1.99366629,
             0.7095,
-            0.4416765,
-            1.99598372,
+            0.4466071,
+            1.99366629,
             -0.7095,
             0.0,
             0.0,
@@ -1313,15 +1334,15 @@
           ],
           "portOffsets": [
             0.0,
-            0.151713878,
-            0.306940019,
+            0.169800952,
+            0.326548785,
             0.0,
-            0.123855665,
-            -0.344318748,
-            0.191116571,
-            0.123855665,
-            0.05821216,
-            0.0368518233,
+            0.11892505,
+            -0.330611616,
+            0.195459381,
+            0.11892505,
+            0.05589477,
+            0.0342754722,
             0.0,
             0.0,
             0.0,
@@ -1330,10 +1351,10 @@
             -2.23517418E-08,
             0.4790001,
             2.11401367,
-            -0.191116571,
-            0.123855665,
-            0.05821216,
-            -0.0368518233,
+            -0.195459381,
+            0.11892505,
+            0.05589477,
+            -0.0342754722,
             0.0,
             0.0,
             0.0,
@@ -1425,7 +1446,7 @@
         "mirrorVuid": -1,
         "pos": [
           0.27773726,
-          0.331864357,
+          0.251916528,
           -1.01817954
         ],
         "rot": [
@@ -2345,8 +2366,8 @@
         ],
         "rot": [
           359.8222,
-          5.34460938E-08,
-          -5.491281E-08,
+          5.34460867E-08,
+          -5.493075E-08,
           0.0
         ],
         "scale": [
@@ -2374,8 +2395,8 @@
         ],
         "rot": [
           359.8222,
-          5.34460938E-08,
-          -5.491281E-08,
+          5.34460867E-08,
+          -5.493075E-08,
           0.0
         ],
         "scale": [
@@ -2460,7 +2481,7 @@
         "rot": [
           20.5335274,
           179.723236,
-          -4.27357669E-08,
+          -5.698102E-08,
           0.0
         ],
         "scale": [

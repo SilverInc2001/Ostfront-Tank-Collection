@@ -3,12 +3,12 @@
   "header": {
     "v": "0.2",
     "name": "Cromwell VI",
-    "gameVersion": "0.2.55.5",
-    "mass": 22833,
+    "gameVersion": "0.2.56.3",
+    "mass": 22838,
     "creationDate": "1945.01.17",
     "class": "",
     "desc": "",
-    "cost": 41638
+    "cost": 41641
   },
   "blueprints": [
     {
@@ -72,17 +72,18 @@
       "id": 7,
       "type": "engine",
       "blueprint": {
-        "v": "0.4",
-        "name": "Cromwell IV",
+        "v": "0.5",
+        "name": "Comet I (A34)",
         "description": "",
         "cylinders": 12,
-        "idleRPM": 600,
-        "cylinderDisplacement": 2.25,
+        "idleRPM": 500,
+        "cylinderDisplacement": 2.25322127,
         "tech": 1.0,
-        "targetMinRPM": 1500,
+        "targetMinRPM": 1250,
         "targetMaxRPM": 2550,
         "torqueCoeff": 1.0,
-        "revLimit": -1
+        "revLimit": -1,
+        "engineLayout": "V"
       }
     },
     {
@@ -94,9 +95,9 @@
         "description": "",
         "meshType": "synchromesh",
         "autoInputTorque": true,
-        "maxInputTorque": 2002.07568,
+        "maxInputTorque": 2004.94189,
         "autoResistanceTorque": true,
-        "maxResistanceTorque": 2002.07568,
+        "maxResistanceTorque": 2004.94189,
         "finalDriveRatio": 3.93,
         "msrRatioThreshold": 4.8,
         "auxillaryGearRatio": 1.0,
@@ -292,12 +293,12 @@
         "description": "",
         "separation": 1806,
         "length": 7120,
-        "brake": 182669,
+        "brake": 182676,
         "autoBrake": true,
         "rollersEnabled": false,
         "matchChassis": false,
         "frontalTransmission": false,
-        "finalDriveRatio": 6.3
+        "finalDriveRatio": 5.17
       }
     },
     {
@@ -1378,20 +1379,6 @@
       }
     },
     {
-      "id": 0,
-      "type": "paintJobRegister",
-      "blueprint": {
-        "v": "0.0",
-        "name": null,
-        "description": null,
-        "paintJobIDs": [
-          1,
-          21,
-          22
-        ]
-      }
-    },
-    {
       "id": 82,
       "type": "coilSpring",
       "blueprint": {
@@ -1402,6 +1389,20 @@
         "endSpringLengthMultiplier": 1.0,
         "springDiameter": 150,
         "springAngle": 0
+      }
+    },
+    {
+      "id": 2,
+      "type": "paintJobRegister",
+      "blueprint": {
+        "v": "0.0",
+        "name": null,
+        "description": null,
+        "paintJobIDs": [
+          1,
+          21,
+          22
+        ]
       }
     }
   ],
@@ -1636,29 +1637,29 @@
           ],
           "portOffsets": [
             0.0,
-            0.229064584,
-            0.617827237,
+            0.2235814,
+            0.5794861,
             0.0,
-            0.178467572,
-            -0.496139824,
-            0.533676744,
-            0.178467572,
-            0.0838797539,
-            0.05291927,
-            0.0169918537,
-            0.009586811,
+            0.178529173,
+            -0.496311069,
+            0.53405863,
+            0.178529173,
+            0.08390871,
+            0.0529360771,
+            0.017023772,
+            0.009595633,
             0.0,
             0.0,
             0.0,
             3.7252903E-08,
             0.317999959,
             -2.730011,
-            -0.533676744,
-            0.178467572,
-            0.0838797539,
-            -0.05291927,
-            0.0169918537,
-            0.009586811,
+            -0.53405863,
+            0.178529173,
+            0.08390871,
+            -0.0529361367,
+            0.017023772,
+            0.009595633,
             0.0,
             0.0,
             0.0,
@@ -1676,9 +1677,9 @@
             1.0,
             0.0,
             0.0,
-            0.9382675,
-            0.301268369,
-            0.169974521,
+            0.9381182,
+            0.30169034,
+            0.170050353,
             0.0,
             0.0,
             1.0,
@@ -1688,9 +1689,9 @@
             -1.0,
             0.0,
             0.0,
-            -0.9382675,
-            0.301268369,
-            0.169974521,
+            -0.9381183,
+            0.30169037,
+            0.170049757,
             0.0,
             0.0,
             1.0,
@@ -2388,9 +2389,9 @@
           0.476104736
         ],
         "rot": [
-          0.8078793,
-          -7.252386E-13,
-          -2.407597E-05,
+          0.8078794,
+          -7.379621E-13,
+          -2.40759709E-05,
           0.0
         ],
         "scale": [
@@ -2777,7 +2778,7 @@
           -0.102539063
         ],
         "rot": [
-          1.72635406E-09,
+          1.72635417E-09,
           30.0000019,
           -6.44282849E-09,
           0.0
@@ -3288,7 +3289,7 @@
         "rot": [
           344.487946,
           180.0,
-          9.506272E-13,
+          1.05625231E-12,
           0.0
         ],
         "scale": [

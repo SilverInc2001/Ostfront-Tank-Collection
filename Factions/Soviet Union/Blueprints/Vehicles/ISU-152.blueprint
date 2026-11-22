@@ -3,12 +3,12 @@
   "header": {
     "v": "0.2",
     "name": "ISU-152",
-    "gameVersion": "0.2.52.3",
-    "mass": 47931,
+    "gameVersion": "0.2.56.3",
+    "mass": 47955,
     "creationDate": "1945.09.02",
     "class": "",
     "desc": "",
-    "cost": 54993
+    "cost": 55002
   },
   "blueprints": [
     {
@@ -28,25 +28,6 @@
         "saturation": 0.5,
         "condition": 0.5,
         "grime": 0.5
-      }
-    },
-    {
-      "id": 2,
-      "type": "paintJob",
-      "blueprint": {
-        "v": "2.2",
-        "name": "Powertrain",
-        "description": "",
-        "colourMapUrl": "821c5c82-a326-46ca-bfd0-bd2a75830ed7",
-        "scale": 0.5,
-        "roughness": 0.5,
-        "metallic": 0.0,
-        "r": 0.25,
-        "g": 0.4,
-        "b": 0.5,
-        "saturation": 0.75,
-        "condition": 0.75,
-        "grime": 0.0
       }
     },
     {
@@ -91,17 +72,18 @@
       "id": 7,
       "type": "engine",
       "blueprint": {
-        "v": "0.4",
+        "v": "0.5",
         "name": "IS-2 (1944)",
         "description": "",
         "cylinders": 12,
         "idleRPM": 700,
-        "cylinderDisplacement": 3.23,
+        "cylinderDisplacement": 3.24,
         "tech": 1.0,
-        "targetMinRPM": 1400,
+        "targetMinRPM": 1100,
         "targetMaxRPM": 2000,
         "torqueCoeff": 1.0,
-        "revLimit": -1
+        "revLimit": -1,
+        "engineLayout": "V"
       }
     },
     {
@@ -113,9 +95,9 @@
         "description": "",
         "meshType": "constantMesh",
         "autoInputTorque": true,
-        "maxInputTorque": 2874.09082,
+        "maxInputTorque": 2882.98926,
         "autoResistanceTorque": true,
-        "maxResistanceTorque": 2874.09082,
+        "maxResistanceTorque": 2882.98926,
         "finalDriveRatio": 4.11,
         "msrRatioThreshold": 2.2,
         "auxillaryGearRatio": 1.0,
@@ -315,12 +297,12 @@
         "description": "",
         "separation": 1448,
         "length": 6800,
-        "brake": 354064,
+        "brake": 383528,
         "autoBrake": true,
         "rollersEnabled": true,
         "matchChassis": false,
         "frontalTransmission": false,
-        "finalDriveRatio": 11.8
+        "finalDriveRatio": 11.98
       }
     },
     {
@@ -1410,7 +1392,7 @@
       }
     },
     {
-      "id": 0,
+      "id": 5,
       "type": "paintJobRegister",
       "blueprint": {
         "v": "0.0",
@@ -1418,8 +1400,47 @@
         "description": null,
         "paintJobIDs": [
           1,
-          2
+          21,
+          22
         ]
+      }
+    },
+    {
+      "id": 21,
+      "type": "paintJob",
+      "blueprint": {
+        "v": "2.2",
+        "name": "Powertrain",
+        "description": "",
+        "colourMapUrl": "821c5c82-a326-46ca-bfd0-bd2a75830ed7",
+        "scale": 0.5,
+        "roughness": 0.5,
+        "metallic": 0.0,
+        "r": 0.25,
+        "g": 0.4,
+        "b": 0.5,
+        "saturation": 0.75,
+        "condition": 0.75,
+        "grime": 0.0
+      }
+    },
+    {
+      "id": 22,
+      "type": "paintJob",
+      "blueprint": {
+        "v": "2.2",
+        "name": "Interior",
+        "description": "",
+        "colourMapUrl": "",
+        "scale": 0.5,
+        "roughness": 0.6,
+        "metallic": 0.0,
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5,
+        "saturation": 0.5,
+        "condition": -1.0,
+        "grime": 0.0
       }
     }
   ],
@@ -1654,29 +1675,29 @@
           ],
           "portOffsets": [
             0.0,
-            0.274453,
-            0.7402478,
+            0.252357423,
+            0.6540688,
             0.0,
-            0.206639916,
-            -0.574458957,
-            0.6972395,
-            0.206639916,
-            0.0971207544,
-            0.028380394,
-            0.03856513,
-            -0.0181255341,
+            0.206800625,
+            -0.5749057,
+            0.6983181,
+            0.206800625,
+            0.09719628,
+            0.0281904936,
+            0.038736254,
+            -0.01820612,
             0.0,
             0.0,
             0.0,
             -2.23517418E-08,
             0.362,
             -2.73599243,
-            -0.6972395,
-            0.206639916,
-            0.0971207544,
-            -0.028380394,
-            0.03856513,
-            -0.0181255341,
+            -0.6983181,
+            0.206800625,
+            0.09719628,
+            -0.0281904936,
+            0.038736254,
+            -0.01820612,
             0.0,
             0.0,
             0.0,
@@ -1694,9 +1715,9 @@
             1.0,
             0.0,
             0.0,
-            0.554324567,
-            0.753251851,
-            -0.354028165,
+            0.5500482,
+            0.755815,
+            -0.355233,
             0.0,
             0.0,
             1.0,
@@ -1706,9 +1727,9 @@
             -1.0,
             0.0,
             0.0,
-            -0.554324567,
-            0.753251851,
-            -0.354028165,
+            -0.5500482,
+            0.755815,
+            -0.355233,
             0.0,
             0.0,
             1.0,
@@ -2263,7 +2284,7 @@
         "rot": [
           326.450317,
           270.0235,
-          1.43421312E-05,
+          1.63910063E-05,
           0.0
         ],
         "scale": [
@@ -3019,7 +3040,7 @@
         "rot": [
           359.716858,
           175.227371,
-          12.8944025,
+          12.8944035,
           0.0
         ],
         "scale": [
@@ -3045,7 +3066,7 @@
           0.611145
         ],
         "rot": [
-          -1.28066051E-06,
+          -1.33402136E-06,
           355.159729,
           347.8772,
           0.0
@@ -3330,9 +3351,9 @@
           0.675598145
         ],
         "rot": [
-          16.09369,
+          16.093689,
           275.990265,
-          1.77719585E-06,
+          2.66579445E-06,
           0.0
         ],
         "scale": [
@@ -3564,7 +3585,7 @@
         "rot": [
           16.0938358,
           84.0097961,
-          -1.15517832E-05,
+          -1.24403823E-05,
           0.0
         ],
         "scale": [

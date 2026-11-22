@@ -3,12 +3,12 @@
   "header": {
     "v": "0.2",
     "name": "Pz.Kpfw. T-34F 747(r)",
-    "gameVersion": "0.2.55.5",
-    "mass": 30398,
+    "gameVersion": "0.2.56.3",
+    "mass": 30397,
     "creationDate": "1945.09.02",
     "class": "",
     "desc": "",
-    "cost": 38762
+    "cost": 38761
   },
   "blueprints": [
     {
@@ -72,17 +72,18 @@
       "id": 7,
       "type": "engine",
       "blueprint": {
-        "v": "0.4",
-        "name": null,
-        "description": null,
+        "v": "0.5",
+        "name": "T-34-76 M1941",
+        "description": "",
         "cylinders": 12,
         "idleRPM": 800,
         "cylinderDisplacement": 3.24,
         "tech": 1.0,
         "targetMinRPM": 1200,
-        "targetMaxRPM": 1800,
+        "targetMaxRPM": 1900,
         "torqueCoeff": 1.0,
-        "revLimit": -1
+        "revLimit": -1,
+        "engineLayout": "V"
       }
     },
     {
@@ -291,12 +292,12 @@
         "description": "",
         "separation": 1677,
         "length": 6000,
-        "brake": 243189,
+        "brake": 243181,
         "autoBrake": true,
         "rollersEnabled": false,
         "matchChassis": false,
         "frontalTransmission": false,
-        "finalDriveRatio": 4.5
+        "finalDriveRatio": 4.55
       }
     },
     {
@@ -1444,20 +1445,6 @@
       }
     },
     {
-      "id": 0,
-      "type": "paintJobRegister",
-      "blueprint": {
-        "v": "0.0",
-        "name": null,
-        "description": null,
-        "paintJobIDs": [
-          1,
-          21,
-          22
-        ]
-      }
-    },
-    {
       "id": 21,
       "type": "paintJob",
       "blueprint": {
@@ -1500,12 +1487,26 @@
       "type": "coilSpring",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "springLength": 500,
         "endSpringLengthMultiplier": 1.0,
         "springDiameter": 150,
         "springAngle": 0
+      }
+    },
+    {
+      "id": 2,
+      "type": "paintJobRegister",
+      "blueprint": {
+        "v": "0.0",
+        "name": null,
+        "description": null,
+        "paintJobIDs": [
+          1,
+          21,
+          22
+        ]
       }
     }
   ],
@@ -1740,8 +1741,8 @@
           ],
           "portOffsets": [
             0.0,
-            0.274877518,
-            0.741392732,
+            0.252357423,
+            0.6540688,
             0.0,
             0.187885344,
             -0.5223212,
@@ -1755,7 +1756,7 @@
             0.0,
             0.0,
             -2.23517418E-08,
-            0.348,
+            0.34800005,
             -2.540985,
             -0.807538748,
             0.187885344,
@@ -1767,7 +1768,7 @@
             0.0,
             0.0,
             2.23517418E-08,
-            0.348,
+            0.34800005,
             -2.540985
           ],
           "portDirections": [
@@ -2413,7 +2414,7 @@
         "rot": [
           18.7371788,
           296.827881,
-          -1.44248679E-05,
+          -1.53264227E-05,
           0.0
         ],
         "scale": [
@@ -2442,7 +2443,7 @@
         "rot": [
           18.7371788,
           296.827881,
-          -1.44248679E-05,
+          -1.53264227E-05,
           0.0
         ],
         "scale": [
@@ -3026,9 +3027,9 @@
           0.44329834
         ],
         "rot": [
-          18.4146957,
+          18.4146976,
           249.380188,
-          7.19880472E-06,
+          8.098655E-06,
           0.0
         ],
         "scale": [
@@ -3276,8 +3277,8 @@
         ],
         "rot": [
           317.409058,
-          -6.803775E-06,
-          4.60452065E-06,
+          -6.8037757E-06,
+          4.604521E-06,
           0.0
         ],
         "scale": [
@@ -3303,8 +3304,8 @@
         ],
         "rot": [
           317.409058,
-          6.803775E-06,
-          -4.60452065E-06,
+          6.8037757E-06,
+          -4.604521E-06,
           0.0
         ],
         "scale": [

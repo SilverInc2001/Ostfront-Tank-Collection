@@ -3,12 +3,12 @@
   "header": {
     "v": "0.2",
     "name": "AC-4 Woomera",
-    "gameVersion": "0.2.53.2",
-    "mass": 25836,
+    "gameVersion": "0.2.56.3",
+    "mass": 25727,
     "creationDate": "1943.12.31",
     "class": "",
     "desc": "",
-    "cost": 52023
+    "cost": 52007
   },
   "blueprints": [
     {
@@ -28,25 +28,6 @@
         "saturation": 0.75,
         "condition": 0.5,
         "grime": 0.5
-      }
-    },
-    {
-      "id": 2,
-      "type": "paintJob",
-      "blueprint": {
-        "v": "2.2",
-        "name": "Powertrain",
-        "description": "",
-        "colourMapUrl": "821c5c82-a326-46ca-bfd0-bd2a75830ed7",
-        "scale": 0.5,
-        "roughness": 0.5,
-        "metallic": 0.0,
-        "r": 0.25,
-        "g": 0.4,
-        "b": 0.5,
-        "saturation": 0.75,
-        "condition": 0.75,
-        "grime": 0.0
       }
     },
     {
@@ -91,17 +72,18 @@
       "id": 7,
       "type": "engine",
       "blueprint": {
-        "v": "0.4",
-        "name": null,
-        "description": null,
+        "v": "0.5",
+        "name": "AC-1 Sentinel",
+        "description": "",
         "cylinders": 24,
         "idleRPM": 800,
         "cylinderDisplacement": 0.7125,
         "tech": 0.8,
-        "targetMinRPM": 1700,
-        "targetMaxRPM": 3400,
+        "targetMinRPM": 1400,
+        "targetMaxRPM": 3050,
         "torqueCoeff": 0.85,
-        "revLimit": -1
+        "revLimit": -1,
+        "engineLayout": "V"
       }
     },
     {
@@ -137,8 +119,8 @@
       "type": "trackWheelMount",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "mountID": "97844d15-24a8-4feb-9548-668e2bb81ce6",
         "scale": 0.5,
         "x": 0,
@@ -152,8 +134,8 @@
       "type": "trackWheel",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "wheelID": "8b31d0e4-3946-4a3a-81ef-b2bbf3a84989",
         "perAxle": 1,
         "spacingOnAxle": 0.01,
@@ -167,8 +149,8 @@
       "type": "trackWheelMount",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "mountID": "25261a10-1c39-4191-9378-b6108d71cbf1",
         "scale": 1.0,
         "x": 0,
@@ -182,8 +164,8 @@
       "type": "trackWheel",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "wheelID": "ed05e419-9705-41ac-801c-11a0a0dd0700",
         "perAxle": 1,
         "spacingOnAxle": 0.08,
@@ -197,8 +179,8 @@
       "type": "trackWheelArray",
       "blueprint": {
         "v": "0.2",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "spacingMode": 0,
         "spacing": 1193,
         "length": 6000,
@@ -222,8 +204,8 @@
       "type": "trackWheelMount",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "mountID": "062b2d20-13d5-4dec-9d1c-b2855fdccfac",
         "scale": 0.5,
         "x": 0,
@@ -237,8 +219,8 @@
       "type": "trackWheel",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "wheelID": "50907d5b-dde1-451c-a0be-07c69d2fc886",
         "perAxle": 1,
         "spacingOnAxle": 0.08,
@@ -252,8 +234,8 @@
       "type": "trackWheelArray",
       "blueprint": {
         "v": "0.2",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "spacingMode": 0,
         "spacing": 200,
         "length": 6000,
@@ -277,8 +259,8 @@
       "type": "trackWheelMount",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "mountID": "b84298aa-f287-4752-aca5-fa2b78ce4f02",
         "scale": 0.58,
         "x": 0,
@@ -292,8 +274,8 @@
       "type": "trackWheel",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "wheelID": "50907d5b-dde1-451c-a0be-07c69d2fc886",
         "perAxle": 1,
         "spacingOnAxle": 0.08,
@@ -307,16 +289,16 @@
       "type": "track",
       "blueprint": {
         "v": "1.1",
-        "name": null,
-        "description": null,
+        "name": "AC-1 Sentinel",
+        "description": "",
         "separation": 1591,
         "length": 6000,
-        "brake": 198874,
+        "brake": 206268,
         "autoBrake": true,
         "rollersEnabled": true,
         "matchChassis": false,
         "frontalTransmission": true,
-        "finalDriveRatio": 8.599999
+        "finalDriveRatio": 7.9199996
       }
     },
     {
@@ -324,8 +306,8 @@
       "type": "trackBelt",
       "blueprint": {
         "v": "1.1",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "segmentID": "2a7ddaf2-636f-49aa-8054-fea470a7f6ea",
         "x": 419,
         "y": 75,
@@ -339,8 +321,8 @@
       "type": "suspension",
       "blueprint": {
         "v": "0.6",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "targetAngle": -5.0,
         "upTravelLimit": 1000.0,
         "damper": 10000.0,
@@ -484,6 +466,11 @@
                 "t0": 55,
                 "t1": 50,
                 "l": 1125
+              },
+              {
+                "t0": 50,
+                "t1": 45,
+                "l": 50
               }
             ]
           },
@@ -1324,7 +1311,7 @@
       }
     },
     {
-      "id": 0,
+      "id": 5,
       "type": "paintJobRegister",
       "blueprint": {
         "v": "0.0",
@@ -1332,8 +1319,47 @@
         "description": null,
         "paintJobIDs": [
           1,
-          2
+          21,
+          22
         ]
+      }
+    },
+    {
+      "id": 21,
+      "type": "paintJob",
+      "blueprint": {
+        "v": "2.2",
+        "name": "Powertrain",
+        "description": "",
+        "colourMapUrl": "821c5c82-a326-46ca-bfd0-bd2a75830ed7",
+        "scale": 0.5,
+        "roughness": 0.5,
+        "metallic": 0.0,
+        "r": 0.25,
+        "g": 0.4,
+        "b": 0.5,
+        "saturation": 0.75,
+        "condition": 0.75,
+        "grime": 0.0
+      }
+    },
+    {
+      "id": 22,
+      "type": "paintJob",
+      "blueprint": {
+        "v": "2.2",
+        "name": "Interior",
+        "description": "",
+        "colourMapUrl": "",
+        "scale": 0.5,
+        "roughness": 0.6,
+        "metallic": 0.0,
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5,
+        "saturation": 0.5,
+        "condition": -1.0,
+        "grime": 0.0
       }
     }
   ],
@@ -1568,8 +1594,8 @@
           ],
           "portOffsets": [
             0.0,
-            0.128901839,
-            0.6083197,
+            0.152322024,
+            0.7003704,
             0.0,
             0.144624725,
             -0.4020567,
@@ -2429,7 +2455,7 @@
         "pos": [
           0.0,
           0.0,
-          1.125
+          1.17500007
         ],
         "rot": [
           0.0,
@@ -2602,7 +2628,7 @@
           -1.30691528
         ],
         "rot": [
-          0.615156651,
+          0.6151567,
           0.0,
           0.0,
           0.0
@@ -3142,7 +3168,7 @@
         "rot": [
           23.0782261,
           180.0,
-          -6.63789228E-13,
+          -7.744208E-13,
           0.0
         ],
         "scale": [
@@ -3339,7 +3365,7 @@
           -0.577331543
         ],
         "rot": [
-          270.019775,
+          270.027985,
           270.0,
           0.0,
           0.0

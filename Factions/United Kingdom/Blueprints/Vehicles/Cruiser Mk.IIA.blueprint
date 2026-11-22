@@ -3,12 +3,12 @@
   "header": {
     "v": "0.2",
     "name": "Cruiser Mk.IIA",
-    "gameVersion": "0.2.55.5",
-    "mass": 11604,
+    "gameVersion": "0.2.56.3",
+    "mass": 11599,
     "creationDate": "1941.12.31",
     "class": "",
     "desc": "",
-    "cost": 38348
+    "cost": 38345
   },
   "blueprints": [
     {
@@ -72,17 +72,18 @@
       "id": 7,
       "type": "engine",
       "blueprint": {
-        "v": "0.4",
+        "v": "0.5",
         "name": "Cruiser Mk.1",
-        "description": null,
+        "description": "",
         "cylinders": 6,
         "idleRPM": 500,
         "cylinderDisplacement": 1.607,
         "tech": 0.4,
-        "targetMinRPM": 1200,
-        "targetMaxRPM": 2400,
+        "targetMinRPM": 1100,
+        "targetMaxRPM": 2200,
         "torqueCoeff": 0.75,
-        "revLimit": -1
+        "revLimit": -1,
+        "engineLayout": "Inline"
       }
     },
     {
@@ -292,12 +293,12 @@
         "description": "",
         "separation": 1634,
         "length": 5800,
-        "brake": 93182,
+        "brake": 92799,
         "autoBrake": true,
         "rollersEnabled": true,
         "matchChassis": false,
         "frontalTransmission": false,
-        "finalDriveRatio": 10.01
+        "finalDriveRatio": 9.21
       }
     },
     {
@@ -1221,20 +1222,6 @@
       }
     },
     {
-      "id": 5,
-      "type": "paintJobRegister",
-      "blueprint": {
-        "v": "0.0",
-        "name": null,
-        "description": null,
-        "paintJobIDs": [
-          1,
-          21,
-          22
-        ]
-      }
-    },
-    {
       "id": 21,
       "type": "paintJob",
       "blueprint": {
@@ -1316,6 +1303,20 @@
         "name": null,
         "description": null,
         "imageURL": "Sprocket/Decals/T 271490.png"
+      }
+    },
+    {
+      "id": 0,
+      "type": "paintJobRegister",
+      "blueprint": {
+        "v": "0.0",
+        "name": null,
+        "description": null,
+        "paintJobIDs": [
+          1,
+          21,
+          22
+        ]
       }
     }
   ],
@@ -1509,9 +1510,9 @@
             }
           ],
           "modulePositions": [
-            -0.375274718,
-            0.447472751,
-            -0.904257655,
+            0.00180952472,
+            0.09799647,
+            -0.70908004,
             8.563569E-08,
             0.072025,
             -2.04350543,
@@ -1529,9 +1530,9 @@
             0.0
           ],
           "moduleRotations": [
-            0.0,
+            -2.985571E-13,
             180.0,
-            90.0,
+            -1.30503445E-20,
             0.0,
             180.0,
             0.0,
@@ -1550,8 +1551,8 @@
           ],
           "portOffsets": [
             0.0,
-            0.19358632,
-            0.3264134,
+            0.154825553,
+            0.6580087,
             0.0,
             0.1305496,
             -0.362927884,
@@ -1565,8 +1566,8 @@
             0.0,
             0.0,
             -2.23517418E-08,
-            0.187011719,
-            -2.119,
+            0.187000036,
+            -2.118988,
             -0.462838769,
             0.1305496,
             0.06135831,
@@ -1577,8 +1578,8 @@
             0.0,
             0.0,
             2.23517418E-08,
-            0.187011719,
-            -2.119
+            0.187000036,
+            -2.118988
           ],
           "portDirections": [
             0.0,
@@ -1654,21 +1655,21 @@
       "guid": "ebcf5eda-e50b-4f18-a063-0138a9d630e0",
       "vuid": 9,
       "pvuid": 2,
-      "flags": 3,
+      "flags": 2,
       "engine": 10,
       "powertrainNode": 11,
       "fuelReserve": 12,
       "transform": {
         "mirrorVuid": -1,
         "pos": [
-          -0.375274718,
-          0.447472751,
-          -0.904257655
+          0.00180952472,
+          0.09799647,
+          -0.70908004
         ],
         "rot": [
-          0.0,
+          -2.985571E-13,
           180.0,
-          90.0,
+          -1.30503445E-20,
           0.0
         ],
         "scale": [
@@ -2073,7 +2074,7 @@
           -2.16766357
         ],
         "rot": [
-          0.0281478632,
+          0.0281478669,
           359.987457,
           0.0149675962,
           0.0
@@ -2747,7 +2748,7 @@
         "rot": [
           20.1234722,
           90.0,
-          -7.274257E-06,
+          -7.27425777E-06,
           0.0
         ],
         "scale": [
@@ -2776,7 +2777,7 @@
         "rot": [
           20.1234722,
           270.0,
-          7.274257E-06,
+          7.27425777E-06,
           0.0
         ],
         "scale": [
@@ -2861,9 +2862,9 @@
           -0.732055664
         ],
         "rot": [
-          20.1838818,
+          20.1838837,
           89.99929,
-          5.457805E-06,
+          4.54817064E-06,
           0.0
         ],
         "scale": [
@@ -2890,7 +2891,7 @@
           -0.07537842
         ],
         "rot": [
-          -1.52073289E-05,
+          -1.520733E-05,
           30.0000839,
           1.71696829E-05,
           0.0
@@ -2948,7 +2949,7 @@
           -0.478424072
         ],
         "rot": [
-          -1.52073289E-05,
+          -1.520733E-05,
           30.0000839,
           1.71696829E-05,
           0.0

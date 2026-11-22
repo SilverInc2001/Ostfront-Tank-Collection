@@ -3,12 +3,12 @@
   "header": {
     "v": "0.2",
     "name": "Churchill Mk.II",
-    "gameVersion": "0.2.55.5",
-    "mass": 39323,
+    "gameVersion": "0.2.56.3",
+    "mass": 39606,
     "creationDate": "1941.12.31",
     "class": "",
     "desc": "",
-    "cost": 55846
+    "cost": 55903
   },
   "blueprints": [
     {
@@ -72,17 +72,18 @@
       "id": 7,
       "type": "engine",
       "blueprint": {
-        "v": "0.4",
+        "v": "0.5",
         "name": "Churchill Mk.II",
         "description": "",
         "cylinders": 12,
         "idleRPM": 800,
         "cylinderDisplacement": 1.77,
         "tech": 0.4,
-        "targetMinRPM": 1000,
+        "targetMinRPM": 1100,
         "targetMaxRPM": 2200,
         "torqueCoeff": 0.75,
-        "revLimit": -1
+        "revLimit": -1,
+        "engineLayout": "V"
       }
     },
     {
@@ -291,12 +292,12 @@
         "description": "",
         "separation": 1563,
         "length": 7440,
-        "brake": 314359,
+        "brake": 316851,
         "autoBrake": true,
         "rollersEnabled": true,
         "matchChassis": false,
         "frontalTransmission": false,
-        "finalDriveRatio": 9.5
+        "finalDriveRatio": 9.96
       }
     },
     {
@@ -1572,20 +1573,6 @@
       }
     },
     {
-      "id": 5,
-      "type": "paintJobRegister",
-      "blueprint": {
-        "v": "0.0",
-        "name": null,
-        "description": null,
-        "paintJobIDs": [
-          1,
-          21,
-          22
-        ]
-      }
-    },
-    {
       "id": 21,
       "type": "paintJob",
       "blueprint": {
@@ -1621,6 +1608,32 @@
         "saturation": 0.5,
         "condition": -1.0,
         "grime": 0.0
+      }
+    },
+    {
+      "id": 0,
+      "type": "paintJobRegister",
+      "blueprint": {
+        "v": "0.0",
+        "name": null,
+        "description": null,
+        "paintJobIDs": [
+          1,
+          21,
+          22
+        ]
+      }
+    },
+    {
+      "id": 32,
+      "type": "fuelTank",
+      "blueprint": {
+        "v": "0.0",
+        "name": null,
+        "description": null,
+        "x": 576,
+        "y": 535,
+        "z": 1107
       }
     }
   ],
@@ -2121,7 +2134,7 @@
           0.748504639
         ],
         "rot": [
-          0.319283366,
+          0.3192834,
           -6.361208E-15,
           -2.17018078E-05,
           0.0
@@ -2557,34 +2570,6 @@
       "ammoRackBlueprintVuid": 77
     },
     {
-      "guid": "5e8ab5c7-e9f1-4c64-a04a-29efc78b1918",
-      "vuid": 493,
-      "pvuid": 0,
-      "flags": 3,
-      "fuelTank": 494,
-      "model": 495,
-      "transform": {
-        "mirrorVuid": -1,
-        "pos": [
-          -1.11914837,
-          -0.09400022,
-          -1.64221191
-        ],
-        "rot": [
-          0.0,
-          0.0,
-          0.0,
-          0.0
-        ],
-        "scale": [
-          0.57666564,
-          0.535598755,
-          1.10726583
-        ]
-      },
-      "fuelTankBlueprintVuid": 78
-    },
-    {
       "guid": "ecd3341c-f605-4816-946c-591eaa7e4f7d",
       "vuid": 496,
       "pvuid": 0,
@@ -2993,21 +2978,21 @@
       "guid": "ebcf5eda-e50b-4f18-a063-0138a9d630e0",
       "vuid": 9,
       "pvuid": 0,
-      "flags": 2,
+      "flags": 3,
       "engine": 10,
       "powertrainNode": 11,
       "fuelReserve": 12,
       "transform": {
         "mirrorVuid": -1,
         "pos": [
-          2.82474346E-08,
-          -0.215373471,
+          -0.454182655,
+          0.187371254,
           -1.676887
         ],
         "rot": [
           0.0,
           180.0,
-          0.0,
+          89.99996,
           0.0
         ],
         "scale": [
@@ -3504,8 +3489,8 @@
             }
           ],
           "modulePositions": [
-            2.82474346E-08,
-            -0.215373471,
+            -0.454182655,
+            0.187371254,
             -1.676887,
             -2.85039086E-08,
             0.248218924,
@@ -3526,7 +3511,7 @@
           "moduleRotations": [
             0.0,
             180.0,
-            0.0,
+            89.99996,
             0.0,
             180.0,
             0.0,
@@ -3545,8 +3530,8 @@
           ],
           "portOffsets": [
             0.0,
-            0.2031671,
-            0.547977149,
+            0.206296638,
+            0.5346868,
             0.0,
             0.132190064,
             -0.367488354,
@@ -3560,8 +3545,8 @@
             0.0,
             0.0,
             -2.23517418E-08,
-            0.312011719,
-            -3.11800027,
+            0.312000036,
+            -3.11801147,
             -0.7416817,
             0.132190064,
             0.0621293262,
@@ -3572,8 +3557,8 @@
             0.0,
             0.0,
             2.23517418E-08,
-            0.312011719,
-            -3.11800027
+            0.312000036,
+            -3.11801147
           ],
           "portDirections": [
             0.0,
@@ -4093,6 +4078,62 @@
       },
       "blueprintID": 82,
       "beltBlueprintID": 20
+    },
+    {
+      "guid": "5e8ab5c7-e9f1-4c64-a04a-29efc78b1918",
+      "vuid": 493,
+      "pvuid": 0,
+      "flags": 7,
+      "fuelTank": 494,
+      "model": 495,
+      "transform": {
+        "mirrorVuid": 345,
+        "pos": [
+          -1.14988863,
+          -0.0620001554,
+          -1.61413574
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          0.57666564,
+          0.535598755,
+          1.10726583
+        ]
+      },
+      "fuelTankBlueprintVuid": 78
+    },
+    {
+      "guid": "5e8ab5c7-e9f1-4c64-a04a-29efc78b1918",
+      "vuid": 345,
+      "pvuid": 0,
+      "flags": 6,
+      "fuelTank": 362,
+      "model": 363,
+      "transform": {
+        "mirrorVuid": 493,
+        "pos": [
+          1.14988863,
+          -0.0620001554,
+          -1.61413574
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          0.57666564,
+          0.535598755,
+          1.10726583
+        ]
+      },
+      "fuelTankBlueprintVuid": 32
     }
   ],
   "meshes": [

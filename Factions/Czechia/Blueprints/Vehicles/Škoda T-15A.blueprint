@@ -3,7 +3,7 @@
   "header": {
     "v": "0.2",
     "name": "Škoda T-15A",
-    "gameVersion": "0.2.55.5",
+    "gameVersion": "0.2.56.3",
     "mass": 10346,
     "creationDate": "1941.12.31",
     "class": "",
@@ -110,17 +110,18 @@
       "id": 8,
       "type": "engine",
       "blueprint": {
-        "v": "0.4",
-        "name": null,
-        "description": null,
+        "v": "0.5",
+        "name": "Škoda T-15",
+        "description": "",
         "cylinders": 8,
         "idleRPM": 600,
         "cylinderDisplacement": 1.35,
         "tech": 0.4,
         "targetMinRPM": 1200,
-        "targetMaxRPM": 2600,
+        "targetMaxRPM": 2800,
         "torqueCoeff": 0.75,
-        "revLimit": -1
+        "revLimit": -1,
+        "engineLayout": "V"
       }
     },
     {
@@ -157,8 +158,8 @@
       "type": "trackWheelMount",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "mountID": "97844d15-24a8-4feb-9548-668e2bb81ce6",
         "scale": 0.0,
         "x": 0,
@@ -172,8 +173,8 @@
       "type": "trackWheel",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "wheelID": "d3ba78e2-b77b-4710-9e2f-cc9d5d12d562",
         "perAxle": 1,
         "spacingOnAxle": 0.01,
@@ -187,8 +188,8 @@
       "type": "trackWheelMount",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "mountID": "25261a10-1c39-4191-9378-b6108d71cbf1",
         "scale": 0.0,
         "x": 0,
@@ -202,8 +203,8 @@
       "type": "trackWheel",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "wheelID": "02bab6de-75eb-40a7-a30f-9c0effb36d91",
         "perAxle": 2,
         "spacingOnAxle": 0.08,
@@ -217,8 +218,8 @@
       "type": "trackWheelArray",
       "blueprint": {
         "v": "0.2",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "spacingMode": 0,
         "spacing": 686,
         "length": 6000,
@@ -242,8 +243,8 @@
       "type": "trackWheelMount",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "mountID": "062b2d20-13d5-4dec-9d1c-b2855fdccfac",
         "scale": 0.0,
         "x": 0,
@@ -257,8 +258,8 @@
       "type": "trackWheel",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "wheelID": "50907d5b-dde1-451c-a0be-07c69d2fc886",
         "perAxle": 2,
         "spacingOnAxle": 0.08,
@@ -272,8 +273,8 @@
       "type": "trackWheelArray",
       "blueprint": {
         "v": "0.2",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "spacingMode": 2,
         "spacing": 251,
         "length": 6000,
@@ -297,8 +298,8 @@
       "type": "trackWheelMount",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "mountID": "6b0a1425-3943-491b-ad87-f56d8b811e19",
         "scale": 0.0,
         "x": 0,
@@ -312,8 +313,8 @@
       "type": "trackWheel",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "wheelID": "ed05e419-9705-41ac-801c-11a0a0dd0700",
         "perAxle": 2,
         "spacingOnAxle": 0.08,
@@ -327,16 +328,16 @@
       "type": "track",
       "blueprint": {
         "v": "1.1",
-        "name": "Škoda T-15",
-        "description": null,
+        "name": "Škoda T-15A",
+        "description": "",
         "separation": 1340,
         "length": 6000,
-        "brake": 82170,
+        "brake": 82770,
         "autoBrake": true,
         "rollersEnabled": true,
         "matchChassis": false,
         "frontalTransmission": false,
-        "finalDriveRatio": 4.15
+        "finalDriveRatio": 4.45
       }
     },
     {
@@ -344,8 +345,8 @@
       "type": "trackBelt",
       "blueprint": {
         "v": "1.1",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "segmentID": "625f3a65-30f6-4180-a719-f3af1e2bacfe",
         "x": 270,
         "y": 75,
@@ -359,8 +360,8 @@
       "type": "suspension",
       "blueprint": {
         "v": "0.6",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "targetAngle": -5.0,
         "upTravelLimit": 1000.0,
         "damper": 25000.0,
@@ -372,8 +373,8 @@
       "type": "torsionBar",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "torsionBarLength": 658,
         "torsionBarDiameter": 60
       }
@@ -1137,7 +1138,7 @@
       }
     },
     {
-      "id": 0,
+      "id": 6,
       "type": "paintJobRegister",
       "blueprint": {
         "v": "0.0",
@@ -1382,8 +1383,8 @@
           ],
           "portOffsets": [
             0.0,
-            0.1774327,
-            0.3589731,
+            0.18848595,
+            0.362482458,
             0.0,
             0.1235676,
             -0.343517929,
@@ -2131,7 +2132,7 @@
         "rot": [
           0.0,
           0.0,
-          -1.14381891E-08,
+          0.0,
           0.0
         ],
         "scale": [
@@ -2160,7 +2161,7 @@
         "rot": [
           0.0,
           0.0,
-          -1.14381891E-08,
+          0.0,
           0.0
         ],
         "scale": [
@@ -2269,7 +2270,7 @@
         "rot": [
           2.77198029,
           180.777512,
-          -3.17201163E-08,
+          -3.33895969E-08,
           0.0
         ],
         "scale": [
@@ -2780,7 +2781,7 @@
         "rot": [
           -5.30831521E-08,
           330.000061,
-          1.62689645E-07,
+          1.62689631E-07,
           0.0
         ],
         "scale": [
@@ -2863,7 +2864,7 @@
         "rot": [
           22.0157413,
           264.80542,
-          0.156395674,
+          0.156393826,
           0.0
         ],
         "scale": [
@@ -2890,7 +2891,7 @@
           0.304229736
         ],
         "rot": [
-          22.0157623,
+          22.0157681,
           95.19458,
           359.8436,
           0.0

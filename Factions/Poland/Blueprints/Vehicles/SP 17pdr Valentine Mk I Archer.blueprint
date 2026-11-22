@@ -3,12 +3,12 @@
   "header": {
     "v": "0.2",
     "name": "SP 17pdr Valentine Mk I Archer",
-    "gameVersion": "0.2.54.4",
-    "mass": 15670,
+    "gameVersion": "0.2.56.3",
+    "mass": 15674,
     "creationDate": "1945.01.17",
     "class": "",
     "desc": "",
-    "cost": 47089
+    "cost": 47087
   },
   "blueprints": [
     {
@@ -28,25 +28,6 @@
         "saturation": 0.5,
         "condition": 0.5,
         "grime": 0.5
-      }
-    },
-    {
-      "id": 2,
-      "type": "paintJob",
-      "blueprint": {
-        "v": "2.2",
-        "name": "Powertrain",
-        "description": "",
-        "colourMapUrl": "821c5c82-a326-46ca-bfd0-bd2a75830ed7",
-        "scale": 0.5,
-        "roughness": 0.5,
-        "metallic": 0.0,
-        "r": 0.25,
-        "g": 0.4,
-        "b": 0.5,
-        "saturation": 0.75,
-        "condition": 0.75,
-        "grime": 0.0
       }
     },
     {
@@ -91,17 +72,18 @@
       "id": 7,
       "type": "engine",
       "blueprint": {
-        "v": "0.4",
+        "v": "0.5",
         "name": "SP 17pdr Valentine Mk I Archer",
         "description": "",
         "cylinders": 6,
         "idleRPM": 500,
         "cylinderDisplacement": 1.16233444,
         "tech": 1.0,
-        "targetMinRPM": 1000,
+        "targetMinRPM": 1100,
         "targetMaxRPM": 2100,
         "torqueCoeff": 1.0,
-        "revLimit": -1
+        "revLimit": -1,
+        "engineLayout": "Inline"
       }
     },
     {
@@ -311,12 +293,12 @@
         "description": "",
         "separation": 1706,
         "length": 5690,
-        "brake": 122921,
+        "brake": 125392,
         "autoBrake": true,
         "rollersEnabled": true,
         "matchChassis": false,
         "frontalTransmission": false,
-        "finalDriveRatio": 9.6
+        "finalDriveRatio": 10.15
       }
     },
     {
@@ -1844,19 +1826,6 @@
       }
     },
     {
-      "id": 5,
-      "type": "paintJobRegister",
-      "blueprint": {
-        "v": "0.0",
-        "name": null,
-        "description": null,
-        "paintJobIDs": [
-          1,
-          2
-        ]
-      }
-    },
-    {
       "id": 65,
       "type": "structure",
       "blueprint": {
@@ -1868,6 +1837,58 @@
         "partRepositioning": true,
         "collisionEnabled": false,
         "armourTechID": "rha"
+      }
+    },
+    {
+      "id": 0,
+      "type": "paintJobRegister",
+      "blueprint": {
+        "v": "0.0",
+        "name": null,
+        "description": null,
+        "paintJobIDs": [
+          1,
+          21,
+          22
+        ]
+      }
+    },
+    {
+      "id": 21,
+      "type": "paintJob",
+      "blueprint": {
+        "v": "2.2",
+        "name": "Powertrain",
+        "description": "",
+        "colourMapUrl": "821c5c82-a326-46ca-bfd0-bd2a75830ed7",
+        "scale": 0.5,
+        "roughness": 0.5,
+        "metallic": 0.0,
+        "r": 0.25,
+        "g": 0.4,
+        "b": 0.5,
+        "saturation": 0.75,
+        "condition": 0.75,
+        "grime": 0.0
+      }
+    },
+    {
+      "id": 22,
+      "type": "paintJob",
+      "blueprint": {
+        "v": "2.2",
+        "name": "Interior",
+        "description": "",
+        "colourMapUrl": "",
+        "scale": 0.5,
+        "roughness": 0.6,
+        "metallic": 0.0,
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5,
+        "saturation": 0.5,
+        "condition": -1.0,
+        "grime": 0.0
       }
     }
   ],
@@ -2394,7 +2415,7 @@
           0.3916626
         ],
         "rot": [
-          52.3075142,
+          52.30751,
           180.0,
           180.0,
           0.0
@@ -2502,7 +2523,7 @@
         "mirrorVuid": -1,
         "pos": [
           -0.00325632282,
-          0.29711926,
+          0.297119141,
           1.55145264
         ],
         "rot": [
@@ -3076,8 +3097,8 @@
           ],
           "portOffsets": [
             0.0,
-            0.164638847,
-            0.277603924,
+            0.138978526,
+            0.5906588,
             0.0,
             0.132004336,
             -0.366972029,
@@ -3091,7 +3112,7 @@
             0.0,
             0.0,
             -2.23517418E-08,
-            0.431000054,
+            0.431,
             -2.45199585,
             -0.292840838,
             0.132004336,
@@ -3103,7 +3124,7 @@
             0.0,
             0.0,
             2.23517418E-08,
-            0.431000054,
+            0.431,
             -2.45199585
           ],
           "portDirections": [
@@ -3331,9 +3352,9 @@
           0.4776001
         ],
         "rot": [
-          53.7073479,
+          53.7073441,
           180.0,
-          -6.87792228E-12,
+          -6.877923E-12,
           0.0
         ],
         "scale": [
@@ -3389,9 +3410,9 @@
           0.6741333
         ],
         "rot": [
-          53.7073479,
+          53.7073441,
           180.0,
-          -6.87792228E-12,
+          -6.877923E-12,
           0.0
         ],
         "scale": [
@@ -3418,9 +3439,9 @@
           0.6444702
         ],
         "rot": [
-          53.7073479,
+          53.7073441,
           180.0,
-          -6.87792228E-12,
+          -6.877923E-12,
           0.0
         ],
         "scale": [
@@ -3965,7 +3986,7 @@
         "mirrorVuid": 391,
         "pos": [
           0.6840748,
-          0.158935666,
+          0.158935547,
           1.54129028
         ],
         "rot": [
@@ -3994,7 +4015,7 @@
         "mirrorVuid": 388,
         "pos": [
           -0.684075058,
-          0.158935666,
+          0.158935547,
           1.54129028
         ],
         "rot": [
@@ -4115,7 +4136,7 @@
         ],
         "rot": [
           349.2845,
-          0.8729796,
+          0.872979641,
           0.0,
           0.0
         ],
@@ -4201,7 +4222,7 @@
           -2.884552
         ],
         "rot": [
-          17.5357666,
+          17.5357647,
           0.0,
           0.0,
           0.0
@@ -4230,7 +4251,7 @@
           -2.88458252
         ],
         "rot": [
-          17.5357666,
+          17.5357647,
           0.0,
           0.0,
           0.0

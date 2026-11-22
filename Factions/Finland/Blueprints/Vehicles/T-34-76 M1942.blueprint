@@ -3,12 +3,12 @@
   "header": {
     "v": "0.2",
     "name": "T-34-76 M1942",
-    "gameVersion": "0.2.55.5",
-    "mass": 28756,
+    "gameVersion": "0.2.56.3",
+    "mass": 28755,
     "creationDate": "1943.12.31",
     "class": "",
     "desc": "",
-    "cost": 36948
+    "cost": 36947
   },
   "blueprints": [
     {
@@ -72,17 +72,18 @@
       "id": 7,
       "type": "engine",
       "blueprint": {
-        "v": "0.4",
-        "name": null,
-        "description": null,
+        "v": "0.5",
+        "name": "T-34-76 M1941",
+        "description": "",
         "cylinders": 12,
         "idleRPM": 800,
         "cylinderDisplacement": 3.24,
         "tech": 0.8,
         "targetMinRPM": 1200,
-        "targetMaxRPM": 1800,
+        "targetMaxRPM": 1900,
         "torqueCoeff": 0.85,
-        "revLimit": -1
+        "revLimit": -1,
+        "engineLayout": "V"
       }
     },
     {
@@ -291,12 +292,12 @@
         "description": "",
         "separation": 1677,
         "length": 6000,
-        "brake": 230052,
+        "brake": 230045,
         "autoBrake": true,
         "rollersEnabled": false,
         "matchChassis": false,
         "frontalTransmission": false,
-        "finalDriveRatio": 4.5
+        "finalDriveRatio": 4.55
       }
     },
     {
@@ -1313,20 +1314,6 @@
       }
     },
     {
-      "id": 0,
-      "type": "paintJobRegister",
-      "blueprint": {
-        "v": "0.0",
-        "name": null,
-        "description": null,
-        "paintJobIDs": [
-          1,
-          21,
-          22
-        ]
-      }
-    },
-    {
       "id": 21,
       "type": "paintJob",
       "blueprint": {
@@ -1369,12 +1356,26 @@
       "type": "coilSpring",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "springLength": 500,
         "endSpringLengthMultiplier": 1.0,
         "springDiameter": 150,
         "springAngle": 0
+      }
+    },
+    {
+      "id": 2,
+      "type": "paintJobRegister",
+      "blueprint": {
+        "v": "0.0",
+        "name": null,
+        "description": null,
+        "paintJobIDs": [
+          1,
+          21,
+          22
+        ]
       }
     }
   ],
@@ -1609,8 +1610,8 @@
           ],
           "portOffsets": [
             0.0,
-            0.274877518,
-            0.741392732,
+            0.252357423,
+            0.6540688,
             0.0,
             0.1871065,
             -0.5201561,
@@ -1624,7 +1625,7 @@
             0.0,
             0.0,
             -2.23517418E-08,
-            0.348,
+            0.34800005,
             -2.540985,
             -0.800784,
             0.1871065,
@@ -1636,7 +1637,7 @@
             0.0,
             0.0,
             2.23517418E-08,
-            0.348,
+            0.34800005,
             -2.540985
           ],
           "portDirections": [
@@ -2614,9 +2615,9 @@
           0.271240234
         ],
         "rot": [
-          20.1637745,
+          20.1637764,
           104.525093,
-          0.0,
+          9.095169E-07,
           0.0
         ],
         "scale": [
@@ -2643,7 +2644,7 @@
           0.271240234
         ],
         "rot": [
-          20.1637688,
+          20.16377,
           255.474915,
           9.095167E-07,
           0.0
@@ -3030,8 +3031,8 @@
         ],
         "rot": [
           317.409058,
-          6.80376934E-06,
-          -4.604516E-06,
+          6.80377E-06,
+          -4.604517E-06,
           0.0
         ],
         "scale": [

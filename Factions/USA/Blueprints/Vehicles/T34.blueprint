@@ -3,12 +3,12 @@
   "header": {
     "v": "0.2",
     "name": "T34",
-    "gameVersion": "0.2.53.2",
-    "mass": 60080,
+    "gameVersion": "0.2.56.3",
+    "mass": 60100,
     "creationDate": "1945.09.02",
     "class": "",
     "desc": "",
-    "cost": 79185
+    "cost": 79186
   },
   "blueprints": [
     {
@@ -28,25 +28,6 @@
         "saturation": 0.5,
         "condition": 0.5,
         "grime": 0.5
-      }
-    },
-    {
-      "id": 2,
-      "type": "paintJob",
-      "blueprint": {
-        "v": "2.2",
-        "name": "Powertrain",
-        "description": "",
-        "colourMapUrl": "821c5c82-a326-46ca-bfd0-bd2a75830ed7",
-        "scale": 0.5,
-        "roughness": 0.5,
-        "metallic": 0.0,
-        "r": 0.25,
-        "g": 0.4,
-        "b": 0.5,
-        "saturation": 0.75,
-        "condition": 0.75,
-        "grime": 0.0
       }
     },
     {
@@ -91,17 +72,18 @@
       "id": 7,
       "type": "engine",
       "blueprint": {
-        "v": "0.4",
-        "name": null,
-        "description": null,
+        "v": "0.5",
+        "name": "T30",
+        "description": "",
         "cylinders": 12,
         "idleRPM": 800,
         "cylinderDisplacement": 2.45,
         "tech": 1.0,
-        "targetMinRPM": 1400,
-        "targetMaxRPM": 2700,
+        "targetMinRPM": 1250,
+        "targetMaxRPM": 2800,
         "torqueCoeff": 1.0,
-        "revLimit": -1
+        "revLimit": -1,
+        "engineLayout": "V"
       }
     },
     {
@@ -307,16 +289,16 @@
       "type": "track",
       "blueprint": {
         "v": "1.1",
-        "name": "M26 Pershing",
+        "name": "T34",
         "description": "",
         "separation": 2050,
         "length": 6337,
-        "brake": 476917,
+        "brake": 480803,
         "autoBrake": true,
         "rollersEnabled": true,
         "matchChassis": false,
         "frontalTransmission": false,
-        "finalDriveRatio": 8.76
+        "finalDriveRatio": 7.37
       }
     },
     {
@@ -1459,19 +1441,6 @@
       }
     },
     {
-      "id": 0,
-      "type": "paintJobRegister",
-      "blueprint": {
-        "v": "0.0",
-        "name": null,
-        "description": null,
-        "paintJobIDs": [
-          1,
-          2
-        ]
-      }
-    },
-    {
       "id": 75,
       "type": "ammoRack",
       "blueprint": {
@@ -1485,6 +1454,58 @@
         "z": 1240,
         "shellTypeGuid": "d736bb02-2d47-4103-8c6f-e656dfa6db5a",
         "shellID": 54
+      }
+    },
+    {
+      "id": 5,
+      "type": "paintJobRegister",
+      "blueprint": {
+        "v": "0.0",
+        "name": null,
+        "description": null,
+        "paintJobIDs": [
+          1,
+          21,
+          22
+        ]
+      }
+    },
+    {
+      "id": 21,
+      "type": "paintJob",
+      "blueprint": {
+        "v": "2.2",
+        "name": "Powertrain",
+        "description": "",
+        "colourMapUrl": "821c5c82-a326-46ca-bfd0-bd2a75830ed7",
+        "scale": 0.5,
+        "roughness": 0.5,
+        "metallic": 0.0,
+        "r": 0.25,
+        "g": 0.4,
+        "b": 0.5,
+        "saturation": 0.75,
+        "condition": 0.75,
+        "grime": 0.0
+      }
+    },
+    {
+      "id": 22,
+      "type": "paintJob",
+      "blueprint": {
+        "v": "2.2",
+        "name": "Interior",
+        "description": "",
+        "colourMapUrl": "",
+        "scale": 0.5,
+        "roughness": 0.6,
+        "metallic": 0.0,
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5,
+        "saturation": 0.5,
+        "condition": -1.0,
+        "grime": 0.0
       }
     }
   ],
@@ -1719,8 +1740,8 @@
           ],
           "portOffsets": [
             0.0,
-            0.239028558,
-            0.644701838,
+            0.229909241,
+            0.5958868,
             0.0,
             0.147920117,
             -0.411217928,
@@ -2584,7 +2605,7 @@
         "rot": [
           359.834656,
           179.772812,
-          0.273988158,
+          0.273988128,
           0.0
         ],
         "scale": [
@@ -2802,7 +2823,7 @@
         "rot": [
           0.0,
           0.0,
-          -2.60551077E-11,
+          0.0,
           0.0
         ],
         "scale": [
@@ -2825,13 +2846,13 @@
         "mirrorVuid": 473,
         "pos": [
           -0.572741866,
-          -0.498535275,
+          -0.498535156,
           -0.2411499
         ],
         "rot": [
           0.0,
           0.0,
-          -2.60551077E-11,
+          0.0,
           0.0
         ],
         "scale": [
@@ -2860,7 +2881,7 @@
         "rot": [
           0.0,
           0.0,
-          -2.60551077E-11,
+          0.0,
           0.0
         ],
         "scale": [
@@ -2889,7 +2910,7 @@
         "rot": [
           0.0,
           0.0,
-          -2.60551077E-11,
+          0.0,
           0.0
         ],
         "scale": [
@@ -2970,7 +2991,7 @@
           0.4670105
         ],
         "rot": [
-          2.75987959,
+          2.75987983,
           106.02346,
           -4.27382531E-07,
           0.0
@@ -2999,7 +3020,7 @@
           0.4670105
         ],
         "rot": [
-          2.75987959,
+          2.75987983,
           253.976532,
           4.27382531E-07,
           0.0
@@ -3277,13 +3298,13 @@
         "mirrorVuid": 421,
         "pos": [
           -0.684220135,
-          -0.00598156452,
+          -0.00598144531,
           2.17855835
         ],
         "rot": [
           0.0,
           0.0,
-          -2.60551077E-11,
+          0.0,
           0.0
         ],
         "scale": [
@@ -3306,13 +3327,13 @@
         "mirrorVuid": 418,
         "pos": [
           0.6842201,
-          -0.00598156452,
+          -0.00598144531,
           2.17855835
         ],
         "rot": [
           0.0,
           0.0,
-          -2.60551077E-11,
+          0.0,
           0.0
         ],
         "scale": [
@@ -3450,7 +3471,7 @@
         "rot": [
           0.0,
           0.0,
-          3.94524574,
+          3.94524527,
           0.0
         ],
         "scale": [

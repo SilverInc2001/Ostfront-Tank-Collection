@@ -3,12 +3,12 @@
   "header": {
     "v": "0.2",
     "name": "Valentine 25-pdr Mk 1 Bishop",
-    "gameVersion": "0.2.55.5",
-    "mass": 23300,
+    "gameVersion": "0.2.56.3",
+    "mass": 23130,
     "creationDate": "1945.01.17",
     "class": "",
     "desc": "",
-    "cost": 44009
+    "cost": 43924
   },
   "blueprints": [
     {
@@ -72,17 +72,18 @@
       "id": 7,
       "type": "engine",
       "blueprint": {
-        "v": "0.4",
-        "name": null,
-        "description": null,
+        "v": "0.5",
+        "name": "Valentine 25-pdr Mk 1 Bishop",
+        "description": "",
         "cylinders": 6,
-        "idleRPM": 600,
-        "cylinderDisplacement": 1.6,
+        "idleRPM": 500,
+        "cylinderDisplacement": 1.26,
         "tech": 1.0,
-        "targetMinRPM": 1200,
-        "targetMaxRPM": 1800,
+        "targetMinRPM": 1050,
+        "targetMaxRPM": 1900,
         "torqueCoeff": 1.0,
-        "revLimit": -1
+        "revLimit": -1,
+        "engineLayout": "Inline"
       }
     },
     {
@@ -94,9 +95,9 @@
         "description": "",
         "meshType": "synchromesh",
         "autoInputTorque": true,
-        "maxInputTorque": 711.8492,
+        "maxInputTorque": 560.5812,
         "autoResistanceTorque": true,
-        "maxResistanceTorque": 711.8492,
+        "maxResistanceTorque": 560.5812,
         "finalDriveRatio": 5.44,
         "msrRatioThreshold": 2.60000014,
         "auxillaryGearRatio": 1.0,
@@ -288,16 +289,16 @@
       "type": "track",
       "blueprint": {
         "v": "1.1",
-        "name": null,
+        "name": "Valentine 25-pdr Mk 1 Bishop",
         "description": null,
         "separation": 1677,
         "length": 5690,
-        "brake": 186344,
+        "brake": 185041,
         "autoBrake": true,
         "rollersEnabled": true,
         "matchChassis": false,
         "frontalTransmission": false,
-        "finalDriveRatio": 11.53
+        "finalDriveRatio": 12.36
       }
     },
     {
@@ -1236,20 +1237,6 @@
       }
     },
     {
-      "id": 5,
-      "type": "paintJobRegister",
-      "blueprint": {
-        "v": "0.0",
-        "name": null,
-        "description": null,
-        "paintJobIDs": [
-          1,
-          21,
-          22
-        ]
-      }
-    },
-    {
       "id": 21,
       "type": "paintJob",
       "blueprint": {
@@ -1285,6 +1272,20 @@
         "saturation": 0.5,
         "condition": -1.0,
         "grime": 0.0
+      }
+    },
+    {
+      "id": 2,
+      "type": "paintJobRegister",
+      "blueprint": {
+        "v": "0.0",
+        "name": null,
+        "description": null,
+        "paintJobIDs": [
+          1,
+          21,
+          22
+        ]
       }
     }
   ],
@@ -1838,11 +1839,11 @@
             0.44875595,
             -2.26266146,
             -0.8385,
-            0.5900451,
-            -2.32906723,
+            0.583011866,
+            -2.3257618,
             0.8385,
-            0.5900451,
-            -2.32906747,
+            0.583011866,
+            -2.3257618,
             -0.8385,
             0.0,
             0.0,
@@ -1872,15 +1873,15 @@
           ],
           "portOffsets": [
             0.0,
-            0.193164229,
-            0.325701654,
+            0.142766908,
+            0.606759369,
             0.0,
-            0.14128913,
-            -0.392783761,
-            0.343578577,
-            0.14128913,
-            0.0664058849,
-            0.03320074,
+            0.134255916,
+            -0.373231471,
+            0.304895729,
+            0.134255916,
+            0.06310028,
+            0.0306594372,
             0.0,
             0.0,
             0.0,
@@ -1889,10 +1890,10 @@
             -2.23517418E-08,
             0.431030273,
             -2.45200014,
-            -0.343578577,
-            0.14128913,
-            0.0664058849,
-            -0.03320074,
+            -0.304895729,
+            0.134255916,
+            0.06310028,
+            -0.0306594372,
             0.0,
             0.0,
             0.0,
@@ -2299,9 +2300,9 @@
           0.7373047
         ],
         "rot": [
-          1.22966456,
+          1.2296648,
           -3.817545E-14,
-          -1.97483187E-05,
+          -1.97483223E-05,
           0.0
         ],
         "scale": [
@@ -2438,7 +2439,7 @@
           -0.5008545
         ],
         "rot": [
-          -1.115136E-08,
+          -1.11513634E-08,
           14.9999866,
           1.86906448E-07,
           0.0
@@ -2892,7 +2893,7 @@
         "rot": [
           348.971466,
           180.0889,
-          8.494509E-09,
+          1.01934106E-08,
           0.0
         ],
         "scale": [
@@ -2921,7 +2922,7 @@
         "rot": [
           348.971466,
           180.0889,
-          8.494509E-09,
+          1.01934106E-08,
           0.0
         ],
         "scale": [
@@ -95629,6 +95630,7 @@
             0,
             0,
             0,
+            1,
             0,
             0,
             0,
@@ -102570,8 +102572,7 @@
             0,
             0,
             0,
-            0,
-            0,
+            1,
             0,
             0,
             0,

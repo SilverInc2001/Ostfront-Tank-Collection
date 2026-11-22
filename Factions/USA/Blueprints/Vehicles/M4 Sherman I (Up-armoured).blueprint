@@ -3,12 +3,12 @@
   "header": {
     "v": "0.2",
     "name": "M4 Sherman I (Up-armoured)",
-    "gameVersion": "0.2.55.5",
-    "mass": 27182,
+    "gameVersion": "0.2.56.3",
+    "mass": 27030,
     "creationDate": "1943.12.31",
     "class": "",
     "desc": "",
-    "cost": 46571
+    "cost": 46497
   },
   "blueprints": [
     {
@@ -72,17 +72,18 @@
       "id": 7,
       "type": "engine",
       "blueprint": {
-        "v": "0.4",
+        "v": "0.5",
         "name": "M4 Sherman I",
         "description": "",
         "cylinders": 9,
         "idleRPM": 750,
         "cylinderDisplacement": 1.77,
         "tech": 0.8,
-        "targetMinRPM": 1600,
+        "targetMinRPM": 1400,
         "targetMaxRPM": 2400,
         "torqueCoeff": 0.85,
-        "revLimit": -1
+        "revLimit": -1,
+        "engineLayout": "Radial"
       }
     },
     {
@@ -292,12 +293,12 @@
         "description": "",
         "separation": 1419,
         "length": 6060,
-        "brake": 239854,
+        "brake": 217525,
         "autoBrake": true,
         "rollersEnabled": true,
         "matchChassis": false,
         "frontalTransmission": true,
-        "finalDriveRatio": 6.0
+        "finalDriveRatio": 5.44
       }
     },
     {
@@ -1552,20 +1553,6 @@
       }
     },
     {
-      "id": 2,
-      "type": "paintJobRegister",
-      "blueprint": {
-        "v": "0.0",
-        "name": null,
-        "description": null,
-        "paintJobIDs": [
-          1,
-          21,
-          22
-        ]
-      }
-    },
-    {
       "id": 40,
       "type": "structure",
       "blueprint": {
@@ -1577,6 +1564,20 @@
         "partRepositioning": true,
         "collisionEnabled": false,
         "armourTechID": "rha"
+      }
+    },
+    {
+      "id": 0,
+      "type": "paintJobRegister",
+      "blueprint": {
+        "v": "0.0",
+        "name": null,
+        "description": null,
+        "paintJobIDs": [
+          1,
+          21,
+          22
+        ]
       }
     }
   ],
@@ -1678,8 +1679,8 @@
         "mirrorVuid": -1,
         "pos": [
           -3.96021079E-13,
-          0.190605342,
-          -1.37877274
+          0.702319,
+          -0.9322248
         ],
         "rot": [
           0.0,
@@ -2182,8 +2183,8 @@
           ],
           "modulePositions": [
             -3.96021079E-13,
-            0.190605342,
-            -1.37877274,
+            0.702319,
+            -0.9322248,
             6.86186263E-09,
             0.518441737,
             2.79406166,
@@ -2222,8 +2223,8 @@
           ],
           "portOffsets": [
             0.0,
-            0.2031671,
-            0.411037624,
+            0.0,
+            0.303600281,
             0.0,
             0.150326863,
             -0.417908669,
@@ -2565,9 +2566,9 @@
           0.4199524
         ],
         "rot": [
-          2.911015E-05,
+          2.91101569E-05,
           60.000042,
-          -2.23834977E-05,
+          -2.23834941E-05,
           0.0
         ],
         "scale": [
@@ -3691,7 +3692,7 @@
         ],
         "rot": [
           358.595978,
-          0.582284033,
+          0.5822841,
           -5.00408159E-09,
           0.0
         ],

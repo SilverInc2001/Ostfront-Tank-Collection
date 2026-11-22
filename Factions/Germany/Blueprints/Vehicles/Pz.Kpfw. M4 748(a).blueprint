@@ -3,12 +3,12 @@
   "header": {
     "v": "0.2",
     "name": "Pz.Kpfw. M4 748(a)",
-    "gameVersion": "0.2.55.5",
-    "mass": 26013,
+    "gameVersion": "0.2.56.3",
+    "mass": 25925,
     "creationDate": "1943.12.31",
     "class": "",
     "desc": "",
-    "cost": 44647
+    "cost": 44604
   },
   "blueprints": [
     {
@@ -72,17 +72,18 @@
       "id": 7,
       "type": "engine",
       "blueprint": {
-        "v": "0.4",
+        "v": "0.5",
         "name": "M4 Sherman I",
         "description": "",
         "cylinders": 9,
         "idleRPM": 750,
         "cylinderDisplacement": 1.77,
         "tech": 0.8,
-        "targetMinRPM": 1600,
+        "targetMinRPM": 1400,
         "targetMaxRPM": 2400,
         "torqueCoeff": 0.85,
-        "revLimit": -1
+        "revLimit": -1,
+        "engineLayout": "Radial"
       }
     },
     {
@@ -292,12 +293,12 @@
         "description": "",
         "separation": 1419,
         "length": 6060,
-        "brake": 210489,
+        "brake": 207401,
         "autoBrake": true,
         "rollersEnabled": true,
         "matchChassis": false,
         "frontalTransmission": true,
-        "finalDriveRatio": 6.0
+        "finalDriveRatio": 8.96
       }
     },
     {
@@ -1384,20 +1385,6 @@
       }
     },
     {
-      "id": 5,
-      "type": "paintJobRegister",
-      "blueprint": {
-        "v": "0.0",
-        "name": null,
-        "description": null,
-        "paintJobIDs": [
-          1,
-          21,
-          22
-        ]
-      }
-    },
-    {
       "id": 21,
       "type": "paintJob",
       "blueprint": {
@@ -1433,6 +1420,20 @@
         "saturation": 0.5,
         "condition": -1.0,
         "grime": 0.0
+      }
+    },
+    {
+      "id": 0,
+      "type": "paintJobRegister",
+      "blueprint": {
+        "v": "0.0",
+        "name": null,
+        "description": null,
+        "paintJobIDs": [
+          1,
+          21,
+          22
+        ]
       }
     }
   ],
@@ -1534,8 +1535,8 @@
         "mirrorVuid": -1,
         "pos": [
           -3.96021079E-13,
-          0.09439758,
-          -1.20677757
+          0.7126366,
+          -0.8528742
         ],
         "rot": [
           355.733856,
@@ -2038,8 +2039,8 @@
           ],
           "modulePositions": [
             -3.96021079E-13,
-            0.09439758,
-            -1.20677757,
+            0.7126366,
+            -0.8528742,
             1.5953658E-08,
             0.5686111,
             2.67493,
@@ -2078,8 +2079,8 @@
           ],
           "portOffsets": [
             0.0,
-            0.2031671,
-            0.411037624,
+            0.0,
+            0.303600281,
             0.0,
             0.141262248,
             -0.392709047,
@@ -2280,9 +2281,9 @@
           0.4199524
         ],
         "rot": [
-          2.91102479E-05,
+          2.91102533E-05,
           60.000042,
-          -2.238344E-05,
+          -2.23834377E-05,
           0.0
         ],
         "scale": [
@@ -3209,7 +3210,7 @@
         ],
         "rot": [
           4.39738131,
-          -3.24756047E-06,
+          -3.247561E-06,
           180.000015,
           0.0
         ],
@@ -3465,7 +3466,7 @@
         "rot": [
           359.650421,
           -0.000122297715,
-          -1.78114373E-13,
+          -2.03559283E-13,
           0.0
         ],
         "scale": [
@@ -3494,7 +3495,7 @@
         "rot": [
           359.650421,
           0.000122297715,
-          1.78114373E-13,
+          2.03559283E-13,
           0.0
         ],
         "scale": [

@@ -3,12 +3,12 @@
   "header": {
     "v": "0.2",
     "name": "Excelsior (A33)",
-    "gameVersion": "0.2.54.4",
-    "mass": 32032,
+    "gameVersion": "0.2.56.3",
+    "mass": 32048,
     "creationDate": "1943.12.31",
     "class": "",
     "desc": "",
-    "cost": 53109
+    "cost": 53112
   },
   "blueprints": [
     {
@@ -28,25 +28,6 @@
         "saturation": 0.5,
         "condition": 0.5,
         "grime": 0.5
-      }
-    },
-    {
-      "id": 2,
-      "type": "paintJob",
-      "blueprint": {
-        "v": "2.2",
-        "name": "Powertrain",
-        "description": "",
-        "colourMapUrl": "821c5c82-a326-46ca-bfd0-bd2a75830ed7",
-        "scale": 0.5,
-        "roughness": 0.5,
-        "metallic": 0.0,
-        "r": 0.25,
-        "g": 0.4,
-        "b": 0.5,
-        "saturation": 0.75,
-        "condition": 0.75,
-        "grime": 0.0
       }
     },
     {
@@ -91,17 +72,18 @@
       "id": 7,
       "type": "engine",
       "blueprint": {
-        "v": "0.4",
-        "name": null,
-        "description": null,
+        "v": "0.5",
+        "name": "Comet I (A34)",
+        "description": "",
         "cylinders": 12,
-        "idleRPM": 800,
-        "cylinderDisplacement": 2.25,
+        "idleRPM": 500,
+        "cylinderDisplacement": 2.25322127,
         "tech": 0.8,
-        "targetMinRPM": 1400,
-        "targetMaxRPM": 2250,
+        "targetMinRPM": 1250,
+        "targetMaxRPM": 2550,
         "torqueCoeff": 0.85,
-        "revLimit": -1
+        "revLimit": -1,
+        "engineLayout": "V"
       }
     },
     {
@@ -113,9 +95,9 @@
         "description": "",
         "meshType": "synchromesh",
         "autoInputTorque": true,
-        "maxInputTorque": 1968.72229,
+        "maxInputTorque": 1971.54089,
         "autoResistanceTorque": true,
-        "maxResistanceTorque": 1968.72229,
+        "maxResistanceTorque": 1971.54089,
         "finalDriveRatio": 3.93,
         "msrRatioThreshold": 7.1,
         "auxillaryGearRatio": 1.0,
@@ -307,16 +289,16 @@
       "type": "track",
       "blueprint": {
         "v": "1.1",
-        "name": "Cromwell IV",
+        "name": "Excelsior (A33)",
         "description": "",
         "separation": 1692,
         "length": 7120,
-        "brake": 255724,
+        "brake": 256385,
         "autoBrake": true,
         "rollersEnabled": false,
         "matchChassis": false,
         "frontalTransmission": false,
-        "finalDriveRatio": 7.83
+        "finalDriveRatio": 8.63
       }
     },
     {
@@ -1560,19 +1542,6 @@
       }
     },
     {
-      "id": 5,
-      "type": "paintJobRegister",
-      "blueprint": {
-        "v": "0.0",
-        "name": null,
-        "description": null,
-        "paintJobIDs": [
-          1,
-          2
-        ]
-      }
-    },
-    {
       "id": 33,
       "type": "decalTransform",
       "blueprint": {
@@ -1593,6 +1562,58 @@
         "name": null,
         "description": null,
         "imageURL": "Sprocket/Decals/black_circle.png"
+      }
+    },
+    {
+      "id": 0,
+      "type": "paintJobRegister",
+      "blueprint": {
+        "v": "0.0",
+        "name": null,
+        "description": null,
+        "paintJobIDs": [
+          1,
+          21,
+          22
+        ]
+      }
+    },
+    {
+      "id": 21,
+      "type": "paintJob",
+      "blueprint": {
+        "v": "2.2",
+        "name": "Powertrain",
+        "description": "",
+        "colourMapUrl": "821c5c82-a326-46ca-bfd0-bd2a75830ed7",
+        "scale": 0.5,
+        "roughness": 0.5,
+        "metallic": 0.0,
+        "r": 0.25,
+        "g": 0.4,
+        "b": 0.5,
+        "saturation": 0.75,
+        "condition": 0.75,
+        "grime": 0.0
+      }
+    },
+    {
+      "id": 22,
+      "type": "paintJob",
+      "blueprint": {
+        "v": "2.2",
+        "name": "Interior",
+        "description": "",
+        "colourMapUrl": "",
+        "scale": 0.5,
+        "roughness": 0.6,
+        "metallic": 0.0,
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5,
+        "saturation": 0.5,
+        "condition": -1.0,
+        "grime": 0.0
       }
     }
   ],
@@ -1793,11 +1814,11 @@
             0.08321578,
             -2.59404254,
             -0.846,
-            0.2691797,
-            -2.6814456,
+            0.2692443,
+            -2.68147588,
             0.846,
-            0.2691797,
-            -2.6814456,
+            0.2692443,
+            -2.681476,
             -0.846,
             0.0,
             0.0,
@@ -1827,15 +1848,15 @@
           ],
           "portOffsets": [
             0.0,
-            0.229064584,
-            0.617827237,
+            0.2235814,
+            0.5794861,
             0.0,
-            0.185963914,
-            -0.516979635,
-            0.571379066,
-            0.185963914,
-            0.08740303,
-            0.0718826652,
+            0.186028525,
+            -0.5171593,
+            0.5717879,
+            0.186028525,
+            0.0874334052,
+            0.07191694,
             0.0,
             0.0,
             0.0,
@@ -1844,10 +1865,10 @@
             -2.23517418E-08,
             0.320000052,
             -2.72201538,
-            -0.571379066,
-            0.185963914,
-            0.08740303,
-            -0.0718826652,
+            -0.5717879,
+            0.186028525,
+            0.0874334052,
+            -0.07191694,
             0.0,
             0.0,
             0.0,
@@ -2739,11 +2760,11 @@
         "mirrorVuid": -1,
         "pos": [
           -0.3407667,
-          -0.769253731,
+          -0.7692261,
           -0.04611206
         ],
         "rot": [
-          -1.104953E-08,
+          -1.10495311E-08,
           14.9999866,
           -1.82738535E-08,
           0.0
@@ -2768,7 +2789,7 @@
         "mirrorVuid": -1,
         "pos": [
           0.4672994,
-          -0.769218564,
+          -0.7692261,
           -0.317596436
         ],
         "rot": [
@@ -2797,7 +2818,7 @@
         "mirrorVuid": -1,
         "pos": [
           -0.4441081,
-          -1.07034183,
+          -1.0703125,
           -0.635650635
         ],
         "rot": [
@@ -2943,7 +2964,7 @@
           0.7500305
         ],
         "rot": [
-          6.19722843,
+          6.197229,
           0.0,
           0.0,
           0.0
@@ -3166,13 +3187,13 @@
         "mirrorVuid": 238,
         "pos": [
           0.493918359,
-          0.02011156,
+          0.0201416016,
           1.81988525
         ],
         "rot": [
-          -8.420461E-23,
-          -8.14222E-13,
-          -1.18507453E-08,
+          0.0,
+          0.0,
+          0.0,
           0.0
         ],
         "scale": [
@@ -3195,13 +3216,13 @@
         "mirrorVuid": 232,
         "pos": [
           -0.493918121,
-          0.0201114416,
+          0.0201416016,
           1.81988525
         ],
         "rot": [
-          -8.420461E-23,
-          -8.14222E-13,
-          -1.18507453E-08,
+          0.0,
+          0.0,
+          0.0,
           0.0
         ],
         "scale": [
@@ -3340,7 +3361,7 @@
         ],
         "rot": [
           270.0,
-          29.9999847,
+          29.99998,
           0.0,
           0.0
         ],

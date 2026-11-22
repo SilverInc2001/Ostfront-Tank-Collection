@@ -3,12 +3,12 @@
   "header": {
     "v": "0.2",
     "name": "LVT(A)(1)",
-    "gameVersion": "0.2.55.5",
-    "mass": 15635,
+    "gameVersion": "0.2.56.3",
+    "mass": 15665,
     "creationDate": "1945.09.02",
     "class": "",
     "desc": "",
-    "cost": 47260
+    "cost": 47275
   },
   "blueprints": [
     {
@@ -110,17 +110,18 @@
       "id": 8,
       "type": "engine",
       "blueprint": {
-        "v": "0.4",
-        "name": null,
-        "description": null,
+        "v": "0.5",
+        "name": "LVT-4",
+        "description": "",
         "cylinders": 7,
         "idleRPM": 800,
-        "cylinderDisplacement": 1.56,
+        "cylinderDisplacement": 1.563,
         "tech": 1.0,
-        "targetMinRPM": 1400,
+        "targetMinRPM": 1300,
         "targetMaxRPM": 2400,
         "torqueCoeff": 1.0,
-        "revLimit": -1
+        "revLimit": -1,
+        "engineLayout": "Radial"
       }
     },
     {
@@ -132,9 +133,9 @@
         "description": null,
         "meshType": "synchromesh",
         "autoInputTorque": true,
-        "maxInputTorque": 809.7284,
+        "maxInputTorque": 811.2855,
         "autoResistanceTorque": true,
-        "maxResistanceTorque": 809.7284,
+        "maxResistanceTorque": 811.2855,
         "finalDriveRatio": 10.0,
         "msrRatioThreshold": 4.20000029,
         "auxillaryGearRatio": 1.0,
@@ -156,8 +157,8 @@
       "type": "trackWheelMount",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "mountID": "97844d15-24a8-4feb-9548-668e2bb81ce6",
         "scale": 0.5,
         "x": 0,
@@ -171,8 +172,8 @@
       "type": "trackWheel",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "wheelID": "8b31d0e4-3946-4a3a-81ef-b2bbf3a84989",
         "perAxle": 1,
         "spacingOnAxle": 0.01,
@@ -186,8 +187,8 @@
       "type": "trackWheelMount",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "mountID": "25261a10-1c39-4191-9378-b6108d71cbf1",
         "scale": 1.0,
         "x": 0,
@@ -201,8 +202,8 @@
       "type": "trackWheel",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "wheelID": "ed05e419-9705-41ac-801c-11a0a0dd0700",
         "perAxle": 2,
         "spacingOnAxle": 0.08,
@@ -216,10 +217,10 @@
       "type": "trackWheelArray",
       "blueprint": {
         "v": "0.2",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "spacingMode": 0,
-        "spacing": 1668,
+        "spacing": 1678,
         "length": 6000,
         "count": 2,
         "interleaveOverlapFraction": 0.0,
@@ -230,10 +231,10 @@
         "yOrigin": 0,
         "xOrigin": -3000,
         "zOffset": 0,
-        "yOffset": 1105,
-        "xOffset": 1903,
+        "yOffset": 1088,
+        "xOffset": 1893,
         "syncLengthEnabled": false,
-        "angle": -2.4
+        "angle": -2.0
       }
     },
     {
@@ -241,8 +242,8 @@
       "type": "trackWheelMount",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "mountID": "062b2d20-13d5-4dec-9d1c-b2855fdccfac",
         "scale": 0.5,
         "x": 0,
@@ -256,8 +257,8 @@
       "type": "trackWheel",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "wheelID": "50907d5b-dde1-451c-a0be-07c69d2fc886",
         "perAxle": 2,
         "spacingOnAxle": 0.08,
@@ -271,8 +272,8 @@
       "type": "trackWheelArray",
       "blueprint": {
         "v": "0.2",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "spacingMode": 0,
         "spacing": 49,
         "length": 6000,
@@ -296,8 +297,8 @@
       "type": "trackWheelMount",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "mountID": "c9314baa-f287-4752-aca5-fa2b78ce4f02",
         "scale": 0.5,
         "x": 0,
@@ -311,8 +312,8 @@
       "type": "trackWheel",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "wheelID": "50907d5b-dde1-451c-a0be-07c69d2fc886",
         "perAxle": 2,
         "spacingOnAxle": 0.08,
@@ -326,11 +327,11 @@
       "type": "track",
       "blueprint": {
         "v": "1.1",
-        "name": null,
-        "description": null,
+        "name": "LVT-4",
+        "description": "",
         "separation": 2216,
         "length": 6000,
-        "brake": 84937,
+        "brake": 125322,
         "autoBrake": true,
         "rollersEnabled": true,
         "matchChassis": false,
@@ -343,8 +344,8 @@
       "type": "trackBelt",
       "blueprint": {
         "v": "1.1",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "segmentID": "43ef5925-06f7-451d-887e-3ef2d74ebe3f",
         "x": 360,
         "y": 75,
@@ -358,8 +359,8 @@
       "type": "suspension",
       "blueprint": {
         "v": "0.6",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "targetAngle": 0.0,
         "upTravelLimit": 1000.0,
         "damper": 10000.0,
@@ -1556,20 +1557,6 @@
       }
     },
     {
-      "id": 0,
-      "type": "paintJobRegister",
-      "blueprint": {
-        "v": "0.0",
-        "name": null,
-        "description": null,
-        "paintJobIDs": [
-          1,
-          2,
-          3
-        ]
-      }
-    },
-    {
       "id": 94,
       "type": "decalTransform",
       "blueprint": {
@@ -1682,6 +1669,20 @@
         "name": null,
         "description": null,
         "imageURL": "Sprocket/Decals/Black Circle.png"
+      }
+    },
+    {
+      "id": 6,
+      "type": "paintJobRegister",
+      "blueprint": {
+        "v": "0.0",
+        "name": null,
+        "description": null,
+        "paintJobIDs": [
+          1,
+          2,
+          3
+        ]
       }
     }
   ],
@@ -1876,17 +1877,17 @@
           ],
           "modulePositions": [
             -0.012226129,
-            0.457283556,
+            0.6674132,
             -2.253384,
             3.845538E-07,
             0.15,
             2.12571073,
             -1.108,
-            0.282596052,
-            2.188031,
+            0.282650769,
+            2.18805647,
             1.108,
-            0.282596052,
-            2.188031,
+            0.282650769,
+            2.18805647,
             -1.108,
             0.0,
             0.0,
@@ -1916,35 +1917,35 @@
           ],
           "portOffsets": [
             0.0,
-            0.190734416,
-            0.321604669,
             0.0,
-            0.132596031,
-            -0.368616968,
-            0.339396775,
-            0.132596031,
-            0.06232013,
-            0.0390568972,
+            0.29127112,
+            0.0,
+            0.132650763,
+            -0.3687691,
+            0.339722931,
+            0.132650763,
+            0.0623458549,
+            0.03908193,
             0.0,
             0.0,
             0.0,
             0.0,
             0.0,
             -2.23517418E-08,
-            0.6950073,
-            2.9150002,
-            -0.339396775,
-            0.132596031,
-            0.06232013,
-            -0.0390568972,
+            0.695000052,
+            2.91500854,
+            -0.339722931,
+            0.132650763,
+            0.0623458549,
+            -0.03908193,
             0.0,
             0.0,
             0.0,
             0.0,
             0.0,
             2.23517418E-08,
-            0.6950073,
-            2.9150002
+            0.695000052,
+            2.91500854
           ],
           "portDirections": [
             0.0,
@@ -2028,7 +2029,7 @@
         "mirrorVuid": -1,
         "pos": [
           -0.012226129,
-          0.457283556,
+          0.6674132,
           -2.253384
         ],
         "rot": [
@@ -2187,11 +2188,11 @@
         "mirrorVuid": -1,
         "pos": [
           0.0,
-          1.105,
-          -1.097
+          1.088,
+          -1.107
         ],
         "rot": [
-          2.30000162,
+          2.0,
           0.0,
           0.0,
           0.0
@@ -2349,11 +2350,11 @@
         "mirrorVuid": -1,
         "pos": [
           0.0,
-          1.105,
-          -1.097
+          1.088,
+          -1.107
         ],
         "rot": [
-          2.30000162,
+          2.0,
           0.0,
           0.0,
           0.0
@@ -3090,7 +3091,7 @@
           -0.30267334
         ],
         "rot": [
-          1.03085249E-07,
+          1.03085256E-07,
           30.0000019,
           2.76216046E-08,
           0.0
@@ -3399,9 +3400,9 @@
       "transform": {
         "mirrorVuid": -1,
         "pos": [
-          -4.59612949E-07,
+          -4.59613E-07,
           -0.7550659,
-          -0.197021961
+          -0.197021484
         ],
         "rot": [
           0.0,
@@ -3576,7 +3577,7 @@
           -0.0273431689
         ],
         "rot": [
-          2.21981154E-05,
+          2.39056626E-05,
           270.0,
           87.2738647,
           0.0
@@ -3836,7 +3837,7 @@
           -0.0326448828
         ],
         "rot": [
-          4.78113252E-05,
+          5.122642E-05,
           270.0,
           90.0,
           0.0
@@ -3865,7 +3866,7 @@
           0.04832448
         ],
         "rot": [
-          3.07358532E-05,
+          3.7566042E-05,
           270.0,
           90.0,
           0.0
@@ -3923,7 +3924,7 @@
           0.0322265625
         ],
         "rot": [
-          5.39906723E-05,
+          5.399068E-05,
           270.0,
           0.0,
           0.0

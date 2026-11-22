@@ -3,12 +3,12 @@
   "header": {
     "v": "0.2",
     "name": "SU-85",
-    "gameVersion": "0.2.55.5",
-    "mass": 26894,
+    "gameVersion": "0.2.56.3",
+    "mass": 26892,
     "creationDate": "1945.09.02",
     "class": "",
     "desc": "",
-    "cost": 37095
+    "cost": 37094
   },
   "blueprints": [
     {
@@ -72,17 +72,18 @@
       "id": 7,
       "type": "engine",
       "blueprint": {
-        "v": "0.4",
-        "name": null,
-        "description": null,
+        "v": "0.5",
+        "name": "T-34-76 M1941",
+        "description": "",
         "cylinders": 12,
         "idleRPM": 800,
         "cylinderDisplacement": 3.24,
         "tech": 1.0,
         "targetMinRPM": 1200,
-        "targetMaxRPM": 1800,
+        "targetMaxRPM": 1900,
         "torqueCoeff": 1.0,
-        "revLimit": -1
+        "revLimit": -1,
+        "engineLayout": "V"
       }
     },
     {
@@ -291,12 +292,12 @@
         "description": "",
         "separation": 1677,
         "length": 6000,
-        "brake": 215240,
+        "brake": 215141,
         "autoBrake": true,
         "rollersEnabled": false,
         "matchChassis": false,
         "frontalTransmission": false,
-        "finalDriveRatio": 4.5
+        "finalDriveRatio": 4.55
       }
     },
     {
@@ -1404,7 +1405,7 @@
       }
     },
     {
-      "id": 2,
+      "id": 0,
       "type": "paintJobRegister",
       "blueprint": {
         "v": "0.0",
@@ -1649,8 +1650,8 @@
           ],
           "portOffsets": [
             0.0,
-            0.274877518,
-            0.741392732,
+            0.252357423,
+            0.6540688,
             0.0,
             0.187885344,
             -0.5223212,
@@ -1664,8 +1665,8 @@
             0.0,
             0.0,
             -2.23517418E-08,
-            0.348022461,
-            -2.54100013,
+            0.34800005,
+            -2.540985,
             -0.807538748,
             0.187885344,
             0.08830611,
@@ -1676,8 +1677,8 @@
             0.0,
             0.0,
             2.23517418E-08,
-            0.348022461,
-            -2.54100013
+            0.34800005,
+            -2.540985
           ],
           "portDirections": [
             0.0,
@@ -2282,7 +2283,7 @@
         "rot": [
           317.409058,
           -6.80377934E-06,
-          4.604524E-06,
+          4.60452475E-06,
           0.0
         ],
         "scale": [
@@ -2308,8 +2309,8 @@
         ],
         "rot": [
           317.409058,
-          6.803778E-06,
-          -4.60452338E-06,
+          6.803779E-06,
+          -4.604524E-06,
           0.0
         ],
         "scale": [
@@ -3398,9 +3399,9 @@
           0.6531067
         ],
         "rot": [
-          67.16228,
+          67.1622849,
           269.999817,
-          -7.039206E-05,
+          -7.479161E-05,
           0.0
         ],
         "scale": [
@@ -3831,7 +3832,7 @@
         "rot": [
           20.2588425,
           270.101,
-          1.18309445E-05,
+          1.27410176E-05,
           0.0
         ],
         "scale": [

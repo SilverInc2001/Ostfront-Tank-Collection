@@ -3,12 +3,12 @@
   "header": {
     "v": "0.2",
     "name": "Lago I M38-A",
-    "gameVersion": "0.2.53.2",
-    "mass": 14521,
+    "gameVersion": "0.2.56.3",
+    "mass": 13923,
     "creationDate": "1941.12.31",
     "class": "",
     "desc": "",
-    "cost": 48149
+    "cost": 47317
   },
   "blueprints": [
     {
@@ -28,25 +28,6 @@
         "saturation": 0.5,
         "condition": 0.5,
         "grime": 0.5
-      }
-    },
-    {
-      "id": 2,
-      "type": "paintJob",
-      "blueprint": {
-        "v": "2.2",
-        "name": "Powertrain",
-        "description": "",
-        "colourMapUrl": "821c5c82-a326-46ca-bfd0-bd2a75830ed7",
-        "scale": 0.5,
-        "roughness": 0.5,
-        "metallic": 0.0,
-        "r": 0.25,
-        "g": 0.4,
-        "b": 0.5,
-        "saturation": 0.75,
-        "condition": 0.75,
-        "grime": 0.0
       }
     },
     {
@@ -91,17 +72,18 @@
       "id": 7,
       "type": "engine",
       "blueprint": {
-        "v": "0.4",
-        "name": null,
+        "v": "0.5",
+        "name": "Lago I M38-A",
         "description": null,
-        "cylinders": 12,
+        "cylinders": 6,
         "idleRPM": 600,
-        "cylinderDisplacement": 1.29,
+        "cylinderDisplacement": 2.58,
         "tech": 0.4,
-        "targetMinRPM": 1400,
+        "targetMinRPM": 1150,
         "targetMaxRPM": 2300,
         "torqueCoeff": 0.75,
-        "revLimit": -1
+        "revLimit": -1,
+        "engineLayout": "Inline"
       }
     },
     {
@@ -308,16 +290,16 @@
       "type": "track",
       "blueprint": {
         "v": "1.1",
-        "name": "Lago M38",
+        "name": "Lago I M38-A",
         "description": "",
         "separation": 1255,
         "length": 6000,
-        "brake": 115401,
+        "brake": 111390,
         "autoBrake": true,
         "rollersEnabled": true,
         "matchChassis": false,
         "frontalTransmission": true,
-        "finalDriveRatio": 5.60999966
+        "finalDriveRatio": 4.6
       }
     },
     {
@@ -1320,19 +1302,6 @@
       }
     },
     {
-      "id": 5,
-      "type": "paintJobRegister",
-      "blueprint": {
-        "v": "0.0",
-        "name": null,
-        "description": null,
-        "paintJobIDs": [
-          1,
-          2
-        ]
-      }
-    },
-    {
       "id": 80,
       "type": "spareBeltSegmentArray",
       "blueprint": {
@@ -1340,6 +1309,58 @@
         "name": null,
         "description": null,
         "count": 14
+      }
+    },
+    {
+      "id": 21,
+      "type": "paintJob",
+      "blueprint": {
+        "v": "2.2",
+        "name": "Powertrain",
+        "description": "",
+        "colourMapUrl": "821c5c82-a326-46ca-bfd0-bd2a75830ed7",
+        "scale": 0.5,
+        "roughness": 0.5,
+        "metallic": 0.0,
+        "r": 0.25,
+        "g": 0.4,
+        "b": 0.5,
+        "saturation": 0.75,
+        "condition": 0.75,
+        "grime": 0.0
+      }
+    },
+    {
+      "id": 22,
+      "type": "paintJob",
+      "blueprint": {
+        "v": "2.2",
+        "name": "Interior",
+        "description": "",
+        "colourMapUrl": "",
+        "scale": 0.5,
+        "roughness": 0.6,
+        "metallic": 0.0,
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5,
+        "saturation": 0.5,
+        "condition": -1.0,
+        "grime": 0.0
+      }
+    },
+    {
+      "id": 2,
+      "type": "paintJobRegister",
+      "blueprint": {
+        "v": "0.0",
+        "name": null,
+        "description": null,
+        "paintJobIDs": [
+          1,
+          21,
+          22
+        ]
       }
     }
   ],
@@ -1535,14 +1556,14 @@
           "modulePositions": [
             -5.31502E-13,
             0.13,
-            -1.897001,
+            -1.78209412,
             4.171307E-07,
             0.6060773,
             2.27141881,
-            -0.627499938,
+            -0.627500057,
             0.4700691,
             2.33534265,
-            0.627499938,
+            0.627500057,
             0.47006917,
             2.33534265,
             -0.627500057,
@@ -1574,8 +1595,8 @@
           ],
           "portOffsets": [
             0.0,
-            0.173444912,
-            0.4678113,
+            0.181291431,
+            0.7704885,
             0.0,
             0.136008158,
             -0.3781027,
@@ -1588,9 +1609,9 @@
             0.0,
             0.0,
             0.0,
-            9.685755E-08,
+            -2.23517418E-08,
             0.424000025,
-            2.33200026,
+            2.33200073,
             -0.339094847,
             0.136008158,
             0.0639238358,
@@ -1600,9 +1621,9 @@
             0.0,
             0.0,
             0.0,
-            -9.685755E-08,
+            2.23517418E-08,
             0.424000025,
-            2.33200026
+            2.33200073
           ],
           "portDirections": [
             0.0,
@@ -1687,7 +1708,7 @@
         "pos": [
           -5.31502E-13,
           0.13,
-          -1.897001
+          -1.78209
         ],
         "rot": [
           0.0,
@@ -2073,7 +2094,7 @@
         ],
         "rot": [
           359.969421,
-          4.07111058E-13,
+          -4.07111058E-13,
           0.019589005,
           0.0
         ],
@@ -2274,7 +2295,7 @@
         "rot": [
           0.0,
           0.0,
-          -2.716588E-10,
+          -2.71659E-10,
           0.0
         ],
         "scale": [
@@ -2352,9 +2373,9 @@
           1.73276639
         ],
         "rot": [
-          0.338202983,
+          0.338203043,
           -8.258136E-11,
-          -2.03768341E-05,
+          -2.03768377E-05,
           0.0
         ],
         "scale": [
@@ -2375,14 +2396,14 @@
       "transform": {
         "mirrorVuid": 311,
         "pos": [
-          -0.3700108,
-          -0.8394361,
+          -0.369827956,
+          -0.8394362,
           -0.06960107
         ],
         "rot": [
-          6.24726363E-06,
-          15.0180235,
-          -5.260988E-06,
+          8.045353E-06,
+          15.02322,
+          -6.59879834E-06,
           0.0
         ],
         "scale": [
@@ -2404,14 +2425,14 @@
       "transform": {
         "mirrorVuid": 308,
         "pos": [
-          0.370010436,
-          -0.839445233,
+          0.3698276,
+          -0.839444935,
           -0.06960094
         ],
         "rot": [
-          1.72697639E-07,
+          1.72697625E-07,
           344.999725,
-          8.532658E-08,
+          8.532659E-08,
           0.0
         ],
         "scale": [
@@ -2427,7 +2448,7 @@
       "guid": "4481135e-cefd-499c-8122-414942eecbe4",
       "vuid": 314,
       "pvuid": 254,
-      "flags": 2,
+      "flags": 3,
       "crewSeat": 315,
       "posture": 316,
       "transform": {
@@ -2440,7 +2461,7 @@
         "rot": [
           0.0,
           0.0,
-          -1.36118707E-08,
+          -2.71659E-10,
           0.0
         ],
         "scale": [
@@ -2637,7 +2658,7 @@
         "rot": [
           0.0,
           0.0,
-          1.44214987E-08,
+          0.0,
           0.0
         ],
         "scale": [
@@ -2666,7 +2687,7 @@
         "rot": [
           0.0,
           0.0,
-          1.44214987E-08,
+          0.0,
           0.0
         ],
         "scale": [
@@ -2889,9 +2910,9 @@
           1.44287109
         ],
         "rot": [
-          14.7435627,
+          14.7435684,
           180.0,
-          -1.05242915E-13,
+          -5.26214577E-14,
           0.0
         ],
         "scale": [
@@ -3418,9 +3439,9 @@
           -0.8396301
         ],
         "rot": [
-          29.4091835,
-          90.21459,
-          1.47010533E-05,
+          29.40918,
+          90.2146149,
+          1.56811238E-05,
           0.0
         ],
         "scale": [
@@ -3475,7 +3496,7 @@
           -3.01143742
         ],
         "rot": [
-          4.26886836E-05,
+          4.6103778E-05,
           269.999969,
           82.1008453,
           0.0

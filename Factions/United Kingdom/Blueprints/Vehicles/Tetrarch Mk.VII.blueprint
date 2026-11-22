@@ -3,8 +3,8 @@
   "header": {
     "v": "0.2",
     "name": "Tetrarch Mk.VII",
-    "gameVersion": "0.2.55.5",
-    "mass": 7987,
+    "gameVersion": "0.2.56.3",
+    "mass": 7988,
     "creationDate": "1943.12.31",
     "class": "",
     "desc": "",
@@ -72,17 +72,18 @@
       "id": 7,
       "type": "engine",
       "blueprint": {
-        "v": "0.4",
+        "v": "0.5",
         "name": "Tetrarch Mk.VII",
         "description": "",
         "cylinders": 12,
         "idleRPM": 600,
         "cylinderDisplacement": 0.738,
         "tech": 0.8,
-        "targetMinRPM": 1500,
+        "targetMinRPM": 1350,
         "targetMaxRPM": 2700,
         "torqueCoeff": 0.85,
-        "revLimit": -1
+        "revLimit": -1,
+        "engineLayout": "V"
       }
     },
     {
@@ -292,12 +293,12 @@
         "description": "",
         "separation": 1692,
         "length": 4340,
-        "brake": 63865,
+        "brake": 63904,
         "autoBrake": true,
         "rollersEnabled": false,
         "matchChassis": false,
         "frontalTransmission": false,
-        "finalDriveRatio": 5.5
+        "finalDriveRatio": 5.62
       }
     },
     {
@@ -1245,7 +1246,7 @@
       }
     },
     {
-      "id": 2,
+      "id": 0,
       "type": "paintJobRegister",
       "blueprint": {
         "v": "0.0",
@@ -1843,8 +1844,8 @@
           ],
           "portOffsets": [
             0.0,
-            0.131188229,
-            0.353837579,
+            0.154117942,
+            0.399448276,
             0.0,
             0.120992757,
             -0.336359859,
@@ -1858,8 +1859,8 @@
             0.0,
             0.0,
             -2.23517418E-08,
-            0.197021484,
-            -1.261,
+            0.197000027,
+            -1.26098633,
             -0.212160826,
             0.120992757,
             0.0568665937,
@@ -1870,8 +1871,8 @@
             0.0,
             0.0,
             2.23517418E-08,
-            0.197021484,
-            -1.261
+            0.197000027,
+            -1.26098633
           ],
           "portDirections": [
             0.0,
@@ -2244,7 +2245,7 @@
           0.254364
         ],
         "rot": [
-          0.3192832,
+          0.319283217,
           -6.361208E-15,
           -2.17018078E-05,
           0.0
@@ -2745,7 +2746,7 @@
         ],
         "rot": [
           65.81005,
-          5.614751,
+          5.614747,
           264.911621,
           0.0
         ],
@@ -2909,8 +2910,8 @@
           -1.14776611
         ],
         "rot": [
-          83.11268,
-          6.61791134,
+          83.11273,
+          6.61790848,
           269.9998,
           0.0
         ],

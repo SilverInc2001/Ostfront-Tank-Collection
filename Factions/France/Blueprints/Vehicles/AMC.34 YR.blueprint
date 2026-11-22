@@ -3,12 +3,12 @@
   "header": {
     "v": "0.2",
     "name": "AMC.34 YR",
-    "gameVersion": "0.2.54.4",
-    "mass": 7895,
-    "creationDate": "1939.09.01",
+    "gameVersion": "0.2.56.3",
+    "mass": 7880,
+    "creationDate": "1941.12.31",
     "class": "",
     "desc": "",
-    "cost": 36877
+    "cost": 36869
   },
   "blueprints": [
     {
@@ -28,25 +28,6 @@
         "saturation": 1.0,
         "condition": 0.5,
         "grime": 0.5
-      }
-    },
-    {
-      "id": 2,
-      "type": "paintJob",
-      "blueprint": {
-        "v": "2.2",
-        "name": "Powertrain",
-        "description": "",
-        "colourMapUrl": "821c5c82-a326-46ca-bfd0-bd2a75830ed7",
-        "scale": 0.5,
-        "roughness": 0.5,
-        "metallic": 0.0,
-        "r": 0.25,
-        "g": 0.4,
-        "b": 0.5,
-        "saturation": 0.75,
-        "condition": 0.75,
-        "grime": 0.0
       }
     },
     {
@@ -91,17 +72,18 @@
       "id": 7,
       "type": "engine",
       "blueprint": {
-        "v": "0.4",
-        "name": null,
+        "v": "0.5",
+        "name": "AMC.34 YR",
         "description": null,
         "cylinders": 8,
         "idleRPM": 800,
         "cylinderDisplacement": 0.89,
-        "tech": 0.2,
-        "targetMinRPM": 1200,
-        "targetMaxRPM": 2200,
-        "torqueCoeff": 0.6,
-        "revLimit": -1
+        "tech": 0.4,
+        "targetMinRPM": 1250,
+        "targetMaxRPM": 2500,
+        "torqueCoeff": 0.75,
+        "revLimit": -1,
+        "engineLayout": "V"
       }
     },
     {
@@ -113,9 +95,9 @@
         "description": null,
         "meshType": "constantMesh",
         "autoInputTorque": true,
-        "maxInputTorque": 472.4953,
+        "maxInputTorque": 494.212646,
         "autoResistanceTorque": true,
-        "maxResistanceTorque": 472.4953,
+        "maxResistanceTorque": 494.212646,
         "finalDriveRatio": 10.0,
         "msrRatioThreshold": 3.0,
         "auxillaryGearRatio": 1.0,
@@ -306,16 +288,16 @@
       "type": "track",
       "blueprint": {
         "v": "1.1",
-        "name": null,
+        "name": "AMC.34 YR",
         "description": null,
         "separation": 1333,
         "length": 6000,
-        "brake": 63161,
+        "brake": 63043,
         "autoBrake": true,
         "rollersEnabled": true,
         "matchChassis": false,
         "frontalTransmission": true,
-        "finalDriveRatio": 5.87
+        "finalDriveRatio": 6.67
       }
     },
     {
@@ -404,7 +386,7 @@
         "torque": 200.0,
         "ratio": 30.0,
         "type": 1,
-        "resist": 1.5
+        "resist": 0.75
       }
     },
     {
@@ -507,8 +489,8 @@
           }
         ],
         "muzzleMass": 0.0,
-        "K": 2200,
-        "PSI": 30000,
+        "K": 2000,
+        "PSI": 35000,
         "shellID": 42
       }
     },
@@ -528,7 +510,7 @@
               {
                 "id": "AP",
                 "definition": {
-                  "penetratorConstant": 2200
+                  "penetratorConstant": 2000
                 }
               },
               {
@@ -952,6 +934,44 @@
       }
     },
     {
+      "id": 21,
+      "type": "paintJob",
+      "blueprint": {
+        "v": "2.2",
+        "name": "Powertrain",
+        "description": "",
+        "colourMapUrl": "821c5c82-a326-46ca-bfd0-bd2a75830ed7",
+        "scale": 0.5,
+        "roughness": 0.5,
+        "metallic": 0.0,
+        "r": 0.25,
+        "g": 0.4,
+        "b": 0.5,
+        "saturation": 0.75,
+        "condition": 0.75,
+        "grime": 0.0
+      }
+    },
+    {
+      "id": 22,
+      "type": "paintJob",
+      "blueprint": {
+        "v": "2.2",
+        "name": "Interior",
+        "description": "",
+        "colourMapUrl": "",
+        "scale": 0.5,
+        "roughness": 0.6,
+        "metallic": 0.0,
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5,
+        "saturation": 0.5,
+        "condition": -1.0,
+        "grime": 0.0
+      }
+    },
+    {
       "id": 0,
       "type": "paintJobRegister",
       "blueprint": {
@@ -960,7 +980,8 @@
         "description": null,
         "paintJobIDs": [
           1,
-          2
+          21,
+          22
         ]
       }
     }
@@ -1156,17 +1177,17 @@
           ],
           "modulePositions": [
             0.3182156,
-            0.13,
+            0.1355838,
             -1.02697515,
             0.333457679,
             0.5147379,
             1.40043759,
             -0.666500032,
-            0.4029919,
-            1.45295823,
+            0.4072639,
+            1.45095038,
             0.666500032,
-            0.4029919,
-            1.45295823,
+            0.407263935,
+            1.45095038,
             -0.666500032,
             0.0,
             0.0,
@@ -1196,15 +1217,15 @@
           ],
           "portOffsets": [
             0.0,
-            0.14406608,
-            0.291467369,
+            0.164045528,
+            0.315480381,
             0.0,
-            0.111746006,
-            -0.3106539,
-            0.15256235,
-            0.111746006,
-            0.0525206178,
-            0.0297478437,
+            0.107473984,
+            -0.29877767,
+            0.15602909,
+            0.107473984,
+            0.05051277,
+            0.0276681781,
             0.0,
             0.0,
             0.0,
@@ -1213,10 +1234,10 @@
             -2.23517418E-08,
             0.313000083,
             1.605011,
-            -0.15256235,
-            0.111746006,
-            0.0525206178,
-            -0.0297478437,
+            -0.15602909,
+            0.107473984,
+            0.05051277,
+            -0.0276681781,
             0.0,
             0.0,
             0.0,
@@ -1308,7 +1329,7 @@
         "mirrorVuid": -1,
         "pos": [
           0.3182156,
-          0.13,
+          0.1355838,
           -1.02697515
         ],
         "rot": [
@@ -2142,9 +2163,9 @@
           0.1555481
         ],
         "rot": [
-          20.5117016,
+          20.51171,
           267.182739,
-          -2.37007243E-05,
+          -2.461229E-05,
           0.0
         ],
         "scale": [
@@ -2171,9 +2192,9 @@
           0.1555481
         ],
         "rot": [
-          20.5117016,
-          92.817276,
-          2.37007243E-05,
+          20.5117054,
+          92.81729,
+          2.3700728E-05,
           0.0
         ],
         "scale": [
@@ -2340,8 +2361,8 @@
           1.22537231
         ],
         "rot": [
-          2.32153177,
-          0.0,
+          2.32153225,
+          1.04306015E-10,
           0.07574308,
           0.0
         ],

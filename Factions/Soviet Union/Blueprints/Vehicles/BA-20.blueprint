@@ -3,12 +3,12 @@
   "header": {
     "v": "0.2",
     "name": "BA-20",
-    "gameVersion": "0.2.55.5",
-    "mass": 5351,
+    "gameVersion": "0.2.56.3",
+    "mass": 5991,
     "creationDate": "1941.12.31",
     "class": "",
     "desc": "",
-    "cost": 11716
+    "cost": 11940
   },
   "blueprints": [
     {
@@ -72,7 +72,7 @@
       "id": 7,
       "type": "engine",
       "blueprint": {
-        "v": "0.4",
+        "v": "0.5",
         "name": "BA-20",
         "description": "",
         "cylinders": 4,
@@ -82,7 +82,8 @@
         "targetMinRPM": 1300,
         "targetMaxRPM": 2800,
         "torqueCoeff": 0.75,
-        "revLimit": -1
+        "revLimit": -1,
+        "engineLayout": "Inline"
       }
     },
     {
@@ -121,7 +122,7 @@
         "mountID": "97844d15-24a8-4feb-9548-668e2bb81ce6",
         "scale": 1.0,
         "x": 0,
-        "y": 404,
+        "y": 941,
         "z": 905,
         "rearFacing": true
       }
@@ -137,7 +138,7 @@
         "perAxle": 1,
         "spacingOnAxle": 0.01,
         "xOffset": -0.008,
-        "diameter": 2.0,
+        "diameter": 2.58,
         "width": 0.0
       }
     },
@@ -290,7 +291,7 @@
         "description": "",
         "separation": 650,
         "length": 4310,
-        "brake": 42810,
+        "brake": 48075,
         "autoBrake": true,
         "rollersEnabled": false,
         "matchChassis": false,
@@ -785,20 +786,6 @@
       }
     },
     {
-      "id": 0,
-      "type": "paintJobRegister",
-      "blueprint": {
-        "v": "0.0",
-        "name": null,
-        "description": null,
-        "paintJobIDs": [
-          1,
-          21,
-          22
-        ]
-      }
-    },
-    {
       "id": 21,
       "type": "paintJob",
       "blueprint": {
@@ -844,9 +831,23 @@
         "name": "",
         "description": "",
         "springLength": 500,
-        "endSpringLengthMultiplier": 1.0,
+        "endSpringLengthMultiplier": 0.5,
         "springDiameter": 150,
         "springAngle": 0
+      }
+    },
+    {
+      "id": 2,
+      "type": "paintJobRegister",
+      "blueprint": {
+        "v": "0.0",
+        "name": null,
+        "description": null,
+        "paintJobIDs": [
+          1,
+          21,
+          22
+        ]
       }
     }
   ],
@@ -1349,7 +1350,7 @@
         "rot": [
           24.7336121,
           181.152649,
-          2.35001778E-07,
+          2.64377E-07,
           0.0
         ],
         "scale": [
@@ -1603,9 +1604,9 @@
           -0.07357788
         ],
         "rot": [
-          8.634226,
+          8.634227,
           90.0,
-          -4.317802E-07,
+          -8.635604E-07,
           0.0
         ],
         "scale": [
@@ -1632,9 +1633,9 @@
           -0.07357788
         ],
         "rot": [
-          8.634226,
+          8.634227,
           270.0,
-          4.317802E-07,
+          8.635604E-07,
           0.0
         ],
         "scale": [
@@ -1849,8 +1850,8 @@
           ],
           "portOffsets": [
             0.0,
-            0.138389915,
-            0.18670553,
+            0.123783424,
+            0.402296126,
             0.0,
             0.113833837,
             -0.316458076,
@@ -1864,7 +1865,7 @@
             0.0,
             0.0,
             7.450581E-09,
-            0.404000044,
+            0.941,
             -1.25,
             -0.1625289,
             0.113833837,
@@ -1876,7 +1877,7 @@
             0.0,
             0.0,
             -7.450581E-09,
-            0.404000044,
+            0.941,
             -1.25
           ],
           "portDirections": [
@@ -2059,7 +2060,7 @@
         "mirrorVuid": -1,
         "pos": [
           -0.1,
-          0.404,
+          0.941000044,
           -1.25000024
         ],
         "rot": [
@@ -2221,7 +2222,7 @@
         "mirrorVuid": -1,
         "pos": [
           0.1,
-          0.404,
+          0.941000044,
           -1.25000024
         ],
         "rot": [

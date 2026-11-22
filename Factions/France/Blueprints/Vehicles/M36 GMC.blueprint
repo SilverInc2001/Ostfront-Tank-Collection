@@ -3,12 +3,12 @@
   "header": {
     "v": "0.2",
     "name": "M36 GMC",
-    "gameVersion": "0.2.54.4",
-    "mass": 25688,
+    "gameVersion": "0.2.56.3",
+    "mass": 25498,
     "creationDate": "1945.01.17",
     "class": "",
     "desc": "",
-    "cost": 49200
+    "cost": 49105
   },
   "blueprints": [
     {
@@ -28,25 +28,6 @@
         "saturation": 0.5,
         "condition": 0.5,
         "grime": 0.5
-      }
-    },
-    {
-      "id": 2,
-      "type": "paintJob",
-      "blueprint": {
-        "v": "2.2",
-        "name": "Powertrain",
-        "description": "",
-        "colourMapUrl": "821c5c82-a326-46ca-bfd0-bd2a75830ed7",
-        "scale": 0.5,
-        "roughness": 0.5,
-        "metallic": 0.0,
-        "r": 0.25,
-        "g": 0.4,
-        "b": 0.5,
-        "saturation": 0.75,
-        "condition": 0.75,
-        "grime": 0.0
       }
     },
     {
@@ -91,17 +72,18 @@
       "id": 7,
       "type": "engine",
       "blueprint": {
-        "v": "0.4",
-        "name": null,
+        "v": "0.5",
+        "name": "M36 GMC",
         "description": null,
         "cylinders": 8,
         "idleRPM": 800,
         "cylinderDisplacement": 2.25,
         "tech": 1.0,
-        "targetMinRPM": 1500,
+        "targetMinRPM": 1350,
         "targetMaxRPM": 2600,
         "torqueCoeff": 1.0,
-        "revLimit": -1
+        "revLimit": -1,
+        "engineLayout": "Inline"
       }
     },
     {
@@ -311,12 +293,12 @@
         "description": null,
         "separation": 1548,
         "length": 5970,
-        "brake": 206116,
+        "brake": 203988,
         "autoBrake": true,
         "rollersEnabled": true,
         "matchChassis": false,
         "frontalTransmission": true,
-        "finalDriveRatio": 7.5
+        "finalDriveRatio": 8.91
       }
     },
     {
@@ -1412,7 +1394,7 @@
       }
     },
     {
-      "id": 5,
+      "id": 0,
       "type": "paintJobRegister",
       "blueprint": {
         "v": "0.0",
@@ -1420,8 +1402,47 @@
         "description": null,
         "paintJobIDs": [
           1,
-          2
+          21,
+          22
         ]
+      }
+    },
+    {
+      "id": 21,
+      "type": "paintJob",
+      "blueprint": {
+        "v": "2.2",
+        "name": "Powertrain",
+        "description": "",
+        "colourMapUrl": "821c5c82-a326-46ca-bfd0-bd2a75830ed7",
+        "scale": 0.5,
+        "roughness": 0.5,
+        "metallic": 0.0,
+        "r": 0.25,
+        "g": 0.4,
+        "b": 0.5,
+        "saturation": 0.75,
+        "condition": 0.75,
+        "grime": 0.0
+      }
+    },
+    {
+      "id": 22,
+      "type": "paintJob",
+      "blueprint": {
+        "v": "2.2",
+        "name": "Interior",
+        "description": "",
+        "colourMapUrl": "",
+        "scale": 0.5,
+        "roughness": 0.6,
+        "metallic": 0.0,
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5,
+        "saturation": 0.5,
+        "condition": -1.0,
+        "grime": 0.0
       }
     }
   ],
@@ -1617,7 +1638,7 @@
           "modulePositions": [
             0.0,
             0.240423054,
-            -1.49689329,
+            -1.34900832,
             4.49066079E-07,
             0.573751,
             2.439388,
@@ -1656,8 +1677,8 @@
           ],
           "portOffsets": [
             0.0,
-            0.229064584,
-            0.463432223,
+            0.173206776,
+            0.9093355,
             0.0,
             0.1419522,
             -0.3946271,
@@ -1769,7 +1790,7 @@
         "pos": [
           0.0,
           0.240423054,
-          -1.49689329
+          -1.34900832
         ],
         "rot": [
           0.0,
@@ -2380,9 +2401,9 @@
           0.2437439
         ],
         "rot": [
-          28.1275978,
+          28.1276,
           179.943665,
-          1.89083416E-09,
+          2.83625123E-09,
           0.0
         ],
         "scale": [
@@ -2713,7 +2734,7 @@
           -0.463104248
         ],
         "rot": [
-          -9.676567E-06,
+          -9.676568E-06,
           329.999969,
           -2.59282433E-06,
           0.0
@@ -3590,7 +3611,7 @@
         "rot": [
           54.91737,
           179.999954,
-          -2.83327225E-12,
+          -2.833273E-12,
           0.0
         ],
         "scale": [

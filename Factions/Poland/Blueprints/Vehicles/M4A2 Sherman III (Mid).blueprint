@@ -3,12 +3,12 @@
   "header": {
     "v": "0.2",
     "name": "M4A2 Sherman III (Mid)",
-    "gameVersion": "0.2.55.5",
-    "mass": 26506,
+    "gameVersion": "0.2.56.3",
+    "mass": 26127,
     "creationDate": "1943.12.31",
     "class": "",
     "desc": "",
-    "cost": 45251
+    "cost": 44533
   },
   "blueprints": [
     {
@@ -72,17 +72,18 @@
       "id": 7,
       "type": "engine",
       "blueprint": {
-        "v": "0.4",
+        "v": "0.5",
         "name": "M4A2 Sherman III",
         "description": "",
-        "cylinders": 12,
+        "cylinders": 6,
         "idleRPM": 750,
-        "cylinderDisplacement": 1.16,
+        "cylinderDisplacement": 2.32,
         "tech": 0.8,
         "targetMinRPM": 1400,
         "targetMaxRPM": 2100,
         "torqueCoeff": 0.85,
-        "revLimit": -1
+        "revLimit": -1,
+        "engineLayout": "V"
       }
     },
     {
@@ -292,12 +293,12 @@
         "description": "",
         "separation": 1419,
         "length": 6060,
-        "brake": 208548,
+        "brake": 209022,
         "autoBrake": true,
         "rollersEnabled": true,
         "matchChassis": false,
         "frontalTransmission": true,
-        "finalDriveRatio": 7.4
+        "finalDriveRatio": 7.62
       }
     },
     {
@@ -1583,20 +1584,6 @@
       }
     },
     {
-      "id": 0,
-      "type": "paintJobRegister",
-      "blueprint": {
-        "v": "0.0",
-        "name": null,
-        "description": null,
-        "paintJobIDs": [
-          1,
-          21,
-          22
-        ]
-      }
-    },
-    {
       "id": 21,
       "type": "paintJob",
       "blueprint": {
@@ -1632,6 +1619,20 @@
         "saturation": 0.5,
         "condition": -1.0,
         "grime": 0.0
+      }
+    },
+    {
+      "id": 2,
+      "type": "paintJobRegister",
+      "blueprint": {
+        "v": "0.0",
+        "name": null,
+        "description": null,
+        "paintJobIDs": [
+          1,
+          21,
+          22
+        ]
       }
     }
   ],
@@ -1733,8 +1734,8 @@
         "mirrorVuid": -1,
         "pos": [
           -3.96021079E-13,
-          0.131427437,
-          -1.23799825
+          0.1651855,
+          -1.20323431
         ],
         "rot": [
           354.9145,
@@ -2237,8 +2238,8 @@
           ],
           "modulePositions": [
             -3.96021079E-13,
-            0.131427437,
-            -1.23799825,
+            0.1651855,
+            -1.20323431,
             2.31545183E-08,
             0.5184418,
             2.650049,
@@ -2277,8 +2278,8 @@
           ],
           "portOffsets": [
             0.0,
-            0.164473414,
-            0.443613529,
+            0.225768685,
+            0.358695269,
             0.0,
             0.145838723,
             -0.4054317,
@@ -2451,7 +2452,7 @@
         "rot": [
           349.1827,
           186.482925,
-          1.79276424E-06,
+          1.84709052E-06,
           0.0
         ],
         "scale": [
@@ -2649,9 +2650,9 @@
           0.4199524
         ],
         "rot": [
-          2.91102187E-05,
+          2.91102224E-05,
           60.000042,
-          -2.23834577E-05,
+          -2.23834541E-05,
           0.0
         ],
         "scale": [
@@ -3180,8 +3181,8 @@
           -1.32608032
         ],
         "rot": [
-          0.90525943,
-          -6.25663743E-10,
+          0.9052596,
+          -6.256638E-10,
           -7.914617E-08,
           0.0
         ],
@@ -3748,7 +3749,7 @@
         ],
         "rot": [
           358.595978,
-          0.582285047,
+          0.5822851,
           -5.00408159E-09,
           0.0
         ],
@@ -4056,7 +4057,7 @@
         "rot": [
           8.99927,
           180.0,
-          -2.06092427E-13,
+          -2.31853978E-13,
           0.0
         ],
         "scale": [
@@ -4112,9 +4113,9 @@
           -2.45959473
         ],
         "rot": [
-          12.6338816,
+          12.6338825,
           0.00340208458,
-          -1.33508066E-10,
+          -1.60209679E-10,
           0.0
         ],
         "scale": [
@@ -4141,9 +4142,9 @@
           -2.46112061
         ],
         "rot": [
-          12.6338768,
+          12.6338778,
           -0.003402559,
-          2.67016149E-11,
+          0.0,
           0.0
         ],
         "scale": [

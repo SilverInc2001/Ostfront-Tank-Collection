@@ -3,8 +3,8 @@
   "header": {
     "v": "0.2",
     "name": "M26 Pershing",
-    "gameVersion": "0.2.51.36",
-    "mass": 40425,
+    "gameVersion": "0.2.56.3",
+    "mass": 40444,
     "creationDate": "1945.09.02",
     "class": "",
     "desc": "",
@@ -31,25 +31,6 @@
       }
     },
     {
-      "id": 2,
-      "type": "paintJob",
-      "blueprint": {
-        "v": "2.2",
-        "name": "Powertrain",
-        "description": "",
-        "colourMapUrl": "821c5c82-a326-46ca-bfd0-bd2a75830ed7",
-        "scale": 0.5,
-        "roughness": 0.5,
-        "metallic": 0.0,
-        "r": 0.25,
-        "g": 0.4,
-        "b": 0.5,
-        "saturation": 0.75,
-        "condition": 0.75,
-        "grime": 0.0
-      }
-    },
-    {
       "id": 3,
       "type": "chassis",
       "blueprint": {
@@ -65,12 +46,13 @@
       "id": 4,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": null,
         "description": null,
         "armourVolume": 2.1400063,
         "bodyMeshVuid": 0,
         "partRepositioning": true,
+        "collisionEnabled": true,
         "armourTechID": "rha"
       }
     },
@@ -90,17 +72,18 @@
       "id": 7,
       "type": "engine",
       "blueprint": {
-        "v": "0.4",
-        "name": null,
+        "v": "0.5",
+        "name": "M26 Pershing",
         "description": null,
         "cylinders": 8,
         "idleRPM": 800,
         "cylinderDisplacement": 2.25,
         "tech": 1.0,
-        "targetMinRPM": 1400,
+        "targetMinRPM": 1200,
         "targetMaxRPM": 2600,
         "torqueCoeff": 1.0,
-        "revLimit": -1
+        "revLimit": -1,
+        "engineLayout": "V"
       }
     },
     {
@@ -306,16 +289,16 @@
       "type": "track",
       "blueprint": {
         "v": "1.1",
-        "name": null,
+        "name": "M26 Pershing",
         "description": null,
         "separation": 2050,
         "length": 6337,
-        "brake": 323405,
+        "brake": 323557,
         "autoBrake": true,
         "rollersEnabled": true,
         "matchChassis": false,
         "frontalTransmission": false,
-        "finalDriveRatio": 9.0
+        "finalDriveRatio": 7.69
       }
     },
     {
@@ -361,12 +344,13 @@
       "id": 44,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": "Unnamed Structure",
         "description": null,
         "armourVolume": 0.00237177522,
         "bodyMeshVuid": 6,
         "partRepositioning": true,
+        "collisionEnabled": false,
         "armourTechID": "rha"
       }
     },
@@ -427,12 +411,13 @@
       "id": 49,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": "Unnamed Structure",
         "description": null,
         "armourVolume": 1.31300783,
         "bodyMeshVuid": 7,
         "partRepositioning": true,
+        "collisionEnabled": true,
         "armourTechID": "rha"
       }
     },
@@ -556,12 +541,13 @@
       "id": 64,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": "Unnamed Structure",
         "description": null,
         "armourVolume": 0.255250156,
         "bodyMeshVuid": 9,
         "partRepositioning": true,
+        "collisionEnabled": false,
         "armourTechID": "rha"
       }
     },
@@ -569,12 +555,13 @@
       "id": 68,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": "Unnamed Structure",
         "description": null,
         "armourVolume": 0.00413002,
         "bodyMeshVuid": 11,
         "partRepositioning": true,
+        "collisionEnabled": false,
         "armourTechID": "rha"
       }
     },
@@ -602,12 +589,13 @@
       "id": 77,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": "Unnamed Structure",
         "description": null,
         "armourVolume": 0.00061459624,
         "bodyMeshVuid": 13,
         "partRepositioning": true,
+        "collisionEnabled": false,
         "armourTechID": "rha"
       }
     },
@@ -707,12 +695,13 @@
       "id": 89,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": "Unnamed Structure",
         "description": null,
         "armourVolume": 0.00407360354,
         "bodyMeshVuid": 15,
         "partRepositioning": true,
+        "collisionEnabled": false,
         "armourTechID": "rha"
       }
     },
@@ -1462,7 +1451,7 @@
       }
     },
     {
-      "id": 5,
+      "id": 0,
       "type": "paintJobRegister",
       "blueprint": {
         "v": "0.0",
@@ -1470,8 +1459,47 @@
         "description": null,
         "paintJobIDs": [
           1,
-          2
+          21,
+          22
         ]
+      }
+    },
+    {
+      "id": 21,
+      "type": "paintJob",
+      "blueprint": {
+        "v": "2.2",
+        "name": "Powertrain",
+        "description": "",
+        "colourMapUrl": "821c5c82-a326-46ca-bfd0-bd2a75830ed7",
+        "scale": 0.5,
+        "roughness": 0.5,
+        "metallic": 0.0,
+        "r": 0.25,
+        "g": 0.4,
+        "b": 0.5,
+        "saturation": 0.75,
+        "condition": 0.75,
+        "grime": 0.0
+      }
+    },
+    {
+      "id": 22,
+      "type": "paintJob",
+      "blueprint": {
+        "v": "2.2",
+        "name": "Interior",
+        "description": "",
+        "colourMapUrl": "",
+        "scale": 0.5,
+        "roughness": 0.6,
+        "metallic": 0.0,
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5,
+        "saturation": 0.5,
+        "condition": -1.0,
+        "grime": 0.0
       }
     }
   ],
@@ -1706,8 +1734,8 @@
           ],
           "portOffsets": [
             0.0,
-            0.229064584,
-            0.463432223,
+            0.223474815,
+            0.4297705,
             0.0,
             0.145248458,
             -0.4037907,
@@ -2203,7 +2231,7 @@
         "rot": [
           359.893127,
           0.0115026394,
-          -3.25689345E-12,
+          -2.4426702E-12,
           0.0
         ],
         "scale": [
@@ -2568,7 +2596,7 @@
         ],
         "rot": [
           0.0131763155,
-          2.27461054E-08,
+          2.27591332E-08,
           1.476139,
           0.0
         ],
@@ -2595,7 +2623,7 @@
           1.03574371
         ],
         "rot": [
-          -1.86716591E-07,
+          -1.86716576E-07,
           180.0,
           1.47611856,
           0.0
@@ -2626,7 +2654,7 @@
         "rot": [
           358.119,
           -6.522674E-07,
-          1.98718E-05,
+          1.98717989E-05,
           0.0
         ],
         "scale": [
@@ -2707,9 +2735,9 @@
           -0.351928741
         ],
         "rot": [
-          276.0411,
-          73.22545,
-          0.0,
+          276.041077,
+          73.22543,
+          1.622495E-05,
           0.0
         ],
         "scale": [
@@ -3014,12 +3042,12 @@
         "pos": [
           0.272276521,
           -0.590026855,
-          0.1957703
+          0.195770264
         ],
         "rot": [
-          -2.176163E-07,
+          -2.17616275E-07,
           315.0,
-          3.2382264E-08,
+          3.23822569E-08,
           0.0
         ],
         "scale": [
@@ -3043,12 +3071,12 @@
         "pos": [
           0.350077868,
           -0.590026855,
-          -0.608123839
+          -0.6081238
         ],
         "rot": [
           0.0,
           0.0,
-          1.66752645E-09,
+          0.0,
           0.0
         ],
         "scale": [
@@ -3072,7 +3100,7 @@
         "pos": [
           -0.410733551,
           -0.590026855,
-          -0.5768433
+          -0.576843262
         ],
         "rot": [
           0.0,
@@ -3357,13 +3385,13 @@
         "mirrorVuid": -1,
         "pos": [
           -0.655972362,
-          0.139221311,
+          0.139221191,
           1.37420654
         ],
         "rot": [
           0.0,
           0.0,
-          1.66752645E-09,
+          0.0,
           0.0
         ],
         "scale": [
@@ -3386,13 +3414,13 @@
         "mirrorVuid": -1,
         "pos": [
           0.56566155,
-          0.139892459,
+          0.139892578,
           1.381012
         ],
         "rot": [
           0.0,
           0.0,
-          1.66752645E-09,
+          0.0,
           0.0
         ],
         "scale": [
@@ -3668,7 +3696,7 @@
           -3.08441162
         ],
         "rot": [
-          8.383544,
+          8.383546,
           179.777252,
           355.943848,
           0.0
@@ -3695,9 +3723,9 @@
           -3.08441162
         ],
         "rot": [
-          8.383544,
+          8.383546,
           180.222748,
-          4.05616951,
+          4.05617,
           0.0
         ],
         "scale": [
@@ -3778,7 +3806,7 @@
         "rot": [
           20.961937,
           175.419876,
-          1.59999411E-06,
+          1.65713664E-06,
           0.0
         ],
         "scale": [

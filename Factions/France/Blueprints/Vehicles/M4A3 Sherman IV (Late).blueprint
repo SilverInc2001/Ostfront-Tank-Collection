@@ -3,12 +3,12 @@
   "header": {
     "v": "0.2",
     "name": "M4A3 Sherman IV (Late)",
-    "gameVersion": "0.2.55.5",
-    "mass": 27721,
+    "gameVersion": "0.2.56.3",
+    "mass": 26659,
     "creationDate": "1945.09.02",
     "class": "",
     "desc": "",
-    "cost": 50098
+    "cost": 49151
   },
   "blueprints": [
     {
@@ -72,17 +72,18 @@
       "id": 7,
       "type": "engine",
       "blueprint": {
-        "v": "0.4",
+        "v": "0.5",
         "name": "M4A3 Sherman IV",
         "description": "",
-        "cylinders": 12,
+        "cylinders": 8,
         "idleRPM": 750,
-        "cylinderDisplacement": 2.25,
+        "cylinderDisplacement": 2.253,
         "tech": 1.0,
-        "targetMinRPM": 1500,
+        "targetMinRPM": 1350,
         "targetMaxRPM": 2600,
         "torqueCoeff": 1.0,
-        "revLimit": -1
+        "revLimit": -1,
+        "engineLayout": "V"
       }
     },
     {
@@ -94,9 +95,9 @@
         "description": "",
         "meshType": "synchromesh",
         "autoInputTorque": true,
-        "maxInputTorque": 2002.07568,
+        "maxInputTorque": 1336.4967,
         "autoResistanceTorque": true,
-        "maxResistanceTorque": 2002.07568,
+        "maxResistanceTorque": 1336.4967,
         "finalDriveRatio": 7.25,
         "msrRatioThreshold": 5.5,
         "auxillaryGearRatio": 1.0,
@@ -288,16 +289,16 @@
       "type": "track",
       "blueprint": {
         "v": "1.1",
-        "name": "M4A1 Sherman IV",
+        "name": "M4A3 Sherman IV",
         "description": "",
         "separation": 1419,
         "length": 6060,
-        "brake": 221657,
+        "brake": 213272,
         "autoBrake": true,
         "rollersEnabled": true,
         "matchChassis": false,
         "frontalTransmission": true,
-        "finalDriveRatio": 6.75
+        "finalDriveRatio": 9.349999
       }
     },
     {
@@ -1501,20 +1502,6 @@
       }
     },
     {
-      "id": 2,
-      "type": "paintJobRegister",
-      "blueprint": {
-        "v": "0.0",
-        "name": null,
-        "description": null,
-        "paintJobIDs": [
-          1,
-          21,
-          22
-        ]
-      }
-    },
-    {
       "id": 81,
       "type": "decalTransform",
       "blueprint": {
@@ -1650,6 +1637,20 @@
         "name": null,
         "description": null,
         "imageURL": "7df1ce88-cc63-4e24-8cff-8ce830492b43"
+      }
+    },
+    {
+      "id": 2,
+      "type": "paintJobRegister",
+      "blueprint": {
+        "v": "0.0",
+        "name": null,
+        "description": null,
+        "paintJobIDs": [
+          1,
+          21,
+          22
+        ]
       }
     }
   ],
@@ -2295,29 +2296,29 @@
           ],
           "portOffsets": [
             0.0,
-            0.229064584,
-            0.617827237,
+            0.2235741,
+            0.4299614,
             0.0,
-            0.170641,
-            -0.474381983,
-            0.491154671,
-            0.170641,
-            0.08020127,
-            0.0404173136,
-            0.0167508423,
-            -0.0183179379,
+            0.155214533,
+            -0.431496441,
+            0.401293337,
+            0.155214533,
+            0.07295083,
+            0.03730178,
+            0.0127788782,
+            -0.0127923489,
             0.0,
             0.0,
             0.0,
             -2.23517418E-08,
             0.292000055,
             2.850006,
-            -0.491154671,
-            0.170641,
-            0.08020127,
-            -0.0404173136,
-            0.0167508721,
-            -0.0183179379,
+            -0.401293337,
+            0.155214533,
+            0.07295083,
+            -0.03730178,
+            0.012778908,
+            -0.0127923489,
             0.0,
             0.0,
             0.0,
@@ -2335,9 +2336,9 @@
             1.0,
             0.0,
             0.0,
-            0.8521289,
-            0.3531624,
-            -0.3862027,
+            0.8998524,
+            0.3082725,
+            -0.308599561,
             0.0,
             0.0,
             1.0,
@@ -2347,9 +2348,9 @@
             -1.0,
             0.0,
             0.0,
-            -0.852128744,
-            0.353162885,
-            -0.386202842,
+            -0.8998525,
+            0.3082728,
+            -0.308598965,
             0.0,
             0.0,
             1.0,
@@ -2497,9 +2498,9 @@
           0.4199524
         ],
         "rot": [
-          2.91102933E-05,
+          2.91103024E-05,
           60.000042,
-          -2.2383414E-05,
+          -2.23834086E-05,
           0.0
         ],
         "scale": [
@@ -3228,7 +3229,7 @@
         ],
         "rot": [
           359.341431,
-          1.6676367E-08,
+          2.001164E-08,
           355.974365,
           0.0
         ],
@@ -3821,7 +3822,7 @@
         "rot": [
           359.650421,
           -0.000122297715,
-          -4.834533E-13,
+          -5.34343132E-13,
           0.0
         ],
         "scale": [
@@ -3850,7 +3851,7 @@
         "rot": [
           359.650421,
           0.000122297715,
-          4.834533E-13,
+          5.34343132E-13,
           0.0
         ],
         "scale": [
@@ -4070,9 +4071,9 @@
           2.69555664
         ],
         "rot": [
-          56.7002563,
+          56.700264,
           180.0,
-          0.0,
+          -3.70762232E-13,
           0.0
         ],
         "scale": [
@@ -4101,7 +4102,7 @@
         "rot": [
           56.4741974,
           179.999115,
-          1.88698238E-10,
+          1.41523709E-10,
           0.0
         ],
         "scale": [
@@ -4188,7 +4189,7 @@
         "rot": [
           19.29001,
           180.0,
-          0.0,
+          -5.39157782E-14,
           0.0
         ],
         "scale": [

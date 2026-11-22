@@ -3,12 +3,12 @@
   "header": {
     "v": "0.2",
     "name": "T-50",
-    "gameVersion": "0.2.53.2",
-    "mass": 14338,
+    "gameVersion": "0.2.56.3",
+    "mass": 14366,
     "creationDate": "1941.12.31",
     "class": "",
     "desc": "",
-    "cost": 26388
+    "cost": 26602
   },
   "blueprints": [
     {
@@ -28,25 +28,6 @@
         "saturation": 0.48999998,
         "condition": 0.5,
         "grime": 0.5
-      }
-    },
-    {
-      "id": 2,
-      "type": "paintJob",
-      "blueprint": {
-        "v": "2.2",
-        "name": "Powertrain",
-        "description": "",
-        "colourMapUrl": "821c5c82-a326-46ca-bfd0-bd2a75830ed7",
-        "scale": 0.5,
-        "roughness": 0.5,
-        "metallic": 0.0,
-        "r": 0.25,
-        "g": 0.4,
-        "b": 0.5,
-        "saturation": 0.75,
-        "condition": 0.75,
-        "grime": 0.0
       }
     },
     {
@@ -91,17 +72,18 @@
       "id": 7,
       "type": "engine",
       "blueprint": {
-        "v": "0.4",
-        "name": null,
+        "v": "0.5",
+        "name": "T-50",
         "description": null,
         "cylinders": 6,
         "idleRPM": 800,
         "cylinderDisplacement": 2.57,
         "tech": 0.4,
-        "targetMinRPM": 1400,
+        "targetMinRPM": 1100,
         "targetMaxRPM": 2000,
         "torqueCoeff": 0.75,
-        "revLimit": -1
+        "revLimit": -1,
+        "engineLayout": "Inline"
       }
     },
     {
@@ -306,16 +288,16 @@
       "type": "track",
       "blueprint": {
         "v": "1.1",
-        "name": null,
+        "name": "T-50",
         "description": null,
         "separation": 1470,
         "length": 6000,
-        "brake": 113298,
+        "brake": 114935,
         "autoBrake": true,
         "rollersEnabled": true,
         "matchChassis": false,
         "frontalTransmission": false,
-        "finalDriveRatio": 3.14
+        "finalDriveRatio": 3.68
       }
     },
     {
@@ -481,19 +463,19 @@
       "type": "cannon",
       "blueprint": {
         "v": "1.9",
-        "name": "45mm M-37 M1933",
+        "name": "45 mm 20-K",
         "description": "",
         "caliber": 45,
         "breechLength": 310,
-        "muzzle": "",
+        "muzzle": "34c1eda8-bcff-4879-89df-1e826cce8b51",
         "segments": [
           {
             "v": "0.0",
             "segments": [
               {
-                "t0": 25,
-                "t1": 16,
-                "l": 1005
+                "t0": 35,
+                "t1": 35,
+                "l": 810
               }
             ]
           },
@@ -501,9 +483,19 @@
             "v": "0.0",
             "segments": [
               {
-                "t0": 14,
-                "t1": 14,
-                "l": 805
+                "t0": 25,
+                "t1": 25,
+                "l": 430
+              },
+              {
+                "t0": 25,
+                "t1": 10,
+                "l": 100
+              },
+              {
+                "t0": 10,
+                "t1": 8,
+                "l": 730
               }
             ]
           }
@@ -1129,6 +1121,44 @@
       }
     },
     {
+      "id": 21,
+      "type": "paintJob",
+      "blueprint": {
+        "v": "2.2",
+        "name": "Powertrain",
+        "description": "",
+        "colourMapUrl": "821c5c82-a326-46ca-bfd0-bd2a75830ed7",
+        "scale": 0.5,
+        "roughness": 0.5,
+        "metallic": 0.0,
+        "r": 0.25,
+        "g": 0.4,
+        "b": 0.5,
+        "saturation": 0.75,
+        "condition": 0.75,
+        "grime": 0.0
+      }
+    },
+    {
+      "id": 22,
+      "type": "paintJob",
+      "blueprint": {
+        "v": "2.2",
+        "name": "Interior",
+        "description": "",
+        "colourMapUrl": "",
+        "scale": 0.5,
+        "roughness": 0.6,
+        "metallic": 0.0,
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5,
+        "saturation": 0.5,
+        "condition": -1.0,
+        "grime": 0.0
+      }
+    },
+    {
       "id": 0,
       "type": "paintJobRegister",
       "blueprint": {
@@ -1137,7 +1167,8 @@
         "description": null,
         "paintJobIDs": [
           1,
-          2
+          21,
+          22
         ]
       }
     }
@@ -1332,9 +1363,9 @@
             }
           ],
           "modulePositions": [
-            0.497348547,
-            0.8273214,
-            -0.920641,
+            -0.0460270979,
+            0.414846718,
+            -0.8182508,
             4.481146E-08,
             0.3379931,
             -1.98741663,
@@ -1352,9 +1383,9 @@
             0.0
           ],
           "moduleRotations": [
-            0.0,
+            2.985571E-13,
             180.0,
-            270.0,
+            1.30503445E-20,
             0.0,
             180.0,
             0.0,
@@ -1373,8 +1404,8 @@
           ],
           "portOffsets": [
             0.0,
-            0.244812325,
-            0.4127875,
+            0.1810569,
+            0.7694918,
             0.0,
             0.137738526,
             -0.382913142,
@@ -1477,21 +1508,21 @@
       "guid": "ebcf5eda-e50b-4f18-a063-0138a9d630e0",
       "vuid": 9,
       "pvuid": 2,
-      "flags": 2,
+      "flags": 3,
       "engine": 10,
       "powertrainNode": 11,
       "fuelReserve": 12,
       "transform": {
         "mirrorVuid": -1,
         "pos": [
-          0.497348547,
-          0.8273214,
-          -0.920641
+          -0.0460270979,
+          0.414846718,
+          -0.8182508
         ],
         "rot": [
-          0.0,
+          2.985571E-13,
           180.0,
-          270.0,
+          1.30503445E-20,
           0.0
         ],
         "scale": [
@@ -2125,7 +2156,7 @@
           -0.246948242
         ],
         "rot": [
-          1.607381,
+          1.60738122,
           -0.000497306348,
           -8.797059E-11,
           0.0
@@ -2180,7 +2211,7 @@
         "pos": [
           0.0,
           0.0363528728,
-          -0.25
+          -0.355438232
         ],
         "rot": [
           0.0,
@@ -2234,7 +2265,7 @@
         "pos": [
           0.0,
           0.0,
-          1.005
+          0.810000062
         ],
         "rot": [
           0.0,
@@ -2260,7 +2291,7 @@
         "pos": [
           0.000664252846,
           -0.001853466,
-          0.7930652
+          1.248197
         ],
         "rot": [
           0.0,
@@ -2432,9 +2463,9 @@
           0.0679931641
         ],
         "rot": [
-          20.5267334,
+          20.5267353,
           95.9395142,
-          -3.64662264E-06,
+          -2.73496767E-06,
           0.0
         ],
         "scale": [
@@ -2461,9 +2492,9 @@
           0.0679931641
         ],
         "rot": [
-          20.5267353,
+          20.52674,
           264.0605,
-          2.734967E-06,
+          2.73496767E-06,
           0.0
         ],
         "scale": [
@@ -2822,7 +2853,7 @@
         ],
         "rot": [
           359.951324,
-          83.86187,
+          83.86186,
           359.547333,
           0.0
         ],
@@ -2908,9 +2939,9 @@
           1.25823975
         ],
         "rot": [
-          54.6099663,
+          54.60998,
           120.041367,
-          8.845262E-06,
+          8.845267E-06,
           0.0
         ],
         "scale": [

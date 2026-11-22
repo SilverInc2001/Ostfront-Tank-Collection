@@ -3,12 +3,12 @@
   "header": {
     "v": "0.2",
     "name": "FT-17 (MG)",
-    "gameVersion": "0.2.51.36",
-    "mass": 6726,
+    "gameVersion": "0.2.56.3",
+    "mass": 6708,
     "creationDate": "1918.11.11",
     "class": "",
     "desc": "",
-    "cost": 18349
+    "cost": 18263
   },
   "blueprints": [
     {
@@ -31,25 +31,6 @@
       }
     },
     {
-      "id": 2,
-      "type": "paintJob",
-      "blueprint": {
-        "v": "2.2",
-        "name": "Powertrain",
-        "description": "",
-        "colourMapUrl": "821c5c82-a326-46ca-bfd0-bd2a75830ed7",
-        "scale": 0.5,
-        "roughness": 0.5,
-        "metallic": 0.0,
-        "r": 0.25,
-        "g": 0.4,
-        "b": 0.5,
-        "saturation": 0.75,
-        "condition": 0.75,
-        "grime": 0.0
-      }
-    },
-    {
       "id": 3,
       "type": "chassis",
       "blueprint": {
@@ -65,12 +46,13 @@
       "id": 4,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": null,
         "description": null,
         "armourVolume": 0.425127774,
         "bodyMeshVuid": 0,
         "partRepositioning": true,
+        "collisionEnabled": true,
         "armourTechID": "rha"
       }
     },
@@ -90,9 +72,9 @@
       "id": 7,
       "type": "engine",
       "blueprint": {
-        "v": "0.4",
-        "name": null,
-        "description": null,
+        "v": "0.5",
+        "name": "FT-17",
+        "description": "",
         "cylinders": 4,
         "idleRPM": 800,
         "cylinderDisplacement": 1.125,
@@ -100,7 +82,8 @@
         "targetMinRPM": 1000,
         "targetMaxRPM": 1500,
         "torqueCoeff": 0.5,
-        "revLimit": -1
+        "revLimit": -1,
+        "engineLayout": "Inline"
       }
     },
     {
@@ -408,12 +391,13 @@
       "id": 33,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": "Unnamed Structure",
         "description": null,
         "armourVolume": 0.0598763078,
         "bodyMeshVuid": 1,
         "partRepositioning": true,
+        "collisionEnabled": true,
         "armourTechID": "rha"
       }
     },
@@ -446,43 +430,14 @@
       "id": 38,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": "Unnamed Structure",
         "description": null,
         "armourVolume": 0.004565462,
         "bodyMeshVuid": 3,
         "partRepositioning": true,
+        "collisionEnabled": false,
         "armourTechID": "rha"
-      }
-    },
-    {
-      "id": 41,
-      "type": "shellSlot",
-      "blueprint": {
-        "v": "0.0",
-        "name": null,
-        "description": null,
-        "diameter": 37,
-        "propellantLength": 94,
-        "generatedProjectiles": [
-          {
-            "projectileTypeGuid": "20f2f00d-477b-4211-ba26-f485c7794a1a",
-            "functions": [
-              {
-                "id": "AP",
-                "definition": {
-                  "penetratorConstant": 2200
-                }
-              },
-              {
-                "id": "Propellant",
-                "definition": {
-                  "length": 94
-                }
-              }
-            ]
-          }
-        ]
       }
     },
     {
@@ -668,22 +623,6 @@
       }
     },
     {
-      "id": 47,
-      "type": "ammoRack",
-      "blueprint": {
-        "v": "1.2",
-        "name": null,
-        "description": null,
-        "diameter": 37,
-        "length": 205,
-        "x": 370,
-        "y": 131,
-        "z": 207,
-        "shellTypeGuid": "20f2f00d-477b-4211-ba26-f485c7794a1a",
-        "shellID": 41
-      }
-    },
-    {
       "id": 51,
       "type": "decalTransform",
       "blueprint": {
@@ -779,12 +718,13 @@
       "id": 44,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": "Unnamed Structure",
         "description": null,
         "armourVolume": 0.001568297,
         "bodyMeshVuid": 4,
         "partRepositioning": true,
+        "collisionEnabled": false,
         "armourTechID": "rha"
       }
     },
@@ -858,7 +798,7 @@
       }
     },
     {
-      "id": 5,
+      "id": 0,
       "type": "paintJobRegister",
       "blueprint": {
         "v": "0.0",
@@ -866,8 +806,47 @@
         "description": null,
         "paintJobIDs": [
           1,
-          2
+          21,
+          22
         ]
+      }
+    },
+    {
+      "id": 21,
+      "type": "paintJob",
+      "blueprint": {
+        "v": "2.2",
+        "name": "Powertrain",
+        "description": "",
+        "colourMapUrl": "821c5c82-a326-46ca-bfd0-bd2a75830ed7",
+        "scale": 0.5,
+        "roughness": 0.5,
+        "metallic": 0.0,
+        "r": 0.25,
+        "g": 0.4,
+        "b": 0.5,
+        "saturation": 0.75,
+        "condition": 0.75,
+        "grime": 0.0
+      }
+    },
+    {
+      "id": 22,
+      "type": "paintJob",
+      "blueprint": {
+        "v": "2.2",
+        "name": "Interior",
+        "description": "",
+        "colourMapUrl": "",
+        "scale": 0.5,
+        "roughness": 0.6,
+        "metallic": 0.0,
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5,
+        "saturation": 0.5,
+        "condition": -1.0,
+        "grime": 0.0
       }
     }
   ],
@@ -1102,8 +1081,8 @@
           ],
           "portOffsets": [
             0.0,
-            0.161973119,
-            0.218522266,
+            0.137474313,
+            0.4467915,
             0.0,
             0.112928286,
             -0.3139406,
@@ -1926,34 +1905,6 @@
           0.7438896
         ]
       }
-    },
-    {
-      "guid": "85b83f8c-b64b-43e4-8785-24cde9fccc1d",
-      "vuid": 403,
-      "pvuid": 368,
-      "flags": 2,
-      "ammoRack": 404,
-      "ammoRackModel": 405,
-      "transform": {
-        "mirrorVuid": -1,
-        "pos": [
-          0.3992524,
-          0.169017762,
-          0.009232998
-        ],
-        "rot": [
-          75.00026,
-          89.99992,
-          179.999939,
-          0.0
-        ],
-        "scale": [
-          0.37,
-          0.131000012,
-          0.207000017
-        ]
-      },
-      "ammoRackBlueprintVuid": 47
     },
     {
       "guid": "e59ff736-a6ea-4a1a-a4c5-6437ed15b872",

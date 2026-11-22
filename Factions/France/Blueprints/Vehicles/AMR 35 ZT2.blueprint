@@ -3,12 +3,12 @@
   "header": {
     "v": "0.2",
     "name": "AMR 35 ZT2",
-    "gameVersion": "0.2.52.3",
-    "mass": 4583,
+    "gameVersion": "0.2.56.3",
+    "mass": 4665,
     "creationDate": "1939.09.01",
     "class": "",
     "desc": "",
-    "cost": 33521
+    "cost": 33564
   },
   "blueprints": [
     {
@@ -27,25 +27,6 @@
         "b": 0.6624,
         "saturation": 0.719999969,
         "condition": 0.4,
-        "grime": 0.0
-      }
-    },
-    {
-      "id": 2,
-      "type": "paintJob",
-      "blueprint": {
-        "v": "2.2",
-        "name": "Powertrain",
-        "description": "",
-        "colourMapUrl": "821c5c82-a326-46ca-bfd0-bd2a75830ed7",
-        "scale": 0.5,
-        "roughness": 0.5,
-        "metallic": 0.0,
-        "r": 0.25,
-        "g": 0.4,
-        "b": 0.5,
-        "saturation": 0.75,
-        "condition": 0.75,
         "grime": 0.0
       }
     },
@@ -91,17 +72,18 @@
       "id": 7,
       "type": "engine",
       "blueprint": {
-        "v": "0.4",
-        "name": null,
-        "description": null,
+        "v": "0.5",
+        "name": "AMR 35 ZT2",
+        "description": "",
         "cylinders": 4,
         "idleRPM": 800,
-        "cylinderDisplacement": 1.15,
+        "cylinderDisplacement": 1.47,
         "tech": 0.2,
-        "targetMinRPM": 1400,
-        "targetMaxRPM": 2800,
+        "targetMinRPM": 1150,
+        "targetMaxRPM": 2200,
         "torqueCoeff": 0.6,
-        "revLimit": -1
+        "revLimit": -1,
+        "engineLayout": "Inline"
       }
     },
     {
@@ -113,9 +95,9 @@
         "description": null,
         "meshType": "slidingMesh",
         "autoInputTorque": true,
-        "maxInputTorque": 305.2638,
+        "maxInputTorque": 390.2068,
         "autoResistanceTorque": true,
-        "maxResistanceTorque": 305.2638,
+        "maxResistanceTorque": 390.2068,
         "finalDriveRatio": 10.0,
         "msrRatioThreshold": 3.3,
         "auxillaryGearRatio": 1.0,
@@ -306,16 +288,16 @@
       "type": "track",
       "blueprint": {
         "v": "1.1",
-        "name": "Hotchkiss H35",
+        "name": "AMR 35 ZT2",
         "description": "",
         "separation": 1003,
         "length": 6000,
-        "brake": 36884,
+        "brake": 37324,
         "autoBrake": true,
         "rollersEnabled": true,
         "matchChassis": false,
         "frontalTransmission": true,
-        "finalDriveRatio": 6.0
+        "finalDriveRatio": 6.75
       }
     },
     {
@@ -351,8 +333,8 @@
       "type": "torsionBar",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "torsionBarLength": 495,
         "torsionBarDiameter": 60
       }
@@ -933,19 +915,6 @@
       }
     },
     {
-      "id": 5,
-      "type": "paintJobRegister",
-      "blueprint": {
-        "v": "0.0",
-        "name": null,
-        "description": null,
-        "paintJobIDs": [
-          1,
-          2
-        ]
-      }
-    },
-    {
       "id": 34,
       "type": "decalTransform",
       "blueprint": {
@@ -989,6 +958,58 @@
         "name": null,
         "description": null,
         "imageURL": "7df1ce88-cc63-4e24-8cff-8ce830492b43"
+      }
+    },
+    {
+      "id": 21,
+      "type": "paintJob",
+      "blueprint": {
+        "v": "2.2",
+        "name": "Powertrain",
+        "description": "",
+        "colourMapUrl": "821c5c82-a326-46ca-bfd0-bd2a75830ed7",
+        "scale": 0.5,
+        "roughness": 0.5,
+        "metallic": 0.0,
+        "r": 0.25,
+        "g": 0.4,
+        "b": 0.5,
+        "saturation": 0.75,
+        "condition": 0.75,
+        "grime": 0.0
+      }
+    },
+    {
+      "id": 22,
+      "type": "paintJob",
+      "blueprint": {
+        "v": "2.2",
+        "name": "Interior",
+        "description": "",
+        "colourMapUrl": "",
+        "scale": 0.5,
+        "roughness": 0.6,
+        "metallic": 0.0,
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5,
+        "saturation": 0.5,
+        "condition": -1.0,
+        "grime": 0.0
+      }
+    },
+    {
+      "id": 2,
+      "type": "paintJobRegister",
+      "blueprint": {
+        "v": "0.0",
+        "name": null,
+        "description": null,
+        "paintJobIDs": [
+          1,
+          21,
+          22
+        ]
       }
     }
   ],
@@ -1189,11 +1210,11 @@
             0.6935531,
             1.57847655,
             -0.5015,
-            0.569981158,
-            1.63655531,
+            0.563586235,
+            1.639561,
             0.5015,
-            0.5699812,
-            1.63655531,
+            0.563586235,
+            1.63956094,
             -0.5015,
             0.0,
             0.0,
@@ -1223,15 +1244,15 @@
           ],
           "portOffsets": [
             0.0,
-            0.163762957,
-            0.220936954,
+            0.150294527,
+            0.488457233,
             0.0,
-            0.123571895,
-            -0.34352988,
-            0.262772262,
-            0.123571895,
-            0.05807879,
-            0.0303446054,
+            0.129966855,
+            -0.361307859,
+            0.2970909,
+            0.129966855,
+            0.06108442,
+            0.03293225,
             0.0,
             0.0,
             0.0,
@@ -1240,10 +1261,10 @@
             -2.23517418E-08,
             0.544,
             1.67300415,
-            -0.262772262,
-            0.123571895,
-            0.05807879,
-            0.0303446054,
+            -0.2970909,
+            0.129966855,
+            0.06108442,
+            0.03293228,
             0.0,
             0.0,
             0.0,
@@ -2167,14 +2188,14 @@
       "transform": {
         "mirrorVuid": -1,
         "pos": [
-          0.143842623,
-          -0.8219749,
+          0.143927142,
+          -0.821974754,
           -0.328674316
         ],
         "rot": [
-          -2.08527172E-06,
-          345.002533,
-          -1.959093E-06,
+          -7.0513147E-06,
+          345.007355,
+          -5.85356247E-06,
           0.0
         ],
         "scale": [
@@ -2256,7 +2277,7 @@
           -0.200042725
         ],
         "rot": [
-          9.255752,
+          9.255755,
           359.890839,
           8.44761872E-10,
           0.0

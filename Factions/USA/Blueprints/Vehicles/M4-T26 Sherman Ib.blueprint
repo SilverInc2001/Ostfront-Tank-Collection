@@ -3,12 +3,12 @@
   "header": {
     "v": "0.2",
     "name": "M4-T26 Sherman Ib",
-    "gameVersion": "0.2.55.5",
-    "mass": 38252,
+    "gameVersion": "0.2.56.3",
+    "mass": 38119,
     "creationDate": "1945.09.02",
     "class": "",
     "desc": "",
-    "cost": 68324
+    "cost": 68259
   },
   "blueprints": [
     {
@@ -72,17 +72,18 @@
       "id": 7,
       "type": "engine",
       "blueprint": {
-        "v": "0.4",
+        "v": "0.5",
         "name": "M4 Sherman I",
         "description": "",
         "cylinders": 9,
         "idleRPM": 750,
         "cylinderDisplacement": 1.77,
         "tech": 1.0,
-        "targetMinRPM": 1600,
+        "targetMinRPM": 1400,
         "targetMaxRPM": 2400,
         "torqueCoeff": 1.0,
-        "revLimit": -1
+        "revLimit": -1,
+        "engineLayout": "Radial"
       }
     },
     {
@@ -288,16 +289,16 @@
       "type": "track",
       "blueprint": {
         "v": "1.1",
-        "name": "M4 Sherman I (Late)",
+        "name": "M4-T26 Sherman Ib",
         "description": "",
         "separation": 1419,
         "length": 6060,
-        "brake": 309372,
+        "brake": 304952,
         "autoBrake": true,
         "rollersEnabled": true,
         "matchChassis": false,
         "frontalTransmission": true,
-        "finalDriveRatio": 6.0
+        "finalDriveRatio": 9.91
       }
     },
     {
@@ -1590,7 +1591,7 @@
       }
     },
     {
-      "id": 2,
+      "id": 0,
       "type": "paintJobRegister",
       "blueprint": {
         "v": "0.0",
@@ -1702,8 +1703,8 @@
         "mirrorVuid": -1,
         "pos": [
           -3.96021079E-13,
-          0.190605342,
-          -1.37877274
+          0.7005008,
+          -0.944058
         ],
         "rot": [
           0.0,
@@ -2206,8 +2207,8 @@
           ],
           "modulePositions": [
             -3.96021079E-13,
-            0.190605342,
-            -1.37877274,
+            0.7005008,
+            -0.944058,
             1.55917625E-08,
             0.518441737,
             2.716897,
@@ -2246,8 +2247,8 @@
           ],
           "portOffsets": [
             0.0,
-            0.2031671,
-            0.411037624,
+            0.0,
+            0.303600281,
             0.0,
             0.15090014,
             -0.4195024,
@@ -2391,7 +2392,7 @@
         "rot": [
           349.1827,
           186.482925,
-          1.95574285E-06,
+          2.010069E-06,
           0.0
         ],
         "scale": [
@@ -2560,9 +2561,9 @@
           0.4199524
         ],
         "rot": [
-          2.91102315E-05,
+          2.91102351E-05,
           60.000042,
-          -2.23834522E-05,
+          -2.23834486E-05,
           0.0
         ],
         "scale": [
@@ -2896,7 +2897,7 @@
         ],
         "rot": [
           0.415065467,
-          2.54451052E-14,
+          3.18063819E-14,
           -2.19909289E-05,
           0.0
         ],
@@ -3458,7 +3459,7 @@
         ],
         "rot": [
           358.595978,
-          0.5822784,
+          0.58227843,
           -5.83809534E-09,
           0.0
         ],
@@ -4155,9 +4156,9 @@
           0.335962564
         ],
         "rot": [
-          270.2158,
-          106.676033,
-          178.323471,
+          270.2149,
+          106.675095,
+          178.324417,
           0.0
         ],
         "scale": [

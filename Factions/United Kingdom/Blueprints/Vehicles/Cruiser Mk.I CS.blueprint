@@ -3,12 +3,12 @@
   "header": {
     "v": "0.2",
     "name": "Cruiser Mk.I CS",
-    "gameVersion": "0.2.55.5",
-    "mass": 10676,
+    "gameVersion": "0.2.56.3",
+    "mass": 10670,
     "creationDate": "1939.09.01",
     "class": "",
     "desc": "",
-    "cost": 38886
+    "cost": 38884
   },
   "blueprints": [
     {
@@ -72,17 +72,18 @@
       "id": 7,
       "type": "engine",
       "blueprint": {
-        "v": "0.4",
+        "v": "0.5",
         "name": "Cruiser Mk.1",
-        "description": null,
+        "description": "",
         "cylinders": 6,
         "idleRPM": 500,
         "cylinderDisplacement": 1.607,
         "tech": 0.2,
-        "targetMinRPM": 1200,
-        "targetMaxRPM": 2400,
+        "targetMinRPM": 1100,
+        "targetMaxRPM": 2200,
         "torqueCoeff": 0.6,
-        "revLimit": -1
+        "revLimit": -1,
+        "engineLayout": "Inline"
       }
     },
     {
@@ -118,8 +119,8 @@
       "type": "trackWheelMount",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "mountID": "97844d15-24a8-4feb-9548-668e2bb81ce6",
         "scale": 0.5,
         "x": 0,
@@ -133,8 +134,8 @@
       "type": "trackWheel",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "wheelID": "e856f182-0c62-467b-a981-56455fcf4b28",
         "perAxle": 1,
         "spacingOnAxle": 0.01,
@@ -148,8 +149,8 @@
       "type": "trackWheelMount",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "mountID": "25261a10-1c39-4191-9378-b6108d71cbf1",
         "scale": 1.0,
         "x": 0,
@@ -163,8 +164,8 @@
       "type": "trackWheel",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "wheelID": "82cb07ea-8e4a-4dd9-82fa-8237fef0dfff",
         "perAxle": 1,
         "spacingOnAxle": 0.08,
@@ -178,8 +179,8 @@
       "type": "trackWheelArray",
       "blueprint": {
         "v": "0.2",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "spacingMode": 0,
         "spacing": 756,
         "length": 5800,
@@ -203,8 +204,8 @@
       "type": "trackWheelMount",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "mountID": "062b2d20-13d5-4dec-9d1c-b2855fdccfac",
         "scale": 0.5,
         "x": 0,
@@ -218,8 +219,8 @@
       "type": "trackWheel",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "wheelID": "aac797c7-1b6a-4b86-ba4b-62cc683174be",
         "perAxle": 1,
         "spacingOnAxle": 0.08,
@@ -233,8 +234,8 @@
       "type": "trackWheelArray",
       "blueprint": {
         "v": "0.2",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "spacingMode": 2,
         "spacing": 16,
         "length": 5800,
@@ -258,8 +259,8 @@
       "type": "trackWheelMount",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "mountID": "6b0a1425-3943-491b-ad87-f56d8b811e19",
         "scale": 0.0,
         "x": 0,
@@ -273,8 +274,8 @@
       "type": "trackWheel",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "wheelID": "82cb07ea-8e4a-4dd9-82fa-8237fef0dfff",
         "perAxle": 1,
         "spacingOnAxle": 0.08,
@@ -288,16 +289,16 @@
       "type": "track",
       "blueprint": {
         "v": "1.1",
-        "name": null,
-        "description": null,
+        "name": "Cruiser Mk.I",
+        "description": "",
         "separation": 1634,
         "length": 5800,
-        "brake": 80089,
+        "brake": 85364,
         "autoBrake": true,
         "rollersEnabled": true,
         "matchChassis": false,
         "frontalTransmission": false,
-        "finalDriveRatio": 6.58
+        "finalDriveRatio": 6.06999969
       }
     },
     {
@@ -305,8 +306,8 @@
       "type": "trackBelt",
       "blueprint": {
         "v": "1.1",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "segmentID": "77750d24-722d-4f9c-9e7b-d5aaed6cf67e",
         "x": 244,
         "y": 75,
@@ -320,8 +321,8 @@
       "type": "suspension",
       "blueprint": {
         "v": "0.6",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "targetAngle": -37.0,
         "upTravelLimit": 1000.0,
         "damper": 50000.0,
@@ -333,8 +334,8 @@
       "type": "torsionBar",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "torsionBarLength": 771,
         "torsionBarDiameter": 1
       }
@@ -1509,20 +1510,6 @@
       }
     },
     {
-      "id": 2,
-      "type": "paintJobRegister",
-      "blueprint": {
-        "v": "0.0",
-        "name": null,
-        "description": null,
-        "paintJobIDs": [
-          1,
-          21,
-          22
-        ]
-      }
-    },
-    {
       "id": 60,
       "type": "decalTransform",
       "blueprint": {
@@ -1589,6 +1576,20 @@
         "name": null,
         "description": null,
         "imageURL": "Sprocket/Decals/Metal.png"
+      }
+    },
+    {
+      "id": 0,
+      "type": "paintJobRegister",
+      "blueprint": {
+        "v": "0.0",
+        "name": null,
+        "description": null,
+        "paintJobIDs": [
+          1,
+          21,
+          22
+        ]
       }
     }
   ],
@@ -1782,9 +1783,9 @@
             }
           ],
           "modulePositions": [
-            -0.375274718,
-            0.447472751,
-            -1.0795877,
+            -0.00607469957,
+            0.14778161,
+            -0.9090565,
             7.68186936E-08,
             0.072025,
             -2.14436,
@@ -1802,9 +1803,9 @@
             0.0
           ],
           "moduleRotations": [
-            0.0,
+            1.96702748E-13,
             180.0,
-            90.0,
+            -1.36603785E-05,
             0.0,
             180.0,
             0.0,
@@ -1823,8 +1824,8 @@
           ],
           "portOffsets": [
             0.0,
-            0.19358632,
-            0.3264134,
+            0.154825553,
+            0.6580087,
             0.0,
             0.1361866,
             -0.37859875,
@@ -1934,14 +1935,14 @@
       "transform": {
         "mirrorVuid": -1,
         "pos": [
-          -0.375274718,
-          0.447472751,
-          -1.0795877
+          -0.00607469957,
+          0.14778161,
+          -0.9090565
         ],
         "rot": [
-          0.0,
+          1.96702748E-13,
           180.0,
-          90.0,
+          -1.36603785E-05,
           0.0
         ],
         "scale": [
@@ -2346,7 +2347,7 @@
           -2.16766357
         ],
         "rot": [
-          0.02814785,
+          0.0281478539,
           359.987457,
           0.0149675962,
           0.0
@@ -2461,9 +2462,9 @@
           0.18963623
         ],
         "rot": [
-          2.04676257E-06,
+          2.046763E-06,
           314.9999,
-          2.99579779E-06,
+          2.995798E-06,
           0.0
         ],
         "scale": [
@@ -2548,7 +2549,7 @@
         ],
         "rot": [
           359.707672,
-          -6.742863E-13,
+          -6.870087E-13,
           4.887633E-05,
           0.0
         ],
@@ -3507,9 +3508,9 @@
           -0.725067139
         ],
         "rot": [
-          20.12347,
+          20.1234684,
           90.0,
-          -5.455693E-06,
+          -4.546411E-06,
           0.0
         ],
         "scale": [
@@ -3536,9 +3537,9 @@
           -0.725067139
         ],
         "rot": [
-          20.12347,
+          20.1234684,
           270.0,
-          5.455693E-06,
+          4.546411E-06,
           0.0
         ],
         "scale": [
@@ -3652,7 +3653,7 @@
           -0.666412354
         ],
         "rot": [
-          20.123455,
+          20.123457,
           270.0,
           0.0,
           0.0
@@ -3710,9 +3711,9 @@
           -0.07537842
         ],
         "rot": [
-          -1.52100156E-05,
+          -1.52100192E-05,
           30.0000839,
-          1.71797437E-05,
+          1.71797456E-05,
           0.0
         ],
         "scale": [
@@ -3768,9 +3769,9 @@
           -0.478424072
         ],
         "rot": [
-          -1.52100156E-05,
+          -1.52100192E-05,
           30.0000839,
-          1.71797437E-05,
+          1.71797456E-05,
           0.0
         ],
         "scale": [

@@ -3,12 +3,12 @@
   "header": {
     "v": "0.2",
     "name": "M4A2 Sherman III (Early)",
-    "gameVersion": "0.2.55.5",
-    "mass": 26174,
+    "gameVersion": "0.2.56.3",
+    "mass": 25807,
     "creationDate": "1943.12.31",
     "class": "",
     "desc": "",
-    "cost": 44817
+    "cost": 44105
   },
   "blueprints": [
     {
@@ -72,17 +72,18 @@
       "id": 7,
       "type": "engine",
       "blueprint": {
-        "v": "0.4",
+        "v": "0.5",
         "name": "M4A2 Sherman III",
         "description": "",
-        "cylinders": 12,
+        "cylinders": 6,
         "idleRPM": 750,
-        "cylinderDisplacement": 1.16,
+        "cylinderDisplacement": 2.32,
         "tech": 0.8,
         "targetMinRPM": 1400,
         "targetMaxRPM": 2100,
         "torqueCoeff": 0.85,
-        "revLimit": -1
+        "revLimit": -1,
+        "engineLayout": "V"
       }
     },
     {
@@ -292,12 +293,12 @@
         "description": "",
         "separation": 1419,
         "length": 6060,
-        "brake": 206264,
+        "brake": 206459,
         "autoBrake": true,
         "rollersEnabled": true,
         "matchChassis": false,
         "frontalTransmission": true,
-        "finalDriveRatio": 7.4
+        "finalDriveRatio": 7.62
       }
     },
     {
@@ -1596,20 +1597,6 @@
       }
     },
     {
-      "id": 0,
-      "type": "paintJobRegister",
-      "blueprint": {
-        "v": "0.0",
-        "name": null,
-        "description": null,
-        "paintJobIDs": [
-          1,
-          21,
-          22
-        ]
-      }
-    },
-    {
       "id": 21,
       "type": "paintJob",
       "blueprint": {
@@ -1645,6 +1632,20 @@
         "saturation": 0.5,
         "condition": -1.0,
         "grime": 0.0
+      }
+    },
+    {
+      "id": 2,
+      "type": "paintJobRegister",
+      "blueprint": {
+        "v": "0.0",
+        "name": null,
+        "description": null,
+        "paintJobIDs": [
+          1,
+          21,
+          22
+        ]
       }
     }
   ],
@@ -2290,8 +2291,8 @@
           ],
           "portOffsets": [
             0.0,
-            0.164473414,
-            0.443613529,
+            0.225768685,
+            0.358695269,
             0.0,
             0.145838723,
             -0.4054317,
@@ -2493,7 +2494,7 @@
         "rot": [
           349.1827,
           186.482925,
-          1.79276424E-06,
+          1.84709052E-06,
           0.0
         ],
         "scale": [
@@ -2691,9 +2692,9 @@
           0.4199524
         ],
         "rot": [
-          2.91102187E-05,
+          2.91102224E-05,
           60.000042,
-          -2.23834577E-05,
+          -2.23834541E-05,
           0.0
         ],
         "scale": [
@@ -3195,9 +3196,9 @@
           -1.3203125
         ],
         "rot": [
-          0.9052592,
-          5.00895749E-06,
-          5.00895749E-06,
+          0.90525943,
+          5.008958E-06,
+          5.008958E-06,
           0.0
         ],
         "scale": [
@@ -3761,7 +3762,7 @@
         ],
         "rot": [
           358.595978,
-          0.582285047,
+          0.5822851,
           -5.00408159E-09,
           0.0
         ],
@@ -4122,7 +4123,7 @@
         "rot": [
           351.000549,
           180.0,
-          -2.57615652E-13,
+          -2.83377217E-13,
           0.0
         ],
         "scale": [
@@ -4149,7 +4150,7 @@
           -2.46105957
         ],
         "rot": [
-          12.6338949,
+          12.6338968,
           0.00340208574,
           -2.67016149E-11,
           0.0
@@ -4178,9 +4179,9 @@
           -2.45806885
         ],
         "rot": [
-          12.6338844,
-          -0.003402559,
-          -2.13612919E-10,
+          12.6338854,
+          -0.00340255932,
+          -2.40314518E-10,
           0.0
         ],
         "scale": [

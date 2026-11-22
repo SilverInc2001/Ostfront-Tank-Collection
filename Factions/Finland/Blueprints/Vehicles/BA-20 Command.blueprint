@@ -3,12 +3,12 @@
   "header": {
     "v": "0.2",
     "name": "BA-20 Command",
-    "gameVersion": "0.2.55.5",
-    "mass": 5407,
-    "creationDate": "1941.12.31",
+    "gameVersion": "0.2.56.3",
+    "mass": 6066,
+    "creationDate": "1939.09.01",
     "class": "",
     "desc": "",
-    "cost": 12910
+    "cost": 13141
   },
   "blueprints": [
     {
@@ -72,17 +72,18 @@
       "id": 7,
       "type": "engine",
       "blueprint": {
-        "v": "0.4",
+        "v": "0.5",
         "name": "BA-20",
         "description": "",
         "cylinders": 4,
         "idleRPM": 800,
         "cylinderDisplacement": 0.82125,
-        "tech": 0.4,
+        "tech": 0.2,
         "targetMinRPM": 1300,
-        "targetMaxRPM": 3700,
-        "torqueCoeff": 0.75,
-        "revLimit": -1
+        "targetMaxRPM": 2800,
+        "torqueCoeff": 0.6,
+        "revLimit": -1,
+        "engineLayout": "Inline"
       }
     },
     {
@@ -94,9 +95,9 @@
         "description": "",
         "meshType": "slidingMesh",
         "autoInputTorque": true,
-        "maxInputTorque": 228.018066,
+        "maxInputTorque": 217.998184,
         "autoResistanceTorque": true,
-        "maxResistanceTorque": 228.018066,
+        "maxResistanceTorque": 217.998184,
         "finalDriveRatio": 2.81,
         "msrRatioThreshold": 5.3,
         "auxillaryGearRatio": 1.0,
@@ -121,7 +122,7 @@
         "mountID": "97844d15-24a8-4feb-9548-668e2bb81ce6",
         "scale": 1.0,
         "x": 0,
-        "y": 404,
+        "y": 941,
         "z": 905,
         "rearFacing": true
       }
@@ -137,7 +138,7 @@
         "perAxle": 1,
         "spacingOnAxle": 0.01,
         "xOffset": -0.008,
-        "diameter": 2.0,
+        "diameter": 2.58,
         "width": 0.0
       }
     },
@@ -290,7 +291,7 @@
         "description": "",
         "separation": 650,
         "length": 4310,
-        "brake": 43268,
+        "brake": 48587,
         "autoBrake": true,
         "rollersEnabled": false,
         "matchChassis": false,
@@ -361,7 +362,7 @@
         "torque": 200.0,
         "ratio": 30.0,
         "type": 1,
-        "resist": 0.75
+        "resist": 1.5
       }
     },
     {
@@ -910,8 +911,8 @@
       "type": "coilSpring",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "springLength": 500,
         "endSpringLengthMultiplier": 0.5,
         "springDiameter": 150,
@@ -1291,7 +1292,7 @@
         "rot": [
           0.0,
           0.0,
-          -4.325148E-09,
+          0.0,
           0.0
         ],
         "scale": [
@@ -1320,7 +1321,7 @@
         "rot": [
           12.2056656,
           179.999634,
-          -2.99899168E-11,
+          -3.66543428E-11,
           0.0
         ],
         "scale": [
@@ -1348,7 +1349,7 @@
         ],
         "rot": [
           0.0,
-          0.663126945,
+          0.663127065,
           0.0,
           0.0
         ],
@@ -1378,7 +1379,7 @@
         "rot": [
           0.0,
           0.0,
-          -4.325148E-09,
+          0.0,
           0.0
         ],
         "scale": [
@@ -2041,11 +2042,11 @@
             -0.142176718,
             -1.29790616,
             -0.325000018,
-            -0.02834288,
-            -1.351408,
+            -0.0239721239,
+            -1.35346234,
             0.325000018,
-            -0.02834288,
-            -1.35140812,
+            -0.0239721239,
+            -1.35346234,
             -0.325000018,
             0.0,
             0.0,
@@ -2075,34 +2076,34 @@
           ],
           "portOffsets": [
             0.0,
-            0.138389915,
-            0.18670553,
+            0.123783424,
+            0.402296126,
             0.0,
-            0.113833837,
-            -0.316458076,
-            0.184054241,
-            0.113833837,
-            0.053501904,
-            0.0260207057,
+            0.118204594,
+            -0.328608721,
+            0.179964811,
+            0.118204594,
+            0.055556152,
+            0.0279765725,
             0.0,
             0.0,
             0.0,
             0.0,
             0.0,
             7.450581E-09,
-            0.404000044,
+            0.941,
             -1.25,
-            -0.184054241,
-            0.113833837,
-            0.053501904,
-            -0.0260207057,
+            -0.179964811,
+            0.118204594,
+            0.055556152,
+            -0.0279765725,
             0.0,
             0.0,
             0.0,
             0.0,
             0.0,
             -7.450581E-09,
-            0.404000044,
+            0.941,
             -1.25
           ],
           "portDirections": [
@@ -2285,7 +2286,7 @@
         "mirrorVuid": -1,
         "pos": [
           -0.1,
-          0.404,
+          0.941000044,
           -1.25000024
         ],
         "rot": [
@@ -2447,7 +2448,7 @@
         "mirrorVuid": -1,
         "pos": [
           0.1,
-          0.404,
+          0.941000044,
           -1.25000024
         ],
         "rot": [

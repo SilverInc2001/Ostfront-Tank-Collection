@@ -3,12 +3,12 @@
   "header": {
     "v": "0.2",
     "name": "SP 17pdr Valentine Mk I Archer",
-    "gameVersion": "0.2.55.5",
-    "mass": 15678,
+    "gameVersion": "0.2.56.3",
+    "mass": 15674,
     "creationDate": "1945.01.17",
     "class": "",
     "desc": "",
-    "cost": 47117
+    "cost": 47115
   },
   "blueprints": [
     {
@@ -72,17 +72,18 @@
       "id": 7,
       "type": "engine",
       "blueprint": {
-        "v": "0.4",
+        "v": "0.5",
         "name": "SP 17pdr Valentine Mk I Archer",
         "description": "",
         "cylinders": 6,
         "idleRPM": 500,
         "cylinderDisplacement": 1.16233444,
         "tech": 1.0,
-        "targetMinRPM": 1000,
+        "targetMinRPM": 1100,
         "targetMaxRPM": 2100,
         "torqueCoeff": 1.0,
-        "revLimit": -1
+        "revLimit": -1,
+        "engineLayout": "Inline"
       }
     },
     {
@@ -292,12 +293,12 @@
         "description": "",
         "separation": 1706,
         "length": 5690,
-        "brake": 125309,
+        "brake": 125425,
         "autoBrake": true,
         "rollersEnabled": true,
         "matchChassis": false,
         "frontalTransmission": false,
-        "finalDriveRatio": 9.6
+        "finalDriveRatio": 10.15
       }
     },
     {
@@ -1816,20 +1817,6 @@
       }
     },
     {
-      "id": 5,
-      "type": "paintJobRegister",
-      "blueprint": {
-        "v": "0.0",
-        "name": null,
-        "description": null,
-        "paintJobIDs": [
-          1,
-          21,
-          22
-        ]
-      }
-    },
-    {
       "id": 21,
       "type": "paintJob",
       "blueprint": {
@@ -1865,6 +1852,20 @@
         "saturation": 0.5,
         "condition": -1.0,
         "grime": 0.0
+      }
+    },
+    {
+      "id": 0,
+      "type": "paintJobRegister",
+      "blueprint": {
+        "v": "0.0",
+        "name": null,
+        "description": null,
+        "paintJobIDs": [
+          1,
+          21,
+          22
+        ]
       }
     }
   ],
@@ -2391,7 +2392,7 @@
           0.3916626
         ],
         "rot": [
-          52.3075142,
+          52.30751,
           180.0,
           180.0,
           0.0
@@ -3073,8 +3074,8 @@
           ],
           "portOffsets": [
             0.0,
-            0.164638847,
-            0.277603924,
+            0.138978526,
+            0.5906588,
             0.0,
             0.132004336,
             -0.366972029,
@@ -3088,8 +3089,8 @@
             0.0,
             0.0,
             -2.23517418E-08,
-            0.431030273,
-            -2.45200014,
+            0.431,
+            -2.45199585,
             -0.292840838,
             0.132004336,
             0.0620420352,
@@ -3100,8 +3101,8 @@
             0.0,
             0.0,
             2.23517418E-08,
-            0.431030273,
-            -2.45200014
+            0.431,
+            -2.45199585
           ],
           "portDirections": [
             0.0,
@@ -3328,9 +3329,9 @@
           0.4776001
         ],
         "rot": [
-          53.7073479,
+          53.7073441,
           180.0,
-          -6.87792228E-12,
+          -6.877923E-12,
           0.0
         ],
         "scale": [
@@ -3386,9 +3387,9 @@
           0.6741333
         ],
         "rot": [
-          53.7073479,
+          53.7073441,
           180.0,
-          -6.87792228E-12,
+          -6.877923E-12,
           0.0
         ],
         "scale": [
@@ -3415,9 +3416,9 @@
           0.6444702
         ],
         "rot": [
-          53.7073479,
+          53.7073441,
           180.0,
-          -6.87792228E-12,
+          -6.877923E-12,
           0.0
         ],
         "scale": [
@@ -4112,7 +4113,7 @@
         ],
         "rot": [
           349.2845,
-          0.8729796,
+          0.872979641,
           0.0,
           0.0
         ],
@@ -4198,7 +4199,7 @@
           -2.884552
         ],
         "rot": [
-          17.5357666,
+          17.5357647,
           0.0,
           0.0,
           0.0
@@ -4227,7 +4228,7 @@
           -2.88458252
         ],
         "rot": [
-          17.5357666,
+          17.5357647,
           0.0,
           0.0,
           0.0

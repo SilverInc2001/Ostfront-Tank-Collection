@@ -3,12 +3,12 @@
   "header": {
     "v": "0.2",
     "name": "Autoblinda AB41",
-    "gameVersion": "0.2.53.2",
-    "mass": 9065,
+    "gameVersion": "0.2.56.3",
+    "mass": 10392,
     "creationDate": "1941.12.31",
     "class": "",
     "desc": "",
-    "cost": 26663
+    "cost": 26938
   },
   "blueprints": [
     {
@@ -28,25 +28,6 @@
         "saturation": 0.75,
         "condition": 0.5,
         "grime": 0.5
-      }
-    },
-    {
-      "id": 2,
-      "type": "paintJob",
-      "blueprint": {
-        "v": "2.2",
-        "name": "Powertrain",
-        "description": "",
-        "colourMapUrl": "821c5c82-a326-46ca-bfd0-bd2a75830ed7",
-        "scale": 0.5,
-        "roughness": 0.5,
-        "metallic": 0.0,
-        "r": 0.25,
-        "g": 0.4,
-        "b": 0.5,
-        "saturation": 0.75,
-        "condition": 0.75,
-        "grime": 0.0
       }
     },
     {
@@ -91,17 +72,18 @@
       "id": 7,
       "type": "engine",
       "blueprint": {
-        "v": "0.4",
+        "v": "0.5",
         "name": "Autoblinda AB41",
         "description": "",
         "cylinders": 6,
         "idleRPM": 600,
         "cylinderDisplacement": 0.8325,
         "tech": 0.4,
-        "targetMinRPM": 1400,
-        "targetMaxRPM": 2700,
+        "targetMinRPM": 1350,
+        "targetMaxRPM": 2800,
         "torqueCoeff": 0.75,
-        "revLimit": -1
+        "revLimit": -1,
+        "engineLayout": "Inline"
       }
     },
     {
@@ -148,8 +130,8 @@
         "mountID": "97844d15-24a8-4feb-9548-668e2bb81ce6",
         "scale": 1.0,
         "x": 0,
-        "y": 61,
-        "z": 991,
+        "y": 634,
+        "z": 990,
         "rearFacing": true
       }
     },
@@ -164,7 +146,7 @@
         "perAxle": 1,
         "spacingOnAxle": 0.01,
         "xOffset": -0.008,
-        "diameter": 0.5,
+        "diameter": 2.0,
         "width": 0.0
       }
     },
@@ -273,7 +255,7 @@
         "xOrigin": -2600,
         "zOffset": 0,
         "yOffset": 50,
-        "xOffset": 406,
+        "xOffset": 462,
         "syncLengthEnabled": false,
         "angle": 0.0
       }
@@ -285,7 +267,7 @@
         "v": "0.0",
         "name": "",
         "description": "",
-        "mountID": "6b0a1425-3943-491b-ad87-f56d8b811e19",
+        "mountID": "74fb4df5-590c-41e2-a26c-97ad6ffce845",
         "scale": 0.6,
         "x": 0,
         "y": 0,
@@ -317,12 +299,12 @@
         "description": "",
         "separation": 1362,
         "length": 5200,
-        "brake": 72525,
+        "brake": 83142,
         "autoBrake": true,
         "rollersEnabled": false,
         "matchChassis": false,
         "frontalTransmission": false,
-        "finalDriveRatio": 9.0
+        "finalDriveRatio": 11.99
       }
     },
     {
@@ -347,21 +329,10 @@
         "v": "0.6",
         "name": "",
         "description": "",
-        "targetAngle": -30.0,
+        "targetAngle": 0.0,
         "upTravelLimit": 1000.0,
         "damper": 10018.0,
         "armLength": 433
-      }
-    },
-    {
-      "id": 36,
-      "type": "torsionBar",
-      "blueprint": {
-        "v": "0.0",
-        "name": "",
-        "description": "",
-        "torsionBarLength": 1500,
-        "torsionBarDiameter": 60
       }
     },
     {
@@ -1193,7 +1164,7 @@
       }
     },
     {
-      "id": 5,
+      "id": 0,
       "type": "paintJobRegister",
       "blueprint": {
         "v": "0.0",
@@ -1201,8 +1172,60 @@
         "description": null,
         "paintJobIDs": [
           1,
-          2
+          21,
+          22
         ]
+      }
+    },
+    {
+      "id": 21,
+      "type": "paintJob",
+      "blueprint": {
+        "v": "2.2",
+        "name": "Powertrain",
+        "description": "",
+        "colourMapUrl": "821c5c82-a326-46ca-bfd0-bd2a75830ed7",
+        "scale": 0.5,
+        "roughness": 0.5,
+        "metallic": 0.0,
+        "r": 0.25,
+        "g": 0.4,
+        "b": 0.5,
+        "saturation": 0.75,
+        "condition": 0.75,
+        "grime": 0.0
+      }
+    },
+    {
+      "id": 22,
+      "type": "paintJob",
+      "blueprint": {
+        "v": "2.2",
+        "name": "Interior",
+        "description": "",
+        "colourMapUrl": "",
+        "scale": 0.5,
+        "roughness": 0.6,
+        "metallic": 0.0,
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5,
+        "saturation": 0.5,
+        "condition": -1.0,
+        "grime": 0.0
+      }
+    },
+    {
+      "id": 68,
+      "type": "coilSpring",
+      "blueprint": {
+        "v": "0.0",
+        "name": "",
+        "description": "",
+        "springLength": 500,
+        "endSpringLengthMultiplier": 1.0,
+        "springDiameter": 150,
+        "springAngle": 0
       }
     }
   ],
@@ -1585,7 +1608,7 @@
           -0.30645752
         ],
         "rot": [
-          0.4874005,
+          0.487400442,
           0.0,
           0.0,
           0.0
@@ -1613,7 +1636,7 @@
           0.561000347
         ],
         "rot": [
-          0.07732444,
+          0.07732446,
           180.231979,
           0.00197336264,
           0.0
@@ -1895,7 +1918,7 @@
         "rot": [
           359.979767,
           179.998108,
-          2.670091E-06,
+          2.67009113E-06,
           0.0
         ],
         "scale": [
@@ -2319,7 +2342,7 @@
           1.16111374
         ],
         "rot": [
-          26.6767464,
+          26.6767445,
           270.0,
           0.0,
           0.0
@@ -2348,7 +2371,7 @@
           1.16111374
         ],
         "rot": [
-          26.6767464,
+          26.6767445,
           90.0,
           0.0,
           0.0
@@ -2710,8 +2733,8 @@
           ],
           "portOffsets": [
             0.0,
-            0.139334559,
-            0.234937385,
+            0.124346077,
+            0.5284709,
             0.0,
             0.14165768,
             -0.393808335,
@@ -2725,8 +2748,8 @@
             0.0,
             0.0,
             -2.23517418E-08,
-            0.06099999,
-            -1.60900879,
+            0.633999944,
+            -1.60998535,
             -0.5189311,
             0.14165768,
             0.0665791,
@@ -2737,8 +2760,8 @@
             0.0,
             0.0,
             2.23517418E-08,
-            0.06099999,
-            -1.60900879
+            0.633999944,
+            -1.60998535
           ],
           "portDirections": [
             0.0,
@@ -2920,8 +2943,8 @@
         "mirrorVuid": -1,
         "pos": [
           -0.1,
-          0.0610000044,
-          -1.60900009
+          0.634,
+          -1.61000013
         ],
         "rot": [
           0.0,
@@ -3011,7 +3034,7 @@
         "pos": [
           0.0,
           0.05,
-          -2.194
+          -2.138
         ],
         "rot": [
           0.0,
@@ -3082,8 +3105,8 @@
         "mirrorVuid": -1,
         "pos": [
           0.1,
-          0.0610000044,
-          -1.60900009
+          0.634,
+          -1.61000013
         ],
         "rot": [
           0.0,
@@ -3173,7 +3196,7 @@
         "pos": [
           0.0,
           0.05,
-          -2.194
+          -2.138
         ],
         "rot": [
           0.0,

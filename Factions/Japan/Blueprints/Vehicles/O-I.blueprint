@@ -3,12 +3,12 @@
   "header": {
     "v": "0.2",
     "name": "O-I",
-    "gameVersion": "0.2.53.2",
-    "mass": 100165,
+    "gameVersion": "0.2.56.3",
+    "mass": 100127,
     "creationDate": "1941.12.31",
     "class": "",
     "desc": "",
-    "cost": 102339
+    "cost": 102301
   },
   "blueprints": [
     {
@@ -28,25 +28,6 @@
         "saturation": 0.5,
         "condition": 0.5,
         "grime": 0.5
-      }
-    },
-    {
-      "id": 2,
-      "type": "paintJob",
-      "blueprint": {
-        "v": "2.2",
-        "name": "Powertrain",
-        "description": "",
-        "colourMapUrl": "821c5c82-a326-46ca-bfd0-bd2a75830ed7",
-        "scale": 0.5,
-        "roughness": 0.5,
-        "metallic": 0.0,
-        "r": 0.25,
-        "g": 0.4,
-        "b": 0.5,
-        "saturation": 0.75,
-        "condition": 0.75,
-        "grime": 0.0
       }
     },
     {
@@ -91,17 +72,18 @@
       "id": 7,
       "type": "engine",
       "blueprint": {
-        "v": "0.4",
-        "name": null,
+        "v": "0.5",
+        "name": "O-I",
         "description": null,
         "cylinders": 24,
         "idleRPM": 800,
-        "cylinderDisplacement": 3.45,
+        "cylinderDisplacement": 3.43,
         "tech": 0.4,
-        "targetMinRPM": 1200,
-        "targetMaxRPM": 1700,
+        "targetMinRPM": 900,
+        "targetMaxRPM": 1500,
         "torqueCoeff": 0.75,
-        "revLimit": -1
+        "revLimit": -1,
+        "engineLayout": "V"
       }
     },
     {
@@ -113,9 +95,9 @@
         "description": null,
         "meshType": "slidingMesh",
         "autoInputTorque": true,
-        "maxInputTorque": 5747.304,
+        "maxInputTorque": 5713.98633,
         "autoResistanceTorque": true,
-        "maxResistanceTorque": 5747.304,
+        "maxResistanceTorque": 5713.98633,
         "finalDriveRatio": 9.69,
         "msrRatioThreshold": 4.70000029,
         "auxillaryGearRatio": 1.0,
@@ -306,16 +288,16 @@
       "type": "track",
       "blueprint": {
         "v": "1.1",
-        "name": null,
+        "name": "O-I",
         "description": null,
         "separation": 2610,
         "length": 6000,
-        "brake": 792040,
+        "brake": 801020,
         "autoBrake": true,
         "rollersEnabled": false,
         "matchChassis": false,
         "frontalTransmission": false,
-        "finalDriveRatio": 10.23
+        "finalDriveRatio": 12.32
       }
     },
     {
@@ -1876,7 +1858,7 @@
       }
     },
     {
-      "id": 0,
+      "id": 5,
       "type": "paintJobRegister",
       "blueprint": {
         "v": "0.0",
@@ -1884,8 +1866,47 @@
         "description": null,
         "paintJobIDs": [
           1,
-          2
+          21,
+          22
         ]
+      }
+    },
+    {
+      "id": 21,
+      "type": "paintJob",
+      "blueprint": {
+        "v": "2.2",
+        "name": "Powertrain",
+        "description": "",
+        "colourMapUrl": "821c5c82-a326-46ca-bfd0-bd2a75830ed7",
+        "scale": 0.5,
+        "roughness": 0.5,
+        "metallic": 0.0,
+        "r": 0.25,
+        "g": 0.4,
+        "b": 0.5,
+        "saturation": 0.75,
+        "condition": 0.75,
+        "grime": 0.0
+      }
+    },
+    {
+      "id": 22,
+      "type": "paintJob",
+      "blueprint": {
+        "v": "2.2",
+        "name": "Interior",
+        "description": "",
+        "colourMapUrl": "",
+        "scale": 0.5,
+        "roughness": 0.6,
+        "metallic": 0.0,
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5,
+        "saturation": 0.5,
+        "condition": -1.0,
+        "grime": 0.0
       }
     }
   ],
@@ -2782,7 +2803,7 @@
         "rot": [
           81.33109,
           180.0,
-          2.701029E-12,
+          4.05154339E-12,
           0.0
         ],
         "scale": [
@@ -2810,8 +2831,8 @@
         ],
         "rot": [
           359.8473,
-          0.03524911,
-          2.325426E-09,
+          0.035249114,
+          2.31891217E-09,
           0.0
         ],
         "scale": [
@@ -4143,11 +4164,11 @@
             0.243249118,
             -3.78222752,
             -1.30500007,
-            0.4653413,
-            -3.88661075,
+            0.465003371,
+            -3.886452,
             1.30500007,
-            0.4653413,
-            -3.886611,
+            0.465003371,
+            -3.8864522,
             -1.30500007,
             0.0,
             0.0,
@@ -4177,35 +4198,35 @@
           ],
           "portOffsets": [
             0.0,
-            0.283645749,
-            1.33859432,
+            0.257196933,
+            1.182581,
             0.0,
-            0.222092181,
-            -0.617416263,
-            1.14018142,
-            0.222092181,
-            0.10438332,
-            0.072119,
+            0.221754238,
+            -0.6164768,
+            1.1368717,
+            0.221754238,
+            0.104224488,
+            0.0719794,
             0.0,
             0.0,
             0.0,
             0.0,
             0.0,
             -2.23517418E-08,
-            0.476013184,
-            -3.83200026,
-            -1.14018142,
-            0.222092181,
-            0.10438332,
-            -0.072119,
+            0.476000071,
+            -3.83200073,
+            -1.1368717,
+            0.221754238,
+            0.104224488,
+            -0.0719794,
             0.0,
             0.0,
             0.0,
             0.0,
             0.0,
             2.23517418E-08,
-            0.476013184,
-            -3.83200026
+            0.476000071,
+            -3.83200073
           ],
           "portDirections": [
             0.0,

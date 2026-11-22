@@ -3,12 +3,12 @@
   "header": {
     "v": "0.2",
     "name": "KHT-130",
-    "gameVersion": "0.2.51.36",
-    "mass": 7678,
+    "gameVersion": "0.2.56.3",
+    "mass": 7585,
     "creationDate": "1939.09.01",
     "class": "",
     "desc": "",
-    "cost": 13519
+    "cost": 13473
   },
   "blueprints": [
     {
@@ -31,25 +31,6 @@
       }
     },
     {
-      "id": 2,
-      "type": "paintJob",
-      "blueprint": {
-        "v": "2.2",
-        "name": "Powertrain",
-        "description": "",
-        "colourMapUrl": "821c5c82-a326-46ca-bfd0-bd2a75830ed7",
-        "scale": 0.5,
-        "roughness": 0.5,
-        "metallic": 0.0,
-        "r": 0.25,
-        "g": 0.4,
-        "b": 0.5,
-        "saturation": 0.75,
-        "condition": 0.75,
-        "grime": 0.0
-      }
-    },
-    {
       "id": 3,
       "type": "chassis",
       "blueprint": {
@@ -65,12 +46,13 @@
       "id": 4,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": null,
         "description": null,
         "armourVolume": 0.328432947,
         "bodyMeshVuid": 0,
         "partRepositioning": true,
+        "collisionEnabled": true,
         "armourTechID": "rha"
       }
     },
@@ -90,17 +72,18 @@
       "id": 7,
       "type": "engine",
       "blueprint": {
-        "v": "0.4",
-        "name": null,
+        "v": "0.5",
+        "name": "Vickers 6-Ton",
         "description": null,
         "cylinders": 4,
         "idleRPM": 800,
         "cylinderDisplacement": 1.65,
         "tech": 0.2,
-        "targetMinRPM": 1200,
-        "targetMaxRPM": 2100,
+        "targetMinRPM": 1150,
+        "targetMaxRPM": 2200,
         "torqueCoeff": 0.6,
-        "revLimit": -1
+        "revLimit": -1,
+        "engineLayout": "Inline"
       }
     },
     {
@@ -398,12 +381,13 @@
       "id": 49,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": "Unnamed Structure",
         "description": null,
         "armourVolume": 0.11441303,
         "bodyMeshVuid": 1,
         "partRepositioning": true,
+        "collisionEnabled": true,
         "armourTechID": "rha"
       }
     },
@@ -411,12 +395,13 @@
       "id": 51,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": "Unnamed Structure",
         "description": null,
         "armourVolume": 0.00166847208,
         "bodyMeshVuid": 3,
         "partRepositioning": true,
+        "collisionEnabled": false,
         "armourTechID": "rha"
       }
     },
@@ -447,12 +432,13 @@
       "id": 31,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": "Unnamed Structure",
         "description": null,
         "armourVolume": 0.0020362807,
         "bodyMeshVuid": 4,
         "partRepositioning": true,
+        "collisionEnabled": false,
         "armourTechID": "rha"
       }
     },
@@ -836,7 +822,7 @@
       }
     },
     {
-      "id": 0,
+      "id": 5,
       "type": "paintJobRegister",
       "blueprint": {
         "v": "0.0",
@@ -844,8 +830,47 @@
         "description": null,
         "paintJobIDs": [
           1,
-          2
+          21,
+          22
         ]
+      }
+    },
+    {
+      "id": 21,
+      "type": "paintJob",
+      "blueprint": {
+        "v": "2.2",
+        "name": "Powertrain",
+        "description": "",
+        "colourMapUrl": "821c5c82-a326-46ca-bfd0-bd2a75830ed7",
+        "scale": 0.5,
+        "roughness": 0.5,
+        "metallic": 0.0,
+        "r": 0.25,
+        "g": 0.4,
+        "b": 0.5,
+        "saturation": 0.75,
+        "condition": 0.75,
+        "grime": 0.0
+      }
+    },
+    {
+      "id": 22,
+      "type": "paintJob",
+      "blueprint": {
+        "v": "2.2",
+        "name": "Interior",
+        "description": "",
+        "colourMapUrl": "",
+        "scale": 0.5,
+        "roughness": 0.6,
+        "metallic": 0.0,
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5,
+        "saturation": 0.5,
+        "condition": -1.0,
+        "grime": 0.0
       }
     }
   ],
@@ -1040,8 +1065,8 @@
           ],
           "modulePositions": [
             -1.64421579E-08,
-            0.563324869,
-            -1.50488091,
+            0.334833324,
+            -1.117341,
             3.82460343E-07,
             0.7857752,
             1.90037024,
@@ -1059,9 +1084,9 @@
             0.0
           ],
           "moduleRotations": [
-            80.43123,
-            -1.95432931E-05,
-            -2.130683E-05,
+            358.962463,
+            -3.24923985E-06,
+            -1.97661029E-06,
             5.008956E-06,
             5.008956E-06,
             180.0,
@@ -1080,8 +1105,8 @@
           ],
           "portOffsets": [
             0.0,
-            0.196159214,
-            0.2646436,
+            0.156194359,
+            0.50763166,
             0.0,
             0.118263714,
             -0.3287731,
@@ -1095,8 +1120,8 @@
             0.0,
             0.0,
             -2.23517418E-08,
-            0.6699829,
-            1.98800015,
+            0.67,
+            1.98800659,
             -0.43408668,
             0.118263714,
             0.0555839427,
@@ -1107,8 +1132,8 @@
             0.0,
             0.0,
             2.23517418E-08,
-            0.6699829,
-            1.98800015
+            0.67,
+            1.98800659
           ],
           "portDirections": [
             0.0,
@@ -1192,13 +1217,13 @@
         "mirrorVuid": -1,
         "pos": [
           -1.64421579E-08,
-          0.563324869,
-          -1.50488091
+          0.334833324,
+          -1.117341
         ],
         "rot": [
-          80.43123,
-          -1.95432931E-05,
-          -2.130683E-05,
+          358.962463,
+          -3.24923985E-06,
+          -1.97661029E-06,
           0.0
         ],
         "scale": [
@@ -2054,7 +2079,7 @@
         "mirrorVuid": -1,
         "pos": [
           0.510534763,
-          0.275756836,
+          0.2757569,
           0.858215332
         ],
         "rot": [
@@ -2087,7 +2112,7 @@
           0.8553772
         ],
         "rot": [
-          18.2575684,
+          18.25757,
           180.0,
           1.60759616E-13,
           0.0

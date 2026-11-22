@@ -3,12 +3,12 @@
   "header": {
     "v": "0.2",
     "name": "Type 1 Ho-Ni I",
-    "gameVersion": "0.2.54.4",
-    "mass": 12778,
+    "gameVersion": "0.2.56.3",
+    "mass": 14120,
     "creationDate": "1943.12.31",
     "class": "",
     "desc": "",
-    "cost": 42697
+    "cost": 43949
   },
   "blueprints": [
     {
@@ -28,25 +28,6 @@
         "saturation": 0.7,
         "condition": 0.5,
         "grime": 0.5
-      }
-    },
-    {
-      "id": 2,
-      "type": "paintJob",
-      "blueprint": {
-        "v": "2.2",
-        "name": "Powertrain",
-        "description": "",
-        "colourMapUrl": "821c5c82-a326-46ca-bfd0-bd2a75830ed7",
-        "scale": 0.5,
-        "roughness": 0.5,
-        "metallic": 0.0,
-        "r": 0.25,
-        "g": 0.4,
-        "b": 0.5,
-        "saturation": 0.75,
-        "condition": 0.75,
-        "grime": 0.0
       }
     },
     {
@@ -91,17 +72,18 @@
       "id": 7,
       "type": "engine",
       "blueprint": {
-        "v": "0.4",
-        "name": null,
+        "v": "0.5",
+        "name": "Type 1 Ho-Ni I",
         "description": null,
-        "cylinders": 6,
+        "cylinders": 12,
         "idleRPM": 600,
-        "cylinderDisplacement": 1.91,
+        "cylinderDisplacement": 1.81,
         "tech": 0.8,
-        "targetMinRPM": 1200,
+        "targetMinRPM": 1100,
         "targetMaxRPM": 2000,
         "torqueCoeff": 0.85,
-        "revLimit": -1
+        "revLimit": -1,
+        "engineLayout": "V"
       }
     },
     {
@@ -113,9 +95,9 @@
         "description": null,
         "meshType": "constantMesh",
         "autoInputTorque": true,
-        "maxInputTorque": 835.6133,
+        "maxInputTorque": 1583.72766,
         "autoResistanceTorque": true,
-        "maxResistanceTorque": 835.6133,
+        "maxResistanceTorque": 1583.72766,
         "finalDriveRatio": 10.0,
         "msrRatioThreshold": 5.3,
         "auxillaryGearRatio": 2.0,
@@ -306,16 +288,16 @@
       "type": "track",
       "blueprint": {
         "v": "1.1",
-        "name": null,
+        "name": "Type 1 Ho-Ni I",
         "description": null,
         "separation": 1419,
         "length": 6000,
-        "brake": 92307,
+        "brake": 112967,
         "autoBrake": true,
         "rollersEnabled": true,
         "matchChassis": false,
         "frontalTransmission": true,
-        "finalDriveRatio": 5.4
+        "finalDriveRatio": 8.429999
       }
     },
     {
@@ -1237,19 +1219,6 @@
       }
     },
     {
-      "id": 0,
-      "type": "paintJobRegister",
-      "blueprint": {
-        "v": "0.0",
-        "name": null,
-        "description": null,
-        "paintJobIDs": [
-          1,
-          2
-        ]
-      }
-    },
-    {
       "id": 74,
       "type": "decalTransform",
       "blueprint": {
@@ -1270,6 +1239,58 @@
         "name": null,
         "description": null,
         "imageURL": "Sprocket/Decals/ALL_Red_Circle.png"
+      }
+    },
+    {
+      "id": 5,
+      "type": "paintJobRegister",
+      "blueprint": {
+        "v": "0.0",
+        "name": null,
+        "description": null,
+        "paintJobIDs": [
+          1,
+          21,
+          22
+        ]
+      }
+    },
+    {
+      "id": 21,
+      "type": "paintJob",
+      "blueprint": {
+        "v": "2.2",
+        "name": "Powertrain",
+        "description": "",
+        "colourMapUrl": "821c5c82-a326-46ca-bfd0-bd2a75830ed7",
+        "scale": 0.5,
+        "roughness": 0.5,
+        "metallic": 0.0,
+        "r": 0.25,
+        "g": 0.4,
+        "b": 0.5,
+        "saturation": 0.75,
+        "condition": 0.75,
+        "grime": 0.0
+      }
+    },
+    {
+      "id": 22,
+      "type": "paintJob",
+      "blueprint": {
+        "v": "2.2",
+        "name": "Interior",
+        "description": "",
+        "colourMapUrl": "",
+        "scale": 0.5,
+        "roughness": 0.6,
+        "metallic": 0.0,
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5,
+        "saturation": 0.5,
+        "condition": -1.0,
+        "grime": 0.0
       }
     }
   ],
@@ -1464,8 +1485,8 @@
           ],
           "modulePositions": [
             -0.4265009,
-            0.434378773,
-            -0.8112781,
+            0.381356955,
+            -0.9137932,
             3.95541321E-07,
             0.299604475,
             1.91195226,
@@ -1504,35 +1525,35 @@
           ],
           "portOffsets": [
             0.0,
-            0.211049065,
-            0.355858028,
+            0.2078391,
+            0.5386846,
             0.0,
-            0.1609584,
-            -0.447464347,
-            0.241345242,
-            0.1609584,
-            0.0756504461,
-            0.03731805,
-            -0.007687524,
-            -0.02215004,
+            0.186839715,
+            -0.519414365,
+            0.332258642,
+            0.186839715,
+            0.08781466,
+            0.0433207154,
+            -0.0136886686,
+            -0.0301771164,
             0.0,
             0.0,
             0.0,
             -2.23517418E-08,
-            0.306030273,
-            2.34300017,
-            -0.241345242,
-            0.1609584,
-            0.0756504461,
-            -0.03731805,
-            -0.007687539,
-            -0.02215004,
+            0.306,
+            2.342987,
+            -0.332258642,
+            0.186839715,
+            0.08781466,
+            -0.0433206558,
+            -0.0136886686,
+            -0.0301771164,
             0.0,
             0.0,
             0.0,
             2.23517418E-08,
-            0.306030273,
-            2.34300017
+            0.306,
+            2.342987
           ],
           "portDirections": [
             0.0,
@@ -1544,9 +1565,9 @@
             1.0,
             0.0,
             0.0,
-            0.846748769,
-            -0.174430385,
-            -0.502583861,
+            0.7942787,
+            -0.250979543,
+            -0.5532908,
             0.0,
             0.0,
             1.0,
@@ -1556,9 +1577,9 @@
             -1.0,
             0.0,
             0.0,
-            -0.846748352,
-            -0.174430549,
-            -0.502584457,
+            -0.794277966,
+            -0.250979722,
+            -0.5532917,
             0.0,
             0.0,
             1.0,
@@ -1616,8 +1637,8 @@
         "mirrorVuid": -1,
         "pos": [
           -0.4265009,
-          0.434378773,
-          -0.8112781
+          0.3813572,
+          -0.9137932
         ],
         "rot": [
           0.0,
@@ -2735,9 +2756,9 @@
           1.42297363
         ],
         "rot": [
-          15.9917717,
+          15.9917746,
           145.7316,
-          0.0,
+          -8.881435E-07,
           0.0
         ],
         "scale": [
@@ -2766,7 +2787,7 @@
         "rot": [
           15.1061707,
           179.767319,
-          -3.45442253E-08,
+          -4.145307E-08,
           0.0
         ],
         "scale": [
@@ -2936,7 +2957,7 @@
         "rot": [
           358.0813,
           179.864929,
-          -2.08557768E-10,
+          0.0,
           0.0
         ],
         "scale": [

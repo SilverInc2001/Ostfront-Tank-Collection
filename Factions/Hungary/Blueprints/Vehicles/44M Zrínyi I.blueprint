@@ -3,12 +3,12 @@
   "header": {
     "v": "0.2",
     "name": "44M Zrínyi I",
-    "gameVersion": "0.2.51.36",
-    "mass": 20880,
+    "gameVersion": "0.2.56.3",
+    "mass": 20885,
     "creationDate": "1941.12.31",
     "class": "",
     "desc": "",
-    "cost": 28430
+    "cost": 28429
   },
   "blueprints": [
     {
@@ -31,25 +31,6 @@
       }
     },
     {
-      "id": 2,
-      "type": "paintJob",
-      "blueprint": {
-        "v": "2.2",
-        "name": "Powertrain",
-        "description": "",
-        "colourMapUrl": "821c5c82-a326-46ca-bfd0-bd2a75830ed7",
-        "scale": 0.5,
-        "roughness": 0.5,
-        "metallic": 0.0,
-        "r": 0.25,
-        "g": 0.4,
-        "b": 0.5,
-        "saturation": 0.75,
-        "condition": 0.75,
-        "grime": 0.0
-      }
-    },
-    {
       "id": 3,
       "type": "chassis",
       "blueprint": {
@@ -65,12 +46,13 @@
       "id": 4,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": null,
         "description": null,
         "armourVolume": 1.54451132,
         "bodyMeshVuid": 0,
         "partRepositioning": true,
+        "collisionEnabled": true,
         "armourTechID": "rha"
       }
     },
@@ -90,17 +72,18 @@
       "id": 7,
       "type": "engine",
       "blueprint": {
-        "v": "0.4",
-        "name": null,
-        "description": null,
+        "v": "0.5",
+        "name": "40M Turán I",
+        "description": "",
         "cylinders": 8,
         "idleRPM": 800,
-        "cylinderDisplacement": 1.861,
+        "cylinderDisplacement": 1.85875,
         "tech": 0.4,
-        "targetMinRPM": 1200,
-        "targetMaxRPM": 2300,
+        "targetMinRPM": 1150,
+        "targetMaxRPM": 2200,
         "torqueCoeff": 0.75,
-        "revLimit": -1
+        "revLimit": -1,
+        "engineLayout": "V"
       }
     },
     {
@@ -112,9 +95,9 @@
         "description": "",
         "meshType": "constantMesh",
         "autoInputTorque": true,
-        "maxInputTorque": 1033.404,
+        "maxInputTorque": 1032.15479,
         "autoResistanceTorque": true,
-        "maxResistanceTorque": 1033.404,
+        "maxResistanceTorque": 1032.15479,
         "finalDriveRatio": 5.3,
         "msrRatioThreshold": 3.4,
         "auxillaryGearRatio": 1.0,
@@ -312,16 +295,16 @@
       "type": "track",
       "blueprint": {
         "v": "1.1",
-        "name": "40M Turán I",
+        "name": "43M Zrínyi II",
         "description": "",
         "separation": 1881,
         "length": 5550,
-        "brake": 167040,
+        "brake": 167081,
         "autoBrake": true,
         "rollersEnabled": true,
         "matchChassis": false,
         "frontalTransmission": false,
-        "finalDriveRatio": 6.2
+        "finalDriveRatio": 5.50999975
       }
     },
     {
@@ -381,12 +364,13 @@
       "id": 38,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": "Unnamed Structure",
         "description": null,
         "armourVolume": 0.0325022861,
         "bodyMeshVuid": 4,
         "partRepositioning": true,
+        "collisionEnabled": false,
         "armourTechID": "rha"
       }
     },
@@ -485,12 +469,13 @@
       "id": 43,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": "Unnamed Structure",
         "description": null,
         "armourVolume": 0.001373957,
         "bodyMeshVuid": 6,
         "partRepositioning": true,
+        "collisionEnabled": false,
         "armourTechID": "rha"
       }
     },
@@ -498,12 +483,13 @@
       "id": 44,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": "Unnamed Structure",
         "description": null,
         "armourVolume": 0.07484953,
         "bodyMeshVuid": 8,
         "partRepositioning": true,
+        "collisionEnabled": false,
         "armourTechID": "rha"
       }
     },
@@ -962,7 +948,7 @@
       }
     },
     {
-      "id": 0,
+      "id": 5,
       "type": "paintJobRegister",
       "blueprint": {
         "v": "0.0",
@@ -970,8 +956,47 @@
         "description": null,
         "paintJobIDs": [
           1,
-          2
+          21,
+          22
         ]
+      }
+    },
+    {
+      "id": 21,
+      "type": "paintJob",
+      "blueprint": {
+        "v": "2.2",
+        "name": "Powertrain",
+        "description": "",
+        "colourMapUrl": "821c5c82-a326-46ca-bfd0-bd2a75830ed7",
+        "scale": 0.5,
+        "roughness": 0.5,
+        "metallic": 0.0,
+        "r": 0.25,
+        "g": 0.4,
+        "b": 0.5,
+        "saturation": 0.75,
+        "condition": 0.75,
+        "grime": 0.0
+      }
+    },
+    {
+      "id": 22,
+      "type": "paintJob",
+      "blueprint": {
+        "v": "2.2",
+        "name": "Interior",
+        "description": "",
+        "colourMapUrl": "",
+        "scale": 0.5,
+        "roughness": 0.6,
+        "metallic": 0.0,
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5,
+        "saturation": 0.5,
+        "condition": -1.0,
+        "grime": 0.0
       }
     }
   ],
@@ -1172,11 +1197,11 @@
             0.006862521,
             -2.12641215,
             -0.9405,
-            0.1434023,
-            -2.19058585,
+            0.1433658,
+            -2.19056869,
             0.9405,
-            0.1434023,
-            -2.19058585,
+            0.1433658,
+            -2.19056869,
             -0.9405,
             0.0,
             0.0,
@@ -1206,15 +1231,15 @@
           ],
           "portOffsets": [
             0.0,
-            0.2083243,
-            0.421471477,
+            0.209688574,
+            0.403257757,
             0.0,
-            0.136539772,
-            -0.379580557,
-            0.418087244,
-            0.136539772,
-            0.06417369,
-            0.0425781,
+            0.136503279,
+            -0.3794791,
+            0.417834431,
+            0.136503279,
+            0.06415654,
+            0.042560935,
             0.0,
             0.0,
             0.0,
@@ -1223,10 +1248,10 @@
             -2.23517418E-08,
             0.0590000153,
             -2.373993,
-            -0.418087244,
-            0.136539772,
-            0.06417369,
-            -0.0425781,
+            -0.417834431,
+            0.136503279,
+            0.06415654,
+            -0.042560935,
             0.0,
             0.0,
             0.0,
@@ -1980,8 +2005,8 @@
         ],
         "rot": [
           358.0891,
-          -1.01834372E-12,
-          0.000138828967,
+          -1.22201251E-12,
+          0.000138828982,
           0.0
         ],
         "scale": [
@@ -2009,7 +2034,7 @@
         "rot": [
           0.0,
           0.0,
-          -2.65762035E-09,
+          0.0,
           0.0
         ],
         "scale": [
@@ -2038,7 +2063,7 @@
         "rot": [
           0.0,
           0.0,
-          -2.65762035E-09,
+          0.0,
           0.0
         ],
         "scale": [
@@ -2067,7 +2092,7 @@
         "rot": [
           0.0,
           0.0,
-          -2.65762035E-09,
+          0.0,
           0.0
         ],
         "scale": [
@@ -2096,7 +2121,7 @@
         "rot": [
           0.0,
           0.0,
-          -2.65762035E-09,
+          0.0,
           0.0
         ],
         "scale": [
@@ -2125,8 +2150,8 @@
         ],
         "rot": [
           5.94671631,
-          5.36495577E-08,
-          14.9975195,
+          1.07299115E-07,
+          14.9975214,
           0.0
         ],
         "scale": [
@@ -2153,7 +2178,7 @@
         ],
         "rot": [
           5.94671631,
-          -2.14598231E-07,
+          -2.682478E-07,
           345.002472,
           0.0
         ],
@@ -2346,7 +2371,7 @@
         "rot": [
           342.788818,
           359.604645,
-          1.55716259E-06,
+          1.55017983E-06,
           0.0
         ],
         "scale": [
@@ -2398,9 +2423,9 @@
           0.318969727
         ],
         "rot": [
-          10.6052752,
+          10.6052742,
           89.83775,
-          -4.343054E-07,
+          -4.34305463E-07,
           0.0
         ],
         "scale": [

@@ -3,12 +3,12 @@
   "header": {
     "v": "0.2",
     "name": "Vz. 44-1",
-    "gameVersion": "0.2.53.2",
-    "mass": 42211,
+    "gameVersion": "0.2.56.3",
+    "mass": 43529,
     "creationDate": "1941.12.31",
     "class": "",
     "desc": "",
-    "cost": 58138
+    "cost": 58881
   },
   "blueprints": [
     {
@@ -28,25 +28,6 @@
         "saturation": 0.5,
         "condition": 0.5,
         "grime": 0.5
-      }
-    },
-    {
-      "id": 2,
-      "type": "paintJob",
-      "blueprint": {
-        "v": "2.2",
-        "name": "Powertrain",
-        "description": "",
-        "colourMapUrl": "821c5c82-a326-46ca-bfd0-bd2a75830ed7",
-        "scale": 0.5,
-        "roughness": 0.5,
-        "metallic": 0.0,
-        "r": 0.25,
-        "g": 0.4,
-        "b": 0.5,
-        "saturation": 0.75,
-        "condition": 0.75,
-        "grime": 0.0
       }
     },
     {
@@ -91,17 +72,18 @@
       "id": 7,
       "type": "engine",
       "blueprint": {
-        "v": "0.4",
-        "name": null,
+        "v": "0.5",
+        "name": "Vz. 44-1",
         "description": null,
         "cylinders": 16,
         "idleRPM": 800,
-        "cylinderDisplacement": 1.56,
+        "cylinderDisplacement": 2.31,
         "tech": 0.4,
-        "targetMinRPM": 1200,
-        "targetMaxRPM": 2100,
+        "targetMinRPM": 1100,
+        "targetMaxRPM": 2200,
         "torqueCoeff": 0.75,
-        "revLimit": -1
+        "revLimit": -1,
+        "engineLayout": "V"
       }
     },
     {
@@ -113,9 +95,9 @@
         "description": null,
         "meshType": "constantMesh",
         "autoInputTorque": true,
-        "maxInputTorque": 1732.52063,
+        "maxInputTorque": 2565.46338,
         "autoResistanceTorque": true,
-        "maxResistanceTorque": 1732.52063,
+        "maxResistanceTorque": 2565.46338,
         "finalDriveRatio": 10.0,
         "msrRatioThreshold": 4.1,
         "auxillaryGearRatio": 1.0,
@@ -308,16 +290,16 @@
       "type": "track",
       "blueprint": {
         "v": "1.1",
-        "name": null,
+        "name": "Vz. 44-1",
         "description": null,
         "separation": 1433,
         "length": 6000,
-        "brake": 337691,
+        "brake": 348234,
         "autoBrake": true,
         "rollersEnabled": true,
         "matchChassis": false,
         "frontalTransmission": false,
-        "finalDriveRatio": 11.9
+        "finalDriveRatio": 12.5099993
       }
     },
     {
@@ -1241,7 +1223,7 @@
       }
     },
     {
-      "id": 5,
+      "id": 0,
       "type": "paintJobRegister",
       "blueprint": {
         "v": "0.0",
@@ -1249,8 +1231,47 @@
         "description": null,
         "paintJobIDs": [
           1,
-          2
+          21,
+          22
         ]
+      }
+    },
+    {
+      "id": 21,
+      "type": "paintJob",
+      "blueprint": {
+        "v": "2.2",
+        "name": "Powertrain",
+        "description": "",
+        "colourMapUrl": "821c5c82-a326-46ca-bfd0-bd2a75830ed7",
+        "scale": 0.5,
+        "roughness": 0.5,
+        "metallic": 0.0,
+        "r": 0.25,
+        "g": 0.4,
+        "b": 0.5,
+        "saturation": 0.75,
+        "condition": 0.75,
+        "grime": 0.0
+      }
+    },
+    {
+      "id": 22,
+      "type": "paintJob",
+      "blueprint": {
+        "v": "2.2",
+        "name": "Interior",
+        "description": "",
+        "colourMapUrl": "",
+        "scale": 0.5,
+        "roughness": 0.6,
+        "metallic": 0.0,
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5,
+        "saturation": 0.5,
+        "condition": -1.0,
+        "grime": 0.0
       }
     }
   ],
@@ -1444,18 +1465,18 @@
             }
           ],
           "modulePositions": [
-            0.0,
-            0.13,
+            -0.436317444,
+            0.6511628,
             -1.4,
             -2.74894845E-08,
             0.229089186,
             -2.814443,
             -0.716500044,
-            0.4116864,
-            -2.90026379,
+            0.430216551,
+            -2.908973,
             0.716500044,
-            0.4116864,
-            -2.90026379,
+            0.430216551,
+            -2.908973,
             -0.716500044,
             0.0,
             0.0,
@@ -1466,7 +1487,7 @@
           "moduleRotations": [
             0.0,
             180.0,
-            0.0,
+            89.99996,
             0.0,
             180.0,
             0.0,
@@ -1485,15 +1506,15 @@
           ],
           "portOffsets": [
             0.0,
-            0.190734416,
-            0.643003643,
+            0.22544387,
+            0.735069454,
             0.0,
-            0.1825972,
-            -0.5076202,
-            0.375205636,
-            0.1825972,
-            0.08582068,
-            0.0531064272,
+            0.201127365,
+            -0.559134066,
+            0.45657593,
+            0.201127365,
+            0.09452986,
+            0.06053078,
             0.0,
             0.0,
             0.0,
@@ -1502,10 +1523,10 @@
             -2.23517418E-08,
             0.353000045,
             -2.79599,
-            -0.375205636,
-            0.1825972,
-            0.08582068,
-            -0.0531064272,
+            -0.45657593,
+            0.201127365,
+            0.09452986,
+            -0.06053078,
             0.0,
             0.0,
             0.0,
@@ -1589,21 +1610,21 @@
       "guid": "ebcf5eda-e50b-4f18-a063-0138a9d630e0",
       "vuid": 9,
       "pvuid": 2,
-      "flags": 2,
+      "flags": 3,
       "engine": 10,
       "powertrainNode": 11,
       "fuelReserve": 12,
       "transform": {
         "mirrorVuid": -1,
         "pos": [
-          0.0,
-          0.13,
+          -0.436317444,
+          0.6511628,
           -1.4
         ],
         "rot": [
           0.0,
           180.0,
-          0.0,
+          89.99996,
           0.0
         ],
         "scale": [
@@ -2211,7 +2232,7 @@
         "rot": [
           359.2235,
           178.446747,
-          8.922086E-08,
+          8.83870257E-08,
           0.0
         ],
         "scale": [
@@ -2376,9 +2397,9 @@
           0.202056885
         ],
         "rot": [
-          2.38661983E-07,
+          2.38661954E-07,
           344.999969,
-          -1.45768536E-06,
+          -1.45768547E-06,
           0.0
         ],
         "scale": [
@@ -2434,7 +2455,7 @@
           -0.45892334
         ],
         "rot": [
-          2.13448885E-07,
+          2.13448857E-07,
           -2.8842792E-10,
           359.845154,
           0.0
@@ -2577,9 +2598,9 @@
           0.590209961
         ],
         "rot": [
-          23.1627884,
+          23.1627922,
           254.660843,
-          7.4290374E-06,
+          9.28629652E-06,
           0.0
         ],
         "scale": [
@@ -2832,7 +2853,7 @@
         ],
         "rot": [
           25.6306324,
-          54.1797829,
+          54.17978,
           298.801971,
           0.0
         ],
@@ -2940,7 +2961,7 @@
         "rot": [
           40.00144,
           180.0,
-          1.32864217E-12,
+          1.46150648E-12,
           0.0
         ],
         "scale": [
@@ -3022,7 +3043,7 @@
         "rot": [
           52.0590477,
           269.9964,
-          -1.38859086E-05,
+          -1.66630889E-05,
           0.0
         ],
         "scale": [
@@ -3049,8 +3070,8 @@
         ],
         "rot": [
           52.05905,
-          90.003624,
-          8.33154354E-06,
+          90.00363,
+          1.666309E-05,
           0.0
         ],
         "scale": [

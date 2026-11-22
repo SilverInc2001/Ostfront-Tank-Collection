@@ -3,8 +3,8 @@
   "header": {
     "v": "0.2",
     "name": "Cruiser Mk VIII Challenger",
-    "gameVersion": "0.2.54.4",
-    "mass": 24827,
+    "gameVersion": "0.2.56.3",
+    "mass": 24836,
     "creationDate": "1945.01.17",
     "class": "",
     "desc": "",
@@ -28,25 +28,6 @@
         "saturation": 0.5,
         "condition": 0.5,
         "grime": 0.5
-      }
-    },
-    {
-      "id": 2,
-      "type": "paintJob",
-      "blueprint": {
-        "v": "2.2",
-        "name": "Powertrain",
-        "description": "",
-        "colourMapUrl": "821c5c82-a326-46ca-bfd0-bd2a75830ed7",
-        "scale": 0.5,
-        "roughness": 0.5,
-        "metallic": 0.0,
-        "r": 0.25,
-        "g": 0.4,
-        "b": 0.5,
-        "saturation": 0.75,
-        "condition": 0.75,
-        "grime": 0.0
       }
     },
     {
@@ -91,17 +72,18 @@
       "id": 7,
       "type": "engine",
       "blueprint": {
-        "v": "0.4",
+        "v": "0.5",
         "name": "Cromwell IV",
         "description": "",
         "cylinders": 12,
         "idleRPM": 600,
         "cylinderDisplacement": 2.25,
         "tech": 1.0,
-        "targetMinRPM": 1500,
+        "targetMinRPM": 1200,
         "targetMaxRPM": 2550,
         "torqueCoeff": 1.0,
-        "revLimit": -1
+        "revLimit": -1,
+        "engineLayout": "V"
       }
     },
     {
@@ -311,12 +293,12 @@
         "description": "",
         "separation": 1821,
         "length": 7120,
-        "brake": 198564,
+        "brake": 198693,
         "autoBrake": true,
         "rollersEnabled": false,
         "matchChassis": false,
         "frontalTransmission": false,
-        "finalDriveRatio": 4.8
+        "finalDriveRatio": 4.82
       }
     },
     {
@@ -1386,7 +1368,7 @@
       }
     },
     {
-      "id": 5,
+      "id": 0,
       "type": "paintJobRegister",
       "blueprint": {
         "v": "0.0",
@@ -1394,8 +1376,47 @@
         "description": null,
         "paintJobIDs": [
           1,
-          2
+          21,
+          22
         ]
+      }
+    },
+    {
+      "id": 21,
+      "type": "paintJob",
+      "blueprint": {
+        "v": "2.2",
+        "name": "Powertrain",
+        "description": "",
+        "colourMapUrl": "821c5c82-a326-46ca-bfd0-bd2a75830ed7",
+        "scale": 0.5,
+        "roughness": 0.5,
+        "metallic": 0.0,
+        "r": 0.25,
+        "g": 0.4,
+        "b": 0.5,
+        "saturation": 0.75,
+        "condition": 0.75,
+        "grime": 0.0
+      }
+    },
+    {
+      "id": 22,
+      "type": "paintJob",
+      "blueprint": {
+        "v": "2.2",
+        "name": "Interior",
+        "description": "",
+        "colourMapUrl": "",
+        "scale": 0.5,
+        "roughness": 0.6,
+        "metallic": 0.0,
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5,
+        "saturation": 0.5,
+        "condition": -1.0,
+        "grime": 0.0
       }
     }
   ],
@@ -1630,8 +1651,8 @@
           ],
           "portOffsets": [
             0.0,
-            0.229064584,
-            0.617827237,
+            0.223474815,
+            0.579209864,
             0.0,
             0.178467572,
             -0.496139824,
@@ -1645,8 +1666,8 @@
             0.0,
             0.0,
             -2.23517418E-08,
-            0.434021,
-            -3.2670002,
+            0.434000075,
+            -3.26699829,
             -0.533676744,
             0.178467572,
             0.0838797539,
@@ -1657,8 +1678,8 @@
             0.0,
             0.0,
             2.23517418E-08,
-            0.434021,
-            -3.2670002
+            0.434000075,
+            -3.26699829
           ],
           "portDirections": [
             0.0,
@@ -2384,7 +2405,7 @@
         ],
         "rot": [
           359.577332,
-          -1.8622859E-07,
+          -1.862286E-07,
           2.524535E-05,
           0.0
         ],
@@ -2435,7 +2456,7 @@
           3.05983257
         ],
         "rot": [
-          0.3611242,
+          0.361124218,
           2.54449443E-14,
           -1.96348847E-05,
           0.0
@@ -3086,7 +3107,7 @@
         "rot": [
           344.237854,
           180.0,
-          -6.874033E-13,
+          -7.402805E-13,
           0.0
         ],
         "scale": [
@@ -3480,7 +3501,7 @@
         "rot": [
           344.237854,
           180.0,
-          -3.172631E-13,
+          -3.70140252E-13,
           0.0
         ],
         "scale": [

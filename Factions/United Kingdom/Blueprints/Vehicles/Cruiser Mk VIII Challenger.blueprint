@@ -3,12 +3,12 @@
   "header": {
     "v": "0.2",
     "name": "Cruiser Mk VIII Challenger",
-    "gameVersion": "0.2.55.5",
-    "mass": 24835,
+    "gameVersion": "0.2.56.3",
+    "mass": 24840,
     "creationDate": "1945.01.17",
     "class": "",
     "desc": "",
-    "cost": 42217
+    "cost": 42219
   },
   "blueprints": [
     {
@@ -72,17 +72,18 @@
       "id": 7,
       "type": "engine",
       "blueprint": {
-        "v": "0.4",
-        "name": "Cromwell IV",
+        "v": "0.5",
+        "name": "Comet I (A34)",
         "description": "",
         "cylinders": 12,
-        "idleRPM": 600,
-        "cylinderDisplacement": 2.25,
+        "idleRPM": 500,
+        "cylinderDisplacement": 2.25322127,
         "tech": 1.0,
-        "targetMinRPM": 1500,
+        "targetMinRPM": 1250,
         "targetMaxRPM": 2550,
         "torqueCoeff": 1.0,
-        "revLimit": -1
+        "revLimit": -1,
+        "engineLayout": "V"
       }
     },
     {
@@ -94,9 +95,9 @@
         "description": "",
         "meshType": "synchromesh",
         "autoInputTorque": true,
-        "maxInputTorque": 2002.07568,
+        "maxInputTorque": 2004.94189,
         "autoResistanceTorque": true,
-        "maxResistanceTorque": 2002.07568,
+        "maxResistanceTorque": 2004.94189,
         "finalDriveRatio": 3.93,
         "msrRatioThreshold": 4.8,
         "auxillaryGearRatio": 1.0,
@@ -292,7 +293,7 @@
         "description": "",
         "separation": 1821,
         "length": 7120,
-        "brake": 198562,
+        "brake": 198721,
         "autoBrake": true,
         "rollersEnabled": false,
         "matchChassis": false,
@@ -1390,20 +1391,6 @@
       }
     },
     {
-      "id": 5,
-      "type": "paintJobRegister",
-      "blueprint": {
-        "v": "0.0",
-        "name": null,
-        "description": null,
-        "paintJobIDs": [
-          1,
-          21,
-          22
-        ]
-      }
-    },
-    {
       "id": 21,
       "type": "paintJob",
       "blueprint": {
@@ -1439,6 +1426,20 @@
         "saturation": 0.5,
         "condition": -1.0,
         "grime": 0.0
+      }
+    },
+    {
+      "id": 0,
+      "type": "paintJobRegister",
+      "blueprint": {
+        "v": "0.0",
+        "name": null,
+        "description": null,
+        "paintJobIDs": [
+          1,
+          21,
+          22
+        ]
       }
     }
   ],
@@ -1639,11 +1640,11 @@
             0.354639,
             -3.13957167,
             -0.91050005,
-            0.533106565,
-            -3.22345138,
+            0.5331682,
+            -3.22348022,
             0.91050005,
-            0.533106565,
-            -3.22345138,
+            0.5331682,
+            -3.22348046,
             -0.91050005,
             0.0,
             0.0,
@@ -1673,35 +1674,35 @@
           ],
           "portOffsets": [
             0.0,
-            0.229064584,
-            0.617827237,
+            0.2235814,
+            0.5794861,
             0.0,
-            0.178467572,
-            -0.496139824,
-            0.533676744,
-            0.178467572,
-            0.0838797539,
-            0.0564010739,
+            0.178529173,
+            -0.496311069,
+            0.53405863,
+            0.178529173,
+            0.08390871,
+            0.0564279556,
             0.0,
             0.0,
             0.0,
             0.0,
             0.0,
             -2.23517418E-08,
-            0.434000075,
-            -3.26699829,
-            -0.533676744,
-            0.178467572,
-            0.0838797539,
-            -0.0564010739,
+            0.434021,
+            -3.2670002,
+            -0.53405863,
+            0.178529173,
+            0.08390871,
+            -0.0564279556,
             0.0,
             0.0,
             0.0,
             0.0,
             0.0,
             2.23517418E-08,
-            0.434000075,
-            -3.26699829
+            0.434021,
+            -3.2670002
           ],
           "portDirections": [
             0.0,
@@ -2427,7 +2428,7 @@
         ],
         "rot": [
           359.577332,
-          -1.8622859E-07,
+          -1.862286E-07,
           2.524535E-05,
           0.0
         ],
@@ -2478,7 +2479,7 @@
           3.06041241
         ],
         "rot": [
-          0.3611242,
+          0.361124218,
           3.81674164E-14,
           -1.96348847E-05,
           0.0
@@ -3129,7 +3130,7 @@
         "rot": [
           344.237854,
           180.0,
-          -7.402805E-13,
+          -7.931577E-13,
           0.0
         ],
         "scale": [
@@ -3158,7 +3159,7 @@
         "rot": [
           344.237854,
           180.0,
-          -7.402805E-13,
+          -7.931577E-13,
           0.0
         ],
         "scale": [
@@ -3332,7 +3333,7 @@
         "rot": [
           344.237854,
           180.0,
-          -7.402805E-13,
+          -7.931577E-13,
           0.0
         ],
         "scale": [

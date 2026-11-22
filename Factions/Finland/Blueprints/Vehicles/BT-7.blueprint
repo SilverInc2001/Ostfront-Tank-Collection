@@ -3,12 +3,12 @@
   "header": {
     "v": "0.2",
     "name": "BT-7",
-    "gameVersion": "0.2.55.5",
-    "mass": 12856,
+    "gameVersion": "0.2.56.3",
+    "mass": 14591,
     "creationDate": "1941.12.31",
     "class": "",
     "desc": "",
-    "cost": 21309
+    "cost": 23080
   },
   "blueprints": [
     {
@@ -72,17 +72,18 @@
       "id": 7,
       "type": "engine",
       "blueprint": {
-        "v": "0.4",
-        "name": null,
-        "description": null,
+        "v": "0.5",
+        "name": "BT-7",
+        "description": "",
         "cylinders": 12,
         "idleRPM": 900,
-        "cylinderDisplacement": 2.27,
+        "cylinderDisplacement": 3.18,
         "tech": 0.4,
-        "targetMinRPM": 1200,
-        "targetMaxRPM": 1750,
+        "targetMinRPM": 1000,
+        "targetMaxRPM": 2000,
         "torqueCoeff": 0.75,
-        "revLimit": -1
+        "revLimit": -1,
+        "engineLayout": "V"
       }
     },
     {
@@ -90,15 +91,15 @@
       "type": "transmission",
       "blueprint": {
         "v": "0.7",
-        "name": "BT",
+        "name": "BT-7",
         "description": "",
         "meshType": "slidingMesh",
         "autoInputTorque": true,
-        "maxInputTorque": 1890.77991,
+        "maxInputTorque": 2648.75781,
         "autoResistanceTorque": true,
-        "maxResistanceTorque": 1890.77991,
+        "maxResistanceTorque": 2648.75781,
         "finalDriveRatio": 3.67,
-        "msrRatioThreshold": 7.20000029,
+        "msrRatioThreshold": 8.6,
         "auxillaryGearRatio": 1.0,
         "auxiliaryMsrRatioThreshold": 1.5,
         "d": [
@@ -287,16 +288,16 @@
       "type": "track",
       "blueprint": {
         "v": "1.1",
-        "name": "BT-5",
+        "name": "BT-7",
         "description": "",
         "separation": 1375,
         "length": 6000,
-        "brake": 102848,
+        "brake": 116728,
         "autoBrake": true,
         "rollersEnabled": false,
         "matchChassis": false,
         "frontalTransmission": false,
-        "finalDriveRatio": 3.12
+        "finalDriveRatio": 3.95
       }
     },
     {
@@ -451,19 +452,19 @@
       "type": "cannon",
       "blueprint": {
         "v": "1.9",
-        "name": "37 mm B-3 (5-K) Gun",
+        "name": "45 mm 20-K",
         "description": "",
-        "caliber": 37,
-        "breechLength": 250,
-        "muzzle": "",
+        "caliber": 45,
+        "breechLength": 310,
+        "muzzle": "34c1eda8-bcff-4879-89df-1e826cce8b51",
         "segments": [
           {
             "v": "0.0",
             "segments": [
               {
-                "t0": 25,
-                "t1": 16,
-                "l": 510
+                "t0": 35,
+                "t1": 35,
+                "l": 810
               }
             ]
           },
@@ -471,9 +472,19 @@
             "v": "0.0",
             "segments": [
               {
-                "t0": 12,
-                "t1": 5,
-                "l": 700
+                "t0": 25,
+                "t1": 25,
+                "l": 430
+              },
+              {
+                "t0": 25,
+                "t1": 10,
+                "l": 100
+              },
+              {
+                "t0": 10,
+                "t1": 8,
+                "l": 730
               }
             ]
           }
@@ -491,8 +502,8 @@
         "v": "0.0",
         "name": null,
         "description": null,
-        "diameter": 37,
-        "propellantLength": 250,
+        "diameter": 45,
+        "propellantLength": 310,
         "generatedProjectiles": [
           {
             "projectileTypeGuid": "0f59884e-3ccc-4993-80c7-b61f4721b9d3",
@@ -506,7 +517,7 @@
               {
                 "id": "Propellant",
                 "definition": {
-                  "length": 250
+                  "length": 310
                 }
               }
             ]
@@ -776,8 +787,8 @@
         "v": "1.2",
         "name": null,
         "description": null,
-        "diameter": 37,
-        "length": 361,
+        "diameter": 45,
+        "length": 445,
         "x": 323,
         "y": 119,
         "z": 428,
@@ -792,11 +803,11 @@
         "v": "1.2",
         "name": null,
         "description": null,
-        "diameter": 37,
-        "length": 361,
+        "diameter": 45,
+        "length": 445,
         "x": 887,
-        "y": 37,
-        "z": 428,
+        "y": 46,
+        "z": 445,
         "shellTypeGuid": "0f59884e-3ccc-4993-80c7-b61f4721b9d3",
         "shellID": 52
       }
@@ -878,8 +889,8 @@
         "v": "1.2",
         "name": null,
         "description": null,
-        "diameter": 37,
-        "length": 361,
+        "diameter": 45,
+        "length": 445,
         "x": 430,
         "y": 119,
         "z": 428,
@@ -894,8 +905,8 @@
         "v": "1.2",
         "name": null,
         "description": null,
-        "diameter": 37,
-        "length": 361,
+        "diameter": 45,
+        "length": 445,
         "x": 213,
         "y": 131,
         "z": 428,
@@ -910,8 +921,8 @@
         "v": "1.2",
         "name": null,
         "description": null,
-        "diameter": 37,
-        "length": 361,
+        "diameter": 45,
+        "length": 445,
         "x": 145,
         "y": 257,
         "z": 428,
@@ -1032,8 +1043,8 @@
         "v": "1.2",
         "name": null,
         "description": null,
-        "diameter": 37,
-        "length": 361,
+        "diameter": 45,
+        "length": 445,
         "x": 782,
         "y": 135,
         "z": 428,
@@ -1134,20 +1145,6 @@
       }
     },
     {
-      "id": 0,
-      "type": "paintJobRegister",
-      "blueprint": {
-        "v": "0.0",
-        "name": null,
-        "description": null,
-        "paintJobIDs": [
-          1,
-          21,
-          22
-        ]
-      }
-    },
-    {
       "id": 21,
       "type": "paintJob",
       "blueprint": {
@@ -1190,12 +1187,26 @@
       "type": "coilSpring",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "springLength": 500,
-        "endSpringLengthMultiplier": 0.75,
+        "endSpringLengthMultiplier": 1.0,
         "springDiameter": 150,
         "springAngle": 0
+      }
+    },
+    {
+      "id": 2,
+      "type": "paintJobRegister",
+      "blueprint": {
+        "v": "0.0",
+        "name": null,
+        "description": null,
+        "paintJobIDs": [
+          1,
+          21,
+          22
+        ]
       }
     }
   ],
@@ -1390,11 +1401,11 @@
           ],
           "modulePositions": [
             -0.4309551,
-            0.624303,
-            -0.555293441,
-            7.46395E-08,
+            0.608897865,
+            -0.71447444,
+            6.072346E-08,
             0.23093769,
-            -1.646223,
+            -1.805404,
             -0.653219759,
             0.273989618,
             -1.9818064,
@@ -1430,29 +1441,29 @@
           ],
           "portOffsets": [
             0.0,
-            0.2300804,
-            0.6205671,
+            0.25078994,
+            0.6500061,
             0.0,
-            0.257633984,
-            -0.7162225,
-            0.5919919,
-            0.257633984,
-            0.121087976,
-            0.0110360384,
-            0.0386774838,
-            0.0386618376,
+            0.306974471,
+            -0.853388965,
+            0.6273101,
+            0.306974471,
+            0.14427799,
+            0.00605469942,
+            0.0616748333,
+            0.007507086,
             0.0,
             0.0,
             0.0,
             -2.23517418E-08,
             0.262000084,
             -2.18798828,
-            -0.5919919,
-            0.257633984,
-            0.121087976,
-            -0.0110360384,
-            0.0386774838,
-            0.0386618376,
+            -0.6273101,
+            0.306974471,
+            0.14427799,
+            -0.00605469942,
+            0.0616748333,
+            0.00750696659,
             0.0,
             0.0,
             0.0,
@@ -1470,9 +1481,9 @@
             1.0,
             0.0,
             0.0,
-            0.197815686,
-            0.693273544,
-            0.692994058,
+            0.09699297,
+            0.9879932,
+            0.120258048,
             0.0,
             0.0,
             1.0,
@@ -1482,9 +1493,9 @@
             -1.0,
             0.0,
             0.0,
-            -0.197815359,
-            0.6932738,
-            0.6929939,
+            -0.09699252,
+            0.9879932,
+            0.1202576,
             0.0,
             0.0,
             1.0,
@@ -1542,8 +1553,8 @@
         "mirrorVuid": -1,
         "pos": [
           -0.4309551,
-          0.624303,
-          -0.555293441
+          0.608897865,
+          -0.71447444
         ],
         "rot": [
           0.0,
@@ -1569,9 +1580,9 @@
       "transform": {
         "mirrorVuid": -1,
         "pos": [
-          7.46395E-08,
+          6.072346E-08,
           0.23093769,
-          -1.646223
+          -1.805404
         ],
         "rot": [
           0.0,
@@ -2049,7 +2060,7 @@
         "scale": [
           0.323,
           0.119,
-          0.428000033
+          0.445000023
         ]
       },
       "ammoRackBlueprintVuid": 46
@@ -2077,7 +2088,7 @@
         "scale": [
           0.43,
           0.119,
-          0.428000033
+          0.445000023
         ]
       },
       "ammoRackBlueprintVuid": 31
@@ -2380,7 +2391,7 @@
         "rot": [
           350.999542,
           180.0,
-          -1.54569825E-13,
+          -2.31854737E-13,
           0.0
         ],
         "scale": [
@@ -2404,8 +2415,8 @@
         "mirrorVuid": -1,
         "pos": [
           -0.0273742732,
-          0.00177657581,
-          0.0516357422
+          0.00177669525,
+          -0.387542725
         ],
         "rot": [
           0.0,
@@ -2459,7 +2470,7 @@
         "pos": [
           0.0,
           0.0,
-          0.51000005
+          0.810000062
         ],
         "rot": [
           0.0,
@@ -2568,8 +2579,8 @@
         "mirrorVuid": -1,
         "pos": [
           6.792456E-09,
-          0.1279144,
-          -0.8329468
+          0.139287919,
+          -0.7686157
         ],
         "rot": [
           0.0,
@@ -2580,7 +2591,7 @@
         "scale": [
           0.213000014,
           0.131000012,
-          0.428000033
+          0.445000023
         ]
       },
       "ammoRackBlueprintVuid": 37
@@ -2596,8 +2607,8 @@
         "mirrorVuid": 342,
         "pos": [
           -0.2824191,
-          0.127616614,
-          -0.8477783
+          0.138990134,
+          -0.783447266
         ],
         "rot": [
           0.0,
@@ -2608,7 +2619,7 @@
         "scale": [
           0.145000011,
           0.257,
-          0.428000033
+          0.445000023
         ]
       },
       "ammoRackBlueprintVuid": 38
@@ -2624,8 +2635,8 @@
         "mirrorVuid": 213,
         "pos": [
           0.2824191,
-          0.127616614,
-          -0.8477783
+          0.138990134,
+          -0.783447266
         ],
         "rot": [
           0.0,
@@ -2636,7 +2647,7 @@
         "scale": [
           0.145000011,
           0.257,
-          0.428000033
+          0.445000023
         ]
       },
       "ammoRackBlueprintVuid": 38
@@ -2657,8 +2668,8 @@
         ],
         "rot": [
           14.8740892,
-          106.847206,
-          2.65012045E-06,
+          106.847214,
+          5.300241E-06,
           0.0
         ],
         "scale": [
@@ -2687,7 +2698,7 @@
         "rot": [
           14.8740892,
           253.152786,
-          -2.20843367E-06,
+          -5.300241E-06,
           0.0
         ],
         "scale": [
@@ -2714,9 +2725,9 @@
           -0.08029175
         ],
         "rot": [
-          14.8553658,
+          14.85537,
           84.5962143,
-          -3.53318774E-06,
+          -5.2997807E-06,
           0.0
         ],
         "scale": [
@@ -2767,14 +2778,14 @@
       "transform": {
         "mirrorVuid": 165,
         "pos": [
-          -0.246690318,
+          -0.246690571,
           -0.7225342,
           -0.318328857
         ],
         "rot": [
-          5.63868525E-08,
-          15.0000467,
-          -1.94871639E-08,
+          2.15099845E-07,
+          15.0000448,
+          1.40786938E-09,
           0.0
         ],
         "scale": [
@@ -2796,14 +2807,14 @@
       "transform": {
         "mirrorVuid": 162,
         "pos": [
-          0.300031751,
+          0.300031662,
           -0.7225342,
           -0.318328857
         ],
         "rot": [
-          -5.29043476E-08,
+          -2.15099845E-07,
           344.999969,
-          6.96500946E-09,
+          1.40786138E-09,
           0.0
         ],
         "scale": [
@@ -2825,7 +2836,7 @@
       "transform": {
         "mirrorVuid": -1,
         "pos": [
-          -5.960466E-06,
+          -6.10202551E-06,
           0.0536499023,
           1.73205566
         ],
@@ -3086,8 +3097,8 @@
         ],
         "scale": [
           0.887,
-          0.037,
-          0.428000033
+          0.0460000038,
+          0.445000023
         ]
       },
       "ammoRackBlueprintVuid": 57
@@ -3114,8 +3125,8 @@
         ],
         "scale": [
           0.887,
-          0.037,
-          0.428000033
+          0.0460000038,
+          0.445000023
         ]
       },
       "ammoRackBlueprintVuid": 57
@@ -3201,7 +3212,7 @@
         "scale": [
           0.782000065,
           0.135,
-          0.428000033
+          0.445000023
         ]
       },
       "ammoRackBlueprintVuid": 74
@@ -3229,7 +3240,7 @@
         "scale": [
           0.782000065,
           0.135,
-          0.428000033
+          0.445000023
         ]
       },
       "ammoRackBlueprintVuid": 74

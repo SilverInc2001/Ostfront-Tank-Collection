@@ -3,8 +3,8 @@
   "header": {
     "v": "0.2",
     "name": "Crusader A15 ",
-    "gameVersion": "0.2.55.5",
-    "mass": 14331,
+    "gameVersion": "0.2.56.3",
+    "mass": 14332,
     "creationDate": "1941.12.31",
     "class": "",
     "desc": "",
@@ -72,17 +72,18 @@
       "id": 7,
       "type": "engine",
       "blueprint": {
-        "v": "0.4",
-        "name": null,
-        "description": null,
+        "v": "0.5",
+        "name": "Crusader A15",
+        "description": "",
         "cylinders": 12,
         "idleRPM": 800,
         "cylinderDisplacement": 2.25,
         "tech": 0.4,
-        "targetMinRPM": 1000,
-        "targetMaxRPM": 1500,
+        "targetMinRPM": 950,
+        "targetMaxRPM": 1650,
         "torqueCoeff": 0.75,
-        "revLimit": -1
+        "revLimit": -1,
+        "engineLayout": "V"
       }
     },
     {
@@ -291,12 +292,12 @@
         "description": "",
         "separation": 1763,
         "length": 6000,
-        "brake": 114650,
+        "brake": 114657,
         "autoBrake": true,
         "rollersEnabled": false,
         "matchChassis": false,
         "frontalTransmission": false,
-        "finalDriveRatio": 5.0
+        "finalDriveRatio": 5.46
       }
     },
     {
@@ -1522,20 +1523,6 @@
       }
     },
     {
-      "id": 5,
-      "type": "paintJobRegister",
-      "blueprint": {
-        "v": "0.0",
-        "name": null,
-        "description": null,
-        "paintJobIDs": [
-          1,
-          21,
-          22
-        ]
-      }
-    },
-    {
       "id": 21,
       "type": "paintJob",
       "blueprint": {
@@ -1578,12 +1565,26 @@
       "type": "coilSpring",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "springLength": 500,
         "endSpringLengthMultiplier": 1.0,
         "springDiameter": 150,
         "springAngle": 0
+      }
+    },
+    {
+      "id": 2,
+      "type": "paintJobRegister",
+      "blueprint": {
+        "v": "0.0",
+        "name": null,
+        "description": null,
+        "paintJobIDs": [
+          1,
+          21,
+          22
+        ]
       }
     }
   ],
@@ -1818,8 +1819,8 @@
           ],
           "portOffsets": [
             0.0,
-            0.229064584,
-            0.617827237,
+            0.223474815,
+            0.579209864,
             0.0,
             0.1521409,
             -0.4229517,
@@ -2316,9 +2317,9 @@
           1.76953125
         ],
         "rot": [
-          8.15136,
+          8.151361,
           359.051971,
-          -6.064364E-08,
+          -7.412001E-08,
           0.0
         ],
         "scale": [
@@ -2402,7 +2403,7 @@
         ],
         "rot": [
           352.0023,
-          -5.337808E-07,
+          -5.33781E-07,
           -1.61763118E-08,
           0.0
         ],
@@ -2882,9 +2883,9 @@
           0.105529785
         ],
         "rot": [
-          -1.28856694E-08,
+          -1.2885673E-08,
           29.9999943,
-          -3.45270168E-09,
+          -3.45270212E-09,
           0.0
         ],
         "scale": [
@@ -3081,7 +3082,7 @@
           0.673187256
         ],
         "rot": [
-          6.99965239,
+          6.99965334,
           180.0,
           -7.69065E-14,
           0.0
@@ -3197,7 +3198,7 @@
         "rot": [
           -2.561321E-06,
           90.00003,
-          7.54458427,
+          7.544583,
           0.0
         ],
         "scale": [
@@ -3874,7 +3875,7 @@
         ],
         "rot": [
           350.865143,
-          1.26960158,
+          1.26960182,
           359.383636,
           0.0
         ],

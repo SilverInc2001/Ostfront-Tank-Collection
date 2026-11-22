@@ -3,12 +3,12 @@
   "header": {
     "v": "0.2",
     "name": "Churchill Mk.III",
-    "gameVersion": "0.2.51.36",
-    "mass": 42424,
+    "gameVersion": "0.2.56.3",
+    "mass": 42724,
     "creationDate": "1943.12.31",
     "class": "",
     "desc": "",
-    "cost": 49226
+    "cost": 49284
   },
   "blueprints": [
     {
@@ -31,25 +31,6 @@
       }
     },
     {
-      "id": 2,
-      "type": "paintJob",
-      "blueprint": {
-        "v": "2.2",
-        "name": "Powertrain",
-        "description": "",
-        "colourMapUrl": "821c5c82-a326-46ca-bfd0-bd2a75830ed7",
-        "scale": 0.5,
-        "roughness": 0.5,
-        "metallic": 0.0,
-        "r": 0.25,
-        "g": 0.4,
-        "b": 0.5,
-        "saturation": 0.75,
-        "condition": 0.75,
-        "grime": 0.0
-      }
-    },
-    {
       "id": 3,
       "type": "chassis",
       "blueprint": {
@@ -65,12 +46,13 @@
       "id": 4,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": null,
         "description": null,
         "armourVolume": 2.918471,
         "bodyMeshVuid": 0,
         "partRepositioning": false,
+        "collisionEnabled": true,
         "armourTechID": "rha"
       }
     },
@@ -90,17 +72,18 @@
       "id": 7,
       "type": "engine",
       "blueprint": {
-        "v": "0.4",
+        "v": "0.5",
         "name": "Churchill Mk.II",
         "description": "",
         "cylinders": 12,
         "idleRPM": 800,
         "cylinderDisplacement": 1.77,
         "tech": 0.8,
-        "targetMinRPM": 1000,
+        "targetMinRPM": 1100,
         "targetMaxRPM": 2200,
         "torqueCoeff": 0.85,
-        "revLimit": -1
+        "revLimit": -1,
+        "engineLayout": "V"
       }
     },
     {
@@ -171,7 +154,7 @@
         "scale": 0.0,
         "x": 0,
         "y": 307,
-        "z": -339,
+        "z": -340,
         "rearFacing": false
       }
     },
@@ -305,16 +288,16 @@
       "type": "track",
       "blueprint": {
         "v": "1.1",
-        "name": "c",
+        "name": "Churchill Mk.II",
         "description": "",
         "separation": 1563,
         "length": 7440,
-        "brake": 339393,
+        "brake": 339442,
         "autoBrake": true,
         "rollersEnabled": true,
         "matchChassis": false,
         "frontalTransmission": false,
-        "finalDriveRatio": 11.0
+        "finalDriveRatio": 9.96
       }
     },
     {
@@ -413,12 +396,13 @@
       "id": 43,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": "Unnamed Structure",
         "description": null,
         "armourVolume": 1.05078149,
         "bodyMeshVuid": 3,
         "partRepositioning": true,
+        "collisionEnabled": true,
         "armourTechID": "rha"
       }
     },
@@ -542,12 +526,13 @@
       "id": 49,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": "Unnamed Structure",
         "description": null,
         "armourVolume": 0.0465629473,
         "bodyMeshVuid": 5,
         "partRepositioning": true,
+        "collisionEnabled": false,
         "armourTechID": "rha"
       }
     },
@@ -1109,12 +1094,13 @@
       "id": 106,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": "Unnamed Structure",
         "description": null,
         "armourVolume": 0.008567678,
         "bodyMeshVuid": 9,
         "partRepositioning": true,
+        "collisionEnabled": false,
         "armourTechID": "rha"
       }
     },
@@ -1122,12 +1108,13 @@
       "id": 32,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": "Unnamed Structure",
         "description": null,
         "armourVolume": 0.00267395633,
         "bodyMeshVuid": 6,
         "partRepositioning": true,
+        "collisionEnabled": false,
         "armourTechID": "rha"
       }
     },
@@ -1135,12 +1122,13 @@
       "id": 31,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": "Unnamed Structure",
         "description": null,
         "armourVolume": 0.000414548151,
         "bodyMeshVuid": 2,
         "partRepositioning": true,
+        "collisionEnabled": false,
         "armourTechID": "rha"
       }
     },
@@ -1148,12 +1136,13 @@
       "id": 33,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": "Unnamed Structure",
         "description": null,
         "armourVolume": 0.00335729169,
         "bodyMeshVuid": 4,
         "partRepositioning": true,
+        "collisionEnabled": false,
         "armourTechID": "rha"
       }
     },
@@ -1381,7 +1370,45 @@
       }
     },
     {
-      "id": 5,
+      "id": 21,
+      "type": "paintJob",
+      "blueprint": {
+        "v": "2.2",
+        "name": "Powertrain",
+        "description": "",
+        "colourMapUrl": "821c5c82-a326-46ca-bfd0-bd2a75830ed7",
+        "scale": 0.5,
+        "roughness": 0.5,
+        "metallic": 0.0,
+        "r": 0.25,
+        "g": 0.4,
+        "b": 0.5,
+        "saturation": 0.75,
+        "condition": 0.75,
+        "grime": 0.0
+      }
+    },
+    {
+      "id": 22,
+      "type": "paintJob",
+      "blueprint": {
+        "v": "2.2",
+        "name": "Interior",
+        "description": "",
+        "colourMapUrl": "",
+        "scale": 0.5,
+        "roughness": 0.6,
+        "metallic": 0.0,
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5,
+        "saturation": 0.5,
+        "condition": -1.0,
+        "grime": 0.0
+      }
+    },
+    {
+      "id": 2,
       "type": "paintJobRegister",
       "blueprint": {
         "v": "0.0",
@@ -1389,8 +1416,21 @@
         "description": null,
         "paintJobIDs": [
           1,
-          2
+          21,
+          22
         ]
+      }
+    },
+    {
+      "id": 51,
+      "type": "fuelTank",
+      "blueprint": {
+        "v": "0.0",
+        "name": null,
+        "description": null,
+        "x": 576,
+        "y": 535,
+        "z": 1107
       }
     }
   ],
@@ -1439,7 +1479,7 @@
         "rot": [
           0.0,
           0.0,
-          -1.21416788E-08,
+          0.0,
           0.0
         ],
         "scale": [
@@ -1468,7 +1508,7 @@
         "rot": [
           0.0,
           0.0,
-          -1.21416788E-08,
+          0.0,
           0.0
         ],
         "scale": [
@@ -1592,34 +1632,6 @@
       "ammoRackBlueprintVuid": 71
     },
     {
-      "guid": "5e8ab5c7-e9f1-4c64-a04a-29efc78b1918",
-      "vuid": 493,
-      "pvuid": 0,
-      "flags": 3,
-      "fuelTank": 494,
-      "model": 495,
-      "transform": {
-        "mirrorVuid": -1,
-        "pos": [
-          -1.11914837,
-          -0.09400022,
-          -1.64221191
-        ],
-        "rot": [
-          0.0,
-          0.0,
-          0.0,
-          0.0
-        ],
-        "scale": [
-          0.57666564,
-          0.535598755,
-          1.10726583
-        ]
-      },
-      "fuelTankBlueprintVuid": 78
-    },
-    {
       "guid": "ecd3341c-f605-4816-946c-591eaa7e4f7d",
       "vuid": 496,
       "pvuid": 0,
@@ -1680,21 +1692,21 @@
       "guid": "ebcf5eda-e50b-4f18-a063-0138a9d630e0",
       "vuid": 9,
       "pvuid": 0,
-      "flags": 2,
+      "flags": 3,
       "engine": 10,
       "powertrainNode": 11,
       "fuelReserve": 12,
       "transform": {
         "mirrorVuid": -1,
         "pos": [
-          2.82474346E-08,
-          -0.215373471,
-          -1.676887
+          -0.431336224,
+          0.249190867,
+          -1.55399227
         ],
         "rot": [
           0.0,
           180.0,
-          0.0,
+          90.0,
           0.0
         ],
         "scale": [
@@ -1792,7 +1804,7 @@
         "pos": [
           -0.1,
           0.307,
-          3.38100028
+          3.38000035
         ],
         "rot": [
           0.0,
@@ -1954,7 +1966,7 @@
         "pos": [
           0.1,
           0.307,
-          3.38100028
+          3.38000035
         ],
         "rot": [
           0.0,
@@ -2191,9 +2203,9 @@
             }
           ],
           "modulePositions": [
-            2.82474346E-08,
-            -0.215373471,
-            -1.676887,
+            -0.431336224,
+            0.249190867,
+            -1.55399227,
             -2.85039086E-08,
             0.248218924,
             -3.07604671,
@@ -2213,7 +2225,7 @@
           "moduleRotations": [
             0.0,
             180.0,
-            0.0,
+            90.0,
             0.0,
             180.0,
             0.0,
@@ -2232,8 +2244,8 @@
           ],
           "portOffsets": [
             0.0,
-            0.2031671,
-            0.547977149,
+            0.206296638,
+            0.5346868,
             0.0,
             0.130194709,
             -0.3619413,
@@ -2247,8 +2259,8 @@
             0.0,
             0.0,
             -2.23517418E-08,
-            0.312000036,
-            -3.11801147,
+            0.312011719,
+            -3.11800027,
             -0.76017046,
             0.130194709,
             0.0611915141,
@@ -2259,8 +2271,8 @@
             0.0,
             0.0,
             2.23517418E-08,
-            0.312000036,
-            -3.11801147
+            0.312011719,
+            -3.11800027
           ],
           "portDirections": [
             0.0,
@@ -2714,7 +2726,7 @@
           0.748504639
         ],
         "rot": [
-          0.3192837,
+          0.319283754,
           1.27224162E-14,
           -2.17018078E-05,
           0.0
@@ -3019,7 +3031,7 @@
         "rot": [
           0.002055032,
           260.048645,
-          3.12661258E-10,
+          4.16881668E-10,
           0.0
         ],
         "scale": [
@@ -3245,11 +3257,11 @@
         "mirrorVuid": -1,
         "pos": [
           0.494172633,
-          -1.12866223,
+          -1.12866211,
           -0.531494141
         ],
         "rot": [
-          -3.07561822E-05,
+          -3.075618E-05,
           314.999756,
           7.74569E-05,
           0.0
@@ -3280,7 +3292,7 @@
         "rot": [
           0.0,
           0.0,
-          -1.21416788E-08,
+          0.0,
           0.0
         ],
         "scale": [
@@ -3309,7 +3321,7 @@
         "rot": [
           -3.464068E-08,
           45.0001373,
-          -3.51917651E-09,
+          -3.519178E-09,
           0.0
         ],
         "scale": [
@@ -3514,6 +3526,62 @@
         ]
       },
       "ammoRackBlueprintVuid": 66
+    },
+    {
+      "guid": "5e8ab5c7-e9f1-4c64-a04a-29efc78b1918",
+      "vuid": 493,
+      "pvuid": 0,
+      "flags": 7,
+      "fuelTank": 494,
+      "model": 495,
+      "transform": {
+        "mirrorVuid": 360,
+        "pos": [
+          -1.10795271,
+          -0.08415735,
+          -1.524353
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          0.57666564,
+          0.535598755,
+          1.10726583
+        ]
+      },
+      "fuelTankBlueprintVuid": 78
+    },
+    {
+      "guid": "5e8ab5c7-e9f1-4c64-a04a-29efc78b1918",
+      "vuid": 360,
+      "pvuid": 0,
+      "flags": 6,
+      "fuelTank": 361,
+      "model": 366,
+      "transform": {
+        "mirrorVuid": 493,
+        "pos": [
+          1.10795271,
+          -0.08415735,
+          -1.524353
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          0.57666564,
+          0.535598755,
+          1.10726583
+        ]
+      },
+      "fuelTankBlueprintVuid": 51
     }
   ],
   "meshes": [

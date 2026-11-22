@@ -3,12 +3,12 @@
   "header": {
     "v": "0.2",
     "name": "Crusader Mk.II ",
-    "gameVersion": "0.2.55.5",
-    "mass": 14928,
+    "gameVersion": "0.2.56.3",
+    "mass": 14929,
     "creationDate": "1941.12.31",
     "class": "",
     "desc": "",
-    "cost": 39328
+    "cost": 39329
   },
   "blueprints": [
     {
@@ -72,17 +72,18 @@
       "id": 7,
       "type": "engine",
       "blueprint": {
-        "v": "0.4",
-        "name": null,
-        "description": null,
+        "v": "0.5",
+        "name": "Crusader A15",
+        "description": "",
         "cylinders": 12,
         "idleRPM": 800,
         "cylinderDisplacement": 2.25,
         "tech": 0.4,
-        "targetMinRPM": 1000,
-        "targetMaxRPM": 1500,
+        "targetMinRPM": 950,
+        "targetMaxRPM": 1650,
         "torqueCoeff": 0.75,
-        "revLimit": -1
+        "revLimit": -1,
+        "engineLayout": "V"
       }
     },
     {
@@ -291,12 +292,12 @@
         "description": "",
         "separation": 1763,
         "length": 6000,
-        "brake": 119430,
+        "brake": 119437,
         "autoBrake": true,
         "rollersEnabled": false,
         "matchChassis": false,
         "frontalTransmission": false,
-        "finalDriveRatio": 5.0
+        "finalDriveRatio": 5.46
       }
     },
     {
@@ -1339,20 +1340,6 @@
       }
     },
     {
-      "id": 0,
-      "type": "paintJobRegister",
-      "blueprint": {
-        "v": "0.0",
-        "name": null,
-        "description": null,
-        "paintJobIDs": [
-          1,
-          21,
-          22
-        ]
-      }
-    },
-    {
       "id": 21,
       "type": "paintJob",
       "blueprint": {
@@ -1395,12 +1382,26 @@
       "type": "coilSpring",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "springLength": 500,
         "endSpringLengthMultiplier": 1.0,
         "springDiameter": 150,
         "springAngle": 0
+      }
+    },
+    {
+      "id": 2,
+      "type": "paintJobRegister",
+      "blueprint": {
+        "v": "0.0",
+        "name": null,
+        "description": null,
+        "paintJobIDs": [
+          1,
+          21,
+          22
+        ]
       }
     }
   ],
@@ -1635,8 +1636,8 @@
           ],
           "portOffsets": [
             0.0,
-            0.229064584,
-            0.617827237,
+            0.223474815,
+            0.579209864,
             0.0,
             0.1521409,
             -0.4229517,
@@ -2526,7 +2527,7 @@
           0.105529785
         ],
         "rot": [
-          1.932851E-08,
+          1.93285121E-08,
           29.9999943,
           5.17905141E-09,
           0.0
@@ -2639,7 +2640,7 @@
           -0.398223877
         ],
         "rot": [
-          270.027985,
+          270.019775,
           270.0,
           0.0,
           0.0

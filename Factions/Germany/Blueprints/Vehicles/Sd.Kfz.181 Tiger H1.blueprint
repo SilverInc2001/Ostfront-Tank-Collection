@@ -3,12 +3,12 @@
   "header": {
     "v": "0.2",
     "name": "Sd.Kfz.181 Tiger H1",
-    "gameVersion": "0.2.55.5",
-    "mass": 50699,
+    "gameVersion": "0.2.56.3",
+    "mass": 50694,
     "creationDate": "1943.12.31",
     "class": "",
     "desc": "",
-    "cost": 61534
+    "cost": 61531
   },
   "blueprints": [
     {
@@ -72,17 +72,18 @@
       "id": 7,
       "type": "engine",
       "blueprint": {
-        "v": "0.4",
+        "v": "0.5",
         "name": "Sd.Kfz.181 Tiger 1E",
         "description": "",
         "cylinders": 12,
         "idleRPM": 600,
-        "cylinderDisplacement": 1.93,
+        "cylinderDisplacement": 1.92,
         "tech": 0.8,
-        "targetMinRPM": 1600,
+        "targetMinRPM": 1400,
         "targetMaxRPM": 2500,
         "torqueCoeff": 0.85,
-        "revLimit": -1
+        "revLimit": -1,
+        "engineLayout": "V"
       }
     },
     {
@@ -94,9 +95,9 @@
         "description": "",
         "meshType": "constantMesh",
         "autoInputTorque": true,
-        "maxInputTorque": 1688.72632,
+        "maxInputTorque": 1679.97632,
         "autoResistanceTorque": true,
-        "maxResistanceTorque": 1688.72632,
+        "maxResistanceTorque": 1679.97632,
         "finalDriveRatio": 7.78,
         "msrRatioThreshold": 1.9,
         "auxillaryGearRatio": 1.0,
@@ -298,12 +299,12 @@
         "description": "",
         "separation": 1764,
         "length": 6316,
-        "brake": 385490,
+        "brake": 405691,
         "autoBrake": true,
         "rollersEnabled": false,
         "matchChassis": false,
         "frontalTransmission": true,
-        "finalDriveRatio": 10.0
+        "finalDriveRatio": 18.0
       }
     },
     {
@@ -1432,20 +1433,6 @@
       }
     },
     {
-      "id": 0,
-      "type": "paintJobRegister",
-      "blueprint": {
-        "v": "0.0",
-        "name": null,
-        "description": null,
-        "paintJobIDs": [
-          1,
-          21,
-          22
-        ]
-      }
-    },
-    {
       "id": 67,
       "type": "decalTransform",
       "blueprint": {
@@ -1466,6 +1453,20 @@
         "name": null,
         "description": null,
         "imageURL": "Sprocket/Decals/vision_slit.png"
+      }
+    },
+    {
+      "id": 2,
+      "type": "paintJobRegister",
+      "blueprint": {
+        "v": "0.0",
+        "name": null,
+        "description": null,
+        "paintJobIDs": [
+          1,
+          21,
+          22
+        ]
       }
     }
   ],
@@ -2921,7 +2922,7 @@
         "rot": [
           359.7022,
           180.0,
-          -2.14690326E-14,
+          -2.22641814E-14,
           0.0
         ],
         "scale": [
@@ -3295,11 +3296,11 @@
             0.5530942,
             2.64451933,
             -0.882,
-            0.3697707,
-            2.73068142,
+            0.369999528,
+            2.730574,
             0.882,
-            0.369770885,
-            2.73068118,
+            0.369999677,
+            2.73057365,
             -0.882,
             0.0,
             0.0,
@@ -3329,15 +3330,15 @@
           ],
           "portOffsets": [
             0.0,
-            0.21215117,
-            0.5722088,
+            0.211966947,
+            0.549383342,
             0.0,
-            0.1833234,
-            -0.509639,
-            0.807825863,
-            0.1833234,
-            0.08616199,
-            0.0493614674,
+            0.183094591,
+            -0.5090029,
+            0.8057303,
+            0.183094591,
+            0.0860544443,
+            0.0492760539,
             0.0,
             0.0,
             0.0,
@@ -3346,10 +3347,10 @@
             -2.23517418E-08,
             0.328004,
             2.748993,
-            -0.807825863,
-            0.1833234,
-            0.08616199,
-            -0.0493614674,
+            -0.8057303,
+            0.183094591,
+            0.0860544443,
+            -0.0492760539,
             0.0,
             0.0,
             0.0,

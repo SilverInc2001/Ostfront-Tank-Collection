@@ -3,12 +3,12 @@
   "header": {
     "v": "0.2",
     "name": "Karl-Gerät 040",
-    "gameVersion": "0.2.54.4",
-    "mass": 100425,
+    "gameVersion": "0.2.56.3",
+    "mass": 100645,
     "creationDate": "1943.12.31",
     "class": "",
     "desc": "",
-    "cost": 88395
+    "cost": 88509
   },
   "blueprints": [
     {
@@ -28,25 +28,6 @@
         "saturation": 0.0,
         "condition": 0.5,
         "grime": 0.5
-      }
-    },
-    {
-      "id": 2,
-      "type": "paintJob",
-      "blueprint": {
-        "v": "2.2",
-        "name": "Powertrain",
-        "description": "",
-        "colourMapUrl": "821c5c82-a326-46ca-bfd0-bd2a75830ed7",
-        "scale": 0.5,
-        "roughness": 0.5,
-        "metallic": 0.0,
-        "r": 0.25,
-        "g": 0.4,
-        "b": 0.5,
-        "saturation": 0.75,
-        "condition": 0.75,
-        "grime": 0.0
       }
     },
     {
@@ -91,17 +72,18 @@
       "id": 7,
       "type": "engine",
       "blueprint": {
-        "v": "0.4",
-        "name": null,
+        "v": "0.5",
+        "name": "Karl-Gerät 040",
         "description": null,
         "cylinders": 12,
         "idleRPM": 800,
-        "cylinderDisplacement": 3.53,
+        "cylinderDisplacement": 3.71,
         "tech": 0.8,
-        "targetMinRPM": 1882,
-        "targetMaxRPM": 2767,
+        "targetMinRPM": 1000,
+        "targetMaxRPM": 1850,
         "torqueCoeff": 0.85,
-        "revLimit": -1
+        "revLimit": -1,
+        "engineLayout": "V"
       }
     },
     {
@@ -113,9 +95,9 @@
         "description": null,
         "meshType": "synchromesh",
         "autoInputTorque": true,
-        "maxInputTorque": 3088.70679,
+        "maxInputTorque": 3246.20459,
         "autoResistanceTorque": true,
-        "maxResistanceTorque": 3088.70679,
+        "maxResistanceTorque": 3246.20459,
         "finalDriveRatio": 12.12,
         "msrRatioThreshold": 8.7,
         "auxillaryGearRatio": 1.0,
@@ -313,12 +295,12 @@
         "description": null,
         "separation": 1900,
         "length": 6000,
-        "brake": 803400,
+        "brake": 805165,
         "autoBrake": true,
         "rollersEnabled": true,
         "matchChassis": true,
         "frontalTransmission": false,
-        "finalDriveRatio": 20.0
+        "finalDriveRatio": 13.57
       }
     },
     {
@@ -1159,7 +1141,7 @@
       }
     },
     {
-      "id": 5,
+      "id": 0,
       "type": "paintJobRegister",
       "blueprint": {
         "v": "0.0",
@@ -1167,8 +1149,47 @@
         "description": null,
         "paintJobIDs": [
           1,
-          2
+          21,
+          22
         ]
+      }
+    },
+    {
+      "id": 21,
+      "type": "paintJob",
+      "blueprint": {
+        "v": "2.2",
+        "name": "Powertrain",
+        "description": "",
+        "colourMapUrl": "821c5c82-a326-46ca-bfd0-bd2a75830ed7",
+        "scale": 0.5,
+        "roughness": 0.5,
+        "metallic": 0.0,
+        "r": 0.25,
+        "g": 0.4,
+        "b": 0.5,
+        "saturation": 0.75,
+        "condition": 0.75,
+        "grime": 0.0
+      }
+    },
+    {
+      "id": 22,
+      "type": "paintJob",
+      "blueprint": {
+        "v": "2.2",
+        "name": "Interior",
+        "description": "",
+        "colourMapUrl": "",
+        "scale": 0.5,
+        "roughness": 0.6,
+        "metallic": 0.0,
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5,
+        "saturation": 0.5,
+        "condition": -1.0,
+        "grime": 0.0
       }
     }
   ],
@@ -1363,7 +1384,7 @@
           ],
           "modulePositions": [
             -0.2876538,
-            -0.493593216,
+            -0.365961581,
             -3.61834335,
             -2.11533973E-07,
             -0.3247703,
@@ -1403,29 +1424,29 @@
           ],
           "portOffsets": [
             0.0,
-            0.286915541,
-            0.773861349,
+            0.264013231,
+            0.6842787,
             0.0,
-            0.171562508,
-            -0.4769438,
-            0.7156825,
-            0.171562508,
-            0.08063438,
-            0.0518445969,
-            -0.009464048,
-            0.0419864655,
+            0.173660234,
+            -0.48277545,
+            0.73370254,
+            0.173660234,
+            0.0816203058,
+            0.0511043668,
+            -0.009610504,
+            0.0446019173,
             0.0,
             0.0,
             0.0,
             -2.23517418E-08,
             -0.07000005,
             -5.1960144,
-            -0.7156825,
-            0.171562508,
-            0.08063438,
-            -0.0518447161,
-            -0.009464048,
-            0.04198599,
+            -0.73370254,
+            0.173660234,
+            0.0816203058,
+            -0.0511044264,
+            -0.009610489,
+            0.0446019173,
             0.0,
             0.0,
             0.0,
@@ -1443,9 +1464,9 @@
             1.0,
             0.0,
             0.0,
-            0.769417763,
-            -0.1404545,
-            0.623112261,
+            0.7459624,
+            -0.140282959,
+            0.6510459,
             0.0,
             0.0,
             1.0,
@@ -1455,9 +1476,9 @@
             -1.0,
             0.0,
             0.0,
-            -0.7694192,
-            -0.140454471,
-            0.623110533,
+            -0.7459631,
+            -0.14028278,
+            0.6510451,
             0.0,
             0.0,
             1.0,
@@ -1515,7 +1536,7 @@
         "mirrorVuid": -1,
         "pos": [
           -0.2876538,
-          -0.493593216,
+          -0.365961581,
           -3.61834335
         ],
         "rot": [
@@ -2322,8 +2343,8 @@
         ],
         "rot": [
           89.67615,
-          90.0154,
-          0.0154073695,
+          90.0148,
+          0.014802848,
           0.0
         ],
         "scale": [
@@ -2404,13 +2425,13 @@
         "mirrorVuid": -1,
         "pos": [
           -1.46769774,
-          0.67498827,
+          0.6749878,
           2.86782837
         ],
         "rot": [
-          -1.66752645E-09,
-          4.85314E-20,
-          -3.335053E-09,
+          0.0,
+          0.0,
+          0.0,
           0.0
         ],
         "scale": [
@@ -2460,7 +2481,7 @@
         "mirrorVuid": -1,
         "pos": [
           0.5466216,
-          0.602234364,
+          0.6022339,
           -4.44516
         ],
         "rot": [
@@ -2516,13 +2537,13 @@
         "mirrorVuid": -1,
         "pos": [
           1.54030383,
-          1.18499851,
+          1.18499756,
           -4.97555542
         ],
         "rot": [
-          -1.66752645E-09,
-          4.85314E-20,
-          -3.335053E-09,
+          0.0,
+          0.0,
+          0.0,
           0.0
         ],
         "scale": [
@@ -2601,11 +2622,11 @@
         "mirrorVuid": 481,
         "pos": [
           1.418427,
-          1.19799852,
+          1.197998,
           -1.88232422
         ],
         "rot": [
-          -1.4385256E-07,
+          -1.43852589E-07,
           270.0,
           -1.34419579E-07,
           0.0
@@ -2630,11 +2651,11 @@
         "mirrorVuid": 497,
         "pos": [
           -1.41841519,
-          1.197999,
+          1.197998,
           -1.88232422
         ],
         "rot": [
-          1.49748189E-07,
+          1.497482E-07,
           90.0000153,
           -1.45031635E-07,
           0.0

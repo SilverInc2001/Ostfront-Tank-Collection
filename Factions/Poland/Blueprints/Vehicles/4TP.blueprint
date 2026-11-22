@@ -3,9 +3,9 @@
   "header": {
     "v": "0.2",
     "name": "4TP",
-    "gameVersion": "0.2.55.5",
+    "gameVersion": "0.2.56.3",
     "mass": 4060,
-    "creationDate": "1939.09.01",
+    "creationDate": "1941.12.31",
     "class": "",
     "desc": "",
     "cost": 20106
@@ -110,17 +110,18 @@
       "id": 8,
       "type": "engine",
       "blueprint": {
-        "v": "0.4",
-        "name": null,
+        "v": "0.5",
+        "name": "4TP",
         "description": null,
         "cylinders": 8,
         "idleRPM": 800,
         "cylinderDisplacement": 0.49,
-        "tech": 0.2,
-        "targetMinRPM": 1400,
-        "targetMaxRPM": 2400,
-        "torqueCoeff": 0.6,
-        "revLimit": -1
+        "tech": 0.4,
+        "targetMinRPM": 1600,
+        "targetMaxRPM": 3600,
+        "torqueCoeff": 0.75,
+        "revLimit": -1,
+        "engineLayout": "V"
       }
     },
     {
@@ -132,9 +133,9 @@
         "description": null,
         "meshType": "constantMesh",
         "autoInputTorque": true,
-        "maxInputTorque": 260.137848,
+        "maxInputTorque": 272.0946,
         "autoResistanceTorque": true,
-        "maxResistanceTorque": 260.137848,
+        "maxResistanceTorque": 272.0946,
         "finalDriveRatio": 10.0,
         "msrRatioThreshold": 4.9,
         "auxillaryGearRatio": 1.0,
@@ -325,16 +326,16 @@
       "type": "track",
       "blueprint": {
         "v": "1.1",
-        "name": null,
+        "name": "4TP",
         "description": null,
         "separation": 1241,
         "length": 6000,
-        "brake": 32359,
+        "brake": 32486,
         "autoBrake": true,
         "rollersEnabled": true,
         "matchChassis": false,
         "frontalTransmission": true,
-        "finalDriveRatio": 6.25999975
+        "finalDriveRatio": 9.59
       }
     },
     {
@@ -411,7 +412,7 @@
         "torque": 200.0,
         "ratio": 10.0,
         "type": 1,
-        "resist": 1.5
+        "resist": 0.75
       }
     },
     {
@@ -528,8 +529,8 @@
           }
         ],
         "muzzleMass": 0.0,
-        "K": 2200,
-        "PSI": 30000,
+        "K": 2000,
+        "PSI": 35000,
         "shellID": 42
       }
     },
@@ -549,7 +550,7 @@
               {
                 "id": "AP",
                 "definition": {
-                  "penetratorConstant": 2200
+                  "penetratorConstant": 2000
                 }
               },
               {
@@ -1172,18 +1173,18 @@
             }
           ],
           "modulePositions": [
-            0.413099229,
+            0.347124457,
             0.05717218,
             -0.7992203,
             0.4130991,
             0.05077103,
             1.51343262,
             -0.6205,
-            0.165576622,
-            1.56739128,
+            0.161316544,
+            1.565389,
             0.6205,
-            0.165576622,
-            1.56739128,
+            0.161316544,
+            1.565389,
             -0.6205,
             0.0,
             0.0,
@@ -1213,15 +1214,15 @@
           ],
           "portOffsets": [
             0.0,
-            0.106896818,
-            0.21626839,
+            0.134451732,
+            0.25856778,
             0.0,
-            0.114805594,
-            -0.319159538,
-            0.113201044,
-            0.114805594,
-            0.0539586246,
-            0.02917999,
+            0.110545509,
+            -0.3073165,
+            0.11577335,
+            0.110545509,
+            0.0519563854,
+            0.0271400213,
             0.0,
             0.0,
             0.0,
@@ -1230,10 +1231,10 @@
             -2.23517418E-08,
             0.146000028,
             1.61599731,
-            -0.113201044,
-            0.114805594,
-            0.0539586246,
-            -0.02917999,
+            -0.11577335,
+            0.110545509,
+            0.0519563854,
+            -0.0271400213,
             0.0,
             0.0,
             0.0,
@@ -1324,7 +1325,7 @@
       "transform": {
         "mirrorVuid": -1,
         "pos": [
-          0.413099229,
+          0.347124457,
           0.05717218,
           -0.7992203
         ],
@@ -2362,7 +2363,7 @@
         "rot": [
           39.9305954,
           180.0,
-          -7.9635956E-13,
+          -9.290861E-13,
           0.0
         ],
         "scale": [
@@ -2416,9 +2417,9 @@
           1.20953369
         ],
         "rot": [
-          0.7025161,
+          0.7025162,
           180.0,
-          -3.180794E-15,
+          -6.361588E-15,
           0.0
         ],
         "scale": [
@@ -2474,7 +2475,7 @@
         "rot": [
           356.512115,
           1.05830491,
-          0.0,
+          -6.682485E-09,
           0.0
         ],
         "scale": [

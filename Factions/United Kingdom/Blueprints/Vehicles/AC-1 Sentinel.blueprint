@@ -3,12 +3,12 @@
   "header": {
     "v": "0.2",
     "name": "AC-1 Sentinel",
-    "gameVersion": "0.2.53.2",
-    "mass": 25044,
+    "gameVersion": "0.2.56.3",
+    "mass": 24928,
     "creationDate": "1941.12.31",
     "class": "",
     "desc": "",
-    "cost": 54525
+    "cost": 54466
   },
   "blueprints": [
     {
@@ -28,25 +28,6 @@
         "saturation": 0.75,
         "condition": 0.5,
         "grime": 0.5
-      }
-    },
-    {
-      "id": 2,
-      "type": "paintJob",
-      "blueprint": {
-        "v": "2.2",
-        "name": "Powertrain",
-        "description": "",
-        "colourMapUrl": "821c5c82-a326-46ca-bfd0-bd2a75830ed7",
-        "scale": 0.5,
-        "roughness": 0.5,
-        "metallic": 0.0,
-        "r": 0.25,
-        "g": 0.4,
-        "b": 0.5,
-        "saturation": 0.75,
-        "condition": 0.75,
-        "grime": 0.0
       }
     },
     {
@@ -91,17 +72,18 @@
       "id": 7,
       "type": "engine",
       "blueprint": {
-        "v": "0.4",
-        "name": null,
+        "v": "0.5",
+        "name": "AC-1 Sentinel",
         "description": null,
         "cylinders": 24,
         "idleRPM": 800,
         "cylinderDisplacement": 0.7125,
         "tech": 0.4,
-        "targetMinRPM": 1700,
-        "targetMaxRPM": 3400,
+        "targetMinRPM": 1400,
+        "targetMaxRPM": 3050,
         "torqueCoeff": 0.75,
-        "revLimit": -1
+        "revLimit": -1,
+        "engineLayout": "V"
       }
     },
     {
@@ -307,16 +289,16 @@
       "type": "track",
       "blueprint": {
         "v": "1.1",
-        "name": null,
+        "name": "AC-1 Sentinel",
         "description": null,
         "separation": 1591,
         "length": 6000,
-        "brake": 198874,
+        "brake": 199430,
         "autoBrake": true,
         "rollersEnabled": true,
         "matchChassis": false,
         "frontalTransmission": true,
-        "finalDriveRatio": 8.599999
+        "finalDriveRatio": 7.9199996
       }
     },
     {
@@ -1449,7 +1431,7 @@
       }
     },
     {
-      "id": 5,
+      "id": 0,
       "type": "paintJobRegister",
       "blueprint": {
         "v": "0.0",
@@ -1457,8 +1439,47 @@
         "description": null,
         "paintJobIDs": [
           1,
-          2
+          21,
+          22
         ]
+      }
+    },
+    {
+      "id": 21,
+      "type": "paintJob",
+      "blueprint": {
+        "v": "2.2",
+        "name": "Powertrain",
+        "description": "",
+        "colourMapUrl": "821c5c82-a326-46ca-bfd0-bd2a75830ed7",
+        "scale": 0.5,
+        "roughness": 0.5,
+        "metallic": 0.0,
+        "r": 0.25,
+        "g": 0.4,
+        "b": 0.5,
+        "saturation": 0.75,
+        "condition": 0.75,
+        "grime": 0.0
+      }
+    },
+    {
+      "id": 22,
+      "type": "paintJob",
+      "blueprint": {
+        "v": "2.2",
+        "name": "Interior",
+        "description": "",
+        "colourMapUrl": "",
+        "scale": 0.5,
+        "roughness": 0.6,
+        "metallic": 0.0,
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5,
+        "saturation": 0.5,
+        "condition": -1.0,
+        "grime": 0.0
       }
     }
   ],
@@ -1693,8 +1714,8 @@
           ],
           "portOffsets": [
             0.0,
-            0.128901839,
-            0.6083197,
+            0.152322024,
+            0.7003704,
             0.0,
             0.146881431,
             -0.408330351,
@@ -2702,7 +2723,7 @@
         "rot": [
           349.011,
           176.199081,
-          1.35893927E-07,
+          1.63072713E-07,
           0.0
         ],
         "scale": [
@@ -2927,7 +2948,7 @@
         "rot": [
           33.1662674,
           100.04409,
-          1.22392166E-05,
+          1.42790859E-05,
           0.0
         ],
         "scale": [
@@ -2956,7 +2977,7 @@
         "rot": [
           33.1662674,
           259.955933,
-          -1.01993464E-05,
+          -1.22392157E-05,
           0.0
         ],
         "scale": [

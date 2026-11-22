@@ -3,12 +3,12 @@
   "header": {
     "v": "0.2",
     "name": "Cruiser Mk.V Covenanter",
-    "gameVersion": "0.2.55.5",
-    "mass": 13206,
+    "gameVersion": "0.2.56.3",
+    "mass": 13205,
     "creationDate": "1941.12.31",
     "class": "",
     "desc": "",
-    "cost": 30345
+    "cost": 30344
   },
   "blueprints": [
     {
@@ -72,17 +72,18 @@
       "id": 7,
       "type": "engine",
       "blueprint": {
-        "v": "0.4",
-        "name": null,
+        "v": "0.5",
+        "name": "Cruiser Mk.V Covenanter",
         "description": null,
         "cylinders": 12,
         "idleRPM": 800,
         "cylinderDisplacement": 1.35,
         "tech": 0.4,
-        "targetMinRPM": 1400,
+        "targetMinRPM": 1150,
         "targetMaxRPM": 2400,
         "torqueCoeff": 0.75,
-        "revLimit": -1
+        "revLimit": -1,
+        "engineLayout": "V"
       }
     },
     {
@@ -287,11 +288,11 @@
       "type": "track",
       "blueprint": {
         "v": "1.1",
-        "name": "Crusader A15 ",
+        "name": "Cruiser Mk.V Covenanter",
         "description": "",
         "separation": 1763,
         "length": 6000,
-        "brake": 105649,
+        "brake": 105646,
         "autoBrake": true,
         "rollersEnabled": false,
         "matchChassis": false,
@@ -1223,7 +1224,7 @@
       }
     },
     {
-      "id": 2,
+      "id": 0,
       "type": "paintJobRegister",
       "blueprint": {
         "v": "0.0",
@@ -1468,8 +1469,8 @@
           ],
           "portOffsets": [
             0.0,
-            0.1774327,
-            0.478567,
+            0.18848595,
+            0.488524467,
             0.0,
             0.151740044,
             -0.4218373,
@@ -2948,7 +2949,7 @@
           1.70770264
         ],
         "rot": [
-          6.613464,
+          6.61346436,
           0.0,
           0.0,
           0.0
@@ -2975,7 +2976,7 @@
           1.7097168
         ],
         "rot": [
-          6.6134634,
+          6.613464,
           0.0,
           0.0,
           0.0
@@ -3002,7 +3003,7 @@
           1.71298218
         ],
         "rot": [
-          6.6134634,
+          6.613464,
           0.0,
           0.0,
           0.0
@@ -3029,7 +3030,7 @@
           1.71585083
         ],
         "rot": [
-          6.57611752,
+          6.57611847,
           0.0,
           0.0,
           0.0
@@ -3116,7 +3117,7 @@
         "rot": [
           0.321936369,
           180.0,
-          9.541814E-15,
+          1.1132117E-14,
           0.0
         ],
         "scale": [
@@ -3145,7 +3146,7 @@
         "rot": [
           0.321936369,
           180.0,
-          9.541814E-15,
+          1.1132117E-14,
           0.0
         ],
         "scale": [
@@ -3174,7 +3175,7 @@
         "rot": [
           0.321936369,
           180.0,
-          9.541814E-15,
+          1.1132117E-14,
           0.0
         ],
         "scale": [

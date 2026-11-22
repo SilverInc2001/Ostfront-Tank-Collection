@@ -3,12 +3,12 @@
   "header": {
     "v": "0.2",
     "name": "BT-7A",
-    "gameVersion": "0.2.55.5",
-    "mass": 13831,
+    "gameVersion": "0.2.56.3",
+    "mass": 15435,
     "creationDate": "1941.12.31",
     "class": "",
     "desc": "",
-    "cost": 24570
+    "cost": 25428
   },
   "blueprints": [
     {
@@ -72,17 +72,18 @@
       "id": 7,
       "type": "engine",
       "blueprint": {
-        "v": "0.4",
-        "name": null,
-        "description": null,
+        "v": "0.5",
+        "name": "BT-7",
+        "description": "",
         "cylinders": 12,
         "idleRPM": 900,
-        "cylinderDisplacement": 2.27,
+        "cylinderDisplacement": 3.18,
         "tech": 0.4,
-        "targetMinRPM": 1200,
-        "targetMaxRPM": 1750,
+        "targetMinRPM": 1000,
+        "targetMaxRPM": 2000,
         "torqueCoeff": 0.75,
-        "revLimit": -1
+        "revLimit": -1,
+        "engineLayout": "V"
       }
     },
     {
@@ -94,9 +95,9 @@
         "description": "",
         "meshType": "slidingMesh",
         "autoInputTorque": true,
-        "maxInputTorque": 1890.77991,
+        "maxInputTorque": 2648.75781,
         "autoResistanceTorque": true,
-        "maxResistanceTorque": 1890.77991,
+        "maxResistanceTorque": 2648.75781,
         "finalDriveRatio": 3.67,
         "msrRatioThreshold": 7.0,
         "auxillaryGearRatio": 1.0,
@@ -287,16 +288,16 @@
       "type": "track",
       "blueprint": {
         "v": "1.1",
-        "name": "BT-5",
+        "name": "BT-7",
         "description": "",
         "separation": 1375,
         "length": 6000,
-        "brake": 110653,
+        "brake": 110645,
         "autoBrake": true,
         "rollersEnabled": false,
         "matchChassis": false,
         "frontalTransmission": false,
-        "finalDriveRatio": 3.12
+        "finalDriveRatio": 3.95
       }
     },
     {
@@ -1268,20 +1269,6 @@
       }
     },
     {
-      "id": 5,
-      "type": "paintJobRegister",
-      "blueprint": {
-        "v": "0.0",
-        "name": null,
-        "description": null,
-        "paintJobIDs": [
-          1,
-          21,
-          22
-        ]
-      }
-    },
-    {
       "id": 21,
       "type": "paintJob",
       "blueprint": {
@@ -1330,6 +1317,20 @@
         "endSpringLengthMultiplier": 1.0,
         "springDiameter": 150,
         "springAngle": 0
+      }
+    },
+    {
+      "id": 0,
+      "type": "paintJobRegister",
+      "blueprint": {
+        "v": "0.0",
+        "name": null,
+        "description": null,
+        "paintJobIDs": [
+          1,
+          21,
+          22
+        ]
       }
     }
   ],
@@ -1564,29 +1565,29 @@
           ],
           "portOffsets": [
             0.0,
-            0.2300804,
-            0.6205671,
+            0.25078994,
+            0.6500061,
             0.0,
-            0.257633984,
-            -0.7162225,
-            0.5919919,
-            0.257633984,
-            0.121087976,
-            0.0110360384,
-            0.0386774838,
-            0.0386618376,
+            0.281145453,
+            -0.7815844,
+            0.700674653,
+            0.281145453,
+            0.132138357,
+            -0.009352267,
+            0.0469229519,
+            0.0400944948,
             0.0,
             0.0,
             0.0,
             -2.23517418E-08,
             0.262000084,
             -2.18798828,
-            -0.5919919,
-            0.257633984,
-            0.121087976,
-            -0.0110360384,
-            0.0386774838,
-            0.0386618376,
+            -0.700674653,
+            0.281145453,
+            0.132138357,
+            0.009352326,
+            0.0469229519,
+            0.0400944948,
             0.0,
             0.0,
             0.0,
@@ -1604,9 +1605,9 @@
             1.0,
             0.0,
             0.0,
-            0.197815686,
-            0.693273544,
-            0.692994058,
+            -0.149818033,
+            0.751677036,
+            0.6422899,
             0.0,
             0.0,
             1.0,
@@ -1616,9 +1617,9 @@
             -1.0,
             0.0,
             0.0,
-            -0.197815359,
-            0.6932738,
-            0.6929939,
+            0.149818435,
+            0.751677155,
+            0.642289639,
             0.0,
             0.0,
             1.0,
@@ -2313,9 +2314,9 @@
           0.206604
         ],
         "rot": [
-          14.8742418,
+          14.8742428,
           253.20874,
-          -3.53349628E-06,
+          -3.0918095E-06,
           0.0
         ],
         "scale": [

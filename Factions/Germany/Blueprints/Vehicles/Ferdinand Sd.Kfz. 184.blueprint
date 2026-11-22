@@ -3,12 +3,12 @@
   "header": {
     "v": "0.2",
     "name": "Ferdinand Sd.Kfz. 184",
-    "gameVersion": "0.2.51.36",
-    "mass": 53261,
+    "gameVersion": "0.2.56.3",
+    "mass": 53256,
     "creationDate": "1942.01.01",
     "class": "",
     "desc": "",
-    "cost": 49473
+    "cost": 49461
   },
   "blueprints": [
     {
@@ -31,25 +31,6 @@
       }
     },
     {
-      "id": 2,
-      "type": "paintJob",
-      "blueprint": {
-        "v": "2.2",
-        "name": "Powertrain",
-        "description": "",
-        "colourMapUrl": "821c5c82-a326-46ca-bfd0-bd2a75830ed7",
-        "scale": 0.5,
-        "roughness": 0.5,
-        "metallic": 0.0,
-        "r": 0.25,
-        "g": 0.4,
-        "b": 0.5,
-        "saturation": 0.75,
-        "condition": 0.75,
-        "grime": 0.0
-      }
-    },
-    {
       "id": 3,
       "type": "chassis",
       "blueprint": {
@@ -65,12 +46,13 @@
       "id": 4,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": null,
         "description": null,
         "armourVolume": 4.5168047,
         "bodyMeshVuid": 0,
         "partRepositioning": false,
+        "collisionEnabled": true,
         "armourTechID": "rha"
       }
     },
@@ -90,17 +72,18 @@
       "id": 7,
       "type": "engine",
       "blueprint": {
-        "v": "0.4",
-        "name": null,
+        "v": "0.5",
+        "name": "Ferdinand Sd.Kfz. 184",
         "description": null,
         "cylinders": 24,
         "idleRPM": 800,
         "cylinderDisplacement": 0.99,
         "tech": 0.4,
-        "targetMinRPM": 1500,
+        "targetMinRPM": 1450,
         "targetMaxRPM": 3000,
         "torqueCoeff": 0.75,
-        "revLimit": -1
+        "revLimit": -1,
+        "engineLayout": "V"
       }
     },
     {
@@ -316,7 +299,7 @@
         "description": null,
         "separation": 1793,
         "length": 6316,
-        "brake": 426091,
+        "brake": 426054,
         "autoBrake": true,
         "rollersEnabled": false,
         "matchChassis": false,
@@ -714,12 +697,13 @@
       "id": 38,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": "Unnamed Structure",
         "description": null,
         "armourVolume": 0.248756021,
         "bodyMeshVuid": 2,
         "partRepositioning": true,
+        "collisionEnabled": false,
         "armourTechID": "rha"
       }
     },
@@ -727,12 +711,13 @@
       "id": 39,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": "Unnamed Structure",
         "description": null,
         "armourVolume": 0.00360028353,
         "bodyMeshVuid": 4,
         "partRepositioning": true,
+        "collisionEnabled": false,
         "armourTechID": "rha"
       }
     },
@@ -1235,7 +1220,7 @@
       }
     },
     {
-      "id": 0,
+      "id": 5,
       "type": "paintJobRegister",
       "blueprint": {
         "v": "0.0",
@@ -1243,8 +1228,47 @@
         "description": null,
         "paintJobIDs": [
           1,
-          2
+          21,
+          22
         ]
+      }
+    },
+    {
+      "id": 21,
+      "type": "paintJob",
+      "blueprint": {
+        "v": "2.2",
+        "name": "Powertrain",
+        "description": "",
+        "colourMapUrl": "821c5c82-a326-46ca-bfd0-bd2a75830ed7",
+        "scale": 0.5,
+        "roughness": 0.5,
+        "metallic": 0.0,
+        "r": 0.25,
+        "g": 0.4,
+        "b": 0.5,
+        "saturation": 0.75,
+        "condition": 0.75,
+        "grime": 0.0
+      }
+    },
+    {
+      "id": 22,
+      "type": "paintJob",
+      "blueprint": {
+        "v": "2.2",
+        "name": "Interior",
+        "description": "",
+        "colourMapUrl": "",
+        "scale": 0.5,
+        "roughness": 0.6,
+        "metallic": 0.0,
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5,
+        "saturation": 0.5,
+        "condition": -1.0,
+        "grime": 0.0
       }
     }
   ],
@@ -1293,7 +1317,7 @@
         "rot": [
           0.0,
           0.0,
-          -6.38350039E-10,
+          0.0,
           0.0
         ],
         "scale": [
@@ -1322,7 +1346,7 @@
         "rot": [
           0.0,
           0.0,
-          -6.38350039E-10,
+          0.0,
           0.0
         ],
         "scale": [
@@ -1378,7 +1402,7 @@
         "rot": [
           359.7022,
           180.0,
-          -1.98787333E-14,
+          -2.06738838E-14,
           0.0
         ],
         "scale": [
@@ -1886,7 +1910,7 @@
         "rot": [
           0.349252641,
           179.110886,
-          0.0281205829,
+          0.02812059,
           0.0
         ],
         "scale": [
@@ -2218,13 +2242,13 @@
         "mirrorVuid": -1,
         "pos": [
           -0.4445153,
-          0.7409667,
+          0.7409668,
           -1.31570435
         ],
         "rot": [
           0.0,
           0.0,
-          -6.38350039E-10,
+          0.0,
           0.0
         ],
         "scale": [
@@ -2278,9 +2302,9 @@
           -1.14553833
         ],
         "rot": [
-          -6.225751E-07,
+          -6.225752E-07,
           270.0,
-          -3.77318337E-08,
+          -3.773186E-08,
           0.0
         ],
         "scale": [
@@ -2309,7 +2333,7 @@
         "rot": [
           0.0,
           0.0,
-          -6.38350039E-10,
+          0.0,
           0.0
         ],
         "scale": [
@@ -2338,7 +2362,7 @@
         "rot": [
           0.0,
           0.0,
-          -6.38350039E-10,
+          0.0,
           0.0
         ],
         "scale": [
@@ -2368,7 +2392,7 @@
         ],
         "rot": [
           3.65615559,
-          -3.341855E-09,
+          -3.75958642E-09,
           359.8115,
           0.0
         ],
@@ -2582,8 +2606,8 @@
           ],
           "portOffsets": [
             0.0,
-            0.151944265,
-            0.7170626,
+            0.169972822,
+            0.781527936,
             0.0,
             0.131470069,
             -0.365486771,
@@ -2597,8 +2621,8 @@
             0.0,
             0.0,
             -2.23517418E-08,
-            0.202999949,
-            -2.95498657,
+            0.20300293,
+            -2.95500016,
             -0.636229634,
             0.131470069,
             0.0617909245,
@@ -2609,8 +2633,8 @@
             0.0,
             0.0,
             2.23517418E-08,
-            0.202999949,
-            -2.95498657
+            0.20300293,
+            -2.95500016
           ],
           "portDirections": [
             0.0,

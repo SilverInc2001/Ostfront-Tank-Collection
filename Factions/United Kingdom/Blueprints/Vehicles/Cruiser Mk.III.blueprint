@@ -3,12 +3,12 @@
   "header": {
     "v": "0.2",
     "name": "Cruiser Mk.III",
-    "gameVersion": "0.2.55.5",
-    "mass": 13657,
+    "gameVersion": "0.2.56.3",
+    "mass": 13716,
     "creationDate": "1941.12.31",
     "class": "",
     "desc": "",
-    "cost": 37007
+    "cost": 37034
   },
   "blueprints": [
     {
@@ -72,17 +72,18 @@
       "id": 7,
       "type": "engine",
       "blueprint": {
-        "v": "0.4",
+        "v": "0.5",
         "name": "Cruiser Mk.3",
         "description": "",
         "cylinders": 12,
         "idleRPM": 600,
         "cylinderDisplacement": 2.2533,
         "tech": 0.4,
-        "targetMinRPM": 1000,
-        "targetMaxRPM": 1500,
+        "targetMinRPM": 900,
+        "targetMaxRPM": 1650,
         "torqueCoeff": 0.75,
-        "revLimit": -1
+        "revLimit": -1,
+        "engineLayout": "V"
       }
     },
     {
@@ -291,12 +292,12 @@
         "description": "",
         "separation": 1618,
         "length": 6000,
-        "brake": 109262,
+        "brake": 109735,
         "autoBrake": true,
         "rollersEnabled": false,
         "matchChassis": false,
         "frontalTransmission": false,
-        "finalDriveRatio": 4.4
+        "finalDriveRatio": 4.7
       }
     },
     {
@@ -1241,20 +1242,6 @@
       }
     },
     {
-      "id": 0,
-      "type": "paintJobRegister",
-      "blueprint": {
-        "v": "0.0",
-        "name": null,
-        "description": null,
-        "paintJobIDs": [
-          1,
-          21,
-          22
-        ]
-      }
-    },
-    {
       "id": 21,
       "type": "paintJob",
       "blueprint": {
@@ -1297,10 +1284,10 @@
       "type": "coilSpring",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "springLength": 500,
-        "endSpringLengthMultiplier": 0.5,
+        "endSpringLengthMultiplier": 1.0,
         "springDiameter": 150,
         "springAngle": 0
       }
@@ -1326,6 +1313,20 @@
         "name": null,
         "description": null,
         "imageURL": "Sprocket/Decals/T 271490.png"
+      }
+    },
+    {
+      "id": 2,
+      "type": "paintJobRegister",
+      "blueprint": {
+        "v": "0.0",
+        "name": null,
+        "description": null,
+        "paintJobIDs": [
+          1,
+          21,
+          22
+        ]
       }
     }
   ],
@@ -1519,9 +1520,9 @@
             }
           ],
           "modulePositions": [
-            6.38224336E-08,
-            -0.00423149,
-            -1.26995647,
+            -0.408839524,
+            0.474429578,
+            -0.9380696,
             0.0,
             0.162604943,
             -2.61357784,
@@ -1541,7 +1542,7 @@
           "moduleRotations": [
             0.0,
             180.0,
-            0.0,
+            90.0,
             0.0,
             180.0,
             0.0,
@@ -1560,8 +1561,8 @@
           ],
           "portOffsets": [
             0.0,
-            0.22923252,
-            0.618280232,
+            0.223584,
+            0.5794928,
             0.0,
             0.171057448,
             -0.4755397,
@@ -1575,8 +1576,8 @@
             0.0,
             0.0,
             -2.23517418E-08,
-            0.184000015,
-            -2.50698853,
+            0.184021,
+            -2.50700021,
             -0.713323236,
             0.171057448,
             0.080397,
@@ -1587,8 +1588,8 @@
             0.0,
             0.0,
             2.23517418E-08,
-            0.184000015,
-            -2.50698853
+            0.184021,
+            -2.50700021
           ],
           "portDirections": [
             0.0,
@@ -1664,21 +1665,21 @@
       "guid": "ebcf5eda-e50b-4f18-a063-0138a9d630e0",
       "vuid": 9,
       "pvuid": 2,
-      "flags": 2,
+      "flags": 3,
       "engine": 10,
       "powertrainNode": 11,
       "fuelReserve": 12,
       "transform": {
         "mirrorVuid": -1,
         "pos": [
-          6.38224336E-08,
-          -0.00423149,
-          -1.26995647
+          -0.408839524,
+          0.474429578,
+          -0.9380696
         ],
         "rot": [
           0.0,
           180.0,
-          0.0,
+          90.0,
           0.0
         ],
         "scale": [
@@ -2051,9 +2052,9 @@
       "transform": {
         "mirrorVuid": 265,
         "pos": [
-          -0.6450326,
-          -0.147998929,
-          -1.21541667
+          -0.504533768,
+          -0.0135017633,
+          -1.21542358
         ],
         "rot": [
           0.0,
@@ -2079,9 +2080,9 @@
       "transform": {
         "mirrorVuid": 262,
         "pos": [
-          0.644961536,
-          -0.147998929,
-          -1.21541655
+          0.504533768,
+          -0.0135017633,
+          -1.21542358
         ],
         "rot": [
           0.0,
@@ -2752,9 +2753,9 @@
           0.198455811
         ],
         "rot": [
-          9.000002,
+          9.000008,
           180.0,
-          5.15232117E-14,
+          1.03046423E-13,
           0.0
         ],
         "scale": [
@@ -2921,7 +2922,7 @@
         "rot": [
           19.1699486,
           90.00002,
-          9.03895739E-07,
+          1.8077917E-06,
           0.0
         ],
         "scale": [
@@ -2950,7 +2951,7 @@
         "rot": [
           19.1699486,
           269.999969,
-          -9.03895739E-07,
+          -1.80779148E-06,
           0.0
         ],
         "scale": [
@@ -3064,8 +3065,8 @@
           -1.09637451
         ],
         "rot": [
-          -2.53803919E-05,
-          -7.30058455E-05,
+          0.0,
+          0.0,
           0.0,
           0.0
         ],
@@ -3122,7 +3123,7 @@
           -0.665710449
         ],
         "rot": [
-          1.81242251E-06,
+          1.81242274E-06,
           30.0000324,
           -6.557873E-06,
           0.0

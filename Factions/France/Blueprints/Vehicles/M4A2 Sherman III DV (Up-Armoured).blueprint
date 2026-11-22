@@ -3,12 +3,12 @@
   "header": {
     "v": "0.2",
     "name": "M4A2 Sherman III DV (Up-Armoured)",
-    "gameVersion": "0.2.55.5",
-    "mass": 25401,
+    "gameVersion": "0.2.56.3",
+    "mass": 24945,
     "creationDate": "1943.12.31",
     "class": "",
     "desc": "",
-    "cost": 44841
+    "cost": 44086
   },
   "blueprints": [
     {
@@ -72,17 +72,18 @@
       "id": 7,
       "type": "engine",
       "blueprint": {
-        "v": "0.4",
+        "v": "0.5",
         "name": "M4A2 Sherman III",
         "description": "",
-        "cylinders": 12,
+        "cylinders": 6,
         "idleRPM": 750,
-        "cylinderDisplacement": 1.16,
+        "cylinderDisplacement": 2.32,
         "tech": 0.8,
         "targetMinRPM": 1400,
         "targetMaxRPM": 2100,
         "torqueCoeff": 0.85,
-        "revLimit": -1
+        "revLimit": -1,
+        "engineLayout": "Inline"
       }
     },
     {
@@ -292,12 +293,12 @@
         "description": "",
         "separation": 1419,
         "length": 6060,
-        "brake": 210366,
+        "brake": 199562,
         "autoBrake": true,
         "rollersEnabled": true,
         "matchChassis": false,
         "frontalTransmission": true,
-        "finalDriveRatio": 7.4
+        "finalDriveRatio": 7.62
       }
     },
     {
@@ -1619,20 +1620,6 @@
       }
     },
     {
-      "id": 5,
-      "type": "paintJobRegister",
-      "blueprint": {
-        "v": "0.0",
-        "name": null,
-        "description": null,
-        "paintJobIDs": [
-          1,
-          21,
-          22
-        ]
-      }
-    },
-    {
       "id": 21,
       "type": "paintJob",
       "blueprint": {
@@ -1668,6 +1655,20 @@
         "saturation": 0.5,
         "condition": -1.0,
         "grime": 0.0
+      }
+    },
+    {
+      "id": 0,
+      "type": "paintJobRegister",
+      "blueprint": {
+        "v": "0.0",
+        "name": null,
+        "description": null,
+        "paintJobIDs": [
+          1,
+          21,
+          22
+        ]
       }
     }
   ],
@@ -1769,8 +1770,8 @@
         "mirrorVuid": -1,
         "pos": [
           -3.96021079E-13,
-          0.136620164,
-          -1.20682144
+          0.163483322,
+          -1.270976
         ],
         "rot": [
           354.5881,
@@ -2273,8 +2274,8 @@
           ],
           "modulePositions": [
             -3.96021079E-13,
-            0.136620164,
-            -1.20682144,
+            0.163483322,
+            -1.270976,
             2.109969E-08,
             0.535725653,
             2.65485573,
@@ -2313,8 +2314,8 @@
           ],
           "portOffsets": [
             0.0,
-            0.164473414,
-            0.443613529,
+            0.174984679,
+            0.7436849,
             0.0,
             0.145838723,
             -0.4054317,
@@ -2516,7 +2517,7 @@
         "rot": [
           349.1827,
           186.482925,
-          1.5211333E-06,
+          1.57545958E-06,
           0.0
         ],
         "scale": [
@@ -2714,7 +2715,7 @@
           0.4199524
         ],
         "rot": [
-          2.91101987E-05,
+          2.91102024E-05,
           60.000042,
           -2.23834686E-05,
           0.0
@@ -3218,7 +3219,7 @@
           -1.3203125
         ],
         "rot": [
-          0.9052581,
+          0.905258358,
           5.00895658E-06,
           5.00895658E-06,
           0.0
@@ -3246,9 +3247,9 @@
           0.012298584
         ],
         "rot": [
-          3.0483942,
+          3.04839444,
           94.3980255,
-          9.618564E-07,
+          8.549834E-07,
           0.0
         ],
         "scale": [
@@ -3842,7 +3843,7 @@
         ],
         "rot": [
           358.595978,
-          0.582284749,
+          0.5822848,
           -5.00408159E-09,
           0.0
         ],
@@ -4068,7 +4069,7 @@
         "rot": [
           2.13443423E-06,
           270.0,
-          7.548482,
+          7.548481,
           0.0
         ],
         "scale": [

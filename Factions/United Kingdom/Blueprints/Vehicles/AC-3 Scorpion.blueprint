@@ -3,12 +3,12 @@
   "header": {
     "v": "0.2",
     "name": "AC-3 Scorpion",
-    "gameVersion": "0.2.53.2",
-    "mass": 24494,
-    "creationDate": "1941.12.31",
+    "gameVersion": "0.2.56.3",
+    "mass": 25038,
+    "creationDate": "1943.12.31",
     "class": "",
     "desc": "",
-    "cost": 50016
+    "cost": 50278
   },
   "blueprints": [
     {
@@ -28,25 +28,6 @@
         "saturation": 0.75,
         "condition": 0.5,
         "grime": 0.5
-      }
-    },
-    {
-      "id": 2,
-      "type": "paintJob",
-      "blueprint": {
-        "v": "2.2",
-        "name": "Powertrain",
-        "description": "",
-        "colourMapUrl": "821c5c82-a326-46ca-bfd0-bd2a75830ed7",
-        "scale": 0.5,
-        "roughness": 0.5,
-        "metallic": 0.0,
-        "r": 0.25,
-        "g": 0.4,
-        "b": 0.5,
-        "saturation": 0.75,
-        "condition": 0.75,
-        "grime": 0.0
       }
     },
     {
@@ -91,17 +72,18 @@
       "id": 7,
       "type": "engine",
       "blueprint": {
-        "v": "0.4",
-        "name": null,
+        "v": "0.5",
+        "name": "AC-3 Scorpion",
         "description": null,
         "cylinders": 9,
         "idleRPM": 800,
-        "cylinderDisplacement": 2.45,
-        "tech": 0.4,
-        "targetMinRPM": 1500,
-        "targetMaxRPM": 2200,
-        "torqueCoeff": 0.75,
-        "revLimit": -1
+        "cylinderDisplacement": 2.44,
+        "tech": 0.8,
+        "targetMinRPM": 1400,
+        "targetMaxRPM": 3200,
+        "torqueCoeff": 0.85,
+        "revLimit": -1,
+        "engineLayout": "Radial"
       }
     },
     {
@@ -113,9 +95,9 @@
         "description": null,
         "meshType": "slidingMesh",
         "autoInputTorque": true,
-        "maxInputTorque": 1530.53223,
+        "maxInputTorque": 1601.22766,
         "autoResistanceTorque": true,
-        "maxResistanceTorque": 1530.53223,
+        "maxResistanceTorque": 1601.22766,
         "finalDriveRatio": 10.0,
         "msrRatioThreshold": 4.1,
         "auxillaryGearRatio": 1.0,
@@ -307,16 +289,16 @@
       "type": "track",
       "blueprint": {
         "v": "1.1",
-        "name": null,
+        "name": "AC-3 Scorpion",
         "description": null,
         "separation": 1591,
         "length": 6000,
-        "brake": 211359,
+        "brake": 200311,
         "autoBrake": true,
         "rollersEnabled": true,
         "matchChassis": false,
         "frontalTransmission": true,
-        "finalDriveRatio": 7.21
+        "finalDriveRatio": 7.14
       }
     },
     {
@@ -382,7 +364,7 @@
         "torque": 1000.0,
         "ratio": 37.2,
         "type": 2,
-        "resist": 0.75
+        "resist": 0.5
       }
     },
     {
@@ -504,8 +486,8 @@
           }
         ],
         "muzzleMass": 0.0,
-        "K": 2000,
-        "PSI": 35000,
+        "K": 1900,
+        "PSI": 40000,
         "shellID": 60
       }
     },
@@ -525,7 +507,7 @@
               {
                 "id": "AP",
                 "definition": {
-                  "penetratorConstant": 2000
+                  "penetratorConstant": 1900
                 }
               },
               {
@@ -1449,6 +1431,44 @@
       }
     },
     {
+      "id": 21,
+      "type": "paintJob",
+      "blueprint": {
+        "v": "2.2",
+        "name": "Powertrain",
+        "description": "",
+        "colourMapUrl": "821c5c82-a326-46ca-bfd0-bd2a75830ed7",
+        "scale": 0.5,
+        "roughness": 0.5,
+        "metallic": 0.0,
+        "r": 0.25,
+        "g": 0.4,
+        "b": 0.5,
+        "saturation": 0.75,
+        "condition": 0.75,
+        "grime": 0.0
+      }
+    },
+    {
+      "id": 22,
+      "type": "paintJob",
+      "blueprint": {
+        "v": "2.2",
+        "name": "Interior",
+        "description": "",
+        "colourMapUrl": "",
+        "scale": 0.5,
+        "roughness": 0.6,
+        "metallic": 0.0,
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5,
+        "saturation": 0.5,
+        "condition": -1.0,
+        "grime": 0.0
+      }
+    },
+    {
       "id": 0,
       "type": "paintJobRegister",
       "blueprint": {
@@ -1457,7 +1477,8 @@
         "description": null,
         "paintJobIDs": [
           1,
-          2
+          21,
+          22
         ]
       }
     }
@@ -1652,9 +1673,9 @@
             }
           ],
           "modulePositions": [
-            -0.467635065,
-            0.6289047,
-            -1.7891438,
+            -0.00612387061,
+            0.6288948,
+            -1.78915119,
             4.060463E-07,
             0.632233858,
             2.14462781,
@@ -1672,9 +1693,9 @@
             0.0
           ],
           "moduleRotations": [
-            0.0,
-            -2.90283042E-05,
-            270.0,
+            75.00004,
+            -2.90283E-05,
+            6.291829E-12,
             5.008956E-06,
             5.008956E-06,
             180.0,
@@ -1693,29 +1714,29 @@
           ],
           "portOffsets": [
             0.0,
-            0.239028558,
-            0.4835908,
             0.0,
-            0.155717567,
-            -0.432894826,
-            0.6999234,
-            0.155717567,
-            0.0731872544,
-            0.0150942206,
-            -0.0450291932,
-            0.0211641788,
+            0.337889254,
+            0.0,
+            0.15311645,
+            -0.425663739,
+            0.715905666,
+            0.15311645,
+            0.07196473,
+            -0.0395445228,
+            -0.0252350867,
+            0.0118606091,
             0.0,
             0.0,
             0.0,
             -2.23517418E-08,
             0.34100008,
             2.6289978,
-            -0.6999234,
-            0.155717567,
-            0.0731872544,
-            -0.01509124,
-            -0.0450303257,
-            0.02116394,
+            -0.715905666,
+            0.15311645,
+            0.07196473,
+            0.0395455956,
+            -0.025233686,
+            0.0118601322,
             0.0,
             0.0,
             0.0,
@@ -1733,9 +1754,9 @@
             1.0,
             0.0,
             0.0,
-            0.290306777,
-            -0.8660444,
-            0.407049239,
+            -0.81726414,
+            -0.5215319,
+            0.245120153,
             0.0,
             0.0,
             1.0,
@@ -1745,9 +1766,9 @@
             -1.0,
             0.0,
             0.0,
-            -0.290248781,
-            -0.8660661,
-            0.407044441,
+            0.817285657,
+            -0.521502852,
+            0.245110169,
             0.0,
             0.0,
             1.0,
@@ -1804,14 +1825,14 @@
       "transform": {
         "mirrorVuid": -1,
         "pos": [
-          -0.467635065,
-          0.6289047,
-          -1.7891438
+          -0.00612387061,
+          0.6288948,
+          -1.78915119
         ],
         "rot": [
-          0.0,
-          -2.90283042E-05,
-          270.0,
+          75.00004,
+          -2.90283E-05,
+          6.291829E-12,
           0.0
         ],
         "scale": [
@@ -2702,7 +2723,7 @@
         "rot": [
           349.011,
           176.199081,
-          2.17430284E-07,
+          2.71787854E-07,
           0.0
         ],
         "scale": [

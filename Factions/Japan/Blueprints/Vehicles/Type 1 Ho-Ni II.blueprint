@@ -3,12 +3,12 @@
   "header": {
     "v": "0.2",
     "name": "Type 1 Ho-Ni II",
-    "gameVersion": "0.2.54.4",
-    "mass": 12678,
+    "gameVersion": "0.2.56.3",
+    "mass": 14018,
     "creationDate": "1943.12.31",
     "class": "",
     "desc": "",
-    "cost": 41764
+    "cost": 43015
   },
   "blueprints": [
     {
@@ -28,25 +28,6 @@
         "saturation": 0.7,
         "condition": 0.5,
         "grime": 0.5
-      }
-    },
-    {
-      "id": 2,
-      "type": "paintJob",
-      "blueprint": {
-        "v": "2.2",
-        "name": "Powertrain",
-        "description": "",
-        "colourMapUrl": "821c5c82-a326-46ca-bfd0-bd2a75830ed7",
-        "scale": 0.5,
-        "roughness": 0.5,
-        "metallic": 0.0,
-        "r": 0.25,
-        "g": 0.4,
-        "b": 0.5,
-        "saturation": 0.75,
-        "condition": 0.75,
-        "grime": 0.0
       }
     },
     {
@@ -91,17 +72,18 @@
       "id": 7,
       "type": "engine",
       "blueprint": {
-        "v": "0.4",
-        "name": null,
-        "description": null,
-        "cylinders": 6,
+        "v": "0.5",
+        "name": "Type 1 Ho-Ni I",
+        "description": "",
+        "cylinders": 12,
         "idleRPM": 600,
-        "cylinderDisplacement": 1.91,
+        "cylinderDisplacement": 1.81,
         "tech": 0.8,
-        "targetMinRPM": 1200,
+        "targetMinRPM": 1100,
         "targetMaxRPM": 2000,
         "torqueCoeff": 0.85,
-        "revLimit": -1
+        "revLimit": -1,
+        "engineLayout": "V"
       }
     },
     {
@@ -113,9 +95,9 @@
         "description": null,
         "meshType": "constantMesh",
         "autoInputTorque": true,
-        "maxInputTorque": 835.6133,
+        "maxInputTorque": 1583.72766,
         "autoResistanceTorque": true,
-        "maxResistanceTorque": 835.6133,
+        "maxResistanceTorque": 1583.72766,
         "finalDriveRatio": 10.0,
         "msrRatioThreshold": 5.3,
         "auxillaryGearRatio": 2.0,
@@ -136,8 +118,8 @@
       "type": "trackWheelMount",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "mountID": "97844d15-24a8-4feb-9548-668e2bb81ce6",
         "scale": 0.5,
         "x": 0,
@@ -151,8 +133,8 @@
       "type": "trackWheel",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "wheelID": "8b31d0e4-3946-4a3a-81ef-b2bbf3a84989",
         "perAxle": 1,
         "spacingOnAxle": 0.01,
@@ -166,8 +148,8 @@
       "type": "trackWheelMount",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "mountID": "25261a10-1c39-4191-9378-b6108d71cbf1",
         "scale": 1.0,
         "x": 0,
@@ -181,8 +163,8 @@
       "type": "trackWheel",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "wheelID": "ed05e419-9705-41ac-801c-11a0a0dd0700",
         "perAxle": 2,
         "spacingOnAxle": 0.08,
@@ -196,8 +178,8 @@
       "type": "trackWheelArray",
       "blueprint": {
         "v": "0.2",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "spacingMode": 0,
         "spacing": 1148,
         "length": 6000,
@@ -221,8 +203,8 @@
       "type": "trackWheelMount",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "mountID": "062b2d20-13d5-4dec-9d1c-b2855fdccfac",
         "scale": 0.5,
         "x": 0,
@@ -236,8 +218,8 @@
       "type": "trackWheel",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "wheelID": "50907d5b-dde1-451c-a0be-07c69d2fc886",
         "perAxle": 2,
         "spacingOnAxle": 0.049999997,
@@ -251,8 +233,8 @@
       "type": "trackWheelArray",
       "blueprint": {
         "v": "0.2",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "spacingMode": 0,
         "spacing": 135,
         "length": 6000,
@@ -276,8 +258,8 @@
       "type": "trackWheelMount",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "mountID": "6b0a1425-3943-491b-ad87-f56d8b811e19",
         "scale": 0.5,
         "x": 0,
@@ -291,8 +273,8 @@
       "type": "trackWheel",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "wheelID": "50907d5b-dde1-451c-a0be-07c69d2fc886",
         "perAxle": 2,
         "spacingOnAxle": 0.08,
@@ -306,16 +288,16 @@
       "type": "track",
       "blueprint": {
         "v": "1.1",
-        "name": null,
-        "description": null,
+        "name": "Type 1 Ho-Ni I",
+        "description": "",
         "separation": 1419,
         "length": 6000,
-        "brake": 92307,
+        "brake": 112144,
         "autoBrake": true,
         "rollersEnabled": true,
         "matchChassis": false,
         "frontalTransmission": true,
-        "finalDriveRatio": 5.4
+        "finalDriveRatio": 8.429999
       }
     },
     {
@@ -323,8 +305,8 @@
       "type": "trackBelt",
       "blueprint": {
         "v": "1.1",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "segmentID": "24fc57c7-b8cf-4949-8671-0721525c9d10",
         "x": 330,
         "y": 75,
@@ -338,8 +320,8 @@
       "type": "suspension",
       "blueprint": {
         "v": "0.6",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "targetAngle": -17.0,
         "upTravelLimit": 1000.0,
         "damper": 10000.0,
@@ -351,8 +333,8 @@
       "type": "torsionBar",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "torsionBarLength": 679,
         "torsionBarDiameter": 60
       }
@@ -1260,7 +1242,7 @@
       }
     },
     {
-      "id": 0,
+      "id": 5,
       "type": "paintJobRegister",
       "blueprint": {
         "v": "0.0",
@@ -1268,8 +1250,47 @@
         "description": null,
         "paintJobIDs": [
           1,
-          2
+          21,
+          22
         ]
+      }
+    },
+    {
+      "id": 21,
+      "type": "paintJob",
+      "blueprint": {
+        "v": "2.2",
+        "name": "Powertrain",
+        "description": "",
+        "colourMapUrl": "821c5c82-a326-46ca-bfd0-bd2a75830ed7",
+        "scale": 0.5,
+        "roughness": 0.5,
+        "metallic": 0.0,
+        "r": 0.25,
+        "g": 0.4,
+        "b": 0.5,
+        "saturation": 0.75,
+        "condition": 0.75,
+        "grime": 0.0
+      }
+    },
+    {
+      "id": 22,
+      "type": "paintJob",
+      "blueprint": {
+        "v": "2.2",
+        "name": "Interior",
+        "description": "",
+        "colourMapUrl": "",
+        "scale": 0.5,
+        "roughness": 0.6,
+        "metallic": 0.0,
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5,
+        "saturation": 0.5,
+        "condition": -1.0,
+        "grime": 0.0
       }
     }
   ],
@@ -1464,7 +1485,7 @@
           ],
           "modulePositions": [
             -0.4265009,
-            0.434378773,
+            0.377567321,
             -0.8112781,
             3.95541321E-07,
             0.299604475,
@@ -1504,35 +1525,35 @@
           ],
           "portOffsets": [
             0.0,
-            0.211049065,
-            0.355858028,
+            0.2078391,
+            0.5386846,
             0.0,
-            0.1609584,
-            -0.447464347,
-            0.241345242,
-            0.1609584,
-            0.0756504461,
-            0.03731805,
-            -0.007687524,
-            -0.02215004,
+            0.186839715,
+            -0.519414365,
+            0.332258642,
+            0.186839715,
+            0.08781466,
+            0.0433207154,
+            -0.0136886686,
+            -0.0301771164,
             0.0,
             0.0,
             0.0,
             -2.23517418E-08,
-            0.306030273,
-            2.34300017,
-            -0.241345242,
-            0.1609584,
-            0.0756504461,
-            -0.03731805,
-            -0.007687539,
-            -0.02215004,
+            0.306,
+            2.342987,
+            -0.332258642,
+            0.186839715,
+            0.08781466,
+            -0.0433206558,
+            -0.0136886686,
+            -0.0301771164,
             0.0,
             0.0,
             0.0,
             2.23517418E-08,
-            0.306030273,
-            2.34300017
+            0.306,
+            2.342987
           ],
           "portDirections": [
             0.0,
@@ -1544,9 +1565,9 @@
             1.0,
             0.0,
             0.0,
-            0.846748769,
-            -0.174430385,
-            -0.502583861,
+            0.7942787,
+            -0.250979543,
+            -0.5532908,
             0.0,
             0.0,
             1.0,
@@ -1556,9 +1577,9 @@
             -1.0,
             0.0,
             0.0,
-            -0.846748352,
-            -0.174430549,
-            -0.502584457,
+            -0.794277966,
+            -0.250979722,
+            -0.5532917,
             0.0,
             0.0,
             1.0,
@@ -1616,7 +1637,7 @@
         "mirrorVuid": -1,
         "pos": [
           -0.4265009,
-          0.434378773,
+          0.377570361,
           -0.8112781
         ],
         "rot": [
@@ -2735,9 +2756,9 @@
           1.424469
         ],
         "rot": [
-          15.9917545,
+          15.9917564,
           145.7316,
-          3.10850214E-06,
+          2.66443067E-06,
           0.0
         ],
         "scale": [
@@ -2766,7 +2787,7 @@
         "rot": [
           15.1061707,
           179.767319,
-          -3.10898E-08,
+          -3.7998646E-08,
           0.0
         ],
         "scale": [
@@ -2936,7 +2957,7 @@
         "rot": [
           358.0813,
           179.864929,
-          -1.66846215E-09,
+          -1.45990431E-09,
           0.0
         ],
         "scale": [

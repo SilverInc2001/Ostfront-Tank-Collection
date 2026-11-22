@@ -3,8 +3,8 @@
   "header": {
     "v": "0.2",
     "name": "Cruiser Mk VII Cavalier (A24)",
-    "gameVersion": "0.2.55.5",
-    "mass": 24826,
+    "gameVersion": "0.2.56.3",
+    "mass": 24827,
     "creationDate": "1943.12.31",
     "class": "",
     "desc": "",
@@ -72,17 +72,18 @@
       "id": 7,
       "type": "engine",
       "blueprint": {
-        "v": "0.4",
+        "v": "0.5",
         "name": "Cruiser Mk VII Cavalier (A24)",
         "description": "",
         "cylinders": 12,
         "idleRPM": 600,
         "cylinderDisplacement": 2.2533,
         "tech": 0.8,
-        "targetMinRPM": 1100,
-        "targetMaxRPM": 1800,
+        "targetMinRPM": 1000,
+        "targetMaxRPM": 1750,
         "torqueCoeff": 0.85,
-        "revLimit": -1
+        "revLimit": -1,
+        "engineLayout": "V"
       }
     },
     {
@@ -292,7 +293,7 @@
         "description": "",
         "separation": 1878,
         "length": 7120,
-        "brake": 197475,
+        "brake": 198623,
         "autoBrake": true,
         "rollersEnabled": false,
         "matchChassis": false,
@@ -1296,20 +1297,6 @@
       }
     },
     {
-      "id": 0,
-      "type": "paintJobRegister",
-      "blueprint": {
-        "v": "0.0",
-        "name": null,
-        "description": null,
-        "paintJobIDs": [
-          1,
-          21,
-          22
-        ]
-      }
-    },
-    {
       "id": 42,
       "type": "decalTransform",
       "blueprint": {
@@ -1330,6 +1317,20 @@
         "name": null,
         "description": null,
         "imageURL": "Sprocket/Decals/black_circle.png"
+      }
+    },
+    {
+      "id": 2,
+      "type": "paintJobRegister",
+      "blueprint": {
+        "v": "0.0",
+        "name": null,
+        "description": null,
+        "paintJobIDs": [
+          1,
+          21,
+          22
+        ]
       }
     }
   ],
@@ -1524,7 +1525,7 @@
           ],
           "modulePositions": [
             -0.5297238,
-            0.5455391,
+            0.5716772,
             -1.27172971,
             1.40583643E-08,
             0.2225737,
@@ -1564,8 +1565,8 @@
           ],
           "portOffsets": [
             0.0,
-            0.22923252,
-            0.618280232,
+            0.223584,
+            0.5794928,
             0.0,
             0.177809089,
             -0.494309276,
@@ -1676,7 +1677,7 @@
         "mirrorVuid": -1,
         "pos": [
           -0.5297238,
-          0.5455391,
+          0.5716711,
           -1.27172971
         ],
         "rot": [
@@ -2316,9 +2317,9 @@
           0.227508545
         ],
         "rot": [
-          0.8078796,
-          -6.997916E-13,
-          -2.40759764E-05,
+          0.8078797,
+          -7.125151E-13,
+          -2.40759782E-05,
           0.0
         ],
         "scale": [
@@ -2733,7 +2734,7 @@
           -0.102539063
         ],
         "rot": [
-          4.46372468E-08,
+          4.46372539E-08,
           29.9999943,
           3.95821225E-08,
           0.0

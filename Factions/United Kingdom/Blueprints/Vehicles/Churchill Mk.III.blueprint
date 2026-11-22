@@ -3,12 +3,12 @@
   "header": {
     "v": "0.2",
     "name": "Churchill Mk.III",
-    "gameVersion": "0.2.55.5",
-    "mass": 42439,
+    "gameVersion": "0.2.56.3",
+    "mass": 42430,
     "creationDate": "1943.12.31",
     "class": "",
     "desc": "",
-    "cost": 49226
+    "cost": 49222
   },
   "blueprints": [
     {
@@ -72,17 +72,18 @@
       "id": 7,
       "type": "engine",
       "blueprint": {
-        "v": "0.4",
+        "v": "0.5",
         "name": "Churchill Mk.II",
         "description": "",
         "cylinders": 12,
         "idleRPM": 800,
         "cylinderDisplacement": 1.77,
         "tech": 0.8,
-        "targetMinRPM": 1000,
+        "targetMinRPM": 1100,
         "targetMaxRPM": 2200,
         "torqueCoeff": 0.85,
-        "revLimit": -1
+        "revLimit": -1,
+        "engineLayout": "Inline"
       }
     },
     {
@@ -287,16 +288,16 @@
       "type": "track",
       "blueprint": {
         "v": "1.1",
-        "name": "Churchill Mk.III",
+        "name": "Churchill Mk.II",
         "description": "",
         "separation": 1563,
         "length": 7440,
-        "brake": 339390,
+        "brake": 339447,
         "autoBrake": true,
         "rollersEnabled": true,
         "matchChassis": false,
         "frontalTransmission": false,
-        "finalDriveRatio": 10.5
+        "finalDriveRatio": 9.96
       }
     },
     {
@@ -1438,20 +1439,6 @@
       }
     },
     {
-      "id": 5,
-      "type": "paintJobRegister",
-      "blueprint": {
-        "v": "0.0",
-        "name": null,
-        "description": null,
-        "paintJobIDs": [
-          1,
-          21,
-          22
-        ]
-      }
-    },
-    {
       "id": 21,
       "type": "paintJob",
       "blueprint": {
@@ -1487,6 +1474,20 @@
         "saturation": 0.5,
         "condition": -1.0,
         "grime": 0.0
+      }
+    },
+    {
+      "id": 0,
+      "type": "paintJobRegister",
+      "blueprint": {
+        "v": "0.0",
+        "name": null,
+        "description": null,
+        "paintJobIDs": [
+          1,
+          21,
+          22
+        ]
       }
     }
   ],
@@ -1957,9 +1958,9 @@
       "transform": {
         "mirrorVuid": -1,
         "pos": [
-          2.82474346E-08,
-          -0.215373471,
-          -1.676887
+          4.68168722E-08,
+          -0.109934472,
+          -1.46447742
         ],
         "rot": [
           0.0,
@@ -2461,9 +2462,9 @@
             }
           ],
           "modulePositions": [
-            2.82474346E-08,
-            -0.215373471,
-            -1.676887,
+            4.68168722E-08,
+            -0.109934472,
+            -1.46447742,
             -2.85039086E-08,
             0.248218924,
             -3.07604671,
@@ -2502,8 +2503,8 @@
           ],
           "portOffsets": [
             0.0,
-            0.2031671,
-            0.547977149,
+            0.159892634,
+            1.15922141,
             0.0,
             0.130194709,
             -0.3619413,
@@ -2517,8 +2518,8 @@
             0.0,
             0.0,
             -2.23517418E-08,
-            0.312011719,
-            -3.11800027,
+            0.312000036,
+            -3.11801147,
             -0.76017046,
             0.130194709,
             0.0611915141,
@@ -2529,8 +2530,8 @@
             0.0,
             0.0,
             2.23517418E-08,
-            0.312011719,
-            -3.11800027
+            0.312000036,
+            -3.11801147
           ],
           "portDirections": [
             0.0,
@@ -2984,7 +2985,7 @@
           0.748504639
         ],
         "rot": [
-          0.3192837,
+          0.319283724,
           1.27224162E-14,
           -2.17018078E-05,
           0.0

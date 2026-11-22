@@ -3,12 +3,12 @@
   "header": {
     "v": "0.2",
     "name": "M4A4 Sherman VC Firefly",
-    "gameVersion": "0.2.54.4",
-    "mass": 29300,
+    "gameVersion": "0.2.56.3",
+    "mass": 29326,
     "creationDate": "1945.09.02",
     "class": "",
     "desc": "",
-    "cost": 52736
+    "cost": 52746
   },
   "blueprints": [
     {
@@ -28,25 +28,6 @@
         "saturation": 0.5,
         "condition": 0.5,
         "grime": 0.5
-      }
-    },
-    {
-      "id": 2,
-      "type": "paintJob",
-      "blueprint": {
-        "v": "2.2",
-        "name": "Powertrain",
-        "description": "",
-        "colourMapUrl": "821c5c82-a326-46ca-bfd0-bd2a75830ed7",
-        "scale": 0.5,
-        "roughness": 0.5,
-        "metallic": 0.0,
-        "r": 0.25,
-        "g": 0.4,
-        "b": 0.5,
-        "saturation": 0.75,
-        "condition": 0.75,
-        "grime": 0.0
       }
     },
     {
@@ -91,17 +72,18 @@
       "id": 7,
       "type": "engine",
       "blueprint": {
-        "v": "0.4",
+        "v": "0.5",
         "name": "M4A4 Sherman V",
         "description": "",
         "cylinders": 24,
         "idleRPM": 750,
         "cylinderDisplacement": 0.854,
         "tech": 1.0,
-        "targetMinRPM": 1400,
-        "targetMaxRPM": 2100,
+        "targetMinRPM": 1300,
+        "targetMaxRPM": 2400,
         "torqueCoeff": 1.0,
-        "revLimit": -1
+        "revLimit": -1,
+        "engineLayout": "V"
       }
     },
     {
@@ -307,16 +289,16 @@
       "type": "track",
       "blueprint": {
         "v": "1.1",
-        "name": "M4 Sherman I",
+        "name": "M4A4 Sherman V",
         "description": "",
         "separation": 1419,
         "length": 6060,
-        "brake": 145878,
+        "brake": 234608,
         "autoBrake": true,
         "rollersEnabled": true,
         "matchChassis": false,
         "frontalTransmission": true,
-        "finalDriveRatio": 6.21
+        "finalDriveRatio": 6.52999973
       }
     },
     {
@@ -1520,19 +1502,6 @@
       }
     },
     {
-      "id": 0,
-      "type": "paintJobRegister",
-      "blueprint": {
-        "v": "0.0",
-        "name": null,
-        "description": null,
-        "paintJobIDs": [
-          1,
-          2
-        ]
-      }
-    },
-    {
       "id": 64,
       "type": "decalTransform",
       "blueprint": {
@@ -1576,6 +1545,58 @@
         "name": null,
         "description": null,
         "imageURL": "Sprocket/Decals/Circled Star.png"
+      }
+    },
+    {
+      "id": 5,
+      "type": "paintJobRegister",
+      "blueprint": {
+        "v": "0.0",
+        "name": null,
+        "description": null,
+        "paintJobIDs": [
+          1,
+          21,
+          22
+        ]
+      }
+    },
+    {
+      "id": 21,
+      "type": "paintJob",
+      "blueprint": {
+        "v": "2.2",
+        "name": "Powertrain",
+        "description": "",
+        "colourMapUrl": "821c5c82-a326-46ca-bfd0-bd2a75830ed7",
+        "scale": 0.5,
+        "roughness": 0.5,
+        "metallic": 0.0,
+        "r": 0.25,
+        "g": 0.4,
+        "b": 0.5,
+        "saturation": 0.75,
+        "condition": 0.75,
+        "grime": 0.0
+      }
+    },
+    {
+      "id": 22,
+      "type": "paintJob",
+      "blueprint": {
+        "v": "2.2",
+        "name": "Interior",
+        "description": "",
+        "colourMapUrl": "",
+        "scale": 0.5,
+        "roughness": 0.6,
+        "metallic": 0.0,
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5,
+        "saturation": 0.5,
+        "condition": -1.0,
+        "grime": 0.0
       }
     }
   ],
@@ -2221,8 +2242,8 @@
           ],
           "portOffsets": [
             0.0,
-            0.1411223,
-            0.665991,
+            0.161803171,
+            0.7439643,
             0.0,
             0.159897149,
             -0.444514066,
@@ -2236,8 +2257,8 @@
             0.0,
             0.0,
             -2.23517418E-08,
-            0.2919922,
-            2.88100028,
+            0.292000055,
+            2.881012,
             -0.427928239,
             0.159897149,
             0.07515166,
@@ -2248,8 +2269,8 @@
             0.0,
             0.0,
             2.23517418E-08,
-            0.2919922,
-            2.88100028
+            0.292000055,
+            2.881012
           ],
           "portDirections": [
             0.0,
@@ -2506,9 +2527,9 @@
           0.4199524
         ],
         "rot": [
-          2.91102533E-05,
+          2.91102569E-05,
           60.000042,
-          -2.23834377E-05,
+          -2.23834359E-05,
           0.0
         ],
         "scale": [
@@ -3092,9 +3113,9 @@
           -0.00692749023
         ],
         "rot": [
-          3.71979451,
+          3.71979523,
           267.255,
-          -1.06947016E-06,
+          -1.2833641E-06,
           0.0
         ],
         "scale": [
@@ -3121,7 +3142,7 @@
           -0.00692749023
         ],
         "rot": [
-          3.71979356,
+          3.719794,
           92.74498,
           1.2833641E-06,
           0.0
@@ -3432,7 +3453,7 @@
         ],
         "rot": [
           334.3974,
-          1.443639E-05,
+          1.44363921E-05,
           179.999985,
           0.0
         ],
@@ -3572,7 +3593,7 @@
         "rot": [
           0.326413929,
           180.0,
-          -7.951516E-15,
+          -9.54181853E-15,
           0.0
         ],
         "scale": [
@@ -3601,7 +3622,7 @@
         "rot": [
           0.326413929,
           180.0,
-          -7.951516E-15,
+          -9.54181853E-15,
           0.0
         ],
         "scale": [
@@ -3630,7 +3651,7 @@
         "rot": [
           359.779846,
           180.0,
-          7.156301E-15,
+          7.95144556E-15,
           0.0
         ],
         "scale": [
@@ -3659,7 +3680,7 @@
         "rot": [
           359.779846,
           180.0,
-          7.156301E-15,
+          7.95144556E-15,
           0.0
         ],
         "scale": [
@@ -3688,7 +3709,7 @@
         "rot": [
           20.0679436,
           0.182202682,
-          -2.84049939E-08,
+          -3.195562E-08,
           0.0
         ],
         "scale": [
@@ -3715,7 +3736,7 @@
           -2.66653442
         ],
         "rot": [
-          20.071003,
+          20.0710049,
           359.971924,
           4.43836717E-10,
           0.0
@@ -4140,7 +4161,7 @@
         "rot": [
           56.48303,
           180.009308,
-          7.54968754E-10,
+          1.50993751E-09,
           0.0
         ],
         "scale": [

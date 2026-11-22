@@ -3,12 +3,12 @@
   "header": {
     "v": "0.2",
     "name": "KV-1 M1942",
-    "gameVersion": "0.2.55.5",
-    "mass": 44651,
+    "gameVersion": "0.2.56.3",
+    "mass": 44668,
     "creationDate": "1941.12.31",
     "class": "",
     "desc": "",
-    "cost": 41501
+    "cost": 41510
   },
   "blueprints": [
     {
@@ -72,17 +72,18 @@
       "id": 7,
       "type": "engine",
       "blueprint": {
-        "v": "0.4",
-        "name": null,
-        "description": null,
+        "v": "0.5",
+        "name": "KV-1 M1940",
+        "description": "",
         "cylinders": 12,
         "idleRPM": 600,
-        "cylinderDisplacement": 3.23,
+        "cylinderDisplacement": 3.24,
         "tech": 0.4,
-        "targetMinRPM": 1200,
+        "targetMinRPM": 1150,
         "targetMaxRPM": 2000,
         "torqueCoeff": 0.75,
-        "revLimit": -1
+        "revLimit": -1,
+        "engineLayout": "V"
       }
     },
     {
@@ -94,9 +95,9 @@
         "description": "",
         "meshType": "slidingMesh",
         "autoInputTorque": true,
-        "maxInputTorque": 2690.40479,
+        "maxInputTorque": 2698.73462,
         "autoResistanceTorque": true,
-        "maxResistanceTorque": 2690.40479,
+        "maxResistanceTorque": 2698.73462,
         "finalDriveRatio": 6.23,
         "msrRatioThreshold": 2.8,
         "auxillaryGearRatio": 1.0,
@@ -292,7 +293,7 @@
         "description": "",
         "separation": 1720,
         "length": 6750,
-        "brake": 357210,
+        "brake": 357233,
         "autoBrake": true,
         "rollersEnabled": true,
         "matchChassis": false,
@@ -1314,20 +1315,6 @@
       }
     },
     {
-      "id": 5,
-      "type": "paintJobRegister",
-      "blueprint": {
-        "v": "0.0",
-        "name": null,
-        "description": null,
-        "paintJobIDs": [
-          1,
-          21,
-          22
-        ]
-      }
-    },
-    {
       "id": 21,
       "type": "paintJob",
       "blueprint": {
@@ -1363,6 +1350,20 @@
         "saturation": 0.5,
         "condition": -1.0,
         "grime": 0.0
+      }
+    },
+    {
+      "id": 0,
+      "type": "paintJobRegister",
+      "blueprint": {
+        "v": "0.0",
+        "name": null,
+        "description": null,
+        "paintJobIDs": [
+          1,
+          21,
+          22
+        ]
       }
     }
   ],
@@ -1563,11 +1564,11 @@
             0.2912466,
             -2.845206,
             -0.86,
-            0.476436079,
-            -2.932245,
+            0.4765777,
+            -2.93231153,
             0.86,
-            0.476436079,
-            -2.93224525,
+            0.4765777,
+            -2.93231177,
             -0.86,
             0.0,
             0.0,
@@ -1597,15 +1598,15 @@
           ],
           "portOffsets": [
             0.0,
-            0.274453,
-            0.7402478,
+            0.252357423,
+            0.6540688,
             0.0,
-            0.185189471,
-            -0.5148267,
-            0.9279789,
-            0.185189471,
-            0.087039046,
-            -0.056791544,
+            0.185331091,
+            -0.5152204,
+            0.9294143,
+            0.185331091,
+            0.0871056,
+            -0.0568500757,
             0.0,
             0.0,
             0.0,
@@ -1614,10 +1615,10 @@
             -2.23517418E-08,
             0.37,
             -2.93798828,
-            -0.9279789,
-            0.185189471,
-            0.087039046,
-            0.056791544,
+            -0.9294143,
+            0.185331091,
+            0.0871056,
+            0.0568500757,
             0.0,
             0.0,
             0.0,
@@ -2206,7 +2207,7 @@
           2.34655762
         ],
         "rot": [
-          1.57863581,
+          1.57863569,
           0.0,
           0.0,
           0.0
@@ -2456,7 +2457,7 @@
           -1.771637
         ],
         "rot": [
-          29.9999866,
+          29.9999847,
           270.000031,
           180.0,
           0.0
@@ -3207,7 +3208,7 @@
           -0.415740967
         ],
         "rot": [
-          14.6258888,
+          14.6258907,
           85.779,
           359.946655,
           0.0
@@ -3294,7 +3295,7 @@
           -0.414978027
         ],
         "rot": [
-          14.6259995,
+          14.6260014,
           274.221039,
           0.053340856,
           0.0
@@ -3323,7 +3324,7 @@
           0.489685059
         ],
         "rot": [
-          14.9877663,
+          14.9877682,
           101.940613,
           0.000419824384,
           0.0

@@ -3,12 +3,12 @@
   "header": {
     "v": "0.2",
     "name": "Carro Armato Pesante P26-40 da 75-18",
-    "gameVersion": "0.2.52.3",
-    "mass": 19662,
+    "gameVersion": "0.2.56.3",
+    "mass": 19686,
     "creationDate": "1945.09.02",
     "class": "",
     "desc": "",
-    "cost": 36079
+    "cost": 36092
   },
   "blueprints": [
     {
@@ -28,25 +28,6 @@
         "saturation": 0.25,
         "condition": 0.599999964,
         "grime": 0.5
-      }
-    },
-    {
-      "id": 2,
-      "type": "paintJob",
-      "blueprint": {
-        "v": "2.2",
-        "name": "Powertrain",
-        "description": "",
-        "colourMapUrl": "821c5c82-a326-46ca-bfd0-bd2a75830ed7",
-        "scale": 0.5,
-        "roughness": 0.5,
-        "metallic": 0.0,
-        "r": 0.25,
-        "g": 0.4,
-        "b": 0.5,
-        "saturation": 0.75,
-        "condition": 0.75,
-        "grime": 0.0
       }
     },
     {
@@ -91,17 +72,18 @@
       "id": 7,
       "type": "engine",
       "blueprint": {
-        "v": "0.4",
-        "name": null,
-        "description": null,
+        "v": "0.5",
+        "name": "Carro Armato Pesante P26-40",
+        "description": "",
         "cylinders": 6,
         "idleRPM": 800,
-        "cylinderDisplacement": 2.003,
+        "cylinderDisplacement": 2.08,
         "tech": 1.0,
-        "targetMinRPM": 1400,
+        "targetMinRPM": 1150,
         "targetMaxRPM": 2100,
         "torqueCoeff": 1.0,
-        "revLimit": -1
+        "revLimit": -1,
+        "engineLayout": "V"
       }
     },
     {
@@ -113,9 +95,9 @@
         "description": null,
         "meshType": "constantMesh",
         "autoInputTorque": true,
-        "maxInputTorque": 891.1461,
+        "maxInputTorque": 925.403748,
         "autoResistanceTorque": true,
-        "maxResistanceTorque": 891.1461,
+        "maxResistanceTorque": 925.403748,
         "finalDriveRatio": 10.0,
         "msrRatioThreshold": 2.7,
         "auxillaryGearRatio": 1.0,
@@ -307,16 +289,16 @@
       "type": "track",
       "blueprint": {
         "v": "1.1",
-        "name": "Carro Armato M15-42",
+        "name": "Carro Armato Pesante P26-40",
         "description": "",
         "separation": 1620,
         "length": 4700,
-        "brake": 154947,
+        "brake": 157492,
         "autoBrake": true,
         "rollersEnabled": true,
         "matchChassis": false,
         "frontalTransmission": true,
-        "finalDriveRatio": 9.21
+        "finalDriveRatio": 8.87
       }
     },
     {
@@ -1441,7 +1423,7 @@
       }
     },
     {
-      "id": 5,
+      "id": 0,
       "type": "paintJobRegister",
       "blueprint": {
         "v": "0.0",
@@ -1449,8 +1431,47 @@
         "description": null,
         "paintJobIDs": [
           1,
-          2
+          21,
+          22
         ]
+      }
+    },
+    {
+      "id": 21,
+      "type": "paintJob",
+      "blueprint": {
+        "v": "2.2",
+        "name": "Powertrain",
+        "description": "",
+        "colourMapUrl": "821c5c82-a326-46ca-bfd0-bd2a75830ed7",
+        "scale": 0.5,
+        "roughness": 0.5,
+        "metallic": 0.0,
+        "r": 0.25,
+        "g": 0.4,
+        "b": 0.5,
+        "saturation": 0.75,
+        "condition": 0.75,
+        "grime": 0.0
+      }
+    },
+    {
+      "id": 22,
+      "type": "paintJob",
+      "blueprint": {
+        "v": "2.2",
+        "name": "Interior",
+        "description": "",
+        "colourMapUrl": "",
+        "scale": 0.5,
+        "roughness": 0.6,
+        "metallic": 0.0,
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5,
+        "saturation": 0.5,
+        "condition": -1.0,
+        "grime": 0.0
       }
     }
   ],
@@ -1645,17 +1666,17 @@
           ],
           "modulePositions": [
             -5.31502E-13,
-            0.8125181,
-            -1.70114052,
+            0.735402644,
+            -1.68047762,
             0.0,
             0.459304482,
             2.05462527,
             -0.810000062,
-            0.5997831,
-            2.12065029,
+            0.6009529,
+            2.1212,
             0.810000062,
-            0.5997831,
-            2.12065029,
+            0.6009529,
+            2.1212,
             -0.810000062,
             0.0,
             0.0,
@@ -1685,35 +1706,35 @@
           ],
           "portOffsets": [
             0.0,
-            0.216126084,
-            0.3644186,
+            0.217698544,
+            0.345873654,
             0.0,
-            0.140478626,
-            -0.390530556,
-            0.229377359,
-            0.140478626,
-            0.06602495,
-            0.0335690975,
+            0.141648427,
+            -0.393782616,
+            0.233744651,
+            0.141648427,
+            0.06657476,
+            0.03399384,
             0.0,
             0.0,
             0.0,
             0.0,
             0.0,
             -2.23517418E-08,
-            0.684021,
-            2.14600015,
-            -0.229377359,
-            0.140478626,
-            0.06602495,
-            -0.0335690975,
+            0.684,
+            2.145996,
+            -0.233744651,
+            0.141648427,
+            0.06657476,
+            -0.03399384,
             0.0,
             0.0,
             0.0,
             0.0,
             0.0,
             2.23517418E-08,
-            0.684021,
-            2.14600015
+            0.684,
+            2.145996
           ],
           "portDirections": [
             0.0,
@@ -1797,8 +1818,8 @@
         "mirrorVuid": -1,
         "pos": [
           -5.31502E-13,
-          0.8125181,
-          -1.70114052
+          0.735402644,
+          -1.68047762
         ],
         "rot": [
           75.00005,
@@ -2464,7 +2485,7 @@
         ],
         "rot": [
           359.937439,
-          1.13920248E-10,
+          1.13920262E-10,
           3.554074E-11,
           0.0
         ],
@@ -2692,7 +2713,7 @@
           -0.3223877
         ],
         "rot": [
-          3.70489652E-05,
+          3.704897E-05,
           344.9825,
           -7.20485332E-06,
           0.0
@@ -2802,7 +2823,7 @@
           0.925598145
         ],
         "rot": [
-          4.17045927,
+          4.17045975,
           180.0,
           5.10239739E-14,
           0.0
@@ -3450,7 +3471,7 @@
         ],
         "rot": [
           7.190375E-06,
-          0.479584366,
+          0.4795844,
           35.3311,
           0.0
         ],
@@ -3669,7 +3690,7 @@
         "rot": [
           357.598328,
           180.0,
-          -7.003372E-14,
+          -7.640043E-14,
           0.0
         ],
         "scale": [

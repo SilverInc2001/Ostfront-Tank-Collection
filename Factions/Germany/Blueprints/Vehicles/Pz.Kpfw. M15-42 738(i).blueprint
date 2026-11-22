@@ -3,8 +3,8 @@
   "header": {
     "v": "0.2",
     "name": "Pz.Kpfw. M15-42 738(i)",
-    "gameVersion": "0.2.51.36",
-    "mass": 11829,
+    "gameVersion": "0.2.56.3",
+    "mass": 11830,
     "creationDate": "1943.12.31",
     "class": "",
     "desc": "",
@@ -31,25 +31,6 @@
       }
     },
     {
-      "id": 2,
-      "type": "paintJob",
-      "blueprint": {
-        "v": "2.2",
-        "name": "Powertrain",
-        "description": "",
-        "colourMapUrl": "821c5c82-a326-46ca-bfd0-bd2a75830ed7",
-        "scale": 0.5,
-        "roughness": 0.5,
-        "metallic": 0.0,
-        "r": 0.25,
-        "g": 0.4,
-        "b": 0.5,
-        "saturation": 0.75,
-        "condition": 0.75,
-        "grime": 0.0
-      }
-    },
-    {
       "id": 3,
       "type": "chassis",
       "blueprint": {
@@ -65,12 +46,13 @@
       "id": 4,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": null,
         "description": null,
         "armourVolume": 0.64088273,
         "bodyMeshVuid": 0,
         "partRepositioning": false,
+        "collisionEnabled": true,
         "armourTechID": "rha"
       }
     },
@@ -90,17 +72,18 @@
       "id": 7,
       "type": "engine",
       "blueprint": {
-        "v": "0.4",
-        "name": null,
-        "description": null,
+        "v": "0.5",
+        "name": "Carro Armato M15-42",
+        "description": "",
         "cylinders": 8,
         "idleRPM": 600,
         "cylinderDisplacement": 1.497,
         "tech": 0.8,
-        "targetMinRPM": 1500,
+        "targetMinRPM": 1200,
         "targetMaxRPM": 2400,
         "torqueCoeff": 0.85,
-        "revLimit": -1
+        "revLimit": -1,
+        "engineLayout": "V"
       }
     },
     {
@@ -136,8 +119,8 @@
       "type": "trackWheelMount",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "mountID": "97844d15-24a8-4feb-9548-668e2bb81ce6",
         "scale": 0.5,
         "x": 0,
@@ -151,8 +134,8 @@
       "type": "trackWheel",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "wheelID": "470581da-c2aa-4748-ad51-cbcf64767a1d",
         "perAxle": 1,
         "spacingOnAxle": 0.01,
@@ -166,8 +149,8 @@
       "type": "trackWheelMount",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "mountID": "25261a10-1c39-4191-9378-b6108d71cbf1",
         "scale": 0.0,
         "x": 0,
@@ -181,8 +164,8 @@
       "type": "trackWheel",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "wheelID": "ed05e419-9705-41ac-801c-11a0a0dd0700",
         "perAxle": 2,
         "spacingOnAxle": 0.08,
@@ -196,8 +179,8 @@
       "type": "trackWheelArray",
       "blueprint": {
         "v": "0.2",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "spacingMode": 2,
         "spacing": 1080,
         "length": 4700,
@@ -221,8 +204,8 @@
       "type": "trackWheelMount",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "mountID": "062b2d20-13d5-4dec-9d1c-b2855fdccfac",
         "scale": 0.5,
         "x": 0,
@@ -236,8 +219,8 @@
       "type": "trackWheel",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "wheelID": "aac797c7-1b6a-4b86-ba4b-62cc683174be",
         "perAxle": 2,
         "spacingOnAxle": 0.08,
@@ -251,8 +234,8 @@
       "type": "trackWheelArray",
       "blueprint": {
         "v": "0.2",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "spacingMode": 0,
         "spacing": 135,
         "length": 4700,
@@ -276,8 +259,8 @@
       "type": "trackWheelMount",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "mountID": "a5d242f0-ab76-4f51-b8c0-5ffd795c9130",
         "scale": 0.92,
         "x": 0,
@@ -291,8 +274,8 @@
       "type": "trackWheel",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "wheelID": "50907d5b-dde1-451c-a0be-07c69d2fc886",
         "perAxle": 2,
         "spacingOnAxle": 0.049999997,
@@ -307,15 +290,15 @@
       "blueprint": {
         "v": "1.1",
         "name": "Carro Armato M15-42",
-        "description": null,
+        "description": "",
         "separation": 1362,
         "length": 4700,
-        "brake": 94637,
+        "brake": 94642,
         "autoBrake": true,
         "rollersEnabled": true,
         "matchChassis": false,
         "frontalTransmission": true,
-        "finalDriveRatio": 8.5
+        "finalDriveRatio": 8.65
       }
     },
     {
@@ -323,8 +306,8 @@
       "type": "trackBelt",
       "blueprint": {
         "v": "1.1",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "segmentID": "24fc57c7-b8cf-4949-8671-0721525c9d10",
         "x": 260,
         "y": 75,
@@ -338,8 +321,8 @@
       "type": "suspension",
       "blueprint": {
         "v": "0.6",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "targetAngle": -5.0,
         "upTravelLimit": 1000.0,
         "damper": 10018.0,
@@ -678,12 +661,13 @@
       "id": 33,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": "Unnamed Structure",
         "description": null,
         "armourVolume": 0.002036845,
         "bodyMeshVuid": 2,
         "partRepositioning": true,
+        "collisionEnabled": false,
         "armourTechID": "rha"
       }
     },
@@ -691,12 +675,13 @@
       "id": 34,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": "Unnamed Structure",
         "description": null,
         "armourVolume": 0.00184295769,
         "bodyMeshVuid": 4,
         "partRepositioning": true,
+        "collisionEnabled": false,
         "armourTechID": "rha"
       }
     },
@@ -704,12 +689,13 @@
       "id": 37,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": "Unnamed Structure",
         "description": null,
         "armourVolume": 0.00184295769,
         "bodyMeshVuid": 4,
         "partRepositioning": true,
+        "collisionEnabled": false,
         "armourTechID": "rha"
       }
     },
@@ -765,12 +751,13 @@
       "id": 43,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": "Unnamed Structure",
         "description": null,
         "armourVolume": 0.142291084,
         "bodyMeshVuid": 5,
         "partRepositioning": true,
+        "collisionEnabled": true,
         "armourTechID": "rha"
       }
     },
@@ -803,12 +790,13 @@
       "id": 47,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": "Unnamed Structure",
         "description": null,
         "armourVolume": 0.0158116873,
         "bodyMeshVuid": 7,
         "partRepositioning": true,
+        "collisionEnabled": false,
         "armourTechID": "rha"
       }
     },
@@ -816,12 +804,13 @@
       "id": 48,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": "Unnamed Structure",
         "description": null,
         "armourVolume": 0.00184295769,
         "bodyMeshVuid": 4,
         "partRepositioning": true,
+        "collisionEnabled": false,
         "armourTechID": "rha"
       }
     },
@@ -1450,7 +1439,7 @@
       }
     },
     {
-      "id": 0,
+      "id": 5,
       "type": "paintJobRegister",
       "blueprint": {
         "v": "0.0",
@@ -1458,8 +1447,47 @@
         "description": null,
         "paintJobIDs": [
           1,
-          2
+          21,
+          22
         ]
+      }
+    },
+    {
+      "id": 21,
+      "type": "paintJob",
+      "blueprint": {
+        "v": "2.2",
+        "name": "Powertrain",
+        "description": "",
+        "colourMapUrl": "821c5c82-a326-46ca-bfd0-bd2a75830ed7",
+        "scale": 0.5,
+        "roughness": 0.5,
+        "metallic": 0.0,
+        "r": 0.25,
+        "g": 0.4,
+        "b": 0.5,
+        "saturation": 0.75,
+        "condition": 0.75,
+        "grime": 0.0
+      }
+    },
+    {
+      "id": 22,
+      "type": "paintJob",
+      "blueprint": {
+        "v": "2.2",
+        "name": "Interior",
+        "description": "",
+        "colourMapUrl": "",
+        "scale": 0.5,
+        "roughness": 0.6,
+        "metallic": 0.0,
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5,
+        "saturation": 0.5,
+        "condition": -1.0,
+        "grime": 0.0
       }
     }
   ],
@@ -1653,9 +1681,9 @@
             }
           ],
           "modulePositions": [
-            0.0,
-            0.322744548,
-            -0.9241154,
+            -0.453948081,
+            0.7535905,
+            -0.874839544,
             4.0263788E-07,
             0.703453362,
             1.88595843,
@@ -1675,7 +1703,7 @@
           "moduleRotations": [
             0.0,
             0.0,
-            0.0,
+            270.0,
             5.008956E-06,
             5.008956E-06,
             180.0,
@@ -1694,8 +1722,8 @@
           ],
           "portOffsets": [
             0.0,
-            0.186843351,
-            0.37801227,
+            0.195092991,
+            0.375188649,
             0.0,
             0.128913537,
             -0.358379632,
@@ -1798,21 +1826,21 @@
       "guid": "ebcf5eda-e50b-4f18-a063-0138a9d630e0",
       "vuid": 9,
       "pvuid": 2,
-      "flags": 2,
+      "flags": 3,
       "engine": 10,
       "powertrainNode": 11,
       "fuelReserve": 12,
       "transform": {
         "mirrorVuid": -1,
         "pos": [
-          0.0,
-          0.322744548,
-          -0.9241154
+          -0.453948081,
+          0.7535905,
+          -0.874839544
         ],
         "rot": [
           0.0,
           0.0,
-          0.0,
+          270.0,
           0.0
         ],
         "scale": [
@@ -2217,9 +2245,9 @@
           1.20632935
         ],
         "rot": [
-          13.3766928,
+          13.3766947,
           179.866516,
-          5.142084E-09,
+          3.42805584E-09,
           0.0
         ],
         "scale": [
@@ -2248,7 +2276,7 @@
         "rot": [
           0.0,
           0.0,
-          1.34965426E-08,
+          0.0,
           0.0
         ],
         "scale": [
@@ -2271,13 +2299,13 @@
         "mirrorVuid": -1,
         "pos": [
           -0.433682829,
-          0.3414306,
+          0.341430724,
           1.118103
         ],
         "rot": [
           0.0,
           0.0,
-          1.34965426E-08,
+          0.0,
           0.0
         ],
         "scale": [
@@ -2335,7 +2363,7 @@
         "rot": [
           359.65274,
           180.143692,
-          -4.95056052E-10,
+          -5.21111654E-10,
           0.0
         ],
         "scale": [
@@ -2665,9 +2693,9 @@
           -0.946929932
         ],
         "rot": [
-          18.4386158,
+          18.4386177,
           271.7478,
-          5.399853E-06,
+          4.49987829E-06,
           0.0
         ],
         "scale": [
@@ -2692,7 +2720,7 @@
           -0.946929932
         ],
         "rot": [
-          18.438612,
+          18.4386139,
           88.25218,
           -4.49987738E-06,
           0.0
@@ -2718,7 +2746,7 @@
           -2.22076416
         ],
         "rot": [
-          13.0757027,
+          13.0757036,
           180.4064,
           -1.02714779E-08,
           0.0
@@ -2772,7 +2800,7 @@
           -2.22076416
         ],
         "rot": [
-          13.0757027,
+          13.0757036,
           179.5936,
           3.42382611E-09,
           0.0
@@ -2853,9 +2881,9 @@
           -0.22012794
         ],
         "rot": [
-          0.00021516424,
+          0.000215164255,
           359.401184,
-          -7.390683E-08,
+          -7.390693E-08,
           0.0
         ],
         "scale": [
@@ -2909,9 +2937,9 @@
           -0.22165525
         ],
         "rot": [
-          0.0005823246,
+          0.000582324632,
           359.400574,
-          3.47579316E-07,
+          3.47578919E-07,
           0.0
         ],
         "scale": [
@@ -3166,7 +3194,7 @@
           -0.46024394
         ],
         "rot": [
-          -0.000860616041,
+          -0.0008606161,
           359.400055,
           -2.08241353E-08,
           0.0
@@ -3329,12 +3357,12 @@
         "pos": [
           -0.279508561,
           -0.992794156,
-          -0.3190238
+          -0.319023758
         ],
         "rot": [
-          -5.27644134E-20,
-          8.82616646E-10,
-          6.8504904E-09,
+          0.0,
+          0.0,
+          -6.48951648E-09,
           0.0
         ],
         "scale": [
@@ -3358,12 +3386,12 @@
         "pos": [
           0.2786581,
           -0.9928014,
-          -0.318992734
+          -0.3189927
         ],
         "rot": [
-          -5.27644134E-20,
-          8.82616646E-10,
-          6.8504904E-09,
+          0.0,
+          0.0,
+          -6.48951648E-09,
           0.0
         ],
         "scale": [
@@ -3558,8 +3586,8 @@
           0.507172167
         ],
         "rot": [
-          69.2265854,
-          63.7282066,
+          69.2266,
+          63.7282143,
           359.70752,
           0.0
         ],
@@ -3588,7 +3616,7 @@
         "rot": [
           69.22658,
           296.271729,
-          0.2924342,
+          0.292434156,
           0.0
         ],
         "scale": [
@@ -3614,8 +3642,8 @@
           0.248528153
         ],
         "rot": [
-          69.2265854,
-          63.7282066,
+          69.2266,
+          63.7282143,
           359.70752,
           0.0
         ],
@@ -3644,7 +3672,7 @@
         "rot": [
           69.22658,
           296.271729,
-          0.2924342,
+          0.292434156,
           0.0
         ],
         "scale": [
@@ -3671,7 +3699,7 @@
         ],
         "rot": [
           69.882225,
-          75.52364,
+          75.52366,
           359.829865,
           0.0
         ],
@@ -3698,9 +3726,9 @@
           -0.00684955344
         ],
         "rot": [
-          69.882225,
+          69.88222,
           284.476318,
-          0.170089126,
+          0.170084283,
           0.0
         ],
         "scale": [
@@ -3726,9 +3754,9 @@
           -0.269008458
         ],
         "rot": [
-          71.66164,
+          71.66166,
           267.273376,
-          -0.00021708748,
+          -0.0002116605,
           0.0
         ],
         "scale": [
@@ -3754,9 +3782,9 @@
           -0.269008517
         ],
         "rot": [
-          71.66162,
+          71.66164,
           92.72666,
-          0.0002713592,
+          0.000265932176,
           0.0
         ],
         "scale": [
@@ -3784,7 +3812,7 @@
         "rot": [
           70.75436,
           248.468048,
-          0.490110844,
+          0.4901155,
           0.0
         ],
         "scale": [
@@ -3810,9 +3838,9 @@
           -0.5365861
         ],
         "rot": [
-          70.75444,
-          111.531906,
-          359.509827,
+          70.75446,
+          111.5319,
+          359.5098,
           0.0
         ],
         "scale": [
@@ -3838,9 +3866,9 @@
           -0.7339359
         ],
         "rot": [
-          70.42591,
+          70.42593,
           217.993622,
-          7.05212259,
+          7.05211639,
           0.0
         ],
         "scale": [
@@ -3866,8 +3894,8 @@
           -0.733936
         ],
         "rot": [
-          70.4259644,
-          142.0064,
+          70.42595,
+          142.006409,
           352.947876,
           0.0
         ],
@@ -3951,9 +3979,9 @@
           -0.944549561
         ],
         "rot": [
-          71.7758255,
+          71.77585,
           91.57375,
-          1.3458122,
+          1.34580851,
           0.0
         ],
         "scale": [
@@ -4065,9 +4093,9 @@
           0.284015656
         ],
         "rot": [
-          8.194343,
+          8.194344,
           91.01992,
-          -4.312901E-06,
+          -3.881611E-06,
           0.0
         ],
         "scale": [
@@ -4208,8 +4236,8 @@
         ],
         "rot": [
           12.7136946,
-          0.304688841,
-          1.36755087E-08,
+          0.304688871,
+          1.70943881E-08,
           0.0
         ],
         "scale": [
@@ -4291,7 +4319,7 @@
           2.16276121
         ],
         "rot": [
-          41.4483528,
+          41.44836,
           0.04899819,
           -2.22469576E-09,
           0.0

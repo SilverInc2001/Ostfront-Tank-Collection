@@ -3,12 +3,12 @@
   "header": {
     "v": "0.2",
     "name": "Landsverk L-60",
-    "gameVersion": "0.2.53.2",
-    "mass": 6429,
+    "gameVersion": "0.2.56.3",
+    "mass": 6395,
     "creationDate": "1939.09.01",
     "class": "",
     "desc": "",
-    "cost": 31634
+    "cost": 31616
   },
   "blueprints": [
     {
@@ -28,25 +28,6 @@
         "saturation": 1.0,
         "condition": 0.5,
         "grime": 0.5
-      }
-    },
-    {
-      "id": 2,
-      "type": "paintJob",
-      "blueprint": {
-        "v": "2.2",
-        "name": "Powertrain",
-        "description": "",
-        "colourMapUrl": "821c5c82-a326-46ca-bfd0-bd2a75830ed7",
-        "scale": 0.5,
-        "roughness": 0.5,
-        "metallic": 0.0,
-        "r": 0.25,
-        "g": 0.4,
-        "b": 0.5,
-        "saturation": 0.75,
-        "condition": 0.75,
-        "grime": 0.0
       }
     },
     {
@@ -91,17 +72,18 @@
       "id": 7,
       "type": "engine",
       "blueprint": {
-        "v": "0.4",
-        "name": null,
-        "description": null,
+        "v": "0.5",
+        "name": "Landsverk L-60",
+        "description": "",
         "cylinders": 6,
         "idleRPM": 800,
         "cylinderDisplacement": 1.292,
         "tech": 0.2,
-        "targetMinRPM": 1200,
-        "targetMaxRPM": 2500,
+        "targetMinRPM": 1250,
+        "targetMaxRPM": 2700,
         "torqueCoeff": 0.6,
-        "revLimit": -1
+        "revLimit": -1,
+        "engineLayout": "Inline"
       }
     },
     {
@@ -307,16 +289,16 @@
       "type": "track",
       "blueprint": {
         "v": "1.1",
-        "name": "38M Toldi I",
+        "name": "Landsverk L-60",
         "description": "",
         "separation": 1204,
         "length": 3940,
-        "brake": 49896,
+        "brake": 51160,
         "autoBrake": true,
         "rollersEnabled": true,
         "matchChassis": false,
         "frontalTransmission": true,
-        "finalDriveRatio": 5.52999973
+        "finalDriveRatio": 5.41
       }
     },
     {
@@ -1169,19 +1151,6 @@
       }
     },
     {
-      "id": 5,
-      "type": "paintJobRegister",
-      "blueprint": {
-        "v": "0.0",
-        "name": null,
-        "description": null,
-        "paintJobIDs": [
-          1,
-          2
-        ]
-      }
-    },
-    {
       "id": 78,
       "type": "fuelTank",
       "blueprint": {
@@ -1203,6 +1172,58 @@
         "x": 304,
         "y": 500,
         "z": 788
+      }
+    },
+    {
+      "id": 0,
+      "type": "paintJobRegister",
+      "blueprint": {
+        "v": "0.0",
+        "name": null,
+        "description": null,
+        "paintJobIDs": [
+          1,
+          21,
+          22
+        ]
+      }
+    },
+    {
+      "id": 21,
+      "type": "paintJob",
+      "blueprint": {
+        "v": "2.2",
+        "name": "Powertrain",
+        "description": "",
+        "colourMapUrl": "821c5c82-a326-46ca-bfd0-bd2a75830ed7",
+        "scale": 0.5,
+        "roughness": 0.5,
+        "metallic": 0.0,
+        "r": 0.25,
+        "g": 0.4,
+        "b": 0.5,
+        "saturation": 0.75,
+        "condition": 0.75,
+        "grime": 0.0
+      }
+    },
+    {
+      "id": 22,
+      "type": "paintJob",
+      "blueprint": {
+        "v": "2.2",
+        "name": "Interior",
+        "description": "",
+        "colourMapUrl": "",
+        "scale": 0.5,
+        "roughness": 0.6,
+        "metallic": 0.0,
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5,
+        "saturation": 0.5,
+        "condition": -1.0,
+        "grime": 0.0
       }
     }
   ],
@@ -1437,8 +1458,8 @@
           ],
           "portOffsets": [
             0.0,
-            0.17357932,
-            0.2926788,
+            0.143965423,
+            0.6118531,
             0.0,
             0.124540649,
             -0.346223027,
@@ -2163,7 +2184,7 @@
         "rot": [
           354.160522,
           179.8785,
-          -5.44773027E-09,
+          -5.02867437E-09,
           0.0
         ],
         "scale": [
@@ -2352,14 +2373,14 @@
       "transform": {
         "mirrorVuid": 227,
         "pos": [
-          -0.309331268,
-          -0.8452524,
+          -0.30934903,
+          -0.845252335,
           -0.1449441
         ],
         "rot": [
-          -0.000161098869,
+          -0.000165559119,
           14.9999886,
-          0.000565887138,
+          0.000569309632,
           0.0
         ],
         "scale": [
@@ -2386,9 +2407,9 @@
           -0.144942582
         ],
         "rot": [
-          -0.0004645017,
-          344.926056,
-          0.000119571188,
+          -0.000464778132,
+          344.925537,
+          0.00012134495,
           0.0
         ],
         "scale": [
@@ -2470,9 +2491,9 @@
           0.302517265
         ],
         "rot": [
-          14.3975725,
+          14.3975744,
           121.109238,
-          4.8480124E-06,
+          5.28874125E-06,
           0.0
         ],
         "scale": [
@@ -2671,7 +2692,7 @@
           1.65267944
         ],
         "rot": [
-          1.43175566,
+          1.43175578,
           180.0,
           6.36309531E-15,
           0.0
@@ -2700,7 +2721,7 @@
           1.65267944
         ],
         "rot": [
-          1.43175566,
+          1.43175578,
           180.0,
           6.36309531E-15,
           0.0
@@ -2729,7 +2750,7 @@
           1.26123047
         ],
         "rot": [
-          2.86253881,
+          2.862539,
           180.0,
           3.82143353E-14,
           0.0
@@ -2954,7 +2975,7 @@
         ],
         "rot": [
           0.0,
-          15.0000162,
+          15.0000181,
           0.0,
           0.0
         ],

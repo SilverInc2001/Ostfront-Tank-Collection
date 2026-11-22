@@ -3,8 +3,8 @@
   "header": {
     "v": "0.2",
     "name": "T-34-76 M1941 ",
-    "gameVersion": "0.2.55.5",
-    "mass": 25796,
+    "gameVersion": "0.2.56.3",
+    "mass": 25795,
     "creationDate": "1941.12.31",
     "class": "",
     "desc": "",
@@ -72,17 +72,18 @@
       "id": 7,
       "type": "engine",
       "blueprint": {
-        "v": "0.4",
-        "name": null,
-        "description": null,
+        "v": "0.5",
+        "name": "T-34-76 M1941",
+        "description": "",
         "cylinders": 12,
         "idleRPM": 800,
         "cylinderDisplacement": 3.24,
         "tech": 0.4,
         "targetMinRPM": 1200,
-        "targetMaxRPM": 1800,
+        "targetMaxRPM": 1900,
         "torqueCoeff": 0.75,
-        "revLimit": -1
+        "revLimit": -1,
+        "engineLayout": "V"
       }
     },
     {
@@ -291,12 +292,12 @@
         "description": "",
         "separation": 1677,
         "length": 6000,
-        "brake": 206375,
+        "brake": 206367,
         "autoBrake": true,
         "rollersEnabled": false,
         "matchChassis": false,
         "frontalTransmission": false,
-        "finalDriveRatio": 4.5
+        "finalDriveRatio": 4.55
       }
     },
     {
@@ -1566,8 +1567,8 @@
           ],
           "portOffsets": [
             0.0,
-            0.274877518,
-            0.741392732,
+            0.252357423,
+            0.6540688,
             0.0,
             0.190311521,
             -0.529066,
@@ -1581,7 +1582,7 @@
             0.0,
             0.0,
             -2.23517418E-08,
-            0.348,
+            0.34800005,
             -2.540985,
             -0.78130734,
             0.190311521,
@@ -1593,7 +1594,7 @@
             0.0,
             0.0,
             2.23517418E-08,
-            0.348,
+            0.34800005,
             -2.540985
           ],
           "portDirections": [
@@ -2963,8 +2964,8 @@
         ],
         "rot": [
           317.409058,
-          -6.80376752E-06,
-          4.60451429E-06,
+          -6.80376843E-06,
+          4.60451565E-06,
           0.0
         ],
         "scale": [
@@ -2990,8 +2991,8 @@
         ],
         "rot": [
           317.409058,
-          6.80376752E-06,
-          -4.60451429E-06,
+          6.80376843E-06,
+          -4.60451565E-06,
           0.0
         ],
         "scale": [

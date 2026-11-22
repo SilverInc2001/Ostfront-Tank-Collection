@@ -3,12 +3,12 @@
   "header": {
     "v": "0.2",
     "name": "Type 5 Chi-Se",
-    "gameVersion": "0.2.55.5",
-    "mass": 57605,
+    "gameVersion": "0.2.56.3",
+    "mass": 57206,
     "creationDate": "1945.09.02",
     "class": "",
     "desc": "",
-    "cost": 68284
+    "cost": 68063
   },
   "blueprints": [
     {
@@ -110,17 +110,18 @@
       "id": 8,
       "type": "engine",
       "blueprint": {
-        "v": "0.4",
-        "name": null,
+        "v": "0.5",
+        "name": "Type 5 Chi-Se",
         "description": null,
         "cylinders": 12,
         "idleRPM": 600,
-        "cylinderDisplacement": 3.14,
+        "cylinderDisplacement": 2.83,
         "tech": 1.0,
-        "targetMinRPM": 1200,
+        "targetMinRPM": 1050,
         "targetMaxRPM": 2000,
         "torqueCoeff": 1.0,
-        "revLimit": -1
+        "revLimit": -1,
+        "engineLayout": "V"
       }
     },
     {
@@ -132,9 +133,9 @@
         "description": null,
         "meshType": "synchromesh",
         "autoInputTorque": true,
-        "maxInputTorque": 2794.00781,
+        "maxInputTorque": 2518.166,
         "autoResistanceTorque": true,
-        "maxResistanceTorque": 2794.00781,
+        "maxResistanceTorque": 2518.166,
         "finalDriveRatio": 10.0,
         "msrRatioThreshold": 4.4,
         "auxillaryGearRatio": 1.0,
@@ -327,16 +328,16 @@
       "type": "track",
       "blueprint": {
         "v": "1.1",
-        "name": "Type 5 Chi-Ri",
+        "name": "Type 5 Chi-Se",
         "description": "",
         "separation": 1663,
         "length": 7300,
-        "brake": 455426,
+        "brake": 457649,
         "autoBrake": true,
         "rollersEnabled": true,
         "matchChassis": false,
         "frontalTransmission": true,
-        "finalDriveRatio": 6.19
+        "finalDriveRatio": 6.97
       }
     },
     {
@@ -1341,7 +1342,7 @@
       }
     },
     {
-      "id": 0,
+      "id": 6,
       "type": "paintJobRegister",
       "blueprint": {
         "v": "0.0",
@@ -1586,29 +1587,29 @@
           ],
           "portOffsets": [
             0.0,
-            0.270602316,
-            0.729861856,
+            0.2412292,
+            0.625226259,
             0.0,
-            0.227158532,
-            -0.6315006,
-            0.6304517,
-            0.227158532,
-            0.106764488,
-            0.06073439,
-            0.0,
-            0.0,
+            0.22124663,
+            -0.615065634,
+            0.598522067,
+            0.22124663,
+            0.103985913,
+            0.0586653948,
+            -0.0002606511,
+            -0.00012254715,
             0.0,
             0.0,
             0.0,
             -2.23517418E-08,
             0.484000027,
             3.2789917,
-            -0.6304517,
-            0.227158532,
-            0.106764488,
-            -0.06073439,
-            0.0,
-            0.0,
+            -0.598522067,
+            0.22124663,
+            0.103985913,
+            -0.0586653948,
+            -0.0002606511,
+            -0.00012254715,
             0.0,
             0.0,
             0.0,
@@ -1626,9 +1627,9 @@
             1.0,
             0.0,
             0.0,
-            1.0,
-            0.0,
-            0.0,
+            0.9999879,
+            -0.00444297772,
+            -0.002088157,
             0.0,
             0.0,
             1.0,
@@ -1638,9 +1639,9 @@
             -1.0,
             0.0,
             0.0,
-            -1.0,
-            0.0,
-            0.0,
+            -0.9999879,
+            -0.00444297772,
+            -0.002088157,
             0.0,
             0.0,
             1.0,
@@ -2532,7 +2533,7 @@
           -1.57250977
         ],
         "rot": [
-          -1.02452841E-05,
+          -8.537737E-06,
           90.00001,
           31.4510059,
           0.0
@@ -2676,9 +2677,9 @@
           0.8482666
         ],
         "rot": [
-          15.0916605,
+          15.0916615,
           134.861267,
-          1.76854337E-06,
+          2.21067921E-06,
           0.0
         ],
         "scale": [
@@ -2705,7 +2706,7 @@
           0.8482666
         ],
         "rot": [
-          15.0916605,
+          15.0916615,
           225.138718,
           -8.842717E-07,
           0.0

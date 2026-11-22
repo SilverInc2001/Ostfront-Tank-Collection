@@ -3,12 +3,12 @@
   "header": {
     "v": "0.2",
     "name": "Carro Armato L3-35",
-    "gameVersion": "0.2.51.36",
-    "mass": 3043,
+    "gameVersion": "0.2.56.3",
+    "mass": 3024,
     "creationDate": "1941.12.31",
     "class": "",
     "desc": "",
-    "cost": 6923
+    "cost": 6811
   },
   "blueprints": [
     {
@@ -31,25 +31,6 @@
       }
     },
     {
-      "id": 2,
-      "type": "paintJob",
-      "blueprint": {
-        "v": "2.2",
-        "name": "Powertrain",
-        "description": "",
-        "colourMapUrl": "821c5c82-a326-46ca-bfd0-bd2a75830ed7",
-        "scale": 0.5,
-        "roughness": 0.5,
-        "metallic": 0.0,
-        "r": 0.25,
-        "g": 0.4,
-        "b": 0.5,
-        "saturation": 0.75,
-        "condition": 0.75,
-        "grime": 0.0
-      }
-    },
-    {
       "id": 3,
       "type": "chassis",
       "blueprint": {
@@ -65,12 +46,13 @@
       "id": 4,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": null,
         "description": null,
         "armourVolume": 0.15418984,
         "bodyMeshVuid": 0,
         "partRepositioning": false,
+        "collisionEnabled": true,
         "armourTechID": "rha"
       }
     },
@@ -90,17 +72,18 @@
       "id": 7,
       "type": "engine",
       "blueprint": {
-        "v": "0.4",
-        "name": null,
-        "description": null,
+        "v": "0.5",
+        "name": "Carro Armato L3-35",
+        "description": "",
         "cylinders": 4,
         "idleRPM": 800,
         "cylinderDisplacement": 0.686,
         "tech": 0.4,
-        "targetMinRPM": 1200,
-        "targetMaxRPM": 2600,
+        "targetMinRPM": 1300,
+        "targetMaxRPM": 2400,
         "torqueCoeff": 0.75,
-        "revLimit": -1
+        "revLimit": -1,
+        "engineLayout": "Inline"
       }
     },
     {
@@ -305,16 +288,16 @@
       "type": "track",
       "blueprint": {
         "v": "1.1",
-        "name": "Carro Armato L3-35 ",
+        "name": "Carro Armato L3-35",
         "description": "",
         "separation": 788,
         "length": 6000,
-        "brake": 24350,
+        "brake": 24345,
         "autoBrake": true,
         "rollersEnabled": false,
         "matchChassis": false,
         "frontalTransmission": true,
-        "finalDriveRatio": 6.16
+        "finalDriveRatio": 5.79999971
       }
     },
     {
@@ -586,212 +569,6 @@
       }
     },
     {
-      "id": 79,
-      "type": "shellSlot",
-      "blueprint": {
-        "v": "0.0",
-        "name": null,
-        "description": null,
-        "diameter": 20,
-        "propellantLength": 99,
-        "generatedProjectiles": [
-          {
-            "projectileTypeGuid": "dc637176-7819-4572-a8df-e535215acf92",
-            "functions": [
-              {
-                "id": "AP",
-                "definition": {
-                  "penetratorConstant": 2000
-                }
-              },
-              {
-                "id": "Propellant",
-                "definition": {
-                  "length": 99
-                }
-              }
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "id": 30,
-      "type": "ammoRack",
-      "blueprint": {
-        "v": "1.2",
-        "name": null,
-        "description": null,
-        "diameter": 20,
-        "length": 159,
-        "x": 146,
-        "y": 54,
-        "z": 159,
-        "shellTypeGuid": "dc637176-7819-4572-a8df-e535215acf92",
-        "shellID": 79
-      }
-    },
-    {
-      "id": 34,
-      "type": "ammoRack",
-      "blueprint": {
-        "v": "1.2",
-        "name": null,
-        "description": null,
-        "diameter": 20,
-        "length": 159,
-        "x": 146,
-        "y": 54,
-        "z": 159,
-        "shellTypeGuid": "dc637176-7819-4572-a8df-e535215acf92",
-        "shellID": 79
-      }
-    },
-    {
-      "id": 36,
-      "type": "ammoRack",
-      "blueprint": {
-        "v": "1.2",
-        "name": null,
-        "description": null,
-        "diameter": 20,
-        "length": 159,
-        "x": 146,
-        "y": 54,
-        "z": 159,
-        "shellTypeGuid": "dc637176-7819-4572-a8df-e535215acf92",
-        "shellID": 79
-      }
-    },
-    {
-      "id": 37,
-      "type": "ammoRack",
-      "blueprint": {
-        "v": "1.2",
-        "name": null,
-        "description": null,
-        "diameter": 20,
-        "length": 159,
-        "x": 146,
-        "y": 54,
-        "z": 159,
-        "shellTypeGuid": "dc637176-7819-4572-a8df-e535215acf92",
-        "shellID": 79
-      }
-    },
-    {
-      "id": 38,
-      "type": "ammoRack",
-      "blueprint": {
-        "v": "1.2",
-        "name": null,
-        "description": null,
-        "diameter": 20,
-        "length": 159,
-        "x": 146,
-        "y": 54,
-        "z": 159,
-        "shellTypeGuid": "dc637176-7819-4572-a8df-e535215acf92",
-        "shellID": 79
-      }
-    },
-    {
-      "id": 39,
-      "type": "ammoRack",
-      "blueprint": {
-        "v": "1.2",
-        "name": null,
-        "description": null,
-        "diameter": 20,
-        "length": 159,
-        "x": 146,
-        "y": 54,
-        "z": 159,
-        "shellTypeGuid": "dc637176-7819-4572-a8df-e535215acf92",
-        "shellID": 79
-      }
-    },
-    {
-      "id": 40,
-      "type": "ammoRack",
-      "blueprint": {
-        "v": "1.2",
-        "name": null,
-        "description": null,
-        "diameter": 20,
-        "length": 159,
-        "x": 146,
-        "y": 54,
-        "z": 159,
-        "shellTypeGuid": "dc637176-7819-4572-a8df-e535215acf92",
-        "shellID": 79
-      }
-    },
-    {
-      "id": 41,
-      "type": "ammoRack",
-      "blueprint": {
-        "v": "1.2",
-        "name": null,
-        "description": null,
-        "diameter": 20,
-        "length": 159,
-        "x": 146,
-        "y": 54,
-        "z": 159,
-        "shellTypeGuid": "dc637176-7819-4572-a8df-e535215acf92",
-        "shellID": 79
-      }
-    },
-    {
-      "id": 42,
-      "type": "ammoRack",
-      "blueprint": {
-        "v": "1.2",
-        "name": null,
-        "description": null,
-        "diameter": 20,
-        "length": 159,
-        "x": 146,
-        "y": 54,
-        "z": 159,
-        "shellTypeGuid": "dc637176-7819-4572-a8df-e535215acf92",
-        "shellID": 79
-      }
-    },
-    {
-      "id": 43,
-      "type": "ammoRack",
-      "blueprint": {
-        "v": "1.2",
-        "name": null,
-        "description": null,
-        "diameter": 20,
-        "length": 159,
-        "x": 146,
-        "y": 54,
-        "z": 159,
-        "shellTypeGuid": "dc637176-7819-4572-a8df-e535215acf92",
-        "shellID": 79
-      }
-    },
-    {
-      "id": 44,
-      "type": "ammoRack",
-      "blueprint": {
-        "v": "1.2",
-        "name": null,
-        "description": null,
-        "diameter": 20,
-        "length": 159,
-        "x": 146,
-        "y": 54,
-        "z": 159,
-        "shellTypeGuid": "dc637176-7819-4572-a8df-e535215acf92",
-        "shellID": 79
-      }
-    },
-    {
       "id": 45,
       "type": "fuelTank",
       "blueprint": {
@@ -807,12 +584,13 @@
       "id": 50,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": "Unnamed Structure",
         "description": null,
         "armourVolume": 0.000600816333,
         "bodyMeshVuid": 2,
         "partRepositioning": true,
+        "collisionEnabled": false,
         "armourTechID": "rha"
       }
     },
@@ -886,7 +664,7 @@
       }
     },
     {
-      "id": 0,
+      "id": 5,
       "type": "paintJobRegister",
       "blueprint": {
         "v": "0.0",
@@ -894,8 +672,47 @@
         "description": null,
         "paintJobIDs": [
           1,
-          2
+          21,
+          22
         ]
+      }
+    },
+    {
+      "id": 21,
+      "type": "paintJob",
+      "blueprint": {
+        "v": "2.2",
+        "name": "Powertrain",
+        "description": "",
+        "colourMapUrl": "821c5c82-a326-46ca-bfd0-bd2a75830ed7",
+        "scale": 0.5,
+        "roughness": 0.5,
+        "metallic": 0.0,
+        "r": 0.25,
+        "g": 0.4,
+        "b": 0.5,
+        "saturation": 0.75,
+        "condition": 0.75,
+        "grime": 0.0
+      }
+    },
+    {
+      "id": 22,
+      "type": "paintJob",
+      "blueprint": {
+        "v": "2.2",
+        "name": "Interior",
+        "description": "",
+        "colourMapUrl": "",
+        "scale": 0.5,
+        "roughness": 0.6,
+        "metallic": 0.0,
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5,
+        "saturation": 0.5,
+        "condition": -1.0,
+        "grime": 0.0
       }
     }
   ],
@@ -1090,8 +907,8 @@
           ],
           "modulePositions": [
             -5.31502E-13,
-            0.128682986,
-            -0.703924537,
+            0.156182021,
+            -0.8320022,
             3.241404E-07,
             0.445622176,
             1.16954482,
@@ -1109,7 +926,7 @@
             0.0
           ],
           "moduleRotations": [
-            347.075928,
+            2.0759263,
             0.0,
             0.0,
             5.008956E-06,
@@ -1130,8 +947,8 @@
           ],
           "portOffsets": [
             0.0,
-            0.12648201,
-            0.17064026,
+            0.116576783,
+            0.37887454,
             0.0,
             0.09657726,
             -0.268484771,
@@ -1242,11 +1059,11 @@
         "mirrorVuid": -1,
         "pos": [
           -5.31502E-13,
-          0.128682986,
-          -0.703924537
+          0.156182021,
+          -0.8320022
         ],
         "rot": [
-          347.075928,
+          2.0759263,
           0.0,
           0.0,
           0.0
@@ -1738,7 +1555,7 @@
           -1.27246094
         ],
         "rot": [
-          0.1540283,
+          0.154028311,
           -6.25324736E-10,
           358.669342,
           0.0
@@ -1765,7 +1582,7 @@
           -1.27246094
         ],
         "rot": [
-          0.1540283,
+          0.154028311,
           1.042208E-09,
           1.33064461,
           0.0
@@ -1907,7 +1724,7 @@
         "rot": [
           359.505,
           181.146545,
-          2.08448614E-09,
+          1.66758884E-09,
           0.0
         ],
         "scale": [
@@ -2129,7 +1946,7 @@
           0.200073242
         ],
         "rot": [
-          0.486883372,
+          0.486883432,
           179.828918,
           -1.56336277E-10,
           0.0
@@ -2158,9 +1975,9 @@
           0.200042725
         ],
         "rot": [
-          0.4868833,
+          0.486883372,
           180.171082,
-          1.04224185E-10,
+          1.56336277E-10,
           0.0
         ],
         "scale": [
@@ -2198,314 +2015,6 @@
           0.25
         ]
       }
-    },
-    {
-      "guid": "85b83f8c-b64b-43e4-8785-24cde9fccc1d",
-      "vuid": 213,
-      "pvuid": 0,
-      "flags": 3,
-      "ammoRack": 214,
-      "ammoRackModel": 215,
-      "transform": {
-        "mirrorVuid": -1,
-        "pos": [
-          -0.588629842,
-          0.6001675,
-          0.112060547
-        ],
-        "rot": [
-          273.330841,
-          180.0,
-          180.0,
-          0.0
-        ],
-        "scale": [
-          0.146000013,
-          0.054,
-          0.159000009
-        ]
-      },
-      "ammoRackBlueprintVuid": 34
-    },
-    {
-      "guid": "85b83f8c-b64b-43e4-8785-24cde9fccc1d",
-      "vuid": 210,
-      "pvuid": 213,
-      "flags": 3,
-      "ammoRack": 211,
-      "ammoRackModel": 212,
-      "transform": {
-        "mirrorVuid": -1,
-        "pos": [
-          -0.000949502,
-          0.0519849,
-          -0.00018310544
-        ],
-        "rot": [
-          0.0,
-          0.0,
-          0.0,
-          0.0
-        ],
-        "scale": [
-          0.146000013,
-          0.054,
-          0.159000009
-        ]
-      },
-      "ammoRackBlueprintVuid": 30
-    },
-    {
-      "guid": "85b83f8c-b64b-43e4-8785-24cde9fccc1d",
-      "vuid": 216,
-      "pvuid": 210,
-      "flags": 3,
-      "ammoRack": 220,
-      "ammoRackModel": 221,
-      "transform": {
-        "mirrorVuid": -1,
-        "pos": [
-          0.000507712364,
-          0.0539984629,
-          -0.000732421759
-        ],
-        "rot": [
-          0.0,
-          0.0,
-          0.0,
-          0.0
-        ],
-        "scale": [
-          0.146000013,
-          0.054,
-          0.159000009
-        ]
-      },
-      "ammoRackBlueprintVuid": 36
-    },
-    {
-      "guid": "85b83f8c-b64b-43e4-8785-24cde9fccc1d",
-      "vuid": 222,
-      "pvuid": 216,
-      "flags": 3,
-      "ammoRack": 223,
-      "ammoRackModel": 224,
-      "transform": {
-        "mirrorVuid": -1,
-        "pos": [
-          0.0006545782,
-          0.05399084,
-          -0.000396728516
-        ],
-        "rot": [
-          0.0,
-          0.0,
-          0.0,
-          0.0
-        ],
-        "scale": [
-          0.146000013,
-          0.054,
-          0.159000009
-        ]
-      },
-      "ammoRackBlueprintVuid": 37
-    },
-    {
-      "guid": "85b83f8c-b64b-43e4-8785-24cde9fccc1d",
-      "vuid": 225,
-      "pvuid": 222,
-      "flags": 3,
-      "ammoRack": 226,
-      "ammoRackModel": 227,
-      "transform": {
-        "mirrorVuid": -1,
-        "pos": [
-          -6.878376E-05,
-          0.05396781,
-          0.0008239745
-        ],
-        "rot": [
-          0.0,
-          0.0,
-          0.0,
-          0.0
-        ],
-        "scale": [
-          0.146000013,
-          0.054,
-          0.159000009
-        ]
-      },
-      "ammoRackBlueprintVuid": 38
-    },
-    {
-      "guid": "85b83f8c-b64b-43e4-8785-24cde9fccc1d",
-      "vuid": 228,
-      "pvuid": 225,
-      "flags": 3,
-      "ammoRack": 229,
-      "ammoRackModel": 230,
-      "transform": {
-        "mirrorVuid": -1,
-        "pos": [
-          0.0004338622,
-          0.0524645969,
-          -0.00122070289
-        ],
-        "rot": [
-          0.0,
-          0.0,
-          0.0,
-          0.0
-        ],
-        "scale": [
-          0.146000013,
-          0.054,
-          0.159000009
-        ]
-      },
-      "ammoRackBlueprintVuid": 39
-    },
-    {
-      "guid": "85b83f8c-b64b-43e4-8785-24cde9fccc1d",
-      "vuid": 231,
-      "pvuid": 228,
-      "flags": 3,
-      "ammoRack": 232,
-      "ammoRackModel": 233,
-      "transform": {
-        "mirrorVuid": -1,
-        "pos": [
-          -0.000647187233,
-          0.05489397,
-          0.000213623047
-        ],
-        "rot": [
-          0.0,
-          0.0,
-          0.0,
-          0.0
-        ],
-        "scale": [
-          0.146000013,
-          0.054,
-          0.159000009
-        ]
-      },
-      "ammoRackBlueprintVuid": 40
-    },
-    {
-      "guid": "85b83f8c-b64b-43e4-8785-24cde9fccc1d",
-      "vuid": 234,
-      "pvuid": 231,
-      "flags": 3,
-      "ammoRack": 235,
-      "ammoRackModel": 236,
-      "transform": {
-        "mirrorVuid": -1,
-        "pos": [
-          0.00101745129,
-          0.0542366281,
-          0.000305175665
-        ],
-        "rot": [
-          0.0,
-          0.0,
-          0.0,
-          0.0
-        ],
-        "scale": [
-          0.146000013,
-          0.054,
-          0.159000009
-        ]
-      },
-      "ammoRackBlueprintVuid": 41
-    },
-    {
-      "guid": "85b83f8c-b64b-43e4-8785-24cde9fccc1d",
-      "vuid": 237,
-      "pvuid": 234,
-      "flags": 3,
-      "ammoRack": 238,
-      "ammoRackModel": 239,
-      "transform": {
-        "mirrorVuid": -1,
-        "pos": [
-          -0.0003167987,
-          0.052714102,
-          -0.000152587891
-        ],
-        "rot": [
-          0.0,
-          0.0,
-          0.0,
-          0.0
-        ],
-        "scale": [
-          0.146000013,
-          0.054,
-          0.159000009
-        ]
-      },
-      "ammoRackBlueprintVuid": 42
-    },
-    {
-      "guid": "85b83f8c-b64b-43e4-8785-24cde9fccc1d",
-      "vuid": 240,
-      "pvuid": 237,
-      "flags": 3,
-      "ammoRack": 241,
-      "ammoRackModel": 242,
-      "transform": {
-        "mirrorVuid": -1,
-        "pos": [
-          0.000167071819,
-          0.0521347523,
-          -0.0006713866
-        ],
-        "rot": [
-          0.0,
-          0.0,
-          0.0,
-          0.0
-        ],
-        "scale": [
-          0.146000013,
-          0.054,
-          0.159000009
-        ]
-      },
-      "ammoRackBlueprintVuid": 43
-    },
-    {
-      "guid": "85b83f8c-b64b-43e4-8785-24cde9fccc1d",
-      "vuid": 243,
-      "pvuid": 240,
-      "flags": 3,
-      "ammoRack": 244,
-      "ammoRackModel": 245,
-      "transform": {
-        "mirrorVuid": -1,
-        "pos": [
-          -0.00115299225,
-          0.0529846027,
-          -0.0004272461
-        ],
-        "rot": [
-          0.0,
-          0.0,
-          0.0,
-          0.0
-        ],
-        "scale": [
-          0.146000013,
-          0.054,
-          0.159000009
-        ]
-      },
-      "ammoRackBlueprintVuid": 44
     },
     {
       "guid": "5e8ab5c7-e9f1-4c64-a04a-29efc78b1918",
@@ -2550,7 +2059,7 @@
           -0.179656982
         ],
         "rot": [
-          0.5662766,
+          0.5662767,
           90.13447,
           1.60090352E-07,
           0.0
@@ -2579,7 +2088,7 @@
           -0.179656982
         ],
         "rot": [
-          0.5662766,
+          0.5662767,
           269.86554,
           -1.60090352E-07,
           0.0
@@ -2608,9 +2117,9 @@
           0.356719971
         ],
         "rot": [
-          63.2216263,
+          63.22163,
           180.30574,
-          2.9609323E-08,
+          0.0,
           0.0
         ],
         "scale": [

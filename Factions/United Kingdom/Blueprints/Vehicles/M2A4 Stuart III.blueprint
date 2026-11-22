@@ -2,13 +2,13 @@
   "v": "2.0",
   "header": {
     "v": "0.2",
-    "name": "Stuart III",
-    "gameVersion": "0.2.55.5",
-    "mass": 14110,
+    "name": "M2A4 Stuart III",
+    "gameVersion": "0.2.56.3",
+    "mass": 14122,
     "creationDate": "1943.12.31",
     "class": "",
     "desc": "",
-    "cost": 32682
+    "cost": 32688
   },
   "blueprints": [
     {
@@ -72,17 +72,18 @@
       "id": 7,
       "type": "engine",
       "blueprint": {
-        "v": "0.4",
-        "name": "M3A1 Stuart III",
+        "v": "0.5",
+        "name": "M2A4 Stuart I",
         "description": "",
         "cylinders": 7,
-        "idleRPM": 600,
+        "idleRPM": 800,
         "cylinderDisplacement": 1.56,
         "tech": 0.8,
-        "targetMinRPM": 1500,
+        "targetMinRPM": 1400,
         "targetMaxRPM": 2400,
         "torqueCoeff": 0.85,
-        "revLimit": -1
+        "revLimit": -1,
+        "engineLayout": "Radial"
       }
     },
     {
@@ -292,12 +293,12 @@
         "description": "",
         "separation": 1347,
         "length": 4500,
-        "brake": 112867,
+        "brake": 112831,
         "autoBrake": true,
         "rollersEnabled": true,
         "matchChassis": false,
         "frontalTransmission": true,
-        "finalDriveRatio": 2.85
+        "finalDriveRatio": 4.32
       }
     },
     {
@@ -1208,20 +1209,6 @@
       }
     },
     {
-      "id": 5,
-      "type": "paintJobRegister",
-      "blueprint": {
-        "v": "0.0",
-        "name": null,
-        "description": null,
-        "paintJobIDs": [
-          1,
-          21,
-          22
-        ]
-      }
-    },
-    {
       "id": 21,
       "type": "paintJob",
       "blueprint": {
@@ -1257,6 +1244,20 @@
         "saturation": 0.5,
         "condition": -1.0,
         "grime": 0.0
+      }
+    },
+    {
+      "id": 2,
+      "type": "paintJobRegister",
+      "blueprint": {
+        "v": "0.0",
+        "name": null,
+        "description": null,
+        "paintJobIDs": [
+          1,
+          21,
+          22
+        ]
       }
     }
   ],
@@ -1451,8 +1452,8 @@
           ],
           "modulePositions": [
             0.0,
-            0.2634395,
-            -1.52836335,
+            0.780849159,
+            -1.502447,
             1.47642334E-08,
             0.363883942,
             1.41499519,
@@ -1470,7 +1471,7 @@
             0.0
           ],
           "moduleRotations": [
-            0.0,
+            345.0,
             0.0,
             0.0,
             5.008956E-06,
@@ -1491,8 +1492,8 @@
           ],
           "portOffsets": [
             0.0,
-            0.190734416,
-            0.321604669,
+            0.0,
+            0.291084647,
             0.0,
             0.122866742,
             -0.3415695,
@@ -1603,11 +1604,11 @@
         "mirrorVuid": -1,
         "pos": [
           0.0,
-          0.2634395,
-          -1.52836335
+          0.780849159,
+          -1.502447
         ],
         "rot": [
-          0.0,
+          345.0,
           0.0,
           0.0,
           0.0
@@ -2521,7 +2522,7 @@
         "rot": [
           358.384033,
           180.573,
-          0.363940656,
+          0.363940716,
           0.0
         ],
         "scale": [
@@ -2550,7 +2551,7 @@
         "rot": [
           356.8209,
           178.653488,
-          1.0020581E-07,
+          1.06886191E-07,
           0.0
         ],
         "scale": [
@@ -3005,9 +3006,9 @@
           0.8126526
         ],
         "rot": [
-          1.84415579,
-          -9.673897E-13,
-          -1.64851517E-05,
+          1.84415627,
+          -1.0183048E-12,
+          -1.64851554E-05,
           0.0
         ],
         "scale": [
@@ -3034,8 +3035,8 @@
         ],
         "rot": [
           358.155853,
-          -5.30779062E-07,
-          1.64937428E-05,
+          -5.307792E-07,
+          1.64937483E-05,
           0.0
         ],
         "scale": [

@@ -3,12 +3,12 @@
   "header": {
     "v": "0.2",
     "name": "Little Willie",
-    "gameVersion": "0.2.51.36",
-    "mass": 12797,
+    "gameVersion": "0.2.56.3",
+    "mass": 12952,
     "creationDate": "1918.11.11",
     "class": "",
     "desc": "",
-    "cost": 39641
+    "cost": 39723
   },
   "blueprints": [
     {
@@ -31,25 +31,6 @@
       }
     },
     {
-      "id": 2,
-      "type": "paintJob",
-      "blueprint": {
-        "v": "2.2",
-        "name": "Powertrain",
-        "description": "",
-        "colourMapUrl": "821c5c82-a326-46ca-bfd0-bd2a75830ed7",
-        "scale": 0.5,
-        "roughness": 0.5,
-        "metallic": 0.0,
-        "r": 0.25,
-        "g": 0.4,
-        "b": 0.5,
-        "saturation": 0.75,
-        "condition": 0.75,
-        "grime": 0.0
-      }
-    },
-    {
       "id": 3,
       "type": "chassis",
       "blueprint": {
@@ -65,12 +46,13 @@
       "id": 4,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": null,
         "description": null,
         "armourVolume": 0.8597446,
         "bodyMeshVuid": 0,
         "partRepositioning": true,
+        "collisionEnabled": true,
         "armourTechID": "rha"
       }
     },
@@ -90,17 +72,18 @@
       "id": 7,
       "type": "engine",
       "blueprint": {
-        "v": "0.4",
-        "name": null,
+        "v": "0.5",
+        "name": "Little Willie",
         "description": null,
         "cylinders": 6,
         "idleRPM": 400,
-        "cylinderDisplacement": 2.17,
+        "cylinderDisplacement": 2.65,
         "tech": 0.0,
-        "targetMinRPM": 500,
-        "targetMaxRPM": 1100,
+        "targetMinRPM": 650,
+        "targetMaxRPM": 1000,
         "torqueCoeff": 0.5,
-        "revLimit": -1
+        "revLimit": -1,
+        "engineLayout": "Inline"
       }
     },
     {
@@ -112,9 +95,9 @@
         "description": null,
         "meshType": "slidingMesh",
         "autoInputTorque": true,
-        "maxInputTorque": 596.9548,
+        "maxInputTorque": 729.0001,
         "autoResistanceTorque": true,
-        "maxResistanceTorque": 596.9548,
+        "maxResistanceTorque": 729.0001,
         "finalDriveRatio": 10.0,
         "msrRatioThreshold": 5.8,
         "auxillaryGearRatio": 1.0,
@@ -303,11 +286,11 @@
       "type": "track",
       "blueprint": {
         "v": "1.1",
-        "name": null,
+        "name": "Little Willie",
         "description": null,
         "separation": 1527,
         "length": 6000,
-        "brake": 102379,
+        "brake": 103621,
         "autoBrake": true,
         "rollersEnabled": true,
         "matchChassis": false,
@@ -526,12 +509,13 @@
       "id": 34,
       "type": "structure",
       "blueprint": {
-        "v": "0.1",
+        "v": "0.2",
         "name": "Unnamed Structure",
         "description": null,
         "armourVolume": 0.00428338861,
         "bodyMeshVuid": 2,
         "partRepositioning": true,
+        "collisionEnabled": false,
         "armourTechID": "rha"
       }
     },
@@ -933,7 +917,7 @@
       }
     },
     {
-      "id": 0,
+      "id": 5,
       "type": "paintJobRegister",
       "blueprint": {
         "v": "0.0",
@@ -941,8 +925,47 @@
         "description": null,
         "paintJobIDs": [
           1,
-          2
+          21,
+          22
         ]
+      }
+    },
+    {
+      "id": 21,
+      "type": "paintJob",
+      "blueprint": {
+        "v": "2.2",
+        "name": "Powertrain",
+        "description": "",
+        "colourMapUrl": "821c5c82-a326-46ca-bfd0-bd2a75830ed7",
+        "scale": 0.5,
+        "roughness": 0.5,
+        "metallic": 0.0,
+        "r": 0.25,
+        "g": 0.4,
+        "b": 0.5,
+        "saturation": 0.75,
+        "condition": 0.75,
+        "grime": 0.0
+      }
+    },
+    {
+      "id": 22,
+      "type": "paintJob",
+      "blueprint": {
+        "v": "2.2",
+        "name": "Interior",
+        "description": "",
+        "colourMapUrl": "",
+        "scale": 0.5,
+        "roughness": 0.6,
+        "metallic": 0.0,
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5,
+        "saturation": 0.5,
+        "condition": -1.0,
+        "grime": 0.0
       }
     }
   ],
@@ -1177,34 +1200,34 @@
           ],
           "portOffsets": [
             0.0,
-            0.224955484,
-            0.379306138,
+            0.1829164,
+            0.7773948,
             0.0,
-            0.136794791,
-            -0.380289465,
-            0.228147745,
-            0.136794791,
-            0.06429354,
-            0.043417573,
-            0.0122988224,
-            0.000142097473,
+            0.143108711,
+            -0.397842228,
+            0.25212115,
+            0.143108711,
+            0.06726109,
+            0.0460857153,
+            0.0142356157,
+            -0.000109434128,
             0.0,
             0.0,
             0.0,
             -2.23517418E-08,
-            0.573,
+            0.572999954,
             -2.0920105,
-            -0.228147745,
-            0.136794791,
-            0.06429354,
-            -0.043417573,
-            0.0122988224,
-            0.000142097473,
+            -0.25212115,
+            0.143108711,
+            0.06726109,
+            -0.0460857153,
+            0.0142356157,
+            -0.000109434128,
             0.0,
             0.0,
             0.0,
             2.23517418E-08,
-            0.573,
+            0.572999954,
             -2.0920105
           ],
           "portDirections": [
@@ -1217,9 +1240,9 @@
             1.0,
             0.0,
             0.0,
-            0.962138355,
-            0.272543281,
-            0.00314895273,
+            0.955453,
+            0.295134425,
+            -0.00227049878,
             0.0,
             0.0,
             1.0,
@@ -1229,9 +1252,9 @@
             -1.0,
             0.0,
             0.0,
-            -0.9621383,
-            0.272543341,
-            0.00314895343,
+            -0.955453,
+            0.295134425,
+            -0.00227094418,
             0.0,
             0.0,
             1.0,
@@ -1669,13 +1692,13 @@
         "mirrorVuid": 467,
         "pos": [
           0.53476584,
-          0.7017808,
+          0.7017822,
           1.89468384
         ],
         "rot": [
           0.0,
           0.0,
-          -1.66752645E-09,
+          0.0,
           0.0
         ],
         "scale": [
@@ -1698,13 +1721,13 @@
         "mirrorVuid": 464,
         "pos": [
           -0.534757733,
-          0.701781154,
+          0.7017822,
           1.89468384
         ],
         "rot": [
           0.0,
           0.0,
-          -1.66752645E-09,
+          0.0,
           0.0
         ],
         "scale": [
@@ -1781,13 +1804,13 @@
         "mirrorVuid": -1,
         "pos": [
           -0.192239389,
-          0.64599967,
+          0.6459961,
           0.8491211
         ],
         "rot": [
           0.0,
           0.0,
-          -1.66752645E-09,
+          0.0,
           0.0
         ],
         "scale": [
@@ -1810,13 +1833,13 @@
         "mirrorVuid": -1,
         "pos": [
           5.681068E-07,
-          0.646000147,
+          0.6459961,
           1.3989563
         ],
         "rot": [
           0.0,
           0.0,
-          -1.66752645E-09,
+          0.0,
           0.0
         ],
         "scale": [
@@ -1839,7 +1862,7 @@
         "mirrorVuid": 499,
         "pos": [
           -0.9530262,
-          0.7734823,
+          0.773498535,
           -0.33895874
         ],
         "rot": [
@@ -1868,13 +1891,13 @@
         "mirrorVuid": 496,
         "pos": [
           0.9530208,
-          0.7734829,
+          0.773498535,
           -0.33895874
         ],
         "rot": [
           7.54636247E-08,
           270.000031,
-          7.546367E-08,
+          7.546366E-08,
           0.0
         ],
         "scale": [

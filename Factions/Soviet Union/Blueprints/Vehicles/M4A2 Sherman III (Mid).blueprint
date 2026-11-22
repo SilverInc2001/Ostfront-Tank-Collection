@@ -3,12 +3,12 @@
   "header": {
     "v": "0.2",
     "name": "M4A2 Sherman III (Mid)",
-    "gameVersion": "0.2.55.5",
-    "mass": 26496,
+    "gameVersion": "0.2.56.3",
+    "mass": 26128,
     "creationDate": "1943.12.31",
     "class": "",
     "desc": "",
-    "cost": 45247
+    "cost": 44534
   },
   "blueprints": [
     {
@@ -72,17 +72,18 @@
       "id": 7,
       "type": "engine",
       "blueprint": {
-        "v": "0.4",
+        "v": "0.5",
         "name": "M4A2 Sherman III",
         "description": "",
-        "cylinders": 12,
+        "cylinders": 6,
         "idleRPM": 750,
-        "cylinderDisplacement": 1.16,
+        "cylinderDisplacement": 2.32,
         "tech": 0.8,
         "targetMinRPM": 1400,
         "targetMaxRPM": 2100,
         "torqueCoeff": 0.85,
-        "revLimit": -1
+        "revLimit": -1,
+        "engineLayout": "V"
       }
     },
     {
@@ -288,16 +289,16 @@
       "type": "track",
       "blueprint": {
         "v": "1.1",
-        "name": "M4A2 Sherman III (Early)",
+        "name": "M4A2 Sherman III",
         "description": "",
         "separation": 1419,
         "length": 6060,
-        "brake": 217111,
+        "brake": 209029,
         "autoBrake": true,
         "rollersEnabled": true,
         "matchChassis": false,
         "frontalTransmission": true,
-        "finalDriveRatio": 7.4
+        "finalDriveRatio": 7.56999969
       }
     },
     {
@@ -1537,20 +1538,6 @@
       }
     },
     {
-      "id": 0,
-      "type": "paintJobRegister",
-      "blueprint": {
-        "v": "0.0",
-        "name": null,
-        "description": null,
-        "paintJobIDs": [
-          1,
-          21,
-          22
-        ]
-      }
-    },
-    {
       "id": 21,
       "type": "paintJob",
       "blueprint": {
@@ -1586,6 +1573,20 @@
         "saturation": 0.5,
         "condition": -1.0,
         "grime": 0.0
+      }
+    },
+    {
+      "id": 2,
+      "type": "paintJobRegister",
+      "blueprint": {
+        "v": "0.0",
+        "name": null,
+        "description": null,
+        "paintJobIDs": [
+          1,
+          21,
+          22
+        ]
       }
     }
   ],
@@ -1687,8 +1688,8 @@
         "mirrorVuid": -1,
         "pos": [
           -3.96021079E-13,
-          0.106999457,
-          -1.20225239
+          0.148632765,
+          -1.2047745
         ],
         "rot": [
           356.533447,
@@ -2191,8 +2192,8 @@
           ],
           "modulePositions": [
             -3.96021079E-13,
-            0.106999457,
-            -1.20225239,
+            0.148632765,
+            -1.2047745,
             1.94013747E-08,
             0.552403331,
             2.65698,
@@ -2231,8 +2232,8 @@
           ],
           "portOffsets": [
             0.0,
-            0.164473414,
-            0.443613529,
+            0.225768685,
+            0.358695269,
             0.0,
             0.145838723,
             -0.4054317,
@@ -2405,7 +2406,7 @@
         "rot": [
           349.1827,
           186.482925,
-          1.68411191E-06,
+          1.73843807E-06,
           0.0
         ],
         "scale": [
@@ -2603,9 +2604,9 @@
           0.4199524
         ],
         "rot": [
-          2.91102078E-05,
+          2.91102151E-05,
           60.000042,
-          -2.23834631E-05,
+          -2.23834613E-05,
           0.0
         ],
         "scale": [
@@ -3134,8 +3135,8 @@
           -1.32608032
         ],
         "rot": [
-          0.905258954,
-          -6.25663632E-10,
+          0.9052592,
+          -6.256637E-10,
           -7.914617E-08,
           0.0
         ],
@@ -3760,7 +3761,7 @@
         ],
         "rot": [
           358.595978,
-          0.5822849,
+          0.582285,
           -5.00408159E-09,
           0.0
         ],

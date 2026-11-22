@@ -3,12 +3,12 @@
   "header": {
     "v": "0.2",
     "name": "Pz.Kpfw. 35 (t)",
-    "gameVersion": "0.2.52.3",
+    "gameVersion": "0.2.56.3",
     "mass": 7975,
     "creationDate": "1939.09.01",
     "class": "",
     "desc": "",
-    "cost": 21393
+    "cost": 21392
   },
   "blueprints": [
     {
@@ -28,25 +28,6 @@
         "saturation": 0.0,
         "condition": 0.5,
         "grime": 0.5
-      }
-    },
-    {
-      "id": 2,
-      "type": "paintJob",
-      "blueprint": {
-        "v": "2.2",
-        "name": "Powertrain",
-        "description": "",
-        "colourMapUrl": "821c5c82-a326-46ca-bfd0-bd2a75830ed7",
-        "scale": 0.5,
-        "roughness": 0.5,
-        "metallic": 0.0,
-        "r": 0.25,
-        "g": 0.4,
-        "b": 0.5,
-        "saturation": 0.75,
-        "condition": 0.75,
-        "grime": 0.0
       }
     },
     {
@@ -91,9 +72,9 @@
       "id": 7,
       "type": "engine",
       "blueprint": {
-        "v": "0.4",
-        "name": null,
-        "description": null,
+        "v": "0.5",
+        "name": "LT vz. 35",
+        "description": "",
         "cylinders": 4,
         "idleRPM": 800,
         "cylinderDisplacement": 2.065,
@@ -101,7 +82,8 @@
         "targetMinRPM": 1100,
         "targetMaxRPM": 1800,
         "torqueCoeff": 0.6,
-        "revLimit": -1
+        "revLimit": -1,
+        "engineLayout": "Inline"
       }
     },
     {
@@ -311,7 +293,7 @@
         "description": "",
         "separation": 1103,
         "length": 6000,
-        "brake": 63570,
+        "brake": 63804,
         "autoBrake": true,
         "rollersEnabled": true,
         "matchChassis": false,
@@ -1091,7 +1073,7 @@
       }
     },
     {
-      "id": 5,
+      "id": 0,
       "type": "paintJobRegister",
       "blueprint": {
         "v": "0.0",
@@ -1099,8 +1081,47 @@
         "description": null,
         "paintJobIDs": [
           1,
-          2
+          21,
+          22
         ]
+      }
+    },
+    {
+      "id": 21,
+      "type": "paintJob",
+      "blueprint": {
+        "v": "2.2",
+        "name": "Powertrain",
+        "description": "",
+        "colourMapUrl": "821c5c82-a326-46ca-bfd0-bd2a75830ed7",
+        "scale": 0.5,
+        "roughness": 0.5,
+        "metallic": 0.0,
+        "r": 0.25,
+        "g": 0.4,
+        "b": 0.5,
+        "saturation": 0.75,
+        "condition": 0.75,
+        "grime": 0.0
+      }
+    },
+    {
+      "id": 22,
+      "type": "paintJob",
+      "blueprint": {
+        "v": "2.2",
+        "name": "Interior",
+        "description": "",
+        "colourMapUrl": "",
+        "scale": 0.5,
+        "roughness": 0.6,
+        "metallic": 0.0,
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5,
+        "saturation": 0.5,
+        "condition": -1.0,
+        "grime": 0.0
       }
     }
   ],
@@ -1294,9 +1315,9 @@
             }
           ],
           "modulePositions": [
-            0.06684723,
-            0.06299372,
-            -1.30671561,
+            -0.008419977,
+            0.05927042,
+            -0.716364145,
             6.16869258E-08,
             0.07018983,
             -1.79438376,
@@ -1314,9 +1335,9 @@
             0.0
           ],
           "moduleRotations": [
-            309.549927,
+            359.639679,
             180.0,
-            -6.39357165E-13,
+            -9.541852E-15,
             0.0,
             180.0,
             0.0,
@@ -1335,8 +1356,8 @@
           ],
           "portOffsets": [
             0.0,
-            0.219445542,
-            0.296059817,
+            0.168323234,
+            0.547050536,
             0.0,
             0.147779584,
             -0.410827249,
@@ -1439,21 +1460,21 @@
       "guid": "ebcf5eda-e50b-4f18-a063-0138a9d630e0",
       "vuid": 9,
       "pvuid": 2,
-      "flags": 2,
+      "flags": 3,
       "engine": 10,
       "powertrainNode": 11,
       "fuelReserve": 12,
       "transform": {
         "mirrorVuid": -1,
         "pos": [
-          0.06684723,
-          0.06299372,
-          -1.30671561
+          -0.008419977,
+          0.05927042,
+          -0.716364145
         ],
         "rot": [
-          309.549927,
+          359.639679,
           180.0,
-          -6.39357165E-13,
+          -9.541852E-15,
           0.0
         ],
         "scale": [
@@ -2268,7 +2289,7 @@
         "pos": [
           -0.240671977,
           -0.8981323,
-          -0.242614776
+          -0.242614746
         ],
         "rot": [
           -4.177145E-09,
@@ -2297,7 +2318,7 @@
         "pos": [
           0.240675077,
           -0.8981323,
-          -0.242614776
+          -0.242614746
         ],
         "rot": [
           0.0,
@@ -2557,7 +2578,7 @@
         "rot": [
           0.0,
           0.0,
-          6.67010669E-09,
+          0.0,
           0.0
         ],
         "scale": [
@@ -2586,7 +2607,7 @@
         "rot": [
           0.0,
           0.0,
-          6.67010669E-09,
+          0.0,
           0.0
         ],
         "scale": [
@@ -2894,8 +2915,8 @@
           -0.941253662
         ],
         "rot": [
-          1.00718607E-05,
-          0.04873634,
+          1.00751959E-05,
+          0.048736345,
           291.86795,
           0.0
         ],
@@ -2921,7 +2942,7 @@
         ],
         "rot": [
           1.00768639E-05,
-          0.0487363562,
+          0.0487363636,
           291.867981,
           0.0
         ],

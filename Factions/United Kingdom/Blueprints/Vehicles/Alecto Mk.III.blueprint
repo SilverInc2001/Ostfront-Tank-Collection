@@ -3,12 +3,12 @@
   "header": {
     "v": "0.2",
     "name": "Alecto Mk.III",
-    "gameVersion": "0.2.55.5",
-    "mass": 7722,
+    "gameVersion": "0.2.56.3",
+    "mass": 7723,
     "creationDate": "1943.12.31",
     "class": "",
     "desc": "",
-    "cost": 38223
+    "cost": 38224
   },
   "blueprints": [
     {
@@ -72,17 +72,18 @@
       "id": 7,
       "type": "engine",
       "blueprint": {
-        "v": "0.4",
-        "name": "Tetrarch Mk.VII",
+        "v": "0.5",
+        "name": "Alecto Mk.I CS",
         "description": "",
         "cylinders": 12,
         "idleRPM": 600,
         "cylinderDisplacement": 0.738,
         "tech": 0.8,
-        "targetMinRPM": 1500,
+        "targetMinRPM": 1350,
         "targetMaxRPM": 2700,
         "torqueCoeff": 0.85,
-        "revLimit": -1
+        "revLimit": -1,
+        "engineLayout": "V"
       }
     },
     {
@@ -292,7 +293,7 @@
         "description": "",
         "separation": 1692,
         "length": 4340,
-        "brake": 61782,
+        "brake": 61787,
         "autoBrake": true,
         "rollersEnabled": false,
         "matchChassis": false,
@@ -1181,20 +1182,6 @@
       }
     },
     {
-      "id": 5,
-      "type": "paintJobRegister",
-      "blueprint": {
-        "v": "0.0",
-        "name": null,
-        "description": null,
-        "paintJobIDs": [
-          1,
-          21,
-          22
-        ]
-      }
-    },
-    {
       "id": 21,
       "type": "paintJob",
       "blueprint": {
@@ -1237,12 +1224,26 @@
       "type": "coilSpring",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "springLength": 1000,
         "endSpringLengthMultiplier": 0.5,
         "springDiameter": 150,
         "springAngle": 0
+      }
+    },
+    {
+      "id": 0,
+      "type": "paintJobRegister",
+      "blueprint": {
+        "v": "0.0",
+        "name": null,
+        "description": null,
+        "paintJobIDs": [
+          1,
+          21,
+          22
+        ]
       }
     }
   ],
@@ -1830,8 +1831,8 @@
           ],
           "portOffsets": [
             0.0,
-            0.131188229,
-            0.353837579,
+            0.154117942,
+            0.399448276,
             0.0,
             0.120992757,
             -0.336359859,
@@ -2001,7 +2002,7 @@
         ],
         "rot": [
           65.81005,
-          5.614751,
+          5.614747,
           264.911621,
           0.0
         ],
@@ -2195,7 +2196,7 @@
           0.3572388
         ],
         "rot": [
-          5.008962E-06,
+          5.008963E-06,
           270.0,
           180.0,
           0.0
@@ -2783,7 +2784,7 @@
         "rot": [
           350.095825,
           180.0,
-          -1.54976265E-13,
+          -2.06635016E-13,
           0.0
         ],
         "scale": [
@@ -3129,7 +3130,7 @@
           0.7694092
         ],
         "rot": [
-          0.163709491,
+          0.163709536,
           270.0,
           0.0,
           0.0

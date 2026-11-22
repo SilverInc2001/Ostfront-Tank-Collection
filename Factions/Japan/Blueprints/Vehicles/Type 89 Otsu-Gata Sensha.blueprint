@@ -3,12 +3,12 @@
   "header": {
     "v": "0.2",
     "name": "Type 89 Otsu-Gata Sensha",
-    "gameVersion": "0.2.52.3",
-    "mass": 7702,
+    "gameVersion": "0.2.56.3",
+    "mass": 7741,
     "creationDate": "1936.01.01",
     "class": "",
     "desc": "",
-    "cost": 28575
+    "cost": 28594
   },
   "blueprints": [
     {
@@ -28,25 +28,6 @@
         "saturation": 0.5,
         "condition": 0.5,
         "grime": 0.5
-      }
-    },
-    {
-      "id": 2,
-      "type": "paintJob",
-      "blueprint": {
-        "v": "2.2",
-        "name": "Powertrain",
-        "description": "",
-        "colourMapUrl": "821c5c82-a326-46ca-bfd0-bd2a75830ed7",
-        "scale": 0.5,
-        "roughness": 0.5,
-        "metallic": 0.0,
-        "r": 0.25,
-        "g": 0.4,
-        "b": 0.5,
-        "saturation": 0.75,
-        "condition": 0.75,
-        "grime": 0.0
       }
     },
     {
@@ -91,17 +72,18 @@
       "id": 7,
       "type": "engine",
       "blueprint": {
-        "v": "0.4",
-        "name": "FT-17",
+        "v": "0.5",
+        "name": "Type 89 Otsu-Gata Sensha",
         "description": "",
         "cylinders": 4,
         "idleRPM": 800,
-        "cylinderDisplacement": 1.375,
+        "cylinderDisplacement": 1.48,
         "tech": 0.2,
-        "targetMinRPM": 1400,
+        "targetMinRPM": 1000,
         "targetMaxRPM": 2000,
         "torqueCoeff": 0.6,
-        "revLimit": -1
+        "revLimit": -1,
+        "engineLayout": "Inline"
       }
     },
     {
@@ -113,9 +95,9 @@
         "description": "",
         "meshType": "slidingMesh",
         "autoInputTorque": true,
-        "maxInputTorque": 364.989319,
+        "maxInputTorque": 392.861237,
         "autoResistanceTorque": true,
-        "maxResistanceTorque": 364.989319,
+        "maxResistanceTorque": 392.861237,
         "finalDriveRatio": 9.45,
         "msrRatioThreshold": 10.6,
         "auxillaryGearRatio": 1.0,
@@ -306,16 +288,16 @@
       "type": "track",
       "blueprint": {
         "v": "1.1",
-        "name": "FT-17",
+        "name": "Type 89 Otsu-Gata Sensha",
         "description": "",
         "separation": 851,
         "length": 5000,
-        "brake": 61617,
+        "brake": 61930,
         "autoBrake": true,
         "rollersEnabled": true,
         "matchChassis": false,
         "frontalTransmission": false,
-        "finalDriveRatio": 6.15
+        "finalDriveRatio": 9.79
       }
     },
     {
@@ -980,7 +962,7 @@
       }
     },
     {
-      "id": 0,
+      "id": 5,
       "type": "paintJobRegister",
       "blueprint": {
         "v": "0.0",
@@ -988,8 +970,47 @@
         "description": null,
         "paintJobIDs": [
           1,
-          2
+          21,
+          22
         ]
+      }
+    },
+    {
+      "id": 21,
+      "type": "paintJob",
+      "blueprint": {
+        "v": "2.2",
+        "name": "Powertrain",
+        "description": "",
+        "colourMapUrl": "821c5c82-a326-46ca-bfd0-bd2a75830ed7",
+        "scale": 0.5,
+        "roughness": 0.5,
+        "metallic": 0.0,
+        "r": 0.25,
+        "g": 0.4,
+        "b": 0.5,
+        "saturation": 0.75,
+        "condition": 0.75,
+        "grime": 0.0
+      }
+    },
+    {
+      "id": 22,
+      "type": "paintJob",
+      "blueprint": {
+        "v": "2.2",
+        "name": "Interior",
+        "description": "",
+        "colourMapUrl": "",
+        "scale": 0.5,
+        "roughness": 0.6,
+        "metallic": 0.0,
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5,
+        "saturation": 0.5,
+        "condition": -1.0,
+        "grime": 0.0
       }
     }
   ],
@@ -1183,18 +1204,18 @@
             }
           ],
           "modulePositions": [
-            2.58011887E-08,
+            3.41365052E-08,
             0.569431,
-            -1.10486877,
+            -1.00952387,
             4.21186463E-08,
             0.507928,
             -2.01821876,
             -0.4255,
-            0.670723855,
-            -2.09473276,
+            0.6733858,
+            -2.095984,
             0.4255,
-            0.670723855,
-            -2.09473276,
+            0.6733858,
+            -2.095984,
             -0.4255,
             0.0,
             0.0,
@@ -1224,35 +1245,35 @@
           ],
           "portOffsets": [
             0.0,
-            0.179068044,
-            0.241585463,
+            0.150634557,
+            0.489562333,
             0.0,
-            0.162795827,
-            -0.4525724,
-            0.260097027,
-            0.162795827,
-            0.0765140355,
-            0.0405782461,
+            0.16545777,
+            -0.45997256,
+            0.269845337,
+            0.16545777,
+            0.0777651444,
+            0.0415859222,
             0.0,
             0.0,
             0.0,
             0.0,
             0.0,
             7.450581E-09,
-            0.7449951,
-            -2.132,
-            -0.260097027,
-            0.162795827,
-            0.0765140355,
-            -0.0405782461,
+            0.745000064,
+            -2.13198853,
+            -0.269845337,
+            0.16545777,
+            0.0777651444,
+            -0.0415859222,
             0.0,
             0.0,
             0.0,
             0.0,
             0.0,
             -7.450581E-09,
-            0.7449951,
-            -2.132
+            0.745000064,
+            -2.13198853
           ],
           "portDirections": [
             0.0,
@@ -1335,9 +1356,9 @@
       "transform": {
         "mirrorVuid": -1,
         "pos": [
-          2.58011887E-08,
+          3.41365052E-08,
           0.569431,
-          -1.10486877
+          -1.00952387
         ],
         "rot": [
           0.0,
@@ -1716,7 +1737,7 @@
         "mirrorVuid": -1,
         "pos": [
           0.0,
-          0.445007384,
+          0.445007265,
           0.8601074
         ],
         "rot": [
@@ -2288,7 +2309,7 @@
         "rot": [
           11.6928539,
           81.0274,
-          2.17966613E-06,
+          3.05153276E-06,
           0.0
         ],
         "scale": [
@@ -2317,7 +2338,7 @@
         "rot": [
           11.6928539,
           278.9726,
-          -2.17966613E-06,
+          -3.05153276E-06,
           0.0
         ],
         "scale": [
@@ -2679,7 +2700,7 @@
         "rot": [
           15.040678,
           228.598022,
-          -2.21014966E-06,
+          -2.65217955E-06,
           0.0
         ],
         "scale": [
@@ -2708,7 +2729,7 @@
         "rot": [
           15.040678,
           131.401978,
-          2.21014966E-06,
+          2.65217955E-06,
           0.0
         ],
         "scale": [

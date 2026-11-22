@@ -3,12 +3,12 @@
   "header": {
     "v": "0.2",
     "name": "FT-17",
-    "gameVersion": "0.2.54.4",
-    "mass": 7125,
+    "gameVersion": "0.2.56.3",
+    "mass": 7128,
     "creationDate": "1918.11.11",
     "class": "",
     "desc": "",
-    "cost": 20347
+    "cost": 20348
   },
   "blueprints": [
     {
@@ -28,25 +28,6 @@
         "saturation": 1.0,
         "condition": 0.5,
         "grime": 0.5
-      }
-    },
-    {
-      "id": 2,
-      "type": "paintJob",
-      "blueprint": {
-        "v": "2.2",
-        "name": "Powertrain",
-        "description": "",
-        "colourMapUrl": "821c5c82-a326-46ca-bfd0-bd2a75830ed7",
-        "scale": 0.5,
-        "roughness": 0.5,
-        "metallic": 0.0,
-        "r": 0.25,
-        "g": 0.4,
-        "b": 0.5,
-        "saturation": 0.75,
-        "condition": 0.75,
-        "grime": 0.0
       }
     },
     {
@@ -91,8 +72,8 @@
       "id": 7,
       "type": "engine",
       "blueprint": {
-        "v": "0.4",
-        "name": null,
+        "v": "0.5",
+        "name": "FT-17",
         "description": null,
         "cylinders": 4,
         "idleRPM": 800,
@@ -101,7 +82,8 @@
         "targetMinRPM": 1000,
         "targetMaxRPM": 1500,
         "torqueCoeff": 0.5,
-        "revLimit": -1
+        "revLimit": -1,
+        "engineLayout": "Inline"
       }
     },
     {
@@ -954,7 +936,7 @@
       }
     },
     {
-      "id": 0,
+      "id": 5,
       "type": "paintJobRegister",
       "blueprint": {
         "v": "0.0",
@@ -962,8 +944,47 @@
         "description": null,
         "paintJobIDs": [
           1,
-          2
+          21,
+          22
         ]
+      }
+    },
+    {
+      "id": 21,
+      "type": "paintJob",
+      "blueprint": {
+        "v": "2.2",
+        "name": "Powertrain",
+        "description": "",
+        "colourMapUrl": "821c5c82-a326-46ca-bfd0-bd2a75830ed7",
+        "scale": 0.5,
+        "roughness": 0.5,
+        "metallic": 0.0,
+        "r": 0.25,
+        "g": 0.4,
+        "b": 0.5,
+        "saturation": 0.75,
+        "condition": 0.75,
+        "grime": 0.0
+      }
+    },
+    {
+      "id": 22,
+      "type": "paintJob",
+      "blueprint": {
+        "v": "2.2",
+        "name": "Interior",
+        "description": "",
+        "colourMapUrl": "",
+        "scale": 0.5,
+        "roughness": 0.6,
+        "metallic": 0.0,
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5,
+        "saturation": 0.5,
+        "condition": -1.0,
+        "grime": 0.0
       }
     }
   ],
@@ -1157,9 +1178,9 @@
             }
           ],
           "modulePositions": [
-            6.093283E-08,
+            6.32143156E-08,
             0.5268432,
-            -0.703009665,
+            -0.6769125,
             1.04894013E-07,
             0.452271551,
             -1.3001523,
@@ -1198,8 +1219,8 @@
           ],
           "portOffsets": [
             0.0,
-            0.161973119,
-            0.218522266,
+            0.137474313,
+            0.4467915,
             0.0,
             0.112928286,
             -0.3139406,
@@ -1309,9 +1330,9 @@
       "transform": {
         "mirrorVuid": -1,
         "pos": [
-          6.093283E-08,
+          6.32143156E-08,
           0.5268432,
-          -0.703009665
+          -0.6769125
         ],
         "rot": [
           0.0,
@@ -2035,7 +2056,7 @@
         "rot": [
           -1.66465508E-09,
           29.99998,
-          -2.302488E-10,
+          -2.30248751E-10,
           0.0
         ],
         "scale": [
@@ -2090,7 +2111,7 @@
         ],
         "rot": [
           75.0002747,
-          89.9999161,
+          89.99992,
           179.999939,
           0.0
         ],
@@ -2235,7 +2256,7 @@
         "rot": [
           11.6928473,
           81.0273743,
-          0.0,
+          4.359333E-07,
           0.0
         ],
         "scale": [
@@ -2264,7 +2285,7 @@
         "rot": [
           11.6928473,
           278.972626,
-          0.0,
+          -4.359333E-07,
           0.0
         ],
         "scale": [
@@ -2314,11 +2335,11 @@
         "mirrorVuid": -1,
         "pos": [
           0.0,
-          0.8489181,
-          -1.06015015
+          0.8554629,
+          -1.18652344
         ],
         "rot": [
-          2.96500468,
+          2.965005,
           0.0,
           0.0,
           0.0

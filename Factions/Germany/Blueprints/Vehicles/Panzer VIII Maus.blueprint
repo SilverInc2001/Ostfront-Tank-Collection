@@ -3,12 +3,12 @@
   "header": {
     "v": "0.2",
     "name": "Panzer VIII Maus",
-    "gameVersion": "0.2.55.5",
-    "mass": 159259,
+    "gameVersion": "0.2.56.3",
+    "mass": 159582,
     "creationDate": "1945.09.02",
     "class": "",
     "desc": "",
-    "cost": 118875
+    "cost": 119061
   },
   "blueprints": [
     {
@@ -110,17 +110,18 @@
       "id": 8,
       "type": "engine",
       "blueprint": {
-        "v": "0.4",
+        "v": "0.5",
         "name": null,
         "description": null,
         "cylinders": 12,
         "idleRPM": 800,
-        "cylinderDisplacement": 3.38,
+        "cylinderDisplacement": 3.71,
         "tech": 1.0,
-        "targetMinRPM": 1400,
-        "targetMaxRPM": 3000,
+        "targetMinRPM": 1200,
+        "targetMaxRPM": 2400,
         "torqueCoeff": 1.0,
-        "revLimit": -1
+        "revLimit": -1,
+        "engineLayout": "V"
       }
     },
     {
@@ -132,9 +133,9 @@
         "description": null,
         "meshType": "constantMesh",
         "autoInputTorque": true,
-        "maxInputTorque": 3007.56274,
+        "maxInputTorque": 3301.20044,
         "autoResistanceTorque": true,
-        "maxResistanceTorque": 3007.56274,
+        "maxResistanceTorque": 3301.20044,
         "finalDriveRatio": 10.0,
         "msrRatioThreshold": 7.70000029,
         "auxillaryGearRatio": 1.0,
@@ -333,12 +334,12 @@
         "description": null,
         "separation": 1046,
         "length": 6000,
-        "brake": 1273895,
+        "brake": 1276661,
         "autoBrake": true,
         "rollersEnabled": true,
         "matchChassis": false,
         "frontalTransmission": false,
-        "finalDriveRatio": 24.0
+        "finalDriveRatio": 21.0
       }
     },
     {
@@ -1505,7 +1506,7 @@
       }
     },
     {
-      "id": 6,
+      "id": 0,
       "type": "paintJobRegister",
       "blueprint": {
         "v": "0.0",
@@ -1715,16 +1716,16 @@
             -8.642893E-08,
             0.15,
             -3.488632,
-            -0.5229999,
-            0.420762628,
-            -3.61589026,
-            0.5229999,
-            0.420762628,
-            -3.6158905,
-            -0.522999763,
+            -0.523,
+            0.427456528,
+            -3.61903644,
+            0.523,
+            0.427456528,
+            -3.61903667,
+            -0.523,
             0.0,
             0.0,
-            0.522999763,
+            0.523,
             0.0,
             0.0
           ],
@@ -1750,33 +1751,33 @@
           ],
           "portOffsets": [
             0.0,
-            0.2807534,
-            0.7572411,
+            0.264013231,
+            0.6842787,
             0.0,
-            0.270762622,
-            -0.752720058,
-            0.5308354,
-            0.270762622,
-            0.12725842,
-            -0.06224394,
-            0.0,
-            0.0,
+            0.277456522,
+            -0.7713291,
+            0.556145549,
+            0.277456522,
+            0.130404562,
+            -0.06420708,
             0.0,
             0.0,
             0.0,
-            -1.41561031E-07,
+            0.0,
+            0.0,
+            -2.23517418E-08,
             0.238000035,
             -3.69400024,
-            -0.5308354,
-            0.270762622,
-            0.12725842,
-            0.06224394,
+            -0.556145549,
+            0.277456522,
+            0.130404562,
+            0.06420708,
             0.0,
             0.0,
             0.0,
             0.0,
             0.0,
-            1.41561031E-07,
+            2.23517418E-08,
             0.238000035,
             -3.69400024
           ],
@@ -2305,7 +2306,7 @@
           0.6456271
         ],
         "rot": [
-          -8.838792E-08,
+          -8.83879352E-08,
           314.999969,
           6.549016E-08,
           0.0
@@ -2613,7 +2614,7 @@
         "rot": [
           -0.0003425225,
           326.443481,
-          -5.59586842E-05,
+          -5.59587243E-05,
           0.0
         ],
         "scale": [
@@ -3062,9 +3063,9 @@
           0.9019276
         ],
         "rot": [
-          29.7014465,
+          29.70145,
           270.001526,
-          1.96581823E-06,
+          2.9487278E-06,
           0.0
         ],
         "scale": [

@@ -3,12 +3,12 @@
   "header": {
     "v": "0.2",
     "name": "TOG 2",
-    "gameVersion": "0.2.54.4",
-    "mass": 59904,
+    "gameVersion": "0.2.56.3",
+    "mass": 59930,
     "creationDate": "1941.12.31",
     "class": "",
     "desc": "",
-    "cost": 61762
+    "cost": 61767
   },
   "blueprints": [
     {
@@ -27,25 +27,6 @@
         "b": 0.75,
         "saturation": 1.0,
         "condition": 0.4,
-        "grime": 0.0
-      }
-    },
-    {
-      "id": 2,
-      "type": "paintJob",
-      "blueprint": {
-        "v": "2.2",
-        "name": "Powertrain",
-        "description": "",
-        "colourMapUrl": "821c5c82-a326-46ca-bfd0-bd2a75830ed7",
-        "scale": 0.5,
-        "roughness": 0.5,
-        "metallic": 0.0,
-        "r": 0.25,
-        "g": 0.4,
-        "b": 0.5,
-        "saturation": 0.75,
-        "condition": 0.75,
         "grime": 0.0
       }
     },
@@ -91,17 +72,18 @@
       "id": 7,
       "type": "engine",
       "blueprint": {
-        "v": "0.4",
-        "name": null,
+        "v": "0.5",
+        "name": "TOG 2",
         "description": null,
         "cylinders": 12,
-        "idleRPM": 800,
+        "idleRPM": 700,
         "cylinderDisplacement": 4.89,
         "tech": 0.4,
-        "targetMinRPM": 950,
+        "targetMinRPM": 800,
         "targetMaxRPM": 1500,
         "torqueCoeff": 0.75,
-        "revLimit": -1
+        "revLimit": -1,
+        "engineLayout": "V"
       }
     },
     {
@@ -307,11 +289,11 @@
       "type": "track",
       "blueprint": {
         "v": "1.1",
-        "name": null,
+        "name": "TOG 2",
         "description": null,
         "separation": 1147,
         "length": 6000,
-        "brake": 479239,
+        "brake": 479444,
         "autoBrake": true,
         "rollersEnabled": true,
         "matchChassis": false,
@@ -1915,7 +1897,7 @@
       }
     },
     {
-      "id": 5,
+      "id": 0,
       "type": "paintJobRegister",
       "blueprint": {
         "v": "0.0",
@@ -1923,8 +1905,47 @@
         "description": null,
         "paintJobIDs": [
           1,
-          2
+          21,
+          22
         ]
+      }
+    },
+    {
+      "id": 21,
+      "type": "paintJob",
+      "blueprint": {
+        "v": "2.2",
+        "name": "Powertrain",
+        "description": "",
+        "colourMapUrl": "821c5c82-a326-46ca-bfd0-bd2a75830ed7",
+        "scale": 0.5,
+        "roughness": 0.5,
+        "metallic": 0.0,
+        "r": 0.25,
+        "g": 0.4,
+        "b": 0.5,
+        "saturation": 0.75,
+        "condition": 0.75,
+        "grime": 0.0
+      }
+    },
+    {
+      "id": 22,
+      "type": "paintJob",
+      "blueprint": {
+        "v": "2.2",
+        "name": "Interior",
+        "description": "",
+        "colourMapUrl": "",
+        "scale": 0.5,
+        "roughness": 0.6,
+        "metallic": 0.0,
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5,
+        "saturation": 0.5,
+        "condition": -1.0,
+        "grime": 0.0
       }
     }
   ],
@@ -2119,7 +2140,7 @@
           ],
           "modulePositions": [
             0.7149994,
-            0.7700982,
+            0.6994697,
             -0.834484339,
             -1.78877627E-07,
             0.324060678,
@@ -2159,8 +2180,8 @@
           ],
           "portOffsets": [
             0.0,
-            0.33769232,
-            0.9108152,
+            0.289470315,
+            0.7502593,
             0.0,
             0.2060416,
             -0.5727956,
@@ -2271,7 +2292,7 @@
         "mirrorVuid": -1,
         "pos": [
           0.7149994,
-          0.7700982,
+          0.699469,
           -0.834484339
         ],
         "rot": [
@@ -3050,7 +3071,7 @@
         "rot": [
           -5.20337373E-08,
           344.999969,
-          1.35780285E-08,
+          1.357803E-08,
           0.0
         ],
         "scale": [
@@ -3333,7 +3354,7 @@
         "rot": [
           -5.20337373E-08,
           344.999969,
-          1.35780285E-08,
+          1.357803E-08,
           0.0
         ],
         "scale": [

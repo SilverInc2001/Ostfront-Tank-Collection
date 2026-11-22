@@ -3,12 +3,12 @@
   "header": {
     "v": "0.2",
     "name": "M24 Chaffee",
-    "gameVersion": "0.2.55.5",
-    "mass": 16006,
+    "gameVersion": "0.2.56.3",
+    "mass": 15897,
     "creationDate": "1945.09.02",
     "class": "",
     "desc": "",
-    "cost": 42070
+    "cost": 42017
   },
   "blueprints": [
     {
@@ -110,17 +110,18 @@
       "id": 8,
       "type": "engine",
       "blueprint": {
-        "v": "0.4",
-        "name": null,
-        "description": null,
+        "v": "0.5",
+        "name": "M24 Chaffee",
+        "description": "",
         "cylinders": 16,
         "idleRPM": 800,
         "cylinderDisplacement": 0.71,
         "tech": 1.0,
-        "targetMinRPM": 1200,
+        "targetMinRPM": 1400,
         "targetMaxRPM": 3400,
         "torqueCoeff": 1.0,
-        "revLimit": -1
+        "revLimit": -1,
+        "engineLayout": "V"
       }
     },
     {
@@ -155,8 +156,8 @@
       "type": "trackWheelMount",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "mountID": "97844d15-24a8-4feb-9548-668e2bb81ce6",
         "scale": 0.5,
         "x": 0,
@@ -170,8 +171,8 @@
       "type": "trackWheel",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "wheelID": "8b31d0e4-3946-4a3a-81ef-b2bbf3a84989",
         "perAxle": 1,
         "spacingOnAxle": 0.01,
@@ -185,8 +186,8 @@
       "type": "trackWheelMount",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "mountID": "25261a10-1c39-4191-9378-b6108d71cbf1",
         "scale": 1.0,
         "x": 0,
@@ -200,8 +201,8 @@
       "type": "trackWheel",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "wheelID": "ed05e419-9705-41ac-801c-11a0a0dd0700",
         "perAxle": 2,
         "spacingOnAxle": 0.08,
@@ -215,8 +216,8 @@
       "type": "trackWheelArray",
       "blueprint": {
         "v": "0.2",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "spacingMode": 2,
         "spacing": 545,
         "length": 6000,
@@ -240,8 +241,8 @@
       "type": "trackWheelMount",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "mountID": "062b2d20-13d5-4dec-9d1c-b2855fdccfac",
         "scale": 0.5,
         "x": 0,
@@ -255,8 +256,8 @@
       "type": "trackWheel",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "wheelID": "50907d5b-dde1-451c-a0be-07c69d2fc886",
         "perAxle": 2,
         "spacingOnAxle": 0.08,
@@ -270,8 +271,8 @@
       "type": "trackWheelArray",
       "blueprint": {
         "v": "0.2",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "spacingMode": 0,
         "spacing": 40,
         "length": 6000,
@@ -295,8 +296,8 @@
       "type": "trackWheelMount",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "mountID": "6b0a1425-3943-491b-ad87-f56d8b811e19",
         "scale": 0.5,
         "x": 0,
@@ -310,8 +311,8 @@
       "type": "trackWheel",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "wheelID": "aac797c7-1b6a-4b86-ba4b-62cc683174be",
         "perAxle": 2,
         "spacingOnAxle": 0.08,
@@ -325,11 +326,11 @@
       "type": "track",
       "blueprint": {
         "v": "1.1",
-        "name": null,
-        "description": null,
+        "name": "M24 Chaffee",
+        "description": "",
         "separation": 1821,
         "length": 6000,
-        "brake": 126678,
+        "brake": 127733,
         "autoBrake": true,
         "rollersEnabled": true,
         "matchChassis": false,
@@ -342,8 +343,8 @@
       "type": "trackBelt",
       "blueprint": {
         "v": "1.1",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "segmentID": "222d83dc-ff5f-49ec-8b97-ce7ad0b05826",
         "x": 410,
         "y": 75,
@@ -357,8 +358,8 @@
       "type": "suspension",
       "blueprint": {
         "v": "0.6",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "targetAngle": 0.0,
         "upTravelLimit": 1000.0,
         "damper": 10000.0,
@@ -1128,8 +1129,8 @@
       "type": "torsionBar",
       "blueprint": {
         "v": "0.0",
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "torsionBarLength": 1055,
         "torsionBarDiameter": 60
       }
@@ -1333,7 +1334,7 @@
       }
     },
     {
-      "id": 6,
+      "id": 0,
       "type": "paintJobRegister",
       "blueprint": {
         "v": "0.0",
@@ -2127,9 +2128,9 @@
           -0.0203857422
         ],
         "rot": [
-          12.2246895,
+          12.22469,
           266.2218,
-          1.00461957E-05,
+          1.04829869E-05,
           0.0
         ],
         "scale": [
@@ -2158,7 +2159,7 @@
         "rot": [
           353.07135,
           34.1495171,
-          16.3810539,
+          16.3810558,
           0.0
         ],
         "scale": [
@@ -2431,8 +2432,8 @@
           ],
           "modulePositions": [
             -0.012226129,
-            -0.138623,
-            -1.51321411,
+            -0.08496639,
+            -1.39310288,
             0.0,
             0.09216242,
             1.88537145,
@@ -2483,11 +2484,11 @@
           ],
           "portOffsets": [
             0.0,
-            0.1286755,
-            0.4337907,
-            -0.0002732211,
-            -0.00228188187,
-            -0.06625521,
+            0.152143642,
+            0.496070921,
+            -0.00025232372,
+            -0.000515647233,
+            -0.0574234724,
             -0.0199549682,
             0.0,
             0.0,
@@ -2504,8 +2505,8 @@
             0.0,
             0.0,
             -2.23517418E-08,
-            0.07598877,
-            2.00300026,
+            0.0759999752,
+            2.00299072,
             0.0199549682,
             0.0,
             0.0,
@@ -2522,16 +2523,16 @@
             0.0,
             0.0,
             2.23517418E-08,
-            0.07598877,
-            2.00300026
+            0.0759999752,
+            2.00299072
           ],
           "portDirections": [
             0.0,
             0.0,
             1.0,
-            -0.00412129,
-            -0.0344201028,
-            -0.999398947,
+            -0.00439386955,
+            -0.00897926,
+            -0.999950051,
             -1.0,
             0.0,
             0.0,
@@ -2620,8 +2621,8 @@
         "mirrorVuid": -1,
         "pos": [
           -0.012226129,
-          -0.138623,
-          -1.51321411
+          -0.08496639,
+          -1.39310288
         ],
         "rot": [
           0.0,
